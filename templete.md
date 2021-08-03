@@ -1,6 +1,6 @@
-# Títilo do documento
+# Título do documento
 
-Todo documento deve ter abaixo do título um texto explicando o que é e porque o fizemos.
+Texto explicando o que é e porque o fizemos tal documentação.
 
 ## Histórico de versões
 
@@ -9,7 +9,7 @@ Todo documento deve ter abaixo do título um texto explicando o que é e porque 
 |      |        |           |           |
 |      |        |           |           |
 
-Todos documentos devem ter os autores registrados.
+Todos documentos devem ter seus autores registrados.
 **Autor:** [Lameque Fernandes](https://github.com/LamequeFernandes).
 
 ## Referências

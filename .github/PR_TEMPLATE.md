@@ -9,8 +9,10 @@
 ### Descrição
 Por favor, faça um resumo do que mudou e qual(is) issue(s) foi(ram) resolvida(s). Liste também todas as depedências necessárias para essa mudança.
 
-Issues #1
-       #2
+| Issue |            Título            |
+|-------|:----------------------------:|
+| [#numero1](link) | título 1 |
+| [#numero2](link) | título 2 |
        
 <!-- 
 ## Testes
@@ -32,6 +34,6 @@ SDK:
 - [ ] As mudanças seguem as políticas de commit e branch <!-- adicionar depois os links das políticas -->
 - [ ] Todos os membros estão de acordo com a atualização
 
-## Autores
+## Quem contribuiu?
 @fulano
 @ciclano

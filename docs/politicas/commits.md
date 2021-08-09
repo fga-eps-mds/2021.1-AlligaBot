@@ -7,7 +7,7 @@ Padronização dos commits no projeto.
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 09/08/2021 |    1   | Criação da política de commits | Lameque Fernandes |
+| 09/08/2021 |    1   | Criação da política de commits | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Semântica do Commit
 

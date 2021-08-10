@@ -7,11 +7,9 @@ Padronização das branches no projeto.
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 10/08/2021 |    1   | Criação da política de branche | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 10/08/2021 |    1   | Criação da política de branch | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
-## Semântica do Commit
-
-As branches devem seguir o seguinte padrão:
+## Padronização das Branches
 
 ### Prefixos:
 - ```feature/```
@@ -34,8 +32,8 @@ Exemplo: ```documentation/template-document```
 
 - **Branches improvement:** Branche para melhoria de algum componente e afins, seja de performance, de escrita de layout, etc. Exemplo: ```improvement/layout-optimization```
 
-### Branches em Inglês:
-Para que o projeto seja mais acessível ao público global, o idioma padrão adotado tanto no código quanto para tudo o que se relaciona diretamente ao mesmo é o inglês.
+### Princípios:
+- Branches em Inglês: Para que o projeto seja mais acessível ao público global, o idioma padrão adotado tanto no código quanto para tudo o que se relaciona diretamente ao mesmo é o inglês.
 
 ## Referências
 

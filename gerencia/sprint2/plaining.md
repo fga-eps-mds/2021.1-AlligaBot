@@ -1,6 +1,6 @@
 # Planejamento Sprint 01 (Design Sprint)
 
-Nessa sprint, além das tarefas habituais de documentação, faremos um brainstorm para definir possíveis escopos para o projeto
+Nessa sprint, além das tarefas habituais de documentação, vamos resolver também diversas questões relativas aos problemas identificados na sprint 1, como a necessidade de ter um escopo bem definido para a elaboração do projeto. Com essas informações do escopo, iremos criar um protótipo de baixa fidelidade e trabalhar em cima dos resultados desse protótipo.
 
 ## Histórico de Versões
 
@@ -8,6 +8,7 @@ Nessa sprint, além das tarefas habituais de documentação, faremos um brainsto
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 11/08/2021 |    1   | Planejamento  da sprint 2 | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
+| 11/08/2021 |    1.1   | Correção do primeiro envio, que foi incompleto | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
 
 ## Tamanho da Sprint
 

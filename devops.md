@@ -1,7 +1,7 @@
 # DevOps
 Esse arquivo é temporário e serve como um mini diário
 e manual de instruções do pessoal de DevOps. Futuramente
-deve ser movido para o README.md principal. **Nada do que
+pode ser movido para o README.md principal. **Nada do que
 está comitado nessa branch é permanente**.
 
 
@@ -66,13 +66,17 @@ Tentei o seguinte comando:
     
     docker run --user 1000 -v $(pwd)/bot:/app rasa/rasa:2.8.2-full init --no-prompt
 
+Note o conteúdo que vem depois da flag `-v`: `$(pwd)/bot:/app`.
+
 Mas não funciona. Dá problemas de permissão. 
 
 
 ### 2 - Por que essa parte da documentação usa `docker run` várias vezes?
 `docker run` cria um container a cada execução. Por que não usar 
 simplesmente `docker start` para o iniciar o container já criado 
-lá no começo do tutorial?
+lá no começo do tutorial?  Se rodar `docker start -i` ele usa o comando 
+`shell` automaticamente. Como usar os comandos `init`, `shell` ou `train`
+do Rasa?
 
 
 ## Referências

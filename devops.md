@@ -1,8 +1,8 @@
 # DevOps
 Esse arquivo é temporário e serve como um mini diário
 e manual de instruções do pessoal de DevOps. Futuramente
-deve ser movido para o README.md principal. Nada do que
-está comitado nessa branch é permanente.
+deve ser movido para o README.md principal. **Nada do que
+está comitado nessa branch é permanente**.
 
 
 ## Começando
@@ -18,6 +18,16 @@ o temrinal e digitar:
 
     docker -v
 
+Baixe esse repositório em seu computador (de preferência em ambiente Linux ou WSL):
+
+    git clone https://github.com/fga-eps-mds/2021-1-Bot.git
+    git checkout -b init-devops
+    git pull origin init-devops
+
+Ou clone apenas a branch `init-devops`:
+    
+    git clone -b init-devops https://github.com/fga-eps-mds/2021-1-Bot.git
+    
 
 ### Rasa
 Baixe a imagem do rasa executando o seguinte comando no terminal:
@@ -27,11 +37,11 @@ Baixe a imagem do rasa executando o seguinte comando no terminal:
 Algumas explicações sobre o comando anterior:
 
 - `--user 1000` dá permissões de root para o container.
-- ``-v $(pwd):/app`` especifica que os conteúdos do diretório atual
-vão estar visíveis para o container no diretório ``app``. As mudanças 
+- `-v $(pwd):/app` especifica que os conteúdos do diretório atual
+vão estar visíveis para o container no diretório `app`. As mudanças 
 que ocorrem no container vão ser sincronizadas com o seu computador.
-- ``rasa/rasa:2.8.2-full`` é o nome da imagem que docker vai baixar e executar.
-- ``init --no-prompt`` é o comando do próprio rasa. 
+- `rasa/rasa:2.8.2-full` é o nome da imagem que docker vai baixar e executar.
+- `init --no-prompt` é o comando do próprio rasa. 
 
 Se essa é a sua primeira vez rodando esse comando, o Docker vai baixar a imagem 
 do Rasa, o que pode levar alguns minutos. Logo em seguida ele vai executar 
@@ -43,7 +53,7 @@ Para interagir com o bot, execute:
 
     docker run -it -v $(pwd):/app rasa/rasa:2.8.2-full shell
 
-Note a flag ``it``. Ela indica que o container vai ser executado no modo
+Note a flag `it`. Ela indica que o container vai ser executado no modo
 **iterativo** e com uma sessão de terminal ligada a ele. 
 
 Depois que o prompt aparecer, experimente dizer "hi" e dizer que está triste.
@@ -59,9 +69,9 @@ Tentei o seguinte comando:
 Mas não funciona. Dá problemas de permissão. 
 
 
-### 2 - Por que essa parte da documentação usa ``docker run`` várias vezes?
-``docker run`` cria um container a cada execução. Por que não usar 
-simplesmente ``docker start`` para o iniciar o container já criado 
+### 2 - Por que essa parte da documentação usa `docker run` várias vezes?
+`docker run` cria um container a cada execução. Por que não usar 
+simplesmente `docker start` para o iniciar o container já criado 
 lá no começo do tutorial?
 
 

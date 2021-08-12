@@ -7,7 +7,8 @@ Padronização dos commits no projeto.
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 09/08/2021 |    1   | Criação da política de commits | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 09/08/2021 |  0.1   | Criação da política de commits | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 11/08/2021 |  0.2   |            Alterações          | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Semântica do Commit
 
@@ -18,8 +19,8 @@ Os commits devem seguir o seguinte padrão:
 #### Commits atômicos
 Sempre dividir em pequenos e significativos commits, fazendo com que cada commit tenha apenas uma funcionalidade.
 
-#### Commits em Inglês
-Para que o projeto seja mais acessível ao público global, o idioma padrão adotado tanto no código quanto para tudo o que se relaciona diretamente ao mesmo é o inglês.
+#### Commits em português
+Por ser um projeto voltado totalmente para um público brasileiro e por toda equipe ter mais afinidade com o português, foi decidido que todos os commits serão em pt-BR.
 
 ### Formato:
 ```
@@ -27,12 +28,19 @@ Para que o projeto seja mais acessível ao público global, o idioma padrão ado
 ```
 
 #### Tipos:
-- ```feat```: nova funcionalidade
-- ```style```: formatação geral no código
-- ```refact```: refatoração de código
-- ```test```: adicionar/refatorar testes
-- ```fix```: correções
-- ```docs```: relacionado a documentação
+- :bulb: quando adicionar nova funcionalidade
+- :repeat: quando alguma alteração for feita
+- :cool: quando melhorias de formato/estrutura do código
+- :racehorse: quando melhorar o desempenho
+- 🚱  quando resolver memory leaks
+- :pencil: quando escrever documentação
+- :bug: quando consertar um problema
+- :fire: quando remover código ou arquivos
+- :green_heart: quando consertar problemas de Integração Contínua
+- :white_check_mark: quando adicionar testes
+- :lock: quando lidar com segurança
+- :arrow_up: quando realizar o upgrade de dependências
+- :arrow_down: quando realizar downgrade de dependências
 
 #### Assunto:
 - Deve possuir no máximo 50 caracteres
@@ -40,7 +48,7 @@ Para que o projeto seja mais acessível ao público global, o idioma padrão ado
 
 *Exemplo de commit:*
 ```
-git commit -m "refactor(#02): change login method to oauth"
+git commit -m ":bulb:(#02): botão na página inicial"
 ```
 
 ## Referências

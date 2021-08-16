@@ -5,9 +5,12 @@ Padronização das branches no projeto.
 ## Histórico de Versões
 
 
-| Data       | Versão | Descrição                      | Autor             |
-| :--------: | :----: | :----------:                   | :---------------: |
-| 10/08/2021 |    1   | Criação da política de branch | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| Data       | Versão | Descrição                                 | Autor             |
+| :--------: | :----: | :----------:                              | :---------------: |
+| 10/08/2021 |  0.1   | Criação da política de branch             | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 11/08/2021 |  0.2   |            Alterações                     | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 16/08/2021 |  0.3   |Adição da explicação sobre a branch develop| [Lameque Fernandes](https://github.com/LamequeFernandes)|
+
 
 ## Padronização das Branches
 
@@ -31,6 +34,12 @@ feature(#87)/novo-menu
 
 - **Branch main:** Branch que contém o código em nível de produção, será o código mais consolidado existente na aplicação. Nenhum integrante dos times é autorizado a fazer commits diretamente na *main.*
 
+- **Branch develop:** 
+A main irá contér todo código já testado, versionado que será entregue ao cliente e a **develop** é onde todo fluxo de trabalho irá ocorrer antes de fazer o release versionado que será feito merge na main.
+Quando as features são terminadas, elas são juntadas nesta branch, testadas e somente depois as atualizações da develop passam pelo processo de juntar as novas atualizações com a branch main;
+A **develop** deve sempre conter o código mais atual, onde as branchs de features serão ramificadas tendo ela como base.
+
+
 - **Branches feature:** Como o nome já diz, são branches na qual são desenvolvidos novos recursos ao projeto. São criadas começando com o prefixo **feature/**.
 Exemplo: ```feature(#22)/novo-layout```
 
@@ -50,3 +59,5 @@ Exemplo: ```documentation(#49)/template-documento```
 DULCETTI, Bruno. Padrões e nomenclaturas no Git. *BrunoDulcetti*. Disponível em: <https://www.brunodulcetti.com/padroes-e-nomenclaturas-no-git/>. Acesso em: 10 de ago. de 2021.
 
 Políticas de Branches. Disponível em: <https://fga-eps-mds.github.io/2018.2-ComexStat/docs/politicaBranches>. Acesso em: 10 de ago. de 2021
+
+HADLER, Mikael. Utilizando o fluxo Git Flow. *Medium*. Disponível em: <https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04>. Acesso em: 16 de ago. de 2021

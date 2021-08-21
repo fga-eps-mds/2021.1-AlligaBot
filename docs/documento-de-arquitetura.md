@@ -73,6 +73,7 @@ O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Teleg
 - O sistema deve ser capaz de receber a localização do usuário, quando necessário
 - O sistema deve ser capaz de interpretar áudios enviados pelo usuário
 - O bot deve ser treinado a fim de conseguir atender ao máximo de usuários possíveis
+- Os dados das conversas serão armazenados na loja padrão do Raza
 
 
 # 4. Visão dos Casos de Uso

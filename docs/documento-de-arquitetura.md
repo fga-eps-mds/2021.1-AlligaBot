@@ -46,12 +46,12 @@ Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, uma
 
 # 3. Metas e restrições de Arquitetura 
 ## 3.1 Metas
-O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma <plataforma> e tem a função de atualizar o usuário acerca de conteúdos sobre o COVID-19 com informações fornecidas pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio em locais específicos e sobre relações públicas, além de informações relacionadas à vacinação na região do usuário.
+O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Telegram, um app de troca de mensagens, e tem a função de informar o usuário acerca de conteúdos sobre o COVID-19 com informações fornecidas pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio, sobre gestão pública, e informações relacionadas à vacinação na região do usuário.
 
 ## 3.2 Restrições
 
 ## 3.3 Requisitos não funcionais
-- O sistema deve possui integração com a plataforma X.
+- O sistema deve possui integração com a plataforma Telegram.
 - O sistema deve conversar com o usuário em linguagem natural.
 - O sistema deve ser capaz de receber a localização do usuário, caso necessário.
 - O sistema deve ser capaz de interpretar áudios enviados pelo usuário.
@@ -63,14 +63,14 @@ O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma <plat
 ## 4.2 Atores de Casos de Uso
 |Ator|Descrição|
 |----|---------|
-|Usuário|O usuário poderá interagir com o bot através do chat da plataforma X, utilizando linguagem natural|
+|Usuário|O usuário poderá interagir com o bot através do chat da plataforma Telegram, utilizando linguagem natural|
 
 ## 4.3 Descrições de Casos de Uso
 |Épico|Caso de uso|Descrição|
 |-----|-----------|---------|
-|E1|Solicitação de informações a respeito Políticas Públicas|Buscar e dar o retorno sobre Policas Públicas|
+|E1|Solicitação de informações a respeito da Gestão Pública|Buscar e dar o retorno sobre Gestão Pública|
 |E2|Solicitação de informações a respeito da vacinação na região|Obter a localização do usuário, buscar e dar o retorno sobre a vacinação em tal região|
-|E3|Solicitação de informações a respeito da prevenção em lugares específicos|Buscar e dar o retorno sobre prevenções no lugar especificado|
+|E3|Solicitação de informações a respeito da prevenção|Buscar e dar o retorno sobre prevenção no(s) lugar(es), solicitado(s) pelo usuário|
 # 5. Visão Lógica
 ## 5.1 Diagrama de Pacotes
 

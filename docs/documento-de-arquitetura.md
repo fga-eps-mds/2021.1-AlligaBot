@@ -51,9 +51,11 @@ Para a construção do sistema usaremos o Rasa, um framework utilizado para cons
 O Rasa aprende de acordo com que for sendo treinado, através de seu machine learning, e através do NLU consegue-se fazer também um bot "mais humano".
 ### 2.1.2 Telegram
 ![telegram](https://user-images.githubusercontent.com/78758172/130331794-8b17a2c5-3cf8-42ba-a22f-9257b47d5bd3.png)
+
 O app no qual o usuário poderá interagir com o botserá o app de troca de mensagens Telegram. A implementação de bot's à plataforma é gratuita e disponibilizada pelo próprio app.
 ### 2.1.3 Python
 ![python](https://user-images.githubusercontent.com/78758172/130331804-81e4fc0b-1138-40c5-8b85-1755a9c3eab3.png)
+
 A linguagem de programação a ser utilizada no bot será o Python, já que o Rasa também a utiliza. 
 
 # 3. Metas e restrições de Arquitetura 

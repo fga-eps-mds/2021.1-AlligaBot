@@ -1,7 +1,8 @@
 # Histórico de revisão
   |Data|Versão|Alteração|Autor|  
   |----|------|---------|-----|  
-  |10/08/2021|0.1|Abertura do documento de Arquitetura|Victor Eduardo|  
+  |10/08/2021|0.1|Abertura do documento de Arquitetura|Victor Eduardo|
+  |21/08/2021|0.2|Definição de tecnologias, e diagrama arquitetural|Victor Eduardo|  
 
 # 1. Introdução
 ## 1.1 Finalidade
@@ -16,6 +17,8 @@ Essa documentação engloba as funções visadas pelo projeto, além das tecnolo
 |FGA|Faculdade do Gama|
 |MDS|Métodos de Desenvolvimento de Software|
 |UNB|Universidade de Brasília|
+|NLU|Natural-language understanding|
+
 
 ## 1.4 Referências
 - Chat Bot. Disponível em https://github.com/fga-eps-mds/2021-1-Bot. Acesso em 10/08/2021.
@@ -39,26 +42,34 @@ Este documento está dividído em 7 grandes tópicos, com subdivisões, com o ob
 # 2. Representação da Arquitetura
 ![Captura de tela de 2021-08-21 13-52-58](https://user-images.githubusercontent.com/78758172/130329524-98ee4023-ffc3-4753-8e57-2e16f721a651.png)
 
-
-A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima. O ciclo começa quando o usuário envia uma mensagem para o bot, após isso a API recebe a mensagem e repassa para o processamento de linguagem natural (PLN), que por usa vez repassa para o bot que processa a informação com a intenção de identificar o que está sendo requerido pelo usuário. Após o processamento, o bot busca no site [Corona cidades](https://coronacidades.org/) a melhor resposta e a repassa para a API, que dá o retorno ao usuário.
-Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, uma vez que a parte Front-end seria exatamente o app Telegram que é responsável por receber a mensagem do usuário e passá-la ao bot através da API, e de dar o devido retorno através da mesma.
-
+A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima. O ciclo começa quando o usuário envia uma mensagem para o bot (@??), após isso a mensagem é repassada ao bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem, após isso, no Rasa Core, é feita a etapa de identificar a intenção do usuário. Por último o Rasa escolherá a resposta mais adequada através do Rasa Actions, e retornará tal resposta ao usuário via Telegram.
+Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, realizada através do Raza, uma vez que o Front-end seria exatamente a interface do app Telegram que é responsável pela interação com o usuário, ou seja receber a mensagem do usuário e passá-la ao bot, e de mostrar ao usuário o retorno dado pelo bot.
 ## 2.1 Tecnologias
+### 2.1.1 Rasa
+Para a construção do sistema usaremos o Rasa, um framework utilizado para construção de bot's de conversação. O framework conta com 3 principais componentes, o Rasa NLU que é responsável por processar a mensagem enviada pelo usuário, o Rasa Core que é responsável por identificar a intenção do usuário e o Rasa Actions, que dada a intenção do usuário, este escolhe a resposta mais adequada a se retornar ao usuário.
+O Rasa aprende de acordo com que for sendo treinado, através de seu machine learning, e através do NLU consegue-se fazer também um bot "mais humano".
+### 2.1.2 Telegram
+O app no qual o usuário irá interagir será o app de troca de mensagens Telegram. A implementação de bot's à plataforma é gratuita e disponibilizada pelo próprio app.
+### 2.1.3 Python
+A linguagem de programação a ser utilizada no bot será o Python, já que o Rasa também a utiliza. 
 
 # 3. Metas e restrições de Arquitetura 
 ## 3.1 Metas
 O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Telegram, um app de troca de mensagens, e tem a função de informar o usuário acerca de conteúdos sobre o COVID-19 com informações fornecidas pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio, sobre gestão pública, e informações relacionadas à vacinação na região do usuário.
 
 ## 3.2 Restrições
-
+- Possuir conexão com a internet
+- Dispositivo com acesso ao Telegram
+- O sistema entenderá apenas mensagens em Português - BR
 ## 3.3 Requisitos não funcionais
-- O sistema deve possui integração com a plataforma Telegram.
-- O sistema deve conversar com o usuário em linguagem natural.
-- O sistema deve ser capaz de receber a localização do usuário, caso necessário.
-- O sistema deve ser capaz de interpretar áudios enviados pelo usuário.
+- O sistema deve possui integração com a plataforma Telegram
+- O sistema deve conversar com o usuário em linguagem natural
+- O sistema deve ser capaz de receber a localização do usuário, quando necessário
+- O sistema deve ser capaz de interpretar áudios enviados pelo usuário
+- O bot deve ser treinado a fim de conseguir atender ao máximo de usuários possíveis
+
 
 # 4. Visão dos Casos de Uso
-  
 ## 4.1 Diagrama de Casos de Uso
 ![](https://user-images.githubusercontent.com/78758172/128819731-a98ac913-94b5-4764-b76e-11a85ae1f8ad.png)
 ## 4.2 Atores de Casos de Uso
@@ -74,8 +85,8 @@ O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Teleg
 |E3|Solicitação de informações a respeito da prevenção|Buscar e dar o retorno sobre prevenção no(s) lugar(es), solicitado(s) pelo usuário|
 # 5. Visão Lógica
 ## 5.1 Diagrama de Pacotes
-
+- O pacote 2021-1-Bot é o pacote principal do do projeto, contém todos os outros sub-pacotes e documentos disponíveis no documento
+- Toda a documentação do projeto pode ser encontrada na pasta docs  
 # 6. Tamanho e desempenho
 
 # 7. Qualidade
-  

@@ -76,14 +76,12 @@ O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Teleg
 
 
 # 4. Visão dos Casos de Uso
-## 4.1 Diagrama de Casos de Uso
-![](https://user-images.githubusercontent.com/78758172/128819731-a98ac913-94b5-4764-b76e-11a85ae1f8ad.png)
-## 4.2 Atores de Casos de Uso
+## 4.1 Atores de Casos de Uso
 |Ator|Descrição|
 |----|---------|
 |Usuário|O usuário poderá interagir com o bot através do chat da plataforma Telegram, utilizando linguagem natural|
 
-## 4.3 Descrições de Casos de Uso
+## 4.2 Descrições de Casos de Uso
 |Épico|Caso de uso|Descrição|
 |-----|-----------|---------|
 |E1|Solicitação de informações a respeito da Gestão Pública|Buscar e dar o retorno sobre Gestão Pública|

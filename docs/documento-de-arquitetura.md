@@ -37,7 +37,8 @@ Este documento está dividído em 7 grandes tópicos, com subdivisões, com o ob
 |7|Qualidade|Descreve como a arquitetura contribui para que o Software final possua um maior nível de qualidade|
 
 # 2. Representação da Arquitetura
-![](https://user-images.githubusercontent.com/78758172/128817158-2ee48ebb-80ea-4d92-96dd-85ff6f600149.png)
+![Captura de tela de 2021-08-21 13-52-58](https://user-images.githubusercontent.com/78758172/130329524-98ee4023-ffc3-4753-8e57-2e16f721a651.png)
+
 
 A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima. O ciclo começa quando o usuário envia uma mensagem para o bot, após isso a API recebe a mensagem e repassa para o processamento de linguagem natural (PLN), que por usa vez repassa para o bot que processa a informação com a intenção de identificar o que está sendo requerido pelo usuário. Após o processamento, o bot busca no site [Corona cidades](https://coronacidades.org/) a melhor resposta e a repassa para a API, que dá o retorno ao usuário.
 Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, uma vez que a parte Front-end seria exatamente o app Telegram que é responsável por receber a mensagem do usuário e passá-la ao bot através da API, e de dar o devido retorno através da mesma.

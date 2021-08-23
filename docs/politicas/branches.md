@@ -9,7 +9,7 @@ Padronização das branches no projeto.
 | :--------: | :----: | :----------:                              | :---------------: |
 | 10/08/2021 |  0.1   | Criação da política de branch             | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 | 11/08/2021 |  0.2   |            Alterações                     | [Lameque Fernandes](https://github.com/LamequeFernandes)|
-| 23/08/2021 |  0.3.1 |    Correção do formato e prefixos        | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 23/08/2021 |  0.2.1 |    Correção do formato e prefixos        | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 
 

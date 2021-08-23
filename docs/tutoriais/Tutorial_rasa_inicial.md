@@ -1,5 +1,5 @@
 # Como instalar e configurar o rasa
-Este e um tutorial de instalação do rasa.
+Este e um tutorial de instalação do rasa para poder utilizado
 
 
 ## Começando
@@ -41,6 +41,6 @@ Voltando para testar novamente:
     rasa shell
 
 
-## Referências
+## Referências Use as para mais explicações
 - [Rasa installation](https://rasa.com/docs/rasa/installation)
 

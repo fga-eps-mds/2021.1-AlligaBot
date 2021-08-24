@@ -25,35 +25,9 @@ O objetivo do [nome do bot] é aumentar a circulação de informações verídic
 | Scrum Master | É o membro que faz todos os outros funcionarem, responsável por retirar possíveis impedimentos, mapear os conhecimentos e ajudar no controle de qualidade e tarefa da equipe. |
 | Product Owner | Responsável por entendere compartilhar a visão do produto, portanto, orgazinar a ordem de desenvolvimento de acordo com as necessidades mapeadas. |
 | Arquiteto de Software | Atua como um analista, sendo assim, devem ter uma analise critica do software, entender  estrutura e otimizar as funcionalidades.|
-| DevOps | Reponsável por configurar e ensinar a equipe a configurar diversos ambientes necessários para o projeto, como de desenvolvimento, automatização de teste, entre outros. |
+| DevOps | Reponsável por configurar e ensinar a equipe a configurar diversos ambientes necessários para o projeto, como de desenvolvimento, automatização de teste, entre outros.|
 | Desenvolvedor | O desenvolvedor deve desenvolver, testar e garantir que o código está sendo feito da melhor forma possível. |
 
-## 5.2 Plus Ultra:
-| Papel  |  Descrição  |
-| ----- | -------------------- |
-| Scrum Master | [Amanda Nobre](https://github.com/AmandaNbr) |
-| Product Owner | [Pedro Lucas](https://github.com/PedroLSF) |
-| Arquiteto de Software | [Victor Eduardo](https://github.com/victorear05)|
-| DevOps | [Yudi Yamane](https://github.com/yudi-azvd) |
-| Desenvolvedor |[Erick Levy](https://github.com/Ericklevy) e [Douglas Monteles](https://github.com/DouglasMonteles) |
-
-## 5.3 Capivara:
-| Papel  |  Descrição  |
-| ----- | -------------------- |
-| Scrum Master | [Matheus Sousa](https://github.com/gatotabaco) |
-| Product Owner | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) |
-| Arquiteto de Software | [Kathlyn Lara](https://github.com/klmurussi)|
-| DevOps | [Thais Rebouças](https://github.com/Thais-ra) |
-| Desenvolvedor |[Eduardo Lavenhagem](https://github.com/MegahNevel) e [Lameque Fernandes](https://github.com/LamequeFernandes) |
-
-## 5.4 Slow Bros:
-| Papel  |  Descrição  |
-| ----- | -------------------- |
-| Scrum Master | [Henrique Hida](https://github.com/HenriqueHida) |
-| Product Owner | [Matheus Akio](https://github.com/matheusakio) |
-| Arquiteto de Software | [Matheus Raphael](https://github.com/matheusrazor)|
-| DevOps | [Luiz Pettengill](https://github.com/LuizPettengill) |
-| Desenvolvedor | [Kayro Cesar](https://github.com/kayrocesar) |
 
 # 6.Requisitos de Alto Nível
 Estão entre os requisitos de alto nível:
@@ -124,8 +98,33 @@ Nesse caso, foram levados em conta o valor médio por hora de um desenvolvedor P
 ## 9.1 Usários
 Não há um público específico visto que a covid afetou o todo o mundo.
 
-## 9.2 Equipe
+## 9.2 Equipes
+Plus Ultra:
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | [Amanda Nobre](https://github.com/AmandaNbr) |
+| Product Owner | [Pedro Lucas](https://github.com/PedroLSF) |
+| Arquiteto de Software | [Victor Eduardo](https://github.com/victorear05)|
+| DevOps | [Yudi Yamane](https://github.com/yudi-azvd) |
+| Desenvolvedor |[Erick Levy](https://github.com/Ericklevy) e [Douglas Monteles](https://github.com/DouglasMonteles) |
 
+Capivara:
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | [Matheus Sousa](https://github.com/gatotabaco) |
+| Product Owner | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) |
+| Arquiteto de Software | [Kathlyn Lara](https://github.com/klmurussi)|
+| DevOps | [Thais Rebouças](https://github.com/Thais-ra) |
+| Desenvolvedor |[Eduardo Lavenhagem](https://github.com/MegahNevel) e [Lameque Fernandes](https://github.com/LamequeFernandes) |
+
+Slow Bros:
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | [Henrique Hida](https://github.com/HenriqueHida) |
+| Product Owner | [Matheus Akio](https://github.com/matheusakio) |
+| Arquiteto de Software | [Matheus Raphael](https://github.com/matheusrazor)|
+| DevOps | [Luiz Pettengill](https://github.com/LuizPettengill) |
+| Desenvolvedor | [Kayro Cesar](https://github.com/kayrocesar) |
 
 # 10. Requisitos para a aprovação
 
@@ -133,7 +132,7 @@ Não há um público específico visto que a covid afetou o todo o mundo.
 - Ter implementado as funcionalidades definidas pelo escopo do projeto.
 - Atender as especificações dos requisitos levantados.
 
-## 11. Estratégia de Comunicação
+# 11. Estratégia de Comunicação
   Meios de comunicação utilizados: Telegram, discord, aulas e meets.
 
   Outras ferramentas que são utilizadas: GitHub, Miro e Google Drive. 

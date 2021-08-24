@@ -3,7 +3,8 @@ Este documento viabiliza a conceitualmente a visão inicial do projeto como um t
 ##Histórico de versões
 | Data  |  Versão  |  Descrição  | Autor(es) |
 | ----- | -------- | ----------- | --------- |
-|  23/08/2021 |  0.1 | Criação da versão inicial do documento | Ana Carolina  |
+|  23/08/2021 |  0.1 | Criação da versão inicial do documento | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
+|  24/08/2021 |  0.2 | Adição das equipes e da estratégia de comunicação | [Pedro Lucas](https://github.com/PedroLSF)  |
 
 # 1. Introdução
 O documento tem como objetivo informar propósitos, objetivos e requisitos de alto nível, além de especificações de planejamento do Bot, informacional e conversacional.
@@ -17,7 +18,44 @@ Com o surgimento da COVID-19, o entendimento sobre essa nova doença foi buscado
 # 4.Objetivos
 O objetivo do [nome do bot] é aumentar a circulação de informações verídicas e viabilizar que elas sejam de fácil e rápido acesso, além de serem constantemente atualizadas. Sem o bot, essas informações são disponibilizadas em vários meios de telecomunicação, porém muitas das vezes, elas ainda não são acessíveis a todos e nem menos estão sempre corretas de acordo com as novas descobertas científicas.
 
-# 5.Requisitos de Alto Nível
+# 5. Equipe e Papéis
+## 5.1 Papéis gerais e definições:
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | É o membro que faz todos os outros funcionarem, responsável por retirar possíveis impedimentos, mapear os conhecimentos e ajudar no controle de qualidade e tarefa da equipe. |
+| Product Owner | Responsável por entendere compartilhar a visão do produto, portanto, orgazinar a ordem de desenvolvimento de acordo com as necessidades mapeadas. |
+| Arquiteto de Software | Atua como um analista, sendo assim, devem ter uma analise critica do software, entender  estrutura e otimizar as funcionalidades.|
+| DevOps | Reponsável por configurar e ensinar a equipe a configurar diversos ambientes necessários para o projeto, como de desenvolvimento, automatização de teste, entre outros. |
+| Desenvolvedor | O desenvolvedor deve desenvolver, testar e garantir que o código está sendo feito da melhor forma possível. |
+
+## 5.2 Plus Ultra:
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | [Amanda Nobre](https://github.com/AmandaNbr) |
+| Product Owner | [Pedro Lucas](https://github.com/PedroLSF) |
+| Arquiteto de Software | [Victor Eduardo](https://github.com/victorear05)|
+| DevOps | [Yudi Yamane](https://github.com/yudi-azvd) |
+| Desenvolvedor |[Erick Levy](https://github.com/Ericklevy) e [Douglas Monteles](https://github.com/DouglasMonteles) |
+
+## 5.3 Capivara:
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | [Matheus Sousa](https://github.com/gatotabaco) |
+| Product Owner | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) |
+| Arquiteto de Software | [Kathlyn Lara](https://github.com/klmurussi)|
+| DevOps | [Thais Rebouças](https://github.com/Thais-ra) |
+| Desenvolvedor |[Eduardo Lavenhagem](https://github.com/MegahNevel) e [Lameque Fernandes](https://github.com/LamequeFernandes) |
+
+## 5.4 Slow Bros:
+| Papel  |  Descrição  |
+| ----- | -------------------- |
+| Scrum Master | [Henrique Hida](https://github.com/HenriqueHida) |
+| Product Owner | [Matheus Akio](https://github.com/matheusakio) |
+| Arquiteto de Software | [Matheus Raphael](https://github.com/matheusrazor)|
+| DevOps | [Luiz Pettengill](https://github.com/LuizPettengill) |
+| Desenvolvedor | [Kayro Cesar](https://github.com/kayrocesar) |
+
+# 6.Requisitos de Alto Nível
 Estão entre os requisitos de alto nível:
 
 - Interação atráves de linguagem natural para melhor usabilidade;
@@ -25,7 +63,7 @@ Estão entre os requisitos de alto nível:
 - Construir personalidade do Bot;
 - Obtenção de informações contidas nas APIS e imerso nas dúvidas do Corona Vírus, aumentando o cunho informacional do Bot.
 
-# 6. Riscos
+# 7. Riscos
 | Risco  |  Resposta ao risco  |
 | ------ | ------------------- |
 | Integração entre os serviços  | Treinamento sobre as tecnologias utilizadas |
@@ -40,10 +78,10 @@ Estão entre os requisitos de alto nível:
 | Atrasos nas reuniões  | Comunicação constante entre os membros; Marcar reuniões antecipadamente para evitar chocar horário com compromissos de outros membros;  |
 | Atrasos nas entregas (dívida técnica) | Evitar que as entregas atrasem pois os membros não tinham conhecimento suficiente para realizá-las ou que ainda não saibam como fazer |
 
-# 7. Estimativa de Custo
+# 8. Estimativa de Custo
 O cálculo de custos leva em conta três fatores: aquisição, pessoal e ferramentas. Assim, é levado em conta os custos reais de mercado: desde o custo com energia e aluguel de sala, até as ferramentas utilizadas pelos membros.
 
-## 7.1 Custo de aquisição
+## 8.1 Custo de aquisição
 Com o adpeto da pandemia, o trabalho vai ser disponível remotamente, considerando os seguintes tópicos: Custo de esquipamento, Energia Elétrica, Internt.
 
 | Equipamento  |  Quantidade  |  Finalidade  | Valor Unitário | Preço |
@@ -55,7 +93,7 @@ Com o adpeto da pandemia, o trabalho vai ser disponível remotamente, consideran
 - Fonte: http://www.aneel.gov.br/ranking-das-tarifas, acesso: 23/08/2021
 - Valor médio de um plano de internet na região do DF.
 
-## 7.2 Custo de pessoal
+## 8.2 Custo de pessoal
 Nesse caso, foram levados em conta o valor médio por hora de um desenvolvedor Python Júnior para a equipe de MDS.
 
 | Cargo  |  Quantidade  |  Salário/mês  | Salário/hora | Total |
@@ -63,7 +101,7 @@ Nesse caso, foram levados em conta o valor médio por hora de um desenvolvedor P
 | Deselvolvedor Python Jr | 6 | R$ 3.000  | R$ 18,75  | R$ 15.000  |
 | Arquiteto, DevOps, Scrum Master e PO  | 4 | R$ 6.000  | R$ 37,50  | R$  54.000  |
 
-## 7.3 Custo de Ferramentas
+## 8.3 Custo de Ferramentas
 
 | Ferramenta  |  Finalidade  |   Preço total |
 | Telegram  | Comunicação entre os membros  | R$ 0  |
@@ -73,7 +111,7 @@ Nesse caso, foram levados em conta o valor médio por hora de um desenvolvedor P
 | Python, Rasa, API Telegram  | Tecnologias utilizadas para desenvolvimento | R$ 0  |
 
 
-## 7.4 Custo Total
+## 8.4 Custo Total
 
 | Ferramenta  |  Valor total |
 | Aquisição | R$ 13.692  |
@@ -81,21 +119,26 @@ Nesse caso, foram levados em conta o valor médio por hora de um desenvolvedor P
 | Ferramentas | R$ 0  |
 | Total | R$ 82.692 |
 
-# 8. Partes Intressadas
+# 9. Partes Intressadas
 
-##8.1 Usários
-- População;
+## 9.1 Usários
+Não há um público específico visto que a covid afetou o todo o mundo.
 
-## 8.2 Equipe
+## 9.2 Equipe
 
 
-# 9. Requisitos para a aprovação
+# 10. Requisitos para a aprovação
 
 - Ter a possibilidade de ser acessado pelos mensageiros Telegram e Facebook Messenger.
 - Ter implementado as funcionalidades definidas pelo escopo do projeto.
 - Atender as especificações dos requisitos levantados.
 
-# 10.Referências
+## 11. Estratégia de Comunicação
+  Meios de comunicação utilizados: Telegram, discord, aulas e meets.
+
+  Outras ferramentas que são utilizadas: GitHub, Miro e Google Drive. 
+
+# 12.Referências
 
 LOVEMONDAYS. Salários para programadores e equipe de analista, arquiteto, scrum master, DevOps e PO. Disponível em: https://www.lovemondays.com.br/. Acesso em 23 de Agosto de 2021.
 

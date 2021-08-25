@@ -75,6 +75,8 @@ O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma <plat
 ## 5.1 Diagrama de Pacotes
 
 # 6. Tamanho e desempenho
+Este bot atuará primeiramente no Telegram, seu tamanho e desempenho serão comuns com aplicações semelhantes de ChatBots que utilizam a tecnologia Rasa.
 
+  O desempenho poderá ser afetado devido a serviços externos, como consultas de dados sobre vacinações ou instabilidades de sistemas.
 # 7. Qualidade
   

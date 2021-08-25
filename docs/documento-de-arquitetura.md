@@ -70,6 +70,7 @@ O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Teleg
 - Possuir conexão com a internet
 - Dispositivo com acesso ao Telegram
 - O sistema entenderá apenas mensagens em Português - BR
+
 ## 3.3 Requisitos não funcionais
 - O sistema deve possui integração com a plataforma Telegram
 - O sistema deve conversar com o usuário em linguagem natural
@@ -77,7 +78,7 @@ O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Teleg
 - O sistema deve ser capaz de interpretar áudios enviados pelo usuário
 - O bot deve ser treinado a fim de conseguir atender ao máximo de usuários possíveis
 - Os dados das conversas serão armazenados na loja padrão do Raza
-
+- O bot usará de técnicas de conteinerização.
 
 # 4. Visão dos Casos de Uso
 ## 4.1 Atores de Casos de Uso

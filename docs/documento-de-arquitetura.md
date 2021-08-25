@@ -2,7 +2,7 @@
   |Data|Versão|Alteração|Autor|  
   |----|------|---------|-----|  
   |10/08/2021|0.1|Abertura do documento de Arquitetura|Victor Eduardo|
-  |21/08/2021|0.2|Definição de tecnologias, e diagrama arquitetural|Victor Eduardo|  
+  |25/08/2021|0.2|Definição de tecnologias, e diagrama arquitetural|Victor Eduardo|  
 
 # 1. Introdução
 ## 1.1 Finalidade
@@ -58,7 +58,10 @@ O app no qual o usuário poderá interagir com o botserá o app de troca de mens
 ![python](https://user-images.githubusercontent.com/78758172/130331804-81e4fc0b-1138-40c5-8b85-1755a9c3eab3.png)
 
 A linguagem de programação a ser utilizada no bot será o Python, já que o Rasa também a utiliza. 
+### 2.1.4 Docker
+![docker](https://user-images.githubusercontent.com/78758172/130792412-5e0aaa74-737a-4d09-9b6c-dd325a32fbf2.png)
 
+Usaremos a tecnologia de docker a fim de facilitar a integração entre os grupos na fase de implementação.
 # 3. Metas e restrições de Arquitetura 
 ## 3.1 Metas
 O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Telegram, um app de troca de mensagens, e tem a função de informar o usuário acerca de conteúdos sobre o COVID-19 com informações fornecidas pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio, sobre gestão pública, e informações relacionadas à vacinação na região do usuário.

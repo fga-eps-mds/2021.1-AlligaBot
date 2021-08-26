@@ -34,48 +34,26 @@ Entre no repositório baixado
 
     cd 2021-1-Bot.git
 
-Baixe a imagem do rasa executando o seguinte comando no terminal:
+Suba o ambiente de desenvolvimento rodando o seguinte comando:
 
-    docker run --user 0 -v $(pwd):/app rasa/rasa:2.8.2-full init --no-prompt
+    docker-compose up -d
 
-Se você estiver em Linux, pode ser que você aprecisa rodar o comando anterior
-com `sudo`. Algumas explicações sobre o comando anterior:
+`-d` indica que os containers devem rodar em background. Você deve ver algo assim no terminal:
 
-- `--user 0` dá permissões de root para o container.
-- `-v $(pwd)/bot:/app` especifica que os conteúdos do subdiretório bot
-vão estar visíveis para o container no diretório `app`. As mudanças 
-que ocorrem no container vão ser sincronizadas com o seu computador.
-- `rasa/rasa:2.8.2-full` é o nome da imagem que docker vai baixar e executar.
-- `init --no-prompt` é o comando do próprio rasa. 
+    Starting 2021-1-bot_actions_1 ... done
+    Starting 2021-1-bot_rasa-bot_1 ... done
 
-Se essa é a sua primeira vez rodando esse comando, o Docker vai baixar a imagem 
-do Rasa, o que pode levar alguns minutos. Logo em seguida ele vai executar 
-o container. 
+Para conversar com o bot, execute o seguinte:
 
-
-### Conversando com o bot
-Se você quiser mais ações para bot, vamos criar e ligar o servidor de ações:
-
-    docker network create my-project
-
-    docker run --user 0 -v $(pwd)/bot:/app --net my-project --name action-server rasa/rasa-sdk:2.8.1
-
-    docker run --user 0 -d -v $(pwd)/bot/actions:/app/actions --net my-project --name action-server rasa/rasa-sdk:2.8.1
-
-Para interagir com o bot (usando o servidor de ações), execute:
-
-    docker run -it -v $(pwd)/bot:/app -p 5005:5005 --net my-project rasa/rasa:2.8.2-full shell
-
-Se você preferiu não ligar o servidor de ações, apenas execute:
-
-    docker run -it -v $(pwd)/bot:/app rasa/rasa:2.8.2-full shell
-
+    docker exec -it rasa shell
 
 Note a flag `it`. Ela indica que o container vai ser executado no modo
 **iterativo** e com uma sessão de terminal ligada a ele. 
 
-Depois que o prompt aparecer, experimente dizer "hi" e dizer que está triste.
-Tente pedir para ele contar uma piada também.
+Depois que o prompt aparecer, em inglês, peça para ele te contar uma piada.
+
+O  foi [servidor de ações](actions/actions.py) foi desenvolvido para 
+consultar uma API de piadas.
 
 
 ## Algumas anotações e dúvidas

@@ -40,8 +40,8 @@ Suba o ambiente de desenvolvimento rodando o seguinte comando:
 
 `-d` indica que os containers devem rodar em background. Você deve ver algo assim no terminal:
 
-    Starting 2021-1-bot_actions_1 ... done
-    Starting 2021-1-bot_rasa-bot_1 ... done
+    Starting actions ... done
+    Starting rasa-bot ... done
 
 Para conversar com o bot, execute o seguinte:
 

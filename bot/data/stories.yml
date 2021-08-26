@@ -29,7 +29,6 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-
 - story: tell a joke
   steps:
   - intent: tell_me_joke

@@ -1,6 +1,7 @@
 # Termo de Abertura do Projeto
-Este documento viabiliza a conceitualmente a visão inicial do projeto como um todo.
-##Histórico de versões
+Este documento viabiliza conceitualmente a visão inicial do projeto como um todo.
+
+## Histórico de versões
 | Data  |  Versão  |  Descrição  | Autor(es) |
 | ----- | -------- | ----------- | --------- |
 |  23/08/2021 |  0.1 | Criação da versão inicial do documento | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
@@ -10,13 +11,13 @@ Este documento viabiliza a conceitualmente a visão inicial do projeto como um t
 O documento tem como objetivo informar propósitos, objetivos e requisitos de alto nível, além de especificações de planejamento do Bot, informacional e conversacional.
 
 # 2. Descrição
-O [nomebot] é um bot disponibilizado no mensageiro Telegram, que tem como objetivo salientar a conversação, trazer informação e tirar dúvidas sobre: Vacinação, Prevenção e Políticas Públicas a respeito da COVID-19.
+O bot em questão é um bot disponibilizado no mensageiro Telegram, que tem como objetivo salientar a conversação, trazer informação e tirar dúvidas sobre: Vacinação, Prevenção e Políticas Públicas a respeito da COVID-19, além de disparar alertas sobre as circunstâncias de cada tema.
 
 # 3.Próposito e Justificativa
-Com o surgimento da COVID-19, o entendimento sobre essa nova doença foi buscado por todos os profissionais da saúde, pelo qual tentou responder às milhares de dúvidas decorrentes do Corona Vírus. Diante disso, a informação de modo claro, direto e de fácil acesso ainda persiste em continuar não sendo entregue por todos os brasilienses que tem acesso a internet e faz uso das redes sociais e meios de comunicação. Entretanto, para solucionar essa falta de conhecimento básico, informação importante para qualquer cidadão que precisa para se proteger, o [nome do bot] veio para facilitar esse entendimento prévio sobre três aspectos, fazendo a comunicação direta e de fácil acesso aos cidadãos.Ele sugere a principais informações sobre vacinação, prevenção e políticas públicas, agregando em principal o governo a poder compartilhar a informação verdadeira e simples para todos.
+Com o surgimento da COVID-19, o entendimento sobre essa nova doença foi buscado por todos os profissionais da saúde, pelo qual tentou responder às milhares de dúvidas decorrentes do Corona Vírus. Diante disso, a informação de modo claro, direto e de fácil acesso ainda persiste em continuar não sendo entregue por todos os brasilienses que tem acesso a internet e faz uso das redes sociais e meios de comunicação. Entretanto, para solucionar essa falta de conhecimento básico, informação importante para qualquer cidadão que precisa para se proteger, o bot em questão veio para facilitar esse entendimento prévio sobre três aspectos, fazendo a comunicação direta e de fácil acesso aos cidadãos. Ele sugere as principais informações sobre vacinação, prevenção e políticas públicas, agregando em principal o governo a poder compartilhar a informação verdadeira e simples para todos.
 
 # 4.Objetivos
-O objetivo do [nome do bot] é aumentar a circulação de informações verídicas e viabilizar que elas sejam de fácil e rápido acesso, além de serem constantemente atualizadas. Sem o bot, essas informações são disponibilizadas em vários meios de telecomunicação, porém muitas das vezes, elas ainda não são acessíveis a todos e nem menos estão sempre corretas de acordo com as novas descobertas científicas.
+O objetivo do bot em questão é aumentar a circulação de informações verídicas e viabilizar que elas sejam de fácil e rápido acesso, além de serem constantemente atualizadas. Sem o bot, essas informações são disponibilizadas em vários meios de telecomunicação, porém muitas das vezes, elas ainda não são acessíveis a todos e nem sempre corretas de acordo com as novas descobertas científicas.
 
 # 5. Equipe e Papéis
 ## 5.1 Papéis gerais e definições:
@@ -52,53 +53,12 @@ Estão entre os requisitos de alto nível:
 | Atrasos nas reuniões  | Comunicação constante entre os membros; Marcar reuniões antecipadamente para evitar chocar horário com compromissos de outros membros;  |
 | Atrasos nas entregas (dívida técnica) | Evitar que as entregas atrasem pois os membros não tinham conhecimento suficiente para realizá-las ou que ainda não saibam como fazer |
 
-# 8. Estimativa de Custo
-O cálculo de custos leva em conta três fatores: aquisição, pessoal e ferramentas. Assim, é levado em conta os custos reais de mercado: desde o custo com energia e aluguel de sala, até as ferramentas utilizadas pelos membros.
+# 8. Partes Interessadas
 
-## 8.1 Custo de aquisição
-Com o adpeto da pandemia, o trabalho vai ser disponível remotamente, considerando os seguintes tópicos: Custo de esquipamento, Energia Elétrica, Internt.
-
-| Equipamento  |  Quantidade  |  Finalidade  | Valor Unitário | Preço |
-| ------------ | ------------ | ------------ | -------------- |  ---- |
-|  Notebooks |  6 unidades | Desenvolvimento e planejamento | R$ 2.000 | R$ 12.000  |
-| Energia elétrica  | 5 dias na semana  | Desenvolvimento e planejamento  | 0,606* R$/KWh | R$ 1.212  |
-| Internet  | 4 meses |  Desenvolvimento e planejamento | R$120** | R$ 480  |
-
-- Fonte: http://www.aneel.gov.br/ranking-das-tarifas, acesso: 23/08/2021
-- Valor médio de um plano de internet na região do DF.
-
-## 8.2 Custo de pessoal
-Nesse caso, foram levados em conta o valor médio por hora de um desenvolvedor Python Júnior para a equipe de MDS.
-
-| Cargo  |  Quantidade  |  Salário/mês  | Salário/hora | Total |
-| ------ | ------------ | ------------- | ------------ |  ---- |
-| Deselvolvedor Python Jr | 6 | R$ 3.000  | R$ 18,75  | R$ 15.000  |
-| Arquiteto, DevOps, Scrum Master e PO  | 4 | R$ 6.000  | R$ 37,50  | R$  54.000  |
-
-## 8.3 Custo de Ferramentas
-
-| Ferramenta  |  Finalidade  |   Preço total |
-| Telegram  | Comunicação entre os membros  | R$ 0  |
-| Editor de Texto | Elaboração de documentos  | R$ 0  |
-| Git e GitHub  | Versionamento de arquivos | R$ 0  |
-| Google Drive  | Compartilhamento de arquivos  | R$ 0  |
-| Python, Rasa, API Telegram  | Tecnologias utilizadas para desenvolvimento | R$ 0  |
-
-
-## 8.4 Custo Total
-
-| Ferramenta  |  Valor total |
-| Aquisição | R$ 13.692  |
-| Pessoal | R$ 69.000 |
-| Ferramentas | R$ 0  |
-| Total | R$ 82.692 |
-
-# 9. Partes Intressadas
-
-## 9.1 Usários
+## 8.1 Usários
 Não há um público específico visto que a covid afetou o todo o mundo.
 
-## 9.2 Equipes
+## 8.2 Equipes
 Plus Ultra:
 | Papel  |  Descrição  |
 | ----- | -------------------- |
@@ -126,18 +86,18 @@ Slow Bros:
 | DevOps | [Luiz Pettengill](https://github.com/LuizPettengill) |
 | Desenvolvedor | [Kayro Cesar](https://github.com/kayrocesar) |
 
-# 10. Requisitos para a aprovação
+# 9. Requisitos para a aprovação
 
-- Ter a possibilidade de ser acessado pelos mensageiros Telegram e Facebook Messenger.
+- Ter a possibilidade de ser acessado pelo mensageiro Telegram.
 - Ter implementado as funcionalidades definidas pelo escopo do projeto.
 - Atender as especificações dos requisitos levantados.
 
-# 11. Estratégia de Comunicação
+# 10. Estratégia de Comunicação
   Meios de comunicação utilizados: Telegram, discord, aulas e meets.
 
   Outras ferramentas que são utilizadas: GitHub, Miro e Google Drive. 
 
-# 12.Referências
+# 11.Referências
 
 LOVEMONDAYS. Salários para programadores e equipe de analista, arquiteto, scrum master, DevOps e PO. Disponível em: https://www.lovemondays.com.br/. Acesso em 23 de Agosto de 2021.
 

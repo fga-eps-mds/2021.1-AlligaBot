@@ -1,5 +1,5 @@
 
-<h2 align="center">[logo]</h2>
+<!-- <h2 align="center">[logo]</h2> -->
 <h1 align="center">ChatBot COVID-19</h1>
 
 <!-- [badges] [badges] [badges] [badges]  -->
@@ -51,42 +51,25 @@ Template para criação de issues
 Template para criação de pull requests
 
 ## 👨‍💻 Desenvolvedores
-|               | Capivara:ox: | PlusUltra:fleur_de_lis:                                                                                                                                       | Slowbrows:pig2: |
-|---------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
-| Desenvolvedor |              | !["Douglas Monteles"](https://avatars.githubusercontent.com/u/54580766?v=4&s=60 "Douglas Monteles")<br>[Douglas Monteles](https://github.com/DouglasMonteles) |                 |
-| Desenvolvedor |              | ![Erick Levy](https://avatars.githubusercontent.com/u/48847770?v=4&s=60 "Erick Levy")<br>[Erick Levyyyy](https://github.com/Ericklevy)                        |                 |
-| DevOps        |              | ![Yudi Yamane](https://avatars.githubusercontent.com/u/37981839?s=60&v=4 "Yudi Yamane")<br>[Yudi Yamane](https://github.com/yudi-azvd)                        |                 |
-| Arquiteto     |              | ![Victor Eduardo](https://avatars.githubusercontent.com/u/78758172?v=4&s=60 "Victor Eduardo")<br>[Victor Eduardo](https://github.com/victorear05)             |                 |
-| Product Owner |              | ![Pedro Lucas](https://avatars.githubusercontent.com/u/85000470?v=4&s=60 "Pedro Lucas")<br>[Pedro Lucas](https://github.com/PedroLSF)                         |                 |
-| Scrum Master  |              | ![Amanda Nobre](https://avatars.githubusercontent.com/u/44625056?v=4&s=60 "Amanda Nobre")<br>[Amanda Nobre](https://github.com/AmandaNbr)                     |                 |
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-0pky"></th>
-    <th class="tg-0pky">Capivara:ox:</th>
-    <th class="tg-0pky">PlusUltra:fleur_de_lis:</th>
-    <th class="tg-0pky">Slowbrows:pig2:</th>
+    <th class="tg-0pky">Capivara :ox:</th>
+    <th class="tg-0pky">PlusUltra :fleur_de_lis:</th>
+    <th class="tg-0pky">Slowbrows :pig2:</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-0pky">Desenvolvedor</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky"> <img width="60" src="https://avatars.githubusercontent.com/u/36899389?v=4&s=60"> <br> <a href="https://github.com/MegahNevel"> Eduardo Levenhagem</a></td>
     <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/54580766?v=4&amp;s=60" alt="[Douglas Monteles]"> <br> <a href="https://github.com/DouglasMonteles">Douglas Monteles</a></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Desenvolvedor</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/79016306?v=4&s=60" alt="Lameque"> <br><a href="https://github.com/LamequeFernandes">Lameque Fernandes </a> </td>
     <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/48847770?v=4&amp;s=60" alt="Erick Levy>"> <br> <a href="https://github.com/Ericklevy">Erick Levy</a></td>
     <td class="tg-0pky"></td>
   </tr>
@@ -98,24 +81,28 @@ Template para criação de pull requests
   </tr>
   <tr>
     <td class="tg-0pky">Arquiteto</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/52364259?v=4&s=60" alt="Kathlyn Lara"> <br> <a hre="https://github.com/klmurussi"> Kathlyn Lara</a> </td>
     <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/78758172?v=4&amp;s=60" alt="Victor Eduardo"> <br> <a href="https://github.com/victorear05">Victor Eduardo</a></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Product Owner</td>
-    <td class="tg-0pky"><img src="https://avatars.githubusercontent.com/u/49570180?v=4&s=60" alt="Ana Carolina"> <a href="https://github.com/AnaCarolinaRodriguesLeite"> Ana Carolina </a></td>
+    <td class="tg-0pky"><img src="https://avatars.githubusercontent.com/u/49570180?v=4&s=60" alt="Ana Carolina"><br><a href="https://github.com/AnaCarolinaRodriguesLeite"> Ana Carolina </a></td>
     <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/85000470?v=4&amp;s=60" alt="Pedro Lucas"> <br> <a href="https://github.com/PedroLSF">Pedro Lucas</a></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Scrum Master</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/54778783?v=4&s=60" alt="Matheus Sousa"> <br> <a href="https://github.com/gatotabaco">Matheus Sousa</a> </td>
     <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/44625056?v=4&amp;s=60" alt="Amanda Nobre"> <br> <a href="https://github.com/AmandaNbr">Amanda Nobre</a></td>
     <td class="tg-0pky"></td>
   </tr>
 </tbody>
 </table>
+
+<small>Feito com <a href="https://www.tablesgenerator.com/html_tables">
+  Tables Generator</a>
+</small>.
 
 ## 📝 Licença
 -

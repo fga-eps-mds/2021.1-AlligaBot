@@ -29,14 +29,14 @@ ajudar na briga mundial contra o vírus.
   
   Release 2 - 26 de outubto -->
 
-## 🚀 Como executar o projeto
+<!-- ## 🚀 Como executar o projeto
 ### 🛠 Tecnologias e Pré-Requisitos
 -
 
 ### ✔️ Instalando e Executando
--
+- -->
 
-## 🤝 Como contribuir para o projeto
+<!-- ## 🤝 Como contribuir para o projeto
 
 Guia de Contribuição
 
@@ -48,7 +48,7 @@ Políticas de Contribuição
 
 Template para criação de issues
 
-Template para criação de pull requests
+Template para criação de pull requests -->
 
 ## 👨‍💻 Desenvolvedores
 <table class="tg">
@@ -101,8 +101,9 @@ Template para criação de pull requests
 </table>
 
 <small>Feito com <a href="https://www.tablesgenerator.com/html_tables">
-  Tables Generator</a>
-</small>.
+  Tables Generator</a>.
+</small>
 
 ## 📝 Licença
--
+Este projeto está licenciado sob os termos da licença 
+[GNU GPL v3.0](https://github.com/fga-eps-mds/2021-1-Bot/blob/improvement(%2398)/melhorar-readme/LICENSE).

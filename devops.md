@@ -32,7 +32,7 @@ Ou clone apenas a branch `init-devops`:
 ### Rasa
 Entre no repositório baixado
 
-    cd 2021-1-Bot.git
+    cd 2021-1-Bot
 
 Suba o ambiente de desenvolvimento rodando o seguinte comando:
 

@@ -81,40 +81,41 @@ Template para criação de pull requests
   <tr>
     <td class="tg-0pky">Desenvolvedor</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">!["Douglas Monteles"](https://avatars.githubusercontent.com/u/54580766?v=4&amp;s=60 "Douglas Monteles")<br><a href="https://github.com/DouglasMonteles"><span style="color:#905">[Douglas Monteles](https://github.com/DouglasMonteles)</span></a></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/54580766?v=4&amp;s=60" alt="[Douglas Monteles]"> <br> <a href="https://github.com/DouglasMonteles">Douglas Monteles</a></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Desenvolvedor</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">![Erick Levy](https://avatars.githubusercontent.com/u/48847770?v=4&amp;s=60 "Erick Levy")<br><a href="https://github.com/Ericklevy"><span style="color:#905">[Erick Levyyyy](https://github.com/Ericklevy)</span></a></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/48847770?v=4&amp;s=60" alt="Erick Levy>"> <br> <a href="https://github.com/Ericklevy">Erick Levy</a></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">DevOps</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">![Yudi Yamane](https://avatars.githubusercontent.com/u/37981839?s=60&amp;v=4 "Yudi Yamane")<br><a href="https://github.com/yudi-azvd"><span style="color:#905">[Yudi Yamane](https://github.com/yudi-azvd)</span></a></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/35047444?v=4&s=60" alt="Thaos Rebouças"> <br> <a href="https://github.com/Thais-ra">Thais Rebouças</a></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/37981839?s=60&amp;v=4" alt="Yudi Yamane"> <br> <a href="https://github.com/yudi-azvd">Yudi Yamane</a></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/44177946?v=4&s=60" alt="Luiz Petengill"> <br> <a href="https://github.com/LuizPettengill">Luiz Petengill</a> </td>
   </tr>
   <tr>
     <td class="tg-0pky">Arquiteto</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">![Victor Eduardo](https://avatars.githubusercontent.com/u/78758172?v=4&amp;s=60 "Victor Eduardo")<br><a href="https://github.com/victorear05"><span style="color:#905">[Victor Eduardo](https://github.com/victorear05)</span></a></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/78758172?v=4&amp;s=60" alt="Victor Eduardo"> <br> <a href="https://github.com/victorear05">Victor Eduardo</a></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Product Owner</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">![Pedro Lucas](https://avatars.githubusercontent.com/u/85000470?v=4&amp;s=60 "Pedro Lucas")<br><a href="https://github.com/PedroLSF"><span style="color:#905">[Pedro Lucas](https://github.com/PedroLSF)</span></a></td>
+    <td class="tg-0pky"><img src="https://avatars.githubusercontent.com/u/49570180?v=4&s=60" alt="Ana Carolina"> <a href="https://github.com/AnaCarolinaRodriguesLeite"> Ana Carolina </a></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/85000470?v=4&amp;s=60" alt="Pedro Lucas"> <br> <a href="https://github.com/PedroLSF">Pedro Lucas</a></td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Scrum Master</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">![Amanda Nobre](https://avatars.githubusercontent.com/u/44625056?v=4&amp;s=60 "Amanda Nobre")<br><a href="https://github.com/AmandaNbr"><span style="color:#905">[Amanda Nobre](https://github.com/AmandaNbr)</span></a></td>
+    <td class="tg-0pky"> <img src="https://avatars.githubusercontent.com/u/44625056?v=4&amp;s=60" alt="Amanda Nobre"> <br> <a href="https://github.com/AmandaNbr">Amanda Nobre</a></td>
     <td class="tg-0pky"></td>
   </tr>
 </tbody>
 </table>
+
 ## 📝 Licença
 -

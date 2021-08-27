@@ -10,7 +10,7 @@ Assim, será explicado o problema evidenciado, a oportunidade encontrada, a desc
 | :--: | :----: | :-------: | :-------: |
 |26/08/2021|0.1|Criação da estrutura do documento|Thaís Rebouças|
 |26/08/2021|0.2|Criação da primeira versão|Ana Carolina|
-
+|27/08/2021|0.3|Adição de conteúdo dos tópicos 1.5, 2.2, 3.5, 3.6 e o 4.0|Ana Carolina|
 
 # **1. Introdução**
 
@@ -42,10 +42,14 @@ Documento de Visão: A estrutura de tópicos do documento de visão. IBM. Dispon
 
 Documento de Visão do projeto kalkuli. Disponível em: https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/docVisao. Acesso em: 26 de Agosto de 2021;
 
+Documento de Visão do projeto Acacia. Disponível em: https://fga-eps-mds.github.io/2019.2-Acacia/#/vision_document?id=_5-recursos-do-produto. Acesso em: 27 de Agosto de 2021;
+
+Documento de Visão do projeto Aix. Disponível em: https://fga-eps-mds.github.io/2019.1-Aix/projeto/2019/03/29/documento-de-visao/. Acesso em: 27 de Agosto de 2021;
+
 ### 1.6 Visão Geral
 
 Desta forma, a ideia principal deste documento de visão é fornecer de maneira objetiva e organizada os assuntos que tangem à problemática inicial.
-As informações serão organizadas em tópicos referentes aos seguintes temas, como modelos de exemplo: o contexto da tecnologia no meio pedagógico, o detalhamento dos perfis interessados, as funcionalidades principais da ferramenta a ser produzida bem como características técnicas do produto.
+As informações serão organizadas em tópicos referentes aos seguintes temas, como modelos de exemplo: o contexto da tecnologia no momento atual (pandêmico), o detalhamento dos perfis interessados, as funcionalidades principais da ferramenta a ser produzida bem como características técnicas do produto.
 
 
 ## **2. Posicionamento**
@@ -58,9 +62,9 @@ O programa concebido pela equipe de desenvolvimento desempenha a função de inf
 
 | O problema é                                                                                  | que afeta       | cujo impacto é                                                                                                                         | uma boa solução seria                                                    |
 | --------------------------------------------------------------------------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Lorem ipsum dolor sit amet. Sed doloremque doloribus quo facilis dicta et deserunt eius qui voluptatem sunt.  | Sed tenetur dolor qui alias provident est cupiditate.| Quam aut voluptas iste et mollitia quia rem consequatur perspiciatis et fugit quas.   | Qui sint magnam est mollitia odit ut iste quibusdam eos nisi placeat et velit error. |
+| Alta circulação de informações não verídicas.  | População de modo geral.| Aumento da disseminação das informações não comprovadas.   | Ofertar informações para a população de modo fácil, simples e claro, por meios em que o entendimento da mesma se torne aceitável e de fácil circulação da informação correta. |
 
-### 2.3 Sentença de Posição do Produto
+### 2.3 Descrição de Posição do Produto
 
 Como um dispositivo alternativo de comunicação, o Bot em questão apresenta auxílio ao usuário ao demonstrar as funcionalidades de amparo em prevenção, vacinação e políticas públicas explicando de forma simples e direta quanto às dúvidas sobre Covid-19, Mascaras, Proteção, Normas e novos avanços sobre o Coronavírus.
 
@@ -128,8 +132,17 @@ Slow Bros:
 
 ### 3.5 Perfis dos Usuários
 
+| Representante            | Descrição                                                               | Tipo                                                               | Responsabilidade                                                                             | Critério de sucesso                                                                             | Envolvimento                                                                             |
+| :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| Pessoas físicas interessadas por informações | Pessoas que querem informações sobre covid ou que querem ser alertadas sobre novidades relacionadas ao tema |  Usuários com alta desinformação  | Além de utilizar o programa e usufruir de suas funcionalidades, o usuário deve alertar sobre possíveis falhas ou informações faltantes | Circulação de informações e o reconhedimento do auxílio do bot | Pessoas físicas interessadas por informações | Médio |
 
 #### 3.6 Principais Necessidades dos Usuários ou dos Envolvidos
+
+##### 3.6.1 Necessidades dos envolvidos
+
+| Necessidade            | Prioridade                                                               | Solução Atual                                                               | Solução Proposta                                                                             |
+| :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| Ferramenta que auxilie na circulação de informações | Ser acessível |  Jornais, Sites, Blogs, Canais de Youtube, Redes Sociais  | Uma forma flexível, confiável, simples, direta e menos trabalhosa de auxílio à informação |
 
 #### 3.7 Alternativas e concorrências
 
@@ -138,8 +151,12 @@ Slow Bros:
 
 ### 4.1 Perspectiva do Produto
 
-### 4.2 Resumo dos Recursos
+O objetivo do bot em questão é aumentar a circulação de informações verídicas e viabilizar que elas sejam de fácil e rápido acesso, além de serem constantemente atualizadas. Sem o bot, essas informações são disponibilizadas em vários meios de telecomunicação, porém muitas das vezes, elas ainda não são acessíveis a todos e nem sempre corretas de acordo com as novas descobertas científicas.
+
+### 4.2 Resumo das capacidades
+
+As capacidades do produto vão de encontro com as necessidades do público em geral que tem anseio por informações atuais e verídicas sobre o momento atual do CoronaVírus e pessoas físicas que ainda nao possuem conhecimento sobre as informações mais comuns que devem ter acesso, ambos conhecendo os elementos das três funcionalidades mais conmuns atualmente. Assim, o Bot em questão será capaz de ofertar informações relacionadas a esta realidade do COVID-19, incluindo informações sobre as novas pesquisas sobre as vacinas. Por fim, todos esses recursos foram pensados para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a barrar informações fakes ou sem informação.
 
 ## **5. Recursos do Produto**
 
-
+Especificação dos requisitos!!!

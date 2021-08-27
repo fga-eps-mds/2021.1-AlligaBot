@@ -1,8 +1,6 @@
 # DevOps
-Esse arquivo é temporário e serve como um mini diário
-e manual de instruções do pessoal de DevOps. Futuramente
-pode ser movido para o README.md principal. **Nada do que
-está comitado nessa branch é permanente**.
+Esse arquivo é temporário e serve como um mini diário e manual de instruções do pessoal de DevOps. Futuramente pode ser movido para o README.md principal. 
+**Nada do que está comitado nessa branch é permanente**.
 
 
 ## Começando
@@ -18,7 +16,8 @@ o temrinal e digitar:
 
     docker -v
 
-Baixe esse repositório em seu computador (de preferência em ambiente Linux ou WSL):
+Baixe esse repositório em seu computador (de preferência em ambiente Linux ou 
+WSL):
 
     git clone https://github.com/fga-eps-mds/2021-1-Bot.git
     git checkout -b init-devops
@@ -38,7 +37,8 @@ Suba o ambiente de desenvolvimento rodando o seguinte comando:
 
     docker-compose up -d
 
-`-d` indica que os containers devem rodar em background. Você deve ver algo assim no terminal:
+`-d` indica que os containers devem rodar em background. Você deve ver algo 
+assim no terminal:
 
     Starting actions ... done
     Starting rasa-bot ... done
@@ -51,16 +51,18 @@ Note a flag `it`. Ela indica que o container vai ser executado no modo
 **iterativo** e com uma sessão de terminal ligada a ele. 
 
 Depois que o prompt aparecer, em inglês, peça para ele te contar uma piada.
-
-O  foi [servidor de ações](actions/actions.py) foi desenvolvido para 
+O [servidor de ações](actions/actions.py) foi desenvolvido para 
 consultar uma API de piadas.
 
+**-- Fim do mini tutorial --**
+
+---
 
 ## Algumas anotações e dúvidas
 ### 1 - Bot em um subdiretório
 Como terão outros módulos além do bot, acho que faz sentido colocálo em um subdiretório.
-Isso foi feito no projeto [Aix](https://github.com/fga-eps-mds/2019.1-Aix). Tentei fazer
-isso com o seguinte comando:
+Isso foi feito no projeto [Aix](https://github.com/fga-eps-mds/2019.1-Aix). 
+Tentei fazer isso com o seguinte comando:
     
     docker run --user 1000 -v $(pwd)/bot:/app rasa/rasa:2.8.2-full init --no-prompt
 
@@ -80,22 +82,23 @@ lá no começo do tutorial?  Se rodar `docker start -i` ele usa o comando
 do Rasa?
 
 
-### Permissão negada para editar um arquivo do bot
+### 3 - Permissão negada para editar um arquivo do bot
 Dá uma olhada [aqui](https://github.com/microsoft/vscode-remote-release/issues/1008).
 
         sudo chown -R <seu-nome-de-usuario> <caminho/pra/pasta>
 
 
-## VSCode não reconhece os módulos do rasa em venv
+### 4 - VSCode não reconhece os módulos do rasa em venv
 Você precisa dizer o path pro interpretador python do ambiente
 virtual
 
 Siga essas [instruções](https://stackoverflow.com/questions/54106071/how-can-i-set-up-a-virtual-environment-for-python-in-visual-studio-code).
 
-Mas não sei se isso é realmente necessário porque era pra estar pegando do container Docker.
+Mas não sei se isso é realmente necessário porque era pra estar pegando do 
+container Docker.
 
 
-## Quando o rasa reclamar de não ter permissão
+### 5 - Quando o rasa reclamar de não ter permissão
 [Olhe aqui](https://rasa.com/docs/rasa-x/installation-and-setup/install/docker-compose/#mounted-directories). Pra falar a verdade, eu não sei como isso funciona só rodei
 
         sudo chgrp -R root ./bot/* && sudo chmod -R 770 ./bot/*

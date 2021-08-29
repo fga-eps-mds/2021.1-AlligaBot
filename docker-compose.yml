@@ -2,8 +2,8 @@ version: '3.0'
 
 
 services:
-  rasa-bot:
-    container_name: rasa-bot
+  bot:
+    container_name: bot
     build: 
       context: .
       dockerfile: ./docker/bot.Dockerfile

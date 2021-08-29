@@ -1,6 +1,9 @@
 # Configurar o rasa para portugues
 Este e um tutorial de edição do rasa
 
+# Para utilizar este Tutorial primeiro faças os passos de instalação do rasa.
+
+Primeiro va para o link do rasa inicial [Rasa instalação](https://github.com/fga-eps-mds/2021-1-Bot/blob/dev_plusultra-from-docs_plusultra/docs/tutoriais/Tutorial_edicao_Rasa.md) 
 
 ## Começando
 Certifique-se de ir na config.yml e mudar linguagem para pt.
@@ -8,7 +11,7 @@ Certifique-se de ir na config.yml e mudar linguagem para pt.
     config.yml
 
     
-Depois va para a pasta com nome data.
+Depois va para a pasta com nome /data.
     Nesta caminho configure a os arquivos nos arquivos troque os greet por otimo neste 3 arquivos
 
     nlu.yml
@@ -49,7 +52,7 @@ Agora vamos para o arquivo fora da pasta data chamado:
 
     domain.yml
 
-e fazer a mesma coisa feito nos 3 arquivos de data:
+e fazer a mesma coisa feito nos 3 arquivos de /data:
 
 
     intents:

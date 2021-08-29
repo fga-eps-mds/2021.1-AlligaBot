@@ -45,9 +45,12 @@ Como rodar o projeto
 
 Políticas de Contribuição
 
-Template para criação de issues
+- [Politica de Branches](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)
+- [Politicas de Commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/commits.md)
 
-Template para criação de pull requests
+[Template para criação de issues](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/.github/ISSUE_TEMPLATE/custom.md)
+
+[Template para criação de pull requests](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/.github/pull_request_template.md)
 
 ## 👨‍💻 Desenvolvedores
 Capivara:ox: | PlusUltra :fleur_de_lis:| Slowbros:pig2:

@@ -37,15 +37,10 @@ Suba o ambiente de desenvolvimento rodando o seguinte comando:
 
     docker-compose up -d
 
-`-d` indica que os containers devem rodar em background. Você deve ver algo 
-assim no terminal:
+`-d` indica que os containers devem rodar em background. Para conversar com o bot,
+execute o seguinte:
 
-    Starting actions ... done
-    Starting rasa-bot ... done
-
-Para conversar com o bot, execute o seguinte:
-
-    docker exec -it rasa shell
+    docker exec -it bot rasa shell
 
 Note a flag `it`. Ela indica que o container vai ser executado no modo
 **iterativo** e com uma sessão de terminal ligada a ele. 
@@ -53,6 +48,14 @@ Note a flag `it`. Ela indica que o container vai ser executado no modo
 Depois que o prompt aparecer, em inglês, peça para ele te contar uma piada.
 O [servidor de ações](actions/actions.py) foi desenvolvido para 
 consultar uma API de piadas.
+
+Se você fizer alguma mudança nos parâmetros do bot (em `bot/domain.yml` e 
+`bot/data/*`) você deve treinar o bot:
+
+        docker exec -it -u root bot rasa train
+
+Quando você faz alterações (criando arquivos e diretórios) você deve
+ter permissões de root, é para isso que serve `-u root`.
 
 **-- Fim do mini tutorial --**
 

@@ -37,9 +37,9 @@ Por isso achamos necessária a divulgação de informações pertinenetes sobre 
 
 ## 🤝 Como contribuir para o projeto
 
-Guia de Contribuição
+[Guia de Contribuição](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/contribuir.md)
 
-Código de Conduta
+[Código de Conduta](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/conduta.md)
 
 Como rodar o projeto
 

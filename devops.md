@@ -92,8 +92,7 @@ Dá uma olhada [aqui](https://github.com/microsoft/vscode-remote-release/issues/
 
 
 ### 4 - VSCode não reconhece os módulos do rasa em venv
-Você precisa dizer o path pro interpretador python do ambiente
-virtual
+Você precisa dizer o path pro interpretador python do ambiente virtual
 
 Siga essas [instruções](https://stackoverflow.com/questions/54106071/how-can-i-set-up-a-virtual-environment-for-python-in-visual-studio-code).
 
@@ -101,20 +100,16 @@ Mas não sei se isso é realmente necessário porque era pra estar pegando do
 container Docker.
 
 
-### 5 - Quando o rasa reclamar de não ter permissão
-[Olhe aqui](https://rasa.com/docs/rasa-x/installation-and-setup/install/docker-compose/#mounted-directories). Pra falar a verdade, eu não sei como isso funciona só rodei
-
-        sudo chgrp -R root ./bot/* && sudo chmod -R 770 ./bot/*
-
-e foi.
 ## Referências
 - [Building a Rasa Assistant in Docker](https://rasa.com/docs/rasa/docker/building-in-docker/)
 - [docker run](https://docs.docker.com/engine/reference/commandline/run/)
 - [Deploying in docker compose](https://rasa.com/docs/rasa/docker/deploying-in-docker-compose/)
+- Esse me salvou: https://rasa.com/blog/custom-rasa-nlu-docker-container/
+- Outro que me salvou dos problemas com permissão https://github.com/RasaHQ/rasa/issues/4797#issuecomment-590237837
 
 
 ### Olhar depois
+- **https://github.com/rasahq/rasa/issues/4653**
 - https://github.com/airyhq/rasa-demo
 - https://github.com/rgstephens/jokebot/blob/master/Dockerfile
-- Esse me salvou: https://rasa.com/blog/custom-rasa-nlu-docker-container/
 - https://rasa.com/blog/the-complete-guide-to-deploying-your-rasa-assistant/

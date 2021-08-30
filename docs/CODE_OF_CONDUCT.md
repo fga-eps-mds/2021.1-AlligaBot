@@ -5,6 +5,8 @@
 | Data       | Versão | Descrição                      | Autor(es) |
 | :--------: | :----: | :----------------------------: | :-------: |
 | 30/08/2021 |  0.1   |     Abertura do documento      | [Matheus Sousa](https://github.com/gatotabaco) |
+| 30/08/2021 |  0.1.1   |     rename      | [Matheus Sousa](https://github.com/gatotabaco) |
+
 
 ## Comportamento
 

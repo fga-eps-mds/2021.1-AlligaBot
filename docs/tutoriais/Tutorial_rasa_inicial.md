@@ -32,6 +32,12 @@ Configure o ambiente virtual disponivel da linguagem python:
 Inicie o rasa:
 
     rasa init
+    
+    
+### Depois de iniciar o rasa vai pedir para cria o direito
+    
+    
+    Exemplo casa ,toda vez que for testar o bot tera que ir na pasta /casa e inciar os comandos
 
 Voltando para testar novamente:
         

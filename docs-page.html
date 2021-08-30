@@ -461,25 +461,261 @@
 					<!--//section-->
 
 					<section class="docs-section" id="item-1-3">
-						<h2 class="section-heading">Documento de Arquitetura</h2>
-						<p>Aqui vai ficar o Documento de Arquitetura</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
+						<section class='markdown-preview' data-use-github-style>
+
+							<h1 id="histórico-de-revisão">Documento de Arquitetura</h1>
+							<h2 id="histórico-de-revisão">Histórico de revisão</h2>
+
+							<table>
+								<thead>
+									<tr>
+										<th>Data</th>
+										<th>Versão</th>
+										<th>Alteração</th>
+										<th>Autor</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>10/08/2021</td>
+										<td>0.1</td>
+										<td>Abertura do documento de Arquitetura</td>
+										<td>Victor Eduardo</td>
+									</tr>
+									<tr>
+										<td>21/08/2021</td>
+										<td>0.2</td>
+										<td>Definição de tecnologias, e diagrama arquitetural</td>
+										<td>Victor Eduardo, Matheus Raphael</td>
+									</tr>
+								</tbody>
+							</table>
+							<h1 id="1-introdução">1. Introdução</h1>
+							<h2 id="11-finalidade">1.1 Finalidade</h2>
+							<p>Este documento tem como finalidade apresentar a arquitetura do projeto ChatBot, de forma que
+								fique de fácil entedimento a estrututra arquitetural do projeto, e sejam mostradas todas as
+								decisões relacionadas a ela.</p>
+							<h2 id="12-escopo">1.2 Escopo</h2>
+							<p>Essa documentação engloba as funções visadas pelo projeto, além das tecnologias usadas, seu
+								diagrama de relações, e casos de uso. Engloba também algumas outras informações técnicas como
+								características de desempenho e qualidade. O projeto vem sendo desenvolvido por alunos da
+								UNB-FGA, na disciplina MDS.</p>
+							<h2 id="13-definições-acrônimos-e-abreviações">1.3 Definições, acrônimos e abreviações</h2>
+							<table>
+								<thead>
+									<tr>
+										<th>Abreviação</th>
+										<th>Significado</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>API</td>
+										<td>Application Programming Interface</td>
+									</tr>
+									<tr>
+										<td>FGA</td>
+										<td>Faculdade do Gama</td>
+									</tr>
+									<tr>
+										<td>MDS</td>
+										<td>Métodos de Desenvolvimento de Software</td>
+									</tr>
+									<tr>
+										<td>NLU</td>
+										<td>Natural-language understanding</td>
+									</tr>
+									<tr>
+										<td>UNB</td>
+										<td>Universidade de Brasília</td>
+									</tr>
+								</tbody>
+							</table>
+							<h2 id="14-referências">1.4 Referências</h2>
+							<ul>
+								<li>Chat Bot. Disponível em <a
+										href="https://github.com/fga-eps-mds/2021-1-Bot">https://github.com/fga-eps-mds/2021-1-Bot</a>.
+									Acesso em 10/08/2021.</li>
+								<li>Como documentar a Arquitetura de Software. Disponível em <a
+										href="http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx">http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx</a>.
+									Acesso em 10/08/2021.</li>
+								<li>Documento de Arquitetua GloriaBot. Disponível em: <a
+										href="https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/master/docs/DocumentoDeArquitetura.md">https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/master/docs/DocumentoDeArquitetura.md</a>.
+									Acesso em 10/08/2021.</li>
+								<li>Documento de Arquitetura Tino. Disponível em: <a
+										href="https://github.com/fga-eps-mds/2019.1-Tino/blob/master/docs/documento-de-arquitetura.md">https://github.com/fga-eps-mds/2019.1-Tino/blob/master/docs/documento-de-arquitetura.md</a>.
+									Acesso em 10/08/2021.</li>
+								<li>Documento de Arquitetura Vamos Cuidar. Disponível em: <a
+										href="https://fga-eps-mds.github.io/2020.1-VC_Usuario/#/docs/Documento_de_Arquitetura">https://fga-eps-mds.github.io/2020.1-VC_Usuario/#/docs/Documento_de_Arquitetura</a>.
+									Acesso em 10/08/2021.</li>
+							</ul>
+							<h2 id="15-visão-geral">1.5 Visão Geral</h2>
+							<p>Este documento está dividído em 7 grandes tópicos, com subdivisões, com o objetivo final de
+								detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações.
+								Está dividido nos seguintes grandes tópicos:</p>
+							<table>
+								<thead>
+									<tr>
+										<th></th>
+										<th>Tópico</th>
+										<th>Descrição</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Introdução</td>
+										<td>Fornece ao leitor uma visão geral do conteúdo abordado no documento</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Representação Arquitetural</td>
+										<td>Detalha a arquitetura utilizada no projeto e como ela está organizada</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Metas e Restrições da Arquitetura</td>
+										<td>Descreve os objetivos do projeto, bem como suas restrições, do ponto de vista
+											arquitetural</td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>Visão dos Casos de Uso</td>
+										<td>Descreve as partes significativas do ponto de vista da arquitetura do modelo de casos
+											de uso</td>
+									</tr>
+									<tr>
+										<td>5</td>
+										<td>Visão Lógica</td>
+										<td>Descreve as partes significativas do ponto de vista da arquitetura do modelo de design
+										</td>
+									</tr>
+									<tr>
+										<td>6</td>
+										<td>Tamanho e Desempenho</td>
+										<td>Descreve as características de desempenho do Software, bem como as restrições
+											estabelecidas e possíveis falhas</td>
+									</tr>
+								</tbody>
+							</table>
+							<h1 id="2-representação-da-arquitetura">2. Representação da Arquitetura</h1>
+							<p><img alt="Captura de tela de 2021-08-21 16-03-24"
+									src="https://user-images.githubusercontent.com/78758172/130332389-f7fb3872-bf5c-4b54-adc6-ebb5a9a08312.png">
+							</p>
+							<p>A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima. O ciclo
+								começa quando o usuário envia uma mensagem para o bot (@??), após isso a mensagem é repassada ao
+								bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem, após isso, no Rasa
+								Core, é feita a etapa de identificar a intenção do usuário. Por último o Rasa escolherá a
+								resposta mais adequada através do Rasa Actions, e retornará tal resposta ao usuário via
+								Telegram.
+								Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, realizada através
+								do Raza, uma vez que o Front-end seria exatamente a interface do app Telegram que é responsável
+								pela interação com o usuário, ou seja receber a mensagem do usuário e passá-la ao bot, e de
+								mostrar ao usuário o retorno dado pelo bot.</p>
+							<h2 id="21-tecnologias">2.1 Tecnologias</h2>
+							<h3 id="211-rasa">2.1.1 Rasa</h3>
+							<p><img alt="Captura de tela de 2021-08-21 16-00-44"
+									src="https://user-images.githubusercontent.com/78758172/130332385-f1e97e13-94c1-4916-990e-3d1daf4d87ee.png">
+							</p>
+							<p>Para a construção do sistema usaremos o Rasa, um framework utilizado para construção de bot's de
+								conversação. O framework conta com 3 principais componentes, o Rasa NLU que é responsável por
+								processar a mensagem enviada pelo usuário, o Rasa Core que é responsável por identificar a
+								intenção do usuário e o Rasa Actions, que dada a intenção do usuário, este escolhe a resposta
+								mais adequada a se retornar ao usuário.
+								O Rasa aprende de acordo com que for sendo treinado, através de seu machine learning, e através
+								do NLU consegue-se fazer também um bot "mais humano".</p>
+							<h3 id="212-telegram">2.1.2 Telegram</h3>
+							<p><img alt="telegram"
+									src="https://user-images.githubusercontent.com/78758172/130331794-8b17a2c5-3cf8-42ba-a22f-9257b47d5bd3.png">
+							</p>
+							<p>O app no qual o usuário poderá interagir com o botserá o app de troca de mensagens Telegram. A
+								implementação de bot's à plataforma é gratuita e disponibilizada pelo próprio app.</p>
+							<h3 id="213-python">2.1.3 Python</h3>
+							<p><img alt="python"
+									src="https://user-images.githubusercontent.com/78758172/130331804-81e4fc0b-1138-40c5-8b85-1755a9c3eab3.png">
+							</p>
+							<p>A linguagem de programação a ser utilizada no bot será o Python, já que o Rasa também a utiliza.
+							</p>
+							<h1 id="3-metas-e-restrições-de-arquitetura">3. Metas e restrições de Arquitetura</h1>
+							<h2 id="31-metas">3.1 Metas</h2>
+							<p>O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Telegram, um app de
+								troca de mensagens, e tem a função de informar o usuário acerca de conteúdos sobre o COVID-19
+								com informações fornecidas, dentro outros, pelo site <a href="coronacidades.org">Corona
+									Cidades</a>, sobre como prevenir o contágio, sobre gestão pública, e informações relacionadas
+								à vacinação na região do usuário.</p>
+							<h2 id="32-restrições">3.2 Restrições</h2>
+							<ul>
+								<li>Possuir conexão com a internet</li>
+								<li>Dispositivo com acesso ao Telegram</li>
+								<li>O sistema entenderá apenas mensagens em Português - BR</li>
+							</ul>
+							<h2 id="33-requisitos-não-funcionais">3.3 Requisitos não funcionais</h2>
+							<ul>
+								<li>O sistema deve possui integração com a plataforma Telegram</li>
+								<li>O sistema deve conversar com o usuário em linguagem natural</li>
+								<li>O sistema deve ser capaz de receber a localização do usuário, quando necessário</li>
+								<li>O bot deve ser treinado a fim de conseguir atender ao máximo de usuários possíveis</li>
+							</ul>
+							<h1 id="4-visão-dos-casos-de-uso">4. Visão dos Casos de Uso</h1>
+							<h2 id="41-atores-de-casos-de-uso">4.1 Atores de Casos de Uso</h2>
+							<table>
+								<thead>
+									<tr>
+										<th>Ator</th>
+										<th>Descrição</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Usuário</td>
+										<td>O usuário poderá interagir com o bot através do chat da plataforma Telegram,
+											utilizando linguagem natural</td>
+									</tr>
+								</tbody>
+							</table>
+							<h2 id="42-descrições-de-casos-de-uso">4.2 Descrições de Casos de Uso</h2>
+							<table>
+								<thead>
+									<tr>
+										<th>Épico</th>
+										<th>Caso de uso</th>
+										<th>Descrição</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>E1</td>
+										<td>Solicitação de informações a respeito da Gestão Pública</td>
+										<td>Buscar e dar o retorno sobre Gestão Pública</td>
+									</tr>
+									<tr>
+										<td>E2</td>
+										<td>Solicitação de informações a respeito da vacinação na região</td>
+										<td>Obter a localização do usuário, buscar e dar o retorno sobre a vacinação em tal região
+										</td>
+									</tr>
+									<tr>
+										<td>E3</td>
+										<td>Solicitação de informações a respeito da prevenção</td>
+										<td>Buscar e dar o retorno sobre prevenção no(s) lugar(es), solicitado(s) pelo usuário
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<h1 id="5-visão-lógica">5. Visão Lógica</h1>
+							<h2 id="51-diagrama-de-pacotes">5.1 Diagrama de Pacotes</h2>
+							<ul>
+								<li>O pacote 2021-1-Bot é o pacote principal do do projeto, contém todos os outros sub-pacotes e
+									documentos disponíveis no documento</li>
+								<li>Toda a documentação do projeto pode ser encontrada na pasta docs</li>
+							</ul>
+							<h1 id="6-tamanho-e-desempenho">6. Tamanho e desempenho</h1>
+							<p>Este bot atuará primeiramente no Telegram, seu tamanho e desempenho serão comuns com aplicações
+								semelhantes de ChatBots que utilizam a tecnologia Rasa.
+								O desempenho poderá ser afetado devido a serviços externos, como consultas de dados sobre
+								vacinações ou instabilidades de sistemas.</p>
+
+						</section>
 					</section>
 					<!--//section-->
 

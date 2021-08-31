@@ -68,7 +68,7 @@
 					<!--//social-list-->
 					<a href="./page-capivaras.html" class="btn btn-primary d-none d-lg-flex">Equipe Capivaras</a>
 				</div>
-				
+
 				<!--//docs-top-utilities-->
 			</div>
 			<!--//container-->
@@ -879,48 +879,255 @@
 						<!--//docs-intro-->
 					</header>
 					<section class="docs-section" id="item-8-1">
-						<h2 class="section-heading">Politica de Commits</h2>
-						<p>Aqui vai ficar a politica de commits</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
+						<section class='markdown-preview' data-use-github-style>
+							<h1 id="política-de-commits">Política de Commits</h1>
+							<p>Padronização dos commits no projeto.</p>
+							<h2 id="histórico-de-versões">Histórico de Versões</h2>
+							<table>
+								<thead>
+									<tr>
+										<th align="center">Data</th>
+										<th align="center">Versão</th>
+										<th align="center">Descrição</th>
+										<th align="center">Autor</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="center">09/08/2021</td>
+										<td align="center">0.1</td>
+										<td align="center">Criação da política de commits</td>
+										<td align="center"><a href="https://github.com/LamequeFernandes">Lameque Fernandes</a>
+										</td>
+									</tr>
+									<tr>
+										<td align="center">11/08/2021</td>
+										<td align="center">0.2</td>
+										<td align="center">Alterações</td>
+										<td align="center"><a href="https://github.com/LamequeFernandes">Lameque Fernandes</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<h2 id="semântica-do-commit">Semântica do Commit</h2>
+							<p>Os commits devem seguir o seguinte padrão:</p>
+							<h3 id="princípios">Princípios:</h3>
+							<h4 id="commits-atômicos">Commits atômicos</h4>
+							<p>Sempre dividir em pequenos e significativos commits, fazendo com que cada commit tenha apenas
+								uma
+								funcionalidade.</p>
+							<h4 id="commits-em-português">Commits em português</h4>
+							<p>Por ser um projeto voltado totalmente para um público brasileiro e por toda equipe ter mais
+								afinidade com o português, foi decidido que todos os commits serão em pt-BR.</p>
+							<h3 id="formato">Formato:</h3>
+							<i><b>
+								(#número da issue): assunto
+							</i></b>
+
+							<h4 id="tipos">Tipos:</h4>
+							<ul>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/bulb.png"
+										alt="bulb" title=":bulb:" class="emoji"> quando adicionar nova funcionalidade</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/repeat.png"
+										alt="repeat" title=":repeat:" class="emoji"> quando alguma alteração for feita</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/cool.png"
+										alt="cool" title=":cool:" class="emoji"> quando melhorias de formato/estrutura do código
+								</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/racehorse.png"
+										alt="racehorse" title=":racehorse:" class="emoji"> quando melhorar o desempenho</li>
+								<li>🚱 quando resolver memory leaks</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/pencil.png"
+										alt="pencil" title=":pencil:" class="emoji"> quando escrever documentação</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/bug.png" alt="bug"
+										title=":bug:" class="emoji"> quando consertar um problema</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/fire.png"
+										alt="fire" title=":fire:" class="emoji"> quando remover código ou arquivos</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/green_heart.png"
+										alt="green_heart" title=":green_heart:" class="emoji"> quando consertar problemas de
+									Integração Contínua</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/white_check_mark.png"
+										alt="white_check_mark" title=":white_check_mark:" class="emoji"> quando adicionar testes
+								</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/lock.png"
+										alt="lock" title=":lock:" class="emoji"> quando lidar com segurança</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/arrow_up.png"
+										alt="arrow_up" title=":arrow_up:" class="emoji"> quando realizar o upgrade de dependências
+								</li>
+								<li><img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/arrow_down.png"
+										alt="arrow_down" title=":arrow_down:" class="emoji"> quando realizar downgrade de
+									dependências</li>
+							</ul>
+							<h4 id="assunto">Assunto:</h4>
+							<ul>
+								<li>Deve possuir no máximo 50 caracteres</li>
+								<li>Devem estar em letras minúsculas</li>
+							</ul>
+							<p><em>Exemplo de commit:</em>
+								<br>
+								<i><b>
+									<img height="20"
+										src="/usr/share/atom/resources/app.asar/node_modules/emoji-images/pngs/bulb.png"
+										alt="bulb" title=":bulb:" class="emoji">(#02): botão na página inicial"
+								</i></b>
+							</p>
+							<h2 id="referências">Referências</h2>
+							<p>DARTORA, João. Tudo o que você precisa saber sobre commits semânticos. <em>Ilegra</em>.
+								Disponível
+								em: <a
+									href="https://ilegra.com/blog/tudo-o-que-voce-precisa-saber-sobre-commits-semanticos/">https://ilegra.com/blog/tudo-o-que-voce-precisa-saber-sobre-commits-semanticos/</a>.
+								Acesso em: 09 de ago. de 2021.</p>
+							<p>Políticas de Commit. Disponível em: <a
+									href="https://fga-eps-mds.github.io/2020.1-Grupo6/policies/commits/">https://fga-eps-mds.github.io/2020.1-Grupo6/policies/commits/</a>.
+								Acesso em: 09 de ago. de 2021</p>
+						</section>
 					</section>
 					<!--//section-->
 
 					<section class="docs-section" id="item-8-2">
-						<h2 class="section-heading">Politica de Branches</h2>
-						<p>Aqui vai ficar a politica de Branches</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
-						<p>........</p>
+						<section class='markdown-preview' data-use-github-style>
+							<h1 id="política-de-branches">Política de Branches</h1>
+							<p>Padronização das branches no projeto.</p>
+							<h2 id="histórico-de-versões">Histórico de Versões</h2>
+							<table>
+								<thead>
+									<tr>
+										<th align="center">Data</th>
+										<th align="center">Versão</th>
+										<th align="center">Descrição</th>
+										<th align="center">Autor</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="center">10/08/2021</td>
+										<td align="center">0.1</td>
+										<td align="center">Criação da política de branch</td>
+										<td align="center"><a href="https://github.com/LamequeFernandes">Lameque Fernandes</a>
+										</td>
+									</tr>
+									<tr>
+										<td align="center">11/08/2021</td>
+										<td align="center">0.2</td>
+										<td align="center">Alterações</td>
+										<td align="center"><a href="https://github.com/LamequeFernandes">Lameque Fernandes</a>
+										</td>
+									</tr>
+									<tr>
+										<td align="center">23/08/2021</td>
+										<td align="center">0.2.1</td>
+										<td align="center">Correção do formato e prefixos</td>
+										<td align="center"><a href="https://github.com/LamequeFernandes">Lameque Fernandes</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<h2 id="padronização-das-branches">Padronização das Branches</h2>
+							<h3 id="prefixos">Prefixos:</h3>
+							<ul>
+								<li><code
+										style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">feature</code>
+								</li>
+								<li><code
+										style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">hotfix</code>
+								</li>
+								<li><code
+										style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">documentation</code>
+								</li>
+								<li><code
+										style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">improvement</code>
+								</li>
+							</ul>
+							<h3 id="formato">Formato:</h3>
+							<p><i><b></b></i></p><i><b>
+								</b></i><b></b>
+							<p><b><i>(#número da issue)/assunto
+									</i></b>
+								<br>
+							</p>
+							<p>Não esquecer de dividir as palavras(sempre minúsculas) do assunto com "-".</p>
+							<p>Exemplo:
+								<br>
+								<i><b>
+										feature(#87)/novo-menu
+									</b></i>
+							</p>
+							<h3 id="branches">Branches:</h3>
+							<ul>
+								<li>
+									<p><strong>Branch main:</strong> Branch que contém o código em nível de produção, será o
+										código mais consolidado existente na aplicação. Nenhum integrante dos times é autorizado a
+										fazer commits diretamente na <em>main.</em></p>
+								</li>
+								<li>
+									<p><strong>Branch develop:</strong>
+										A main irá contér todo código já testado, versionado que será entregue ao cliente e a
+										<strong>develop</strong> é onde todo fluxo de trabalho irá ocorrer antes de fazer o
+										release versionado que será feito merge na main.
+										Quando as features são terminadas, elas são juntadas nesta branch, testadas e somente
+										depois as atualizações da develop passam pelo processo de juntar as novas atualizações com
+										a branch main;
+										A <strong>develop</strong> deve sempre conter o código mais atual, onde as branchs de
+										features serão ramificadas tendo ela como base.</p>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<p><strong>Branches feature:</strong> Como o nome já diz, são branches na qual são
+										desenvolvidos novos recursos ao projeto. São criadas começando com o prefixo
+										<strong>feature/</strong>.
+										Exemplo: <code
+											style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">feature(#22)/novo-layout</code>
+									</p>
+								</li>
+								<li>
+									<p><strong>Branchs hotfix:</strong> Branches no qual são realizadas correções de bugs São
+										criadas começando com o prefixo <strong>hotfix/</strong>.
+										Exemplo: <code
+											style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">hotfix(#02)/correcao-botao</code>
+									</p>
+								</li>
+								<li>
+									<p><strong>Branches documentation:</strong> Branches na qual são desenvolvidos os documentos
+										do projeto. São ciradas começando com o prefixo <strong>documentation/</strong>
+										Exemplo: <code
+											style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">documentation(#49)/template-documento</code>
+									</p>
+								</li>
+								<li>
+									<p><strong>Branches improvement:</strong> Branche para melhoria de algum componente e afins,
+										seja de performance, de escrita de layout, etc. Exemplo: <code
+											style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">improvement(#101)/otimizacao-layout</code>
+									</p>
+								</li>
+							</ul>
+							<h3 id="princípios">Princípios:</h3>
+							<ul>
+								<li>Por ser um projeto voltado totalmente para um público brasileiro e por toda equipe ter mais
+									afinidade com o português, foi decidido que todas as braches serão em pt-BR.</li>
+							</ul>
+							<h2 id="referências">Referências</h2>
+							<p>DULCETTI, Bruno. Padrões e nomenclaturas no Git. <em>BrunoDulcetti</em>. Disponível em: <a
+									href="https://www.brunodulcetti.com/padroes-e-nomenclaturas-no-git/">https://www.brunodulcetti.com/padroes-e-nomenclaturas-no-git/</a>.
+								Acesso em: 10 de ago. de 2021.</p>
+							<p>Políticas de Branches. Disponível em: <a
+									href="https://fga-eps-mds.github.io/2018.2-ComexStat/docs/politicaBranches">https://fga-eps-mds.github.io/2018.2-ComexStat/docs/politicaBranches</a>.
+								Acesso em: 10 de ago. de 2021</p>
+							<p>HADLER, Mikael. Utilizando o fluxo Git Flow. <em>Medium</em>. Disponível em: <a
+									href="https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04">https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04</a>.
+								Acesso em: 16 de ago. de 2021</p>
+						</section>
 					</section>
 					<!--//section-->
 

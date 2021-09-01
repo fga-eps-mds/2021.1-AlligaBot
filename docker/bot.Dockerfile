@@ -6,7 +6,7 @@ ADD ./bot /app
 
 WORKDIR /app
 
-RUN rasa train nlu
+RUN rasa train
 
 USER 1001
 

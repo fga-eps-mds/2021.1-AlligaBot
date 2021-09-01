@@ -8,14 +8,13 @@ services:
       context: .
       dockerfile: ./docker/bot.Dockerfile
     restart: unless-stopped
+    user: root
     ports:
       - 8080:8080
     volumes: 
       - ./bot:/app
     depends_on: 
       - actions
-    # command:
-    #   - run
   
   actions:
     container_name: actions

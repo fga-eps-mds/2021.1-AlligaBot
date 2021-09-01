@@ -1,0 +1,26 @@
+version: "2.0"
+
+intents:
+  - cumprimentar
+  - despedida
+  - covid
+  - bot_alligabot
+
+responses:
+  utter_cumprimentar:
+  - text: "Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
+  - text: "O que voce quer saber?"
+  
+  utter_covid:
+  - text: "COVID-19 e uma nova espécie coronavirus, que afeta o sistema imunologico e respiratorio"
+
+  utter_despedida:
+  - text: "Tchau"
+  - text: "Obrigado, até mais!"
+
+  utter_alligabot:
+  - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção,politicas publicas e vacinação"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

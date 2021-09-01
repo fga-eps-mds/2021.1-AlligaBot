@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+
+- rule: Despedida do bot 
+  steps:
+  - intent: despedida
+  - action: utter_despedida
+
+- rule: Pergunta de desafio para o bot
+  steps:
+  - intent: bot_alligabot
+  - action: utter_alligabot

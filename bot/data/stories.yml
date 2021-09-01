@@ -1,0 +1,23 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+
+
+- story: sad path 1
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+  - intent: covid
+  - action: utter_covid
+
+- story: sad path 2
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+
+

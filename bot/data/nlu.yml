@@ -1,0 +1,36 @@
+version: "2.0"
+
+nlu:
+- intent: cumprimentar
+  examples: |
+    - Oi
+    - Ola
+    - Bom dia
+    - Boa Tarde
+    - Eae
+    - eae
+    - oi
+    
+- intent: despedida
+  examples: |
+    - Boa noite
+    - Ate mais
+    - flw
+    - obrigado bot
+    - tchau
+
+- intent: covid
+  examples: |
+    - o que e covid ?
+    - covid
+    
+- intent: bot_alligabot
+  examples: |
+    - Voce e um bot ?
+    - voce eh um bot
+    - vc bot
+    - bot
+    - Voce e humano?
+    - humano
+    
+

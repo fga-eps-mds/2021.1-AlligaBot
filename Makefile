@@ -1,11 +1,32 @@
-current_dir := $(shell pwd)
+# monta o container
+build:
+	@echo "Buildando Containers Docker."
+	sudo docker-compose build
 
+# roda o container em segundo plano
+run:
+	sudo docker-compose up -d
+	@echo "Containers Docker estão rodando em segundo plano."
+
+# monta e roda o container em segundo plano
+run-build:
+	@echo "Buildando Containers Docker."
+	sudo docker-compose build
+	sudo docker-compose up -d
+	@echo "Containers Docker estão rodando em segundo plano."
+
+# para o container
 stop:
-	sudo docker-compose stop
+	sudo docker-compose down
+	@echo "Containers Docker foram parados."
 
-run-shell:
-	sudo docker run -it -v $(current_dir)/bot:/app -p 5005:5005 --net my-project rasa/rasa:2.8.2-full shell
+# abre o shell para comunicação com o bot
+shell:
+	@echo "Iniciando shell iterativo."
+	sudo docker exec -it bot rasa shell
 
-# train:
-	# mkdir -p bot/models
-	# sudo docker run -v $(current_dir):/bot rasa/rasa:2.8.3-full train --domain domain.yml --data data --out models
+# treina o bot
+train:
+	@echo "Iniciando treino."
+	sudo docker exec -it bot rasa train
+

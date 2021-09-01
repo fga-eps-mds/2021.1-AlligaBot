@@ -3,8 +3,11 @@
 A reunião acerca das Epics, Features e User Stories foi realizada com sucesso. Mais tarde O integrante [Pedro](https://github.com/PedroLSF) organizou e documentou as ideias, ficando da seguinte forma:
 
 
-[imagem]
-
+![a](https://user-images.githubusercontent.com/44625056/131229648-454b1d94-386b-4570-b3eb-27de44c7207e.jpg)
+![b](https://user-images.githubusercontent.com/44625056/131229649-cc7874ac-5b84-419c-9692-a881517bc481.jpg)
+![c](https://user-images.githubusercontent.com/44625056/131229652-52e66361-f757-4a9d-ab30-0f899deba3b6.jpg)
+![d](https://user-images.githubusercontent.com/44625056/131229654-200f45a6-0122-46f6-a19d-3892f73464c6.jpg)
+![e](https://user-images.githubusercontent.com/44625056/131229656-79ba1fce-d4d6-4c61-bafa-f9e19ce7aea0.jpg)
 
 A partir do entendimento das Epics, Features e User Stories o membro da equipe [Victor](https://github.com/victorear05), após concluir os estudos sobre arquitetura dentro do contexto do bot, criou um fluxograma inicial:
 
@@ -24,6 +27,7 @@ Já o integrante [Yudi](https://github.com/yudi-azvd) estudou e tentou implement
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 21/08/2021 |    0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 28/08/2021 |    0.2   | Adicionando imagens | [Amanda Nobre](https://github.com/AmandaNbr)|
 
 ## Objetivos
 

@@ -1,8 +1,14 @@
+| Data   | Versão | Modificação  | Autor  |
+| :- | :- | :- | :- |
+| 19/08/2021 | 0.1 | Criação da versão inicial do documento | Kathlyn Lara |
+| 25/08/2021 | 0.2 | Documento completo | Kathlyn Lara |
+| 01/09/2021 | 0.3 | Modificação do nome do bot | Kathlyn Lara |
+
 # 1. Nome do Bot
-Charley, o Bot
+AlligaBot
 
 ## 1.1 Ferramentas usadas para a escolha do nome
-Usei um [site](https://www.behindthename.com/random/) para me gerar nomes aleatórios. Usei como filtragem, nomes ambíguos ou neutros. Na primeira e segunda vezes que gerei, os nomes eram longos demais para um bot ou o significado de seu nome não era bom para um bot de ajuda. Já na terceira vez, o nome Charley foi sorteado, pesquisei e significa [GENEROSIDADE, CORTESIA, INFLUÊNCIA, CARIDADE, COMPANHEIRISMO](https://www.significado.origem.nom.br/nomes/charley.htm#:~:text=GENEROSIDADE%2C%20CORTESIA%2C%20INFLU%C3%8ANCIA%2C%20CARIDADE%2C%20COMPANHEIRISMO), combinando perfeitamente com o que esperamos do bot.
+Devido a piada que quem vacinar, vira jacaré, decidimos escolher um nome que nos lembra jacaré. 
 
 # 2. Personalidade do Bot
 [Cônsul - ESFJ](https://www.16personalities.com/br/personalidade-esfj)
@@ -17,14 +23,10 @@ Usei um [site](https://www.behindthename.com/random/) para me gerar nomes aleat�
 ![mbti](img/esfj.jpeg)
 
 ## 2.1 Ferramentas usadas para a escolha da personalidade
-Teste no [16personalities](https://www.16personalities.com/br/teste-de-personalidade) baseado no que esperamos de Charley.
+Teste no [16personalities](https://www.16personalities.com/br/teste-de-personalidade) baseado no que esperamos do AlligaBot.
 
 # 3 Referências
 
 >[1. Lino, Bot](https://github.com/fga-eps-mds/2018.2-Lino/edit/master/docs/PersonalidadeDoBot.md)
 
->[2. Random Name Generator](https://www.behindthename.com/random/)
-
->[3. Significado do nome Charley](https://www.significado.origem.nom.br/nomes/charley.htm#:~:text=GENEROSIDADE%2C%20CORTESIA%2C%20INFLU%C3%8ANCIA%2C%20CARIDADE%2C%20COMPANHEIRISMO)
-
->[4. Personalidade ESFJ](https://www.16personalities.com/br/personalidade-esfj)
+>[2. Personalidade ESFJ](https://www.16personalities.com/br/personalidade-esfj)

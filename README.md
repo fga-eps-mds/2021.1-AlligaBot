@@ -1,17 +1,17 @@
 
 <p align="center">
-  <img width="200" src="docs/img/charley.jpeg">
+  <img width="200" src="docs/img/logo.png">
 </p>
-<h1 align="center">Charley Bot </h1>
-<small> Nome e logo temporários</small>
+<h1 align="center">AlligaBot</h1>
 
 <!-- [badges] [badges] [badges] [badges]  -->
 
 
 ## 💻 Visão Geral
-O Charley Bot propõe-se a ajudar a combater a pandemia de COVID-19 facilitando a 
-divulgação de importantes informações através de um bot que responderá as mais 
-frequentes duvidas.
+O AlligaBot propõe-se a ajudar a combater desinformação
+no contexto da pandemia do COVID-19, facilitando a  divulgação 
+de informações importantes através de um bot que responderá as duvidas
+mais frequentes.
 	
 
 ## 💡 Ideia e Incentivo
@@ -74,7 +74,8 @@ terminal reclamar de permissão negada para editar os arquivos dentro de
 
     sudo chown -R $USER bot/
 
-Para desligar os containeres basta executar:
+Não se esqueça de desligar os containers quando terminar sua sessão de
+desenolvimento. Para desligar os containeres basta executar:
 
     docker-compose down
 

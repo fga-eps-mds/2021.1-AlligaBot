@@ -17,8 +17,8 @@ mais frequentes.
 ## 💡 Ideia e Incentivo
 Com o decorrer da pandemia percebemos a preocupante e crescente desinformação da
 população, e quando tal fato está relacionado a uma pandemia global é 
-extremamtente perigoso. Por isso achamos necessária a divulgação de informações 
-pertinenetes sobre a COVID-19 para informar a população e, de alguma forma, 
+extremamente perigoso. Por isso achamos necessária a divulgação de informações 
+pertinentes sobre a COVID-19 para informar a população e, de alguma forma, 
 ajudar no combate mundial ao vírus.
 
 <!-- ## ⚙️ Funcionalidades
@@ -52,17 +52,21 @@ Faça build das imagens rodando o seguinte comando:
     make build 
 
 Se esta é a su primeira vez executando esse comando, isso pode levar 
-alguns minutos. Em seguida, treine o bot executando:
+alguns minutos. Em seguida, suba os containers do projeto
+
+    make run
+
+Treine o bot:
 
     make train
-
 
 Para conversar com o bot, execute o seguinte:
 
     make shell
 
-Não se esqueça de desligar os containers quando terminar sua sessão de
-desenolvimento. Para desligar os containeres basta executar:
+Para sair da conversa com o bot, execute `/stop`. Não se esqueça de desligar
+os containers quando terminar sua sessão de desenvolvimento. Para desligar os
+contêiner basta executar:
 
     make stop
 
@@ -83,8 +87,8 @@ Como rodar o projeto
 
 Políticas de Contribuição
 
-- [Politica de Branches](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)
-- [Politicas de Commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/commits.md)
+- [Política de Branches](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)
+- [Políticas de Commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/commits.md)
 
 
 [Template para criação de issues](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/.github/ISSUE_TEMPLATE/custom.md)

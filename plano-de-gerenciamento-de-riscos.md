@@ -13,7 +13,7 @@ O Plano de Gerenciamento de Riscos fornece informações sobre papéis e respons
 O objetivo do Plano de Gerenciamento de Riscos é documentar os riscos associados ao projeto e as ações a serem tomadas para que eles sejam mitigados ou contingenciada.
 
 ## 3. Estrutura Analítica dos Riscos
-Uma forma comum para estruturar categorias dos riscos, representadas hierarquicamente, usa a estrutura analítica dos riscos (EAR). Uma EAR possibilita a melhor vizualização de todos as fontes de riscos, sendo util para identificação e categorização.
+Uma forma comum para estruturar categorias dos riscos, representadas hierarquicamente, usa a estrutura analítica dos riscos (EAR). Uma EAR possibilita a melhor vizualização de todos as fontes de riscos, sendo útil para identificação e categorização.
 
 ![Riscos - Diagrama de atividade](https://user-images.githubusercontent.com/44625056/131579354-8e01f3bc-71e4-4dd1-b20a-aeb26ec6b82c.png)
 Estrutura Analítica dos Riscos deste projeto.
@@ -23,7 +23,7 @@ Estrutura Analítica dos Riscos deste projeto.
 |--------------|-----------------------------------------------------------------------------------------------------------------|
 | Requisitos   | Riscos gerados pela falta de mapeamento e elicitação de requisitos                                                      |
 | Tecnologias  | Riscos gerados pela tecnologia usada                                                                            |
-| Complexidade | Riscos gerados pela falta de conhecimento e pela forma na qual a equipe de desenvolvimento e adapta a tecnologia escolhida |
+| Complexidade | Riscos gerados pela falta de conhecimento e pela forma na qual a equipe de desenvolvimento se adapta a tecnologia escolhida |
 | Qualidade    | Riscos decorrentes da qualidade do produto final                                                                |
 
 ### 3.2. Risco de Gerenciamento
@@ -32,14 +32,14 @@ Estrutura Analítica dos Riscos deste projeto.
 | Estimativa   | Riscos que podem afetar o tempo de produção do projeto                                       |
 | Controle     | Riscos relacionados ao controle de atividades                                                |
 | Planejamento | Riscos relacionados ao planejamento de confecção do projeto                                  |
-| Comunicação  | Riscos relacionados às atividades e meio de comunicação, como falta de comunicação da equipe |
+| Comunicação  | Riscos relacionados às atividades e meio de comunicação, como ruídos ou falta de comunicação da equipe |
 
 ### 3.3. Risco Organizacional
-| Tipo         | Descrição                                                                                                                                 |
-|--------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Recursos     | Riscos gerados pela falta de material humano e/ou tecnológico, como perda ou defeitos em equipamentos ou membros que abandonam o projeto. |
-| Priorização  | Riscos gerados pela má escolha de histórias de usuários na Sprint                                                                                     |
-| Dependências | Riscos que podem afetar a evolução do projeto                                                                                             |
+| Tipo         | Descrição                                                                                                                                  |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Recursos     | Riscos gerados pela falta de recursos humanos e/ou tecnológicos, como perda ou defeitos em equipamentos ou membros que abandonam o projeto.|
+| Priorização  | Riscos gerados pela má aplicação da técnica moscow na escolha de histórias de usuários na Sprint                                           |
+| Dependências | Riscos que podem afetar a evolução do projeto                                                                                              |
 
 ### 3.4. Risco Externo
 | Tipo         | Descrição                                                                                                |
@@ -66,12 +66,11 @@ Estrutura Analítica dos Riscos deste projeto.
 | RN12 | Houver mudança no escopo                                                  | da falha no planejamento                                           | atraso e necessidade de replanejamento ou projeto não ser concluído a tempo                            | Planejamento           |
 | RN13 | Houver falta de comunicação na equipe                                     | da não utilização dos meios de comunicação definidos               | dificuldade no gerenciamento da equipe por parte do Scrum Master e falta de alinhamento das equipes    | Comunicação            |
 | RN14 | Houver problemas na comunicação da equipe                                 | do número de membros                                               | dificuldade no gerenciamento da equipe por parte do Scrum Master e falta de alinhamento das equipes    | Comunicação            |
-| RN15 | Membros da equipe abandonarem o projeto                                   | da desmotivação ou sobrecarga                                      | sobrecarga entre os membros restantes e necessidade de replanejamento                                  | Recursos               |
-| RN16 | Membros da equipe abandonarem o projeto                                   | da pandemia                                                        | sobrecarga entre os membros restantes e necessidade de replanejamento                                  | Recursos/Pandemia      |
-| RN17 | Houver perda ou defeitos em equipamentos                                  | de mal uso ou acidentes                                            | atraso na entrega do projeto e necessidade de replanejamento                                           | Recursos               |
-| RN18 | Houver o cancelamento do projeto                                          | de falta de interesse do cliente                                   | interrupção do projeto                                                                                 | Cliente                |
-| RN19 | A qualidade do software não corresponder às expectativas do cliente       | de má implementação                                                | descontentamento do Cliente e possibilidade de cancelamento do projeto                                 | Cliente/Qualidade      |
-| RN20 | Houver greve na UnB                                                       | de orientações de assembleias do corpo docente ou estudantil       | interrupção do projeto                                                                                 | Greve na UnB           |
+| RN15 | Membros da equipe abandonarem o projeto                                   | da desmotivação, sobrecarga causadas ou não pela pandemia          | sobrecarga entre os membros restantes e necessidade de replanejamento                                  | Recursos/Pandemia               |
+| RN16 | Houver perda ou defeitos em equipamentos                                  | de mal uso ou acidentes                                            | atraso na entrega do projeto e necessidade de replanejamento                                           | Recursos               |
+| RN17 | Houver o cancelamento do projeto                                          | de falta de interesse do cliente                                   | interrupção do projeto                                                                                      | Cliente                |
+| RN18 | A qualidade do software não corresponder às expectativas do cliente       | de má implementação                                                | descontentamento do Cliente e possibilidade de cancelamento do projeto                                 | Cliente/Qualidade      |
+| RN19 | Houver greve na UnB                                                       | de orientações de assembleias do corpo docente ou estudantil       | interrupção do projeto                                                                                 | Greve na UnB           |
 
 ## 5. Interpretação
 
@@ -87,16 +86,15 @@ Estrutura Analítica dos Riscos deste projeto.
 | RN08 | Crítico | Muito Alta    | 25        | Realizar refatoração de código, testes e validação com o cliente                                                                                                                        | Realizar treinamentos de todas as tecnologias utilizadas, garantir a realização de testes, boas práticas de programação e validação com o cliente                    |
 | RN09 | Crítico | Alta          | 20        | Realizar a entrega na próxima Sprint como dívida técnica e, talvez, realocá-la para uma dupla com mais facilidade com a tecnologia                                                      | Planejar as atividades e dividi-las nas sprints com base nos pesos e dificuldade definida no planning poker                                                          |
 | RN10 | Grande  | Muito alta    | 20        | Realizar um replanejamento das histórias para que entrem em conformidade com os requisitos                                                                                              | Realizar constantes reuniões entre os membros da equipe, com o cliente e pesquisas necessárias para obtenção de conhecimento e compreensão sobre o escopo do projeto |
-| RN11 | Grande  | Alta          | 16        | Realizar replanejamento da sprint utilizando a priorização do backlog do produto                                                                                                        | Montar o backlog da sprint utilizando a priorização do backlog do produto                                                                                            |
+| RN11 | Grande  | Alta          | 16        | Realizar replanejamento da sprint utilizando a priorização do backlog do produto pela técnica moscow                                                                                    | Montar o backlog da sprint utilizando a priorização do backlog do produto pela técnica moscow                                                                       |
 | RN12 | Crítico | Baixa         | 10        | Redefinir o quanto antes as mudanças de escopo                                                                                                                                          | Manter sempre a comunicação com o cliente                                                                                                                            |
 | RN13 | Crítico | Muito alta    | 25        | Reafirmar a necessidade de um alto grau de comunicação e promover as mudanças necessárias, desde realização de daily meetings mais objetivas a mudanças de ferramentas para comunicação | Criando o Plano de comunicação em que a equipe demonstre comum acordo                                                                                                |
 | RN14 | Crítico | Muito alta    | 25        | Reafirmar a necessidade de um alto grau de comunicação e promover as mudanças necessárias, desde realização de daily meetings mais objetivas a mudanças de ferramentas para comunicação | Criando o Plano de comunicação em que a equipe demonstre comum acordo                                                                                                |
 | RN15 | Grande  | Muito alta    | 20        | Realocar as tarefas entre os membros presentes                                                                                                                                          | Conversar com a equipe a fim de reafirmar a importância do projeto para que a equipe o priorize                                                                      |
-| RN16 | Grande  | Muito alta    | 20        | Realocar as tarefas entre os membros presentes                                                                                                                                          | Conversar com a equipe a fim de reafirmar a importância do projeto para que a equipe o priorize, na medida do possível                                                                       |
-| RN17 | Grande  | Média         | 12        | Realocar as tarefas entre os membros com equipamentos que funcionam                                                                                                                     | Incentivar a manutenção recorrente e o cuidado com equipamentos                                                                                                                 |
-| RN18 | Crítico | Muito Baixa   | 5         | Oferecer a melhor possibilidade de produto para o cliente                                                                                                                               | Manter comunicação constante com o cliente                                                                                                                     |
+| RN16 | Grande  | Média         | 12        | Realocar as tarefas entre os membros com equipamentos que funcionam                                                                                                                     | Incentivar a manutenção recorrente e o cuidado com equipamentos                                                                                                                 |
+| RN17 | Crítico | Muito Baixa   | 5         | Oferecer a melhor possibilidade de produto para o cliente                                                                                                                               | Manter comunicação constante com o cliente                                                                                                                     |
 | RN19 | Crítico | Alta          | 20        | Realizar refatoração de código, testes e validação com o cliente                                                                                                                        | Realizar treinamentos de todas as tecnologias utilizadas, garantir a realização de testes, boas práticas de programação e validação com o cliente                    |
-| RN20 | Crítico | Muito Baixa   | 5         | Aceitar o risco                                                                                                                                                                         | -                                                                                                                                                                    |
+| RN19 | Crítico | Muito Baixa   | 5         | Aceitar o risco                                                                                                                                                                         | -                                                                                                                                                                    |
 
 ### 5.1. Tabela de Probabilidade
 

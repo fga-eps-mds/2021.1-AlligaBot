@@ -39,6 +39,7 @@ Esse projeto usa algumas ferramentas para o seu desenvolvimento:
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - [WSL](https://docs.microsoft.com/pt-br/windows/wsl/install-win10) para 
 desenvolvimento em Windows 10
+- [Make](https://www.gnu.org/software/make/)
 
 ### ✔️ Instalando e executando
 Baixe o repositório e entre nele
@@ -46,38 +47,31 @@ Baixe o repositório e entre nele
     git clone https://github.com/fga-eps-mds/2021-1-Bot.git
     cd 2021-1-Bot
 
-Suba o ambiente de desenvolvimento rodando o seguinte comando:
+Faça build das imagens rodando o seguinte comando:
 
-    docker-compose up -d
+    make build 
 
-`-d` indica que os containers devem rodar em background. Se esta é a su primeira
-vez executando esse comando, isso pode levar alguns minutos. Para conversar com 
-o bot, execute o seguinte:
+Se esta é a su primeira vez executando esse comando, isso pode levar 
+alguns minutos. Em seguida, treine o bot executando:
 
-    docker exec -it bot rasa shell
+    make train
 
-Note a flag `it`. Ela indica que o container vai ser executado no modo
-**iterativo** e com uma sessão de terminal ligada a ele. 
 
-Depois que o prompt aparecer, peça a ele, em inglês, para te contar uma piada.
-O [servidor de ações](actions/actions.py) foi desenvolvido para 
-consultar uma API de piadas.
+Para conversar com o bot, execute o seguinte:
 
-Se você quiser adicionar novas falas ao bot você deve fazer alterações no arquivos 
-`bot/domain.yml` e `bot/data/*`, e, em seguida, deve treiná-lo:
-
-    docker exec -it -u root bot rasa train
-
-`-u root` dá permissões de root para o container reescrever o modelo. Se o seu 
-terminal reclamar de permissão negada para editar os arquivos dentro de 
-`bot/`, execute:
-
-    sudo chown -R $USER bot/
+    make shell
 
 Não se esqueça de desligar os containers quando terminar sua sessão de
 desenolvimento. Para desligar os containeres basta executar:
 
-    docker-compose down
+    make stop
+
+Se você quiser adicionar novos diálogos ao bot você deve fazer alterações 
+no arquivos `bot/domain.yml` e `bot/data/*.yml`, e, em seguida, deve treiná-lo
+novamente:
+
+    make train
+
 
 <!-- ## 🤝 Como contribuir para o projeto
 

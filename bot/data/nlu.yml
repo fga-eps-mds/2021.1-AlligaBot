@@ -26,11 +26,15 @@ nlu:
     
 - intent: bot_alligabot
   examples: |
-    - Voce e um bot ?
-    - voce eh um bot
+    - Você é um bot?
+    - você eh um bot?
+    - voce e um bot?
+    - vc e um bot?
     - vc bot
-    - bot
+    - Você é humano?
     - Voce e humano?
-    - humano
+    - Você é uma pessoa real?
+    - Você é um robô?
+    - O que você é?
     
 

@@ -32,7 +32,7 @@ SDK:
 -->
 
 ## Lista de controle:
-- [ ] Você vereficou se não há outras [Solicitações de Pull](https://github.com/fga-eps-mds/2021-1-Bot/pulls) para a mesma atualização/alteração?
+- [ ] Você verificou se não há outras [Solicitações de Pull](https://github.com/fga-eps-mds/2021-1-Bot/pulls) para a mesma atualização/alteração?
 - [ ] As mudanças seguem as políticas de [commit](https://github.com/fga-eps-mds/2021-1-Bot/blob/docs_capivara/docs/politicas/commits.md) e [branch](https://github.com/fga-eps-mds/2021-1-Bot/blob/docs_capivara/docs/politicas/branches.md)
 - [ ] Todos os membros estão de acordo com a atualização
 

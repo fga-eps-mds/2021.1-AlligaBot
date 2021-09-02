@@ -1,0 +1,3 @@
+bot/tests/*
+bot/models/*
+venv

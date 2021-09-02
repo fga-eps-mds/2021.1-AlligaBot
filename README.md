@@ -78,19 +78,23 @@ Para desligar os containeres basta executar:
 
     docker-compose down
 
-<!-- ## 🤝 Como contribuir para o projeto
+## 🤝 Como contribuir para o projeto
 
-Guia de Contribuição
+[Guia de Contribuição](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/contribuir.md)
 
-Código de Conduta
+[Código de Conduta](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/conduta.md)
 
 Como rodar o projeto
 
 Políticas de Contribuição
 
-Template para criação de issues
+- [Politica de Branches](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)
+- [Politicas de Commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/commits.md)
 
-Template para criação de pull requests -->
+
+[Template para criação de issues](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/.github/ISSUE_TEMPLATE/custom.md)
+
+[Template para criação de pull requests](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/.github/pull_request_template.md)
 
 ## 👨‍💻 Desenvolvedores
 <table class="tg">

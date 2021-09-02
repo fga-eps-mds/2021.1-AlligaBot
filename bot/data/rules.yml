@@ -2,12 +2,12 @@ version: "2.0"
 
 rules:
 
-- rule: Despedida do bot 
+- rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: despedida
-  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
 
-- rule: Pergunta de desafio para o bot
+- rule: Say 'I am a bot' anytime the user challenges
   steps:
-  - intent: bot_alligabot
-  - action: utter_alligabot
+  - intent: bot_challenge
+  - action: utter_iamabot

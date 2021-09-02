@@ -1,25 +1,40 @@
 version: "2.0"
 
 intents:
-  - cumprimentar
-  - despedida
-  - covid
-  - bot_alligabot
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - tell_me_joke
 
 responses:
-  utter_cumprimentar:
-  - text: "Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
-  - text: "O que voce quer saber?"
-  
-  utter_covid:
-  - text: "COVID-19 e uma nova espécie coronavirus, que afeta o sistema imunologico e respiratorio"
+  utter_greet:
+  - text: "Hey! How are you?"
 
-  utter_despedida:
-  - text: "Tchau"
-  - text: "Obrigado, até mais!"
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_alligabot:
-  - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção,politicas publicas e vacinação"
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_tell_joke:
+  - text: "Well, here's a joke..."
+
+actions:
+  - action_joke
 
 session_config:
   session_expiration_time: 60

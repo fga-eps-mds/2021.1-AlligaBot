@@ -52,17 +52,17 @@ Será uma epic para ser uma informação inicial, onde o usuário terá o primei
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US01|Eu, como usuário, desejo receber cumprimento do bot para dar início a conversa |Must| 3 |
-|US02|Eu, como usuário, desejo saber o que o bot é |Must| 3 |
-|US03|Eu, como administrador do bot, desejo adicionar o tópico para que o bot seja capaz de manter uma conversa |Must| 3 |
-|US04|Eu, como administrador do bot, desejo adicionar o tópico para que o bot entre em Fallback quando necessário |Must| 3 |
-|US05|Eu, como usuário, desejo receber mensagem de despedida do bot para finalizar a conversa |Must| 3 |
+|US01|Eu, como usuário, desejo receber cumprimento do bot para dar início a conversa |Must| 1 |
+|US02|Eu, como usuário, desejo saber o que o bot é |Must| 2 |
+|US03|Eu, como administrador do bot, desejo adicionar o tópico para que o bot seja capaz de manter uma conversa |Must| 1 |
+|US04|Eu, como administrador do bot, desejo adicionar o tópico para que o bot entre em Fallback quando necessário |Must| 1 |
+|US05|Eu, como usuário, desejo receber mensagem de despedida do bot para finalizar a conversa |Must| 1 |
 
 ### FT02: Apresentação de funcionalidades
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US06|Eu, como usuário, desejo saber sobre as funcionalidades existentes no bot |Must| 3 |
+|US06|Eu, como usuário, desejo saber sobre as funcionalidades existentes no bot |Must| 2 |
 
 ## EP02: Informação sobre covid
 Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid.
@@ -76,61 +76,61 @@ Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid.
 |US09|Eu, como usuário, desejo saber mais sobre o vírus|Must| 3 |
 |US10|Eu, como usuário, desejo saber sobre as formas gerais de prevenção|Must| 3 |
 |US11|Eu, como usuário, desejo saber sobre os sintomas da covid|Must| 3 |
-|US13|Eu, como usuário, desejo saber qual a quantidade de infectados por covid na minha cidade/país|Should| 13 |
+|US12|Eu, como usuário, desejo saber qual a quantidade de infectados por covid na minha cidade/país|Should| 8 |
 
 ### FT04: Regras para lugares específicos
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US15|Eu, como usuário, desejo saber os cuidados que devo ter em locais abertos|Must|  3 |
-|US16|Eu, como usuário, desejo saber os cuidados que devo ter em locais fechados|Must|  3 |
-|US17|Eu, como usuário, desejo saber qual a diferença de contaminação entre locais abertos e fechados|Must|  3 |
-|US18|Eu, como cliente, desejo saber os cuidados que devo ter em restaurantes|Should|  3 |
-|US19|Eu, como cliente, desejo saber os cuidados que devo ter na academia|Should|  3 |
-|US20|Eu, como cliente, desejo saber os cuidados que devo ter no dentista|Should|  3 |
-|US21|Eu, como cliente, desejo saber os cuidados que devo ter em barbearia/cabelereiro|Should|  3 |
+|US13|Eu, como usuário, desejo saber os cuidados que devo ter em locais abertos|Must| 3 |
+|US14|Eu, como usuário, desejo saber os cuidados que devo ter em locais fechados|Must| 3 |
+|US15|Eu, como usuário, desejo saber qual a diferença de contaminação entre locais abertos e fechados|Must| 3 |
+|US16|Eu, como cliente, desejo saber os cuidados que devo ter em restaurantes|Should| 3 |
+|US17|Eu, como cliente, desejo saber os cuidados que devo ter na academia|Should| 3 |
+|US18|Eu, como cliente, desejo saber os cuidados que devo ter no dentista|Should| 3 |
+|US19|Eu, como cliente, desejo saber os cuidados que devo ter em barbearia/cabelereiro|Should| 3 |
 
 ### FT05: Como continuar trabalhando de maneira segura
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US22|Eu, como funcionário, desejo saber os cuidados que devo tomar no escritório|Must|  3 |
-|US23|Eu, como funcionário, desejo saber os cuidados que devo ter no atendimento aos clientes|Must|  3 |
+|US20|Eu, como funcionário, desejo saber os cuidados que devo tomar no escritório|Must| 3 |
+|US21|Eu, como funcionário, desejo saber os cuidados que devo ter no atendimento aos clientes|Must| 3 |
 
 ### FT06: Preciso pegar transporte público
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US24|Eu, como usuário, desejo saber como me cuidar no transporte público |Must| 3 |
+|US22|Eu, como usuário, desejo saber como me cuidar no transporte público |Must| 3 |
 
 ### FT07: Home office e saúde mental
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US25|Eu, como usuário, desejo saber como lidar com o home office |Should| 3 |
-|US26|Eu, como usuário, desejo saber como posso me exercitar em casa |Should| 3 |
-|US27|Eu, como usuário, desejo saber como cuidar da minha saúde mental na pandemia |Must| 8 |
+|US23|Eu, como usuário, desejo saber como lidar com o home office |Should| 5 |
+|US24|Eu, como usuário, desejo saber como posso me exercitar em casa |Should| 5 |
+|US25|Eu, como usuário, desejo saber como cuidar da minha saúde mental na pandemia |Must| 5 |
 
 ### FT08: Vacinação
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US28|Eu, como usuário, desejo saber qual a quantidade de vacinados na minha cidade/país|Could| 13 |
-|US279|Eu, como usuário, desejo saber quando posso me vacinar|Must| 5 |
-|US30|Eu, como usuário, desejo saber se as vacinas são seguras|Must| 5 |
-|US31|Eu, como usuário, desejo saber se eu preciso me vacinar|Must| 5 |
-|US32|Eu, como usuário, desejo saber como as vacinas aprovadas pela anvisa agem no organismo|Should| 5 |
-|US33|Eu, como usuário, desejo saber quantas doses da vacina preciso tomar|Must| 8 |
-|US34|Eu, como usuário, desejo saber qual a eficácia de cada vacina aprovada pela anvisa|Must| 5 |
+|US26|Eu, como usuário, desejo saber qual a quantidade de vacinados na minha cidade/país|Could| 8 |
+|US27|Eu, como usuário, desejo saber quando posso me vacinar|Must| 5 |
+|US28|Eu, como usuário, desejo saber se as vacinas são seguras|Must| 3 |
+|US29|Eu, como usuário, desejo saber se eu preciso me vacinar|Must| 3 |
+|US30|Eu, como usuário, desejo saber como as vacinas aprovadas pela anvisa agem no organismo|Should| 5 |
+|US31|Eu, como usuário, desejo saber quantas doses da vacina preciso tomar|Must| 5 |
+|US32|Eu, como usuário, desejo saber qual a eficácia de cada vacina aprovada pela anvisa|Must| 5 |
 
 ### FT09: Detecção
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US35|Eu, como usuário com suspeita de covid, desejo saber oque fazer|Must| 5 |
-|US36|Eu, como usuário com suspeita de covid, desejo saber aonde me testar|Should| 13 |
-|US37|Eu, como usuário com suspeita de covid, desejo saber qual tipo de exame devo fazer e porque|Must| 5 |
-|US38|Eu, como usuário, testei positivo para covid e quero saber oque fazer|Must| 5 |
+|US33|Eu, como usuário com suspeita de covid, desejo saber oque fazer|Must| 5 |
+|US34|Eu, como usuário com suspeita de covid, desejo saber aonde me testar|Should| 5 |
+|US35|Eu, como usuário com suspeita de covid, desejo saber qual tipo de exame devo fazer e porque|Must| 5 |
+|US36|Eu, como usuário, testei positivo para covid e quero saber oque fazer|Must| 3 |
 
 ## EP03: Lembrete programado
 Será uma epic para criar lembretes programados.
@@ -139,16 +139,16 @@ Será uma epic para criar lembretes programados.
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US39|Eu, como usuário, desejo cadastrar a data da próxima dose da vacina|Must| 8 |
-|US40|Eu, como usuário, desejo ser lembrado da próxima dose da vacina|Must| 8 |
+|US37|Eu, como usuário, desejo cadastrar a data da próxima dose da vacina|Must| 8 |
+|US38|Eu, como usuário, desejo ser lembrado da próxima dose da vacina|Must| 8 |
 
 ### FT11: Avisos e cuidados
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US41|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre as principais descobertas sobre a covid|Could| 8 |
-|US42|Eu, como usuário, desejo ser notificado sobre as principais descobertas sobre a covid|Could|  8 |
-|US43|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de home office|Could| 8 |
-|US44|Eu, como usuário, desejo receber dicas de home office|Could| 8 |
-|US45|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de saúde mental|Should| 8 |
-|US46|Eu, como usuário, desejo receber dicas de saúde mental|Should| 8 |
+|US39|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre as principais descobertas sobre a covid|Could| 8 |
+|US40|Eu, como usuário, desejo ser notificado sobre as principais descobertas sobre a covid|Could|  8 |
+|US41|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de home office|Could| 8 |
+|US42|Eu, como usuário, desejo receber dicas de home office|Could| 8 |
+|US43|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de saúde mental|Should| 8 |
+|US44|Eu, como usuário, desejo receber dicas de saúde mental|Should| 8 |

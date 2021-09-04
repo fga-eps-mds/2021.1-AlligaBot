@@ -5,12 +5,13 @@
 | :- | :- | :- | :- |
 | 19/08/2021 | 0.1 | Criação da versão inicial do documento | Kathlyn Lara |
 | 01/09/2021 | 0.2 | Logo do bot e paleta de cores | Kathlyn Lara |
+| 04/09/2021 | 0.3 | Novo logo do bot | Kathlyn Lara |
 
 # 1. Introdução
 
 
 # 2. Apresentação da Identidade Visual
-![img](img/logo.png)
+![img](img/logo.jpg)
 
 # 3. Fontes
 

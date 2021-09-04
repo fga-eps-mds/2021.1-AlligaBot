@@ -4,20 +4,20 @@ stories:
 
 - story: happy path
   steps:
-  - intent: cumprimentar
+  - intent: start
   - action: utter_cumprimentar
 
 
 - story: sad path 1
   steps:
-  - intent: cumprimentar
+  - intent: start
   - action: utter_cumprimentar
   - intent: covid
   - action: utter_covid
 
 - story: sad path 2
   steps:
-  - intent: cumprimentar
+  - intent: start
   - action: utter_cumprimentar
 
 

@@ -3,10 +3,11 @@ FROM python:3.8-slim
 RUN python -m pip install rasa
 
 ADD ./bot /app
+ADD ./start_services.sh /app
 
 WORKDIR /app
 
-USER 1001
+USER root
 
 ENTRYPOINT [ "rasa" ]
 

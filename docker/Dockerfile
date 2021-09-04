@@ -10,6 +10,6 @@ USER 1001
 
 ENTRYPOINT [ "rasa" ]
 
-RUN chmod +x /app/start_services.sh
+RUN chmod +x start_services.sh
 
-CMD /app/start_services.sh
+CMD start_services.sh

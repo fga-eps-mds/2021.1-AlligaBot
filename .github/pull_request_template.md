@@ -5,6 +5,9 @@
 - [ ] Correção de bug (mudança que **NÃO** muda funcionabilidade)
 - [ ] Mudança decisiva no arquivo (correção ou recurso que faz com que funcionabilidade existente seja alterada)
 - [ ] "Não sei dizer o que mudou, mas nada está igual" (Victor & Leo)
+<!--
+Apagar as checkboxes não marcadas. Poluir menos o template
+-->
 
 ### Descrição
 Por favor, faça um resumo do que mudou e qual(is) issue(s) foi(ram) resolvida(s). Liste também todas as depedências necessárias para essa mudança.
@@ -13,9 +16,9 @@ Close:
 
 | Issue |            Título            |
 |-------|:----------------------------:|
-| [#numero1](link) | título 1 |
-| [#numero2](link) | título 2 |
-       
+| #numero1 | título 1 |
+| #numero2 | título 2 |
+      
 <!-- 
 ## Testes
 Descreva os testes que você executou para verificar suas alterações e os detalhes relevantes para sua configuração.

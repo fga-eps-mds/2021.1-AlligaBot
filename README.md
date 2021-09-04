@@ -95,7 +95,6 @@ Políticas de Contribuição
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky"></th>
     <th class="tg-0pky">Capivara :ox:</th>
     <th class="tg-0pky">PlusUltra :fleur_de_lis:</th>
     <th class="tg-0pky">Slowbrows :pig2:</th>
@@ -103,7 +102,6 @@ Políticas de Contribuição
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Desenvolvedor</td>
     <td class="tg-0pky" style="text-align: center;"> 
       <img src="https://avatars.githubusercontent.com/u/36899389?v=4&s=45" width="45"> 
       <br><a href="https://github.com/MegahNevel"> Eduardo Levenhagem</a></td>
@@ -113,7 +111,6 @@ Políticas de Contribuição
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Desenvolvedor</td>
     <td class="tg-0pky" style="text-align: center;"> 
       <img src="https://avatars.githubusercontent.com/u/79016306?v=4&s=45" alt="Lameque"> 
       <br><a href="https://github.com/LamequeFernandes">Lameque Fernandes </a></td>
@@ -125,7 +122,6 @@ Políticas de Contribuição
       <br><a href="https://github.com/kayrocesar">Kayro César</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">DevOps</td>
     <td class="tg-0pky" style="text-align: center;"> 
       <img src="https://avatars.githubusercontent.com/u/35047444?v=4&s=45" alt="Thaos Rebouças"> 
       <br><a href="https://github.com/Thais-ra">Thais Rebouças</a></td>
@@ -137,7 +133,6 @@ Políticas de Contribuição
       <br><a href="https://github.com/LuizPettengill">Luiz Petengill</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Arquiteto</td>
     <td class="tg-0pky" style="text-align: center;"> 
       <img src="https://avatars.githubusercontent.com/u/52364259?v=4&s=45" alt="Kathlyn Lara"> 
       <br><a href="https://github.com/klmurussi"> Kathlyn Lara</a></td>
@@ -149,7 +144,6 @@ Políticas de Contribuição
       <br><a href="https://github.com/matheusrazor">Matheus Rapahel</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Product Owner</td>
     <td class="tg-0pky" style="text-align: center;"> 
       <img src="https://avatars.githubusercontent.com/u/49570180?v=4&s=45" alt="Ana Carolina">
       <br><a href="https://github.com/AnaCarolinaRodriguesLeite"> Ana Carolina </a></td>
@@ -161,7 +155,6 @@ Políticas de Contribuição
       <br><a href="https://github.com/matheusakio">Matheus Akio</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Scrum Master</td>
     <td class="tg-0pky" style="text-align: center;"> 
       <img src="https://avatars.githubusercontent.com/u/54778783?v=4&s=45" alt="Matheus Sousa"> 
       <br><a href="https://github.com/gatotabaco">Matheus Sousa</a></td>
@@ -182,3 +175,11 @@ Políticas de Contribuição
 ## 📝 Licença
 Este projeto está licenciado sob os termos da licença 
 [GNU GPL v3.0](https://github.com/fga-eps-mds/2021-1-Bot/blob/improvement(%2398)/melhorar-readme/LICENSE).
+
+
+<!-- 
+ Politicas de código
+- Roadmap devops
+- Ambiente de produção
+- Arrumar a tabela do readMe (tirar os papeis e organizar as equipes em ordem alfabética)
+ -->

@@ -1,7 +1,7 @@
 cd app/
 
-# Treina o bot 
+# Treinando o modelo do Rasa
 rasa train
 
-# Incia o servidor do Rasa
-rasa run --model models --enable-api --cors “*” --debug -p $PORT
+# Iniciando o servidor do Rasa
+rasa run --model models --enable-api --cors "*" --debug --p $PORT

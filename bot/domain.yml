@@ -4,6 +4,7 @@ intents:
   - cumprimentar
   - despedida
   - covid
+  - fora_do_escopo
   - bot_alligabot
 
 responses:
@@ -17,6 +18,11 @@ responses:
   utter_despedida:
   - text: "Tchau"
   - text: "Obrigado, até mais!"
+
+  utter_fora_do_escopo:
+  - text: "Não entendi o que você escreveu. Poderia reformular sua questão sobre o COVID-19?"
+  - text: "Não entendi. Tente perguntar algo sobre o COVID-19"
+  - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
 
   utter_alligabot:
   - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

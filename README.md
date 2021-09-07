@@ -79,17 +79,17 @@ novamente:
 
 ## 🤝 Como contribuir para o projeto
 
-[Guia de Contribuição](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/contribuir.md)
+[Guia de Contribuição](docs/CONTRIBUTING.md)
 
-[Código de Conduta](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/conduta.md)
+[Código de Conduta](docs/CODE_OF_CONDUCT.md)
 
-[Política de Branches](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)
+[Política de Branches](docs/politicas/branches.md)
 
-[Políticas de Commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/commits.md)
+[Políticas de Commits](docs/politicas/commits.md)
 
-[Template para criação de issues](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/.github/ISSUE_TEMPLATE/custom.md)
+[Template para criação de issues](.github/ISSUE_TEMPLATE/custom.md)
 
-[Template para criação de pull requests](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/.github/pull_request_template.md)
+[Template para criação de pull requests](.github/pull_request_template.md)
 
 ## 👨‍💻 Desenvolvedores
 <table class="tg">

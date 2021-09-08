@@ -52,21 +52,17 @@ Faça build das imagens rodando o seguinte comando:
     make build 
 
 Se esta é a su primeira vez executando esse comando, isso pode levar 
-alguns minutos. Em seguida, suba os containers do projeto
-
-    make run
-
-Treine o bot:
+alguns minutos. Em seguida, treine o bot executando:
 
     make train
+
 
 Para conversar com o bot, execute o seguinte:
 
     make shell
 
-Para sair da conversa com o bot, execute `/stop`. Não se esqueça de desligar
-os containers quando terminar sua sessão de desenvolvimento. Para desligar os
-contêiner basta executar:
+Não se esqueça de desligar os containers quando terminar sua sessão de
+desenvolvimento. Para desligar os contêineres basta executar:
 
     make stop
 
@@ -95,86 +91,44 @@ novamente:
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky">Capivara :ox:</th>
-    <th class="tg-0pky">PlusUltra :fleur_de_lis:</th>
-    <th class="tg-0pky">Slowbrows :pig2:</th>
+    <th class="tg-uzvj">Capivara :ox:</th>
+    <th class="tg-uzvj">PlusUltra :fleur_de_lis:</th>
+    <th class="tg-uzvj">Slowbrows :pig2:</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Desenvolvedor</td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/36899389?v=4&s=45" width="45"> 
-      <br><a href="https://github.com/MegahNevel"> Eduardo Levenhagem</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/54580766?v=4&amp;s=45" alt="[Douglas Monteles]"> 
-      <br><a href="https://github.com/DouglasMonteles">Douglas Monteles</a></td>
-    <td class="tg-0pky"></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/49570180?v=4&s=45" alt="Ana Carolina" width="45" height="45">       <br><a href="https://github.com/AnaCarolinaRodriguesLeite" target="_blank" rel="noopener noreferrer"> Ana Carolina </a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/44625056?v=4&s=45" alt="Amanda Nobre" width="45" height="45">        <br><a href="https://github.com/AmandaNbr" target="_blank" rel="noopener noreferrer">Amanda Nobre</a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/78568172?v=4&s=45" alt="Henrique Hida" width="45" height="45">        <br><a href="https://github.com/HenriqueHida" target="_blank" rel="noopener noreferrer">Henrique Hida</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Desenvolvedor</td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/79016306?v=4&s=45" alt="Lameque"> 
-      <br><a href="https://github.com/LamequeFernandes">Lameque Fernandes </a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/48847770?v=4&amp;s=45" alt="Erick Levy>"> 
-      <br><a href="https://github.com/Ericklevy">Erick Levy</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/39713656?v=4&s=45" alt="Kayro César>"> 
-      <br><a href="https://github.com/kayrocesar">Kayro César</a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/36899389?v=4&s=45" alt="Image" width="45" height="45">        <br><a href="https://github.com/MegahNevel" target="_blank" rel="noopener noreferrer"> Eduardo Levenhagem</a></td>
+    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/48847770?v=4&s=45" alt="Erick Levy>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/Ericklevy">Erick Levy</a></td>
+    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/39713656?v=4&s=45" alt="Kayro César>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/kayrocesar">Kayro César</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">DevOps</td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/35047444?v=4&s=45" alt="Thaos Rebouças"> 
-      <br><a href="https://github.com/Thais-ra">Thais Rebouças</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/37981839?s=45&amp;v=4" alt="Yudi Yamane"> 
-      <br><a href="https://github.com/yudi-azvd">Yudi Yamane</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/44177946?v=4&s=45" alt="Luiz Petengill"> 
-      <br><a href="https://github.com/LuizPettengill">Luiz Petengill</a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/52364259?v=4&s=45" alt="Kathlyn Lara" width="45" height="45">        <br><a href="https://github.com/klmurussi" target="_blank" rel="noopener noreferrer"> Kathlyn Lara</a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/54580766?v=4&s=45" alt="[Douglas Monteles]" width="45" height="45">        <br><a href="https://github.com/DouglasMonteles" target="_blank" rel="noopener noreferrer">Douglas Monteles</a></td>
+    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/44177946?v=4&s=45" alt="Luiz Petengill">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/LuizPettengill">Luiz Petengill</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Arquiteto</td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/52364259?v=4&s=45" alt="Kathlyn Lara"> 
-      <br><a href="https://github.com/klmurussi"> Kathlyn Lara</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/78758172?v=4&amp;s=45" alt="Victor Eduardo"> 
-      <br><a href="https://github.com/victorear05">Victor Eduardo</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/53947083?v=4&s=45" alt="Matheus Rapahel"> 
-      <br><a href="https://github.com/matheusrazor">Matheus Rapahel</a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/79016306?v=4&s=45" alt="Lameque" width="45" height="45">        <br><a href="https://github.com/LamequeFernandes" target="_blank" rel="noopener noreferrer">Lameque Fernandes </a></td>
+    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/78758172?v=4&s=45" alt="Victor Eduardo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/victorear05">Victor Eduardo</a></td>
+    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/53947083?v=4&s=45" alt="Matheus Rapahel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/matheusrazor">Matheus Rapahel</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Product Owner</td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/49570180?v=4&s=45" alt="Ana Carolina">
-      <br><a href="https://github.com/AnaCarolinaRodriguesLeite"> Ana Carolina </a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/85000470?v=4&amp;s=45" alt="Pedro Lucas"> 
-      <br><a href="https://github.com/PedroLSF">Pedro Lucas</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/73257118?v=4&s=45" alt="Matheus Akio"> 
-      <br><a href="https://github.com/matheusakio">Matheus Akio</a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/54778783?v=4&s=45" alt="Matheus Sousa" width="45" height="45">        <br><a href="https://github.com/gatotabaco" target="_blank" rel="noopener noreferrer">Matheus Sousa</a></td>
+    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/85000470?v=4&s=45" alt="Pedro Lucas">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/PedroLSF">Pedro Lucas</a></td>
+    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/73257118?v=4&s=45" alt="Matheus Akio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/matheusakio">Matheus Akio</a></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Scrum Master</td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/54778783?v=4&s=45" alt="Matheus Sousa"> 
-      <br><a href="https://github.com/gatotabaco">Matheus Sousa</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/44625056?v=4&amp;s=45" alt="Amanda Nobre"> 
-      <br><a href="https://github.com/AmandaNbr">Amanda Nobre</a></td>
-    <td class="tg-0pky" style="text-align: center;"> 
-      <img src="https://avatars.githubusercontent.com/u/78568172?v=4&s=45" alt="Henrique Hida"> 
-      <br><a href="https://github.com/HenriqueHida">Henrique Hida</a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/35047444?v=4&s=45" alt="Thaos Rebouças" width="45" height="45">        <br><a href="https://github.com/Thais-ra" target="_blank" rel="noopener noreferrer">Thais Rebouças</a></td>
+    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/37981839?s=45&v=4" alt="Yudi Yamane" width="45" height="45">        <br><a href="https://github.com/yudi-azvd" target="_blank" rel="noopener noreferrer">Yudi Yamane</a></td>
+    <td class="tg" style="text-align:center;"></td>
   </tr>
 </tbody>
 </table>
-
 <small>Feito com <a href="https://www.tablesgenerator.com/html_tables">
   Tables Generator</a>.
 </small>
@@ -182,3 +136,4 @@ novamente:
 ## 📝 Licença
 Este projeto está licenciado sob os termos da licença 
 [GNU GPL v3.0](https://github.com/fga-eps-mds/2021-1-Bot/blob/improvement(%2398)/melhorar-readme/LICENSE).
+

@@ -11,6 +11,7 @@ Padronização das branches no projeto.
 | 11/08/2021 |  0.2   |            Alterações                     | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 | 23/08/2021 |  0.2.1 |    Correção do formato e prefixos        | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 | 08/09/2021 |  0.3 |    Alteração na nomenclatura        | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 08/09/2021 |  0.3.1 |    Correção de exemplo        | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 
 
@@ -52,7 +53,7 @@ Exemplo: ```hotfix#02/correcao-botao```
 - **Branches documentation:** Branches na qual são desenvolvidos os documentos do projeto. São ciradas começando com o prefixo **documentation/**
 Exemplo: ```documentation#49/template-documento```
 
-- **Branches improvement:** Branche para melhoria de algum componente e afins, seja de performance, de escrita de layout, etc. Exemplo: ```improvement(#101)/otimizacao-layout```
+- **Branches improvement:** Branche para melhoria de algum componente e afins, seja de performance, de escrita de layout, etc. Exemplo: ```improvement#101/otimizacao-layout```
 
 ### Princípios:
 - Por ser um projeto voltado totalmente para um público brasileiro e por toda equipe ter mais afinidade com o português, foi decidido que todas as braches serão em pt-BR.

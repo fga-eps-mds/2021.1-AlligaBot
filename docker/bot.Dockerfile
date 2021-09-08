@@ -1,8 +1,9 @@
 FROM python:3.8-slim
 
-RUN python -m pip install rasa
-
 ADD ./bot /app
+
+RUN pip install --upgrade pip && \ 
+    pip install --progress-bar off -r /app/requirements.txt
 
 WORKDIR /app
 

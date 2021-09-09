@@ -1,2 +1,2 @@
-flake8==3.9.2
+autopep8==1.5.7
 rasa_sdk==2.8.2

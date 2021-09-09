@@ -1,0 +1,6 @@
+[pep8]
+; Ignorar múltiplas importações na mesma linha
+in-place = true
+recursive = true
+indent-size = 2
+ignore = E401,E111,E121

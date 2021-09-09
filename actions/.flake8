@@ -1,3 +1,0 @@
-[flake8]
-; Ignorar múltiplas importações na mesma linha
-ignore = E401

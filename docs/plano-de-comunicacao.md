@@ -11,7 +11,7 @@ Este documento tem como objetivo oficializar os meios de comunicação entre os 
 
 | Ícone            | Ferramenta    | Descrição                                |
 | :--------------: | :-----------: | :--------------------------------------: |
-| ![image](https://logospng.org/download/telegram/logo-telegram-256.png) | Telegram | É a ferramenta principal de comunicação, dado que o semestre é assíncrono. Nesta ferramenta, são discutido todos os assuntos operacionais, desde horários de reuniões e pautas até a realização das dailys. |
+| ![image](https://logospng.org/download/telegram/logo-telegram-256.png) | Telegram | É a ferramenta principal de comunicação, dado que o semestre é assíncrono. Nesta ferramenta, são discutidos todos os assuntos operacionais, desde horários de reuniões e pautas até a realização das dailys. |
 | ![image](https://cdn.iconscout.com/icon/free/png-256/github-1521500-1288242.png) | GitHub | Ferramenta de versionamento, onde temos os códigos do produto, e por ela comentamos as Issues que são trabalhadas. |
 | ![image](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1465258163/u25neqcxwvia6kkbxnrg.jpg) | ZenHub | Essa ferramenta ajuda a implementar o kanban no ambiente do projeto. |
 | ![image](https://cdn.iconscout.com/icon/free/png-256/discord-2752210-2285027.png) | Discord | Utilizado para reuniões como pré-planejamento e planejamento da sprint, sprint review, as vezes daily e quaisquer outras reuniões que forem marcadas. |

@@ -10,6 +10,8 @@ Padronização das branches no projeto.
 | 10/08/2021 |  0.1   | Criação da política de branch             | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 | 11/08/2021 |  0.2   |            Alterações                     | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 | 23/08/2021 |  0.2.1 |    Correção do formato e prefixos        | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 08/09/2021 |  0.3 |    Alteração na nomenclatura        | [Lameque Fernandes](https://github.com/LamequeFernandes)|
+| 08/09/2021 |  0.3.1 |    Correção de exemplo        | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 
 
@@ -23,13 +25,13 @@ Padronização das branches no projeto.
 
 ### Formato:
 ```
-<prefixo>(#número da issue)/assunto
+<prefixo>#número da issue/assunto
 ```
 
 Não esquecer de dividir as palavras(sempre minúsculas) do assunto com "-".
 Exemplo: 
 ```
-feature(#87)/novo-menu
+feature#87/novo-menu
 ```
 
 ### Branches:
@@ -43,15 +45,15 @@ A **develop** deve sempre conter o código mais atual, onde as branchs de featur
 
 
 - **Branches feature:** Como o nome já diz, são branches na qual são desenvolvidos novos recursos ao projeto. São criadas começando com o prefixo **feature/**.
-Exemplo: ```feature(#22)/novo-layout```
+Exemplo: ```feature#22/novo-layout```
 
 - **Branchs hotfix:** Branches no qual são realizadas correções de bugs São criadas começando com o prefixo **hotfix/**.
-Exemplo: ```hotfix(#02)/correcao-botao```
+Exemplo: ```hotfix#02/correcao-botao```
 
 - **Branches documentation:** Branches na qual são desenvolvidos os documentos do projeto. São ciradas começando com o prefixo **documentation/**
-Exemplo: ```documentation(#49)/template-documento```
+Exemplo: ```documentation#49/template-documento```
 
-- **Branches improvement:** Branche para melhoria de algum componente e afins, seja de performance, de escrita de layout, etc. Exemplo: ```improvement(#101)/otimizacao-layout```
+- **Branches improvement:** Branche para melhoria de algum componente e afins, seja de performance, de escrita de layout, etc. Exemplo: ```improvement#101/otimizacao-layout```
 
 ### Princípios:
 - Por ser um projeto voltado totalmente para um público brasileiro e por toda equipe ter mais afinidade com o português, foi decidido que todas as braches serão em pt-BR.

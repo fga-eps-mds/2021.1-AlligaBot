@@ -636,6 +636,12 @@
 										<td>Definição de tecnologias, e diagrama arquitetural</td>
 										<td>Victor Eduardo, Matheus Raphael</td>
 									</tr>
+									<tr>
+										<td>09/09/2021</td>
+										<td>0.3</td>
+										<td>Correção de pequenos erros presentes no documento</td>
+										<td>Victor Eduardo</td>
+									</tr>
 								</tbody>
 							</table>
 							<h1 id="1-introdução">1. Introdução</h1>
@@ -648,7 +654,7 @@
 							<h2 id="12-escopo">1.2 Escopo</h2>
 							<p>Essa documentação engloba as funções visadas pelo projeto, além das tecnologias usadas,
 								seu
-								diagrama de relações, e casos de uso. Engloba também algumas outras informações técnicas
+								diagrama de relações e casos de uso. Engloba também algumas outras informações técnicas
 								como
 								características de desempenho e qualidade. O projeto vem sendo desenvolvido por alunos
 								da
@@ -706,8 +712,7 @@
 							<p>Este documento está dividído em 7 grandes tópicos, com subdivisões, com o objetivo final
 								de
 								detalhar as características arquiteturais do projeto, bem como seus requisitos e
-								motivações.
-								Está dividido nos seguintes grandes tópicos:</p>
+								motivações:</p>
 							<table>
 								<thead>
 									<tr>
@@ -763,7 +768,7 @@
 							</p>
 							<p>A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima.
 								O ciclo
-								começa quando o usuário envia uma mensagem para o bot (@??), após isso a mensagem é
+								começa quando o usuário envia uma mensagem para o AlligaBot, após isso a mensagem é
 								repassada ao
 								bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem, após isso, no
 								Rasa
@@ -773,7 +778,7 @@
 								Telegram.
 								Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, realizada
 								através
-								do Raza, uma vez que o Front-end seria exatamente a interface do app Telegram que é
+								do Rasa, uma vez que o Front-end seria exatamente a interface do app Telegram que é
 								responsável
 								pela interação com o usuário, ou seja receber a mensagem do usuário e passá-la ao bot, e
 								de
@@ -799,8 +804,7 @@
 							<p><img alt="telegram"
 									src="https://user-images.githubusercontent.com/78758172/130331794-8b17a2c5-3cf8-42ba-a22f-9257b47d5bd3.png">
 							</p>
-							<p>O app no qual o usuário poderá interagir com o botserá o app de troca de mensagens
-								Telegram. A
+							<p>O local o qual o usuário poderá interagir com o bot será no Telegram sendo ele um app de troca de mensagens. A
 								implementação de bot's à plataforma é gratuita e disponibilizada pelo próprio app.</p>
 							<h3 id="213-python">2.1.3 Python</h3>
 							<p><img alt="python"
@@ -811,12 +815,10 @@
 							</p>
 							<h1 id="3-metas-e-restrições-de-arquitetura">3. Metas e restrições de Arquitetura</h1>
 							<h2 id="31-metas">3.1 Metas</h2>
-							<p>O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Telegram, um
-								app de
-								troca de mensagens, e tem a função de informar o usuário acerca de conteúdos sobre o
+							<p>O projeto aqui apresentado, trata-se de um Chat Bot integrado a plataforma Telegram, e tem como função informar o usuário acerca de conteúdos sobre o
 								COVID-19
 								com informações fornecidas, dentro outros, pelo site <a href="coronacidades.org">Corona
-									Cidades</a>, sobre como prevenir o contágio, sobre gestão pública, e informações
+									Cidades</a>, sobre como prevenir o contágio, gestão pública, e informações
 								relacionadas
 								à vacinação na região do usuário.</p>
 							<h2 id="32-restrições">3.2 Restrições</h2>
@@ -827,7 +829,7 @@
 							</ul>
 							<h2 id="33-requisitos-não-funcionais">3.3 Requisitos não funcionais</h2>
 							<ul>
-								<li>O sistema deve possui integração com a plataforma Telegram</li>
+								<li>O sistema deve possuir integração com a plataforma Telegram</li>
 								<li>O sistema deve conversar com o usuário em linguagem natural</li>
 								<li>O sistema deve ser capaz de receber a localização do usuário, quando necessário</li>
 								<li>O bot deve ser treinado a fim de conseguir atender ao máximo de usuários possíveis
@@ -862,22 +864,18 @@
 								<tbody>
 									<tr>
 										<td>E1</td>
-										<td>Solicitação de informações a respeito da Gestão Pública</td>
-										<td>Buscar e dar o retorno sobre Gestão Pública</td>
+										<td>Sobre o bot</td>
+										<td>Será uma epic para ser uma informação inicial, onde o usuário terá o primeiro contato com o bot e terá uma breve explicação sobre suas funcionalidades</td>
 									</tr>
 									<tr>
 										<td>E2</td>
-										<td>Solicitação de informações a respeito da vacinação na região</td>
-										<td>Obter a localização do usuário, buscar e dar o retorno sobre a vacinação em
-											tal região
-										</td>
+										<td>Informações sobre covid</td>
+										<td>Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid</td>
 									</tr>
 									<tr>
 										<td>E3</td>
-										<td>Solicitação de informações a respeito da prevenção</td>
-										<td>Buscar e dar o retorno sobre prevenção no(s) lugar(es), solicitado(s) pelo
-											usuário
-										</td>
+										<td>Lembrete programado</td>
+										<td>Será uma epic para criar lembretes programados</td>
 									</tr>
 								</tbody>
 							</table>

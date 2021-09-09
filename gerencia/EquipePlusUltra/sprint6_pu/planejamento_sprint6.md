@@ -1,4 +1,4 @@
-# Planejamento Sprint 5
+# Planejamento Sprint 6
 Nesta sprint as tarefas focam em terminar e resvisar documentações para a release 1 e conseguir fechar o mvp estipulado do bot também para essa release.
 
 ## Histórico de Versões

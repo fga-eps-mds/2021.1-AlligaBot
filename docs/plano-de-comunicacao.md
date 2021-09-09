@@ -44,7 +44,7 @@ Tarefa realizada pelo telegram ou discord todos os dias, onde cada integrante ex
 Reuião para mostrar os resultados positivos da sprint, cada membro mostra o trabalho que fez para que o time possa fornecer e obter feedback. 
 
 #### 3.2.4 Sprint Retrospective
-Discussão de pontos positivos e pontos negativos da Sprint, levantamento das tarefas realizadas e não realizadas e sugestões de melhoria. A avaliação geral da Sprint é feita pelo Scrum Master, porém todas os pontos (positivos, negativos e a melhorar) são debatido pela equipe.
+Discussão de pontos positivos e pontos negativos da Sprint, levantamento das tarefas realizadas e não realizadas e sugestões de melhoria. A avaliação geral da Sprint é feita pelo Scrum Master, porém todas os pontos (positivos, negativos e a melhorar) são debatidos pela equipe.
 
 ## 4. Referências
 IEEE (2012), IEEE Guide--Adoption of the Project Management Institute (PMI) Standard A Guide to the Project Management Body of Knowledge (PMBOK Guide)--Fifth Edition.

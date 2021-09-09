@@ -34,11 +34,11 @@ Reunião geral semanal, onde todos os membros se encontram. O Scrum Master, junt
 O esforço para realizar cada uma das tarefas é medido com a equipe e assim, essas tarefas serão pontuadas. São definidas também as duplas que trabalharão em conjunto. (Pair Programming).
 
 #### 3.2.2 Planejamento da Sprint
-Após o pré-planejamento, cada equipe faz uma reunião com todos os integrantes para dividir as tarefas que ficaram alocadas para a equipe entre os membros de acordo com dificuldade e disponibilidade. Além disso também são levantadas quais melhorias podem ser feitas. A Sprint Review e Sprint Retrospective ocorrem no mesmo dia do Planejamento da Sprint.
+Após o pré-planejamento, cada equipe faz uma reunião com todos os integrantes para dividir as tarefas que ficarão alocadas para a equipe entre os membros de acordo com dificuldade e disponibilidade. Além disso também são levantadas quais melhorias podem ser feitas. A Sprint Review e Sprint Retrospective ocorrem no mesmo dia do Planejamento da Sprint.
 
 
 #### 3.2.3 Daily Meeting
-Tarefa realizada pelo telegram todos os dias, onde cada integrante explica de forma clara três pontos: o que foi feito desde última Daily, o que pretende fazer até a próxima Daily e o que tem atrapalhado a produtividade, dessa forma os integrantes estão todo os dias se mantendo informados do andamento da sprint.
+Tarefa realizada pelo telegram ou discord todos os dias, onde cada integrante explica de forma clara três pontos: o que foi feito desde última Daily, o que pretende fazer até a próxima Daily e o que tem atrapalhado a produtividade, dessa forma os integrantes estão todo os dias se mantendo informados do andamento da sprint.
 
 #### 3.2.4 Sprint Review
 Reuião para mostrar os resultados positivos da sprint, cada membro mostra o trabalho que fez para que o time possa fornecer e obter feedback. 

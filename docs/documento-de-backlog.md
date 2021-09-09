@@ -31,7 +31,7 @@ Esse documento contêm os itens que deverão ser desenvolvidos pelos times de de
 |Termo|Definição|
 |----------|-----------|
 |Epics|Epics são descrições gerais do que se deseja no software|
-|Features|Features é semelhante a Epics, porém é mais detalhada em relação ao que é sua função|
+|Features|Features são semelhantes a Epics, porém são mais detalhadas em relação ao que é função|
 |User Stories|User Stories são exemplos de usuários que irão utilizar a função de uma feature em questão|
 
 ## 1.4 Priorização com MoSCoW
@@ -77,60 +77,61 @@ Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid.
 |US10|Eu, como usuário, desejo saber sobre as formas gerais de prevenção|Must| 3 |
 |US11|Eu, como usuário, desejo saber sobre os sintomas da covid|Must| 3 |
 |US12|Eu, como usuário, desejo saber qual a quantidade de infectados por covid na minha cidade/país|Should| 8 |
+|US13|Eu, como usuário, desejo saber qual a quantidade de mortos por covid na minha cidade/país|Should| 8 |
 
 ### FT04: Regras para lugares específicos
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US13|Eu, como usuário, desejo saber os cuidados que devo ter em locais abertos|Must| 3 |
-|US14|Eu, como usuário, desejo saber os cuidados que devo ter em locais fechados|Must| 3 |
-|US15|Eu, como usuário, desejo saber qual a diferença de contaminação entre locais abertos e fechados|Must| 3 |
-|US16|Eu, como cliente, desejo saber os cuidados que devo ter em restaurantes|Should| 3 |
-|US17|Eu, como cliente, desejo saber os cuidados que devo ter na academia|Should| 3 |
-|US18|Eu, como cliente, desejo saber os cuidados que devo ter no dentista|Should| 3 |
-|US19|Eu, como cliente, desejo saber os cuidados que devo ter em barbearia/cabelereiro|Should| 3 |
+|US14|Eu, como usuário, desejo saber os cuidados que devo ter em locais abertos|Must| 3 |
+|US15|Eu, como usuário, desejo saber os cuidados que devo ter em locais fechados|Must| 3 |
+|US16|Eu, como usuário, desejo saber qual a diferença de contaminação entre locais abertos e fechados|Must| 3 |
+|US17|Eu, como cliente, desejo saber os cuidados que devo ter em restaurantes|Should| 3 |
+|US18|Eu, como cliente, desejo saber os cuidados que devo ter na academia|Should| 3 |
+|US19|Eu, como cliente, desejo saber os cuidados que devo ter no dentista|Should| 3 |
+|US20|Eu, como cliente, desejo saber os cuidados que devo ter em barbearia/cabelereiro|Should| 3 |
 
 ### FT05: Como continuar trabalhando de maneira segura
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US20|Eu, como funcionário, desejo saber os cuidados que devo tomar no escritório|Must| 3 |
-|US21|Eu, como funcionário, desejo saber os cuidados que devo ter no atendimento aos clientes|Must| 3 |
+|US21|Eu, como funcionário, desejo saber os cuidados que devo tomar no escritório|Must| 3 |
+|US22|Eu, como funcionário, desejo saber os cuidados que devo ter no atendimento aos clientes|Must| 3 |
 
 ### FT06: Preciso pegar transporte público
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US22|Eu, como usuário, desejo saber como me cuidar no transporte público |Must| 3 |
+|US23|Eu, como usuário, desejo saber como me cuidar no transporte público |Must| 3 |
 
 ### FT07: Home office e saúde mental
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US23|Eu, como usuário, desejo saber como lidar com o home office |Should| 5 |
-|US24|Eu, como usuário, desejo saber como posso me exercitar em casa |Should| 5 |
-|US25|Eu, como usuário, desejo saber como cuidar da minha saúde mental na pandemia |Must| 5 |
+|US24|Eu, como usuário, desejo saber como lidar com o home office |Should| 5 |
+|US25|Eu, como usuário, desejo saber como posso me exercitar em casa |Should| 5 |
+|US26|Eu, como usuário, desejo saber como cuidar da minha saúde mental na pandemia |Must| 5 |
 
 ### FT08: Vacinação
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US26|Eu, como usuário, desejo saber qual a quantidade de vacinados na minha cidade/país|Could| 8 |
-|US27|Eu, como usuário, desejo saber quando posso me vacinar|Must| 5 |
-|US28|Eu, como usuário, desejo saber se as vacinas são seguras|Must| 3 |
-|US29|Eu, como usuário, desejo saber se eu preciso me vacinar|Must| 3 |
-|US30|Eu, como usuário, desejo saber como as vacinas aprovadas pela anvisa agem no organismo|Should| 5 |
-|US31|Eu, como usuário, desejo saber quantas doses da vacina preciso tomar|Must| 5 |
-|US32|Eu, como usuário, desejo saber qual a eficácia de cada vacina aprovada pela anvisa|Must| 5 |
+|US27|Eu, como usuário, desejo saber qual a quantidade de vacinados na minha cidade/país|Could| 8 |
+|US28|Eu, como usuário, desejo saber quando posso me vacinar|Must| 5 |
+|US29|Eu, como usuário, desejo saber se as vacinas são seguras|Must| 3 |
+|US30|Eu, como usuário, desejo saber se eu preciso me vacinar|Must| 3 |
+|US31|Eu, como usuário, desejo saber como as vacinas aprovadas pela anvisa agem no organismo|Should| 5 |
+|US32|Eu, como usuário, desejo saber quantas doses da vacina preciso tomar|Must| 5 |
+|US33|Eu, como usuário, desejo saber qual a eficácia de cada vacina aprovada pela anvisa|Must| 5 |
 
 ### FT09: Detecção
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US33|Eu, como usuário com suspeita de covid, desejo saber oque fazer|Must| 5 |
-|US34|Eu, como usuário com suspeita de covid, desejo saber aonde me testar|Should| 5 |
-|US35|Eu, como usuário com suspeita de covid, desejo saber qual tipo de exame devo fazer e porque|Must| 5 |
-|US36|Eu, como usuário, testei positivo para covid e quero saber oque fazer|Must| 3 |
+|US34|Eu, como usuário com suspeita de covid, desejo saber oque fazer|Must| 5 |
+|US35|Eu, como usuário com suspeita de covid, desejo saber aonde me testar|Should| 5 |
+|US36|Eu, como usuário com suspeita de covid, desejo saber qual tipo de exame devo fazer e porque|Must| 5 |
+|US37|Eu, como usuário, testei positivo para covid e quero saber oque fazer|Must| 3 |
 
 ## EP03: Lembrete programado
 Será uma epic para criar lembretes programados.
@@ -139,16 +140,16 @@ Será uma epic para criar lembretes programados.
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US37|Eu, como usuário, desejo cadastrar a data da próxima dose da vacina|Must| 8 |
-|US38|Eu, como usuário, desejo ser lembrado da próxima dose da vacina|Must| 8 |
+|US38|Eu, como usuário, desejo cadastrar a data da próxima dose da vacina|Must| 8 |
+|US39|Eu, como usuário, desejo ser lembrado da próxima dose da vacina|Must| 8 |
 
 ### FT11: Avisos e cuidados
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US39|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre as principais descobertas sobre a covid|Could| 8 |
-|US40|Eu, como usuário, desejo ser notificado sobre as principais descobertas sobre a covid|Could|  8 |
-|US41|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de home office|Could| 8 |
-|US42|Eu, como usuário, desejo receber dicas de home office|Could| 8 |
-|US43|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de saúde mental|Should| 8 |
-|US44|Eu, como usuário, desejo receber dicas de saúde mental|Should| 8 |
+|US40|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre as principais descobertas sobre a covid|Could| 8 |
+|US41|Eu, como usuário, desejo ser notificado sobre as principais descobertas sobre a covid|Could|  8 |
+|US42|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de home office|Could| 8 |
+|US43|Eu, como usuário, desejo receber dicas de home office|Could| 8 |
+|US44|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de saúde mental|Should| 8 |
+|US45|Eu, como usuário, desejo receber dicas de saúde mental|Should| 8 |

@@ -29,9 +29,9 @@ A comunicação é a chave principal para o bom decorrer da disciplina e do proj
 
 Reunião semanal, pois a sprint dura uma semana, na qual as presenças essenciais são as dos Scrum Masters e dos Product Owners, porém a reunião é aberta para quem mais quiser participar. Nessa reunião são decididos tarefas principais da sprint que serão divididas entre as 3 equipes ou feitas em conjuto. 
 
-Reunião geral semanal, onde todos os membros se encontram. O Scrum Master junto com o Product Owner, Arquiteto e DevOps, decidem as atividades e funcionalidades a serem realizadas pela equipe de Desenvolvimento e equipe de Gerência. Além disso também avaliadas quais melhorias deverão ser feitas.
+Reunião geral semanal, onde todos os membros se encontram. O Scrum Master, junto com o Product Owner, Arquiteto e DevOps, decidem as atividades e funcionalidades a serem realizadas pela equipe de Desenvolvimento e equipe de Gerência. Além disso, também avaliadas quais melhorias deverão ser feitas.
 
-O esforço para realizar cada uma das tarefas é medido com a equipe e assim, essas tarefas serão pontuadas. É definido também, as duplas que trabalharão em conjunto (Pair Programming).
+O esforço para realizar cada uma das tarefas é medido com a equipe e assim, essas tarefas serão pontuadas. São definidas também as duplas que trabalharão em conjunto. (Pair Programming).
 
 #### 3.2.2 Planejamento da Sprint
 Após o pré-planejamento, cada equipe faz uma reunião com todos os integrantes para dividir as tarefas que ficaram alocadas para a equipe entre os membros de acordo com dificuldade e disponibilidade. Além disso também são levantadas quais melhorias podem ser feitas. A Sprint Review e Sprint Retrospective ocorrem no mesmo dia do Planejamento da Sprint.

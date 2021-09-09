@@ -6,6 +6,7 @@ intents:
   - covid
   - fora_do_escopo
   - formas_de_transmissao
+  - mais_sobre_o_virus
   - bot_alligabot
 
 responses:
@@ -28,6 +29,11 @@ responses:
   utter_formas_de_transmissao:
   - text: "O vírus pode se propagar de pessoa para pessoa por meio de gotículas do nariz ou da boca que se espalham quando alguém doente tosse ou espirra. A maioria dessas gotículas cai em superfícies e objetos próximos, como mesas ou telefones, (Ministério da Saúde). Para mais informações, acesse: https://bvsms.saude.gov.br/novo-coronavirus-covid-19-informacoes-basicas"
   - text: "As pessoas também podem se contaminar ao respirarem gotículas provenientes da tosse ou espirro de uma pessoa doente, (Ministério da Saúde). Para mais informações, acesse: https://bvsms.saude.gov.br/novo-coronavirus-covid-19-informacoes-basicas"
+
+  utter_mais_sobre_o_virus:
+   - text: "O SARS-CoV-2 é um vírus de RNA fita simples. Isso significa que o material genético deste vírus é uma molécula de RNA e não de DNA, como é o caso da maior parte dos seres vivos (inclusive nós). Na verdade, há discussão se os vírus podem ou não serem considerados seres vivos. Considerando isso, como apenas vírus podem apresentar RNA como seu material genético, poderíamos até dizer que o DNA é o material genético de todos os seres vivos. Apenas por curiosidade, outros vírus que também possuem como material genético RNA fita simples são os vírus da dengue e o HIV. Já um exemplo de vírus com DNA como material genético seria o HBV, vírus causador da hepatite B."
+   - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2. Os coronavírus atingem várias espécies de animais. Da família, sete tipos afetam a nós, seres humanos. Quatro levam apenas a resfriados. Os três restantes, por sua vez, causam sérios problemas respiratórios.O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
+   - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. Os primeiros coronavírus humanos foram identificados em meados da década de 1960. A maioria das pessoas se infecta com os coronavírus comuns ao longo da vida, sendo as crianças pequenas mais propensas a se infectarem com o tipo mais comum do vírus. Os coronavírus mais comuns que infectam humanos são o alpha coronavírus 229E e NL63 e beta coronavírus OC43, HKU1. Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
 
   utter_alligabot:
   - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

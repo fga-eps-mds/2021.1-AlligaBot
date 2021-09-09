@@ -11,6 +11,13 @@ stories:
   steps:
   - intent: formas_de_transmissao
   - action: utter_formas_de_transmissao
+  
+- story: caminho para para saber mais sobre o virus
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: mais_sobre_o_virus
+  - action: utter_mais_sobre_o_virus
 
 - story: sad path 1
   steps:

@@ -52,6 +52,13 @@ nlu:
     - Como o covid é transmitido?
     - Transmissão
     
+- intent: mais_sobre_o_virus
+  examples: |
+    - Desejo saber mais sobre o vírus
+    - Mais sobre o virus
+    - Detalhes sobre o virus
+    - Sobre o Sars Cov 2
+    
 - intent: bot_alligabot
   examples: |
     - Você é um bot?

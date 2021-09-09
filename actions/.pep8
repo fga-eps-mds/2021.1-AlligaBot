@@ -3,4 +3,5 @@
 in-place = true
 recursive = true
 indent-size = 2
+max-line-length = 79
 ignore = E401,E111,E121

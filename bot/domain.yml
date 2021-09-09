@@ -5,6 +5,7 @@ intents:
   - despedida
   - covid
   - fora_do_escopo
+  - formas_de_transmissao
   - bot_alligabot
 
 responses:
@@ -23,6 +24,10 @@ responses:
   - text: "Não entendi o que você escreveu. Poderia reformular sua questão sobre o COVID-19?"
   - text: "Não entendi. Tente perguntar algo sobre o COVID-19"
   - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
+
+  utter_formas_de_transmissao:
+  - text: "O vírus pode se propagar de pessoa para pessoa por meio de gotículas do nariz ou da boca que se espalham quando alguém doente tosse ou espirra. A maioria dessas gotículas cai em superfícies e objetos próximos, como mesas ou telefones, (Ministério da Saúde). Para mais informações, acesse: https://bvsms.saude.gov.br/novo-coronavirus-covid-19-informacoes-basicas"
+  - text: "As pessoas também podem se contaminar ao respirarem gotículas provenientes da tosse ou espirro de uma pessoa doente, (Ministério da Saúde). Para mais informações, acesse: https://bvsms.saude.gov.br/novo-coronavirus-covid-19-informacoes-basicas"
 
   utter_alligabot:
   - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

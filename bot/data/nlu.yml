@@ -40,6 +40,17 @@ nlu:
     - Você sabe ver o futuro?
     - Quais são os números da loteria dessa semana?
     - Qual o sentido da vida?
+
+- intent: formas_de_transmissao
+  examples: |
+    - Quais são as formas de transmissão do covid-19?
+    - Quero saber sobre a transmissão do covid-19
+    - Como é a propagação do covid-19?
+    - Transmissão do covid-19
+    - Propagação do covid-19
+    - Como o covid-19 se espalha?
+    - Como o covid é transmitido?
+    - Transmissão
     
 - intent: bot_alligabot
   examples: |

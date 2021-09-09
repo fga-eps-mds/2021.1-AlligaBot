@@ -7,6 +7,10 @@ stories:
   - intent: start
   - action: utter_cumprimentar
 
+- story: caminho para conversar sobre transmissão
+  steps:
+  - intent: formas_de_transmissao
+  - action: utter_formas_de_transmissao
 
 - story: sad path 1
   steps:

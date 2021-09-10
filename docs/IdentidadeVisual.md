@@ -7,9 +7,10 @@
 | 01/09/2021 | 0.2 | Logo do bot e paleta de cores | Kathlyn Lara |
 | 04/09/2021 | 0.3 | Novo logo do bot | Kathlyn Lara |
 | 09/09/2021 | 0.4 | Fonte e paleta de cores nova | Kathlyn Lara |
+| 10/09/2021 | 0.5 | Introdução do documento | Kathlyn Lara |
 
 # 1. Introdução
-
+Este documento tem como finalidade apresentar a "aparência" do AlliBot para os usuários, ou seja, seu logo, sua paleta de cores e sua letra, que será presente tanto no chat de conversação do Telegram como no site do GitHub Pages.
 
 # 2. Apresentação da Identidade Visual
 ![img](img/logo.jpg)

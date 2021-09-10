@@ -10,6 +10,4 @@ USER 1001
 
 ENTRYPOINT [ "rasa" ]
 
-RUN chmod +x /app/start_services.sh
-
-CMD /app/start_services.sh
+CMD [ "run", "--enable-api", "--port", "8080" ]

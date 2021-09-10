@@ -16,8 +16,21 @@ flexível, popular e ter a opção de realizar a formatação automaticamente.
 Antes de fazer push das suas alterações execute o linter (consulte o 
 [`makefile`](/Makefile) para saber o comando).
 
+_Fique atento: este documento sobre estilo de código ainda está em 
+desenvolvimento e ainda pode mudar._
+
 
 ## Exemplos
+
+### Nomenclatura de variáveis, funções, classes, métodos etc
+A linguagem Python não tem um padrão fixo para nomenclatura de variáveis e 
+funções. Ainda assim existem algumas diretrizes gerais que são seguidas pela 
+comunidade e que serão adotadas nesse projeto.
+
+Use `snake_case` para nomes de variáveis e funções e use `CamelCase` para nomes
+de classes.
+
+
 ### Tabs ou espaços?
 Use 2 espaços para cada nível de indentação. Configure o tab para 2 espaços no
 seu editor de texto.

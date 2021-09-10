@@ -12,6 +12,7 @@ Assim, será explicado o problema evidenciado, a oportunidade encontrada, a desc
 |26/08/2021|0.2|Criação da primeira versão|Ana Carolina|
 |27/08/2021|0.3|Adição de conteúdo dos subtópicos 1.5, 2.2, 3.5, 3.6 e o tópico 4.0|Ana Carolina|
 |01/09/2021|0.4|Revisão do documento e adição dos subtópicos 3.2, 3.7 e tópico 5|Thaís Rebouças|
+|10/09/2021|0.5|Correções ortográficas|Thaís Rebouças|
 
 
 
@@ -25,7 +26,7 @@ O objetivo deste artigo será definir o problema, os perfis das partes interessa
 
 ### 1.2 Escopo
 
-Esse projeto tem como objetivo desenvolver um bot com 3 temas com a finalidade de solucionar as diversas dúvidas que surgiram durante a pandemia do Coronavírus, disponibilizando informações sobre vacinação, prevenção e políticas pública conectando a informação atual ao público. Visando a conexão direta da informação simplificada, que vem de pesquisas e artigos científicos juntamente com as políticas criadas pelos governos para frear a contaminação e a desinformação. 
+Esse projeto tem como objetivo o desenvolvimento de um bot com 3 temas, cuja principal finalidade é a de solucionar diversas dúvidas que surgem entre a população acerca da COVID-19, disponibilizando informações sobre vacinação, prevenção e políticas públicas conectando a informação atual ao público. Visando a conexão direta da informação simplificada, que vem de pesquisas e artigos científicos juntamente com as políticas criadas pelos governos para frear a contaminação e a desinformação. 
 
 
 ### 1.4 Definições, Acrônimos e Abreviações
@@ -138,7 +139,7 @@ Slow Bros:
 
 | Representante            | Descrição                                                               | Tipo                                                               | Responsabilidade                                                                             | Critério de sucesso                                                                             | Envolvimento                                                                             |
 | :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
-| Pessoas físicas interessadas por informações | Pessoas que querem informações sobre covid ou que querem ser alertadas sobre novidades relacionadas ao tema |  Usuários desinformados  | Além de utilizar o programa e usufruir de suas funcionalidades, o usuário deve alertar sobre possíveis falhas ou informações faltantes | Circulação de informações e o reconhedimento do auxílio do bot | Pessoas físicas interessadas por informações | Médio |
+| Pessoas físicas interessadas por informações | Pessoas que querem informações sobre covid ou que querem ser alertadas sobre novidades relacionadas ao tema |  Usuários desinformados  | Além de utilizar o programa e usufruir de suas funcionalidades, o usuário deve alertar sobre possíveis falhas ou informações faltantes | Circulação de informações e o reconhecimento do auxílio do bot | Pessoas físicas interessadas por informações | Médio |
 
 #### 3.6 Principais Necessidades dos Usuários ou dos Envolvidos
 
@@ -162,7 +163,7 @@ O objetivo do bot em questão é aumentar a circulação de informações veríd
 
 ### 4.2 Resumo das capacidades
 
-As capacidades do produto vão de encontro com as necessidades do público em geral que tem anseio por informações fáceis, atuais e verídicas sobre o CoronaVírus e pessoas físicas que ainda nao possuem conhecimento sobre as informações mais comuns que devem ter acesso, ambos conhecendo os elementos das três funcionalidades mais comuns atualmente. Assim, o Bot em questão será capaz de ofertar informações relacionadas a esta realidade do COVID-19, incluindo informações sobre as novas pesquisas sobre as vacinas. Por fim, todos esses recursos foram pensados para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a barrar informações falsas ou a falta delas.
+As capacidades do produto vão de encontro com as necessidades do público em geral que tem anseio por informações fáceis, atuais e verídicas sobre o CoronaVírus e pessoas físicas que ainda não possuem conhecimento sobre as informações mais comuns que devem ter acesso, ambos conhecendo os elementos das três funcionalidades mais comuns atualmente. Assim, o Bot em questão será capaz de ofertar informações relacionadas a esta realidade do COVID-19, incluindo informações de novas pesquisas sobre as vacinas. Por fim, todos esses recursos foram pensados para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a barrar informações falsas ou a falta delas.
 
 ## **5. Recursos do Produto**
 
@@ -172,11 +173,11 @@ O bot interage com o usuário, levando informações comprovadas de modo leve e 
 
 ### 5.2 Informação
 
-O bot carrega informações de prevenção e cuidados no geral, além de tirar dúvidas mais frequêntes a respeito das vacinas aprovadas pela ANVISA.
+O bot carrega informações de prevenção e cuidados no geral, além de tirar dúvidas mais frequentes a respeito das vacinas aprovadas pela ANVISA.
 
 ### 5.3 Avisos e cuidados
 
-O bot trás dicas de home office, saúde mental, além de atualizar o usuário com novidades sobre descobertas e casos de covid.
+O bot traz dicas de home office, saúde mental, além de atualizar o usuário com novidades sobre descobertas e casos de covid.
 
 ### 5.4 Lembrete programado
 

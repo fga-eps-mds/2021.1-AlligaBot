@@ -1,0 +1,57 @@
+version: "2.0"
+
+nlu:
+- intent: start
+  examples: |
+    - Oi
+    - Ola
+    - Bom dia
+    - Boa Tarde
+    - Eae
+    - eae
+    - oi
+    
+- intent: despedida
+  examples: |
+    - Boa noite
+    - Ate mais
+    - flw
+    - obrigado bot
+    - tchau
+
+- intent: covid
+  examples: |
+    - o que e covid ?
+    - covid
+
+- intent: fora_do_escopo
+  examples: |
+    - Quero pedir comida
+    - Quero pedir um táxi
+    - Quero pedir um Uber
+    - Quero saber sobre o clima
+    - Quanto é 2 + 2
+    - Quem é o presidente dos Estados Unidos?
+    - Por quê o céu é azul?
+    - A terra é plana?
+    - Que horas são?
+    - Que dia é hoje?
+    - Em que ano estamos?
+    - Você sabe ver o futuro?
+    - Quais são os números da loteria dessa semana?
+    - Qual o sentido da vida?
+    
+- intent: bot_alligabot
+  examples: |
+    - Você é um bot?
+    - você eh um bot?
+    - voce e um bot?
+    - vc e um bot?
+    - vc bot
+    - Você é humano?
+    - Voce e humano?
+    - Você é uma pessoa real?
+    - Você é um robô?
+    - O que você é?
+    
+

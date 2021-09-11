@@ -40,6 +40,13 @@ nlu:
     - Você sabe ver o futuro?
     - Quais são os números da loteria dessa semana?
     - Qual o sentido da vida?
+    - pizza
+    - piza
+    - casa
+    - rua
+    - bosta
+    - bola
+    - ceu
 
 - intent: formas_de_transmissao
   examples: |
@@ -58,6 +65,13 @@ nlu:
     - Mais sobre o virus
     - Detalhes sobre o virus
     - Sobre o Sars Cov 2
+
+- intent: variantes
+  examples: |
+    - quais são as variantes
+    - variantes do covid
+    - variate covid
+    
     
 - intent: bot_alligabot
   examples: |

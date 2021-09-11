@@ -12,6 +12,7 @@ intents:
   - alfa
   - mais alfa
   - beta
+  - mais beta
 
 entities:
   - oi
@@ -24,6 +25,8 @@ entities:
   - variantes
   - alfa
   - mais alfa
+  - beta
+  - mais beta
 
 
 
@@ -51,10 +54,10 @@ responses:
     image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
 
   utter_mais_sobre_o_virus:
-   - text: "O COVID-19 é um vírus de RNA fita simples. Isso significa que o material genético deste vírus é uma molécula de RNA e não de DNA, como é o caso da maior parte dos seres vivos (inclusive nós)."
-   - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2.\n O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
-   - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
-   - text: "O coronavírus pertence a uma família de vírus que causa desde resfriados comuns a doenças mais graves.O novo coronavírus recebeu a denominação SARS-CoV-2 pela Organização Mundial da Saúde (OMS). A doença que ele provoca tem a denominação COVID-19, que significa Coronavirus Disease (doença do coronavírus), enquanto “19” se refere ao ano em que apareceram os primeiros casos em Wuhan, na China."
+    - text: "O COVID-19 é um vírus de RNA fita simples. Isso significa que o material genético deste vírus é uma molécula de RNA e não de DNA, como é o caso da maior parte dos seres vivos (inclusive nós)."
+    - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2.\n O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
+    - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
+    - text: "O coronavírus pertence a uma família de vírus que causa desde resfriados comuns a doenças mais graves.O novo coronavírus recebeu a denominação SARS-CoV-2 pela Organização Mundial da Saúde (OMS). A doença que ele provoca tem a denominação COVID-19, que significa Coronavirus Disease (doença do coronavírus), enquanto “19” se refere ao ano em que apareceram os primeiros casos em Wuhan, na China."
 
   utter_variantes:
     - text: "As variantes do COVID-19 são a Alfa, Beta, Delta e Gama"
@@ -70,6 +73,14 @@ responses:
     - text: |
         A variante (Beta B.1.351) Surgiu na Africa em dezembro de 2020, esta variante alem de possui a N501Y presente na Alfa, tem a K417N
         E484K que ajuda o virus a escapar dos anticorpos produzidos pelo corpo
+
+  utter_beta_mais:
+    - text: |
+        Vacinas como a Janssen e a Pfizer são eficazes contra este tipo de variante, A unica que não funciona e a
+        AstraZeneca 
+      
+        
+
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

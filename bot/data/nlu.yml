@@ -66,6 +66,8 @@ nlu:
     - Mais sobre o virus
     - Detalhes sobre o virus
     - Sobre o Sars Cov 2
+    - Mais sobre o covid
+    - mais covid
 
 - intent: variantes
   examples: |

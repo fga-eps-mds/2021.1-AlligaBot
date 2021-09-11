@@ -3,6 +3,7 @@
 | 19/08/2021 | 0.1 | Criação da versão inicial do documento | Kathlyn Lara |
 | 25/08/2021 | 0.2 | Documento completo | Kathlyn Lara |
 | 01/09/2021 | 0.3 | Modificação do nome do bot | Kathlyn Lara |
+| 11/09/2021 | 0.4 | Correção de erros ortográficos | Ana Carolina |
 
 # 1. Nome do Bot
 AlligaBot
@@ -15,9 +16,9 @@ Devido a piada que quem vacinar, vira jacaré, decidimos escolher um nome que no
 
 "Os Cônsules são altruístas, e levam a sério a responsabilidade de ajudar e fazer o que é certo."
 
-"Compassivos e extrovertidos [...] As personalidades Cônsules realmente gostam de ouvir seus amigos e saber sobre seus relacionamentos e atividades, lembrando pequenos detalhes e sempre prontos à conversarem com afeto e sensibilidade. Se as coisas não estão indo bem, ou há tensão na sala, os Cônsules percebem isso e tentam restaurar a harmonia e estabilidade no grupo."
+"Compassivos e extrovertidos [...] As personalidades Cônsules realmente gostam de ouvir seus amigos e saber sobre seus relacionamentos e atividades, lembrando pequenos detalhes e sempre prontos a conversarem com afeto e sensibilidade. Se as coisas não estão indo bem, ou há tensão na sala, os Cônsules percebem isso e tentam restaurar a harmonia e estabilidade no grupo."
 
-"Essas personalidades dedicam muito esforço às atividades que organizam."
+"Essas personalidades dedicam muito esforço as atividades que organizam."
 
 
 ![mbti](img/esfj.jpeg)

@@ -1,4 +1,4 @@
-# Roadmap do Porduto
+# Roadmap do Produto
 
 Esse documento contêm a documentação das atividades realizadas em todas as sprints até a R1. 
 
@@ -6,6 +6,8 @@ Esse documento contêm a documentação das atividades realizadas em todas as sp
 | Data  |  Versão  |  Descrição  | Autor(es) |
 | ----- | -------- | ----------- | --------- |
 |  10/09/2021 |  0.1 | Versão 1 do roadmap | Pedro Lucas; Ana Carolina; Matheus Akio  |
+|  11/09/2021 |  0.2 | Correção de erro ortográfico | Ana Carolina  |
+
 
 
 

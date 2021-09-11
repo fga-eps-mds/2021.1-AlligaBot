@@ -82,11 +82,11 @@ nlu:
     - Alpha
     - alpha 
 
-- intent: mais alfa
+- intent: mais_alfa
   examples: |
     - quero saber sobre alfa
     - me fale sobre alfa
-    - alfa +
+    - alfa mais
     - Alfa +
     - mais alfa
     - mais sobre alfa
@@ -98,7 +98,7 @@ nlu:
     - Beta
     - bet
 
-- intent: mais beta
+- intent: mais_beta
   examples: |
     - quero saber sobre beta
     - me fale sobre beta
@@ -107,7 +107,13 @@ nlu:
     - mais beta
     - mais sobre beta
 
-    
+- intent: gama
+  examples: |
+    - Gama
+    - gama
+    - Gam
+    - gamm
+   
 - intent: bot_alligabot
   examples: |
     - Você é um bot?

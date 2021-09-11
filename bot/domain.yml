@@ -10,9 +10,10 @@ intents:
   - bot_alligabot
   - variantes
   - alfa
-  - mais alfa
+  - mais_alfa
   - beta
-  - mais beta
+  - mais_beta
+  - gama
 
 entities:
   - oi
@@ -24,9 +25,10 @@ entities:
   - bot_alligabot
   - variantes
   - alfa
-  - mais alfa
+  - mais_alfa
   - beta
-  - mais beta
+  - mais_beta
+  - gama
 
 
 
@@ -71,15 +73,18 @@ responses:
 
   utter_beta:
     - text: |
-        A variante (Beta B.1.351) Surgiu na Africa em dezembro de 2020, esta variante alem de possui a N501Y presente na Alfa, tem a K417N
+        A variante (Beta B.1.351) - Surgiu na Africa em dezembro de 2020, esta variante alem de possui a N501Y presente na Alfa, tem a K417N
         E484K que ajuda o virus a escapar dos anticorpos produzidos pelo corpo
 
   utter_beta_mais:
     - text: |
-        Vacinas como a Janssen e a Pfizer são eficazes contra este tipo de variante, A unica que não funciona e a
+        Vacinas como a Janssen e a Pfizer são eficazes contra a Beta, A unica que não funciona e a
         AstraZeneca 
       
-        
+  utter_gama:
+    - text: |    
+        A variante (Gama - P.1 linhagem) variante descoberta em japoneses que voltavam do  Amazonas. 
+        A Gama e muito parecida com a Beta em questão de mutações.
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

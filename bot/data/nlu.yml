@@ -89,6 +89,22 @@ nlu:
     - mais alfa
     - mais sobre alfa
     - mais alfa
+
+- intent: beta
+  examples: |
+    - beta
+    - Beta
+    - bet
+
+- intent: mais beta
+  examples: |
+    - quero saber sobre beta
+    - me fale sobre beta
+    - beta +
+    - Beta +
+    - mais beta
+    - mais sobre beta
+
     
 - intent: bot_alligabot
   examples: |

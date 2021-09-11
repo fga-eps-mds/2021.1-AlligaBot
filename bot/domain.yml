@@ -11,6 +11,7 @@ intents:
   - variantes
   - alfa
   - mais alfa
+  - beta
 
 entities:
   - oi
@@ -23,7 +24,7 @@ entities:
   - variantes
   - alfa
   - mais alfa
-  
+
 
 
 responses:
@@ -63,6 +64,11 @@ responses:
   utter_alfa_mais:
     - text: "A Alfa tem a mutação que N501Y, que intensifica aligação entre as celulas do virus e humanas"
     - text: "No quesito de Vacinas a variante Alfa toma nocaute de todas as vacinas "
+
+  utter_beta:
+    - text: |
+        A variante (Beta B.1.351) Surgiu na Africa em dezembro de 2020, esta variante alem de possui a N501Y presente na Alfa, tem a K417N
+        E484K que ajuda o virus a escapar dos anticorpos produzidos pelo corpo
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

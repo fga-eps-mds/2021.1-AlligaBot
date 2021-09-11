@@ -7,7 +7,7 @@
 | 30/08/2021 |  0.1   |     Abertura do documento      | [Matheus Sousa](https://github.com/gatotabaco) |
 | 30/08/2021 |  0.2 |     Renomeação do documento      | [Matheus Sousa](https://github.com/gatotabaco) |
 | 31/08/2021 |  0.3   |     Adição de tópicos e informações      | [Amanda Nobre](https://github.com/AmandaNbr) |
-| 11/09/2021 |  0.3   |     Correção de erros ortagráficos,morfológicos e versão      | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) |
+| 11/09/2021 |  0.4   |     Correção de erros ortagráficos,morfológicos e versão      | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) |
 
 ## Propósito
 

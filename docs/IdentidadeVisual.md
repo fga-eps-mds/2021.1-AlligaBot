@@ -8,9 +8,10 @@
 | 04/09/2021 | 0.3 | Novo logo do bot | Kathlyn Lara |
 | 09/09/2021 | 0.4 | Fonte e paleta de cores nova | Kathlyn Lara |
 | 10/09/2021 | 0.5 | Introdução do documento | Kathlyn Lara |
+| 11/09/2021 | 0.6 | Correção do nome do chatbot e padronização do nome chatbot | Ana Carolina |
 
 # 1. Introdução
-Este documento tem como finalidade apresentar a "aparência" do AlliBot para os usuários, ou seja, seu logo, sua paleta de cores e sua letra, que será presente tanto no chat de conversação do Telegram como no site do GitHub Pages.
+Este documento tem como finalidade apresentar a "aparência" do AlligaBot para os usuários, ou seja, seu logo, sua paleta de cores e sua letra, que será presente tanto no chatbot de conversação do Telegram como no site do GitHub Pages.
 
 # 2. Apresentação da Identidade Visual
 ![img](img/logo.jpg)
@@ -20,7 +21,7 @@ Um jacaré amigável segurando uma seringa.
 
 # 3. Fontes
 
-Obs.: As fontes aqui citadas são da página github.io do AlliBot, já que o produto em si irá utilizar as fontes padrão da máquina (smartphone/notebook) do usuário.
+Obs.: As fontes aqui citadas são da página github.io do AlligaBot, já que o produto em si irá utilizar as fontes padrão da máquina (smartphone/notebook) do usuário.
 
 A fonte utilizada na aplicação será:
 
@@ -50,7 +51,7 @@ Coloca-se no css, para a utilização das fontes:
 
 # 4. Paleta de cores
   
-Obs.: As cores aqui citadas são da página github.io do AlliBot, já que o produto em si irá utilizar as cores padrão da máquina (smartphone/notebook) do usuário.
+Obs.: As cores aqui citadas são da página github.io do AlligaBot, já que o produto em si irá utilizar as cores padrão da máquina (smartphone/notebook) do usuário.
 
 <img src="img/paletacores.jpg" alt="contraste" width="600"/>
 

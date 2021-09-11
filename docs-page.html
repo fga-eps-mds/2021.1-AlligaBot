@@ -110,6 +110,7 @@
 					</li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-8-1">Commit</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-8-2">Branch</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-8-3">Folha de estilo</a></li>
 				</ul>
 
 			</nav>
@@ -2760,6 +2761,81 @@
 						</section>
 					</section>
 					<!--//section-->
+
+					<section class="docs-section" id="item-8-3">
+						<section class='markdown-preview' data-use-github-style>
+							<h2 id="histórico-de-versões">Histórico de versões</h2>
+							<table>
+								<thead>
+									<tr>
+										<th align="center">Data</th>
+										<th align="center">Versão</th>
+										<th align="center">Descrição</th>
+										<th align="center">Autor(es)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="center">09/09</td>
+										<td align="center">0.1</td>
+										<td align="center">Primeiras regras de estilo</td>
+										<td align="center">Yudi Yamane</td>
+									</tr>
+								</tbody>
+							</table>
+							<h1 id="folha-de-estilo">Folha de Estilo</h1>
+							<p>Este documento explica o estilo de código Python usado no projeto. O estilo é<br>baseado no <a
+									href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> com poucas<br>modificações que serão explicadas
+								abaixo juntamente com outros exemplos.</p>
+							<p>Para os curiosos, a ferramenta escolhida para verificar o estilo e formatação é<br>o <a
+									href="https://pypi.org/project/autopep8/">autopep8</a>. Foi escolhida por ser<br>flexível, popular e ter a opção
+								de realizar a formatação automaticamente.</p>
+							<p>Antes de fazer push das suas alterações execute o linter (consulte o<br><a href="/Makefile"><code
+										style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">makefile</code></a> para saber
+								o comando).</p>
+							<p><em>Fique atento: este documento sobre estilo de código ainda está em<br>desenvolvimento e ainda pode mudar.</em>
+							</p>
+							<h2 id="exemplos">Exemplos</h2>
+							<h3 id="nomenclatura-de-variáveis-funções-classes-métodos-etc">Nomenclatura de variáveis, funções, classes, métodos
+								etc</h3>
+							<p>A linguagem Python não tem um padrão fixo para nomenclatura de variáveis e<br>funções. Ainda assim existem
+								algumas diretrizes gerais que são seguidas pela<br>comunidade e que serão adotadas nesse projeto.</p>
+							<p>Use <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">snake_case</code> para
+								nomes de variáveis e funções e use <code
+									style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">CamelCase</code> para nomes<br>de
+								classes.</p>
+							<h3 id="tabs-ou-espaços">Tabs ou espaços?</h3>
+							<p>Use 2 espaços para cada nível de indentação. Configure o tab para 2 espaços no<br>seu editor de texto.</p>
+							<p><strong>Faça</strong> assim:</p>
+							<pre
+								class="editor-colors lang-py"><div class="line"><span class="syntax--source syntax--python"><span class="syntax--storage syntax--type syntax--function">def</span> <span class="syntax--entity syntax--name syntax--function">my_func</span>():</span></div><div class="line"><span class="syntax--source syntax--python"><span class="leading-whitespace">  </span><span class="syntax--keyword syntax--control">if</span> (result <span class="syntax--keyword syntax--operator">==</span> IS_OK)</span></div><div class="line"><span class="syntax--source syntax--python"><span class="leading-whitespace">    </span><span class="syntax--keyword syntax--control">return</span> <span class="syntax--constant syntax--language">True</span></span></div><div class="line"><span class="syntax--source syntax--python"><span class="leading-whitespace">  </span><span class="syntax--keyword syntax--control">return</span> <span class="syntax--constant syntax--language">False</span></span></div></pre>
+							<p><strong>Não</strong> faça assim:</p>
+							<pre
+								class="editor-colors lang-py"><div class="line"><span class="syntax--source syntax--python"><span class="syntax--storage syntax--type syntax--function">def</span> <span class="syntax--entity syntax--name syntax--function">my_func</span>():</span></div><div class="line"><span class="syntax--source syntax--python"><span class="leading-whitespace">    </span><span class="syntax--keyword syntax--control">if</span> (result <span class="syntax--keyword syntax--operator">==</span> IS_OK)</span></div><div class="line"><span class="syntax--source syntax--python"><span class="leading-whitespace">        </span><span class="syntax--keyword syntax--control">return</span> <span class="syntax--constant syntax--language">True</span></span></div><div class="line"><span class="syntax--source syntax--python"><span class="leading-whitespace">    </span><span class="syntax--keyword syntax--control">return</span> <span class="syntax--constant syntax--language">False</span></span></div></pre>
+							<h3 id="espaços-em-branco-em-expressões">Espaços em branco em expressões</h3>
+							<p>Evite espaços em branco desnecessários.</p>
+							<p><strong>Faça</strong> assim:</p>
+							<pre
+								class="editor-colors lang-py"><div class="line"><span class="syntax--source syntax--python"><span class="syntax--entity syntax--name syntax--function">func</span>(ham[<span class="syntax--constant syntax--numeric">1</span>], {eggs: <span class="syntax--constant syntax--numeric">2</span>})</span></div></pre>
+							<p><strong>Não</strong> faça assim:</p>
+							<pre
+								class="editor-colors lang-py"><div class="line"><span class="syntax--source syntax--python"><span class="syntax--entity syntax--name syntax--function">func</span>( ham [ <span class="syntax--constant syntax--numeric">1</span> ], { eggs : <span class="syntax--constant syntax--numeric">2</span> } )</span></div></pre>
+							<p>Coloque espaços entre os operadores de menor prioridade.</p>
+							<p><strong>Faça</strong> assim:</p>
+							<pre
+								class="editor-colors lang-py"><div class="line"><span class="syntax--source syntax--python">i <span class="syntax--keyword syntax--operator">=</span> i <span class="syntax--keyword syntax--operator">+</span> <span class="syntax--constant syntax--numeric">1</span></span></div><div class="line"><span class="syntax--source syntax--python">submitted <span class="syntax--keyword syntax--operator">+=</span> <span class="syntax--constant syntax--numeric">1</span></span></div><div class="line"><span class="syntax--source syntax--python">x <span class="syntax--keyword syntax--operator">=</span> x<span class="syntax--keyword syntax--operator">*</span><span class="syntax--constant syntax--numeric">2</span> <span class="syntax--keyword syntax--operator">-</span> <span class="syntax--constant syntax--numeric">1</span></span></div><div class="line"><span class="syntax--source syntax--python">hypot2 <span class="syntax--keyword syntax--operator">=</span> x<span class="syntax--keyword syntax--operator">*</span>x <span class="syntax--keyword syntax--operator">+</span> y<span class="syntax--keyword syntax--operator">*</span>y</span></div><div class="line"><span class="syntax--source syntax--python">c <span class="syntax--keyword syntax--operator">=</span> (a<span class="syntax--keyword syntax--operator">+</span>b) <span class="syntax--keyword syntax--operator">*</span> (a<span class="syntax--keyword syntax--operator">-</span>b)</span></div></pre>
+							<p><strong>Não</strong> faça assim:</p>
+							<pre
+								class="editor-colors lang-py"><div class="line"><span class="syntax--source syntax--python">i<span class="syntax--keyword syntax--operator">=</span>i<span class="syntax--keyword syntax--operator">+</span><span class="syntax--constant syntax--numeric">1</span></span></div><div class="line"><span class="syntax--source syntax--python">submitted <span class="syntax--keyword syntax--operator">+=</span><span class="syntax--constant syntax--numeric">1</span></span></div><div class="line"><span class="syntax--source syntax--python">x <span class="syntax--keyword syntax--operator">=</span> x <span class="syntax--keyword syntax--operator">*</span> <span class="syntax--constant syntax--numeric">2</span> <span class="syntax--keyword syntax--operator">-</span> <span class="syntax--constant syntax--numeric">1</span></span></div><div class="line"><span class="syntax--source syntax--python">hypot2 <span class="syntax--keyword syntax--operator">=</span> x <span class="syntax--keyword syntax--operator">*</span> x <span class="syntax--keyword syntax--operator">+</span> y <span class="syntax--keyword syntax--operator">*</span> y</span></div><div class="line"><span class="syntax--source syntax--python">c <span class="syntax--keyword syntax--operator">=</span> (a <span class="syntax--keyword syntax--operator">+</span> b) <span class="syntax--keyword syntax--operator">*</span> (a <span class="syntax--keyword syntax--operator">-</span> b)</span></div></pre>
+							<h2 id="referências">Referências</h2>
+							<ul>
+								<li>As referencias devem está em formato <a href="https://github.com/LamequeFernandes">ABNT</a>.</li>
+								<li><a href="https://pycodestyle.pycqa.org/en/latest/intro.html">Introdução ao pycodestyle</a></li>
+								<li><a href="https://github.com/hhatto/autopep8/issues/378">Como usar arquivo de configuração para autopep8</a>
+								</li>
+							</ul>
+						</section>
+					</section>
 
 				</article>
 				<!--//docs-article-->

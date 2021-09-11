@@ -4,11 +4,13 @@ nlu:
 - intent: start
   examples: |
     - Oi
+    - oi
+    - Eae
+    - eae
     - Ola
     - Bom dia
     - Boa Tarde
-    - Eae
-    - eae
+
     
 - intent: despedida
   examples: |
@@ -76,7 +78,17 @@ nlu:
     - alfa
     - Alfa
     - Alpha
-    - alpha    
+    - alpha 
+
+- intent: mais alfa
+  examples: |
+    - quero saber sobre alfa
+    - me fale sobre alfa
+    - alfa +
+    - Alfa +
+    - mais alfa
+    - mais sobre alfa
+    - mais alfa
     
 - intent: bot_alligabot
   examples: |

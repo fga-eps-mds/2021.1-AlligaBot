@@ -118,10 +118,14 @@ nlu:
   examples: |
     - quero saber sobre gama
     - me fale sobre gama
-    - gama +
-    - Gama +
     - mais Gama
     - mais sobre gama
+
+- intent: delta
+  examples: |
+    - Delta
+    - delta
+    - delt
    
 - intent: bot_alligabot
   examples: |

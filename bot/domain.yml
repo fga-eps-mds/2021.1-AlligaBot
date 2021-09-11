@@ -15,6 +15,7 @@ intents:
   - mais_beta
   - gama
   - mais_gama
+  - delta
 
 entities:
   - oi
@@ -31,6 +32,8 @@ entities:
   - mais_beta
   - gama
   - mais_gama
+  - delta
+  
 
 
 
@@ -90,9 +93,19 @@ responses:
 
   utter_gama_mais:
     - text: |
+        Cerca de 70 % dos obitos no Brasil foram causadas pela Gama
+        https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/q
+    - text: |
         A variante Gama que foi mais predominante no Brasil , com a vacina Corovac do instituto butatan
         Outras vacinas eficaz cotra essa variante e a Astrazeneca que foi testata pelo instituto Fiocruz
         E tambem a Pfizer
+
+  utter_delta:
+    - text: | 
+        A variante Delta surgiu entre o periodo de outubro e Dezembro na India
+        Alem disso tem muita semelhanças a Gama e Beta
+        As mutação vão desde da E484Q que ajuda o virus contra os anticorpos e a L452R, também ligada a resposta imune
+
 
 
   utter_alligabot:

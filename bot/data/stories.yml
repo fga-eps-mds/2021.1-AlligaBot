@@ -66,4 +66,9 @@ stories:
   - intent: mais_gama
   - action: utter_gama_mais
 
+- story: Delta
+  steps:
+  - intent: delta
+  - action: utter_delta
+
 

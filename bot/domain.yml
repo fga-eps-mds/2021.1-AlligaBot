@@ -6,6 +6,7 @@ intents:
   - covid
   - fora_do_escopo
   - bot_alligabot
+  - cuidados_na_academia
 
 responses:
   utter_cumprimentar:
@@ -23,6 +24,10 @@ responses:
   - text: "Não entendi o que você escreveu. Poderia reformular sua questão sobre o COVID-19?"
   - text: "Não entendi. Tente perguntar algo sobre o COVID-19"
   - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
+
+  utter_cuidados_na_academia:
+  - text: "Independentemente do exercício que você for fazer, é preciso ficar, pelo menos, dois metros de distância de outros usuários e usar constantemente uma máscara que cubra sua boca e seu nariz. “Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas”, aconselhou o Centro de Controle e Prevenção de Doenças (CDC) dos Estados Unidos."
+  - text: "Uma vez que o risco aumenta de acordo com o nível do esforço físico, seja criterioso quanto às atividades que você realiza. Mesmo que o local seja bem ventilado e o tamanho da classe pequena, atividades de baixa intensidade – como ioga – são mais seguras do que as de alta intensidade, como spinning, que devem ser feitas ao ar livre."
 
   utter_alligabot:
   - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

@@ -7,6 +7,10 @@ stories:
   - intent: start
   - action: utter_cumprimentar
 
+- story: caminho para conversar sobre os cuidados na academia
+  steps: 
+  - intent: cuidados_na_academia
+  - action: utter_cuidados_na_academia
 
 - story: sad path 1
   steps:

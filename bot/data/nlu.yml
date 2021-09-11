@@ -40,7 +40,16 @@ nlu:
     - Você sabe ver o futuro?
     - Quais são os números da loteria dessa semana?
     - Qual o sentido da vida?
-    
+
+- intent: cuidados_na_academia
+  examples: |
+    - Quais cuidados devo ter na academia para me proteger do covid-19?
+    - Devo tomar quais cuidados na academia para me proteger do covid-19?
+    - Como me proteger do covid-19 na academia
+    - Vou para a academia, como posso me proteger do covid-19?
+    - Cuidados na academia para me proteger do covid-19?
+    - Quero saber sobre os cuidados na academia
+
 - intent: bot_alligabot
   examples: |
     - Você é um bot?

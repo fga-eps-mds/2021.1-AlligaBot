@@ -39,8 +39,10 @@ responses:
   - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
 
   utter_formas_de_transmissao:
-  - text: "O vírus pode se propagar de pessoa para pessoa por meio de gotículas do nariz ou da boca que se espalham quando alguém doente tosse ou espirra. A maioria dessas gotículas cai em superfícies e objetos próximos, como mesas ou telefones, (Ministério da Saúde). Para mais informações, acesse: https://bvsms.saude.gov.br/novo-coronavirus-covid-19-informacoes-basicas"
-  - text: "As pessoas também podem se contaminar ao respirarem gotículas provenientes da tosse ou espirro de uma pessoa doente, (Ministério da Saúde). Para mais informações, acesse: https://bvsms.saude.gov.br/novo-coronavirus-covid-19-informacoes-basicas"
+  - text: "Os cientistas, hoje, reconhecem que a principal forma de transmissão da Covid-19 é pelo ar, através da inalação de partículas vindas de pessoas infectadas, especialmente quando estão conversando, falando alto, gritando ou cantando."
+    image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
+  - text: "Um jeito simples e intuitivo de se explicar como atuam essas partículas contagiosas é imaginar que elas se comportam como a fumaça de cigarro. Ao ar livre ou em ambientes bem ventilados, ela se dispersa rapidamente. No entanto, em lugares fechados ou mal ventilados, ela preenche o ar e demora muito tempo para se dissipar. Se há vários fumantes numa mesma sala, o ar fica carregado com a fumaça."
+    image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
 
   utter_mais_sobre_o_virus:
    - text: "O COVID-19 é um vírus de RNA fita simples. Isso significa que o material genético deste vírus é uma molécula de RNA e não de DNA, como é o caso da maior parte dos seres vivos (inclusive nós)."

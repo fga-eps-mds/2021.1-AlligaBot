@@ -14,6 +14,7 @@ intents:
   - beta
   - mais_beta
   - gama
+  - mais_gama
 
 entities:
   - oi
@@ -29,6 +30,7 @@ entities:
   - beta
   - mais_beta
   - gama
+  - mais_gama
 
 
 
@@ -85,6 +87,13 @@ responses:
     - text: |    
         A variante (Gama - P.1 linhagem) variante descoberta em japoneses que voltavam do  Amazonas. 
         A Gama e muito parecida com a Beta em questão de mutações.
+
+  utter_gama_mais:
+    - text: |
+        A variante Gama que foi mais predominante no Brasil , com a vacina Corovac do instituto butatan
+        Outras vacinas eficaz cotra essa variante e a Astrazeneca que foi testata pelo instituto Fiocruz
+        E tambem a Pfizer
+
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

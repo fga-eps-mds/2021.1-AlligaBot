@@ -46,19 +46,24 @@ stories:
   - intent: mais_alfa
   - action: utter_alfa_mais
 
-- story: beta
+- story: Beta
   steps:
   - intent: beta
   - action: utter_beta
 
-- story: beta mais
+- story: Beta mais
   steps:
   - intent: mais_beta
   - action: utter_beta_mais
 
-- story: gama
+- story: Gama
   steps:
   - intent: gama
   - action: utter_gama
+
+- story: Gama mais
+  steps:
+  - intent: mais_gama
+  - action: utter_gama_mais
 
 

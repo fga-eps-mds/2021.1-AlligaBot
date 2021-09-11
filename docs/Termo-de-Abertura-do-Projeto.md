@@ -25,7 +25,7 @@ O objetivo do chatbot é aumentar a circulação de informações verídicas e v
 # 5. Partes Interessadas
 
 ## 5.1 Usários
-Não há um público específico visto que a covid afetou o todo o mundo.
+O público se remete aos brasilienses, usuários do chatbot.
 
 ## 5.1 Equipes e Papéis:
 

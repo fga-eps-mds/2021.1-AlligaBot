@@ -61,7 +61,7 @@ As informações serão organizadas em tópicos referentes aos seguintes temas, 
 ### 2.1 Oportunidade de negócios
 
 A dúvida e a desinformação no período pandêmico comumente engrandecido por informações falsas nas redes sociais têm sido um grande desafio aos profissionais da saúde e pesquisadores. Prejudicando também a comunicação entre o governo e a população.
-Com o intuito de facilitar e aumentar o direcionamento da informação clara, de linguagem simples e advindas de fontes confiáveis, o programa concebido pela equipe de desenvolvimento buscar atuar como ajudante desses profissionais e do Governo. Desenvolvendo um programa com interação automática com o usuário, o projeto foi criado justamente com foco no público em geral. O principal beneficente é a pessoa física que carece de informações verdadeiras.
+Com o intuito de facilitar e aumentar o direcionamento da informação clara, de linguagem simples e advindas de fontes confiáveis, o programa concebido pela equipe de desenvolvimento busca atuar como ajudante desses profissionais e do Governo. Desenvolvendo um programa com interação automática com o usuário, o projeto foi criado justamente com foco no público em geral. O principal beneficente é a pessoa física que carece de informações verdadeiras.
 
 ### 2.2 Descrição do problema
 

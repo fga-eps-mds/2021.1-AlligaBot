@@ -10,6 +10,7 @@ intents:
   - bot_alligabot
   - variantes
   - alfa
+  - mais alfa
 
 entities:
   - oi
@@ -21,13 +22,14 @@ entities:
   - bot_alligabot
   - variantes
   - alfa
+  - mais alfa
+  
 
 
 responses:
   utter_cumprimentar: 
-  - text: |
-      Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
-      O que voce quer gostaria de perguntar?"
+  - text: "Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
+  - text: "O que voce quer gostaria de perguntar?"
   
   utter_covid:
   - text: "COVID-19 é uma nova espécie coronavirus, que afeta o sistema imunológico e respiratório"
@@ -58,7 +60,10 @@ responses:
 
   utter_alfa:
     - text: "A variante (Alfa B.1.1.7) - surgiu no Reino unido em setembro de 2020 com uma taxa de transmissão entre 30 a 50 % a mais que outras linhagens"
-
+  
+  utter_alfa_mais:
+    - text: "A Alfa tem a mutação que N501Y, que intensifica aligação entre as celulas do virus e humanas"
+    - text: "No quesito de Vacinas a variante Alfa toma nocaute de todas as vacinas "
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

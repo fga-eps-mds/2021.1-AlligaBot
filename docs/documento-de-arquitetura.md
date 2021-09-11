@@ -42,14 +42,20 @@ Este documento está dividído em 6 grandes tópicos, com subdivisões, com o ob
 # 2. Representação da Arquitetura
 ![Captura de tela de 2021-08-21 16-03-24](https://user-images.githubusercontent.com/78758172/130332389-f7fb3872-bf5c-4b54-adc6-ebb5a9a08312.png)
 
-A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima. O ciclo começa quando o usuário envia uma mensagem para o AlligaBot, após isso a mensagem é repassada ao bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem, após isso, no Rasa Core, é feita a etapa de identificar a intenção do usuário. Por último o Rasa escolherá a resposta mais adequada através do Rasa Actions, e retornará tal resposta ao usuário via Telegram.
-Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, realizada através do Rasa, uma vez que o Front-end seria exatamente a interface do app Telegram que é responsável pela interação com o usuário, ou seja receber a mensagem do usuário e passá-la ao bot, e de mostrar ao usuário o retorno dado pelo bot.
+A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima, e explicada por meio do passo a passo abaixo: 
+1 - O ciclo começa quando o usuário envia uma mensagem para o AlligaBot
+2 - Após isso a mensagem é repassada ao bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem
+3 - Depois, no Rasa Core, é feita a etapa de identificar a intenção do usuário 
+4 - O Rasa escolherá a resposta mais adequada através do Rasa Actions 
+5 - E por último retornará tal resposta ao usuário via Telegram.
+  
+Obs.: Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, realizada através do Rasa, uma vez que o Front-end seria exatamente a interface do app Telegram que é responsável pela interação com o usuário, ou seja receber a mensagem do usuário e passá-la ao bot, e de mostrar ao usuário o retorno dado pelo bot.
   
 ## 2.1 Tecnologias
 ### 2.1.1 Rasa
 ![Captura de tela de 2021-08-21 16-00-44](https://user-images.githubusercontent.com/78758172/130332385-f1e97e13-94c1-4916-990e-3d1daf4d87ee.png)
 
-Para a construção do sistema usaremos o Rasa, um framework utilizado para construção de bot's de conversação. O framework conta com 3 principais componentes, o Rasa NLU que é responsável por processar a mensagem enviada pelo usuário, o Rasa Core que é responsável por identificar a intenção do usuário e o Rasa Actions, que dada a intenção do usuário, este escolhe a resposta mais adequada a se retornar ao usuário.
+Para a construção do sistema usaremos o Rasa, um framework utilizado para construção de bot's de conversação. A escolha dele foi feita por ser uma alternativa open source, robusta e de fácil uso para implementação, a escolha de seu uso foi feita pelos tecnologistas que o consideraram a melhor opção para o desenvolvimento do projeto. O framework conta com 3 principais componentes, o Rasa NLU que é responsável por processar a mensagem enviada pelo usuário, o Rasa Core que é responsável por identificar a intenção do usuário e o Rasa Actions, que dada a intenção do usuário, este escolhe a resposta mais adequada a se retornar ao usuário.
 O Rasa aprende de acordo com que for sendo treinado, através de seu machine learning, e através do NLU consegue-se fazer também um bot "mais humano".
   
 ### 2.1.2 Telegram
@@ -89,7 +95,8 @@ O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegr
 |-----|-----------|---------|
 |E1|Sobre o bot|Será uma epic para ser uma informação inicial, onde o usuário terá o primeiro contato com o bot e terá uma breve explicação sobre suas funcionalidades|
 |E2|Informações sobre covid|Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid|
-|E3|Lembrete programado|Será uma epic para criar lembretes programados|
+|E3|Lembrete programado|Será uma epic para criar lembretes programados|  
+Informações mais detalhadas dos épicos podem ser encontradas no documento de Backlog do Produto.
   
 # 5. Visão Lógica
 ## 5.1 Diagrama de Pacotes

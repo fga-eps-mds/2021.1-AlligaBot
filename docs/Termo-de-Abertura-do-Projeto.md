@@ -7,28 +7,54 @@ Este documento viabiliza conceitualmente a visão inicial do projeto como um tod
 |  23/08/2021 |  0.1 | Criação da versão inicial do documento | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
 |  24/08/2021 |  0.2 | Adição das equipes e da estratégia de comunicação | [Pedro Lucas](https://github.com/PedroLSF)  |
 |  26/08/2021 |  0.3 | Exclusão do antigo tópico 8, Correção de informações no documento | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
+|  11/09/2021 |  0.4 | Correção do nome comum do bot,erros ortográficos, dos riscos, tabela de equipes jutando com os papéis e definições | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
 
 # 1. Introdução
-O documento tem como objetivo informar propósitos, objetivos e requisitos de alto nível, além de especificações de planejamento do Bot, informacional e conversacional.
+O documento tem como objetivo informar propósitos, objetivos e requisitos de alto nível, além de especificações de planejamento do chatbot, informacional e conversacional.
 
 # 2. Descrição
-O bot em questão é um bot disponibilizado no mensageiro Telegram, que tem como objetivo salientar a conversação, trazer informação e tirar dúvidas sobre: Vacinação, Prevenção e Políticas Públicas a respeito da COVID-19, além de disparar alertas sobre as circunstâncias de cada tema.
+O AlligaBot é um chatbot disponibilizado no mensageiro Telegram, que tem como objetivo salientar a conversação, trazer informação e tirar dúvidas sobre: Vacinação, Prevenção e Políticas Públicas a respeito da COVID-19, além de disparar alertas sobre as circunstâncias de cada tema.
 
 # 3.Próposito e Justificativa
-Com o surgimento da COVID-19, o entendimento sobre essa nova doença foi buscado por todos os profissionais da saúde, pelo qual tentou responder às milhares de dúvidas decorrentes do Corona Vírus. Diante disso, a informação de modo claro, direto e de fácil acesso ainda persiste em continuar não sendo entregue por todos os brasilienses que tem acesso a internet e faz uso das redes sociais e meios de comunicação. Entretanto, para solucionar essa falta de conhecimento básico, informação importante para qualquer cidadão que precisa para se proteger, o bot em questão veio para facilitar esse entendimento prévio sobre três aspectos, fazendo a comunicação direta e de fácil acesso aos cidadãos. Ele sugere as principais informações sobre vacinação, prevenção e políticas públicas, agregando em principal o governo a poder compartilhar a informação verdadeira e simples para todos.
+Com o surgimento da COVID-19, o entendimento sobre essa nova doença foi buscado por todos os profissionais da saúde, pelo qual tentou responder as milhares de dúvidas decorrentes do CoronaVírus. Diante disso, a informação de modo claro, direto e de fácil acesso ainda persiste em continuar não sendo entregue por todos os brasilienses que tem acesso a internet e faz uso das redes sociais e meios de comunicação. Entretanto, para solucionar essa falta de conhecimento básico, informação importante para qualquer cidadão que precisa para se proteger, o chatbot veio para facilitar esse entendimento prévio sobre três aspectos, fazendo a comunicação direta e de fácil acesso aos cidadãos. Ele sugere as principais informações sobre vacinação, prevenção e políticas públicas, agregando em principal o governo a poder compartilhar a informação verdadeira e simples para todos.
 
 # 4.Objetivos
-O objetivo do bot em questão é aumentar a circulação de informações verídicas e viabilizar que elas sejam de fácil e rápido acesso, além de serem constantemente atualizadas. Sem o bot, essas informações são disponibilizadas em vários meios de telecomunicação, porém muitas das vezes, elas ainda não são acessíveis a todos e nem sempre corretas de acordo com as novas descobertas científicas.
+O objetivo do chatbot é aumentar a circulação de informações verídicas e viabilizar que elas sejam de fácil e rápido acesso, além de serem constantemente atualizadas. Sem o chatbot, essas informações são disponibilizadas em vários meios de telecomunicação, porém muitas das vezes, elas ainda não são acessíveis a todos e nem sempre corretas de acordo com as novas descobertas científicas.
 
-# 5. Equipe e Papéis
-## 5.1 Papéis gerais e definições:
-| Papel  |  Descrição  |
-| ----- | -------------------- |
-| Scrum Master | É o membro que faz todos os outros funcionarem, responsável por retirar possíveis impedimentos, mapear os conhecimentos e ajudar no controle de qualidade e tarefa da equipe. |
-| Product Owner | Responsável por entendere compartilhar a visão do produto, portanto, orgazinar a ordem de desenvolvimento de acordo com as necessidades mapeadas. |
-| Arquiteto de Software | Atua como um analista, sendo assim, devem ter uma analise critica do software, entender  estrutura e otimizar as funcionalidades.|
-| DevOps | Reponsável por configurar e ensinar a equipe a configurar diversos ambientes necessários para o projeto, como de desenvolvimento, automatização de teste, entre outros.|
-| Desenvolvedor | O desenvolvedor deve desenvolver, testar e garantir que o código está sendo feito da melhor forma possível. |
+
+# 5. Partes Interessadas
+
+## 5.1 Usários
+Não há um público específico visto que a covid afetou o todo o mundo.
+
+## 5.1 Equipes e Papéis:
+
+Plus Ultra:
+| Papel  |  Descrição  |  Responsável |
+| ----- | -------------------- |  --------------- |
+| Scrum Master | É o membro que faz todos os outros funcionarem, responsável por retirar possíveis impedimentos, mapear os conhecimentos e ajudar no controle de qualidade e tarefa da equipe. | [Amanda Nobre](https://github.com/AmandaNbr) |
+| Product Owner | Responsável por entendere compartilhar a visão do produto, portanto, orgazinar a ordem de desenvolvimento de acordo com as necessidades mapeadas. | [Pedro Lucas](https://github.com/PedroLSF) |
+| Arquiteto de Software | Atua como um analista, sendo assim, devem ter uma analise critica do software, entender  estrutura e otimizar as funcionalidades. | [Victor Eduardo](https://github.com/victorear05)|
+| DevOps| Reponsável por configurar e ensinar a equipe a configurar diversos ambientes necessários para o projeto, como de desenvolvimento, automatização de teste, entre outros. | [Yudi Yamane](https://github.com/yudi-azvd) |
+| Desenvolvedor | O desenvolvedor deve desenvolver, testar e garantir que o código está sendo feito da melhor forma possível. |[Erick Levy](https://github.com/Ericklevy) e [Douglas Monteles](https://github.com/DouglasMonteles) |
+
+Capivara:
+| Papel  |  Descrição  |  Responsável |
+| ----- | -------------------- |  --------------- |
+| Scrum Master | É o membro que faz todos os outros funcionarem, responsável por retirar possíveis impedimentos, mapear os conhecimentos e ajudar no controle de qualidade e tarefa da equipe. | [Matheus Sousa](https://github.com/gatotabaco) |
+| Product Owner | Responsável por entendere compartilhar a visão do produto, portanto, orgazinar a ordem de desenvolvimento de acordo com as necessidades mapeadas. | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) |
+| Arquiteto de Software | Atua como um analista, sendo assim, devem ter uma analise critica do software, entender  estrutura e otimizar as funcionalidades. | [Kathlyn Lara](https://github.com/klmurussi)|
+| DevOps |  Reponsável por configurar e ensinar a equipe a configurar diversos ambientes necessários para o projeto, como de desenvolvimento, automatização de teste, entre outros.  | [Thais Rebouças](https://github.com/Thais-ra) |
+| Desenvolvedor | O desenvolvedor deve desenvolver, testar e garantir que o código está sendo feito da melhor forma possível. |[Eduardo Lavenhagem](https://github.com/MegahNevel) e [Lameque Fernandes](https://github.com/LamequeFernandes) |
+
+Slow Bros:
+| Papel  |  Descrição  |  Responsável |
+| ----- | -------------------- |  --------------- |
+| Scrum Master |  É o membro que faz todos os outros funcionarem, responsável por retirar possíveis impedimentos, mapear os conhecimentos e ajudar no controle de qualidade e tarefa da equipe. | [Henrique Hida](https://github.com/HenriqueHida) |
+| Product Owner | Responsável por entendere compartilhar a visão do produto, portanto, orgazinar a ordem de desenvolvimento de acordo com as necessidades mapeadas. | [Matheus Akio](https://github.com/matheusakio) |
+| Arquiteto de Software | Atua como um analista, sendo assim, devem ter uma analise critica do software, entender  estrutura e otimizar as funcionalidades.  | [Matheus Raphael](https://github.com/matheusrazor)|
+| DevOps |  Reponsável por configurar e ensinar a equipe a configurar diversos ambientes necessários para o projeto, como de desenvolvimento, automatização de teste, entre outros. | [Luiz Pettengill](https://github.com/LuizPettengill) |
+| Desenvolvedor | O desenvolvedor deve desenvolver, testar e garantir que o código está sendo feito da melhor forma possível. | [Kayro Cesar](https://github.com/kayrocesar) |
 
 
 # 6.Requisitos de Alto Nível
@@ -36,69 +62,43 @@ Estão entre os requisitos de alto nível:
 
 - Interação atráves de linguagem natural para melhor usabilidade;
 - Fluxos de conversa objetivos e práticos;
-- Construir personalidade do Bot;
-- Obtenção de informações contidas nas APIS e imerso nas dúvidas do Corona Vírus, aumentando o cunho informacional do Bot.
+- Construir personalidade do chatbot;
+- Obtenção de informações contidas nas APIS e imerso nas dúvidas do CoronaVírus, aumentando o cunho informacional do chatbot.
 
 # 7. Riscos
-| Risco  |  Resposta ao risco  |
-| ------ | ------------------- |
-| Integração entre os serviços  | Treinamento sobre as tecnologias utilizadas |
-| Indisponibilidade temporária de integrantes | Alto risco de se contimar com COVID-19  |
-| Divergência de horários entre membros da equipe | Falta de planejamento e pareamentos sobre os tempos disponíveis de cada um. |
-| Desistência da disciplina | Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível |
-| Falta de cliente real | Utilização de ferramentas que ajudem a levantar requisitos  |
-| Descomprometimento da equipe  | Aumentar o senso de integração entre os membros |
-| Mudança de escopo | Documentar e refinar de forma constante os requisitos |
-| Mudança de arquitetura  | Preparar uma arquitetura adaptável, que permita mudanças sem grandes prejuízos  |
-| Indefinição do escopo | Feedback com o cliente  |
-| Atrasos nas reuniões  | Comunicação constante entre os membros; Marcar reuniões antecipadamente para evitar chocar horário com compromissos de outros membros;  |
-| Atrasos nas entregas (dívida técnica) | Evitar que as entregas atrasem pois os membros não tinham conhecimento suficiente para realizá-las ou que ainda não saibam como fazer |
-
-# 8. Partes Interessadas
-
-## 8.1 Usários
-Não há um público específico visto que a covid afetou o todo o mundo.
-
-## 8.2 Equipes
-Plus Ultra:
-| Papel  |  Descrição  |
-| ----- | -------------------- |
-| Scrum Master | [Amanda Nobre](https://github.com/AmandaNbr) |
-| Product Owner | [Pedro Lucas](https://github.com/PedroLSF) |
-| Arquiteto de Software | [Victor Eduardo](https://github.com/victorear05)|
-| DevOps | [Yudi Yamane](https://github.com/yudi-azvd) |
-| Desenvolvedor |[Erick Levy](https://github.com/Ericklevy) e [Douglas Monteles](https://github.com/DouglasMonteles) |
-
-Capivara:
-| Papel  |  Descrição  |
-| ----- | -------------------- |
-| Scrum Master | [Matheus Sousa](https://github.com/gatotabaco) |
-| Product Owner | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) |
-| Arquiteto de Software | [Kathlyn Lara](https://github.com/klmurussi)|
-| DevOps | [Thais Rebouças](https://github.com/Thais-ra) |
-| Desenvolvedor |[Eduardo Lavenhagem](https://github.com/MegahNevel) e [Lameque Fernandes](https://github.com/LamequeFernandes) |
-
-Slow Bros:
-| Papel  |  Descrição  |
-| ----- | -------------------- |
-| Scrum Master | [Henrique Hida](https://github.com/HenriqueHida) |
-| Product Owner | [Matheus Akio](https://github.com/matheusakio) |
-| Arquiteto de Software | [Matheus Raphael](https://github.com/matheusrazor)|
-| DevOps | [Luiz Pettengill](https://github.com/LuizPettengill) |
-| Desenvolvedor | [Kayro Cesar](https://github.com/kayrocesar) |
-
-# 9. Requisitos para a aprovação
+| ID   | Se                                                                      | por conta                                                          | o impacto será                                                                                         | Categoria EAR          |
+|------|-------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------|
+| RN01 | O projeto não atender os requisitos                                       | de falhas no levantamento de requisitos e na validação constante | atraso na entrega do produto e necessidade de redefinição dos requisitos                                 | Requisitos             |
+| RN02 | A tecnologia usada apresentar problemas                                   | do seu proprietário                                                | atraso na entrega do produto e necessidade de troca de tecnologia equivalente                          | Tecnologias            |
+| RN03 | Os arquitetos não conseguirem planejar e garantir a execução da arquitetura | da falta de conhecimento das tecnologias do projeto                | dificuldade na organização e atraso no desenvolvimento                          | Complexidade           |
+| RN04 | A equipe de desenvolvimento não se adaptar às tecnologias escolhidas      | da falta de conhecimento das tecnologias do projeto                | atraso na entrega do produto ou falha total da entrega                                                 | Complexidade           |
+| RN05 | Houverem dificuldades em realizar testes                                  | da falta de conhecimento                                           | atraso na entrega das histórias planejadas                                                             | Complexidade           |
+| RN06 | Os DevOps não conseguirem automatizar o deploy e a integração contínua    | de falta de conhecimento                                           | atraso na entrega do produto em ambiente de produção                                                   | Complexidade           |
+| RN07 | Os DevOps não conseguirem automatizar o deploy e a integração contínua    | de indefinição da Arquitetura do projeto                           | atraso na entrega do produto em ambiente de produção e necessidade de replanejamento da arquitetura    | Complexidade           |
+| RN08 | O produto final estiver em baixa qualidade                                | da falhas da equipe de desenvolvimento                             | refazer todo o produto e necessidade de replanejamento                                                 | Qualidade              |
+| RN09 | As atividades não forem concretizadas no prazo                            | da falta de integração da equipe de desenvolvimento                | atraso na baseline do projeto                                                                          | Estimativa/Dependência |
+| RN10 | Houver histórias de usuário mal definidas                                 | da falta de elicitação de requisitos de forma adequada                | atraso na entrega do produto e necessidade de redefinição das histórias                                | Estimativa             |
+| RN11 | Houver Sprint mal planejada                                               | de histórias mal planejadas                                        | atraso na entrega do produto, dificuldade na compreensão das histórias e necessidade de replanejamento | Estimativa/Priorização |
+| RN12 | Houver mudança no escopo                                                  | da falha no planejamento                                           | atraso e necessidade de replanejamento ou projeto não ser concluído a tempo                            | Planejamento           |
+| RN13 | Houver falta de comunicação na equipe                                     | da não utilização dos meios de comunicação definidos               | dificuldade no gerenciamento da equipe por parte do Scrum Master e falta de alinhamento das equipes    | Comunicação            |
+| RN14 | Houver problemas na comunicação da equipe                                 | do número de membros                                               | dificuldade no gerenciamento da equipe por parte do Scrum Master e falta de alinhamento das equipes    | Comunicação            |
+| RN15 | Membros da equipe abandonarem o projeto                                   | da desmotivação, sobrecarga causadas ou não pela pandemia          | sobrecarga entre os membros restantes e necessidade de replanejamento                                  | Recursos/Pandemia               |
+| RN16 | Houver perda ou defeitos em equipamentos                                  | de mal uso ou acidentes                                            | atraso na entrega do projeto e necessidade de replanejamento                                           | Recursos               |
+| RN17 | Houver o cancelamento do projeto                                          | de falta de interesse do cliente                                   | interrupção do projeto                                                                                      | Cliente                |
+| RN18 | A qualidade do software não corresponder às expectativas do cliente       | de má implementação                                                | descontentamento do Cliente e possibilidade de cancelamento do projeto                                 | Cliente/Qualidade      |
+| RN19 | Houver greve na UnB                                                       | de orientações de assembleias do corpo docente ou estudantil       | interrupção do projeto                                                                                 | Greve na UnB           |
+# 8. Requisitos para a aprovação
 
 - Ter a possibilidade de ser acessado pelo mensageiro Telegram.
 - Ter implementado as funcionalidades definidas pelo escopo do projeto.
 - Atender as especificações dos requisitos levantados.
 
-# 10. Estratégia de Comunicação
+# 9. Estratégia de Comunicação
   Meios de comunicação utilizados: Telegram, discord, aulas e meets.
 
   Outras ferramentas que são utilizadas: GitHub, Miro e Google Drive. 
 
-# 11.Referências
+# 10.Referências
 
 LOVEMONDAYS. Salários para programadores e equipe de analista, arquiteto, scrum master, DevOps e PO. Disponível em: https://www.lovemondays.com.br/. Acesso em 23 de Agosto de 2021.
 

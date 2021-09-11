@@ -1,6 +1,6 @@
 # Planejamento Sprint 04
 
-
+Essa sprint será decisiva na organização do trabalho conjunto entre todos os grupos, além da elaboração de documentos importantes para a release 1.
 
 ## Histórico de Versões
 
@@ -8,6 +8,7 @@
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 11/09/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 4 | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
+| 11/09/2021 |    0.2   | Envio inicial do documento de planejamento da sprint 4 | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
 
 ## Tamanho da Sprint
 

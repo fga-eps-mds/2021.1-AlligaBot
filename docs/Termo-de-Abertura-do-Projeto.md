@@ -7,7 +7,7 @@ Este documento viabiliza conceitualmente a visão inicial do projeto como um tod
 |  23/08/2021 |  0.1 | Criação da versão inicial do documento | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
 |  24/08/2021 |  0.2 | Adição das equipes e da estratégia de comunicação | [Pedro Lucas](https://github.com/PedroLSF)  |
 |  26/08/2021 |  0.3 | Exclusão do antigo tópico 8, Correção de informações no documento | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
-|  11/09/2021 |  0.4 | Correção do nome comum do bot,erros ortográficos, dos riscos, tabela de equipes jutando com os papéis e definições | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
+|  11/09/2021 |  0.4 | Correção do nome comum do bot,erros ortográficos, dos riscos, tabela de equipes jutando com os papéis e definições e mudança dos usuários | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
 
 # 1. Introdução
 O documento tem como objetivo informar propósitos, objetivos e requisitos de alto nível, além de especificações de planejamento do chatbot, informacional e conversacional.

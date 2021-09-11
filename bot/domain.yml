@@ -9,6 +9,7 @@ intents:
   - mais_sobre_o_virus
   - bot_alligabot
   - variantes
+  - alfa
 
 entities:
   - oi
@@ -19,12 +20,14 @@ entities:
   - mais_sobre_o_virus
   - bot_alligabot
   - variantes
+  - alfa
 
 
 responses:
-  utter_cumprimentar:
-  - text: "Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
-  - text: "O que voce quer gostaria de perguntar?"
+  utter_cumprimentar: 
+  - text: |
+      Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
+      O que voce quer gostaria de perguntar?"
   
   utter_covid:
   - text: "COVID-19 é uma nova espécie coronavirus, que afeta o sistema imunológico e respiratório"
@@ -50,8 +53,10 @@ responses:
    - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
 
   utter_variantes:
-    - text: 
-        As variantes do COVID-19 são a Alfa, Beta, Delta e Gama
+    - text: "As variantes do COVID-19 são a Alfa, Beta, Delta e Gama"
+
+  utter_alfa:
+    - text: "A variante (Alfa B.1.1.7) - surgiu no Reino unido em setembro de 2020 com uma taxa de transmissão entre 30 a 50 % a mais que outras linhagens"
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

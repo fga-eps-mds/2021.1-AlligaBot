@@ -9,7 +9,6 @@ nlu:
     - Boa Tarde
     - Eae
     - eae
-    - oi
     
 - intent: despedida
   examples: |
@@ -71,7 +70,13 @@ nlu:
     - quais são as variantes
     - variantes do covid
     - variate covid
-    
+
+- intent: alfa
+  examples: |
+    - alfa
+    - Alfa
+    - Alpha
+    - alpha    
     
 - intent: bot_alligabot
   examples: |

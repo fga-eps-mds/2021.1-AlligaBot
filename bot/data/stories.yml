@@ -36,6 +36,11 @@ stories:
   - intent: variantes
   - action: utter_variantes
 
+- story: Alfa
+  steps:
+  - intent: alfa
+  - action: utter_alfa
+
 
 
 

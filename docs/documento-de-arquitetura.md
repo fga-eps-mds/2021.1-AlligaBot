@@ -97,6 +97,7 @@ O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegr
 |E1|Sobre o bot|Será uma epic para ser uma informação inicial, onde o usuário terá o primeiro contato com o bot e terá uma breve explicação sobre suas funcionalidades|
 |E2|Informações sobre covid|Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid|
 |E3|Lembrete programado|Será uma epic para criar lembretes programados|  
+
 Informações mais detalhadas dos épicos podem ser encontradas no documento de [Backlog do Produto](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/documento-de-backlog.md).
   
 # 5. Visão Lógica

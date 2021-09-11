@@ -3,6 +3,7 @@
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 06/09/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 11/09/2021 |  0.2   | Correção de erros ortográficos e morfológicos | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)|
 
 ## 1. Objetivo
 Este documento tem como objetivo oficializar os meios de comunicação entre os membros do projeto, explicitando desde as ferramentas utilizadas até os processos necessários para assegurar que as informações sejam armazenadas, organizadas e distribuídas.
@@ -36,15 +37,14 @@ O esforço para realizar cada uma das tarefas é medido com a equipe e assim, es
 #### 3.2.2 Planejamento da Sprint
 Após o pré-planejamento, cada equipe faz uma reunião com todos os integrantes para dividir as tarefas que ficarão alocadas para a equipe entre os membros de acordo com dificuldade e disponibilidade. Além disso também são levantadas quais melhorias podem ser feitas. A Sprint Review e Sprint Retrospective ocorrem no mesmo dia do Planejamento da Sprint.
 
-
 #### 3.2.3 Daily Meeting
 Tarefa realizada pelo telegram ou discord todos os dias, onde cada integrante explica de forma clara três pontos: o que foi feito desde última Daily, o que pretende fazer até a próxima Daily e o que tem atrapalhado a produtividade, dessa forma os integrantes estão todo os dias se mantendo informados do andamento da sprint.
 
 #### 3.2.4 Sprint Review
-Reuião para mostrar os resultados positivos da sprint, cada membro mostra o trabalho que fez para que o time possa fornecer e obter feedback. 
+Reunião para mostrar os resultados positivos da sprint, cada membro mostra o trabalho que fez para que o time possa fornecer e obter feedback. 
 
 #### 3.2.4 Sprint Retrospective
-Discussão de pontos positivos e pontos negativos da Sprint, levantamento das tarefas realizadas e não realizadas e sugestões de melhoria. A avaliação geral da Sprint é feita pelo Scrum Master, porém todas os pontos (positivos, negativos e a melhorar) são debatidos pela equipe.
+Discussão de pontos positivos e negativos da Sprint, levantamento das tarefas realizadas e não realizadas e sugestões de melhoria. A avaliação geral da Sprint é feita pelo Scrum Master, porém todos os pontos (positivos, negativos e a melhorar) são debatidos pela equipe.
 
 ## 4. Referências
 IEEE (2012), IEEE Guide--Adoption of the Project Management Institute (PMI) Standard A Guide to the Project Management Body of Knowledge (PMBOK Guide)--Fifth Edition.

@@ -50,6 +50,15 @@ nlu:
     - Cuidados na academia para me proteger do covid-19?
     - Quero saber sobre os cuidados na academia
 
+- intent: cuidados_no_dentista
+  examples: |
+    - Quais cuidados devo ter no dentista para me proteger do covid-19?
+    - Devo tomar quais cuidados no dentista para me proteger do covid-19?
+    - Como me proteger do covid-19 no dentista
+    - Vou para o dentista, como posso me proteger do covid-19?
+    - Cuidados no dentista para me proteger do covid-19?
+    - Quero saber sobre os cuidados no dentista
+
 - intent: bot_alligabot
   examples: |
     - Você é um bot?

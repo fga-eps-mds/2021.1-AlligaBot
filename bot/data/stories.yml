@@ -12,6 +12,11 @@ stories:
   - intent: cuidados_na_academia
   - action: utter_cuidados_na_academia
 
+- story: caminho para conversar sobre os cuidados no dentista
+  steps: 
+  - intent: cuidados_no_dentista
+  - action: utter_cuidados_no_dentista
+
 - story: sad path 1
   steps:
   - intent: start

@@ -29,7 +29,7 @@ Essa documentação engloba as funções visadas pelo projeto, além das tecnolo
 - Documento de Arquitetura Vamos Cuidar. Disponível em: https://fga-eps-mds.github.io/2020.1-VC_Usuario/#/docs/Documento_de_Arquitetura. Acesso em 10/08/2021.
   
 ## 1.5 Visão Geral
-Este documento está dividído em 7 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações:
+Este documento está dividído em 6 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações:
 | |Tópico|Descrição|
 |-|------|---------|
 |1|Introdução|Fornece ao leitor uma visão geral do conteúdo abordado no documento|

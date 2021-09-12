@@ -6,6 +6,12 @@ stories:
   steps:
   - intent: start
   - action: utter_cumprimentar
+  
+- story: caminho para conversar sobre os cuidados em locais abertos
+  steps:
+  - intent: cuidados_em_locais_abertos
+  - action: utter_cuidados_em_locais_abertos
+
 
 - story: caminho para conversar sobre os cuidados na academia
   steps: 

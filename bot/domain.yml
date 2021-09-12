@@ -6,6 +6,7 @@ intents:
   - covid
   - fora_do_escopo
   - bot_alligabot
+  - cuidados_em_locais_abertos
   - cuidados_na_academia
   - cuidados_no_dentista
   - barbearia_cabelereiro
@@ -34,6 +35,9 @@ responses:
       - Uso de máscaras de boa qualidade bem ajustadas, cobrindo nariz e boca.
       - Ventilação de ambientes fechados e preferência a atividades em ambientes ao ar livre.
       - Distanciamento físico (2 metros entre as pessoas)."
+      
+  utter_cuidados_em_locais_abertos:
+  - text: "É importante frisar que, embora mais seguros, mesmo ambientes abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas,  sem respeito ao distanciamento físico, ou em situações de intensa interação entre as pessoas, como festas e shows. O uso de máscara sempre reduz o risco de infecção.Por isso, é importante  usar máscara corretamente mesmo ao ar livre e manter o distanciamento físico de outras pessoas."    
 
   utter_cuidados_na_academia:
   - text: "Independentemente do exercício que você for fazer, é preciso ficar, pelo menos, dois metros de distância de outros usuários e usar constantemente uma máscara que cubra sua boca e seu nariz. “Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas”, aconselhou o Centro de Controle e Prevenção de Doenças (CDC) dos Estados Unidos."

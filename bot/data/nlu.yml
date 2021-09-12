@@ -62,6 +62,18 @@ nlu:
     - Como se previnir?
     - Qual o triângulo da prevenção?
 
+- intent: cuidados_em_locais_abertos  
+  examples: |
+    -Como se previnir da covid-19 em locais abertos?
+    -Como se previnir da covid-19 em ambientes abertos?
+    -Quais cuidados devo ter em locais abertos?
+    -Quais cuidados devo ter em ambientes abertos?
+    -Cuidados que devo ter em locais abertos
+    -Cuidados em ambientes abertos
+    -Cuidados em locais abertos
+    -Prevenção em locais abertos
+    -Prevenção em ambientes abertos
+
 - intent: cuidados_na_academia
   examples: |
     - Quais cuidados devo ter na academia para me proteger do COVID-19?

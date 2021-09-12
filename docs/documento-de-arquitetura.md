@@ -4,6 +4,7 @@
   |10/08/2021|0.1|Abertura do documento de Arquitetura|Victor Eduardo|  
   |21/08/2021|0.2|Definição de tecnologias, e diagrama arquitetural|Victor Eduardo, Matheus Raphael|
   |08/09/2021|0.3|Correção de pequenos erros presentes no documento|Victor Eduardo|
+  |11/09/2021|0.4|Correção de pequenos erros presentes no documento|Victor Eduardo|
   
 # 1. Introdução
 ## 1.1 Finalidade
@@ -40,7 +41,7 @@ Este documento está dividído em 6 grandes tópicos, com subdivisões, com o ob
 |6|Tamanho e Desempenho|Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas|
   
 # 2. Representação da Arquitetura
-![Captura de tela de 2021-08-21 16-03-24](https://user-images.githubusercontent.com/78758172/130332389-f7fb3872-bf5c-4b54-adc6-ebb5a9a08312.png)
+![Desenho Arquitetural](https://user-images.githubusercontent.com/78758172/132966186-e8c26cf2-636b-4dde-8e85-4ad160dbace0.png)
 
 A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima, e explicada por meio do passo a passo abaixo: 
 1 - O ciclo começa quando o usuário envia uma mensagem para o AlligaBot
@@ -96,7 +97,8 @@ O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegr
 |E1|Sobre o bot|Será uma epic para ser uma informação inicial, onde o usuário terá o primeiro contato com o bot e terá uma breve explicação sobre suas funcionalidades|
 |E2|Informações sobre covid|Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid|
 |E3|Lembrete programado|Será uma epic para criar lembretes programados|  
-Informações mais detalhadas dos épicos podem ser encontradas no documento de Backlog do Produto.
+
+Informações mais detalhadas dos épicos podem ser encontradas no documento de [Backlog do Produto](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/documento-de-backlog.md).
   
 # 5. Visão Lógica
 ## 5.1 Diagrama de Pacotes

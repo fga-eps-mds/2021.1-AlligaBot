@@ -2,22 +2,78 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: inicio conversa
   steps:
   - intent: start
   - action: utter_cumprimentar
 
+- story: inicio conversa simples
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
 
-- story: sad path 1
+- story: caminho para conversar sobre transmissão
+  steps:
+  - intent: formas_de_transmissao
+  - action: utter_formas_de_transmissao
+  
+- story: caminho para para saber mais sobre o virus
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: mais_sobre_o_virus
+  - action: utter_mais_sobre_o_virus
+
+- story: sobre covid
   steps:
   - intent: start
   - action: utter_cumprimentar
   - intent: covid
   - action: utter_covid
 
-- story: sad path 2
+- story: variantes de covid
   steps:
-  - intent: start
-  - action: utter_cumprimentar
+  - intent: variantes
+  - action: utter_variantes
+
+- story: Alfa
+  steps:
+  - intent: alfa
+  - action: utter_alfa
+
+- story: Alfa mais
+  steps:
+  - intent: mais_alfa
+  - action: utter_alfa_mais
+
+- story: Beta
+  steps:
+  - intent: beta
+  - action: utter_beta
+
+- story: Beta mais
+  steps:
+  - intent: mais_beta
+  - action: utter_beta_mais
+
+- story: Gama
+  steps:
+  - intent: gama
+  - action: utter_gama
+
+- story: Gama mais
+  steps:
+  - intent: mais_gama
+  - action: utter_gama_mais
+
+- story: Delta
+  steps:
+  - intent: delta
+  - action: utter_delta
+
+- story: Delta mais
+  steps:
+  - intent: mais_delta
+  - action: utter_delta_mais
 
 

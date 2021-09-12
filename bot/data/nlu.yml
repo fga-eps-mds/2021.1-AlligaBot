@@ -4,12 +4,13 @@ nlu:
 - intent: start
   examples: |
     - Oi
+    - oi
+    - Eae
+    - eae
     - Ola
     - Bom dia
     - Boa Tarde
-    - Eae
-    - eae
-    - oi
+
     
 - intent: despedida
   examples: |
@@ -40,7 +41,99 @@ nlu:
     - Você sabe ver o futuro?
     - Quais são os números da loteria dessa semana?
     - Qual o sentido da vida?
+    - pizza
+    - piza
+    - casa
+    - rua
+    - bosta
+    - bola
+    - ceu
+
+- intent: formas_de_transmissao
+  examples: |
+    - Quais são as formas de transmissão do covid-19?
+    - Quero saber sobre a transmissão do covid-19
+    - Como é a propagação do covid-19?
+    - Transmissão do covid-19
+    - Propagação do covid-19
+    - Como o covid-19 se espalha?
+    - Como o covid é transmitido?
+    - Transmissão
     
+- intent: mais_sobre_o_virus
+  examples: |
+    - Desejo saber mais sobre o vírus
+    - Mais sobre o virus
+    - Detalhes sobre o virus
+    - Sobre o Sars Cov 2
+    - Mais sobre o covid
+    - mais covid
+
+- intent: variantes
+  examples: |
+    - quais são as variantes
+    - variantes do covid
+    - variate covid
+
+- intent: alfa
+  examples: |
+    - alfa
+    - Alfa
+    - Alpha
+    - alpha 
+
+- intent: mais_alfa
+  examples: |
+    - quero saber sobre alfa
+    - me fale sobre alfa
+    - alfa mais
+    - Alfa +
+    - mais alfa
+    - mais sobre alfa
+    - mais alfa
+
+- intent: beta
+  examples: |
+    - beta
+    - Beta
+    - bet
+
+- intent: mais_beta
+  examples: |
+    - quero saber sobre beta
+    - me fale sobre beta
+    - beta +
+    - Beta +
+    - mais beta
+    - mais sobre beta
+
+- intent: gama
+  examples: |
+    - Gama
+    - gama
+    - Gam
+    - gamm
+
+- intent: mais_gama
+  examples: |
+    - quero saber sobre gama
+    - me fale sobre gama
+    - mais Gama
+    - mais sobre gama
+
+- intent: delta
+  examples: |
+    - Delta
+    - delta
+    - delt
+
+- intent: mais_delta
+  examples: |
+    - quero saber sobre Delta
+    - me fale sobre Delta
+    - mais Delta
+    - mais sobre delta
+   
 - intent: bot_alligabot
   examples: |
     - Você é um bot?

@@ -5,15 +5,46 @@ intents:
   - despedida
   - covid
   - fora_do_escopo
+  - formas_de_transmissao
+  - mais_sobre_o_virus
   - bot_alligabot
+  - variantes
+  - alfa
+  - mais_alfa
+  - beta
+  - mais_beta
+  - gama
+  - mais_gama
+  - delta
+  - mais_delta
+
+entities:
+  - oi
+  - tchau
+  - covid
+  - pizza
+  - formas_de_transmissao
+  - mais_sobre_o_virus
+  - bot_alligabot
+  - variantes
+  - alfa
+  - mais_alfa
+  - beta
+  - mais_beta
+  - gama
+  - mais_gama
+  - delta
+  - mais_delta
+
+
 
 responses:
-  utter_cumprimentar:
+  utter_cumprimentar: 
   - text: "Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
-  - text: "O que voce quer saber?"
+  - text: "O que voce quer gostaria de perguntar?"
   
   utter_covid:
-  - text: "COVID-19 e uma nova espécie coronavirus, que afeta o sistema imunologico e respiratorio"
+  - text: "COVID-19 é uma nova espécie coronavirus, que afeta o sistema imunológico e respiratório"
 
   utter_despedida:
   - text: "Tchau"
@@ -24,8 +55,65 @@ responses:
   - text: "Não entendi. Tente perguntar algo sobre o COVID-19"
   - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
 
+  utter_formas_de_transmissao:
+  - text: "Os cientistas, hoje, reconhecem que a principal forma de transmissão da Covid-19 é pelo ar, através da inalação de partículas vindas de pessoas infectadas, especialmente quando estão conversando, falando alto, gritando ou cantando."
+    image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
+  - text: "Um jeito simples e intuitivo de se explicar como atuam essas partículas contagiosas é imaginar que elas se comportam como a fumaça de cigarro. Ao ar livre ou em ambientes bem ventilados, ela se dispersa rapidamente. No entanto, em lugares fechados ou mal ventilados, ela preenche o ar e demora muito tempo para se dissipar. Se há vários fumantes numa mesma sala, o ar fica carregado com a fumaça."
+    image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
+
+  utter_mais_sobre_o_virus:
+    - text: "O COVID-19 é um vírus de RNA fita simples. Isso significa que o material genético deste vírus é uma molécula de RNA e não de DNA, como é o caso da maior parte dos seres vivos (inclusive nós)."
+    - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2.\n O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
+    - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
+    - text: "O coronavírus pertence a uma família de vírus que causa desde resfriados comuns a doenças mais graves.O novo coronavírus recebeu a denominação SARS-CoV-2 pela Organização Mundial da Saúde (OMS). A doença que ele provoca tem a denominação COVID-19, que significa Coronavirus Disease (doença do coronavírus), enquanto “19” se refere ao ano em que apareceram os primeiros casos em Wuhan, na China."
+
+  utter_variantes:
+    - text: "As variantes do COVID-19 são a Alfa, Beta, Delta e Gama"
+
+  utter_alfa:
+    - text: "A variante (Alfa B.1.1.7) - surgiu no Reino unido em setembro de 2020 com uma taxa de transmissão entre 30 a 50 % a mais que outras linhagens"
+  
+  utter_alfa_mais:
+    - text: "A Alfa tem a mutação que N501Y, que intensifica aligação entre as celulas do virus e humanas"
+    - text: "No quesito de Vacinas a variante Alfa toma nocaute de todas as vacinas "
+
+  utter_beta:
+    - text: |
+        A variante (Beta B.1.351) - Surgiu na Africa em dezembro de 2020, esta variante alem de possui a N501Y presente na Alfa, tem a K417N
+        E484K que ajuda o virus a escapar dos anticorpos produzidos pelo corpo
+
+  utter_beta_mais:
+    - text: |
+        Vacinas como a Janssen e a Pfizer são eficazes contra a Beta, A unica que não funciona e a
+        AstraZeneca 
+      
+  utter_gama:
+    - text: |    
+        A variante (Gama - P.1 linhagem) variante descoberta em japoneses que voltavam do  Amazonas. 
+        A Gama e muito parecida com a Beta em questão de mutações.
+
+  utter_gama_mais:
+    - text: |
+        Cerca de 70 % dos obitos no Brasil foram causadas pela Gama
+        https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/q
+    - text: |
+        A variante Gama que foi mais predominante no Brasil , com a vacina Corovac do instituto butatan
+        Outras vacinas eficaz cotra essa variante e a Astrazeneca que foi testata pelo instituto Fiocruz
+        E tambem a Pfizer
+
+  utter_delta:
+    - text: | 
+        A variante Delta surgiu entre o periodo de outubro e Dezembro na India
+        Alem disso tem muita semelhanças a Gama e Beta
+        As mutação vão desde da E484Q que ajuda o virus contra os anticorpos e a L452R, também ligada a resposta imune
+
+  utter_delta_mais:
+    - text: |
+        A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
+        Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
+
   utter_alligabot:
-  - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
+  - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 
 session_config:
   session_expiration_time: 60

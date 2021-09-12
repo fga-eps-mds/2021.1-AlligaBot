@@ -9,6 +9,7 @@ intents:
   - cuidados_na_academia
   - cuidados_no_dentista
   - barbearia_cabelereiro
+  - formas_gerais_de_prevencao
 
 responses:
   utter_cumprimentar:
@@ -26,6 +27,12 @@ responses:
   - text: "Não entendi o que você escreveu. Poderia reformular sua questão sobre o COVID-19?"
   - text: "Não entendi. Tente perguntar algo sobre o COVID-19"
   - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
+
+  utter_formas_gerais_de_prevencao:
+  - text: "Hoje os protocolos atualizados são baseados no triângulo da prevenção:
+  - Uso de máscaras de boa qualidade bem ajustadas, cobrindo nariz e boca.
+  - Ventilação de ambientes fechados e preferência a atividades em ambientes ao ar livre.
+  - Distanciamento físico (2 metros entre as pessoas)."
 
   utter_cuidados_na_academia:
   - text: "Independentemente do exercício que você for fazer, é preciso ficar, pelo menos, dois metros de distância de outros usuários e usar constantemente uma máscara que cubra sua boca e seu nariz. “Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas”, aconselhou o Centro de Controle e Prevenção de Doenças (CDC) dos Estados Unidos."

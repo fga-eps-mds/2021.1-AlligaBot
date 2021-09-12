@@ -19,10 +19,10 @@ nlu:
     - obrigado bot
     - tchau
 
-- intent: covid
+- intent: COVID
   examples: |
-    - o que e covid ?
-    - covid
+    - o que e COVID ?
+    - COVID
 
 - intent: fora_do_escopo
   examples: |
@@ -41,20 +41,41 @@ nlu:
     - Quais são os números da loteria dessa semana?
     - Qual o sentido da vida?
 
+- intent: formas_gerais_de_prevencao
+  examples: |
+    - Como posso me prevenir?
+    - Como posso me prevenir do COVID?
+    - Como posso me previnir?
+    - Como posso me previnir do COVID?
+    - Como posso me prevenir do COVID-19?
+    - Como posso me prevenir contra o COVID?
+    - Como posso me prevenir contra o COVID-19?
+    - Quais são as formas gerais de prevenção?
+    - Quais são as formas gerais de prevenção do COVID-19?
+    - Quais são as formas gerais de prevenção contra o COVID-19?
+    - Como posso tomar cuidado?
+    - Como me prevenir?
+    - Como me prevenir contra o COVID?
+    - Como me prevenir contra o COVID-19?
+    - O que posso fazer para me previnir do COVID-19?
+    - Como se prevenir?
+    - Como se previnir?
+    - Qual o triângulo da prevenção?
+
 - intent: cuidados_na_academia
   examples: |
-    - Quais cuidados devo ter na academia para me proteger do covid-19?
-    - Devo tomar quais cuidados na academia para me proteger do covid-19?
-    - Como me proteger do covid-19 na academia
-    - Vou para a academia, como posso me proteger do covid-19?
-    - Cuidados na academia para me proteger do covid-19?
+    - Quais cuidados devo ter na academia para me proteger do COVID-19?
+    - Devo tomar quais cuidados na academia para me proteger do COVID-19?
+    - Como me proteger do COVID-19 na academia
+    - Vou para a academia, como posso me proteger do COVID-19?
+    - Cuidados na academia para me proteger do COVID-19?
     - Quero saber sobre os cuidados na academia
 
 - intent: cuidados_no_dentista
   examples: |
     - Quais cuidados devo ter no dentista para me proteger do COVID-19?
     - Devo tomar quais cuidados no dentista para me proteger do COVID-19?
-    - Como me proteger do covid-19 no dentista
+    - Como me proteger do COVID-19 no dentista
     - Vou para o dentista, como posso me proteger do COVID-19?
     - Cuidados no dentista para me proteger do COVID-19?
     - Quero saber sobre os cuidados no dentista

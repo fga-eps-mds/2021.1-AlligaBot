@@ -1,8 +1,7 @@
 # Planejamento Sprint 05
 
 Nessa sprint houve um planejamento maior na divisão de tarefas entre os grupos e vamos ficar responsáveis por participar na elaboração de diversos documentos importantes,
-como o de visao e como contribuir (no readme). Além disso, temos um punhado de dívidas alocadas de tarefas que foram cumpridas parcialmente ou que ainda nao tinham prontos os requisitos
-para serem cumpridas.
+como o de visão e como contribuir (no readme). Além disso, temos muitas dívidas alocadas de tarefas que foram cumpridas parcialmente ou que ainda não estão finalizadas para que cumpram com os requisitos planejados.
 
 ## Histórico de Versões
 
@@ -43,7 +42,7 @@ para serem cumpridas.
 | [#55](https://github.com/fga-eps-mds/2021-1-Bot/issues/55) | Personalidade e Identidade Visual do Bot | 5 | Lara |
 | [#68](https://github.com/fga-eps-mds/2021-1-Bot/issues/68) | Perguntas sobre vacinação | 2 | Todos os membros do grupo | 
 
-## Papeis
+## Papéis
 
 |      Função      |            Nome            |
 |------------------|:--------------------------:|

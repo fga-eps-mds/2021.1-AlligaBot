@@ -14,6 +14,7 @@ intents:
   - cuidados_no_dentista
   - barbearia_cabelereiro
   - formas_gerais_de_prevencao
+  - sintomas
 
 responses:
   utter_cumprimentar:
@@ -77,7 +78,34 @@ responses:
   - text: "Ir com alguma objeto que possar armazenar o Álcool em gel, usar mascara e luvas se possiveis"
   - text: "Verifique se o estabelecimento pode disponibilizar Álcool em gel para poder se Hiegienizar "
 
+  utter_sintomas:
+  - text: |
+      A COVID-19 afeta diferentes pessoas de diferentes maneiras.
+      Sintomas mais comuns:
+      - Febre
+      - Tosse seca
+      - Cansaço
+      
 
+      Sintomas menos comuns:
+      - Dores e desconfortos
+      - Dor de garganta
+      - Diarreia
+      - Conjuntivite
+      - Dor de cabeça
+      - Perca de paladar ou olfato
+      - Erupção cutânea na pele ou descoloração dos dedos das mãos ou dos pés
+      
+
+      Sintomas graves:
+      - Dificuldade de respirar ou falta de ar
+      - Dor ou pressão no peito
+      - Perda de fala ou movimento
+      
+      
+      Procure atendimento médico imediato se tiver sintomas graves. 
+      Em média, os sintomas aparecem após 5 ou 6 dias depois de ser infectado com o vírus. Porém, isso pode levar até 14 dias.
+      
   utter_alligabot:
   - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

@@ -150,6 +150,13 @@ nlu:
     - Como devo me portar na barbearia
     - Quais soluções podem me proteger do COVID-19
 
+- intent: sintomas
+  examples: |
+    - quais são os sintomas?
+    - quais são os sintomas do COVID-19?
+    - sintomas principais do COVID-19
+    - quero saber os sintomas do COVID-19
+    - pode me dizer quais são os sintomas do COVID-19?
 
 - intent: bot_alligabot
   examples: |

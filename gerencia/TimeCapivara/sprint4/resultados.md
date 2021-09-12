@@ -2,14 +2,14 @@
 Essa sprint foi muito importante para a organização dos trabalhos conjuntos entre todas as equipes. A reunião entre os Scrum Masters foi decisiva para o estabelecimento de um canal
 de comunicação conjunto no discord, além do início das reuniões semanais entre os Scrum Masters.
 
-Após isso, na reunião com os tecnologistas foi decidido o mvp do bot para 
-a release 1: um bot dentro de um container que irá responder algumas perguntas básicas (ainda não acessando nenhuma API).
+Após isso, na reunião com os tecnologistas foi decidido o mvp do ChatBot para 
+a release 1: um ChatBot dentro de um container que irá responder algumas perguntas básicas (ainda não acessando nenhuma API).
 
 Nessa Sprint foram trabalhados e(ou) concluídos(ou melhorados) os documentos de arquitetura, criação e formatação do GHPages, termo de abertura, 
-política de branch, estrutura Analítica e protótipo de baixa fidelidade, sendo que este último já estava quase concluído na sprint passada, faltando apenas um membro do
+política de branch, Estrutura Analítica e protótipo de baixa fidelidade, sendo que este último já estava quase concluído na sprint passada, faltando apenas um membro do
 grupo fazer, e pode ser visto na [Issue](https://github.com/fga-eps-mds/2021-1-Bot/issues/31) relativa a esta questão.
 
-O Scrum Master teve problemas para concluir as documentações pendentes, que ficaram como dívida para a próxima sprint em conjunto com o backlog, a elicitação de requisitos,
+O Scrum Master teve problemas para concluir as documentações pendentes que ficaram com dívida para a próxima sprint em conjunto com o backlog, a elicitação de requisitos,
 as perguntas sobre vacinação e parte da personalidade e identidade visual do bot, que foi concluída parcialmente.
 
 A daily dessa sprint foi feita e pode ser vista aqui: [Daily Sprint 4.pdf](https://github.com/fga-eps-mds/2021-1-Bot/files/7148541/Daily.Sprint.4.pdf)
@@ -45,6 +45,6 @@ A daily dessa sprint foi feita e pode ser vista aqui: [Daily Sprint 4.pdf](https
 
 Essa sprint foi decisiva no que se refere ao estabelecimento de uma comunicação adequada entre as equipes. As reuniões entre Scrum Masters e Tecnologistas ajudaram a definir
 eixos importantes para o trabalho que será feito daqui para frente. Além disso, estamos tendo problemas com a presença de todos os membros do grupo nas reuniões de plaining e review,
-além das reuniões de daily. Alguns dos membros tiveram imprevistos e emergencias nessa sprint, o que afetou a produtividade.
+além das reuniões daily. Alguns dos membros tiveram imprevistos e emergencias nessa sprint, o que afetou a produtividade.
 
 Autor: [Matheus Sousa](https://github.com/gatotabaco)

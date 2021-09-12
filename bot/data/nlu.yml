@@ -20,7 +20,7 @@ nlu:
     - obrigado bot
     - tchau
 
-- intent: COVID
+- intent: covid
   examples: |
     - o que e COVID ?
     - COVID

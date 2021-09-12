@@ -4,6 +4,7 @@
 | :--------: | :----: | :----------:                   | :---------------: |
 | 06/09/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
 | 11/09/2021 |  0.2   | Correção de erros ortográficos e morfológicos | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)|
+| 11/09/2021 |  0.3   | Correção nas referências | [Amanda Nobre](https://github.com/AmandaNbr)|
 
 ## 1. Objetivo
 Este documento tem como objetivo oficializar os meios de comunicação entre os membros do projeto, explicitando desde as ferramentas utilizadas até os processos necessários para assegurar que as informações sejam armazenadas, organizadas e distribuídas.
@@ -47,8 +48,7 @@ Reunião para mostrar os resultados positivos da sprint, cada membro mostra o tr
 Discussão de pontos positivos e negativos da Sprint, levantamento das tarefas realizadas e não realizadas e sugestões de melhoria. A avaliação geral da Sprint é feita pelo Scrum Master, porém todos os pontos (positivos, negativos e a melhorar) são debatidos pela equipe.
 
 ## 4. Referências
-IEEE (2012), IEEE Guide--Adoption of the Project Management Institute (PMI) Standard A Guide to the Project Management Body of Knowledge (PMBOK Guide)--Fifth Edition.
 
-FELIPE, Caio; FREITAS, Gesiel; BUSCHE, João Paulo; CARVALHO, Vinícius; PINHEIRO, Vinicius. SIGS - Plano de Gerenciamento de Comunicação. Disponível em: https://github.com/fga-eps-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Comunica%C3%A7%C3%A3o#32-gerencia-de-reuni%C3%B5es.
+FELIPE, Caio; FREITAS, Gesiel; BUSCHE, João Paulo; CARVALHO, Vinícius; PINHEIRO, Vinicius. SIGS - Plano de Gerenciamento de Comunicação. Disponível em: https://github.com/fga-eps-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Comunica%C3%A7%C3%A3o#32-gerencia-de-reuni%C3%B5es. Acesso em: 11 de set. de 2021.
 
-BRASIL, Ateldy. Ada - Plano de Comunicação. Disponível em: https://fga-eps-mds.github.io/2019.1-ADA/#/docs/project/communication_plan.
+BRASIL, Ateldy. Ada - Plano de Comunicação. Disponível em: https://fga-eps-mds.github.io/2019.1-ADA/#/docs/project/communication_plan. Acesso em: 11 de set. de 2021.

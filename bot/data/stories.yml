@@ -17,6 +17,12 @@ stories:
   - intent: cuidados_em_locais_fechados 
   - action: utter_cuidados_em_locais_fechados
 
+- story: caminho para conversar sobre a diferença do risco de contaminação  entre locais abertos e fechados
+  steps:
+  - intent: diferenca_locais_abertos_e_fechados 
+  - action: utter_diferenca_locais_abertos_e_fechados
+
+
 - story: caminho para conversar sobre os cuidados na academia
   steps: 
   - intent: cuidados_na_academia

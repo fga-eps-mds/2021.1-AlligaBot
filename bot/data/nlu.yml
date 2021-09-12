@@ -86,8 +86,17 @@ nlu:
     -Prevenção em locais fechados
     -Prevenção em ambientes fechados
     
-
-
+- intent: diferenca_locais_abertos_e_fechados 
+  examples: |
+    -Qual a diferença de contaminação entre locais abertos e fechados?
+    -Qual a diferença de contaminação entre ambientes abertos e fechados?
+    -Qual a diferença de risco de contaminação entre ambientes abertos e fechados?
+    -Qual a diferença de risco de contaminação entre locais abertos e fechados?
+    -Em qual local corro mais risco de pegar covid? locais abertos ou fechados?  
+    -Em qual local corro mais risco de pegar coronavirus? locais abertos ou fechados?  
+    -Em qual ambiente corro mais risco de pegar covid? ambientes abertos ou fechados?
+    -Em qual ambiente corro mais risco de pegar coronavirus? ambientes abertos ou fechados?       
+    
 - intent: cuidados_na_academia
   examples: |
     - Quais cuidados devo ter na academia para me proteger do COVID-19?

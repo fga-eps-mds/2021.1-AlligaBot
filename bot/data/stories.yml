@@ -29,4 +29,9 @@ stories:
   - intent: start
   - action: utter_cumprimentar
 
+- story: Como se portar no Cabeleiro/barbearia
+  steps:
+  - intent: barbearia_cabelereiro
+  - action: utter_cabelos
+
 

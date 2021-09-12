@@ -8,6 +8,7 @@ intents:
   - bot_alligabot
   - cuidados_na_academia
   - cuidados_no_dentista
+  - barbearia_cabelereiro
 
 responses:
   utter_cumprimentar:
@@ -33,6 +34,11 @@ responses:
   utter_cuidados_no_dentista:
   - text: "Diante da pandemia, os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao consultório odontológico apenas em casos de emergência ou urgência. As visitas ao cirurgião-dentista para procedimentos eletivos devem ser adiadas por precaução. Leia mais em: https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/"
     image: "https://lh3.googleusercontent.com/proxy/VNj5WQGYZOBRn6iqneVk0PjyQLXjMxlUX5Ie1Ed82wSqNuSkLCiTAHyxgCFFJSVwT4xa-cQneWDq1nA_S1ERb9QBIyDpnRHzHvWmhUtOy4k8omGijL0EIlUk67N0nPf2R5lSTg"
+
+  utter_cabelos:
+  - text: "Ir com alguma objeto que possar armazenar o Álcool em gel, usar mascara e luvas se possiveis"
+  - text: "Verifique se o estabelecimento pode disponibilizar Álcool em gel para poder se Hiegienizar "
+
 
   utter_alligabot:
   - text: "Eu sou o Alligabot, e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

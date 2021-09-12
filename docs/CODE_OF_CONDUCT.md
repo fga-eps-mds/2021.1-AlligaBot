@@ -8,6 +8,7 @@
 | 30/08/2021 |  0.2 |     Renomeação do documento      | [Matheus Sousa](https://github.com/gatotabaco) |
 | 31/08/2021 |  0.3   |     Adição de tópicos e informações      | [Amanda Nobre](https://github.com/AmandaNbr) |
 | 11/09/2021 |  0.4   |     Correção de erros ortagráficos,morfológicos e versão      | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) |
+| 31/08/2021 |  0.5   |     Ajustando a referência conforme a ABNT      | [Amanda Nobre](https://github.com/AmandaNbr) |
 
 ## Propósito
 
@@ -45,7 +46,7 @@ ameaçadores, ofensivos ou prejudiciais.
 
 Esse Código de Conduta é aplicado dentro do projeto e em locais públicos onde um indivíduo esteja representando o projeto ou sua comunidade. Exemplos são um e-mail oficial sobre o projeto, ou participação em eventos como representante.
 
-## Enforcement
+## Execução
 
 Casos de comportamento inaceitáveis podem ser reportados ao entrar em contato com rocha.carla@gmail.com. Todas as reclamações serão analisadas e investigadas e resultarão em uma resposta que será apropriada à circunstância. A equipe do projeto é
 obrigado a manter sigilo em relação ao relator de um incidente.
@@ -54,4 +55,4 @@ Os mantenedores do projeto que não seguirem ou aplicarem o Código de Conduta d
 
 ## Referência
 
-Esse código de conduta foi inspirado e, em partes, adaptado do [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
+ORGANIZATION FOR ETHICAL SOURCE. Contributor Covenant, 2014. Latest Version. Disponível em: https://www.contributor-covenant.org/version/2/1/code_of_conduct/. Acesso em: 11 de set. de 2021.

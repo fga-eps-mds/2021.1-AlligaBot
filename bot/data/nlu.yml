@@ -73,6 +73,20 @@ nlu:
     -Cuidados em locais abertos
     -Prevenção em locais abertos
     -Prevenção em ambientes abertos
+    
+- intent: cuidados_em_locais_fechados 
+  examples: |
+    -Como se previnir da covid-19 em locais fechados?
+    -Como se previnir da covid-19 em ambientes fechados?
+    -Quais cuidados devo ter em locais fechados?
+    -Quais cuidados devo ter em ambientes fechados?
+    -Cuidados que devo ter em locais fechados
+    -Cuidados em ambientes fechados
+    -Cuidados em locais fechados
+    -Prevenção em locais fechados
+    -Prevenção em ambientes fechados
+    
+
 
 - intent: cuidados_na_academia
   examples: |

@@ -81,7 +81,12 @@ nlu:
     - Como me proteger do COVID-19 na academia
     - Vou para a academia, como posso me proteger do COVID-19?
     - Cuidados na academia para me proteger do COVID-19?
+    - Cuidados em academia
     - Quero saber sobre os cuidados na academia
+    - Se manter seguro na academia
+    - Se manter segura na academia
+    - Preteger-se na academia
+    - Se proteger na academia
 
 - intent: cuidados_no_dentista
   examples: |
@@ -90,7 +95,12 @@ nlu:
     - Como me proteger do COVID-19 no dentista
     - Vou para o dentista, como posso me proteger do COVID-19?
     - Cuidados no dentista para me proteger do COVID-19?
+    - Cuidados no dentista
     - Quero saber sobre os cuidados no dentista
+    - Se manter seguro no dentista
+    - Se manter segura no dentista
+    - Preteger-se no dentista
+    - Se proteger no dentista
 
 - intent: barbearia_cabelereiro
   examples: |

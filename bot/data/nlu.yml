@@ -126,6 +126,13 @@ nlu:
     - Delta
     - delta
     - delt
+
+- intent: mais_delta
+  examples: |
+    - quero saber sobre Delta
+    - me fale sobre Delta
+    - mais Delta
+    - mais sobre delta
    
 - intent: bot_alligabot
   examples: |

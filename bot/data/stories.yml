@@ -71,4 +71,9 @@ stories:
   - intent: delta
   - action: utter_delta
 
+- story: Delta mais
+  steps:
+  - intent: mais_delta
+  - action: utter_delta_mais
+
 

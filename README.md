@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="200" src="docs/img/logo.png">
+  <img width="300" src="docs/img/logo.png">
 </p>
 <h1 align="center">AlligaBot</h1>
 

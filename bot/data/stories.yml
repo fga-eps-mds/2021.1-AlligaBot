@@ -22,6 +22,11 @@ stories:
   - intent: diferenca_locais_abertos_e_fechados 
   - action: utter_diferenca_locais_abertos_e_fechados
 
+- story: caminho para conversar sobre os cuidados em restaurantes
+  steps:
+  - intent: cuidados_em_restaurantes 
+  - action: utter_cuidados_em_restaurantes
+  
 
 - story: caminho para conversar sobre os cuidados na academia
   steps: 

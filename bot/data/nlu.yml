@@ -95,8 +95,25 @@ nlu:
     -Em qual local corro mais risco de pegar covid? locais abertos ou fechados?  
     -Em qual local corro mais risco de pegar coronavirus? locais abertos ou fechados?  
     -Em qual ambiente corro mais risco de pegar covid? ambientes abertos ou fechados?
-    -Em qual ambiente corro mais risco de pegar coronavirus? ambientes abertos ou fechados?       
-    
+    -Em qual ambiente corro mais risco de pegar coronavirus? ambientes abertos ou fechados?   
+
+- intent: cuidados_em_restaurantes
+  examples: |
+    - Cuidados que devo ter em restaurantes
+    - Quais cuidados devo ter em restaurantes?
+    - Quais cuidados devo tomar em restaurantes?
+    - Quais cuidados devo ter  em restaurantes para me proteger do COVID-19?
+    - Devo tomar quais cuidados em restaurantes para me proteger do COVID-19?
+    - Como me proteger do COVID-19  em restaurantes
+    - Vou  a um restaurante, como posso me proteger do COVID-19?
+    - Cuidados em restaurantes para me proteger do COVID-19?
+    - Cuidados em  restaurantes
+    - Quero saber sobre os cuidados  em restaurantes
+    - Se manter seguro  em restaurantes
+    - Se manter segura  em restaurantes
+    - Preteger-se  em restaurantes
+    - Se proteger  em restaurantes
+
 - intent: cuidados_na_academia
   examples: |
     - Quais cuidados devo ter na academia para me proteger do COVID-19?

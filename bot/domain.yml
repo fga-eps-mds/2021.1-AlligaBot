@@ -9,6 +9,7 @@ intents:
   - cuidados_em_locais_abertos
   - cuidados_em_locais_fechados
   - diferenca_locais_abertos_e_fechados 
+  - cuidados_em_restaurantes
   - cuidados_na_academia
   - cuidados_no_dentista
   - barbearia_cabelereiro
@@ -50,10 +51,19 @@ responses:
       - Usar máscaras de qualidade e da maneira correta
       - Dar preferência aos locais com menor número de pessoas
       - Reduzir o tempo de permanência no ambiente
-      
+
   utter_diferenca_locais_abertos_e_fechados:
   - text: |
       Hoje, é sabido que o risco de contrair Covid-19 em locais abertos é muito menor do que em locais fechados. A maioria dos casos de transmissão da Covid-19 documentados pelos cientistas foi em locais fechados, aglomerados, ou onde havia muitas pessoas sem máscara facial.É importante frisar que, embora mais seguros, mesmo locais abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas.
+
+  utter_cuidados_em_restaurantes:
+  - text: |
+     Por serem locais onde as pessoas costumam permanecer por um longo tempo, conversando e, geralmente, sem máscaras, bares e restaurantes são locais que requerem especial atenção diante do risco de contágio. 
+     Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em bares e restaurantes estão: 
+        - A preferência por mesas em espaços abertos e ao ar livre
+        - Em ambientes fechados, dar preferência a locais com ventiladores ou locais com portas e janelas abertas
+        - Manter distância das outras mesas
+        - Utilizar a máscara  no estabelecimento, podendo ser retirada apenas no momento do consumo de alimentos e bebidas.
 
   utter_cuidados_na_academia:
   - text: "Independentemente do exercício que você for fazer, é preciso ficar, pelo menos, dois metros de distância de outros usuários e usar constantemente uma máscara que cubra sua boca e seu nariz. “Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas”, aconselhou o Centro de Controle e Prevenção de Doenças (CDC) dos Estados Unidos."

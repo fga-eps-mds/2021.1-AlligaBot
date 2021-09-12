@@ -7,10 +7,36 @@ stories:
   - intent: start
   - action: utter_cumprimentar
 
-- story: inicio conversa simples
+- story: caminho para conversar sobre os cuidados em locais abertos
   steps:
-  - intent: start
-  - action: utter_cumprimentar
+  - intent: cuidados_em_locais_abertos
+  - action: utter_cuidados_em_locais_abertos
+
+- story: caminho para conversar sobre os cuidados em locais fechados
+  steps:
+  - intent: cuidados_em_locais_fechados 
+  - action: utter_cuidados_em_locais_fechados
+
+- story: caminho para conversar sobre a diferença do risco de contaminação  entre locais abertos e fechados
+  steps:
+  - intent: diferenca_locais_abertos_e_fechados 
+  - action: utter_diferenca_locais_abertos_e_fechados
+
+- story: caminho para conversar sobre os cuidados em restaurantes
+  steps:
+  - intent: cuidados_em_restaurantes 
+  - action: utter_cuidados_em_restaurantes
+  
+
+- story: caminho para conversar sobre os cuidados na academia
+  steps: 
+  - intent: cuidados_na_academia
+  - action: utter_cuidados_na_academia
+
+- story: caminho para conversar sobre os cuidados no dentista
+  steps: 
+  - intent: cuidados_no_dentista
+  - action: utter_cuidados_no_dentista
 
 - story: caminho para conversar sobre transmissão
   steps:
@@ -76,4 +102,18 @@ stories:
   - intent: mais_delta
   - action: utter_delta_mais
 
+- story: Como se portar no Cabeleiro/barbearia
+  steps:
+  - intent: barbearia_cabelereiro
+  - action: utter_cabelos
+
+- story: forma gerais de prevencao
+  steps:
+  - intent: formas_gerais_de_prevencao
+  - action: utter_formas_gerais_de_prevencao
+
+- story: sintomas
+  steps:
+  - intent: sintomas
+  - action: utter_sintomas
 

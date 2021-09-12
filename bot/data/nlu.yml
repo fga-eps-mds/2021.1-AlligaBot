@@ -20,10 +20,10 @@ nlu:
     - obrigado bot
     - tchau
 
-- intent: covid
+- intent: COVID
   examples: |
-    - o que e covid ?
-    - covid
+    - o que e COVID ?
+    - COVID
 
 - intent: fora_do_escopo
   examples: |
@@ -133,7 +133,124 @@ nlu:
     - me fale sobre Delta
     - mais Delta
     - mais sobre delta
-   
+
+- intent: formas_gerais_de_prevencao
+  examples: |
+    - Como posso me prevenir?
+    - Como posso me prevenir do COVID?
+    - Como posso me previnir?
+    - Como posso me previnir do COVID?
+    - Como posso me prevenir do COVID-19?
+    - Como posso me prevenir contra o COVID?
+    - Como posso me prevenir contra o COVID-19?
+    - Quais são as formas gerais de prevenção?
+    - Quais são as formas gerais de prevenção do COVID-19?
+    - Quais são as formas gerais de prevenção contra o COVID-19?
+    - Como posso tomar cuidado?
+    - Como me prevenir?
+    - Como me prevenir contra o COVID?
+    - Como me prevenir contra o COVID-19?
+    - O que posso fazer para me previnir do COVID-19?
+    - Como se prevenir?
+    - Como se previnir?
+    - Qual o triângulo da prevenção?
+
+- intent: cuidados_em_locais_abertos  
+  examples: |
+    -Como se previnir da covid-19 em locais abertos?
+    -Como se previnir da covid-19 em ambientes abertos?
+    -Quais cuidados devo ter em locais abertos?
+    -Quais cuidados devo ter em ambientes abertos?
+    -Cuidados que devo ter em locais abertos
+    -Cuidados em ambientes abertos
+    -Cuidados em locais abertos
+    -Prevenção em locais abertos
+    -Prevenção em ambientes abertos
+    
+- intent: cuidados_em_locais_fechados 
+  examples: |
+    -Como se previnir da covid-19 em locais fechados?
+    -Como se previnir da covid-19 em ambientes fechados?
+    -Quais cuidados devo ter em locais fechados?
+    -Quais cuidados devo ter em ambientes fechados?
+    -Cuidados que devo ter em locais fechados
+    -Cuidados em ambientes fechados
+    -Cuidados em locais fechados
+    -Prevenção em locais fechados
+    -Prevenção em ambientes fechados
+    
+- intent: diferenca_locais_abertos_e_fechados 
+  examples: |
+    -Qual a diferença de contaminação entre locais abertos e fechados?
+    -Qual a diferença de contaminação entre ambientes abertos e fechados?
+    -Qual a diferença de risco de contaminação entre ambientes abertos e fechados?
+    -Qual a diferença de risco de contaminação entre locais abertos e fechados?
+    -Em qual local corro mais risco de pegar covid? locais abertos ou fechados?  
+    -Em qual local corro mais risco de pegar coronavirus? locais abertos ou fechados?  
+    -Em qual ambiente corro mais risco de pegar covid? ambientes abertos ou fechados?
+    -Em qual ambiente corro mais risco de pegar coronavirus? ambientes abertos ou fechados?   
+
+- intent: cuidados_em_restaurantes
+  examples: |
+    - Cuidados que devo ter em restaurantes
+    - Quais cuidados devo ter em restaurantes?
+    - Quais cuidados devo tomar em restaurantes?
+    - Quais cuidados devo ter  em restaurantes para me proteger do COVID-19?
+    - Devo tomar quais cuidados em restaurantes para me proteger do COVID-19?
+    - Como me proteger do COVID-19  em restaurantes
+    - Vou  a um restaurante, como posso me proteger do COVID-19?
+    - Cuidados em restaurantes para me proteger do COVID-19?
+    - Cuidados em  restaurantes
+    - Quero saber sobre os cuidados  em restaurantes
+    - Se manter seguro  em restaurantes
+    - Se manter segura  em restaurantes
+    - Preteger-se  em restaurantes
+    - Se proteger  em restaurantes
+
+- intent: cuidados_na_academia
+  examples: |
+    - Quais cuidados devo ter na academia para me proteger do COVID-19?
+    - Devo tomar quais cuidados na academia para me proteger do COVID-19?
+    - Como me proteger do COVID-19 na academia
+    - Vou para a academia, como posso me proteger do COVID-19?
+    - Cuidados na academia para me proteger do COVID-19?
+    - Cuidados em academia
+    - Quero saber sobre os cuidados na academia
+    - Se manter seguro na academia
+    - Se manter segura na academia
+    - Preteger-se na academia
+    - Se proteger na academia
+
+- intent: cuidados_no_dentista
+  examples: |
+    - Quais cuidados devo ter no dentista para me proteger do COVID-19?
+    - Devo tomar quais cuidados no dentista para me proteger do COVID-19?
+    - Como me proteger do COVID-19 no dentista
+    - Vou para o dentista, como posso me proteger do COVID-19?
+    - Cuidados no dentista para me proteger do COVID-19?
+    - Cuidados no dentista
+    - Quero saber sobre os cuidados no dentista
+    - Se manter seguro no dentista
+    - Se manter segura no dentista
+    - Preteger-se no dentista
+    - Se proteger no dentista
+
+- intent: barbearia_cabelereiro
+  examples: |
+    - Quais cuidados devo ter no cabeleireiro para me proteger do COVID-19?
+    - Quais cuidados devo ter na Barbearia para me proteger do COVID-19?
+    - Como devo me portar no cabeleireiro 
+    - Como devo me portar na barbearia
+    - Quais soluções podem me proteger do COVID-19
+
+- intent: sintomas
+  examples: |
+    - quais são os sintomas?
+    - quais são os sintomas do COVID-19?
+    - sintomas principais do COVID-19
+    - quero saber os sintomas do COVID-19
+    - pode me dizer quais são os sintomas do COVID-19?
+
 - intent: bot_alligabot
   examples: |
     - Você é um bot?

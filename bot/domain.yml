@@ -8,6 +8,15 @@ intents:
   - formas_de_transmissao
   - mais_sobre_o_virus
   - bot_alligabot
+  - cuidados_em_locais_abertos
+  - cuidados_em_locais_fechados
+  - diferenca_locais_abertos_e_fechados 
+  - cuidados_em_restaurantes
+  - cuidados_na_academia
+  - cuidados_no_dentista
+  - barbearia_cabelereiro
+  - formas_gerais_de_prevencao
+  - sintomas
   - variantes
   - alfa
   - mais_alfa
@@ -36,8 +45,6 @@ entities:
   - delta
   - mais_delta
 
-
-
 responses:
   utter_cumprimentar: 
   - text: "Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
@@ -55,6 +62,79 @@ responses:
   - text: "Não entendi. Tente perguntar algo sobre o COVID-19"
   - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
 
+  utter_formas_gerais_de_prevencao:
+  - text: |
+      Hoje os protocolos atualizados são baseados no triângulo da prevenção:
+      - Uso de máscaras de boa qualidade bem ajustadas, cobrindo nariz e boca.
+      - Ventilação de ambientes fechados e preferência a atividades em ambientes ao ar livre.
+      - Distanciamento físico (2 metros entre as pessoas)."
+
+  utter_cuidados_em_locais_abertos:
+  - text: "É importante frisar que, embora mais seguros, mesmo ambientes abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas,  sem respeito ao distanciamento físico, ou em situações de intensa interação entre as pessoas, como festas e shows. O uso de máscara sempre reduz o risco de infecção.Por isso, é importante  usar máscara corretamente mesmo ao ar livre e manter o distanciamento físico de outras pessoas."    
+
+  utter_cuidados_em_locais_fechados:
+  - text: |
+      Os ambientes fechados ou mal ventilados são os que merecem maior foco de atenção porque o coronavírus se transmite pelo ar. Em ambientes fechados, o vírus vai se acumulando no ar e aumentando o risco de contágio por inalação de partículas em suspensão.
+
+      Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em locais fechados estão:
+      - A preferência por ambientes bem ventilados
+      - Usar máscaras de qualidade e da maneira correta
+      - Dar preferência aos locais com menor número de pessoas
+      - Reduzir o tempo de permanência no ambiente
+
+  utter_diferenca_locais_abertos_e_fechados:
+  - text: |
+      Hoje, é sabido que o risco de contrair Covid-19 em locais abertos é muito menor do que em locais fechados. A maioria dos casos de transmissão da Covid-19 documentados pelos cientistas foi em locais fechados, aglomerados, ou onde havia muitas pessoas sem máscara facial.É importante frisar que, embora mais seguros, mesmo locais abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas.
+
+  utter_cuidados_em_restaurantes:
+  - text: |
+     Por serem locais onde as pessoas costumam permanecer por um longo tempo, conversando e, geralmente, sem máscaras, bares e restaurantes são locais que requerem especial atenção diante do risco de contágio. 
+     Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em bares e restaurantes estão: 
+        - A preferência por mesas em espaços abertos e ao ar livre
+        - Em ambientes fechados, dar preferência a locais com ventiladores ou locais com portas e janelas abertas
+        - Manter distância das outras mesas
+        - Utilizar a máscara  no estabelecimento, podendo ser retirada apenas no momento do consumo de alimentos e bebidas.
+
+  utter_cuidados_na_academia:
+  - text: "Independentemente do exercício que você for fazer, é preciso ficar, pelo menos, dois metros de distância de outros usuários e usar constantemente uma máscara que cubra sua boca e seu nariz. “Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas”, aconselhou o Centro de Controle e Prevenção de Doenças (CDC) dos Estados Unidos."
+  - text: "Uma vez que o risco aumenta de acordo com o nível do esforço físico, seja criterioso quanto às atividades que você realiza. Mesmo que o local seja bem ventilado e o tamanho da classe pequena, atividades de baixa intensidade – como ioga – são mais seguras do que as de alta intensidade, como spinning, que devem ser feitas ao ar livre."
+
+  utter_cuidados_no_dentista:
+  - text: "Diante da pandemia, os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao consultório odontológico apenas em casos de emergência ou urgência. As visitas ao cirurgião-dentista para procedimentos eletivos devem ser adiadas por precaução. Leia mais em: https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/"
+    image: "https://lh3.googleusercontent.com/proxy/VNj5WQGYZOBRn6iqneVk0PjyQLXjMxlUX5Ie1Ed82wSqNuSkLCiTAHyxgCFFJSVwT4xa-cQneWDq1nA_S1ERb9QBIyDpnRHzHvWmhUtOy4k8omGijL0EIlUk67N0nPf2R5lSTg"
+
+  utter_cabelos:
+  - text: "Ir com alguma objeto que possar armazenar o Álcool em gel, usar mascara e luvas se possiveis"
+  - text: "Verifique se o estabelecimento pode disponibilizar Álcool em gel para poder se Hiegienizar "
+
+  utter_sintomas:
+  - text: |
+      A COVID-19 afeta diferentes pessoas de diferentes maneiras.
+      Sintomas mais comuns:
+      - Febre
+      - Tosse seca
+      - Cansaço
+      
+
+      Sintomas menos comuns:
+      - Dores e desconfortos
+      - Dor de garganta
+      - Diarreia
+      - Conjuntivite
+      - Dor de cabeça
+      - Perca de paladar ou olfato
+      - Erupção cutânea na pele ou descoloração dos dedos das mãos ou dos pés
+      
+
+      Sintomas graves:
+      - Dificuldade de respirar ou falta de ar
+      - Dor ou pressão no peito
+      - Perda de fala ou movimento
+      
+      
+      Procure atendimento médico imediato se tiver sintomas graves. 
+      Em média, os sintomas aparecem após 5 ou 6 dias depois de ser infectado com o vírus. Porém, isso pode levar até 14 dias.
+      
   utter_formas_de_transmissao:
   - text: "Os cientistas, hoje, reconhecem que a principal forma de transmissão da Covid-19 é pelo ar, através da inalação de partículas vindas de pessoas infectadas, especialmente quando estão conversando, falando alto, gritando ou cantando."
     image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
@@ -88,7 +168,7 @@ responses:
         AstraZeneca 
       
   utter_gama:
-    - text: |    
+    - text: |
         A variante (Gama - P.1 linhagem) variante descoberta em japoneses que voltavam do  Amazonas. 
         A Gama e muito parecida com a Beta em questão de mutações.
 
@@ -102,7 +182,7 @@ responses:
         E tambem a Pfizer
 
   utter_delta:
-    - text: | 
+    - text: |
         A variante Delta surgiu entre o periodo de outubro e Dezembro na India
         Alem disso tem muita semelhanças a Gama e Beta
         As mutação vão desde da E484Q que ajuda o virus contra os anticorpos e a L452R, também ligada a resposta imune

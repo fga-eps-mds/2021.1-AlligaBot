@@ -30,3 +30,7 @@ train:
 	@echo "Iniciando treino."
 	sudo docker exec -it bot rasa train
 
+
+lint-format-actions:
+	@echo "Aplicando correções de estilo e formatação dos arquivos do servidor de ações"
+	@docker exec -it actions python -m autopep8 /app/actions

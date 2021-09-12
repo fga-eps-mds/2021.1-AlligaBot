@@ -8,7 +8,8 @@ Essa sprint será decisiva na organização do trabalho conjunto entre todos os 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 11/09/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 4 | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
-| 11/09/2021 |    0.2   | Envio inicial do documento de planejamento da sprint 4 | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
+| 11/09/2021 |    0.2   | Adicionado o texto do primeiro tópico  | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
+| 12/09/2021 |    0.3   | Correção de erros | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
 
 ## Tamanho da Sprint
 
@@ -42,7 +43,7 @@ Essa sprint será decisiva na organização do trabalho conjunto entre todos os 
 | [#31](https://github.com/fga-eps-mds/2021-1-Bot/issues/31) | Criar protótipo de baixa fidelidade | - | Todos os membros do grupo |
 | [#52](https://github.com/fga-eps-mds/2021-1-Bot/issues/52) | Documentação da Sprint 3 | 1 | Matheus|
 
-## Papeis
+## Papéis
 
 |      Função      |            Nome            |
 |------------------|:--------------------------:|

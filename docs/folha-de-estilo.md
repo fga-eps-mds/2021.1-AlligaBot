@@ -32,23 +32,24 @@ de classes.
 
 
 ### Tabs ou espaços?
-Use 2 espaços para cada nível de indentação. Configure o tab para 2 espaços no
+Use 4 espaços para cada nível de indentação. Configure o tab para 4 espaços no
 seu editor de texto.
 
-**Faça** assim:
-```py
-def my_func():
-  if (result == IS_OK)
-    return True
-  return False
-```
 
-**Não** faça assim:
+**Faça** assim:
 ```py
 def my_func():
     if (result == IS_OK)
         return True
     return False
+```
+
+**Não** faça assim:
+```py
+def my_func():
+  if (result == IS_OK)
+    return True
+  return False
 ```
 
 ### Espaços em branco em expressões

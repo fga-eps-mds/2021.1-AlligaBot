@@ -24,6 +24,7 @@ A documentação da sprint 3 não foi concluída e irá como dívida para a pró
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 10/09/2021 |    0.1   | Primeiro envio do documento | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
+| 13/09/2021 |    0.2   | Gráficos de burndown e velocity | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
 
 ## Objetivos
 
@@ -37,6 +38,14 @@ A documentação da sprint 3 não foi concluída e irá como dívida para a pró
 | [#47](https://github.com/fga-eps-mds/2021-1-Bot/issues/47) | Alteração na politica de Brach | _Concluído_ |
 | [#48](https://github.com/fga-eps-mds/2021-1-Bot/issues/48) | Protótipo de Alta Fidelidade | _Concluído_ |
 | [#52](https://github.com/fga-eps-mds/2021-1-Bot/issues/52) | Documentação da Sprint 3 | _Não Concluído_ |
+
+## Burndown
+
+![](../assets/burndown_sprint3.png)
+
+## Velocity
+
+![](../assets/velocity_sprint3.png)
 
 ## Avaliação do Scrum Master
 

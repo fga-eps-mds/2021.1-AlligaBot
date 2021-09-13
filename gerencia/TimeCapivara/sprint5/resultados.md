@@ -72,6 +72,10 @@ para executar cada uma das tarefas.
 
 4. Comunicação mais ativa com o grupo no geral
 
+## Velocity
+
+![](../assets/velocity_sprint5.jpg)
+
 ## Avaliação do Scrum Master
 
 Essa sprint teve um salto de produtividade devido a grande melhora na comunicação entre as equipes. As reuniões entre os Scrum Masters estão sendo bem encaminhativas

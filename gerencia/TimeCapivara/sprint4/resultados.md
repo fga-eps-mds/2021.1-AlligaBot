@@ -20,6 +20,7 @@ A daily dessa sprint foi feita e pode ser vista aqui: [Daily Sprint 4.pdf](https
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 11/09/2021 |  0.1   | Versão inicial | [Matheus Sousa](https://github.com/gatotabaco)|
+| 13/09/2021 |  0.2   | Adição do gráfico de burndown e velocity| [Thaís Rebouças](https://github.com/Thais-ra)|
 
 ## Objetivos
 
@@ -40,6 +41,10 @@ A daily dessa sprint foi feita e pode ser vista aqui: [Daily Sprint 4.pdf](https
 | [#58](https://github.com/fga-eps-mds/2021-1-Bot/issues/58) | Reunião dos Scrum Masters para alinhar documentação | _Concluído_ |
 | [#66](https://github.com/fga-eps-mds/2021-1-Bot/issues/66) | Estruturar GitHub Pages | _Concluído_ |
 | [#31](https://github.com/fga-eps-mds/2021-1-Bot/issues/31) | Criar protótipo de baixa fidelidade | _Concluído_ |
+
+## Burndown
+
+![](../assets/burndown_sprint4.jpg)
 
 ## Velocity
 

@@ -13,6 +13,8 @@ para executar cada uma das tarefas.
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 11/09/2021 |  0.1   | Versão inicial | [Matheus Sousa](https://github.com/gatotabaco)|
+| 13/09/2021 |  0.2   | Adição do gráfico de burndown e velocity| [Thaís Rebouças](https://github.com/Thais-ra)|
+
 
 ## Objetivos
 
@@ -71,6 +73,10 @@ para executar cada uma das tarefas.
 3. Melhor aplicação das técnicas de scrum com a produtividade das atividades
 
 4. Comunicação mais ativa com o grupo no geral
+
+## Burndown
+
+![](../assets/burndown_sprint5.jpg)
 
 ## Velocity
 

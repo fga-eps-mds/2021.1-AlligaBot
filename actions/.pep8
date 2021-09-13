@@ -1,7 +1,6 @@
 [pep8]
-; Ignorar múltiplas importações na mesma linha
 in-place = true
 recursive = true
-indent-size = 2
 max-line-length = 79
-ignore = E401,E111,E121
+; Ignorar múltiplas importações na mesma linha
+ignore = E401,E111

@@ -5,7 +5,7 @@ Nessa sprint novamente foram acumuladas as documentações de gerencia.
 A [versão inicial do backlog](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/documento-de-backlog.md) foi concluída, assim como a elicitação dos requisitos. Além disso, as perguntas sobre vacinação foram decididas e a parte do
 Como contribuir no readme também foi concluída. As US foram definidas com sucesso, o que permite que seja possível começar a codar o chatBot.
 
-Tudo isso foi possível graças às reuniões que estão ocorrendo entre Scrum Masters e PO`s no início das sprints. Isso permite uma colaboração entre os membros de todos os grupos
+Tudo isso foi possível graças às reuniões que estão ocorrendo entre Scrum Masters e PO's no início das sprints. Isso permite uma colaboração entre os membros de todos os grupos
 para executar cada uma das tarefas.
 
 ## Histórico de Versões
@@ -42,7 +42,7 @@ para executar cada uma das tarefas.
 
 2. Avanço nas documentações
 
-3. Os times estão se alinhando, mais rostinhos trabalhando e menos sobrecarga
+3. Os times estão se alinhando, mais pessoas trabalhando e menos sobrecarga
 
 4. Produtividade
 
@@ -54,7 +54,7 @@ para executar cada uma das tarefas.
 
 1.  Muitas pendencias de sprints passadas
 
-2. Um devops ficou sobrecarregado pq o outro sumiu e outras tarefas tinham que ser priorizadas de MDS
+2. Um devops ficou sobrecarregado porque o outro sumiu e outras tarefas tinham que ser priorizadas de MDS
 
 3. Saúde mental
 

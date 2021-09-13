@@ -44,11 +44,11 @@ Este documento está dividído em 6 grandes tópicos, com subdivisões, com o ob
 ![Desenho Arquitetural](https://user-images.githubusercontent.com/78758172/132966186-e8c26cf2-636b-4dde-8e85-4ad160dbace0.png)
 
 A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima, e explicada por meio do passo a passo abaixo: 
-1 - O ciclo começa quando o usuário envia uma mensagem para o AlligaBot
-2 - Após isso a mensagem é repassada ao bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem
-3 - Depois, no Rasa Core, é feita a etapa de identificar a intenção do usuário 
-4 - O Rasa escolherá a resposta mais adequada através do Rasa Actions 
-5 - E por último retornará tal resposta ao usuário via Telegram.
+1 - O ciclo começa quando o usuário envia uma mensagem para o AlligaBot;
+2 - Após isso a mensagem é repassada ao bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem;
+3 - Depois, no Rasa Core, é feita a etapa de identificar a intenção do usuário;
+4 - O Rasa escolherá a resposta mais adequada através do Rasa Actions;
+5 - E por último retornará tal resposta ao usuário via Telegram;
   
 Obs.: Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, realizada através do Rasa, uma vez que o Front-end seria exatamente a interface do app Telegram que é responsável pela interação com o usuário, ou seja receber a mensagem do usuário e passá-la ao bot, e de mostrar ao usuário o retorno dado pelo bot.
   
@@ -71,7 +71,7 @@ A linguagem de programação a ser utilizada no bot será o Python, já que o Ra
   
 # 3. Metas e restrições de Arquitetura
 ## 3.1 Metas
-O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegram e tem como função informar o usuário acerca de conteúdos sobre o COVID-19 com informações fornecidas, dentro outros, pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio, gestão pública, e informações relacionadas à vacinação na região do usuário.
+O projeto aqui apresentado trata-se de um chatbot integrado a plataforma Telegram e tem como função informar ao usuário acerca dos conteúdos sobre a COVID-19 com informações fornecidas, dentre outros, pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio, gestão pública, e informações relacionadas à vacinação na região do usuário.
   
 ## 3.2 Restrições
 - Possuir conexão com a internet
@@ -102,7 +102,7 @@ Informações mais detalhadas dos épicos podem ser encontradas no documento de 
   
 # 5. Visão Lógica
 ## 5.1 Diagrama de Pacotes
-- O pacote 2021-1-Bot é o pacote principal do do projeto e contém todos os outros sub-pacotes
+- O pacote 2021-1-Bot é o pacote principal do projeto e contém todos os outros sub-pacotes
 - No pacote bot é o local onde está sendo desenvolvido o bot 
 - No pacote docs pode ser encontrada toda a documentação relacionada ao projeto
 - No pacote gerencia está todo o gerenciamento de sprints de cada time

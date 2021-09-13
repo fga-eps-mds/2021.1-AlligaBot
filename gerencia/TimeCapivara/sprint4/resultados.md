@@ -41,6 +41,10 @@ A daily dessa sprint foi feita e pode ser vista aqui: [Daily Sprint 4.pdf](https
 | [#66](https://github.com/fga-eps-mds/2021-1-Bot/issues/66) | Estruturar GitHub Pages | _Concluído_ |
 | [#31](https://github.com/fga-eps-mds/2021-1-Bot/issues/31) | Criar protótipo de baixa fidelidade | _Concluído_ |
 
+## Velocity
+
+![](../assets/velocity_sprint4.jpg)
+
 ## Avaliação do Scrum Master
 
 Essa sprint foi decisiva no que se refere ao estabelecimento de uma comunicação adequada entre as equipes. As reuniões entre Scrum Masters e Tecnologistas ajudaram a definir

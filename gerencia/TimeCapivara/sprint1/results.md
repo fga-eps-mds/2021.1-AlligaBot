@@ -17,6 +17,14 @@ os trabalhos. Além disso, o template para documentação e issues foram criadas
 | [#19](https://github.com/fga-eps-mds/2021-1-Bot/issues/19) | Criar uma proposta de template para Issues | _Concluído_ |
 | [#20](https://github.com/fga-eps-mds/2021-1-Bot/issues/20) | Criar uma proposta de template para a documentação | _Concluído_ |
 
+## Burndown
+
+![](../assets/burndown_sprint1.png)
+
+## Velocity
+
+![](../assets/velocity_sprint1.png)
+
 ## Avaliação do Scrum Master
 
 Nessa Sprint houve mais produtividade, além disso, os membros do grupo mostraram proatividade e marcaram uma reunião extraordinária, que teve um impacto muito positivo na organização do grupo

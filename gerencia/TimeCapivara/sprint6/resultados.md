@@ -33,6 +33,10 @@ A personalidade e identidade visual do Chatbot ainda estão pendentes, mas apena
 | [#87](https://github.com/fga-eps-mds/2021-1-Bot/issues/87) | Criação do documento de visão | _Concluído_ | 
 | [#95](https://github.com/fga-eps-mds/2021-1-Bot/issues/95) | Estruturar, fazer update das politicas e de toda documentação já realizada no GHPages | _Concluído_ |
 
+## Velocity
+
+![](../assets/velocity_sprint6.jpg)
+
 ## Avaliação da sprint
 
 **- Pontos positivos**

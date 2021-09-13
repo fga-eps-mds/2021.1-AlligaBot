@@ -30,6 +30,7 @@ Por fim, a configuração do ambiente de desenvolvimento não foi concluída e, 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 16/08/2021 |    0.1   | Primeiro envio do documento | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
+| 13/09/2021 |    0.2   | Gráficos de burndown e velocity | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
 
 ## Objetivos
 
@@ -45,6 +46,15 @@ Por fim, a configuração do ambiente de desenvolvimento não foi concluída e, 
 | [#33](https://github.com/fga-eps-mds/2021-1-Bot/issues/33) | Criar políticas do repositório | Concluído |
 | [#34](https://github.com/fga-eps-mds/2021-1-Bot/issues/34) | Criar ambiente de documentação - GitHub Pages | _Concluído_ |
 | [#35](https://github.com/fga-eps-mds/2021-1-Bot/issues/35) | Configurar ambiente de desenvolvimento | _Concluído Parcialmente_ |
+
+## Burndown
+
+![](../assets/burndown_sprint2.png)
+
+## Velocity
+
+![](../assets/velocity_sprint2.png)
+
 
 ## Avaliação do Scrum Master
 

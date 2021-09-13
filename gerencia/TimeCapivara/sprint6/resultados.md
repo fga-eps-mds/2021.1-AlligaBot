@@ -16,6 +16,7 @@ A personalidade e identidade visual do Chatbot ainda estão pendentes, mas apena
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 13/09/2021 |  0.1   | Versão inicial | [Matheus Sousa](https://github.com/gatotabaco)|
+| 13/09/2021 |  0.2   | Adição do gráfico de burndown e velocity| [Thaís Rebouças](https://github.com/Thais-ra)|
 
 ## Objetivos
 
@@ -32,6 +33,14 @@ A personalidade e identidade visual do Chatbot ainda estão pendentes, mas apena
 | [#55](https://github.com/fga-eps-mds/2021-1-Bot/issues/55) | Personalidade e Identidade Visual do chatBot | _Parcialmente concluído_ |
 | [#87](https://github.com/fga-eps-mds/2021-1-Bot/issues/87) | Criação do documento de visão | _Concluído_ | 
 | [#95](https://github.com/fga-eps-mds/2021-1-Bot/issues/95) | Estruturar, fazer update das politicas e de toda documentação já realizada no GHPages | _Concluído_ |
+
+## Burndown
+
+![](../assets/burndown_sprint6.jpg)
+
+## Velocity
+
+![](../assets/velocity_sprint6.jpg)
 
 ## Avaliação da sprint
 

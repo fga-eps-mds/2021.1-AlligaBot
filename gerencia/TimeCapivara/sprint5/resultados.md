@@ -66,7 +66,7 @@ para executar cada uma das tarefas.
 
 1. Se organizar melhor para os documentos de gerencia pois eles se acumulam rapidamente
 
-2. Priorizar melhor as atividades, tentar deixar o minimo de tarefas possivel para o último dia da sprint
+2. Priorizar melhor as atividades, tentar deixar o mínimo possível de tarefas para o último dia da sprint
 
 3. Melhor aplicação das técnicas de scrum com a produtividade das atividades
 

@@ -4,6 +4,7 @@
   |10/08/2021|0.1|Abertura do documento de Arquitetura|Victor Eduardo|  
   |21/08/2021|0.2|Definição de tecnologias, e diagrama arquitetural|Victor Eduardo, Matheus Raphael|
   |08/09/2021|0.3|Correção de pequenos erros presentes no documento|Victor Eduardo|
+  |11/09/2021|0.4|Correção de pequenos erros presentes no documento|Victor Eduardo|
   
 # 1. Introdução
 ## 1.1 Finalidade
@@ -40,16 +41,22 @@ Este documento está dividído em 6 grandes tópicos, com subdivisões, com o ob
 |6|Tamanho e Desempenho|Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas|
   
 # 2. Representação da Arquitetura
-![Captura de tela de 2021-08-21 16-03-24](https://user-images.githubusercontent.com/78758172/130332389-f7fb3872-bf5c-4b54-adc6-ebb5a9a08312.png)
+![Desenho Arquitetural](https://user-images.githubusercontent.com/78758172/132966186-e8c26cf2-636b-4dde-8e85-4ad160dbace0.png)
 
-A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima. O ciclo começa quando o usuário envia uma mensagem para o AlligaBot, após isso a mensagem é repassada ao bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem, após isso, no Rasa Core, é feita a etapa de identificar a intenção do usuário. Por último o Rasa escolherá a resposta mais adequada através do Rasa Actions, e retornará tal resposta ao usuário via Telegram.
-Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, realizada através do Rasa, uma vez que o Front-end seria exatamente a interface do app Telegram que é responsável pela interação com o usuário, ou seja receber a mensagem do usuário e passá-la ao bot, e de mostrar ao usuário o retorno dado pelo bot.
+A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima, e explicada por meio do passo a passo abaixo: 
+1 - O ciclo começa quando o usuário envia uma mensagem para o AlligaBot;
+2 - Após isso a mensagem é repassada ao bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem;
+3 - Depois, no Rasa Core, é feita a etapa de identificar a intenção do usuário;
+4 - O Rasa escolherá a resposta mais adequada através do Rasa Actions;
+5 - E por último retornará tal resposta ao usuário via Telegram;
+  
+Obs.: Por se tratar de um ChatBot, o projeto conta apenas com a parte de Back-end, realizada através do Rasa, uma vez que o Front-end seria exatamente a interface do app Telegram que é responsável pela interação com o usuário, ou seja receber a mensagem do usuário e passá-la ao bot, e de mostrar ao usuário o retorno dado pelo bot.
   
 ## 2.1 Tecnologias
 ### 2.1.1 Rasa
 ![Captura de tela de 2021-08-21 16-00-44](https://user-images.githubusercontent.com/78758172/130332385-f1e97e13-94c1-4916-990e-3d1daf4d87ee.png)
 
-Para a construção do sistema usaremos o Rasa, um framework utilizado para construção de bot's de conversação. O framework conta com 3 principais componentes, o Rasa NLU que é responsável por processar a mensagem enviada pelo usuário, o Rasa Core que é responsável por identificar a intenção do usuário e o Rasa Actions, que dada a intenção do usuário, este escolhe a resposta mais adequada a se retornar ao usuário.
+Para a construção do sistema usaremos o Rasa, um framework utilizado para construção de bot's de conversação. A escolha dele foi feita por ser uma alternativa open source, robusta e de fácil uso para implementação, a escolha de seu uso foi feita pelos tecnologistas que o consideraram a melhor opção para o desenvolvimento do projeto. O framework conta com 3 principais componentes, o Rasa NLU que é responsável por processar a mensagem enviada pelo usuário, o Rasa Core que é responsável por identificar a intenção do usuário e o Rasa Actions, que dada a intenção do usuário, este escolhe a resposta mais adequada a se retornar ao usuário.
 O Rasa aprende de acordo com que for sendo treinado, através de seu machine learning, e através do NLU consegue-se fazer também um bot "mais humano".
   
 ### 2.1.2 Telegram
@@ -64,7 +71,7 @@ A linguagem de programação a ser utilizada no bot será o Python, já que o Ra
   
 # 3. Metas e restrições de Arquitetura
 ## 3.1 Metas
-O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegram e tem como função informar o usuário acerca de conteúdos sobre o COVID-19 com informações fornecidas, dentro outros, pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio, gestão pública, e informações relacionadas à vacinação na região do usuário.
+O projeto aqui apresentado trata-se de um chatbot integrado a plataforma Telegram e tem como função informar ao usuário acerca dos conteúdos sobre a COVID-19 com informações fornecidas, dentre outros, pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio, gestão pública, e informações relacionadas à vacinação na região do usuário.
   
 ## 3.2 Restrições
 - Possuir conexão com a internet
@@ -89,13 +96,17 @@ O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegr
 |-----|-----------|---------|
 |E1|Sobre o bot|Será uma epic para ser uma informação inicial, onde o usuário terá o primeiro contato com o bot e terá uma breve explicação sobre suas funcionalidades|
 |E2|Informações sobre covid|Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid|
-|E3|Lembrete programado|Será uma epic para criar lembretes programados|
+|E3|Lembrete programado|Será uma epic para criar lembretes programados|  
+
+Informações mais detalhadas dos épicos podem ser encontradas no documento de [Backlog do Produto](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/documento-de-backlog.md).
   
 # 5. Visão Lógica
 ## 5.1 Diagrama de Pacotes
-- O pacote 2021-1-Bot é o pacote principal do do projeto, contém todos os outros sub-pacotes e documentos disponíveis no documento
-- Toda a documentação do projeto pode ser encontrada na pasta docs
-
+- O pacote 2021-1-Bot é o pacote principal do projeto e contém todos os outros sub-pacotes
+- No pacote bot é o local onde está sendo desenvolvido o bot 
+- No pacote docs pode ser encontrada toda a documentação relacionada ao projeto
+- No pacote gerencia está todo o gerenciamento de sprints de cada time
+  
 # 6. Tamanho e desempenho
 Este bot atuará primeiramente no Telegram, seu tamanho e desempenho serão comuns com aplicações semelhantes de ChatBots que utilizam a tecnologia Rasa.
 O desempenho poderá ser afetado devido a serviços externos, como consultas de dados sobre vacinações ou instabilidades de sistemas.

@@ -10,7 +10,7 @@
 ## 💻 Visão Geral
 O AlligaBot propõe-se a ajudar a combater desinformação
 no contexto da pandemia do COVID-19, facilitando a  divulgação 
-de informações importantes através de um bot que responderá as duvidas
+de informações importantes através de um chatBot que responderá as dúvidas
 mais frequentes.
 	
 
@@ -52,12 +52,12 @@ Faça build das imagens rodando o seguinte comando:
     make build 
 
 Se esta é a su primeira vez executando esse comando, isso pode levar 
-alguns minutos. Em seguida, treine o bot executando:
+alguns minutos. Em seguida, treine o chatBot executando:
 
     make train
 
 
-Para conversar com o bot, execute o seguinte:
+Para conversar com o chatBot, execute o seguinte:
 
     make shell
 
@@ -66,7 +66,7 @@ desenvolvimento. Para desligar os contêineres basta executar:
 
     make stop
 
-Se você quiser adicionar novos diálogos ao bot você deve fazer alterações 
+Se você quiser adicionar novos diálogos ao chatBot você deve fazer alterações 
 no arquivos `bot/domain.yml` e `bot/data/*.yml`, e, em seguida, deve treiná-lo
 novamente:
 

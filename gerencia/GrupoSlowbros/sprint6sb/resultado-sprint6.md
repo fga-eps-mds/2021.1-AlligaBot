@@ -2,7 +2,7 @@
 
 
 # Resultado Sprint 6
-A sprint 6 foi mais utilizada para a finalização dos documentos restantes para a release 1, conseguimos também nos comunicar com os monitores e a professora para receber ainda mais informações e um feedback sobre o que foi feito até hoje.
+A sprint 6 foi utilizada para a finalização dos documentos restantes para a release 1. Conseguimos também nos comunicar com os monitores e a professora para receber ainda mais informações e um feedback sobre o que foi feito até hoje.
 
 
 ## Histórico de Versões
@@ -10,6 +10,7 @@ A sprint 6 foi mais utilizada para a finalização dos documentos restantes para
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 13/09/2021 |    0.1   | resultSprint6 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 14/09/2021 |    0.1.1   | resultSprint6 | [Henrique Hida](https://github.com/HenriqueHida)|
 
 ## Tamanho da Sprint
 

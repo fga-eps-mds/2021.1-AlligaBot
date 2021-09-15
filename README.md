@@ -135,5 +135,5 @@ novamente:
 
 ## 📝 Licença
 Este projeto está licenciado sob os termos da licença 
-[GNU GPL v3.0](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/LICENSE).
+[GNU GPL v3.0](./LICENSE).
 

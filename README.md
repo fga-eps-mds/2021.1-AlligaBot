@@ -47,12 +47,22 @@ Baixe o repositório e entre nele
     git clone https://github.com/fga-eps-mds/2021-1-Bot.git
     cd 2021-1-Bot
 
+Crie um arquivo para as variáveis ambiente e o preencha com as
+informações que faltam. Para preencher dê uma olhada nessa
+[issue](https://github.com/fga-eps-mds/2021-1-Bot/issues/201).
+
+    cp .example.env .env
+
 Faça build das imagens rodando o seguinte comando:
 
     make build 
 
-Se esta é a su primeira vez executando esse comando, isso pode levar 
-alguns minutos. Em seguida, treine o chatBot executando:
+Se esta é a sua primeira vez executando esse comando, isso pode levar 
+alguns minutos. Em seguida suba os contêineres com
+
+    make run
+
+Então, treine o bot executando:
 
     make train
 

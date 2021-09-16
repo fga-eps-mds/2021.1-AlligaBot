@@ -13,14 +13,20 @@ Além disso, foram definidos os papéis de cada um dos membros da equipe no trab
 | Devops | [Thais](https://github.com/thais-ra) |
 | Tecnologista | [Eduardo]() e [Lameque](https://github.com/LamequeFernandes) |
 
-
-
 ## Objetivos
 
 | Issue |            Título            |         Status        | 
 |-------|:----------------------------:|-----------------------|
 | [#10](https://github.com/fga-eps-mds/2021-1-Bot/issues/10) | Definição de papéis | _Concluído_ |
 | [#11](https://github.com/fga-eps-mds/2021-1-Bot/issues/11) | Organizar o horário dos membros | _Concluído_ |
+
+## Burndown
+
+![](../assets/burndown_sprint0.png)
+
+## Velocity
+
+![](../assets/velocity_sprint0.png)
 
 ## Avaliação do Scrum Master
 

@@ -1,17 +1,26 @@
+# Personalidade do Bot
+
+## Histórico de versões
+
 | Data   | Versão | Modificação  | Autor  |
 | :- | :- | :- | :- |
 | 19/08/2021 | 0.1 | Criação da versão inicial do documento | Kathlyn Lara |
-| 25/08/2021 | 0.2 | Documento completo | Kathlyn Lara |
+| 25/08/2021 | 0.2 | Adição da personalidade | Kathlyn Lara |
 | 01/09/2021 | 0.3 | Modificação do nome do bot | Kathlyn Lara |
 | 11/09/2021 | 0.4 | Correção de erros ortográficos | Ana Carolina |
+| 12/09/2021 | 0.5 | Padrão ABNT nas referências | Kathlyn Lara |
 
-# 1. Nome do Bot
+## 1. Introdução
+O documento da Personalidade do Bot é aquele que irá mostrar o nome e o mbti do chatbot e como eles foram escolhidos
+
+## 2. Nome do Bot
 AlligaBot
 
-## 1.1 Ferramentas usadas para a escolha do nome
+### 2.1 Ferramentas usadas para a escolha do nome
 Devido a piada que quem vacinar, vira jacaré, decidimos escolher um nome que nos lembra jacaré. 
 
-# 2. Personalidade do Bot
+## 3. Personalidade do Bot
+
 [Cônsul - ESFJ](https://www.16personalities.com/br/personalidade-esfj)
 
 "Os Cônsules são altruístas, e levam a sério a responsabilidade de ajudar e fazer o que é certo."
@@ -20,14 +29,16 @@ Devido a piada que quem vacinar, vira jacaré, decidimos escolher um nome que no
 
 "Essas personalidades dedicam muito esforço as atividades que organizam."
 
+Figura 1 - ESFJ
 
 ![mbti](img/esfj.jpeg)
 
-## 2.1 Ferramentas usadas para a escolha da personalidade
+Fonte: 16personalities
+
+Disponível em: <https://www.16personalities.com/br/personalidade-esfj>. Acesso em 12 de set. de 2021.
+
+### 3.1 Ferramentas usadas para a escolha da personalidade
 Teste no [16personalities](https://www.16personalities.com/br/teste-de-personalidade) baseado no que esperamos do AlligaBot.
 
-# 3 Referências
-
->[1. Lino, Bot](https://github.com/fga-eps-mds/2018.2-Lino/edit/master/docs/PersonalidadeDoBot.md)
-
->[2. Personalidade ESFJ](https://www.16personalities.com/br/personalidade-esfj)
+## 4. Referências
+PERSONALIDADE "Cônsul". 16personalities, 2021. Disponível em: <https://www.16personalities.com/br/personalidade-esfj>. Acesso em 12 de set. de 2021.

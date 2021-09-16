@@ -9,12 +9,13 @@
 | 09/09/2021 | 0.4 | Fonte e paleta de cores nova | Kathlyn Lara |
 | 10/09/2021 | 0.5 | Introdução do documento | Kathlyn Lara |
 | 11/09/2021 | 0.6 | Correção do nome do chatbot e padronização do nome chatbot | Ana Carolina |
+| 12/09/2021 | 0.7 | Ajuste nas referências | Kathlyn Lara |
 
 # 1. Introdução
 Este documento tem como finalidade apresentar a "aparência" do AlligaBot para os usuários, ou seja, seu logo, sua paleta de cores e sua letra, que será presente tanto no chatbot de conversação do Telegram como no site do GitHub Pages.
 
 # 2. Apresentação da Identidade Visual
-![img](img/logo.jpg)
+<img src="img/logo.png" alt="contraste" width="600"/>
 
 ## Justificativa
 Um jacaré amigável segurando uma seringa.
@@ -27,11 +28,21 @@ A fonte utilizada na aplicação será:
 
  - **Poppins**(SIL OPEN FONT LICENSE Version 1.1)
 
+Figura 1 - Poppins
+
 <img src="img/poppins.jpg" alt="contraste" width="400"/>
+Fonte: Free Best Fonts
+
+Disponível em: <https://www.freebestfonts.com/poppins-font>. Acesso em 12 de set. de 2021.
 
 Esta fonte é sans-serif, facilitando a leitura para pessoas com dislexia, já que são "sem serif", isto é, não possui traços e hastes rebuscadas.
 
+Figura 2 - Sans-serif
+
 <img src="img/sansserif.jpg" alt="contraste" width="400"/>
+Font: New England ReproGraphics
+
+Discponível em: <https://newenglandrepro.com/serif-vs-sans-serif-typeface/>. Acesso em 12 de set. de 2021.
 
 Além disso, estas fontes possuem boa adaptação para aplicações responsivas, como o deste projeto, adaptando-se para visualização web e mobile e também possuem licença que permite uso gratuito.
 
@@ -56,8 +67,5 @@ Obs.: As cores aqui citadas são da página github.io do AlligaBot, já que o pr
 <img src="img/paletacores.jpg" alt="contraste" width="600"/>
 
 # 5. Referências
->[1. Acacia](https://github.com/fga-eps-mds/2019.2-Acacia/edit/develop/docs/style_guide.md)
-  
->[2. Poppins](https://freebestfonts.com/yone/prev/poppins.jpg)
-  
->[3. Sans Serif](https://newenglandrepro.com/wp-content/uploads/2016/08/BP-Serif-SansSerif-Graphic1-862x518.jpg)
+MALTA, Fabíola; SALOMÃO, Hugo; GOMES, Leonardo - Guia de Estilo e Identidade Visual. Disponível em: <https://github.com/fga-eps-mds/2019.2-Acacia/blob/develop/docs/style_guide.md>. Acesso em 12 de set. de 2021.
+ 

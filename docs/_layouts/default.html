@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap Documentation Template For Software Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="/assets/images/alligabot.png">
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/theme.css">
+
+    <!-- Google Font -->
+  	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+  	<!-- FontAwesome JS-->
+    <script defer src="/assets/fontawesome/js/all.min.js"></script>
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="/assets/css/marke.css">
+
+    <link id="theme-style" rel="stylesheet" href="/assets/css/theme.css">
+
+    <style>
+      section.markdown-preview {
+        overflow: hidden !important;
+      }
+    </style>
+
+  </head>
+  <body class="docs-page" >
+    <div class="docs-wrapper">
+      {% include header.html %}
+      {% include sidebar.html %}
+      
+      <!-- <div class="docs-content">
+        <div class="container">
+          <section class="markdown-preview" data-use-github-style > -->
+      {{ content }}
+          <!-- </section>
+        </div>
+      </div>
+ -->
+    </div>
+
+    <footer class="footer">
+
+      <div class="footer-bottom text-center py-5">
+  
+        <!-- //social-list -->
+  
+        <!-- /* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */ -->
+        <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a
+            class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for
+          developers</small>
+  
+  
+      </div>
+  
+    </footer>
+  
+
+    	<!-- Javascript -->
+    <script src="/assets/plugins/popper.min.js"></script>
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Page Specific JS -->
+    <script src="/assets/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="/assets/js/highlight-custom.js"></script>
+    <script src="/assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+    <script src="/assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+    <script src="/assets/js/docs.js"></script>
+
+  </body>
+</html>

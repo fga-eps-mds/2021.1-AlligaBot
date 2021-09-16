@@ -1,0 +1,15 @@
+---
+title: Staff
+---
+
+<h1>Staff</h1>
+
+<ul>
+  {% for a in site.authors %}
+  <li>
+    <h2> <a href="{{a.url}} ">{{ a.name }}</a></h2>
+    <h3>{{ a.position }}</h3>
+    <p>{{ a.content | markdownify }}</p>
+  </li>
+  {% endfor %}
+</ul>

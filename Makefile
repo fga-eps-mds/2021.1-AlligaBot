@@ -34,3 +34,14 @@ train:
 lint-format-actions:
 	@echo "Aplicando correções de estilo e formatação dos arquivos do servidor de ações"
 	@docker exec -it actions python -m autopep8 /app/actions
+
+
+docs-build:
+	export JEKYLL_VERSION=3.8
+	docker run -v $$PWD/docs:/srv/jekyll --name docs -p 4000:4000 -it jekyll/jekyll:$$JEKYLL_VERSION jekyll serve --livereload
+
+docs-start:
+	docker start -i docs
+
+docs-stop:
+	docker stop docs

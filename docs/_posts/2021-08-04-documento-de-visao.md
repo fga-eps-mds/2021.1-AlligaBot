@@ -1,6 +1,7 @@
 ---
 excerpt: ""
 ---
+
 # Documento de Visão
 
   Este documento estará repleto de dados que sustentarão o propósito, o contexto e a visão geral do produto, permitindo assim o entendimento do escopo do projeto.

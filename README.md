@@ -10,7 +10,7 @@
 ## 💻 Visão Geral
 O AlligaBot propõe-se a ajudar a combater desinformação
 no contexto da pandemia do COVID-19, facilitando a  divulgação 
-de informações importantes através de um chatBot que responderá as dúvidas
+de informações importantes através de um chat bot que responderá as dúvidas
 mais frequentes.
 	
 
@@ -40,6 +40,11 @@ Esse projeto usa algumas ferramentas para o seu desenvolvimento:
 - [WSL](https://docs.microsoft.com/pt-br/windows/wsl/install-win10) para 
 desenvolvimento em Windows 10
 - [Make](https://www.gnu.org/software/make/)
+
+Você pode assistir esse [vídeo](https://www.youtube.com/watch?v=oQ08ZaOAiGU)
+para instalar as ferramentas do Docker e o WSL no Windows 10. Além disso, note
+que Docker Compose é um programa diferente do Docker e deve ser instalado 
+separadamente.
 
 ### ✔️ Instalando e executando
 Baixe o repositório e entre nele
@@ -76,7 +81,7 @@ desenvolvimento. Para desligar os contêineres basta executar:
 
     make stop
 
-Se você quiser adicionar novos diálogos ao chatBot você deve fazer alterações 
+Se você quiser adicionar novos diálogos ao AlligaBot você deve fazer alterações 
 no arquivos `bot/domain.yml` e `bot/data/*.yml`, e, em seguida, deve treiná-lo
 novamente:
 

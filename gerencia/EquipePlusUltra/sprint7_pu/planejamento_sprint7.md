@@ -6,6 +6,7 @@ Nesta sprint o foco é deixar tudo pronto, tanto as documentações no ghPage do
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 12/09/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 16/09/2021 |  0.2   | Adicionando algumas issues criadas no meio da sprint | [Amanda Nobre](https://github.com/AmandaNbr)|
 
 ## Tamanho da Sprint
 
@@ -31,6 +32,7 @@ Nesta sprint o foco é deixar tudo pronto, tanto as documentações no ghPage do
 | [#191](https://github.com/fga-eps-mds/2021-1-Bot/issues/191) | Reunião acerca dos vídeos de apresentação | 5 | Amanda |
 | [#192](https://github.com/fga-eps-mds/2021-1-Bot/issues/192) | Gravar o vídeo de apresentação geral | 8 | Amanda, Yudi |
 | [#193](https://github.com/fga-eps-mds/2021-1-Bot/issues/193) | Gravar o vídeo de apresentação da Equipe Plus Ultra | 8 | Amanda, Pedro, Yudi |
+| [#206](https://github.com/fga-eps-mds/2021-1-Bot/issues/206) | Criar documento de protótipo | 2 | Amanda |
 
 
 ## Dívidas alocadas

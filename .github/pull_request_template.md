@@ -9,6 +9,22 @@
 Apagar as checkboxes não marcadas. Poluir menos o template
 -->
 
+<!-- 
+IMPORTANTE TER TODOS A SEGUIR:
+
+## Assignees
+O PR deve ser atribuído a pelo menos um colaborador do projeto.
+
+## Labels
+O PR deve ser marcado com uma ou mais tags adequadas, para fins de rastreamento do projeto.
+
+## Milestone
+O PR deve ser atribuído ao Milestone (sprint) correspondente previsto para sua execução.
+
+## Reviewer
+O PR deve ser atribuído a pelo menos um integrante para que revise as mudanças e devolva um feedback, para depois poder fazer o merge.
+-->
+
 ### Descrição
 Por favor, faça um resumo do que mudou e qual(is) issue(s) foi(ram) resolvida(s). Liste também todas as depedências necessárias para essa mudança.
 

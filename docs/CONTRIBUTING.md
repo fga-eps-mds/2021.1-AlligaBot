@@ -30,8 +30,8 @@ Deve-se definir uma estimativa de dificuldade (pontuação) à issue em questão
 
 Pontuação | Critérios
 ----------- | ------------
-1 | Tarefa bem simples, dá pra ser feita em até 1h 
-2 | Tarefa simples q leva algumas horas
+1 | Tarefa bem simples, é possível ser feita em até 1h 
+2 | Tarefa simples que leva algumas horas
 3 | Tarefa que pode levar algumas horas e necessita de alguma pesquisa
 5 | Tarefa não tão simples, precisa de pesquisa e deve levar alguns dias
 8 | Tarefa complexa, pode durar a semana toda

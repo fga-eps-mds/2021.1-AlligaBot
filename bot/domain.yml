@@ -26,8 +26,33 @@ intents:
   - mais_gama
   - delta
   - mais_delta
+  - covid_em_sua_cidade
+  - uf_input_form
+  - cidade_input_form
+
+forms:
+  localizacao_form:
+    uf:
+      - type: from_entity
+        entity: uf
+    cidade:
+      - type: from_entity
+        entity: cidade
+
+slots:
+  uf:
+    type: text
+    influence_conversation: false
+  cidade:
+    type: text
+    influence_conversation: false
+
+actions:
+  - action_dados_covid_baseados_em_localizacao
 
 entities:
+  - uf
+  - cidade
   - oi
   - tchau
   - covid
@@ -191,6 +216,15 @@ responses:
     - text: |
         A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
         Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
+
+  utter_ask_localizacao_form_uf:
+    - text: Informe a sigla do seu Estado (UF)
+
+  utter_ask_localizacao_form_cidade:
+    - text: Informe o nome da sua cidade
+
+  utter_submit_localizacao_form:
+    - text: Seu estado é {uf} e sua cidade é {cidade}
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

@@ -251,6 +251,28 @@ nlu:
     - quero saber os sintomas do COVID-19
     - pode me dizer quais são os sintomas do COVID-19?
 
+- intent: covid_em_sua_cidade
+  examples: |
+    - Quero saber sobre o covid na minha cidade
+    - Quero saber sobre o covid-19 na minha cidade
+    - Quero saber sobre o Sars-cov-2 na minha cidade
+    - Covid na minha cidade
+
+- intent: uf_input_form
+  examples: |
+    - Meu estado é [DF](uf)
+    - Eu moro no estado do [MA](uf)
+    - Minha uf é [SP](uf)
+    - Minha unidade federativa é [MG](uf)
+    - Eu vivo no estado do [MA](uf)
+
+- intent: cidade_input_form
+  examples: |
+    - Minha cidade é [Brasília](cidade)
+    - Eu moro na cidade do [São Paulo](cidade)
+    - Minha cidade é [São Luís](cidade)
+    - Eu vivo na cidade do [Cidade](cidade)
+
 - intent: bot_alligabot
   examples: |
     - Você é um bot?

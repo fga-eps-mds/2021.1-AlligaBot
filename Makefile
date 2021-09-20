@@ -37,8 +37,7 @@ lint-format-actions:
 
 
 docs-build:
-	export JEKYLL_VERSION=3.8
-	docker run -v $$PWD/docs:/srv/jekyll --name docs -p 4000:4000 -it jekyll/jekyll:$$JEKYLL_VERSION jekyll serve --livereload
+	docker run -v $$PWD/docs:/srv/jekyll --name docs -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --livereload
 
 docs-start:
 	docker start -i docs

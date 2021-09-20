@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Equipe Capivaras
 permalink: /about/
 order: 1
 share: false

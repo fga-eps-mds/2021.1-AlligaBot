@@ -1,6 +1,9 @@
 ---
-excerpt: ""
 title: Código de conduta
+layout: post
+date: 2021-08-21 00:00:00 -0300
+categories: docs
+excerpt: ""
 ---
 
 # Código de conduta

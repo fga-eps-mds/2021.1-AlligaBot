@@ -30,4 +30,6 @@ A issue deve ser marcada com uma ou mais tags adequadas, para fins de rastreamen
 A issue deve ser atribuída ao Milestone (sprint) correspondente previsto para sua execução.
 
 ## Estimate
-Deve se adicionar à issue a sua estimativa de dificuldade (pontuação).
+Deve-se definir uma estimativa de dificuldade (pontuação) à issue em questão, levando em consideração os critérios estabelecidos no [documento de contribuição](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/CONTRIBUTING.md).
+
+

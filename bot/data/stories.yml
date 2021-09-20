@@ -123,4 +123,4 @@ stories:
     - action: localizacao_form
     - active_loop: localizacao_form
     - active_loop: null
-    - action: utter_submit_localizacao_form
+    - action: action_dados_covid_baseados_em_localizacao

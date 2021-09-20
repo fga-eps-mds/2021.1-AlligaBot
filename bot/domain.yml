@@ -32,12 +32,11 @@ intents:
 
 forms:
   localizacao_form:
-    uf:
-      - type: from_entity
-        entity: uf
-    cidade:
-      - type: from_entity
-        entity: cidade
+    required_slots:
+      uf:
+        - type: from_text
+      cidade:
+        - type: from_text
 
 slots:
   uf:
@@ -222,9 +221,6 @@ responses:
 
   utter_ask_localizacao_form_cidade:
     - text: Informe o nome da sua cidade
-
-  utter_submit_localizacao_form:
-    - text: Seu estado é {uf} e sua cidade é {cidade}
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

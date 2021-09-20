@@ -260,18 +260,18 @@ nlu:
 
 - intent: uf_input_form
   examples: |
-    - Meu estado é [DF](uf)
-    - Eu moro no estado do [MA](uf)
-    - Minha uf é [SP](uf)
-    - Minha unidade federativa é [MG](uf)
-    - Eu vivo no estado do [MA](uf)
+    - Meu estado é DF
+    - Eu moro no estado do DF
+    - Minha uf é DF
+    - Minha unidade federativa é DF
+    - Eu vivo no estado do DF
 
 - intent: cidade_input_form
   examples: |
-    - Minha cidade é [Brasília](cidade)
-    - Eu moro na cidade do [São Paulo](cidade)
-    - Minha cidade é [São Luís](cidade)
-    - Eu vivo na cidade do [Cidade](cidade)
+    - Minha cidade é Brasília
+    - Eu moro na cidade do São Paulo
+    - Minha cidade é São Luís
+    - Eu vivo na cidade do Brasília
 
 - intent: bot_alligabot
   examples: |

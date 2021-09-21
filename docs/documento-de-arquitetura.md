@@ -41,7 +41,8 @@ Este documento está dividído em 6 grandes tópicos, com subdivisões, com o ob
 |6|Tamanho e Desempenho|Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas|
   
 # 2. Representação da Arquitetura
-![Desenho Arquitetural](https://user-images.githubusercontent.com/78758172/132966186-e8c26cf2-636b-4dde-8e85-4ad160dbace0.png)
+![Desenho Arquitetural](https://user-images.githubusercontent.com/78758172/134218660-db9e1c45-81d2-441a-9832-a165024144eb.png)
+
 
 A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima, e explicada por meio do passo a passo abaixo: 
 1 - O ciclo começa quando o usuário envia uma mensagem para o AlligaBot;

@@ -50,8 +50,6 @@ actions:
   - action_dados_covid_baseados_em_localizacao
 
 entities:
-  - uf
-  - cidade
   - oi
   - tchau
   - covid
@@ -125,7 +123,6 @@ responses:
 
   utter_cuidados_no_dentista:
   - text: "Diante da pandemia, os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao consultório odontológico apenas em casos de emergência ou urgência. As visitas ao cirurgião-dentista para procedimentos eletivos devem ser adiadas por precaução. Leia mais em: https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/"
-    image: "https://lh3.googleusercontent.com/proxy/VNj5WQGYZOBRn6iqneVk0PjyQLXjMxlUX5Ie1Ed82wSqNuSkLCiTAHyxgCFFJSVwT4xa-cQneWDq1nA_S1ERb9QBIyDpnRHzHvWmhUtOy4k8omGijL0EIlUk67N0nPf2R5lSTg"
 
   utter_cabelos:
   - text: "Ir com alguma objeto que possar armazenar o Álcool em gel, usar mascara e luvas se possiveis"

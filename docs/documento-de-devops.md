@@ -9,6 +9,7 @@ Esse documento foi criado com o intuito de centralizar informações sobre deplo
 | 03/09/2021 | 0.1 | Criação da estrutura inicial | Thaís Rebouças |
 | 03/09/2021 | 0.1 | Criação do roadmap | Thaís Rebouças e Yudi Yamane |
 | 09/09/2021 | 0.2 | Correção dos links | Thaís Rebouças |
+| 21/09/2021 | 1.0 | Atualização [sprint 8](https://github.com/fga-eps-mds/2021-1-Bot/issues/234) | Yudi Yamane |
 
 
 

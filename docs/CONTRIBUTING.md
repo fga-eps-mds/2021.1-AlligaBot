@@ -9,7 +9,8 @@ e a [política de commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/d
 | :--------: | :----: | :----------:                   | :---------------: |
 | 30/08/2021 |    0.1   | Envio inicial | [Matheus Sousa](https://github.com/gatotabaco)|
 | 20/09/2021 |    0.2   | Mudança na orientação para criação de Issues | [Matheus Sousa](https://github.com/gatotabaco)|
-| 20/09/2021 |    0.4   | Revisão do documento e definição de estimate | [Thais Rebouças](https://github.com/Thais-ra)|
+| 20/09/2021 |    0.3   | Revisão do documento e definição de estimate | [Thais Rebouças](https://github.com/Thais-ra)|
+| 20/09/2021 |    0.3.1   | Pequena correção no histórico de versões | [Matheus Sousa](https://github.com/gatotabaco)|
 
 
 ## Criação de Issues

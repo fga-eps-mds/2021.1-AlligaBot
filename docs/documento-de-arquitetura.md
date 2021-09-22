@@ -5,6 +5,7 @@
   |21/08/2021|0.2|Definição de tecnologias, e diagrama arquitetural|Victor Eduardo, Matheus Raphael|
   |08/09/2021|0.3|Correção de pequenos erros presentes no documento|Victor Eduardo|
   |11/09/2021|0.4|Correção de pequenos erros presentes no documento|Victor Eduardo|
+  |22/09/2021|0.5|Correção do desenho arquitetural e adição do diagrama de casos de uso|Victor Eduardo|
   
 # 1. Introdução
 ## 1.1 Finalidade
@@ -86,12 +87,15 @@ O projeto aqui apresentado trata-se de um chatbot integrado a plataforma Telegra
 - O bot deve ser treinado a fim de conseguir atender ao máximo de usuários possíveis
   
 # 4. Visão dos Casos de Uso
-## 4.1 Atores de Casos de Uso
+## 4.1 Diagrama de Casos de Uso
+![Diagrama de casos de uso](https://user-images.githubusercontent.com/78758172/134344731-b1b4dfbd-16f0-4f28-928c-ba9296abefb5.png)
+  
+## 4.2 Atores de Casos de Uso
 |Ator|Descrição|
 |----|---------|
 |Usuário|O usuário poderá interagir com o bot através do chat da plataforma Telegram, utilizando linguagem natural|
   
-## 4.2 Descrições de Casos de Uso
+## 4.3 Descrições de Casos de Uso
 |Épico|Caso de uso|Descrição|
 |-----|-----------|---------|
 |E1|Sobre o bot|Será uma epic para ser uma informação inicial, onde o usuário terá o primeiro contato com o bot e terá uma breve explicação sobre suas funcionalidades|

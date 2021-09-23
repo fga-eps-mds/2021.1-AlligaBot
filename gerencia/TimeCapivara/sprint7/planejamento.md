@@ -8,8 +8,8 @@ para serem entregues com qualidade na release. Além disso, é provável que oco
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 20/09/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 7 | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
-| 23/09/2021 |    0.1.1 | Link quebrad corrigido | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
+| 20/09/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 7 | [Matheus Sousa](https://github.com/gatotabaco)|
+| 23/09/2021 |    0.1.1 | Link quebrado corrigido | [Matheus Sousa](https://github.com/gatotabaco)|
 
 ## Tamanho da Sprint
 
@@ -28,7 +28,7 @@ para serem entregues com qualidade na release. Além disso, é provável que oco
 | [#184](https://github.com/fga-eps-mds/2021-1-Bot/issues/184) | Correção de erros do documento de elicitação de requisitos | 1 | Ana |
 | [#162](https://github.com/fga-eps-mds/2021-1-Bot/issues/162) | Integrar funcionalidades da FT03: Transmissão e prevenção ao bot | 5 | Lameque e Eduardo |
 | [#169](https://github.com/fga-eps-mds/2021-1-Bot/issues/169) | Integrar as funcionalidades -Regras para lugares específicos | 5 | Lameque e Eduardo |
-| [#205](https://github.com/fga-eps-mds/2021-1-Bot/issues/205) | Atualizar documentos de gerencia | 2| Matheus e Thais |
+| [#205](https://github.com/fga-eps-mds/2021-1-Bot/issues/205) | Atualizar documentos de gerência | 2| Matheus e Thais |
 | [#209](https://github.com/fga-eps-mds/2021-1-Bot/issues/209) | Substituir os gráficos de burndown e velocity | 2 | Matheus |
 | [#176](https://github.com/fga-eps-mds/2021-1-Bot/issues/176) | Finalização da GH Page para R1 | 5 | Lameque |
 | [#192](https://github.com/fga-eps-mds/2021-1-Bot/issues/192) | Gravar o vídeo de apresentação geral | 8 | Thais e Lara |

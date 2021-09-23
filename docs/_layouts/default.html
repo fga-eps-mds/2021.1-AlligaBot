@@ -97,12 +97,13 @@
                     {% assign posts = posts | push: post %}
                     {% endif %}
                     {% endfor %}
-                    {% assign posts = posts | sort: 'date' | reverse %}
-                    {% for post in posts limit:site.recent_posts_num %}
+                    {% assign posts = posts | sort: 'date' %}
+                    {% for post in posts %}
                     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
+            
         </div>
     </aside>
 </div>

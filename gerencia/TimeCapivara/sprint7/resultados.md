@@ -1,6 +1,6 @@
 # Resultados Sprint 7
 
-Essa foi a última sprint antes da release e foi marcada por uma quantidade alta de issues resolvidas. Conseguimos concluir todas as dívidas alocadas de outras sprints e a release foi um sucesso. 
+Essa foi a última sprint antes da release e foi marcada por uma quantidade alta de issues resolvidas. Conseguimos concluir todas as dívidas alocadas de outras sprints e a release 1 foi um sucesso. 
 Além disso, recebemos alguns feedbacks e haverão alterações nos documentos já concluídos.
 
 ## Histórico de Versões
@@ -8,6 +8,7 @@ Além disso, recebemos alguns feedbacks e haverão alterações nos documentos j
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 23/09/2021 |  0.1   | Versão inicial | [Matheus Sousa](https://github.com/gatotabaco)|
+| 24/09/2021 |  0.2   | Atualização após revisão | [Matheus Sousa](https://github.com/gatotabaco)|
 
 ## Objetivos
 
@@ -18,7 +19,7 @@ Além disso, recebemos alguns feedbacks e haverão alterações nos documentos j
 | [#184](https://github.com/fga-eps-mds/2021-1-Bot/issues/184) | Correção de erros do documento de elicitação de requisitos | _Concluído_ |
 | [#162](https://github.com/fga-eps-mds/2021-1-Bot/issues/162) | Integrar funcionalidades da FT03: Transmissão e prevenção ao bot | _Concluído_ |
 | [#169](https://github.com/fga-eps-mds/2021-1-Bot/issues/169) | Integrar as funcionalidades -Regras para lugares específicos | _Concluído_ |
-| [#205](https://github.com/fga-eps-mds/2021-1-Bot/issues/205) | Atualizar documentos de gerencia | _Concluído_ |
+| [#205](https://github.com/fga-eps-mds/2021-1-Bot/issues/205) | Atualizar documentos de gerência | _Concluído_ |
 | [#209](https://github.com/fga-eps-mds/2021-1-Bot/issues/209) | Substituir os gráficos de burndown e velocity | _Concluído_ |
 | [#176](https://github.com/fga-eps-mds/2021-1-Bot/issues/176) | Finalização da GH Page para R1 | _Concluído_ |
 | [#192](https://github.com/fga-eps-mds/2021-1-Bot/issues/192) | Gravar o vídeo de apresentação geral | _Concluído_ |
@@ -32,18 +33,20 @@ Além disso, recebemos alguns feedbacks e haverão alterações nos documentos j
 
 ## Quadro de conhecimento
 
+Essa é a primeira sprint em que começamos a utilizar o quadro de conhecimento. Ele é importante para avaliarmos o crescimento e as necessidades de aprendizado da equipe.
+
 ![](./assets/conhecimento_sprint7.png)
 
 ## Burndown
 
-Por meio do gráfico podemos ver como nossa política para lidar com as issues melhorou com relação as sprints passadas. Os pontos vão decaindo, pois as issues vão sendo fechadas,
-no decorrer da semana e podemos observar que o gráfico se aproxima mais da linha ideal de pontuação completa.
+Por meio do gráfico podemos ver como nossa política para lidar com as issues melhorou com relação as sprints passadas. Os pontos vão decaindo, pois as issues foram fechadas
+no decorrer da semana, e podemos observar que o gráfico se aproxima mais da linha ideal de pontuação completa.
 
 ![](./assets/burndown_sprint7.png)
 
 ## Velocity
 
-Nesse gráfico de velocity é possível observar que tivemos uma pontuação maior nessa sprint com relação a outras, com 47 pontos completos, de um total de 47.
+Nesse gráfico de velocity é possível observar que tivemos uma pontuação maior nessa sprint com relação a outras, com 47 pontos completos, de um total de 47. Não deixamos dívidas e a produtividade foi mais elevada, o que agrega valor.
 
 ![](./assets/velocity_sprint7.png)
 
@@ -57,7 +60,7 @@ Nesse gráfico de velocity é possível observar que tivemos uma pontuação mai
 **- Pontos negativos**
 
 1. Sobrecarga dos membros do grupo
-2. Redução da produtividade
+2. Possibilidade de burnout na proxima sprint
 
 **- O que melhorar**
 

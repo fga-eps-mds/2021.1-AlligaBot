@@ -8,7 +8,20 @@ Documento que descreve as etapas necessárias para uma implementação correta e
 | 24/09/2021 | 0.1 | Criação do documento de fluxo de trabalho | [Douglas Monteles](https://github.com/DouglasMonteles)|
 
 ## Início
-### Fluxo para implementar funcionalidades simples no Chatbot
+### Começando a implementar uma nova funcionalidade
+Sempre que uma nova funcionalidade for implementada, faz-se necessário ajustar o ambiente.
+
+  - Primeiramente, deve-se criar uma nova issue específicando a modificação que será feita. Lembre-se de assinar a issue, bem como adicionar os respectivos labels e a estimativa de dificuldade.
+
+  - Depois, crie uma nova `branch`, seguindo a [política de branches](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)
+
+  - Sempre que for necessário registar as alterações em um `commit`, deve-se seguir a [política de commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/commits.md)
+
+  - Ao final, realize o `pull request` e adicione outros colaboradores para revisarem as auterações e autorizarem o `merge` na `main`
+
+  - Lembre-se de apagar a `branch` que não estiver mais sendo usada
+
+### Implementar funcionalidades simples no Chatbot
 É considerada uma funcionalidade simples aquela que possui uma resposta pronta, onde sabe-se que não haverá alteração ou atualização desta resposta com o passar do tempo.
 
 <strong>Passo a passo:</strong>

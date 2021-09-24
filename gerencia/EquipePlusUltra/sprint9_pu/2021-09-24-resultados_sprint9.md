@@ -1,4 +1,4 @@
-# Resultados Sprint 8
+# Resultados Sprint 9
 --
 
 ## Histórico de Versões
@@ -14,16 +14,14 @@
 | [#ex](https://github.com/fga-eps-mds/2021-1-Bot/issues) | - | _Concluído_ |
 
 
-## Quadro de conhecimento
+## Quadro de conhecimentos
 
 ![image]()
-
 ![image](https://user-images.githubusercontent.com/44625056/133852493-a062d35b-9892-4e88-a3c1-142637f31057.png)
 
 ## Squad Health Check
 
 ![image]()
-
 ![image](https://user-images.githubusercontent.com/44625056/133852652-dc0871bb-ebc4-46d5-a851-0f81853e5c25.png)
 
 ## Burndown

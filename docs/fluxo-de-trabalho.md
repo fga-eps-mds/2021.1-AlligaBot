@@ -8,6 +8,12 @@ Documento que descreve as etapas necessárias para uma implementação correta e
 | 24/09/2021 | 0.1 | Criação do documento de fluxo de trabalho | [Douglas Monteles](https://github.com/DouglasMonteles)|
 
 ## Início
+
+### Sobre o processo de download do projeto 
+Para iniciar o processo de adição de novas funcionalidades ou fazer qualquer outra alteração no projeto, faz-se necessário, primeiramente, baixar o projeto para a sua máquina local, para isso:
+
+  - Siga este [tutorial](https://github.com/fga-eps-mds/2021-1-Bot#readme)
+
 ### Começando a implementar uma nova funcionalidade
 Sempre que uma nova funcionalidade for implementada, faz-se necessário ajustar o ambiente.
 

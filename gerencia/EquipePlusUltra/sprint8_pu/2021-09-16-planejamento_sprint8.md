@@ -1,3 +1,7 @@
+---
+excerpt: ""
+---
+
 # Planejamento Sprint 8
 Essa é a primeira sprint da release 2, portanto é necessário decidir o rumo que as equipes irão seguir e delimitar o escopo do produto que queremos entregar ao final da disciplina. Além disso também é necessário mudar certos pontos levantados pelos feedbacks da release 1 para otimização do projeto.
 
@@ -6,6 +10,7 @@ Essa é a primeira sprint da release 2, portanto é necessário decidir o rumo q
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 16/09/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 24/09/2021 |  0.2   | Adição de Issues | [Amanda Nobre](https://github.com/AmandaNbr)|
 
 ## Tamanho da Sprint
 
@@ -27,6 +32,11 @@ Essa é a primeira sprint da release 2, portanto é necessário decidir o rumo q
 | [#219](https://github.com/fga-eps-mds/2021-1-Bot/issues/219) | Mudar o template de PR | 2 | Amanda |
 | [#220](https://github.com/fga-eps-mds/2021-1-Bot/issues/220) | Documentar sprints | 2 | Amanda |
 | [#224](https://github.com/fga-eps-mds/2021-1-Bot/issues/224) | Melhorar README | 1 | Yudi |
+| [#228](https://github.com/fga-eps-mds/2021-1-Bot/issues/228) | Update no doc. de arquitetura | - | Victor |
+| [#229](https://github.com/fga-eps-mds/2021-1-Bot/issues/229) | Estruturar GitHub Pages com jekyll | 8 | Yudi |
+| [#230](https://github.com/fga-eps-mds/2021-1-Bot/issues/230) | Alteração do backlog | 2 | Erick, Douglas e Pedro |
+| [#233](https://github.com/fga-eps-mds/2021-1-Bot/issues/233) | Guia para desenvolvimento e visualização local da documentação | 2 | Yudi |
+| [#234](https://github.com/fga-eps-mds/2021-1-Bot/issues/234) | Atualizar roadmap de devops para a sprint 8 | 2 | Yudi |
 
 ## Dívidas alocadas
 Não se aplica.

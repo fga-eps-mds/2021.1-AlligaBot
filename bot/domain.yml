@@ -199,7 +199,17 @@ responses:
         Também não podemos nos esquecer do distanciamento social.
 
         Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+    - text: |
+        - Manter o ambiente de trabalho sempre higienizado e desinfetado (superfícies, mesas, objetos, telefones, teclados, balcões, maçanetas);  
+        - Ter local de fácil acesso para lavar as mãos;
+        - Aumentar a frequência de limpeza de corrimãos, elevadores e outros lugares de contato intenso com álcool gel ou solução com água sanitária;
+        - Evitar reuniões numerosas;
+        - Dar preferência ao uso de escadas;
+        - Evitar o manuseio de objetos e documentos de uso compartilhado. Caso não seja possível, usar luvas de proteção ou realizar a higienização adequada das mãos;
+        - Evitar entrar no elevador caso não seja possível manter distanciamento seguro; 
+        - Evitar cumprimentos com as mãos, abraços ou qualquer outro contato físico.
 
+  
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

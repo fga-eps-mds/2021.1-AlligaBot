@@ -26,6 +26,7 @@ intents:
   - mais_gama
   - delta
   - mais_delta
+  - vacina_eh_segura
 
 entities:
   - oi
@@ -191,6 +192,10 @@ responses:
     - text: |
         A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
         Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
+
+  utter_vacina_eh_segura:
+    - text: |
+        Toda vacina licenciada para uso passou antes por diversas fases de avaliação, desde os processos iniciais de desenvolvimento até a produção e a fase final que é a aplicação, garantindo assim sua segurança. Além disso, elas são avaliadas e aprovadas por institutos reguladores muito rígidos e independentes. No Brasil, essa função cabe à Agência Nacional de Vigilância Sanitária (Anvisa), órgão vinculado ao Ministério da Saúde. E não é só isso, o acompanhamento de eventos adversos continua acontecendo depois que a vacina é licenciada, o que permite a continuidade de monitoramento da segurança do produto.
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

@@ -117,3 +117,7 @@ stories:
   - intent: sintomas
   - action: utter_sintomas
 
+- story: seguranca das vacinas
+  steps:
+  - intent: vacina_eh_segura
+  - action: utter_vacina_eh_segura

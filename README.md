@@ -53,11 +53,12 @@ Baixe o repositório e entre nele
     cd 2021-1-Bot
 
 Crie um arquivo para as variáveis ambiente e o preencha com as
-informações que faltam. Para preencher dê uma olhada nessa
-[issue](https://github.com/fga-eps-mds/2021-1-Bot/issues/201).
+informações que faltam.
 
     cp .example.env .env
 
+Para preencher essas variáveis, dê uma olhada na seção da 
+[FAQ "Onde conseguir os tokens e as variáveis de ambiente?"](docs/2021-09-16-faq.md).
 Faça build das imagens rodando o seguinte comando:
 
     make build 
@@ -76,6 +77,7 @@ Para conversar com o chatBot, execute o seguinte:
 
     make shell
 
+Para sair do shell, digite `/stop` ou faça <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 Não se esqueça de desligar os containers quando terminar sua sessão de
 desenvolvimento. Para desligar os contêineres basta executar:
 

@@ -26,6 +26,7 @@ intents:
   - mais_gama
   - delta
   - mais_delta
+  - cuidados_escritorio
 
 entities:
   - oi
@@ -191,6 +192,13 @@ responses:
     - text: |
         A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
         Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
+
+  utter_cuidados_escritorio:
+    - text: |
+        Não se preocupe vou te dar uma dica de ouro. Para se prevenir da COVID-19 no trabalho ou  no escritório é indispensável a utilização da máscara, também é necessário a higienização do local e disponibilidade de álcool em gel.
+        Também não podemos nos esquecer do distanciamento social.
+
+        Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

@@ -7,16 +7,12 @@ Esse documento contêm os itens que deverão ser desenvolvidos pelos times de de
   |----|------|---------|-----|
   |19/08/2021|0.1|Primeira definição de funcionalidades|Pedro Lucas|
   |24/08/2021|0.2|Alterações gerais|Ana Carolina, Pedro Lucas e Thaís Rebouças|
-  |24/08/2021|0.2|Criação de épicos e features|Pedro Lucas e Thaís Rebouças|
-  |29/08/2021|0.3|Criação de histórias de usuário|Pedro Lucas e Thaís Rebouças|
-  |01/09/2021|0.4|Adição da definição do MoSCoW e pequenas correções na estrutura do documento|Thaís Rebouças|
-  |01/09/2021|0.4|Adição de priorização levando em conta o time Capivaras|Thaís Rebouças|
-  |02/09/2021|0.5|Adição de pontos levando em conta o time Plus Ultra|Pedro Lucas|
+  |24/08/2021|0.3|Criação de épicos e features|Pedro Lucas e Thaís Rebouças|
+  |29/08/2021|0.4|Criação de histórias de usuário|Pedro Lucas e Thaís Rebouças|
+  |01/09/2021|0.5|Adição da definição do MoSCoW e pequenas correções na estrutura do documento|Thaís Rebouças|
+  |01/09/2021|0.6|Adição de priorização levando em conta o time Capivaras|Thaís Rebouças|
+  |02/09/2021|0.7|Adição de pontos levando em conta o time Plus Ultra|Pedro Lucas|
   |21/09/2021|1.0|Versão 2 do backlog|Pedro Lucas, Thaís Rebouças, Kayro César, Lameque Fernandes, Erick Levy e Douglas Silva|
-
-# Referências
-
-- Railsware Product Academy. MoSCoW prioritization for your product backlog. Youtube, 19 de Setembro de 2019. Disponível em: https://www.youtube.com/watch?v=DzruAbBhY0Q. Acesso em: 01 de Setembro de 2021.
 
 
 # 1. Introdução
@@ -161,3 +157,8 @@ Será uma epic para criar lembretes programados.
 |US50|Eu, como usuário, desejo receber dicas de home office|Could| 8 |
 |US51|Eu, como usuário, desejo cadastrar interesse em receber mensagens sobre dicas de saúde mental|Should| 8 |
 |US52|Eu, como usuário, desejo receber dicas de saúde mental|Should| 8 |
+
+
+# Referências
+
+- Railsware Product Academy. MoSCoW prioritization for your product backlog. Youtube, 19 de Setembro de 2019. Disponível em: https://www.youtube.com/watch?v=DzruAbBhY0Q. Acesso em: 01 de Setembro de 2021.

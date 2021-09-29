@@ -34,7 +34,7 @@ ajudar no combate mundial ao vírus.
     - Tópico 1
     - Tópico 2 -->
 
- ## 📦 Releases 1
+ ## 📦 Release 1
   Release 1 - 14 de setembro
   - [Apresentação Geral](https://youtu.be/S_MtOdIb13s)
   - [Apresentação Equipe Capivaras](https://www.youtube.com/watch?v=TWQMUeZd9EY)

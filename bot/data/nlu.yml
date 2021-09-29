@@ -264,6 +264,22 @@ nlu:
     - Você é um robô?
     - O que você é?
 
+- intent: vacina_eh_segura
+  examples: |
+    - A vacina é segura?
+    - A Pfizer é segura?
+    - A Astrazeneca é segura?
+    - A Fiocruz é segura?
+    - A Coronavac é segura?
+    - A sputnik v é segura?
+    - A Covaxin é segura?
+    - A vacina do butatã é segura?
+    - A Johnson & Johnson é segura?
+    - A janssen é segura? 
+    - A moderna é segura?
+    - Segurança da vacina
+    - Posso confiar na vacina?
+
 - intent: cuidados_escritorio
   examples: |
     - Que cuidados eu devo tomar no escritório?
@@ -277,3 +293,4 @@ nlu:
     - trabalho 
     - Posso ir trabalhar?
     - Posso ir ao escritório?
+

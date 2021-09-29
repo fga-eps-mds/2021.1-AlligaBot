@@ -47,7 +47,7 @@ class DadosDoCovidPeloCsvAction(Action):
         if not os.path.isdir(self.diretorio):
             os.makedirs(self.diretorio)
 
-            self.url = 'https://mobileapps.saude.gov.br/esus-vepi/files/unAFkcaNDeXajurGB7LChj8SgQYS2ptm/32fc907e8d6ee3a669d31af4a16deb26_HIST_PAINEL_COVIDBR_19set2021.zip'
+            self.url = 'https://data.brasil.io/dataset/covid19/caso.csv.gz'
 
             self.resposta = requests.get(self.url)
 
@@ -74,16 +74,28 @@ class DadosDoCovidPeloCsvAction(Action):
         cidade = tracker.get_slot('cidade')
 
         self.dados = pd.read_csv(
-            self.diretorio + '/HIST_PAINEL_COVIDBR_2021_Parte2_19set2021.csv',
-            sep = ';',
+            self.diretorio + '/caso.csv',
+            sep = ',',
             decimal = '.'
         )
 
         dataframe = pd.DataFrame(self.dados)
 
-        pesquisa_por_uf = dataframe.loc[dataframe['estado'] == uf]
-        pesquisa_por_data = pesquisa_por_uf.loc[dataframe['data'] == '2021-09-18']
-        pesquisa_por_cidade = pesquisa_por_data.loc[dataframe['municipio'] == cidade]
+        pesquisa_por_uf = dataframe.loc[dataframe['state'] == uf]
+        pesquisa_por_ultimo_dado = pesquisa_por_uf.loc[dataframe['is_last'] == True]
+        pesquisa_por_cidade = pesquisa_por_ultimo_dado.loc[dataframe['city'] == cidade]
+
+        pesquisa_por_cidade = pesquisa_por_cidade[
+            [
+                'date',
+                'state', 
+                'city', 
+                'estimated_population_2019',
+                'confirmed',
+                'deaths',
+                'confirmed_per_100k_inhabitants',
+            ]
+        ]
 
         conteudo = ''
 

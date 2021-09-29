@@ -279,3 +279,18 @@ nlu:
     - A moderna é segura?
     - Segurança da vacina
     - Posso confiar na vacina?
+
+- intent: cuidados_escritorio
+  examples: |
+    - Que cuidados eu devo tomar no escritório?
+    - Que cuidados eu devo tomar no trabalho?
+    - escritório
+    - Cuidados no escritório
+    - Como posso me previnir do COVID no trabalho?
+    - Como posso me previnir do COVID no escritório?
+    - Vou trabalhar?
+    - Vou ao escritório
+    - trabalho 
+    - Posso ir trabalhar?
+    - Posso ir ao escritório?
+

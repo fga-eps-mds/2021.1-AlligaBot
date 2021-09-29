@@ -50,6 +50,13 @@ stories:
   - intent: mais_sobre_o_virus
   - action: utter_mais_sobre_o_virus
 
+- story: caminho para para saber sobre os tipos de máscaras
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: tipos_de_mascaras
+  - action: utter_tipos_de_mascaras
+
 - story: sobre covid
   steps:
   - intent: start

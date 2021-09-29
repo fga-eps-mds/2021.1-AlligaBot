@@ -68,12 +68,12 @@ Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid.
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US07|Eu, como usuário, desejo saber sobre as variantes do covid|Must| 3 |
+|US07|Eu, como usuário, desejo saber sobre as variantes da covid-19|Must| 3 |
 |US08|Eu, como usuário, desejo saber sobre as formas de transmissão|Must| 3 |
 |US09|Eu, como usuário, desejo saber mais sobre o vírus|Must| 3 |
 |US10|Eu, como usuário, desejo saber sobre as formas gerais de prevenção|Must| 3 |
-|US11|Eu, como usuário, desejo saber sobre os tipos de mascaras|Must| 3 |
-|US12|Eu, como usuário, desejo saber como usar as mascaras corretamente|Must| 3 |
+|US11|Eu, como usuário, desejo saber sobre os tipos de máscaras|Must| 3 |
+|US12|Eu, como usuário, desejo saber como usar as máscaras corretamente|Must| 3 |
 |US13|Eu, como usuário, desejo saber sobre os sintomas da covid|Must| 3 |
 |US14|Eu, como usuário, desejo saber qual a quantidade de infectados por covid na minha cidade/estado/país|Should| 8 |
 |US15|Eu, como usuário, desejo saber qual a quantidade de infectados por período|Could| 8 |
@@ -132,8 +132,8 @@ Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid.
 
 |ID|User Story|Prioridade|Pontos|
 |----------|-----------|---------|---------|
-|US41|Eu, como usuário com suspeita de covid, desejo saber oque fazer|Must| 5 |
-|US42|Eu, como usuário com suspeita de covid, desejo saber aonde me testar|Should| 5 |
+|US41|Eu, como usuário com suspeita de covid, desejo saber o que fazer|Must| 5 |
+|US42|Eu, como usuário com suspeita de covid, desejo saber onde me testar|Should| 5 |
 |US43|Eu, como usuário com suspeita de covid, desejo saber qual tipo de exame devo fazer e porque|Must| 5 |
 |US44|Eu, como usuário, testei positivo para covid e quero saber o que fazer|Must| 3 |
 

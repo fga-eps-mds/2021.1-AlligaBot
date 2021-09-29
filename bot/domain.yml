@@ -6,6 +6,7 @@ intents:
   - covid
   - fora_do_escopo
   - formas_de_transmissao
+  - tipos_de_mascaras
   - mais_sobre_o_virus
   - bot_alligabot
   - cuidados_em_locais_abertos
@@ -70,6 +71,15 @@ responses:
       - Uso de máscaras de boa qualidade bem ajustadas, cobrindo nariz e boca.
       - Ventilação de ambientes fechados e preferência a atividades em ambientes ao ar livre.
       - Distanciamento físico (2 metros entre as pessoas)."
+  
+  utter_tipos_de_mascaras:
+   - text: |
+      Os tipos de máscaras disponíveis são classificados por nível de eficiência de proteção.Os tipos mais comuns são:
+          Máscara PFF2 sem válvula (Eficiência alta)
+          Máscara cirúrgica  (Eficiência média para alta) 
+          Máscara de algodão (Eficiência média) 
+          Máscara de lenço ou bandana (Eficiência baixa)
+
 
   utter_cuidados_em_locais_abertos:
   - text: "É importante frisar que, embora mais seguros, mesmo ambientes abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas,  sem respeito ao distanciamento físico, ou em situações de intensa interação entre as pessoas, como festas e shows. O uso de máscara sempre reduz o risco de infecção.Por isso, é importante  usar máscara corretamente mesmo ao ar livre e manter o distanciamento físico de outras pessoas."    

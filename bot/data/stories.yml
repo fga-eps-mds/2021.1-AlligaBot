@@ -117,3 +117,10 @@ stories:
   - intent: sintomas
   - action: utter_sintomas
 
+- story: formulario de localizacao do usuario
+  steps:
+    - intent: covid_em_sua_cidade
+    - action: localizacao_form
+    - active_loop: localizacao_form
+    - active_loop: null
+    - action: action_dados_covid_baseados_em_localizacao

@@ -26,6 +26,28 @@ intents:
   - mais_gama
   - delta
   - mais_delta
+  - covid_em_sua_cidade
+  - uf_input_form
+  - cidade_input_form
+
+forms:
+  localizacao_form:
+    required_slots:
+      uf:
+        - type: from_text
+      cidade:
+        - type: from_text
+
+slots:
+  uf:
+    type: text
+    influence_conversation: false
+  cidade:
+    type: text
+    influence_conversation: false
+
+actions:
+  - action_dados_covid_baseados_em_localizacao
 
 entities:
   - oi
@@ -101,7 +123,6 @@ responses:
 
   utter_cuidados_no_dentista:
   - text: "Diante da pandemia, os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao consultório odontológico apenas em casos de emergência ou urgência. As visitas ao cirurgião-dentista para procedimentos eletivos devem ser adiadas por precaução. Leia mais em: https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/"
-    image: "https://lh3.googleusercontent.com/proxy/VNj5WQGYZOBRn6iqneVk0PjyQLXjMxlUX5Ie1Ed82wSqNuSkLCiTAHyxgCFFJSVwT4xa-cQneWDq1nA_S1ERb9QBIyDpnRHzHvWmhUtOy4k8omGijL0EIlUk67N0nPf2R5lSTg"
 
   utter_cabelos:
   - text: "Ir com alguma objeto que possar armazenar o Álcool em gel, usar mascara e luvas se possiveis"
@@ -191,6 +212,12 @@ responses:
     - text: |
         A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
         Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
+
+  utter_ask_localizacao_form_uf:
+    - text: Informe a sigla do seu Estado (UF)
+
+  utter_ask_localizacao_form_cidade:
+    - text: Informe o nome da sua cidade
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

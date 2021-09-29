@@ -263,5 +263,17 @@ nlu:
     - Você é uma pessoa real?
     - Você é um robô?
     - O que você é?
-    
 
+- intent: cuidados_escritorio
+  examples: |
+    - Que cuidados eu devo tomar no escritório?
+    - Que cuidados eu devo tomar no trabalho?
+    - escritório
+    - Cuidados no escritório
+    - Como posso me previnir do COVID no trabalho?
+    - Como posso me previnir do COVID no escritório?
+    - Vou trabalhar?
+    - Vou ao escritório
+    - trabalho 
+    - Posso ir trabalhar?
+    - Posso ir ao escritório?

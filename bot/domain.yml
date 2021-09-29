@@ -26,6 +26,7 @@ intents:
   - mais_gama
   - delta
   - mais_delta
+  - cuidados_escritorio
 
 entities:
   - oi
@@ -191,6 +192,48 @@ responses:
     - text: |
         A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
         Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
+
+  utter_cuidados_escritorio:
+    - text: |
+        Não se preocupe vou te dar uma dica de ouro. Para se prevenir da COVID-19 no trabalho ou  no escritório é indispensável a utilização da máscara, também é necessário a higienização do local e disponibilidade de álcool em gel.
+        Também não podemos nos esquecer do distanciamento social.
+
+        Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+    - text: |
+        - Manter o ambiente de trabalho sempre higienizado e desinfetado (superfícies, mesas, objetos, telefones, teclados, balcões, maçanetas);  
+        - Ter local de fácil acesso para lavar as mãos;
+        - Aumentar a frequência de limpeza de corrimãos, elevadores e outros lugares de contato intenso com álcool gel ou solução com água sanitária;
+        - Evitar reuniões numerosas;
+        - Dar preferência ao uso de escadas;
+        - Evitar o manuseio de objetos e documentos de uso compartilhado. Caso não seja possível, usar luvas de proteção ou realizar a higienização adequada das mãos;
+        - Evitar entrar no elevador caso não seja possível manter distanciamento seguro; 
+        - Evitar cumprimentos com as mãos, abraços ou qualquer outro contato físico.
+    - text: |
+        Vou listar aqui algumas medidas para evitar o contágio de Covid-19 nos escritórios:
+
+
+        1. Higienização do local de trabalho: A higienização deve ser realizada constantemente com álcool a 70% ou solução com hipoclorito.
+
+        2. Telefones e computadores: se necessário o seu compartilhamento, higienizar com álcool 70% antes da utilização, mesmo que você saiba quem utilizou o equipamento antes de você, repita a operação de limpeza.
+
+        3. Disponibilização de álcool gel: o ideal é que cada colaborador possua o seu frasco individual para uso continuo, vale ressaltar a importância da limpeza da superfície do álcool em gel, pois na maioria das vezes tocamos no frasco antes da utilização.
+
+        4. Utilização de máscara com tripla camada: essa deverá ser continua e somente retirada para a ingesta de água. Sua troca precisa ocorrer a cada duas horas, portanto é importante levar a quantidade suficiente para um turno de trabalho. A tripla camada não representa aquelas dobrinhas que são vistas em máscaras de tecido e sim 3 camadas de tecido como observado nas máscaras de procedimento cirúrgico.
+
+        5. Distanciamento social: é essencial ocorrer o distanciamento de no mínimo dois metros entre um colaborador e outro.
+
+        6. Lixeiras: utilizar somente as que possuem pedal, para que não haja contato com a superfície para a abertura da tampa.
+
+        7. Corredores, lanchonetes, copa/café: três setores que comumente as pessoas gostam de conversar, porém nesse momento é necessário evitar a aglomeração nos locais, e manter o distanciamento para segurança, verificando se existe limite máximo de pessoas no local.
+
+        8. Materiais de escritório: cada estação de trabalho precisa ter o seu para que não haja compartilhamento de objetos. E caso seja necessário compartilhar, repetir o processo preventivo do item 1.
+
+        9. Ambiente arejado e ventilado: os espaços de trabalho precisam manter as janelas abertas para constante ventilação. Evitar a utilização do ar condicionado é essencial.
+
+        10. Seja o exemplo: é importante que todos os colaboradores possam ser o exemplo uns para os outros, assim é possível que todos acabem seguindo as regras. Evite polêmicas e priorize ações de segurança.
+
+
+        Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

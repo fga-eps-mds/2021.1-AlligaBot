@@ -117,3 +117,9 @@ stories:
   - intent: sintomas
   - action: utter_sintomas
 
+- story: caminho para para saber sobre como usar a     máscara corretamente
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: uso_correto_mascara
+  - action: utter_uso_correto_mascara

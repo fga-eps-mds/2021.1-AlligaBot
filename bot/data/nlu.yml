@@ -155,6 +155,15 @@ nlu:
     - Como se previnir?
     - Qual o triângulo da prevenção?
 
+- intent: uso_correto_mascara
+  examples: |
+    - Como usar a máscara corretamente?
+    - Uso correto de máscaras
+    - Como devo usar a máscara?
+    - Usar máscara de forma certa
+    - Como usar máscara de forma certa?
+    - Como usar máscara de maneira certa?
+
 - intent: cuidados_em_locais_abertos  
   examples: |
     -Como se previnir da covid-19 em locais abertos?

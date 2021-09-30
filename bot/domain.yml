@@ -8,6 +8,7 @@ intents:
   - formas_de_transmissao
   - tipos_de_mascaras
   - mais_sobre_o_virus
+  - uso_correto_mascara
   - bot_alligabot
   - cuidados_em_locais_abertos
   - cuidados_em_locais_fechados
@@ -80,6 +81,20 @@ responses:
           Máscara de algodão (Eficiência média) 
           Máscara de lenço ou bandana (Eficiência baixa)
 
+
+  utter_uso_correto_mascara:
+  - text: |
+      Para se proteger adequadamente, é preciso usar corretamente a máscara, seguindo estas orientações:
+
+      - A máscara deve cobrir completamente o nariz e a boca: máscaras no queixo ou deixando o nariz de fora são inúteis.
+
+      - A máscara precisa se ajustar bem ao rosto, sem deixar folgas ou aberturas por onde entre ou saia o ar.
+
+      - A boa vedação é o ponto mais importante
+
+      - Para melhor ajuste e segurança, recomenda-se usar máscaras que possam ser presas na nuca, ao invés da orelha.
+
+      - As boas máscaras têm uma peça de metal perto do nariz (clipe nasal). Essa peça ajuda a ajustar melhor a máscara.
 
   utter_cuidados_em_locais_abertos:
   - text: "É importante frisar que, embora mais seguros, mesmo ambientes abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas,  sem respeito ao distanciamento físico, ou em situações de intensa interação entre as pessoas, como festas e shows. O uso de máscara sempre reduz o risco de infecção.Por isso, é importante  usar máscara corretamente mesmo ao ar livre e manter o distanciamento físico de outras pessoas."    

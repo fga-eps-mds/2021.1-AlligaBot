@@ -124,6 +124,13 @@ stories:
   - intent: sintomas
   - action: utter_sintomas
 
+- story: caminho para para saber sobre como usar a máscara corretamente
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: uso_correto_mascara
+  - action: utter_uso_correto_mascara
+
 - story: seguranca das vacinas
   steps:
   - intent: vacina_eh_segura
@@ -133,4 +140,5 @@ stories:
   steps:
   - intent: cuidados_escritorio
   - action: utter_cuidados_escritorio
+
 

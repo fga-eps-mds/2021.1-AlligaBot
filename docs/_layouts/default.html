@@ -93,8 +93,10 @@
                 <ul>
                     {% assign posts = '' | split: '' %}
                     {% for post in site.posts %}
+                    {% if post.tag != "capivaras" and post.tag != "plusultra" and post.tag != "slowbrows" %}
                     {% if post.hide != true %}
                     {% assign posts = posts | push: post %}
+                    {% endif %}
                     {% endif %}
                     {% endfor %}
                     {% assign posts = posts | sort: 'date' %}

@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+
+import os
+from os import path
+
 from typing import Any, Text, Dict, List
 
 import requests
@@ -6,62 +10,37 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import AllSlotsReset
 
-from genericpath import isdir
-import shutil
 import pandas as pd
-from pandas.core.tools import numeric
-import numpy as np
 import requests
 import patoolib
-
-from io import BytesIO
-import os
-
-
-class JokeAction(Action):
-    def name(self) -> Text:
-        return "action_joke"
-
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]
-    ) -> List[Dict[Text, Any]]:
-        req = requests.get(
-            'https://official-joke-api.appspot.com/jokes/random').json()
-        setup = req['setup']
-
-        punchline = req['punchline']
-        dispatcher.utter_message(text=setup)
-        dispatcher.utter_message(text=punchline)
-        print("hello")
-        return []
 
 class DadosDoCovidPeloCsvAction(Action):
 
     def __init__(self):
-        self.diretorio = './covid_data'
-        self.arquivo = 'dados_covid_csv.zip'
+        self.diretorio = 'covid_data'
+        self.arquivo = 'dados_covid_csv.gz'
+        self.url = 'https://data.brasil.io/dataset/covid19/caso.csv.gz'
+        caminho_arquivo = ''
 
-        if not os.path.isdir(self.diretorio):
-            os.makedirs(self.diretorio)
-
-            self.url = 'https://data.brasil.io/dataset/covid19/caso.csv.gz'
-
+        if self.arquivo_baixado_ha_mais_de_um_dia(caminho_arquivo):
             self.resposta = requests.get(self.url)
 
             if self.resposta.status_code == requests.codes.OK:
-                with open(self.diretorio + '/' + self.arquivo, 'wb') as novo_arquivo:
+                caminho_arquivo = path.join(self.diretorio, self.arquivo)
+                with open(caminho_arquivo, 'wb') as novo_arquivo:
                     novo_arquivo.write(self.resposta.content)
-                    print("Download finalizado. Arquivo salvo em: {}".format(self.diretorio + '/' + self.arquivo))
+                    print(f'Download finalizado. Arquivo salvo em: {caminho_arquivo}')
             else:
                 self.resposta.raise_for_status()
 
-            patoolib.extract_archive(self.diretorio + '/' + self.arquivo, outdir=self.diretorio)
+            patoolib.extract_archive(caminho_arquivo, outdir=self.diretorio)
 
     def name(self) -> Text:
-        return "action_dados_covid_baseados_em_localizacao"
+        return 'action_dados_covid_baseados_em_localizacao'
+    
+    def arquivo_baixado_ha_mais_de_um_dia(self, caminho_do_arquivo: str):
+        # os.stat(caminho_do_arquivo).
+        return True
 
     def run(
         self,
@@ -74,7 +53,7 @@ class DadosDoCovidPeloCsvAction(Action):
         cidade = tracker.get_slot('cidade')
 
         self.dados = pd.read_csv(
-            self.diretorio + '/caso.csv',
+            path.join(self.diretorio, 'caso.csv'),
             sep = ',',
             decimal = '.'
         )
@@ -98,7 +77,6 @@ class DadosDoCovidPeloCsvAction(Action):
         ]
 
         conteudo = ''
-
         for label, content in pesquisa_por_cidade.items():
             conteudo += label + ': ' + str(content.to_list()[0]) + '\n'
 

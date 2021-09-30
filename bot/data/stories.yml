@@ -50,6 +50,13 @@ stories:
   - intent: mais_sobre_o_virus
   - action: utter_mais_sobre_o_virus
 
+- story: caminho para para saber sobre os tipos de máscaras
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: tipos_de_mascaras
+  - action: utter_tipos_de_mascaras
+
 - story: sobre covid
   steps:
   - intent: start
@@ -124,4 +131,22 @@ stories:
   steps:
   - intent: sintomas
   - action: utter_sintomas
+
+- story: caminho para para saber sobre como usar a máscara corretamente
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: uso_correto_mascara
+  - action: utter_uso_correto_mascara
+
+- story: seguranca das vacinas
+  steps:
+  - intent: vacina_eh_segura
+  - action: utter_vacina_eh_segura
+
+- story: cuidados no escritorio ou trabalho
+  steps:
+  - intent: cuidados_escritorio
+  - action: utter_cuidados_escritorio
+
 

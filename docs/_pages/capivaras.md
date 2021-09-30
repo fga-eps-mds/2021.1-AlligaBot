@@ -1,11 +1,26 @@
 ---
-layout: page
+layout: page_capivaras
 title: Equipe Capivaras
-permalink: /about/
-order: 1
+permalink: /Capivaras/
 share: false
 ---
+{% for post in site.posts %}
+<div class="article-wrapper">
+    <article>
+        <section class="post-content">
+            {% if post.tag == "capivaras" %}
+            {% assign size = post.content | split: site.excerpt_separator | size %}
+            
+            {{ post.excerpt }}
+           
+            {% else %}
+            
+            {% endif %}
+        </section>
+    </article>
+</div>
 
-[TtskchTheme](https://github.com/ttskch/jekyll-ttskch-theme) is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+{% if forloop.last != true %}
 
-Enjoy! :smiley:
+{% endif %}
+{% endfor %}

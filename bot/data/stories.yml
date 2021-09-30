@@ -114,6 +114,14 @@ stories:
   - intent: barbearia_cabelereiro
   - action: utter_cabelos
 
+- story: Como se portar no comércio em geral
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: cuidados_comercio_geral
+  - action: utter_cuidados_comercio_geral
+
+
 - story: forma gerais de prevencao
   steps:
   - intent: formas_gerais_de_prevencao

@@ -17,6 +17,7 @@ intents:
   - cuidados_na_academia
   - cuidados_no_dentista
   - barbearia_cabelereiro
+  - cuidados_comercio_geral
   - formas_gerais_de_prevencao
   - sintomas
   - variantes
@@ -30,6 +31,7 @@ intents:
   - mais_delta
   - vacina_eh_segura
   - cuidados_escritorio
+
 
 entities:
   - oi
@@ -173,6 +175,14 @@ responses:
     - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2.\n O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
     - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
     - text: "O coronavírus pertence a uma família de vírus que causa desde resfriados comuns a doenças mais graves.O novo coronavírus recebeu a denominação SARS-CoV-2 pela Organização Mundial da Saúde (OMS). A doença que ele provoca tem a denominação COVID-19, que significa Coronavirus Disease (doença do coronavírus), enquanto “19” se refere ao ano em que apareceram os primeiros casos em Wuhan, na China."
+
+  utter_cuidados_comercio_geral:
+    - text: |
+       -Priorizar ambientes com portas e janelas abertas 
+
+       -Utilizar a máscara corretamente
+
+       -Manter uma distância segura dos demais clientes(principalmente nas filas)
 
   utter_variantes:
     - text: "As variantes do COVID-19 são a Alfa, Beta, Delta e Gama"

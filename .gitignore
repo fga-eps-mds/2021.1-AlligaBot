@@ -144,4 +144,5 @@ cython_debug/
 bot/models/*
 
 # Arquivos .csv
-actions/covid_data
+actions/covid_data/*
+!actions/covid_data/.gitkeep

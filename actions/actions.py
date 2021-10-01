@@ -2,19 +2,17 @@
 
 import os
 import time
-from os import path
-
-from typing import Any, Text, Dict, List
-
+import shutil
 import requests
+import requests
+import patoolib
+import pandas as pd
+
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import AllSlotsReset
-
-import pandas as pd
-import requests
-import patoolib
-
+from os import path
+from typing import Any, Text, Dict, List
 
 class DadosDoCovidPeloCsvAction(Action):
 
@@ -29,17 +27,12 @@ class DadosDoCovidPeloCsvAction(Action):
         return 'action_dados_covid_baseados_em_localizacao'
     
     def arquivo_baixado_ha_mais_de_um_dia(self, caminho_do_arquivo: str):
-        # os.stat(caminho_do_arquivo).
         SEGUNDOS_PARA_DIAS = 60 * 60 * 24
         instante_atual = time.time()
         instante_da_ultima_modificacao_arquivo = os.stat(caminho_do_arquivo).st_mtime
 
-        print(instante_da_ultima_modificacao_arquivo)
-
         diferenca_de_instante_em_seg = instante_atual - instante_da_ultima_modificacao_arquivo
-        print('Diferenca de tempo em segundos', diferenca_de_instante_em_seg)
-        print('Diferenca de dias em segundos', diferenca_de_instante_em_seg / SEGUNDOS_PARA_DIAS)
-
+        
         return (diferenca_de_instante_em_seg / SEGUNDOS_PARA_DIAS) > self.TEMPO_LIMITE_PARA_ATUALIZACAO
 
     def run(
@@ -49,19 +42,21 @@ class DadosDoCovidPeloCsvAction(Action):
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
 
-        print('antes do if')
         if self.arquivo_baixado_ha_mais_de_um_dia(self.caminho_arquivo):
-            print('baixando arquivo atualizado')
+            os.remove(path.join(self.diretorio, 'caso.csv'))
+            
             self.resposta = requests.get(self.url)
 
             if self.resposta.status_code == requests.codes.OK:
                 with open(self.caminho_arquivo, 'wb') as novo_arquivo:
                     novo_arquivo.write(self.resposta.content)
+                    novo_arquivo.close()
                     print(f'Download finalizado. Arquivo salvo em: {self.caminho_arquivo}')
             else:
                 self.resposta.raise_for_status()
 
             patoolib.extract_archive(self.caminho_arquivo, outdir=self.diretorio)
+            print('Extracao finalizada')
 
         uf = tracker.get_slot('uf')
         cidade = tracker.get_slot('cidade')
@@ -91,6 +86,7 @@ class DadosDoCovidPeloCsvAction(Action):
         ]
 
         conteudo = ''
+        
         for label, content in pesquisa_por_cidade.items():
             conteudo += label + ': ' + str(content.to_list()[0]) + '\n'
 

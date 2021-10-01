@@ -19,7 +19,9 @@ import patoolib
 class DadosDoCovidPeloCsvAction(Action):
 
     def __init__(self):
-        self.diretorio = 'covid_data'
+        print('######### INIT ############')
+        print('CURR DIR', path.curdir)
+        self.diretorio = path.join(os.getcwd(), path.realpath(__file__), 'covid_data')
         self.arquivo = 'dados_covid_csv.gz'
         self.url = 'https://data.brasil.io/dataset/covid19/caso.csv.gz'
         self.TEMPO_LIMITE_PARA_ATUALIZACAO = 1
@@ -29,7 +31,6 @@ class DadosDoCovidPeloCsvAction(Action):
         return 'action_dados_covid_baseados_em_localizacao'
     
     def arquivo_baixado_ha_mais_de_um_dia(self, caminho_do_arquivo: str):
-        # os.stat(caminho_do_arquivo).
         SEGUNDOS_PARA_DIAS = 60 * 60 * 24
         instante_atual = time.time()
         instante_da_ultima_modificacao_arquivo = os.stat(caminho_do_arquivo).st_mtime
@@ -48,9 +49,13 @@ class DadosDoCovidPeloCsvAction(Action):
         tracker: Tracker,
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
+        print('######### RUN ############')
+        print('CURR DIR', path.curdir, os.getcwd())
+        print('self.diretorio', self.diretorio)
+        print('self.arquivo', self.caminho_arquivo)
 
         print('antes do if')
-        if self.arquivo_baixado_ha_mais_de_um_dia(self.caminho_arquivo):
+        if self.arquivo_baixado_ha_mais_de_um_dia(self.caminho_arquivo) or not path.isfile(self.caminho_arquivo):
             print('baixando arquivo atualizado')
             self.resposta = requests.get(self.url)
 

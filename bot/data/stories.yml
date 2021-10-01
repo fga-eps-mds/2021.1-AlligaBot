@@ -117,3 +117,7 @@ stories:
   - intent: sintomas
   - action: utter_sintomas
 
+- story: saude mental
+  steps:
+  - intent: saude_mental
+  - action: utter_saude_mental

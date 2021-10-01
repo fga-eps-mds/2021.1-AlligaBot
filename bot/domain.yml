@@ -26,6 +26,7 @@ intents:
   - mais_gama
   - delta
   - mais_delta
+  - saude_mental
 
 entities:
   - oi
@@ -192,6 +193,10 @@ responses:
         A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
         Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
 
+  utter_saude_mental:
+    - text: |
+        Cheguei aqui
+  
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

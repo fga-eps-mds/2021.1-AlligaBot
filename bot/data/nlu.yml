@@ -94,9 +94,11 @@ nlu:
 
 - intent: beta
   examples: |
-    - beta
     - Beta
+    - beta
     - bet
+    - Bet
+    - BETA
 
 - intent: mais_beta
   examples: |
@@ -106,6 +108,7 @@ nlu:
     - Beta +
     - mais beta
     - mais sobre beta
+    - mais bet
 
 - intent: gama
   examples: |

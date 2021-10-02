@@ -25,6 +25,11 @@ shell:
 	@echo "Iniciando shell iterativo."
 	sudo docker exec -it bot rasa shell
 
+test:
+	@echo "Rodando Teste rasa."
+	sudo docker exec -it bot rasa test
+
+
 # treina o bot
 train:
 	@echo "Iniciando treino."

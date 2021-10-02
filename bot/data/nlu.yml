@@ -86,8 +86,6 @@ nlu:
   examples: |
     - quero saber sobre alfa
     - me fale sobre alfa
-    - alfa mais
-    - Alfa +
     - mais alfa
     - mais sobre alfa
     - mais alfa
@@ -104,8 +102,6 @@ nlu:
   examples: |
     - quero saber sobre beta
     - me fale sobre beta
-    - beta +
-    - Beta +
     - mais beta
     - mais sobre beta
     - mais bet

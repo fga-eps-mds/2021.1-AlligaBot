@@ -155,6 +155,25 @@ nlu:
     - Como se previnir?
     - Qual o triângulo da prevenção?
 
+
+- intent: uso_correto_mascara
+  examples: |
+    - Como usar a máscara corretamente?
+    - Uso correto de máscaras
+    - Como devo usar a máscara?
+    - Usar máscara de forma certa
+    - Como usar máscara de forma certa?
+    - Como usar máscara de maneira certa?
+
+- intent: tipos_de_mascaras
+  examples: |
+    - Desejo saber sobre os tipos de máscaras
+    - Quais são os tipos de máscaras?
+    - Quais tipos de máscaras posso usar?
+    - Tipos de máscaras
+    - Eficácia dos tipos de máscaras
+
+
 - intent: cuidados_em_locais_abertos  
   examples: |
     -Como se previnir da covid-19 em locais abertos?
@@ -250,6 +269,16 @@ nlu:
     - sintomas principais do COVID-19
     - quero saber os sintomas do COVID-19
     - pode me dizer quais são os sintomas do COVID-19?
+
+- intent: cuidados_comercio_geral
+  examples: |
+    - Desejo saber os cuidados que devo ter em comércios no geral
+    - Cuidados no comércio 
+    - Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
+    - Quais cuidados devo ter no comércio para me proteger do COVID-19?
+    - Como devo me portar no comércio em geral? 
+  
+    
 
 - intent: bot_alligabot
   examples: |

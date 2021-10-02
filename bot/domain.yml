@@ -48,6 +48,7 @@ slots:
 
 actions:
   - action_dados_covid_baseados_em_localizacao
+  - action_download_dados
 
 entities:
   - oi

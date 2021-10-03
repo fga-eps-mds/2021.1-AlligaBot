@@ -1,6 +1,6 @@
 # Como testar as entradas do bot e respostas
 
-Este e um tutorial que visa a ferramente do proprio rasa para testar as entradas do usuarios com as resposta do bot.
+Este e um tutorial que visa a ferramenta do proprio rasa para testar as entradas do usuarios com as respostas do bot.
 
 ### Preparando
 
@@ -18,17 +18,17 @@ Neste `test_stories.yml` crie sua historia e coloque a intenção do usuario `us
 
 ### Posteriormente faça o teste
 
-Usando o comando o rasa testara as entradas e saidas e vera se estão de acordo com uma matriz em diagonal.
+Usando o comando o rasa teste as entradas e saidas.
 
     make test
 
 
-Com isso o make test gerara a pasta `bot/results` nesta pasta gerara 3 pngs importantes para ver se todos os testes bateram.
+Com isso o make test gera a pasta `bot/results` nesta pasta tera 3 pngs importantes para ver se todos os testes foram concluidos.
 
 
-Se estiver tudo certo com a imagens ela gerara umas matriz em diagonal sem outros numeros fora da diagonal.
+Se estiver tudo certo com a imagem ela gerara uma matriz em diagonal chamada (`intent_confusion_matrix.png`) .
 
-Se não aparecera algum quadrado fora da diagonal
+Se não aparecera algum quadrado fora da diagonal com um numero.
 
 <h1 align="center">Matrix de confusão certa</h1>
 <p align="center">

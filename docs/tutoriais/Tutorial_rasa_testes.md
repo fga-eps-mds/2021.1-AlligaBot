@@ -18,7 +18,7 @@ Neste `test_stories.yml` crie sua historia e coloque a intenção do usuario `us
 
 ### Posteriormente faça o teste
 
-Usando o comando o rasa teste as entradas e saidas.
+Usando o comando abaixo.
 
     make test
 

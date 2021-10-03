@@ -55,7 +55,7 @@ Se não aparecera algum quadrado fora da diagonal
 
 <h1 align="center">Histórias do bot</h1>
 <p align="center">
-    <img width="700" src="../img/story_confusion_matrix.png">
+    <img width="500" src="../img/story_confusion_matrix.png">
 </p>
 
 

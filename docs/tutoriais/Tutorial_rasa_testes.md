@@ -28,13 +28,14 @@ Com isso o make test gerara a pasta `bot/results` nesta pasta gerara 3 pngs impo
 
 Se estiver tudo certo com a imagens ela gerara umas matriz em diagonal sem outros numeros fora da diagonal.
 
+Se não aparecera algum quadrado fora da diagonal
+
 <h1 align="center">Matrix de confusão certa</h1>
 <p align="center">
     <img width="500" src="../img/intent_confusion_matrix.png">
 </p>
 
 
-Se não aparecera algum quadrado fora da diagonal
 
 <h1 align="center">Matrix de confusão errada</h1>
 <p align="center">

@@ -13,9 +13,21 @@ Esse documento contêm os itens que deverão ser desenvolvidos pelos times de de
   |01/09/2021|0.6|Adição de priorização levando em conta o time Capivaras|Thaís Rebouças|
   |02/09/2021|0.7|Adição de pontos levando em conta o time Plus Ultra|Pedro Lucas|
   |21/09/2021|1.0|Versão 2 do backlog|Pedro Lucas, Thaís Rebouças, Kayro César, Lameque Fernandes, Erick Levy e Douglas Silva|
+  |04/10/2021|1.1|Listamento de mudanças entre os backlogs|Pedro Lucas|
 
 
 # 1. Introdução
+
+## 1.1 Mudanças desde o primeiro backlog
+É recomendo que sejam observado os dois backlogs para entender as mudanças de forma adequada.
+### Pontos alterados:
+Correções nas versões que estavam erradas e repetidas.
+
+Correções na escrita do documento.
+
+Adição de algumas User Stories o que pode ter mudado a numeração de outras, por exemplo, a US25 mudou de "Eu, como usuário, desejo saber como posso me exercitar em casa" para "Eu, como cliente, desejo saber os cuidados que devo ter em comércios gerais".
+
+
 
 ## 1.2 Abreviações e seus significados
 |Abreviação|Significado|

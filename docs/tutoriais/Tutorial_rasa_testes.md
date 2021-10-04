@@ -18,15 +18,17 @@ Neste `test_stories.yml` crie sua história e coloque a intenção do usuário `
 
 ### Posteriormente faça o teste
 
-Usando o comando o rasa testara as entradas e saidas e vera se estão de acordo com uma matriz em diagonal.
+Usando o comando abaixo.
 
     make test
 
 
-Com isso o make test gerara a pasta `bot/results` nesta pasta gerara 3 pngs importantes para ver se todos os testes bateram.
+Com isso o make test gera a pasta `bot/results` nesta pasta tera 3 pngs importantes para ver se todos os testes foram concluidos.
 
 
-Se estiver tudo certo com a imagens ela gerara umas matriz em diagonal sem outros numeros fora da diagonal.
+Se estiver tudo certo com a imagem ela gerara uma matriz em diagonal chamada (`intent_confusion_matrix.png`) .
+
+Se não aparecera algum quadrado fora da diagonal com um numero.
 
 <h1 align="center">Matrix de confusão certa</h1>
 <p align="center">
@@ -34,7 +36,6 @@ Se estiver tudo certo com a imagens ela gerara umas matriz em diagonal sem outro
 </p>
 
 
-Se não aparecera algum quadrado fora da diagonal
 
 <h1 align="center">Matrix de confusão errada</h1>
 <p align="center">
@@ -43,18 +44,18 @@ Se não aparecera algum quadrado fora da diagonal
 
 <h1 align="center">Histograma do bot certo</h1>
 <p align="center">
-    <img width="700" src="../img/intent_histogram.png">
+    <img width="500" src="../img/intent_histogram.png">
 </p>
 
 <h1 align="center">Histograma do bot errado</h1>
 <p align="center">
-    <img width="700" src="../img/intent_histogram_example.png">
+    <img width="500" src="../img/intent_histogram_example.png">
 </p>
 
 
 <h1 align="center">Histórias do bot</h1>
 <p align="center">
-    <img width="700" src="../img/story_confusion_matrix.png">
+    <img width="500" src="../img/story_confusion_matrix.png">
 </p>
 
 

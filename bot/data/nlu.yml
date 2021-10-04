@@ -254,9 +254,13 @@ nlu:
 - intent: saude_mental
   examples: |
     - Como posso manter a saúde mental?
+    - O que posso fazer para manter a saúde mental?
     - Saúde mental
-    - Como Melhorar da cabeça
+    - Como melhorar da cabeça
     - Como não surtar
+    - Como nao ter um surto
+    - Como nao enlouquecer dentro de casa
+    - O que posso fazer para não surtar em casa?
 
 - intent: bot_alligabot
   examples: |

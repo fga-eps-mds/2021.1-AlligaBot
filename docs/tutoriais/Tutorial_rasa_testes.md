@@ -1,12 +1,12 @@
 # Como testar as entradas do bot e respostas
 
-Este e um tutorial que visa a ferramente do proprio rasa para testar as entradas do usuarios com as resposta do bot.
+Este é um tutorial que visa a ferramente do proprio rasa para testar as entradas do usuarios com as resposta do bot.
 
 ### Preparando
 
-Certifique-se que voce esta na pasta de `bot/tests/` e ir no arquivo `test_stories.yml` .
+Certifique-se que voce está na pasta de `bot/tests/` e ir no arquivo `test_stories.yml` .
 
-Neste `test_stories.yml` crie sua historia e coloque a intenção do usuario `user` insira a frase do usuario e insira as intenções(`intent`) do usuario e as ações(`action`) do bot.
+Neste `test_stories.yml` crie sua história e coloque a intenção do usuário `user` insira a frase do usuario e insira as intenções(`intent`) do usuario e as ações(`action`) do bot.
 
     stories:
     - story: inicio conversa

@@ -74,7 +74,7 @@ stories:
   - intent: alfa
   - action: utter_alfa
 
-- story: Alfa mais
+- story: Mais alfa
   steps:
   - intent: mais_alfa
   - action: utter_mais_alfa
@@ -84,7 +84,7 @@ stories:
   - intent: beta
   - action: utter_beta
 
-- story: Beta mais
+- story: Mais beta
   steps:
   - intent: mais_beta
   - action: utter_mais_beta

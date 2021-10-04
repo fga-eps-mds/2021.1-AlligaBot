@@ -14,7 +14,7 @@ stories:
       Alfa
     intent: alfa
   - action: utter_alfa
-- story: Alfa mais
+- story: Mais alfa
   steps:
   - user: |
       mais alfa
@@ -26,7 +26,7 @@ stories:
       beta
     intent: beta
   - action: utter_beta
-- story: Beta mais
+- story: Mais beta
   steps:
   - user: |
       mais beta

@@ -142,3 +142,4 @@ cython_debug/
 ### Personalizado do 2021-bot
 .vscode/
 bot/models/*
+bot/results

@@ -35,6 +35,8 @@ intents:
 
 entities:
   - oi
+  - Oi
+  - Eae
   - tchau
   - covid
   - pizza
@@ -45,6 +47,7 @@ entities:
   - alfa
   - mais_alfa
   - beta
+  - Beta
   - mais_beta
   - gama
   - mais_gama
@@ -190,19 +193,19 @@ responses:
   utter_alfa:
     - text: "A variante (Alfa B.1.1.7) - surgiu no Reino unido em setembro de 2020 com uma taxa de transmissão entre 30 a 50 % a mais que outras linhagens"
   
-  utter_alfa_mais:
-    - text: "A Alfa tem a mutação que N501Y, que intensifica aligação entre as celulas do virus e humanas"
-    - text: "No quesito de Vacinas a variante Alfa toma nocaute de todas as vacinas "
+  utter_mais_alfa:
+    - text: |
+        A Alfa tem a mutação que N501Y, que intensifica a ligação entre as células virais e humanas
+        No quesito de Vacinas a variante Alfa toma nocaute de todas as vacinas.
 
   utter_beta:
     - text: |
         A variante (Beta B.1.351) - Surgiu na Africa em dezembro de 2020, esta variante alem de possui a N501Y presente na Alfa, tem a K417N
         E484K que ajuda o virus a escapar dos anticorpos produzidos pelo corpo
 
-  utter_beta_mais:
+  utter_mais_beta:
     - text: |
-        Vacinas como a Janssen e a Pfizer são eficazes contra a Beta, A unica que não funciona e a
-        AstraZeneca 
+        Vacinas como a Janssen e a Pfizer são eficazes contra a Beta, a unica que não funciona e a AstraZeneca 
       
   utter_gama:
     - text: |

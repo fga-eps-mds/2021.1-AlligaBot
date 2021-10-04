@@ -86,26 +86,25 @@ nlu:
   examples: |
     - quero saber sobre alfa
     - me fale sobre alfa
-    - alfa mais
-    - Alfa +
     - mais alfa
     - mais sobre alfa
     - mais alfa
 
 - intent: beta
   examples: |
-    - beta
     - Beta
+    - beta
     - bet
+    - Bet
+    - BETA
 
 - intent: mais_beta
   examples: |
     - quero saber sobre beta
     - me fale sobre beta
-    - beta +
-    - Beta +
     - mais beta
     - mais sobre beta
+    - mais bet
 
 - intent: gama
   examples: |

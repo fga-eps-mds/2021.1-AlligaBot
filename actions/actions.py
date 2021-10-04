@@ -92,9 +92,9 @@ class DadosDoCovidPeloCsvAction(Action):
         tracker: Tracker,
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
-        
-        uf = tracker.get_slot('uf')
-        cidade = tracker.get_slot('cidade')
+
+        uf = tracker.get_slot('uf').upper()
+        cidade = tracker.get_slot('cidade').capitalize()
 
         self.dados = pd.read_csv(
             path.join(diretorio, 'caso.csv'),
@@ -105,8 +105,16 @@ class DadosDoCovidPeloCsvAction(Action):
         dataframe = pd.DataFrame(self.dados)
 
         pesquisa_por_uf = dataframe.loc[dataframe['state'] == uf]
+        if pesquisa_por_uf.empty:
+            dispatcher.utter_message(text='Não achei sua UF. Certifique-se que você está digitando corretamente.')
+            return [AllSlotsReset()]
+
         pesquisa_por_ultimo_dado = pesquisa_por_uf.loc[dataframe['is_last'] == True]
+
         pesquisa_por_cidade = pesquisa_por_ultimo_dado.loc[dataframe['city'] == cidade]
+        if pesquisa_por_cidade.empty:
+            dispatcher.utter_message(text='Olha, não consegui encontrar a sua cidade. Certifique-se que você está digitando corretamente, incluindo acentos, nome próprio')
+            return [AllSlotsReset()]
 
         pesquisa_por_cidade = pesquisa_por_cidade[
             [
@@ -120,11 +128,22 @@ class DadosDoCovidPeloCsvAction(Action):
             ]
         ]
 
-        conteudo = ''
-        
-        for label, content in pesquisa_por_cidade.items():
-            conteudo += label + ': ' + str(content.to_list()[0]) + '\n'
+        ingles_para_portugues = {
+            'date': 'Data',
+            'state': 'Estado', 
+            'city': 'Cidade', 
+            'estimated_population_2019': 'População estimada em 2019',
+            'confirmed': 'Confirmados',
+            'deaths': 'Mortes',
+            'confirmed_per_100k_inhabitants': 'Confirmados a cada 100 mil habitantes',
+        }
 
-        dispatcher.utter_message(text=conteudo)
+        mensagem = ''
+        
+        for rotulo_ingles, content in pesquisa_por_cidade.items():
+            rotulo_portugues = ingles_para_portugues[rotulo_ingles]
+            mensagem += f'{rotulo_portugues}: {str(content.to_list()[0])}\n'
+
+        dispatcher.utter_message(text=mensagem)
         
         return [AllSlotsReset()]

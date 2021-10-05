@@ -1,8 +1,6 @@
 ---
 excerpt: ""
 ---
-# Personalidade do Bot
-
 ## Histórico de versões
 
 | Data   | Versão | Modificação  | Autor  |

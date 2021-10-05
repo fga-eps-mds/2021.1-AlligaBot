@@ -1,8 +1,6 @@
 ---
 excerpt: ""
 ---
-# Plano de Gerenciamento de Riscos
-
 ## Histórico de versões
 
 | Data       | Versão | Descrição                      | Autor(es) |

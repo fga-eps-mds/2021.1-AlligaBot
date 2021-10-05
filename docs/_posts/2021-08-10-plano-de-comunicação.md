@@ -1,8 +1,6 @@
 ---
 excerpt: ""
 ---
-# Plano de Comunicação
-
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 06/09/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|

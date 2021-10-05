@@ -1,11 +1,11 @@
 ---
 excerpt: ""
 ---
-# Backlog do Produto
 
 Esse documento contêm os itens que deverão ser desenvolvidos pelos times de desenvolvimento, levando em conta os requisitos levantados. 
 
-# Histórico de revisão
+## Histórico de revisão
+
   |Data|Versão|Alteração|Autor| 
   |----|------|---------|-----|
   |19/08/2021|0.1|Primeira definição de funcionalidades|Pedro Lucas|
@@ -16,14 +16,15 @@ Esse documento contêm os itens que deverão ser desenvolvidos pelos times de de
   |01/09/2021|0.4|Adição de priorização levando em conta o time Capivaras|Thaís Rebouças|
   |02/09/2021|0.5|Adição de pontos levando em conta o time Plus Ultra|Pedro Lucas|
 
-# Referências
+## Referências
 
 - Railsware Product Academy. MoSCoW prioritization for your product backlog. Youtube, 19 de Setembro de 2019. Disponível em: https://www.youtube.com/watch?v=DzruAbBhY0Q. Acesso em: 01 de Setembro de 2021.
 
 
-# 1. Introdução
+## 1. Introdução
 
 ## 1.2 Abreviações e seus significados
+
 |Abreviação|Significado|
 |----------|-----------|
 |EP|Epics|
@@ -31,6 +32,7 @@ Esse documento contêm os itens que deverão ser desenvolvidos pelos times de de
 |US|User Stories|
 
 ## 1.3 Termos importantes que serão utilizados nesse documento
+
 |Termo|Definição|
 |----------|-----------|
 |Epics|Epics são descrições gerais do que se deseja no software|
@@ -46,7 +48,7 @@ O MoSCoW é uma técnica utilizada para definir a prioridade dos requisitos pres
 - Could: Pode ter este requisito se não afetar mais nada no projeto.
 - Won't: Gostaria de ter esse requisito mais tarde, mas a entrega não será desta vez.
 
-# 2. Backlog
+## 2. Backlog
 
 ## EP01: Sobre o bot
 Será uma epic para ser uma informação inicial, onde o usuário terá o primeiro contato com o bot e terá uma breve explicação sobre suas funcionalidades.

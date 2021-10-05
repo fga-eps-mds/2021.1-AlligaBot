@@ -7,8 +7,7 @@ excerpt: ""
 |:-----:|:------:|:--------------------------:|:-----------:|
 | 09/09 |   0.1  | Primeiras regras de estilo | Yudi Yamane |
 
-
-# Folha de Estilo
+## Estilo e formatação
 Este documento explica o estilo de código Python usado no projeto. O estilo é 
 baseado no [PEP 8](https://www.python.org/dev/peps/pep-0008/) com poucas 
 modificações que serão explicadas abaixo juntamente com outros exemplos.
@@ -91,7 +90,6 @@ c = (a + b) * (a - b)
 
 ## Referências
 
-- As referencias devem está em formato [ABNT](https://github.com/LamequeFernandes).
 - [Introdução ao pycodestyle](https://pycodestyle.pycqa.org/en/latest/intro.html)
 - [Como usar arquivo de configuração para autopep8](https://github.com/hhatto/autopep8/issues/378)
 

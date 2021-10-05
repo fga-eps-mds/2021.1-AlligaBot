@@ -1,7 +1,6 @@
 ---
 excerpt: ""
 ---
-# Roadmap do Produto
 
 Esse documento contêm a documentação das atividades realizadas em todas as sprints até a R1. 
 

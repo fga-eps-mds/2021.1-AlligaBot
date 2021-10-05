@@ -1,8 +1,6 @@
 ---
 excerpt: ""
 ---
-# Documentação de evolução de DevOps
-
 Esse documento foi criado com o intuito de centralizar informações sobre deploys e pipelines desenvolvidas e estabilizadas pelo time de DevOps.
 
 ## Histórico de versões

@@ -1,7 +1,8 @@
 ---
 excerpt: ""
 ---
-# Histórico de Revisão
+
+## Histórico de Revisão
 
 
 | Data   | Versão | Modificação  | Autor  |
@@ -14,16 +15,16 @@ excerpt: ""
 | 11/09/2021 | 0.6 | Correção do nome do chatbot e padronização do nome chatbot | Ana Carolina |
 | 12/09/2021 | 0.7 | Ajuste nas referências | Kathlyn Lara |
 
-# 1. Introdução
+## 1. Introdução
 Este documento tem como finalidade apresentar a "aparência" do AlligaBot para os usuários, ou seja, seu logo, sua paleta de cores e sua letra, que será presente tanto no chatbot de conversação do Telegram como no site do GitHub Pages.
 
-# 2. Apresentação da Identidade Visual
+## 2. Apresentação da Identidade Visual
 <img src="img/logo.png" alt="contraste" width="600"/>
 
 ## Justificativa
 Um jacaré amigável segurando uma seringa.
 
-# 3. Fontes
+## 3. Fontes
 
 Obs.: As fontes aqui citadas são da página github.io do AlligaBot, já que o produto em si irá utilizar as fontes padrão da máquina (smartphone/notebook) do usuário.
 
@@ -63,12 +64,12 @@ Coloca-se no css, para a utilização das fontes:
 
 	font-family: 'Poppins', sans-serif;
 
-# 4. Paleta de cores
+## 4. Paleta de cores
   
 Obs.: As cores aqui citadas são da página github.io do AlligaBot, já que o produto em si irá utilizar as cores padrão da máquina (smartphone/notebook) do usuário.
 
 <img src="img/paletacores.jpg" alt="contraste" width="600"/>
 
-# 5. Referências
+## 5. Referências
 MALTA, Fabíola; SALOMÃO, Hugo; GOMES, Leonardo - Guia de Estilo e Identidade Visual. Disponível em: <https://github.com/fga-eps-mds/2019.2-Acacia/blob/develop/docs/style_guide.md>. Acesso em 12 de set. de 2021.
  

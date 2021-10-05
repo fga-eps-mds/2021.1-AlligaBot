@@ -1,8 +1,6 @@
 ---
 excerpt: ""
 ---
-# Estrutura Analítica do Projeto (EAP)
-
 ## Histórico de versões
 
 | Data       | Versão | Descrição                      | Autor(es) |

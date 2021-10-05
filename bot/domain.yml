@@ -31,7 +31,7 @@ intents:
   - mais_delta
   - vacina_eh_segura
   - cuidados_escritorio
-
+  - preciso_me_vacinar
 
 entities:
   - oi
@@ -277,6 +277,13 @@ responses:
 
 
         Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+ 
+  utter_preciso_me_vacinar:
+    - text: |
+        Todos precisam se vacinar, independente de ter pego ou não a Covid-19. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de uma queda periódica no quadro de casos de infectados, existe ainda a consciencia coletiva de que precisa-se ultrapassar uma determinada quantidade de pessoas vacinas, a fim de que os números de mutação e reprodução diminuam.
+
+    - text: |
+        Todos precisam se vacinar, independente de ter pego ou não a Covid-19. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de uma queda periódica no quadro de casos de infectados, deve-se analisar a imunidade coletiva, que consiste em uma fórmula onde o valor de reprodução do vírus resulta no dado que representa a imunidade de rebanho, com a finalidade de se obter números que indicam que o vírus não irá se reproduzir ou mutar.
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

@@ -149,4 +149,8 @@ stories:
   - intent: cuidados_escritorio
   - action: utter_cuidados_escritorio
 
+- story: preciso me vacinar
+  steps:
+  - intent: preciso_me_vacinar
+  - action: utter_preciso_me_vacinar
 

@@ -322,3 +322,14 @@ nlu:
     - Posso ir trabalhar?
     - Posso ir ao escritório?
 
+- intent: preciso_me_vacinar
+  examples: |
+    - Preciso me vacinar?
+    - Preciso me vacina?
+    - É necessário tomar a vacina?
+    - Todo mundo precisa tomar a vacina?
+    - Quem precisa tomar a vacina?
+    - Já peguei covid-19, preciso tomar a vacina?
+    - Já peguei covid-19, preciso me vacinar?
+    - Necessidade da vacina
+

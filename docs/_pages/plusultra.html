@@ -1,0 +1,24 @@
+---
+layout: page_plusultra
+title: Equipe PlusUltra
+permalink: /PlusUltra/
+share: false
+---
+{% for post in site.posts %}
+<div class="article-wrapper">
+    <article>
+        <section class="post-content">
+            {% if post.tag == "plusultra" %}
+            {% assign size = post.content | split: site.excerpt_separator | size %}
+            
+            {{ post.excerpt }}
+            
+            {% endif %}
+        </section>
+    </article>
+</div>
+
+{% if forloop.last != true %}
+
+{% endif %}
+{% endfor %}

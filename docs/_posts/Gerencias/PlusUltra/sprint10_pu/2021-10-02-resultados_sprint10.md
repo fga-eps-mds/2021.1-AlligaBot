@@ -5,7 +5,7 @@
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| --/09/2021 |  0.-   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| --/10/2021 |  0.-   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
 
 ## Objetivos
 

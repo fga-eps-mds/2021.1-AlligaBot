@@ -50,6 +50,13 @@ stories:
   - intent: mais_sobre_o_virus
   - action: utter_mais_sobre_o_virus
 
+- story: caminho para para saber sobre os tipos de máscaras
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: tipos_de_mascaras
+  - action: utter_tipos_de_mascaras
+
 - story: sobre covid
   steps:
   - intent: start
@@ -67,20 +74,20 @@ stories:
   - intent: alfa
   - action: utter_alfa
 
-- story: Alfa mais
+- story: Mais alfa
   steps:
   - intent: mais_alfa
-  - action: utter_alfa_mais
+  - action: utter_mais_alfa
 
-- story: Beta
+- story: beta
   steps:
   - intent: beta
   - action: utter_beta
 
-- story: Beta mais
+- story: Mais beta
   steps:
   - intent: mais_beta
-  - action: utter_beta_mais
+  - action: utter_mais_beta
 
 - story: Gama
   steps:
@@ -107,6 +114,14 @@ stories:
   - intent: barbearia_cabelereiro
   - action: utter_cabelos
 
+- story: Como se portar no comércio em geral
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: cuidados_comercio_geral
+  - action: utter_cuidados_comercio_geral
+
+
 - story: forma gerais de prevencao
   steps:
   - intent: formas_gerais_de_prevencao
@@ -116,4 +131,22 @@ stories:
   steps:
   - intent: sintomas
   - action: utter_sintomas
+
+- story: caminho para para saber sobre como usar a máscara corretamente
+  steps:
+  - intent: start
+  - action: utter_cumprimentar
+  - intent: uso_correto_mascara
+  - action: utter_uso_correto_mascara
+
+- story: seguranca das vacinas
+  steps:
+  - intent: vacina_eh_segura
+  - action: utter_vacina_eh_segura
+
+- story: cuidados no escritorio ou trabalho
+  steps:
+  - intent: cuidados_escritorio
+  - action: utter_cuidados_escritorio
+
 

@@ -1,7 +1,6 @@
 ---
 excerpt: ""
 ---
-# Requisitos do produto
 
 Este documento esta com a elicitação dos requisitos gerados no início do projeto. 
 

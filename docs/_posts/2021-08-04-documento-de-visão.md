@@ -2,9 +2,7 @@
 excerpt: ""
 ---
 
-# Documento de Visão
-
-  Este documento estará repleto de dados que sustentarão o propósito, o contexto e a visão geral do produto, permitindo assim o entendimento do escopo do projeto.
+Este documento estará repleto de dados que sustentarão o propósito, o contexto e a visão geral do produto, permitindo assim o entendimento do escopo do projeto.
 Assim, será explicado o problema evidenciado, a oportunidade encontrada, a descrição dos principais envolvidos, uma possível solução, suas principais funcionalidades e seus requisitos, para assim obter uma melhor compreensão do escopo e diminuir os riscos.
 
 
@@ -22,7 +20,7 @@ Assim, será explicado o problema evidenciado, a oportunidade encontrada, a desc
 
 
 
-# **1. Introdução**
+## **1. Introdução**
 
 ### 1.1 Finalidade
 

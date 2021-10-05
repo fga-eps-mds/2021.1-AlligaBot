@@ -12,7 +12,7 @@ excerpt: ""
 |21/08/2021|0.2|Definição de tecnologias, e diagrama arquitetural|Victor Eduardo, Matheus Raphael|
 |08/09/2021|0.3|Correção de pequenos erros presentes no documento|Victor Eduardo| -->
   
-# 1. Introdução
+## 1. Introdução
 ## 1.1 Finalidade
 Este documento tem como finalidade apresentar a arquitetura do projeto ChatBot, de forma que fique de fácil entedimento a estrututra arquitetural do projeto, e sejam mostradas todas as decisões relacionadas a ela.
   
@@ -48,7 +48,7 @@ Este documento está dividído em 6 grandes tópicos, com subdivisões, com o ob
 | 5 | Visão Lógica | Descreve as partes significativas do ponto de vista da arquitetura do modelo de design |
 | 6 | Tamanho e Desempenho | Descreve as características de desempenho do Software, bem como as restrições estabelecidas e possíveis falhas |
 
-# 2. Representação da Arquitetura
+## 2. Representação da Arquitetura
 ![Captura de tela de 2021-08-21 16-03-24](https://user-images.githubusercontent.com/78758172/130332389-f7fb3872-bf5c-4b54-adc6-ebb5a9a08312.png)
 
 A representação arquitetural do ciclo de funcionamento está explicitada na imagem acima. O ciclo começa quando o usuário envia uma mensagem para o AlligaBot, após isso a mensagem é repassada ao bot onde primeiro a mensagem passa pelo Rasa NLU que processa a mensagem, após isso, no Rasa Core, é feita a etapa de identificar a intenção do usuário. Por último o Rasa escolherá a resposta mais adequada através do Rasa Actions, e retornará tal resposta ao usuário via Telegram.
@@ -71,7 +71,7 @@ O local o qual o usuário poderá interagir com o bot será no Telegram sendo el
 
 A linguagem de programação a ser utilizada no bot será o Python, já que o Rasa também a utiliza.
   
-# 3. Metas e restrições de Arquitetura
+## 3. Metas e restrições de Arquitetura
 ## 3.1 Metas
 O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegram e tem como função informar o usuário acerca de conteúdos sobre o COVID-19 com informações fornecidas, dentro outros, pelo site [Corona Cidades](coronacidades.org), sobre como prevenir o contágio, gestão pública, e informações relacionadas à vacinação na região do usuário.
   
@@ -87,7 +87,7 @@ O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegr
 - O sistema deve ser capaz de receber a localização do usuário, quando necessário
 - O bot deve ser treinado a fim de conseguir atender ao máximo de usuários possíveis
   
-# 4. Visão dos Casos de Uso
+## 4. Visão dos Casos de Uso
 ## 4.1 Atores de Casos de Uso
 
 |Ator|Descrição|
@@ -102,11 +102,11 @@ O projeto aqui apresentado trata-se de um Chat Bot integrado a plataforma Telegr
 |E2|Informações sobre covid|Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid|
 |E3|Lembrete programado|Será uma epic para criar lembretes programados|
   
-# 5. Visão Lógica
+## 5. Visão Lógica
 ## 5.1 Diagrama de Pacotes
 - O pacote 2021-1-Bot é o pacote principal do do projeto, contém todos os outros sub-pacotes e documentos disponíveis no documento
 - Toda a documentação do projeto pode ser encontrada na pasta docs
 
-# 6. Tamanho e desempenho
+## 6. Tamanho e desempenho
 Este bot atuará primeiramente no Telegram, seu tamanho e desempenho serão comuns com aplicações semelhantes de ChatBots que utilizam a tecnologia Rasa.
 O desempenho poderá ser afetado devido a serviços externos, como consultas de dados sobre vacinações ou instabilidades de sistemas.

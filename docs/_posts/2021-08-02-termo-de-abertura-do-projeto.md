@@ -2,7 +2,6 @@
 excerpt: ""
 ---
 
-# Termo de Abertura do Projeto
 Este documento viabiliza conceitualmente a visão inicial do projeto como um todo.
 
 ## Histórico de versões
@@ -14,20 +13,20 @@ Este documento viabiliza conceitualmente a visão inicial do projeto como um tod
 |  26/08/2021 |  0.3 | Exclusão do antigo tópico 8, Correção de informações no documento | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
 |  11/09/2021 |  0.4 | Correção do nome comum do bot,erros ortográficos, dos riscos, tabela de equipes jutando com os papéis e definições e mudança dos usuários | [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)  |
 
-# 1. Introdução
+## 1. Introdução
 O documento tem como objetivo informar propósitos, objetivos e requisitos de alto nível, além de especificações de planejamento do chatbot, informacional e conversacional.
 
-# 2. Descrição
+## 2. Descrição
 O AlligaBot é um chatbot disponibilizado no mensageiro Telegram, que tem como objetivo salientar a conversação, trazer informação e tirar dúvidas sobre: Vacinação, Prevenção e Políticas Públicas a respeito da COVID-19, além de disparar alertas sobre as circunstâncias de cada tema.
 
-# 3.Próposito e Justificativa
+## 3.Próposito e Justificativa
 Com o surgimento da COVID-19, o entendimento sobre essa nova doença foi buscado por todos os profissionais da saúde, pelo qual tentou responder as milhares de dúvidas decorrentes do CoronaVírus. Diante disso, a informação de modo claro, direto e de fácil acesso ainda persiste em continuar não sendo entregue por todos os brasilienses que tem acesso a internet e faz uso das redes sociais e meios de comunicação. Entretanto, para solucionar essa falta de conhecimento básico, informação importante para qualquer cidadão que precisa para se proteger, o chatbot veio para facilitar esse entendimento prévio sobre três aspectos, fazendo a comunicação direta e de fácil acesso aos cidadãos. Ele sugere as principais informações sobre vacinação, prevenção e políticas públicas, agregando em principal o governo a poder compartilhar a informação verdadeira e simples para todos.
 
-# 4.Objetivos
+## 4.Objetivos
 O objetivo do chatbot é aumentar a circulação de informações verídicas e viabilizar que elas sejam de fácil e rápido acesso, além de serem constantemente atualizadas. Sem o chatbot, essas informações são disponibilizadas em vários meios de telecomunicação, porém muitas das vezes, elas ainda não são acessíveis a todos e nem sempre corretas de acordo com as novas descobertas científicas.
 
 
-# 5. Partes Interessadas
+## 5. Partes Interessadas
 
 ## 5.1 Usários
 O público se remete aos brasilienses, usuários do chatbot.
@@ -65,7 +64,7 @@ Slow Bros:
 | Desenvolvedor | O desenvolvedor deve desenvolver, testar e garantir que o código está sendo feito da melhor forma possível. | [Kayro Cesar](https://github.com/kayrocesar) |
 
 
-# 6.Requisitos de Alto Nível
+## 6.Requisitos de Alto Nível
 Estão entre os requisitos de alto nível:
 
 - Interação atráves de linguagem natural para melhor usabilidade;
@@ -73,7 +72,7 @@ Estão entre os requisitos de alto nível:
 - Construir personalidade do chatbot;
 - Obtenção de informações contidas nas APIS e imerso nas dúvidas do CoronaVírus, aumentando o cunho informacional do chatbot.
 
-# 7. Riscos
+## 7. Riscos
 
 | ID   | Se                                                                      | por conta                                                          | o impacto será                                                                                         | Categoria EAR          |
 |------|-------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------|
@@ -97,18 +96,18 @@ Estão entre os requisitos de alto nível:
 | RN18 | A qualidade do software não corresponder às expectativas do cliente       | de má implementação                                                | descontentamento do Cliente e possibilidade de cancelamento do projeto                                 | Cliente/Qualidade      |
 | RN19 | Houver greve na UnB                                                       | de orientações de assembleias do corpo docente ou estudantil       | interrupção do projeto                                                                                 | Greve na UnB           |
 
-# 8. Requisitos para a aprovação
+## 8. Requisitos para a aprovação
 
 - Ter a possibilidade de ser acessado pelo mensageiro Telegram.
 - Ter implementado as funcionalidades definidas pelo escopo do projeto.
 - Atender as especificações dos requisitos levantados.
 
-# 9. Estratégia de Comunicação
+## 9. Estratégia de Comunicação
   Meios de comunicação utilizados: Telegram, discord, aulas e meets.
 
   Outras ferramentas que são utilizadas: GitHub, Miro e Google Drive. 
 
-# 10.Referências
+## 10.Referências
 
 LOVEMONDAYS. Salários para programadores e equipe de analista, arquiteto, scrum master, DevOps e PO. Disponível em: https://www.lovemondays.com.br/. Acesso em 23 de Agosto de 2021.
 

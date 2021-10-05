@@ -31,6 +31,7 @@ intents:
   - mais_delta
   - vacina_eh_segura
   - cuidados_escritorio
+  - cuidados_no_atendimento
 
 
 entities:
@@ -277,6 +278,18 @@ responses:
 
 
         Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+
+  utter_cuidados_no_atendimento:
+  - text: |
+      Interessante, posso te ajudar nisso.
+      Para proteger a si mesmo e o seu cliente é muito importante evitar apertos de mão, abraços, bejinhos no rosto e qualquer outro cumprimento físico. Aaaah também é recomendável que tenha frascos de álcool gel disponíveis para os clientes.
+      Algumas outras diquinhas:
+      - Incentive o pagamento por aproximação.
+      - Limpeza da máquina de cartão.
+      - Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
+
+
+      Mas a melhor maneira de não se contaminar é não tendo contado com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

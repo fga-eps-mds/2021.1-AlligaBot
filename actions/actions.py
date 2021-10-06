@@ -20,20 +20,21 @@ class DownloadDados(Action):
 
     def __init__(self):
         self.url = 'https://data.brasil.io/dataset/covid19/caso.csv.gz'
-        self.arquivo = 'dados_covid_csv.gz'
-        self.caminho_arquivo = path.join(diretorio, self.arquivo)
+        self.arquivo_zipado = 'dados_covid_csv.gz'
+        self.caminho_arquivo_csv = path.join(diretorio, 'dados_covid_csv') 
+        self.caminho_arquivo_zipado = path.join(diretorio, self.arquivo_zipado)
         self.TEMPO_LIMITE_PARA_ATUALIZACAO_EM_DIAS = 1
 
     def name(self) -> Text:
         return 'action_download_dados'
 
-    def arquivo_csv_existe(self) -> bool:
-        return path.isfile(self.caminho_arquivo)
+    def arquivo_zipado_existe(self) -> bool:
+        return path.isfile(self.caminho_arquivo_zipado)
 
     def arquivo_csv_baixado_ha_mais_de_um_dia(self) -> bool:
         SEGUNDOS_PARA_DIAS = 60 * 60 * 24
         instante_atual = time.time()
-        instante_da_ultima_modificacao_arquivo = os.stat(self.caminho_arquivo).st_mtime
+        instante_da_ultima_modificacao_arquivo = os.stat(self.caminho_arquivo_zipado).st_mtime
 
         print(instante_da_ultima_modificacao_arquivo)
 
@@ -45,17 +46,20 @@ class DownloadDados(Action):
 
     def baixar_e_extrair_arquivo_csv(self) -> None:
         print('baixando arquivo atualizado')
-        os.remove(path.join(diretorio, 'caso.csv'))
+
+        if self.arquivo_zipado_existe():
+            os.remove(path.join(self.caminho_arquivo_csv))
+            
         self.resposta = requests.get(self.url)
 
         if self.resposta.status_code == requests.codes.OK:
-            with open(self.caminho_arquivo, 'wb') as novo_arquivo:
+            with open(self.caminho_arquivo_zipado, 'wb') as novo_arquivo:
                 novo_arquivo.write(self.resposta.content)
-                print(f'Download finalizado. Arquivo salvo em: {self.caminho_arquivo}')
+                print(f'Download finalizado. Arquivo salvo em: {self.caminho_arquivo_zipado}')
         else:
             self.resposta.raise_for_status()
 
-        patoolib.extract_archive(self.caminho_arquivo, outdir=diretorio)
+        patoolib.extract_archive(self.caminho_arquivo_zipado, outdir=diretorio)
         return
 
     def run(
@@ -65,7 +69,7 @@ class DownloadDados(Action):
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
 
-        arquivo_csv_existe = self.arquivo_csv_existe()
+        arquivo_csv_existe = self.arquivo_zipado_existe()
         if not arquivo_csv_existe or (arquivo_csv_existe and self.arquivo_csv_baixado_ha_mais_de_um_dia()):
             self.baixar_e_extrair_arquivo_csv()
         
@@ -73,6 +77,9 @@ class DownloadDados(Action):
 
 
 class DadosDoCovidPeloCsvAction(Action):
+
+    def __init__(self) -> None:
+        self.caminho_arquivo_csv = path.join(diretorio, 'dados_covid_csv')
 
     def name(self) -> Text:
         return 'action_dados_covid_baseados_em_localizacao'
@@ -97,7 +104,7 @@ class DadosDoCovidPeloCsvAction(Action):
         cidade = tracker.get_slot('cidade').capitalize()
 
         self.dados = pd.read_csv(
-            path.join(diretorio, 'caso.csv'),
+            path.join(self.caminho_arquivo_csv),
             sep = ',',
             decimal = '.'
         )

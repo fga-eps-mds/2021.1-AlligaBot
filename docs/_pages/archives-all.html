@@ -1,0 +1,22 @@
+---
+layout: page
+title: All Posts
+permalink: /archives/all/
+hide: true
+share: false
+---
+
+<div id="search-results">
+    <hr id="first-hr" class="with-no-margin"/>
+
+    {% for post in site.posts %}
+    <div class="article-wrapper">
+        {% if site.tags == "capivaras" %}
+        <article>
+            {% include article-header.html page=post link=true share=false eye_catch=false %}
+        </article>
+        {% endif %}
+    </div>
+    <hr class="with-no-margin"/>
+    {% endfor %}
+</div>

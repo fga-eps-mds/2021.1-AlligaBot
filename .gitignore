@@ -143,6 +143,9 @@ cython_debug/
 .vscode/
 bot/models/*
 bot/results
+# Arquivos .csv
+actions/covid_data/*
+!actions/covid_data/.gitkeep
 
 docs/_site
 docs/.sass-cache

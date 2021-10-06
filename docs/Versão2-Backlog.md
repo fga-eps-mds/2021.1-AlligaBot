@@ -19,13 +19,14 @@ Esse documento contêm os itens que deverão ser desenvolvidos pelos times de de
 # 1. Introdução
 
 ## 1.1 Mudanças desde o primeiro backlog
-É recomendo que sejam observado os dois backlogs para entender as mudanças de forma adequada.
+É recomendado que sejam observados os dois backlogs para entender as mudanças de forma adequada.
 ### Pontos alterados:
 Correções nas versões que estavam erradas e repetidas.
 
 Correções na escrita do documento.
 
-Adição de algumas User Stories o que pode ter mudado a numeração de outras, por exemplo, a US25 mudou de "Eu, como usuário, desejo saber como posso me exercitar em casa" para "Eu, como cliente, desejo saber os cuidados que devo ter em comércios gerais".
+
+Adição de algumas User Stories, que pode mudar a numeração de outras como, por exemplo, na US25 que houve mudança de "Eu, como usuário, desejo saber como posso me exercitar em casa" para "Eu, como cliente, desejo saber os cuidados que devo ter em comércios gerais".
 
 
 

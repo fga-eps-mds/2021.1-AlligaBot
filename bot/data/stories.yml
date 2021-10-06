@@ -157,3 +157,8 @@ stories:
   steps:
   - intent: cuidados_escritorio
   - action: utter_cuidados_escritorio
+
+- story: cuidados no atendimento ao cliente
+  steps:
+  - intent: cuidados_no_atendimento
+  - action: utter_cuidados_no_atendimento

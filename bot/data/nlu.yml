@@ -344,3 +344,20 @@ nlu:
     - Posso ir trabalhar?
     - Posso ir ao escritório?
 
+- intent: cuidados_no_atendimento
+  examples: |
+    - Como me cuidar ao atender clientes?
+    - Como me proteger ao atender clientes?
+    - Como me cuidar no atendimento?
+    - Como me previnir no atendimento?
+    - Como me proteger no atendimento?
+    - Como me previnir contra o COVID-19 no atendimento?
+    - Como me proteger do COVID-19 no atendimento?
+    - O que posso fazer para me previnir dos clientes?
+    - O que posso fazer para me proteger do COVID-19 dos clientes?
+    - O que posso fazer para me previnir do COVID-19 dos clientes?
+    - Cuidados no atendimento
+    - Atendimento ao cliente
+    - O que fazer para me previnir do COVID-19 no atendimento?
+    - O que fazer para me previnir do COVID-19 no atendimento ao cliente?
+    - O que fazer para me proteger do COVID-19 no atendimento ao cliente? 

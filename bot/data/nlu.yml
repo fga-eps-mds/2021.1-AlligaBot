@@ -86,26 +86,25 @@ nlu:
   examples: |
     - quero saber sobre alfa
     - me fale sobre alfa
-    - alfa mais
-    - Alfa +
     - mais alfa
     - mais sobre alfa
     - mais alfa
 
 - intent: beta
   examples: |
-    - beta
     - Beta
+    - beta
     - bet
+    - Bet
+    - BETA
 
 - intent: mais_beta
   examples: |
     - quero saber sobre beta
     - me fale sobre beta
-    - beta +
-    - Beta +
     - mais beta
     - mais sobre beta
+    - mais bet
 
 - intent: gama
   examples: |
@@ -154,6 +153,25 @@ nlu:
     - Como se prevenir?
     - Como se previnir?
     - Qual o triângulo da prevenção?
+
+
+- intent: uso_correto_mascara
+  examples: |
+    - Como usar a máscara corretamente?
+    - Uso correto de máscaras
+    - Como devo usar a máscara?
+    - Usar máscara de forma certa
+    - Como usar máscara de forma certa?
+    - Como usar máscara de maneira certa?
+
+- intent: tipos_de_mascaras
+  examples: |
+    - Desejo saber sobre os tipos de máscaras
+    - Quais são os tipos de máscaras?
+    - Quais tipos de máscaras posso usar?
+    - Tipos de máscaras
+    - Eficácia dos tipos de máscaras
+
 
 - intent: cuidados_em_locais_abertos  
   examples: |
@@ -261,6 +279,36 @@ nlu:
     - Como nao ter um surto
     - Como nao enlouquecer dentro de casa
     - O que posso fazer para não surtar em casa?
+    
+- intent: covid_em_sua_cidade
+  examples: |
+    - Quero saber sobre o covid na minha cidade
+    - Quero saber sobre o covid-19 na minha cidade
+    - Quero saber sobre o Sars-cov-2 na minha cidade
+    - Covid na minha cidade
+
+- intent: uf_input_form
+  examples: |
+    - Meu estado é DF
+    - Eu moro no estado do DF
+    - Minha uf é DF
+    - Minha unidade federativa é DF
+    - Eu vivo no estado do DF
+
+- intent: cidade_input_form
+  examples: |
+    - Minha cidade é Brasília
+    - Eu moro na cidade do São Paulo
+    - Minha cidade é São Luís
+    - Eu vivo na cidade do Brasília
+
+- intent: cuidados_comercio_geral
+  examples: |
+    - Desejo saber os cuidados que devo ter em comércios no geral
+    - Cuidados no comércio 
+    - Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
+    - Quais cuidados devo ter no comércio para me proteger do COVID-19?
+    - Como devo me portar no comércio em geral? 
 
 - intent: bot_alligabot
   examples: |
@@ -274,5 +322,34 @@ nlu:
     - Você é uma pessoa real?
     - Você é um robô?
     - O que você é?
-    
+
+- intent: vacina_eh_segura
+  examples: |
+    - A vacina é segura?
+    - A Pfizer é segura?
+    - A Astrazeneca é segura?
+    - A Fiocruz é segura?
+    - A Coronavac é segura?
+    - A sputnik v é segura?
+    - A Covaxin é segura?
+    - A vacina do butatã é segura?
+    - A Johnson & Johnson é segura?
+    - A janssen é segura? 
+    - A moderna é segura?
+    - Segurança da vacina
+    - Posso confiar na vacina?
+
+- intent: cuidados_escritorio
+  examples: |
+    - Que cuidados eu devo tomar no escritório?
+    - Que cuidados eu devo tomar no trabalho?
+    - escritório
+    - Cuidados no escritório
+    - Como posso me previnir do COVID no trabalho?
+    - Como posso me previnir do COVID no escritório?
+    - Vou trabalhar?
+    - Vou ao escritório
+    - trabalho 
+    - Posso ir trabalhar?
+    - Posso ir ao escritório?
 

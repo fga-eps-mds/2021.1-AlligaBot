@@ -25,11 +25,24 @@ shell:
 	@echo "Iniciando shell iterativo."
 	sudo docker exec -it bot rasa shell
 
+test:
+	@echo "Rodando Teste rasa."
+	sudo docker exec -it bot rasa test
+
+
 # treina o bot
 train:
 	@echo "Iniciando treino."
 	sudo docker exec -it bot rasa train
 
+docs-build:
+	docker run -v $$PWD/docs:/srv/jekyll --name docs -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --livereload
+
+docs-start:
+	docker start -i docs
+
+docs-stop:
+	docker stop docs
 
 lint-format-actions:
 	@echo "Aplicando correções de estilo e formatação dos arquivos do servidor de ações"

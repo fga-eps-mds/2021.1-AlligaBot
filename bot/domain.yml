@@ -289,7 +289,7 @@ responses:
       - Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
 
 
-      Mas a melhor maneira de não se contaminar é não tendo contado com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
+      Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

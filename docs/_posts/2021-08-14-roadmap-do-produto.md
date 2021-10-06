@@ -5,6 +5,7 @@ excerpt: ""
 Esse documento contêm a documentação das atividades realizadas em todas as sprints até a R1. 
 
 ## Histórico de versões
+
 | Data  |  Versão  |  Descrição  | Autor(es) |
 | ----- | -------- | ----------- | --------- |
 |  10/09/2021 |  0.1 | Versão 1 do roadmap | Pedro Lucas; Ana Carolina; Matheus Akio  |

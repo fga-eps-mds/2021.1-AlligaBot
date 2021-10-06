@@ -20,6 +20,7 @@ Uma forma comum para estruturar categorias dos riscos, representadas hierarquica
 Estrutura Analítica dos Riscos deste projeto.
 
 ### 3.1. Risco Técnico
+
 | Tipo         | Descrição                                                                                                       |
 |--------------|-----------------------------------------------------------------------------------------------------------------|
 | Requisitos   | Riscos gerados pela falta de mapeamento e elicitação de requisitos                                                      |
@@ -28,6 +29,7 @@ Estrutura Analítica dos Riscos deste projeto.
 | Qualidade    | Riscos decorrentes da qualidade do produto final                                                                |
 
 ### 3.2. Risco de Gerenciamento
+
 | Tipo         | Descrição                                                                                    |
 |--------------|----------------------------------------------------------------------------------------------|
 | Estimativa   | Riscos que podem afetar o tempo de produção do projeto                                       |
@@ -36,6 +38,7 @@ Estrutura Analítica dos Riscos deste projeto.
 | Comunicação  | Riscos relacionados às atividades e meio de comunicação, como ruídos ou falta de comunicação da equipe |
 
 ### 3.3. Risco Organizacional
+
 | Tipo         | Descrição                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Recursos     | Riscos gerados pela falta de recursos humanos e/ou tecnológicos, como perda ou defeitos em equipamentos ou membros que abandonam o projeto.|
@@ -43,6 +46,7 @@ Estrutura Analítica dos Riscos deste projeto.
 | Dependências | Riscos que podem afetar a evolução do projeto                                                                                              |
 
 ### 3.4. Risco Externo
+
 | Tipo         | Descrição                                                                                                |
 |--------------|----------------------------------------------------------------------------------------------------------|
 | Cliente      | Riscos gerados pelo cliente em relação ao produto, como mudanças no escopo devido a um pedido do cliente |

@@ -32,7 +32,9 @@ Devido a piada que quem vacinar, vira jacaré, decidimos escolher um nome que no
 
 Figura 1 - ESFJ
 
-![mbti](img/esfj.jpeg)
+![mbti]({{ '/assets/img/esfj.jpeg' | prepend: site.baseurl }})
+
+
 
 Fonte: 16personalities
 

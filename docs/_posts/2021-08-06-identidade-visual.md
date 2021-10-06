@@ -19,7 +19,7 @@ excerpt: ""
 Este documento tem como finalidade apresentar a "aparência" do AlligaBot para os usuários, ou seja, seu logo, sua paleta de cores e sua letra, que será presente tanto no chatbot de conversação do Telegram como no site do GitHub Pages.
 
 ## 2. Apresentação da Identidade Visual
-<img src="img/logo.png" alt="contraste" width="600"/>
+<img src="{{ '/assets/img/logo.png' | prepend: site.baseurl }}" alt="contraste" width="600"/>
 
 ## Justificativa
 Um jacaré amigável segurando uma seringa.
@@ -34,7 +34,7 @@ A fonte utilizada na aplicação será:
 
 Figura 1 - Poppins
 
-<img src="img/poppins.jpg" alt="contraste" width="400"/>
+<img src="{{ '/assets/img/poppins.jpg' | prepend: site.baseurl }}" alt="contraste" width="400"/>
 Fonte: Free Best Fonts
 
 Disponível em: <https://www.freebestfonts.com/poppins-font>. Acesso em 12 de set. de 2021.
@@ -43,7 +43,7 @@ Esta fonte é sans-serif, facilitando a leitura para pessoas com dislexia, já q
 
 Figura 2 - Sans-serif
 
-<img src="img/sansserif.jpg" alt="contraste" width="400"/>
+<img src="{{ '/assets/img/sansserif.jpg' | prepend: site.baseurl }}" alt="contraste" width="400"/>
 Font: New England ReproGraphics
 
 Discponível em: <https://newenglandrepro.com/serif-vs-sans-serif-typeface/>. Acesso em 12 de set. de 2021.
@@ -68,7 +68,7 @@ Coloca-se no css, para a utilização das fontes:
   
 Obs.: As cores aqui citadas são da página github.io do AlligaBot, já que o produto em si irá utilizar as cores padrão da máquina (smartphone/notebook) do usuário.
 
-<img src="img/paletacores.jpg" alt="contraste" width="600"/>
+<img src="{{ '/assets/img/paletacores.jpg' | prepend: site.baseurl }}" alt="contraste" width="600"/>
 
 ## 5. Referências
 MALTA, Fabíola; SALOMÃO, Hugo; GOMES, Leonardo - Guia de Estilo e Identidade Visual. Disponível em: <https://github.com/fga-eps-mds/2019.2-Acacia/blob/develop/docs/style_guide.md>. Acesso em 12 de set. de 2021.

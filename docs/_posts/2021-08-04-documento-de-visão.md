@@ -113,6 +113,7 @@ Os usuários poderão utilizar a aplicação por meio da plataforma Telegram, mo
 #### 3.4.2 Equipe de Desenvolvimento e Gestão do Projeto
 
 Capivara:
+
 | Papel  |  Descrição  |
 | ----- | -------------------- |
 | Scrum Master | [Matheus Sousa](https://github.com/gatotabaco) |
@@ -122,6 +123,7 @@ Capivara:
 | Desenvolvedor |[Eduardo Lavenhagem](https://github.com/MegahNevel) e [Lameque Fernandes](https://github.com/LamequeFernandes) |
 
 Plus Ultra:
+
 | Papel  |  Descrição  |
 | ----- | -------------------- |
 | Scrum Master | [Amanda Nobre](https://github.com/AmandaNbr) |
@@ -131,6 +133,7 @@ Plus Ultra:
 | Desenvolvedor |[Erick Levy](https://github.com/Ericklevy) e [Douglas Monteles](https://github.com/DouglasMonteles) |
 
 Slow Bros:
+
 | Papel  |  Descrição  |
 | ----- | -------------------- |
 | Scrum Master | [Henrique Hida](https://github.com/HenriqueHida) |

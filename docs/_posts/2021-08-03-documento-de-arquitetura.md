@@ -16,6 +16,7 @@ Este documento tem como finalidade apresentar a arquitetura do projeto ChatBot, 
 Essa documentação engloba as funções visadas pelo projeto, além das tecnologias usadas, seu diagrama de relações e casos de uso. Engloba também algumas outras informações técnicas como características de desempenho e qualidade. O projeto vem sendo desenvolvido por alunos da UNB-FGA, na disciplina MDS.
   
 ## 1.3 Definições, acrônimos e abreviações
+
 |Abreviação|Significado|
 |----------|-----------|
 |API|Application Programming Interface|
@@ -33,6 +34,7 @@ Essa documentação engloba as funções visadas pelo projeto, além das tecnolo
   
 ## 1.5 Visão Geral
 Este documento está dividído em 6 grandes tópicos, com subdivisões, com o objetivo final de detalhar as características arquiteturais do projeto, bem como seus requisitos e motivações:
+
 | |Tópico|Descrição|
 |-|------|---------|
 |1|Introdução|Fornece ao leitor uma visão geral do conteúdo abordado no documento|
@@ -92,11 +94,13 @@ O projeto aqui apresentado trata-se de um chatbot integrado a plataforma Telegra
 ![Diagrama de casos de uso](https://user-images.githubusercontent.com/78758172/134344731-b1b4dfbd-16f0-4f28-928c-ba9296abefb5.png)
   
 ## 4.2 Atores de Casos de Uso
+
 |Ator|Descrição|
 |----|---------|
 |Usuário|O usuário poderá interagir com o bot através do chat da plataforma Telegram, utilizando linguagem natural|
   
 ## 4.3 Descrições de Casos de Uso
+
 |Épico|Caso de uso|Descrição|
 |-----|-----------|---------|
 |E1|Sobre o bot|Será uma epic para ser uma informação inicial, onde o usuário terá o primeiro contato com o bot e terá uma breve explicação sobre suas funcionalidades|

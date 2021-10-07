@@ -27,7 +27,6 @@ stories:
   - intent: cuidados_em_restaurantes 
   - action: utter_cuidados_em_restaurantes
   
-
 - story: caminho para conversar sobre os cuidados na academia
   steps: 
   - intent: cuidados_na_academia
@@ -131,6 +130,11 @@ stories:
   steps:
   - intent: sintomas
   - action: utter_sintomas
+
+- story: saude mental
+  steps:
+  - intent: saude_mental
+  - action: utter_saude_mental
 
 - story: formulario de localizacao do usuario
   steps:

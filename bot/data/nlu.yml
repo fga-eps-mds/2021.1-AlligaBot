@@ -269,6 +269,17 @@ nlu:
     - quero saber os sintomas do COVID-19
     - pode me dizer quais são os sintomas do COVID-19?
 
+- intent: saude_mental
+  examples: |
+    - Como posso manter a saúde mental?
+    - O que posso fazer para manter a saúde mental?
+    - Saúde mental
+    - Como melhorar da cabeça
+    - Como não surtar
+    - Como nao ter um surto
+    - Como nao enlouquecer dentro de casa
+    - O que posso fazer para não surtar em casa?
+    
 - intent: covid_em_sua_cidade
   examples: |
     - Quero saber sobre o covid na minha cidade
@@ -298,8 +309,6 @@ nlu:
     - Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
     - Quais cuidados devo ter no comércio para me proteger do COVID-19?
     - Como devo me portar no comércio em geral? 
-  
-
 
 - intent: bot_alligabot
   examples: |

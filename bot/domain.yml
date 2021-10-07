@@ -336,8 +336,21 @@ responses:
       4- Respire do jeito certo. Na atividade física, fazemos esforço quando inspiramos (nariz) e vamos soltando o corpo à medida que liberamos a respiração (boca).
 
       5- HIDRATE-SE!! Essa dica serve não só para exercicios caseiros, mas também pra vida. Lembre-se de ter sempre uma garrafa com água ao seu lado viu?!
+  - text: |
+       Aqui vai algumas dicas de atividade de acordo com a idade:
 
+       Para crianças menores de 2 anos,o ideal é que as atividades sejam baseadas em músicas e em brincadeiras como rastejar,engatinhar,andar e manipular objetos ou texturas.
+
+       Para crianças entre 3 e 4 anos,a atividade pode ter uma maior intensidade e ser estimulada por histórias infantis,músicas ou brincadeiras cantadas.Aqui vale a criatividade e imaginação.
  
+       Para crianças com mais de 5 anos,as atividades ficam ainda mais intensas(haja disposição para acompanhar ,kkkkkk) .Podem ser realizadas atividades com jogos,brincadeiras e danças.
+ 
+       Já para os adultos,a intensidade da atividade vai de moderada a vigorosa.Aqui vale dançar,pular corda,subir escadas e até levantar peso.
+ 
+       Para os vovós e vovôs,é importante realizar alongamentos mais simples e exercícios de fortalecimento muscular.Alguns podem ser feitos em casa,como sentar e levantar da cadeira algumas vezes.
+
+       Lembre-se de levantar dessa cadeira aí viu? Ficar sentado por longos períodos pode causar inúmeros problemas de saude. Estou de olho ,hein?
+
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

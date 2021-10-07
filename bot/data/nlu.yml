@@ -361,3 +361,13 @@ nlu:
     - O que fazer para me previnir do COVID-19 no atendimento?
     - O que fazer para me previnir do COVID-19 no atendimento ao cliente?
     - O que fazer para me proteger do COVID-19 no atendimento ao cliente? 
+
+- intent: exercicios_em_casa
+  examples: |
+    - Como posso me exercitar em casa?
+    - Como fazer exercicios em casa?
+    - Como se exercitar em casa?
+    - Se não posso sair de casa, como vou me exercitar?
+    - Dicas de exercicios caseiros
+    - Como posso treinar em casa?
+    - Treinar em casa

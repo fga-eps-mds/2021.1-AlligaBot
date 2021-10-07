@@ -162,3 +162,9 @@ stories:
   steps:
   - intent: cuidados_no_atendimento
   - action: utter_cuidados_no_atendimento
+
+- story: exercicios em casa
+  steps:
+  - intent: exercicios_em_casa
+  - action: utter_exercicios_em_casa
+ 

@@ -36,10 +36,17 @@ intents:
   - vacina_eh_segura
   - cuidados_escritorio
   - cuidados_no_atendimento
+  - vacinados_na_minha_cidade_e_estado
 
 
 forms:
   localizacao_form:
+    required_slots:
+      uf:
+        - type: from_text
+      cidade:
+        - type: from_text
+  localizacao_para_informar_vacinados_form:
     required_slots:
       uf:
         - type: from_text
@@ -57,6 +64,7 @@ slots:
 actions:
   - action_dados_covid_baseados_em_localizacao
   - action_download_dados
+  - action_responder_vacinados_na_cidade
 
 entities:
   - oi

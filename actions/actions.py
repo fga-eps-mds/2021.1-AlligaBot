@@ -154,3 +154,24 @@ class DadosDoCovidPeloCsvAction(Action):
         dispatcher.utter_message(text=mensagem)
         
         return [AllSlotsReset()]
+
+
+class ResponderVacinadosNaCidadeAction(Action):
+    def __init__(self) -> None:
+        self.url = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv'
+        self.caminho_arquivo_csv = path.join(diretorio, 'cases-brazil-states.csv')
+        return
+    
+    def name(self) -> Text:
+        return 'action_responder_vacinados_na_cidade'
+    
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text='são tantos vacinados')
+        
+        return []

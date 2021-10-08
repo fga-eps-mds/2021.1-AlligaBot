@@ -370,3 +370,17 @@ nlu:
     - O que fazer para me previnir do COVID-19 no atendimento?
     - O que fazer para me previnir do COVID-19 no atendimento ao cliente?
     - O que fazer para me proteger do COVID-19 no atendimento ao cliente? 
+
+- intent: cuidados_transporte_publico
+  examples: |
+    - Transporte público
+    - Como posso me proteger do COVID-19 no transporte público?
+    - Como me cuidar no transporte público?
+    - O que fazer para me previnir do COVID-19 no transporte público?
+    - Como me previnir do COVID no transporte?
+    - O que eu posso fazer para me proteger do COVID no transporte público?
+    - Que cuidados eu devo tomar no transporte público?
+    - Que cuidados eu devo tomar no transporte?
+    - COVID no Transporte público
+    - Formas de prevenção no transporte público
+    - Proteção contra o COVID no transporte público

@@ -145,6 +145,15 @@ stories:
     - active_loop: null
     - action: action_dados_covid_baseados_em_localizacao
 
+- story: formulario de localizacao do usuario para informar vacinados
+  steps:
+    - intent: vacinados_na_minha_cidade_e_estado
+    - action: localizacao_form
+    - active_loop: localizacao_form
+    - active_loop: null
+    - action: action_responder_vacinados_na_cidade
+
+
 - story: caminho para para saber sobre como usar a máscara corretamente
   steps:
   - intent: start
@@ -166,18 +175,3 @@ stories:
   steps:
   - intent: cuidados_no_atendimento
   - action: utter_cuidados_no_atendimento
-
-
-# - story: formulario de localizacao do usuario
-#   steps:
-#     - intent: covid_em_sua_cidade
-#     - action: action_download_dados
-#     - action: localizacao_form
-#     - active_loop: localizacao_form
-#     - active_loop: null
-#     - action: action_dados_covid_baseados_em_localizacao
-
-- story: formulario de localizacao do usuario para informar vacinados
-  steps:
-    - intent: vacinados_na_minha_cidade_e_estado
-    - action: action_responder_vacinados_na_cidade

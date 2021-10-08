@@ -46,12 +46,6 @@ forms:
         - type: from_text
       cidade:
         - type: from_text
-  localizacao_para_informar_vacinados_form:
-    required_slots:
-      uf:
-        - type: from_text
-      cidade:
-        - type: from_text
 
 slots:
   uf:

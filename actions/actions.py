@@ -2,7 +2,6 @@
 
 import os
 import time
-import shutil
 import requests
 import requests
 import patoolib
@@ -171,7 +170,22 @@ class ResponderVacinadosNaCidadeAction(Action):
         tracker: Tracker,
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
+        uf = tracker.get_slot('uf').upper()
+        cidade = tracker.get_slot('cidade').capitalize()
 
-        dispatcher.utter_message(text='são tantos vacinados')
+        dataframe = pd.read_csv(self.url)
+
+        dataframe['date'] = pd.to_datetime(dataframe['date'])
+
+        dataframe_estado = dataframe.query(f"state == '{uf}'")[['date', 'vaccinated', 'vaccinated_second']]
+
+        dataframe_estado_mais_recente = dataframe_estado.iloc[[-1]]
+
+        data_mais_recente = dataframe_estado_mais_recente.iloc[0]['date'].strftime('%d/%m/%Y')
+        vacinados = dataframe_estado_mais_recente.iloc[0]['vaccinated']
+
+        message = f'Até o dia {data_mais_recente} foram vacinadas {int(vacinados)} pessoas'
+
+        dispatcher.utter_message(text=message)
         
         return []

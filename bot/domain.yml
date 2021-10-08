@@ -351,17 +351,17 @@ responses:
 
        Lembre-se de levantar dessa cadeira aí viu? Ficar sentado por longos períodos pode causar inúmeros problemas de saude. Estou de olho ,hein?
   - text: |
-        Atividade física é um dos pilares para manter uma boa qualidade de vida,se eu fosse humano com certeza eu praticaria.Aqui vai algumas dicas:
+        Atividade física é um dos pilares para manter uma boa qualidade de vida,se eu fosse humano com certeza praticaria.Algumas dicas para você:
 
         Suba e desça escadas 
 
-        Faça exercicios de alongamento ou com peso 
+        Faça exercícios de alongamento ou utilizando pesos  
 
         Escolha aquela música que você gosta e dance muito!
 
         Pule com ou sem corda
 
-        Não esqueça de tomar bastante água hein?!
+        Tome bastante água hein?!
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

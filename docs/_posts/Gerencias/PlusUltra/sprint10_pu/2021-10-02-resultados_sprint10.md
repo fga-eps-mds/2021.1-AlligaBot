@@ -20,7 +20,7 @@ Essa sprint serviu como um alongamento da ambientação geral dos grupos em prog
 | [#274](https://github.com/fga-eps-mds/2021-1-Bot/issues/274) | Explicação sobre as mudanças | _Parcialmente Concluído_ |
 | [#276](https://github.com/fga-eps-mds/2021-1-Bot/issues/276) | Implementação da US32 | _Parcialmente Concluído_ |
 | [#278](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Implementação de US37 | _Parcialmente Concluído_ |
-| [#279](https://github.com/fga-eps-mds/2021-1-Bot/issues/279) | Aplicar formatação correta para os arquivos da documentação | _Parcialmente Concluído_ |
+| [#279](https://github.com/fga-eps-mds/2021-1-Bot/issues/279) | Aplicar formatação correta para os arquivos da documentação | _Concluído_ |
 
 ## Quadro de conhecimentos
 

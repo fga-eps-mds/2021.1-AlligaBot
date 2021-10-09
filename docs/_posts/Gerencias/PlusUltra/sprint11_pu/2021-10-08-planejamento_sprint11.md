@@ -30,7 +30,6 @@ excerpt: ""
 | [#274](https://github.com/fga-eps-mds/2021-1-Bot/issues/274) | Explicação sobre as mudanças | 2 | Pedro |
 | [#276](https://github.com/fga-eps-mds/2021-1-Bot/issues/276) | Implementação da US32 | 5 | Yudi |
 | [#278](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Implementação de US37 | 3 | Amanda e Pedro |
-| [#279](https://github.com/fga-eps-mds/2021-1-Bot/issues/279) | Aplicar formatação correta para os arquivos da documentação | 3 | Yudi |
 
 ## Papeis
 

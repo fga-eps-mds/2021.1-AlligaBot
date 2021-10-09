@@ -376,6 +376,9 @@ nlu:
     - Quantas pessoas foram vacinadas na minha cidade?
     - Quantas pessoas foram vacinadas aqui?
     - Quantas doses de vacina foram distribuídas na minha cidade?
+    - Quantas doses de vacina foram distribuídas no meu estado?
     - quantos foram vacinados onde eu moro?
     - vacinados na minha cidade
+    - vacinados na minha cidade?
     - vacinados no meu estado
+    - vacinados no meu estado?

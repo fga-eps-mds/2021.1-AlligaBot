@@ -26,13 +26,17 @@ class ResponderVacinadosNaCidadeAction(Action):
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
         uf = tracker.get_slot('uf').upper()
-        cidade = tracker.get_slot('cidade').capitalize()
 
         dataframe = pd.read_csv(self.url)
 
-        dataframe['date'] = pd.to_datetime(dataframe['date'])
-
         dataframe_estado = dataframe.query(f"state == '{uf}'")[['date', 'vaccinated', 'vaccinated_second']]
+
+        if dataframe_estado.empty:
+            message = f'Então... eu não achei o estado {uf}. Certifique-se que está escrevendo o nome corretamente'
+            dispatcher.utter_message(text=message)
+            return
+
+        dataframe['date'] = pd.to_datetime(dataframe['date'])
 
         dataframe_estado_mais_recente = dataframe_estado.iloc[[-1]]
 

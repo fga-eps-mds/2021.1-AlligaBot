@@ -38,6 +38,7 @@ intents:
   - cuidados_no_atendimento
   - exercicios_em_casa
   - cuidados_transporte_publico
+  - doses_vacina
 
 
 forms:
@@ -386,10 +387,26 @@ responses:
       - Passar álcool 70% nas mãos assim que deixar o veículo.
       - Por último, mas não menos importante: lavar as mãos com sabão quando chegar ao seu destino.
 
-
       Espero ter ajudado :)
+
+  utter_doses_vacina:
+  - text: |
+    Bem lembrado... Falar sobre isso é muito importante!
+    
+    Você tem que tomar duas doses da vacina, a não ser que você tenha se vacinado com a Janssen.
+    Não se esqueça de tomar a segunda dose, ein? Procure um posto de saúde ou uma UBS.
+
+    Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+
+  - text: |
+    É necessário tomar duas doses da vacina, com excessão da vacina Janssen, pois ela confere imunidade com apenas uma dose.
+    Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado outra.
+
+    Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
+
 
 session_config:
   session_expiration_time: 60

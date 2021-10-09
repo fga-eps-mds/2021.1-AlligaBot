@@ -269,6 +269,17 @@ nlu:
     - quero saber os sintomas do COVID-19
     - pode me dizer quais são os sintomas do COVID-19?
 
+- intent: saude_mental
+  examples: |
+    - Como posso manter a saúde mental?
+    - O que posso fazer para manter a saúde mental?
+    - Saúde mental
+    - Como melhorar da cabeça
+    - Como não surtar
+    - Como nao ter um surto
+    - Como nao enlouquecer dentro de casa
+    - O que posso fazer para não surtar em casa?
+    
 - intent: covid_em_sua_cidade
   examples: |
     - Quero saber sobre o covid na minha cidade
@@ -298,8 +309,6 @@ nlu:
     - Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
     - Quais cuidados devo ter no comércio para me proteger do COVID-19?
     - Como devo me portar no comércio em geral? 
-  
-
 
 - intent: bot_alligabot
   examples: |
@@ -362,6 +371,7 @@ nlu:
     - O que fazer para me previnir do COVID-19 no atendimento ao cliente?
     - O que fazer para me proteger do COVID-19 no atendimento ao cliente? 
 
+
 - intent: exercicios_em_casa
   examples: |
     - Como posso me exercitar em casa?
@@ -371,3 +381,18 @@ nlu:
     - Dicas de exercicios caseiros
     - Como posso treinar em casa?
     - Treinar em casa
+
+- intent: cuidados_transporte_publico
+  examples: |
+    - Transporte público
+    - Como posso me proteger do COVID-19 no transporte público?
+    - Como me cuidar no transporte público?
+    - O que fazer para me previnir do COVID-19 no transporte público?
+    - Como me previnir do COVID no transporte?
+    - O que eu posso fazer para me proteger do COVID no transporte público?
+    - Que cuidados eu devo tomar no transporte público?
+    - Que cuidados eu devo tomar no transporte?
+    - COVID no Transporte público
+    - Formas de prevenção no transporte público
+    - Proteção contra o COVID no transporte público
+

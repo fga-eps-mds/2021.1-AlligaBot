@@ -166,3 +166,8 @@ stories:
   steps:
   - intent: cuidados_no_atendimento
   - action: utter_cuidados_no_atendimento
+
+- story: cuidados no transporte público
+  steps:
+  - intent: cuidados_transporte_publico
+  - action: utter_cuidados_transporte_publico

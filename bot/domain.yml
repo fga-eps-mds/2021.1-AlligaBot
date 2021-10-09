@@ -36,6 +36,7 @@ intents:
   - vacina_eh_segura
   - cuidados_escritorio
   - cuidados_no_atendimento
+  - cuidados_transporte_publico
 
 
 forms:
@@ -336,6 +337,18 @@ responses:
 
 
       Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
+
+  utter_cuidados_transporte_publico:
+  - text: |
+      Hummm, boa pergunta. Tenho algumas diquinhas para você:
+      - SEMPRE usar máscara.
+      - Evitar tocar nas superfícies sem necessidade.
+      - Não tocar em seu rosto.
+      - Passar álcool 70% nas mãos assim que deixar o veículo.
+      - Por último, mas não menos importante: lavar as mãos com sabão quando chegar ao seu destino.
+
+
+      Espero ter ajudado :)
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

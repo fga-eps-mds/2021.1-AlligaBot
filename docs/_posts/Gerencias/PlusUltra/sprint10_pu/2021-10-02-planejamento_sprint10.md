@@ -11,6 +11,7 @@ Foi dividido nessa sprint princialmente a implementação de 9 US, 3 por equipe,
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 02/10/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 08/10/2021 |  0.2   | Adição de Issues | [Amanda Nobre](https://github.com/AmandaNbr)|
 
 ## Tamanho da Sprint
 

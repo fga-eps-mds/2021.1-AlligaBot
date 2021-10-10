@@ -411,6 +411,8 @@ responses:
       Primeira coisa, depois do reultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequeda, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
 
       Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou compremetimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
+
+      Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
   - text: |
       Caramba...uma notícia triste, mas não se desespere e para saber o que fazer nesse momento, olhe o que eu achei:
       - Consulte novamente seu médico;
@@ -428,6 +430,7 @@ responses:
         - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
         - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
       Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

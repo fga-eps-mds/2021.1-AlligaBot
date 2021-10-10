@@ -411,7 +411,23 @@ responses:
       Primeira coisa, depois do reultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequeda, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
 
       Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou compremetimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
-
+  - text: |
+      Caramba...uma notícia triste, mas não se desespere e para saber o que fazer nesse momento, olhe o que eu achei:
+      - Consulte novamente seu médico;
+      - Fique em isolamento domiciliar;
+      - Utilize máscara o tempo todo;
+      - Se for preciso cozinhar, use máscara de proteção, cobrindo boca e nariz todo o tempo;
+      - Depois de usar o banheiro, nunca deixe de lavar as mãos com água e sabão e sempre limpe vaso, pia e demais superfícies com álcool ou água sanitária para desinfecção do ambiente;
+      - Separe toalhas de banho, garfos, facas, colheres, copos e outros objetos apenas para seu uso;
+      - O lixo produzido precisa ser separado e descartado;
+      - Sofás e cadeiras também não podem ser compartilhados e precisam ser limpos frequentemente com água sanitária ou álcool 70%;
+      - Mantenha a janela aberta para circulação de ar do ambiente usado para isolamento e a porta fechada, limpe a maçaneta frequentemente com álcool 70% ou água sanitária;
+      - Caso o paciente não more sozinho, os demais moradores devem dormir em outro cômodo, longe da pessoa infectada, seguindo também as seguintes recomendações:
+        - Manter a distância mínima de 1 metro entre o paciente e os demais moradores;
+        - Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
+        - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
+        - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
+      Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 

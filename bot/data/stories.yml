@@ -181,3 +181,9 @@ stories:
   steps:
   - intent: doses_vacina
   - action: utter_doses_vacina
+
+- story: testei positivo para o COVID-19
+  steps:
+  - intent: teste_positivo
+  - action: utter_teste_positivo
+

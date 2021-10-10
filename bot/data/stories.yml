@@ -177,3 +177,7 @@ stories:
   - intent: cuidados_transporte_publico
   - action: utter_cuidados_transporte_publico
 
+- story: segunda dose da vacina
+  steps:
+  - intent: doses_vacina
+  - action: utter_doses_vacina

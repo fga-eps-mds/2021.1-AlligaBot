@@ -396,3 +396,16 @@ nlu:
     - Formas de prevenção no transporte público
     - Proteção contra o COVID no transporte público
 
+- intent: doses_vacina
+  examples: |
+    - Quantas doses preciso tomar?
+    - doses da vacina
+    - posso tomar uma dose apenas
+    - quero tomar só uma dose
+    - preciso tomar outra dose?
+    - quantas vacinas?
+    - quantas vacinas tenho que tomar?
+    - quantas vezes tomo a vacina?
+    - quantidade de doses
+    - quantas vacinas tomar
+

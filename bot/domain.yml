@@ -39,6 +39,7 @@ intents:
   - exercicios_em_casa
   - cuidados_transporte_publico
   - doses_vacina
+  - vacina_no_organismo
 
 
 forms:
@@ -403,6 +404,24 @@ responses:
       Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado outra.
 
       Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+
+  utter_vacina_no_organismo:
+  - text: |
+      Depois de algumas pesquisas descobri como as vacinas agem no organismo, aqui vai um resumo:
+       
+      Janssen Vaccine (Janssen-Cilag):
+      A vacina Janssen fuciona usando um adenovírus que geralemnte causaria resfriado em humanos, e o modificam para que ele não se replique mais, além de incluir nele um trecho do material genético do Sars-CoV-2. E ao entrar em com contato com as células, o vetor viral apresenta esse pedacinho do coronavírus para o sistema imunológico para desenvolver anticorpos. 
+       
+      Pfizer:
+      A Pfizer possui uma parte sintética do material genético do vírus, mas não o vírus em si. A vacina faz com que o sistema imunonológico produza anticorpos e células de defesa que atuam contra o vírus, possibilitando assim a proteção contra a COVID-19.
+       
+      Coronavac:
+      A coronavac é uma vacina que usa o vírus da covid-19 inativado através de calor ou produto químico. Ela estimula o corpo a induzir imunidade contra o vírus SARS-Cov-2 para a prevenção de doenças causadas pelo mesmo.
+       
+      Astrazeneca:
+      Assim como a Janssen, a vacina astrazeca é uma vacina de vetor viral, nesse caso um adenovírus de chimpanzé, que foi debilidado e geneticamente modificado. A vacina estimula as defesas naturais do corpo (sistema imunológico), isso faz com que o corpo produza sua própria proteção (anticorpos) contra o vírus causador da COVID-19, o SARS-CoV-2. Isso ajudará a proteger você contra a COVID-19 no futuro.
+       
+      Agora que sabemos um pouco mais sobre cada uma, não se preocupe caso sinta efeitos colaterais, lembre que é apenas seu sistema imunológico preparando seu organismo para se defender do vírus no futuro.
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

@@ -409,3 +409,8 @@ nlu:
     - quantidade de doses
     - quantas vacinas tomar
 
+- intent: vacina_no_organismo
+  examples: |
+    - Como a vacina funciona?
+    - Como a vacina age no organismo?
+    - Funcionamento da vacina

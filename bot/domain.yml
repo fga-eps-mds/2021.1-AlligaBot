@@ -408,9 +408,9 @@ responses:
   utter_teste_positivo:
   - text: |
       Poxa não fique triste, vai dar tudo certo. Vou te dar algumas ideias para ajudar:
-      Primeira coisa, depois do reultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequeda, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
+      Primeira coisa, depois do resultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequada, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
 
-      Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou compremetimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
+      Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou comprometimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
 
       Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
   - text: |

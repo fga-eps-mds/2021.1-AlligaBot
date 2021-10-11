@@ -181,3 +181,8 @@ stories:
   steps:
   - intent: doses_vacina
   - action: utter_doses_vacina
+
+- story: data para vacinar
+  steps:
+  - intent: quando_vacinar
+  - action: utter_data_vacina

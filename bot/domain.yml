@@ -280,13 +280,19 @@ responses:
  
   utter_preciso_me_vacinar:
     - text: |
-        Todos precisam se vacinar, independente de ter pego ou não a Covid-19. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de uma queda periódica no quadro de casos de infectados, existe ainda a consciencia coletiva de que precisa-se ultrapassar uma determinada quantidade de pessoas vacinas, a fim de que os números de mutação e reprodução diminuam.
+        Esse é um assunto muito importante! Vamos lá: todos precisam se vacinar, independente de ter pego ou não o vírus. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de queda no quadro de infectados, existe ainda a consciencia coletiva de que ao se vacinar você está contribuindo para o bem da sociedade e para que tudo volte ao normal o quanto antes! 
+        Portanto, vacine-se e incentive outras pessoas a se vacinar também! :) 
+
+        Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
     - text: |
-        Todos precisam se vacinar, independente de ter pego ou não a Covid-19. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de uma queda periódica no quadro de casos de infectados, deve-se analisar a imunidade coletiva, que consiste em uma fórmula onde o valor de reprodução do vírus resulta no dado que representa a imunidade de rebanho, com a finalidade de se obter números que indicam que o vírus não irá se reproduzir ou mutar.
+        Amigo, você e as pessoas ao seu redor precisam se vacinar, independente de ter pego ou não o vírus. Só eu que já sou um jacaré não preciso me vacinar hahahaha!
+        Mas falando sério agora, a vacina tem diminuido consideravelmente os números de infectados, vacine-se e peça para as outras pessoas se vacinarem também. É necessário que boa parte da população esteja vacinada para que as mutações e reproduções do vírus diminuam, dessa maneira voltaremos logo ao normal. :) 
+
+        Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
   utter_alligabot:
-  - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
+    - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 
 session_config:
   session_expiration_time: 60

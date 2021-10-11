@@ -409,3 +409,12 @@ nlu:
     - quantidade de doses
     - quantas vacinas tomar
 
+- intent: teste_positivo
+  examples: |
+    - positivo
+    - Testei positivo
+    - Testei positivo, o que fazer?
+    - O que fazer quando der positivo no teste?
+    - Teste positivo
+    - O que fazer depois do positivo?
+

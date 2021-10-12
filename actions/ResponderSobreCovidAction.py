@@ -24,8 +24,7 @@ class ResponderSobreCovidAction(Action):
         domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
         uf = tracker.get_slot('uf').upper()
-        cidade = tracker.get_slot('cidade').capitalize()
-        cidade = f'{cidade}/{uf}'
+        cidade = f'{tracker.get_slot("cidade").capitalize()}/{uf}'
 
         dados = pd.read_csv(
             self.url,

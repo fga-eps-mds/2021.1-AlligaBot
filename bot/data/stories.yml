@@ -181,3 +181,43 @@ stories:
   steps:
   - intent: doses_vacina
   - action: utter_doses_vacina
+
+- story: qual exame fazer
+  steps:
+  - intent: qual_exame_fazer
+  - action: utter_qual_exame_fazer
+
+- story: estou com sintomas
+  steps:
+  - intent: exame_com_sintomas
+  - action: utter_com_sintomas
+
+- story: tive contato com o covid
+  steps:
+  - intent: exame_contato_covid
+  - action: utter_contato_covid
+
+- story: estou com sintomas a menos de 8 dias
+  steps:
+  - intent: sintomas_menos_de_8
+  - action: utter_sintomas_menos_de_8
+
+- story: estou com sintomas a mais de 8 dias
+  steps:
+  - intent: sintomas_mais_de_8
+  - action: utter_sintomas_mais_de_8
+
+- story: nao tenho sintomas
+  steps:
+  - intent: exame_sem_sintomas
+  - action: utter_sem_sintomas
+
+- story: estou sem sintomas e tive contato a menos de 10 dias
+  steps:
+  - intent: contato_menos_de_10
+  - action: utter_contato_menos_de_10
+
+- story: estou sem sintomas e tive contato a mais de 10 dias
+  steps:
+  - intent: contato_mais_de_10
+  - action: utter_contato_mais_de_10

@@ -70,7 +70,7 @@ informações que faltam.
     cp .example.env .env
 
 Para preencher essas variáveis, dê uma olhada na seção da 
-[FAQ "Onde conseguir os tokens e as variáveis de ambiente?"](docs/2021-09-16-faq.md).
+[FAQ "Onde conseguir os tokens e as variáveis de ambiente?"](docs/_posts/2021-09-16-faq.md).
 Faça build das imagens rodando o seguinte comando:
 
     make build 

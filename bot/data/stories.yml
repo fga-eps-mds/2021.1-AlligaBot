@@ -221,3 +221,8 @@ stories:
   steps:
   - intent: contato_mais_de_10
   - action: utter_contato_mais_de_10
+- story: testei positivo para o COVID-19
+  steps:
+  - intent: teste_positivo
+  - action: utter_teste_positivo
+

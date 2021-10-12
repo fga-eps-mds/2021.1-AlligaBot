@@ -461,3 +461,12 @@ nlu:
     - entrei em contato com alguem contaminado a menos de 10 dias
     - tem menos de 10 dias
   
+- intent: teste_positivo
+  examples: |
+    - positivo
+    - Testei positivo
+    - Testei positivo, o que fazer?
+    - O que fazer quando der positivo no teste?
+    - Teste positivo
+    - O que fazer depois do positivo?
+

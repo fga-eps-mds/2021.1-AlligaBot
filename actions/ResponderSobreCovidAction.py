@@ -37,14 +37,14 @@ class ResponderSobreCovidAction(Action):
 
         dataframe_estado = dataframe.loc[dataframe['state'] == uf]
         if dataframe_estado.empty:
-            message = f'Então... eu não achei o estado {uf}. Certifique-se que está escrevendo o nome corretamente'
-            dispatcher.utter_message(text=message)
+            mensagem_erro = f'Não consegui encontrar o estado {uf} 🥺. Lembre-se de informar somente a sigla, exemplo: DF 😉'
+            dispatcher.utter_message(text=mensagem_erro)
             return [AllSlotsReset()]
 
         dataframe_cidade = dataframe_estado.loc[dataframe_estado['city'] == cidade]
         if dataframe_cidade.empty:
-            message = f'Então... eu não achei a cidade {uf}. Certifique-se que está escrevendo o nome corretamente'
-            dispatcher.utter_message(text=message)
+            mensagem_erro = f'Não achei a cidade {cidade} 🥺. Por favor, escreva o nome da cidade respeitando os acentos e sem abreviações 😉'
+            dispatcher.utter_message(text=mensagem_erro)
             return [AllSlotsReset()]
 
         dataframe_cidade = dataframe_cidade[
@@ -69,14 +69,21 @@ class ResponderSobreCovidAction(Action):
             'totalCases_per_100k_inhabitants': 'Total de casos por 100 mil habitantes',
         }
 
-        mensagem = ''
+        mensagem = 'Estas são as informações que consegui encontrar 🕵️‍♂️\n\n'
         
         for rotulo_ingles, content in dataframe_cidade.items():
             rotulo_portugues = ingles_para_portugues[rotulo_ingles]
+
             if rotulo_portugues == 'Data':
-                mensagem += f'{rotulo_portugues}: {str(content.to_list()[0])}\n'
+                data = datetime.strptime(str(content.to_list()[0]), '%Y-%m-%d')
+                data = f'{data.day}/{data.month}/{data.year}'
+
+                mensagem += f'{rotulo_portugues}: {data}\n'
             else:
                 mensagem += f'{rotulo_portugues}: {str(content.to_list()[0])}\n'
+
+        mensagem += '\nEspero ter ajudado com estas informações 😊'
+        
         dispatcher.utter_message(text=mensagem)
         
         return [AllSlotsReset()]

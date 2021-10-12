@@ -60,7 +60,6 @@ slots:
 
 actions:
   - action_dados_covid_baseados_em_localizacao
-  - action_download_dados
 
 entities:
   - oi
@@ -278,10 +277,10 @@ responses:
         O momento é difícil, mas manter a saúde mental é essencial, caso perceba que essas medidas não estão sendo efetivas, é altamente recomendada a busca por ajuda profissional. 
 
   utter_ask_localizacao_form_uf:
-    - text: Informe a sigla do seu Estado (UF)
+    - text: "Me conta qual é a sigla do seu estado 🏁. Exemplo: DF"
 
   utter_ask_localizacao_form_cidade:
-    - text: Informe o nome da sua cidade
+    - text: "Agora, me diga qual o nome da sua cidade 🏕️. Exemplo: Brasília"
 
   utter_vacina_eh_segura:
     - text: |

@@ -13,5 +13,5 @@ from rasa_sdk.events import AllSlotsReset
 from os import path
 from typing import Any, Text, Dict, List
 
-from actions import ResponderVacinadosEmUmEstadoAction
+import ResponderVacinadosEmUmEstadoAction
 import ResponderSobreCovidAction

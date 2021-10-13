@@ -181,8 +181,12 @@ stories:
   - intent: doses_vacina
   - action: utter_doses_vacina
 
+- story: quando pode vacinar
+  steps:
+  - intent: quando_vacinar
+  - action: utter_quando_vacinar
+
 - story: testei positivo para o COVID-19
   steps:
   - intent: teste_positivo
   - action: utter_teste_positivo
-

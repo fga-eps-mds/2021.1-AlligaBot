@@ -409,6 +409,16 @@ nlu:
     - quantidade de doses
     - quantas vacinas tomar
 
+- intent: quando_vacinar
+  examples: |
+    - Quando posso vacinar?
+    - Já posso me vacinar?
+    - Meu filho pode se vacinar?
+    - Criança pode se vacinar?
+    - Quem já se vacinou?
+    - Idade para vacinar
+    - Idade para vacinação
+
 - intent: teste_positivo
   examples: |
     - positivo
@@ -417,4 +427,3 @@ nlu:
     - O que fazer quando der positivo no teste?
     - Teste positivo
     - O que fazer depois do positivo?
-

@@ -39,8 +39,8 @@ intents:
   - exercicios_em_casa
   - cuidados_transporte_publico
   - doses_vacina
+  - quando_vacinar
   - teste_positivo
-
 
 forms:
   localizacao_form:
@@ -404,6 +404,10 @@ responses:
 
       Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
 
+  utter_quando_vacinar:
+  - text: |
+      Depois de algumas pesquisas, pude concluir que apesar de existirem divergências da idade para vacinação para os diferentes municípios, posso dizer que a idade média atual são para pessoas com idade miníma de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade.
+
   utter_teste_positivo:
   - text: |
       Poxa não fique triste, vai dar tudo certo. Vou te dar algumas ideias para ajudar:
@@ -432,7 +436,6 @@ responses:
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
-
 
 session_config:
   session_expiration_time: 60

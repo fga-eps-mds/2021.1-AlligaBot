@@ -139,7 +139,6 @@ stories:
 - story: formulario de localizacao do usuario
   steps:
     - intent: covid_em_sua_cidade
-    - action: action_download_dados
     - action: localizacao_form
     - active_loop: localizacao_form
     - active_loop: null
@@ -172,7 +171,42 @@ stories:
   - intent: cuidados_escritorio
   - action: utter_cuidados_escritorio
 
+- story: preciso me vacinar
+  steps:
+  - intent: preciso_me_vacinar
+  - action: utter_preciso_me_vacinar
+
 - story: cuidados no atendimento ao cliente
   steps:
   - intent: cuidados_no_atendimento
   - action: utter_cuidados_no_atendimento
+
+- story: exercicios em casa
+  steps:
+  - intent: exercicios_em_casa
+  - action: utter_exercicios_em_casa
+ 
+- story: cuidados no transporte público
+  steps:
+  - intent: cuidados_transporte_publico
+  - action: utter_cuidados_transporte_publico
+
+- story: segunda dose da vacina
+  steps:
+  - intent: doses_vacina
+  - action: utter_doses_vacina
+
+- story: vacina no organismo
+  steps:
+  - intent: vacina_no_organismo
+  - action: utter_vacina_no_organismo
+
+- story: quando pode vacinar
+  steps:
+  - intent: quando_vacinar
+  - action: utter_quando_vacinar
+
+- story: testei positivo para o COVID-19
+  steps:
+  - intent: teste_positivo
+  - action: utter_teste_positivo

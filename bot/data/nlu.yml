@@ -269,6 +269,39 @@ nlu:
     - quero saber os sintomas do COVID-19
     - pode me dizer quais são os sintomas do COVID-19?
 
+- intent: saude_mental
+  examples: |
+    - Como posso manter a saúde mental?
+    - O que posso fazer para manter a saúde mental?
+    - Saúde mental
+    - Como melhorar da cabeça
+    - Como não surtar
+    - Como nao ter um surto
+    - Como nao enlouquecer dentro de casa
+    - O que posso fazer para não surtar em casa?
+    
+- intent: covid_em_sua_cidade
+  examples: |
+    - Quero saber sobre o covid na minha cidade
+    - Quero saber sobre o covid-19 na minha cidade
+    - Quero saber sobre o Sars-cov-2 na minha cidade
+    - Covid na minha cidade
+
+- intent: uf_input_form
+  examples: |
+    - Meu estado é DF
+    - Eu moro no estado do DF
+    - Minha uf é DF
+    - Minha unidade federativa é DF
+    - Eu vivo no estado do DF
+
+- intent: cidade_input_form
+  examples: |
+    - Minha cidade é Brasília
+    - Eu moro na cidade do São Paulo
+    - Minha cidade é São Luís
+    - Eu vivo na cidade do Brasília
+
 - intent: cuidados_comercio_geral
   examples: |
     - Desejo saber os cuidados que devo ter em comércios no geral
@@ -276,8 +309,6 @@ nlu:
     - Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
     - Quais cuidados devo ter no comércio para me proteger do COVID-19?
     - Como devo me portar no comércio em geral? 
-  
-    
 
 - intent: bot_alligabot
   examples: |
@@ -333,3 +364,83 @@ nlu:
     - Já peguei covid-19, preciso me vacinar?
     - Necessidade da vacina
 
+- intent: cuidados_no_atendimento
+  examples: |
+    - Como me cuidar ao atender clientes?
+    - Como me proteger ao atender clientes?
+    - Como me cuidar no atendimento?
+    - Como me previnir no atendimento?
+    - Como me proteger no atendimento?
+    - Como me previnir contra o COVID-19 no atendimento?
+    - Como me proteger do COVID-19 no atendimento?
+    - O que posso fazer para me previnir dos clientes?
+    - O que posso fazer para me proteger do COVID-19 dos clientes?
+    - O que posso fazer para me previnir do COVID-19 dos clientes?
+    - Cuidados no atendimento
+    - Atendimento ao cliente
+    - O que fazer para me previnir do COVID-19 no atendimento?
+    - O que fazer para me previnir do COVID-19 no atendimento ao cliente?
+    - O que fazer para me proteger do COVID-19 no atendimento ao cliente? 
+
+
+- intent: exercicios_em_casa
+  examples: |
+    - Como posso me exercitar em casa?
+    - Como fazer exercicios em casa?
+    - Como se exercitar em casa?
+    - Se não posso sair de casa, como vou me exercitar?
+    - Dicas de exercicios caseiros
+    - Como posso treinar em casa?
+    - Treinar em casa
+
+- intent: cuidados_transporte_publico
+  examples: |
+    - Transporte público
+    - Como posso me proteger do COVID-19 no transporte público?
+    - Como me cuidar no transporte público?
+    - O que fazer para me previnir do COVID-19 no transporte público?
+    - Como me previnir do COVID no transporte?
+    - O que eu posso fazer para me proteger do COVID no transporte público?
+    - Que cuidados eu devo tomar no transporte público?
+    - Que cuidados eu devo tomar no transporte?
+    - COVID no Transporte público
+    - Formas de prevenção no transporte público
+    - Proteção contra o COVID no transporte público
+
+- intent: doses_vacina
+  examples: |
+    - Quantas doses preciso tomar?
+    - doses da vacina
+    - posso tomar uma dose apenas
+    - quero tomar só uma dose
+    - preciso tomar outra dose?
+    - quantas vacinas?
+    - quantas vacinas tenho que tomar?
+    - quantas vezes tomo a vacina?
+    - quantidade de doses
+    - quantas vacinas tomar
+
+- intent: vacina_no_organismo
+  examples: |
+    - Como a vacina funciona?
+    - Como a vacina age no organismo?
+    - Funcionamento da vacina
+
+- intent: quando_vacinar
+  examples: |
+    - Quando posso vacinar?
+    - Já posso me vacinar?
+    - Meu filho pode se vacinar?
+    - Criança pode se vacinar?
+    - Quem já se vacinou?
+    - Idade para vacinar
+    - Idade para vacinação
+
+- intent: teste_positivo
+  examples: |
+    - positivo
+    - Testei positivo
+    - Testei positivo, o que fazer?
+    - O que fazer quando der positivo no teste?
+    - Teste positivo
+    - O que fazer depois do positivo?

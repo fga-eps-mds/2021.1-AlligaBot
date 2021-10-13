@@ -29,9 +29,39 @@ intents:
   - mais_gama
   - delta
   - mais_delta
+  - saude_mental
+  - covid_em_sua_cidade
+  - uf_input_form
+  - cidade_input_form
   - vacina_eh_segura
   - cuidados_escritorio
   - preciso_me_vacinar
+  - cuidados_no_atendimento
+  - exercicios_em_casa
+  - cuidados_transporte_publico
+  - doses_vacina
+  - vacina_no_organismo
+  - quando_vacinar
+  - teste_positivo
+
+forms:
+  localizacao_form:
+    required_slots:
+      uf:
+        - type: from_text
+      cidade:
+        - type: from_text
+
+slots:
+  uf:
+    type: text
+    influence_conversation: false
+  cidade:
+    type: text
+    influence_conversation: false
+
+actions:
+  - action_dados_covid_baseados_em_localizacao
 
 entities:
   - oi
@@ -133,7 +163,6 @@ responses:
 
   utter_cuidados_no_dentista:
   - text: "Diante da pandemia, os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao consultório odontológico apenas em casos de emergência ou urgência. As visitas ao cirurgião-dentista para procedimentos eletivos devem ser adiadas por precaução. Leia mais em: https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/"
-    image: "https://lh3.googleusercontent.com/proxy/VNj5WQGYZOBRn6iqneVk0PjyQLXjMxlUX5Ie1Ed82wSqNuSkLCiTAHyxgCFFJSVwT4xa-cQneWDq1nA_S1ERb9QBIyDpnRHzHvWmhUtOy4k8omGijL0EIlUk67N0nPf2R5lSTg"
 
   utter_cabelos:
   - text: "Ir com alguma objeto que possar armazenar o Álcool em gel, usar mascara e luvas se possiveis"
@@ -232,6 +261,29 @@ responses:
         A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
         Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
 
+  utter_saude_mental:
+    - text: |
+        Manter a saúde mental nesse tempo de pandemia e quarentena não é uma tarefa nada fácil, se afastar dos seus próximos e se isolar em casa é algo necessário, mas muito difícil de se fazer, pois gera muito estresse, ansiedade e pode também ser gatilho para uma depressão. Por isso aqui vai alguns hábitos que podem ser adotados para que se mantenha ou melhore a saúde mental nesse tempo tão difícil:    
+        - Mantenha uma alimentação saudável:
+        Ter atenção ao que se come e priorizar uma dieta balanceada permite a ingestão de todos os nutrientes necessários ao organismo. Isso ajuda no bom funcionamento dos processos químicos do cérebro. Cuidar do corpo também é cuidar da mente.
+        - Faça exercícios físicos diários:
+        Mesmo com as academias fechadas, é possível manter a atividade física em dia. Aplicativos de celular como Nike Training Club, Freeletics Bodyweight, Endomondo e FitNotes possuem centenas de sugestões de exercícios para você fazer em casa e com segurança.
+        - Mantenha contato com seus familiares e amigos:
+        Uma conversa com amigos ou com a família por mensagens, ligações telefônicas ou videochamadas pode aliviar sensações ruins. Também faz relembrar que existe uma rede de apoio com a qual você pode contar.
+        - Evite o uso de tabaco, bebidas alcoólicas e outras drogas:
+        Fazer o uso de Álcool, cigarro e outras drogas para lidar com as emoções pode ser atrativo a princípio mas se tornam vícios e, a longo prazo, causam muitos malefícios à saúde física e mental.
+        - Limite o tempo que passa lendo ou assistindo notícias:
+        Diariamente nos encontramos em meio a um bombardeio de informações e opiniões, é natural que você se sinta angustiado, por isso limite o tempo que você ou sua família passa absorvendo notícias.
+        - Tire um tempo para você:
+        Não preencha seus dias apenas com atividades obrigatórias - libere um espaço na sua agenda para ler um livro, assistir a um filme, aprender uma habilidade nova, fazer exercícios físicos, ouvir uma música, cozinhar com tranquilidade. A escolha é sua: por você e para você.
+        O momento é difícil, mas manter a saúde mental é essencial, caso perceba que essas medidas não estão sendo efetivas, é altamente recomendada a busca por ajuda profissional. 
+
+  utter_ask_localizacao_form_uf:
+    - text: "Me conta qual é a sigla do seu estado 🏁. Exemplo: DF"
+
+  utter_ask_localizacao_form_cidade:
+    - text: "Agora, me diga qual o nome da sua cidade 🏕️. Exemplo: Brasília"
+
   utter_vacina_eh_segura:
     - text: |
         Toda vacina licenciada para uso passou antes por diversas fases de avaliação, desde os processos iniciais de desenvolvimento até a produção e a fase final que é a aplicação, garantindo assim sua segurança. Além disso, elas são avaliadas e aprovadas por institutos reguladores muito rígidos e independentes. No Brasil, essa função cabe à Agência Nacional de Vigilância Sanitária (Anvisa), órgão vinculado ao Ministério da Saúde. E não é só isso, o acompanhamento de eventos adversos continua acontecendo depois que a vacina é licenciada, o que permite a continuidade de monitoramento da segurança do produto.
@@ -290,6 +342,130 @@ responses:
         Mas falando sério agora, a vacina tem diminuido consideravelmente os números de infectados, vacine-se e peça para as outras pessoas se vacinarem também. É necessário que boa parte da população esteja vacinada para que as mutações e reproduções do vírus diminuam, dessa maneira voltaremos logo ao normal. :) 
 
         Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
+
+  utter_cuidados_no_atendimento:
+  - text: |
+      Interessante, posso te ajudar nisso.
+      Para proteger a si mesmo e o seu cliente é muito importante evitar apertos de mão, abraços, bejinhos no rosto e qualquer outro cumprimento físico. Aaaah também é recomendável que tenha frascos de álcool gel disponíveis para os clientes.
+      Algumas outras diquinhas:
+      - Incentive o pagamento por aproximação.
+      - Limpeza da máquina de cartão.
+      - Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
+
+
+      Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
+
+
+  utter_exercicios_em_casa:
+  - text: |
+      Certo amigo, vou listar algumas coisas que você pode fazer para se exercitar em casa da melhor maneira possivel! Vamos lá:
+
+      1-Tenha uma rotina! Mesmo eu sendo um bot, eu sei que é difícil manter uma rotina, principalmente em casa, mas eu prometo pra você que vai valer a pena!
+
+      2-Faça treinos do seu nível. Segure um pouco a empolgação e não faça treinos muito desgastantes,você torna seu exercício muito mais seguro e com menos chance de lesões.
+
+      3- NÃO SE ESQUEÇA DE ALONGAR! É extremamente importante o alongamento, além de prevenir dores musculares o alongamento melhora a sua flexibilidade e postura.
+
+      4- Respire do jeito certo. Na atividade física, fazemos esforço quando inspiramos (nariz) e vamos soltando o corpo à medida que liberamos a respiração (boca).
+
+      5- HIDRATE-SE!! Essa dica serve não só para exercicios caseiros, mas também pra vida. Lembre-se de ter sempre uma garrafa com água ao seu lado viu?!
+  - text: |
+       Ok, aqui vai algumas dicas de atividade:
+
+       Para as crianças, o ideal é que as atividades sejam baseadas em músicas, histórias infantis e em brincadeiras como rastejar, engatinhar, andar
+       e manipular objetos ou texturas. Algumas atividades poderão ter uma maior intensidade conforme a criança vai crescendo.
+
+       Já para os adultos, a intensidade da atividade vai de moderada a vigorosa. Aqui vale dançar, pular corda, subir escadas e até levantar peso.
+ 
+       Para os vovôs e vovós, é importante realizar alongamentos mais simples e exercícios de fortalecimento muscular. Alguns podem ser feitos em casa, como sentar e levantar da cadeira algumas vezes.
+
+       Lembre-se de levantar dessa cadeira aí viu? Ficar sentado por longos períodos pode causar inúmeros problemas de saude. Estou de olho, hein?
+  - text: |
+        Atividade física é um dos pilares para manter uma boa qualidade de vida, se eu fosse humano com certeza praticaria. Algumas dicas para você:
+
+        Suba e desça escadas 
+
+        Faça exercícios de alongamento ou utilizando pesos  
+
+        Escolha aquela música que você gosta e dance muito!
+
+        Pule com ou sem corda
+
+        Tome bastante água hein?!
+
+  utter_cuidados_transporte_publico:
+  - text: |
+      Hummm, boa pergunta. Tenho algumas diquinhas para você:
+      - SEMPRE usar máscara.
+      - Evitar tocar nas superfícies sem necessidade.
+      - Não tocar em seu rosto.
+      - Passar álcool 70% nas mãos assim que deixar o veículo.
+      - Por último, mas não menos importante: lavar as mãos com sabão quando chegar ao seu destino.
+
+      Espero ter ajudado :)
+
+  utter_doses_vacina:
+  - text: |
+      Bem lembrado... Falar sobre isso é muito importante!
+
+      Você tem que tomar duas doses da vacina, a não ser que você tenha se vacinado com a Janssen.
+      Não se esqueça de tomar a segunda dose, ein? Procure um posto de saúde ou uma UBS.
+
+      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+
+  - text: |
+      É necessário tomar duas doses da vacina, com excessão da vacina Janssen, pois ela confere imunidade com apenas uma dose.
+      Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado outra.
+
+      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+
+  utter_vacina_no_organismo:
+  - text: |
+      Depois de algumas pesquisas descobri como as vacinas agem no organismo, aqui vai um resumo:
+       
+      Janssen Vaccine (Janssen-Cilag):
+      A vacina Janssen utiliza um adenovírus que geralmente causaria resfriado em humanos, e o modifica para que ele não se replique mais, além de incluir nele um trecho do material genético do Sars-CoV-2. E ao entrar em contato com as células, o vetor viral apresenta esse pedacinho do coronavírus para o sistema imunológico para desenvolver anticorpos. 
+       
+      Pfizer:
+      A Pfizer possui uma parte sintética do material genético do vírus, mas não o vírus em si. A vacina faz com que o sistema imunológico produza anticorpos e células de defesa que atuam contra o vírus, possibilitando assim a proteção contra a COVID-19.
+       
+      Coronavac:
+      A Coronavac é uma vacina que usa o vírus inativo da covid-19 através de calor ou produto químico. Ela estimula o corpo a induzir a imunidade contra o vírus SARS-Cov-2 para a prevenção de doenças causadas pelo mesmo.
+       
+      Astrazeneca:
+      Assim como a Janssen, a vacina astrazeneca é uma vacina de vetor viral, nesse caso um adenovírus de chimpanzé que foi debilitado e geneticamente modificado. A vacina estimula as defesas naturais do corpo (sistema imunológico), isso faz com que o corpo produza sua própria proteção (anticorpos) contra o vírus causador da COVID-19, o SARS-CoV-2. Isso ajudará a proteger você contra a COVID-19 no futuro.
+       
+      Agora que sabemos um pouco mais sobre cada uma, não se preocupe caso sinta alguns efeitos colaterais, lembre que é apenas seu sistema imunológico preparando seu organismo para se defender do vírus no futuro.
+
+  utter_quando_vacinar:
+  - text: |
+      Depois de algumas pesquisas, pude concluir que apesar de existirem divergências da idade para vacinação para os diferentes municípios, posso dizer que a idade média atual são para pessoas com idade miníma de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade.
+
+  utter_teste_positivo:
+  - text: |
+      Poxa não fique triste, vai dar tudo certo. Vou te dar algumas ideias para ajudar:
+      Primeira coisa, depois do resultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequada, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
+
+      Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou comprometimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
+
+      Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
+  - text: |
+      Caramba...uma notícia triste, mas não se desespere e para saber o que fazer nesse momento, olhe o que eu achei:
+      - Consulte novamente seu médico;
+      - Fique em isolamento domiciliar;
+      - Utilize máscara o tempo todo;
+      - Se for preciso cozinhar, use máscara de proteção, cobrindo boca e nariz todo o tempo;
+      - Depois de usar o banheiro, nunca deixe de lavar as mãos com água e sabão e sempre limpe vaso, pia e demais superfícies com álcool ou água sanitária para desinfecção do ambiente;
+      - Separe toalhas de banho, garfos, facas, colheres, copos e outros objetos apenas para seu uso;
+      - O lixo produzido precisa ser separado e descartado;
+      - Sofás e cadeiras também não podem ser compartilhados e precisam ser limpos frequentemente com água sanitária ou álcool 70%;
+      - Mantenha a janela aberta para circulação de ar do ambiente usado para isolamento e a porta fechada, limpe a maçaneta frequentemente com álcool 70% ou água sanitária;
+      - Caso o paciente não more sozinho, os demais moradores devem dormir em outro cômodo, longe da pessoa infectada, seguindo também as seguintes recomendações:
+        - Manter a distância mínima de 1 metro entre o paciente e os demais moradores;
+        - Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
+        - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
+        - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
+      Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_alligabot:
     - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

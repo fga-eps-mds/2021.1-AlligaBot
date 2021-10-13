@@ -418,3 +418,15 @@ nlu:
     - Teste positivo
     - O que fazer depois do positivo?
 
+- intent: vacina_eficacia
+  examples: |
+    - eficácia vacina
+    - eficácia
+    - qual a eficácia das vacinas?
+    - como posso saber se as vacinas são eficazes?
+    - eficácia da astrazenica
+    - eficácia da coronavac
+    - eficácia da pfizer
+    - eficácia da janssen
+    - estarei imunizado se tomar a vacina?
+    - qual a chance de eu pegar covid pós tomar vacina?

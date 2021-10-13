@@ -420,6 +420,58 @@ nlu:
     - quantidade de doses
     - quantas vacinas tomar
 
+- intent: qual_exame_fazer
+  examples: |
+    - Qual tipo de teste eu faço?
+    - Qual o teste mais indicado pra mim?
+    - Qual teste fazer?
+    - tenho sintomas e quero me testar
+    - quero me testar
+    - que teste eu faço?
+    - testagem mais indicada
+
+- intent: exame_contato_covid
+  examples: |
+    - Tive contato com alguém contaminado
+    - Entrei em contato com o virus 
+    - Encontrei alguem com suspeita de covid
+  
+- intent: exame_com_sintomas
+  examples: |
+    - tenho sintomas
+    - estou com sintomas
+
+- intent: sintomas_mais_de_8
+  examples: |
+    - to com sintomas a mais de 8 dias
+    - estou doente já tem mais de 1 semana
+    - to na mals tem oito dias
+
+- intent: sintomas_menos_de_8
+  examples: |
+    - to com sintomas a menos de 8 dias
+    - estou doente tem poucos dias
+    - to doente a menos de uma semana
+
+- intent: exame_sem_sintomas
+  examples: |
+    - não tenho sintomas
+    - não estou com sintomas
+    - tive contato com alguém com covid
+    - tive contato com alguém com suspeita
+
+- intent: contato_mais_de_10
+  examples: |
+    - tive contato com o virus a mais de 10 dias
+    - entrei em contato com alguem contaminado a mais de 10 dias
+    - tem mais de 10 dias
+
+- intent: contato_menos_de_10
+  examples: |
+    - tive contato com o virus a menos de 10 dias
+    - entrei em contato com alguem contaminado a menos de 10 dias
+    - tem menos de 10 dias
+  
 - intent: vacina_no_organismo
   examples: |
     - Como a vacina funciona?

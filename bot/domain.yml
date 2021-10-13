@@ -40,6 +40,14 @@ intents:
   - exercicios_em_casa
   - cuidados_transporte_publico
   - doses_vacina
+  - qual_exame_fazer
+  - exame_com_sintomas
+  - exame_sem_sintomas
+  - sintomas_mais_de_8
+  - sintomas_menos_de_8
+  - contato_mais_de_10
+  - contato_menos_de_10
+  - exame_contato_covid
   - vacina_no_organismo
   - quando_vacinar
   - teste_positivo
@@ -418,6 +426,62 @@ responses:
       Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado outra.
 
       Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+
+  utter_qual_exame_fazer:
+  - text: |
+      Por qual motivo você quer fazer o exame?
+    buttons:
+      - title: Estou com sintomas
+        payload: /exame_com_sintomas
+      - title: Tive contato com alguém com covid
+        payload: /exame_contato_covid
+
+  utter_com_sintomas:
+  - text: |
+      Você tem sentido os sintomas a quantos dias?
+    buttons:
+      - title: A menos de 8 dias
+        payload: /sintomas_menos_de_8
+      - title: A mais de 8 dias
+        payload: /sintomas_mais_de_8
+
+  utter_sintomas_menos_de_8:
+  - text: |
+      O teste mais indicado para você é o RT-PCR e o teste antígeno.
+      Você pode saber mais sobre esses testes em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
+  utter_sintomas_mais_de_8:
+  - text: |
+      O teste mais indicado para você é o de Sorologia.
+      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
+  utter_contato_covid:
+  - text: |
+      Você tá com sintomas da covid-19?
+    buttons:
+      - title: Sim
+        payload: /exame_com_sintomas
+      - title: Não, apenas tive contato com alguém que estava contaminado/ com suspeita
+        payload: /exame_sem_sintomas
+
+  utter_sem_sintomas:
+  - text: |
+      Seu último contato com a pessoa infectada ou com suspeita tem quantos dias?
+    buttons:
+      - title: A mais de 10 dias
+        payload: /contato_mais_de_10
+      - title: A menos de 10 dias
+        payload: /contato_menos_de_10
+
+  utter_contato_mais_de_10:
+  - text: |
+      O teste mais indicado para você é o de Sorologia.
+      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
+  utter_contato_menos_de_10:
+  - text: |
+      O teste mais indicado para você é o RT-PCR.
+      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_vacina_no_organismo:
   - text: |

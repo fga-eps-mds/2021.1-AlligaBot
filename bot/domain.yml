@@ -35,11 +35,11 @@ intents:
   - cidade_input_form
   - vacina_eh_segura
   - cuidados_escritorio
+  - preciso_me_vacinar
   - cuidados_no_atendimento
   - exercicios_em_casa
   - cuidados_transporte_publico
   - doses_vacina
-<<<<<<< HEAD
   - qual_exame_fazer
   - exame_com_sintomas
   - exame_sem_sintomas
@@ -48,10 +48,9 @@ intents:
   - contato_mais_de_10
   - contato_menos_de_10
   - exame_contato_covid
-=======
+  - vacina_no_organismo
+  - quando_vacinar
   - teste_positivo
->>>>>>> 6919f344ee4b3eb6a4a8e84d8d1ad9bd17b17738
-
 
 forms:
   localizacao_form:
@@ -71,7 +70,6 @@ slots:
 
 actions:
   - action_dados_covid_baseados_em_localizacao
-  - action_download_dados
 
 entities:
   - oi
@@ -289,10 +287,10 @@ responses:
         O momento é difícil, mas manter a saúde mental é essencial, caso perceba que essas medidas não estão sendo efetivas, é altamente recomendada a busca por ajuda profissional. 
 
   utter_ask_localizacao_form_uf:
-    - text: Informe a sigla do seu Estado (UF)
+    - text: "Me conta qual é a sigla do seu estado 🏁. Exemplo: DF"
 
   utter_ask_localizacao_form_cidade:
-    - text: Informe o nome da sua cidade
+    - text: "Agora, me diga qual o nome da sua cidade 🏕️. Exemplo: Brasília"
 
   utter_vacina_eh_segura:
     - text: |
@@ -339,6 +337,19 @@ responses:
 
 
         Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+ 
+  utter_preciso_me_vacinar:
+    - text: |
+        Esse é um assunto muito importante! Vamos lá: todos precisam se vacinar, independente de ter pego ou não o vírus. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de queda no quadro de infectados, existe ainda a consciencia coletiva de que ao se vacinar você está contribuindo para o bem da sociedade e para que tudo volte ao normal o quanto antes! 
+        Portanto, vacine-se e incentive outras pessoas a se vacinar também! :) 
+
+        Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
+
+    - text: |
+        Amigo, você e as pessoas ao seu redor precisam se vacinar, independente de ter pego ou não o vírus. Só eu que já sou um jacaré não preciso me vacinar hahahaha!
+        Mas falando sério agora, a vacina tem diminuido consideravelmente os números de infectados, vacine-se e peça para as outras pessoas se vacinarem também. É necessário que boa parte da população esteja vacinada para que as mutações e reproduções do vírus diminuam, dessa maneira voltaremos logo ao normal. :) 
+
+        Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
   utter_cuidados_no_atendimento:
   - text: |
@@ -471,6 +482,29 @@ responses:
   - text: |
       O teste mais indicado para você é o RT-PCR.
       Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
+  utter_vacina_no_organismo:
+  - text: |
+      Depois de algumas pesquisas descobri como as vacinas agem no organismo, aqui vai um resumo:
+       
+      Janssen Vaccine (Janssen-Cilag):
+      A vacina Janssen utiliza um adenovírus que geralmente causaria resfriado em humanos, e o modifica para que ele não se replique mais, além de incluir nele um trecho do material genético do Sars-CoV-2. E ao entrar em contato com as células, o vetor viral apresenta esse pedacinho do coronavírus para o sistema imunológico para desenvolver anticorpos. 
+       
+      Pfizer:
+      A Pfizer possui uma parte sintética do material genético do vírus, mas não o vírus em si. A vacina faz com que o sistema imunológico produza anticorpos e células de defesa que atuam contra o vírus, possibilitando assim a proteção contra a COVID-19.
+       
+      Coronavac:
+      A Coronavac é uma vacina que usa o vírus inativo da covid-19 através de calor ou produto químico. Ela estimula o corpo a induzir a imunidade contra o vírus SARS-Cov-2 para a prevenção de doenças causadas pelo mesmo.
+       
+      Astrazeneca:
+      Assim como a Janssen, a vacina astrazeneca é uma vacina de vetor viral, nesse caso um adenovírus de chimpanzé que foi debilitado e geneticamente modificado. A vacina estimula as defesas naturais do corpo (sistema imunológico), isso faz com que o corpo produza sua própria proteção (anticorpos) contra o vírus causador da COVID-19, o SARS-CoV-2. Isso ajudará a proteger você contra a COVID-19 no futuro.
+       
+      Agora que sabemos um pouco mais sobre cada uma, não se preocupe caso sinta alguns efeitos colaterais, lembre que é apenas seu sistema imunológico preparando seu organismo para se defender do vírus no futuro.
+
+  utter_quando_vacinar:
+  - text: |
+      Depois de algumas pesquisas, pude concluir que apesar de existirem divergências da idade para vacinação para os diferentes municípios, posso dizer que a idade média atual são para pessoas com idade miníma de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade.
+
   utter_teste_positivo:
   - text: |
       Poxa não fique triste, vai dar tudo certo. Vou te dar algumas ideias para ajudar:
@@ -498,8 +532,7 @@ responses:
       Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_alligabot:
-  - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
-
+    - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 
 session_config:
   session_expiration_time: 60

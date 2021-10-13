@@ -405,7 +405,7 @@ responses:
 
       Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
 
-  utter_data_vacina:
+  utter_quando_vacinar:
   - text: |
       Depois de algumas pesquisas, pude concluir que apesar de existirem divergências da idade para vacinação para os diferentes municípios, posso dizer que a idade média atual são para pessoas com idade miníma de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade.
 

@@ -36,7 +36,7 @@ class ResponderVacinadosNaCidadeAction(Action):
             dispatcher.utter_message(text=message)
             return
 
-        dataframe['date'] = pd.to_datetime(dataframe['date'])
+        dataframe_estado['date'] = pd.to_datetime(dataframe['date'])
 
         dataframe_estado_mais_recente = dataframe_estado.iloc[[-1]]
 

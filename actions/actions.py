@@ -13,7 +13,7 @@ from rasa_sdk.events import AllSlotsReset
 from os import path
 from typing import Any, Text, Dict, List
 
-from actions import ResponderVacinadosNaCidadeAction
+from actions import ResponderVacinadosEmUmEstadoAction
 
 diretorio = path.join(path.dirname(path.realpath(__file__)), 'covid_data')
 

@@ -36,7 +36,7 @@ intents:
   - vacina_eh_segura
   - cuidados_escritorio
   - cuidados_no_atendimento
-  - vacinados_na_minha_cidade_e_estado
+  - vacinados_no_meu_estado
 
 
 forms:
@@ -45,6 +45,10 @@ forms:
       uf:
         - type: from_text
       cidade:
+        - type: from_text
+  localizacao_uf_apenas_form:
+    required_slots:
+      uf:
         - type: from_text
 
 slots:
@@ -58,7 +62,7 @@ slots:
 actions:
   - action_dados_covid_baseados_em_localizacao
   - action_download_dados
-  - action_responder_vacinados_na_cidade
+  - action_responder_vacinados_em_um_estado
 
 entities:
   - oi
@@ -277,6 +281,9 @@ responses:
 
   utter_ask_localizacao_form_uf:
     - text: Informe a sigla do seu Estado (UF)
+
+  utter_ask_estado_apenas_form:
+    - text: Me fala a sigla do seu Estado (UF)
 
   utter_ask_localizacao_form_cidade:
     - text: Informe o nome da sua cidade

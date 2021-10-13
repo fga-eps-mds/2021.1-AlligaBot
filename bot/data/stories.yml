@@ -186,3 +186,7 @@ stories:
   - intent: teste_positivo
   - action: utter_teste_positivo
 
+- story: estou com suspeita de COVID-19
+  steps:
+  - intent: oque_fazer_suspeita
+  - action: utter_oque_fazer_suspeita

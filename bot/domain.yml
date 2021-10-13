@@ -40,6 +40,7 @@ intents:
   - cuidados_transporte_publico
   - doses_vacina
   - teste_positivo
+  - oque_fazer_suspeita
 
 
 forms:
@@ -429,6 +430,13 @@ responses:
         - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
         - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
       Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
+  utter_oque_fazer_suspeita:
+  - text: |
+      Em caso de suspeita, fique em casa por 14 dias, você e as pessoas que moram com você.
+      Durante esse período de isolamento, acompanhe os sintomas e veja se elas não se agravem. Em sintomas leves, como os de um resfriado comum, apenas fique de repouso, alimente-se bem, mantenha-se hidratado, e se precisar, use antitérmicos e analgésicos para aliviar os incômodos. Já em caso de sintomas mais graves, como febre alta persistente e desconforto respiratório, procute atendimento médico imediatamente.
+      Se precisar tirar mais alguma dúvida e eu não conseguir te responder, ligue para o Disque Saúde, pelo número 136.
+      Um abraço virtual e se cuide!
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

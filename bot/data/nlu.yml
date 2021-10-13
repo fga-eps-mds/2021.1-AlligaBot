@@ -418,3 +418,12 @@ nlu:
     - Quem já se vacinou?
     - Idade para vacinar
     - Idade para vacinação
+
+- intent: teste_positivo
+  examples: |
+    - positivo
+    - Testei positivo
+    - Testei positivo, o que fazer?
+    - O que fazer quando der positivo no teste?
+    - Teste positivo
+    - O que fazer depois do positivo?

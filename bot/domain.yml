@@ -35,6 +35,7 @@ intents:
   - cidade_input_form
   - vacina_eh_segura
   - cuidados_escritorio
+  - preciso_me_vacinar
   - cuidados_no_atendimento
   - exercicios_em_casa
   - cuidados_transporte_publico
@@ -328,6 +329,19 @@ responses:
 
 
         Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+ 
+  utter_preciso_me_vacinar:
+    - text: |
+        Esse é um assunto muito importante! Vamos lá: todos precisam se vacinar, independente de ter pego ou não o vírus. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de queda no quadro de infectados, existe ainda a consciencia coletiva de que ao se vacinar você está contribuindo para o bem da sociedade e para que tudo volte ao normal o quanto antes! 
+        Portanto, vacine-se e incentive outras pessoas a se vacinar também! :) 
+
+        Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
+
+    - text: |
+        Amigo, você e as pessoas ao seu redor precisam se vacinar, independente de ter pego ou não o vírus. Só eu que já sou um jacaré não preciso me vacinar hahahaha!
+        Mas falando sério agora, a vacina tem diminuido consideravelmente os números de infectados, vacine-se e peça para as outras pessoas se vacinarem também. É necessário que boa parte da população esteja vacinada para que as mutações e reproduções do vírus diminuam, dessa maneira voltaremos logo ao normal. :) 
+
+        Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
   utter_cuidados_no_atendimento:
   - text: |
@@ -454,7 +468,7 @@ responses:
       Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_alligabot:
-  - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
+    - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 
 session_config:
   session_expiration_time: 60

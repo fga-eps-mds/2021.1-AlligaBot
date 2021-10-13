@@ -10,14 +10,14 @@ from typing import Any, Text, Dict, List
 
 diretorio = path.join(path.dirname(path.realpath(__file__)), 'covid_data')
 
-class ResponderVacinadosNaCidadeAction(Action):
+class ResponderVacinadosEmUmEstadoAction(Action):
     def __init__(self) -> None:
         self.url = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv'
         self.caminho_arquivo_csv = path.join(diretorio, 'cases-brazil-states.csv')
         return
     
     def name(self) -> Text:
-        return 'action_responder_vacinados_na_cidade'
+        return 'action_responder_vacinados_em_um_estado'
     
     def run(
         self,
@@ -28,23 +28,19 @@ class ResponderVacinadosNaCidadeAction(Action):
         uf = tracker.get_slot('uf').upper()
 
         dataframe = pd.read_csv(self.url)
-
         dataframe_estado = dataframe.query(f"state == '{uf}'")[['date', 'vaccinated', 'vaccinated_second']]
 
         if dataframe_estado.empty:
-            message = f'Então... eu não achei o estado {uf}. Certifique-se que está escrevendo o nome corretamente'
+            message = f'Então... eu não achei o estado {uf}. Certifique-se que está escrevendo a sigla do estado corretamente'
             dispatcher.utter_message(text=message)
             return
 
         dataframe_estado['date'] = pd.to_datetime(dataframe['date'])
-
         dataframe_estado_mais_recente = dataframe_estado.iloc[[-1]]
-
         data_mais_recente = dataframe_estado_mais_recente.iloc[0]['date'].strftime('%d/%m/%Y')
         vacinados = dataframe_estado_mais_recente.iloc[0]['vaccinated']
 
-        message = f'Olha, até o dia {data_mais_recente} foram vacinadas {int(vacinados)} pessoas'
+        message = f'Olha, até o dia {data_mais_recente} foram vacinadas {int(vacinados)} pessoas no estado {uf}'
 
         dispatcher.utter_message(text=message)
-        
-        return []
+        return [AllSlotsReset()]

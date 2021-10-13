@@ -353,6 +353,17 @@ nlu:
     - Posso ir trabalhar?
     - Posso ir ao escritório?
 
+- intent: preciso_me_vacinar
+  examples: |
+    - Preciso me vacinar?
+    - Preciso me vacina?
+    - É necessário tomar a vacina?
+    - Todo mundo precisa tomar a vacina?
+    - Quem precisa tomar a vacina?
+    - Já peguei covid-19, preciso tomar a vacina?
+    - Já peguei covid-19, preciso me vacinar?
+    - Necessidade da vacina
+
 - intent: cuidados_no_atendimento
   examples: |
     - Como me cuidar ao atender clientes?
@@ -371,14 +382,75 @@ nlu:
     - O que fazer para me previnir do COVID-19 no atendimento ao cliente?
     - O que fazer para me proteger do COVID-19 no atendimento ao cliente?
 
-- intent: vacinados_na_minha_cidade_e_estado
+- intent: vacinados_no_meu_estado
   examples: |
-    - Quantas pessoas foram vacinadas na minha cidade?
+    - Quantas pessoas foram vacinadas no estado de Amazonas?
+    - Quantas pessoas foram vacinadas no estado de Rio Grande do Sul?
     - Quantas pessoas foram vacinadas aqui?
-    - Quantas doses de vacina foram distribuídas na minha cidade?
     - Quantas doses de vacina foram distribuídas no meu estado?
     - quantos foram vacinados onde eu moro?
-    - vacinados na minha cidade
-    - vacinados na minha cidade?
     - vacinados no meu estado
     - vacinados no meu estado?
+
+- intent: exercicios_em_casa
+  examples: |
+    - Como posso me exercitar em casa?
+    - Como fazer exercicios em casa?
+    - Como se exercitar em casa?
+    - Se não posso sair de casa, como vou me exercitar?
+    - Dicas de exercicios caseiros
+    - Como posso treinar em casa?
+    - Treinar em casa
+
+- intent: cuidados_transporte_publico
+  examples: |
+    - Transporte público
+    - Como posso me proteger do COVID-19 no transporte público?
+    - Como me cuidar no transporte público?
+    - O que fazer para me previnir do COVID-19 no transporte público?
+    - Como me previnir do COVID no transporte?
+    - O que eu posso fazer para me proteger do COVID no transporte público?
+    - Que cuidados eu devo tomar no transporte público?
+    - Que cuidados eu devo tomar no transporte?
+    - COVID no Transporte público
+    - Formas de prevenção no transporte público
+    - Proteção contra o COVID no transporte público
+
+- intent: doses_vacina
+  examples: |
+    - Quantas doses preciso tomar?
+    - doses da vacina
+    - posso tomar uma dose apenas
+    - quero tomar só uma dose
+    - preciso tomar outra dose?
+    - quantas vacinas?
+    - quantas vacinas tenho que tomar?
+    - quantas vezes tomo a vacina?
+    - quantidade de doses
+    - quantas vacinas tomar
+
+- intent: vacina_no_organismo
+  examples: |
+    - Como a vacina funciona?
+    - Como a vacina age no organismo?
+    - Funcionamento da vacina
+
+- intent: quando_vacinar
+  examples: |
+    - Quando posso vacinar?
+    - Já posso me vacinar?
+    - Meu filho pode se vacinar?
+    - Criança pode se vacinar?
+    - Quem já se vacinou?
+    - Idade para vacinar
+    - Idade para vacinação
+
+- intent: teste_positivo
+  examples: |
+    - positivo
+    - Testei positivo
+    - Testei positivo, o que fazer?
+    - O que fazer quando der positivo no teste?
+    - Teste positivo
+    - O que fazer depois do positivo?
+

@@ -181,6 +181,11 @@ stories:
   - intent: doses_vacina
   - action: utter_doses_vacina
 
+- story: vacina no organismo
+  steps:
+  - intent: vacina_no_organismo
+  - action: utter_vacina_no_organismo
+
 - story: quando pode vacinar
   steps:
   - intent: quando_vacinar

@@ -391,6 +391,7 @@ nlu:
     - quantos foram vacinados onde eu moro?
     - vacinados no meu estado
     - vacinados no meu estado?
+    - quantas pessoas estão vacinadas no meu estado atualmente?
 
 - intent: exercicios_em_casa
   examples: |

@@ -147,7 +147,6 @@ stories:
 - story: formulario de localizacao do usuario para informar vacinados
   steps:
     - intent: vacinados_no_meu_estado
-    - action: utter_ask_estado_apenas_form
     - action: localizacao_uf_apenas_form
     - active_loop: localizacao_uf_apenas_form
     - active_loop: null

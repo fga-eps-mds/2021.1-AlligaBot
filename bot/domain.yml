@@ -288,8 +288,8 @@ responses:
   utter_ask_localizacao_form_uf:
     - text: "Me conta qual é a sigla do seu estado 🏁. Exemplo: DF"
 
-  utter_ask_estado_apenas_form:
-    - text: Me fala a sigla do seu Estado (UF)
+  utter_ask_localizacao_uf_apenas_form_uf:
+    - text: "Me fala a sigla do seu Estado (UF)"
 
   utter_ask_localizacao_form_cidade:
     - text: "Agora, me diga qual o nome da sua cidade 🏕️. Exemplo: Brasília"

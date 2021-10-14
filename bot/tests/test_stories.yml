@@ -56,6 +56,13 @@ stories:
       quero saber sobre Delta
     intent: mais_delta
   - action: utter_delta_mais
+- story: formulario de localizacao do usuario para informar vacinados
+  steps:
+  - user: |
+      Quantas doses de vacina foram distribuídas no meu estado?
+    intent: vacinados_no_meu_estado
+  - action: localizacao_uf_apenas_form
+  - action: action_responder_vacinados_em_um_estado
 
 
 

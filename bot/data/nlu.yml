@@ -380,8 +380,18 @@ nlu:
     - Atendimento ao cliente
     - O que fazer para me previnir do COVID-19 no atendimento?
     - O que fazer para me previnir do COVID-19 no atendimento ao cliente?
-    - O que fazer para me proteger do COVID-19 no atendimento ao cliente? 
+    - O que fazer para me proteger do COVID-19 no atendimento ao cliente?
 
+- intent: vacinados_no_meu_estado
+  examples: |
+    - Quantas pessoas foram vacinadas no estado de Amazonas?
+    - Quantas pessoas foram vacinadas no estado de Rio Grande do Sul?
+    - Quantas pessoas foram vacinadas aqui?
+    - Quantas doses de vacina foram distribuídas no meu estado?
+    - quantos foram vacinados onde eu moro?
+    - vacinados no meu estado
+    - vacinados no meu estado?
+    - quantas pessoas estão vacinadas no meu estado atualmente?
 
 - intent: exercicios_em_casa
   examples: |
@@ -496,3 +506,4 @@ nlu:
     - O que fazer quando der positivo no teste?
     - Teste positivo
     - O que fazer depois do positivo?
+

@@ -143,6 +143,15 @@ stories:
     - active_loop: null
     - action: action_dados_covid_baseados_em_localizacao
 
+- story: formulario de localizacao do usuario para informar vacinados
+  steps:
+    - intent: vacinados_no_meu_estado
+    - action: localizacao_uf_apenas_form
+    - active_loop: localizacao_uf_apenas_form
+    - active_loop: null
+    - action: action_responder_vacinados_em_um_estado
+
+
 - story: caminho para para saber sobre como usar a máscara corretamente
   steps:
   - intent: start

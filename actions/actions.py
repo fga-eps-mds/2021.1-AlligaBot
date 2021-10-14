@@ -2,7 +2,6 @@
 
 import os
 import time
-import shutil
 import requests
 import requests
 import patoolib
@@ -14,4 +13,5 @@ from rasa_sdk.events import AllSlotsReset
 from os import path
 from typing import Any, Text, Dict, List
 
+import ResponderVacinadosEmUmEstadoAction
 import ResponderSobreCovidAction

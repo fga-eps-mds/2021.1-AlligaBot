@@ -37,6 +37,7 @@ intents:
   - cuidados_escritorio
   - preciso_me_vacinar
   - cuidados_no_atendimento
+  - vacinados_no_meu_estado
   - exercicios_em_casa
   - cuidados_transporte_publico
   - doses_vacina
@@ -52,12 +53,17 @@ intents:
   - quando_vacinar
   - teste_positivo
 
+
 forms:
   localizacao_form:
     required_slots:
       uf:
         - type: from_text
       cidade:
+        - type: from_text
+  localizacao_uf_apenas_form:
+    required_slots:
+      uf:
         - type: from_text
 
 slots:
@@ -70,6 +76,7 @@ slots:
 
 actions:
   - action_dados_covid_baseados_em_localizacao
+  - action_responder_vacinados_em_um_estado
 
 entities:
   - oi
@@ -288,6 +295,9 @@ responses:
 
   utter_ask_localizacao_form_uf:
     - text: "Me conta qual é a sigla do seu estado 🏁. Exemplo: DF"
+
+  utter_ask_localizacao_uf_apenas_form_uf:
+    - text: "Me fala a sigla do seu Estado (UF)"
 
   utter_ask_localizacao_form_cidade:
     - text: "Agora, me diga qual o nome da sua cidade 🏕️. Exemplo: Brasília"

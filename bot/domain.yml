@@ -40,6 +40,11 @@ intents:
   - cuidados_transporte_publico
   - doses_vacina
   - teste_positivo
+  - vacina_eficacia
+  - eficacia_da_coronavac
+  - eficacia_pfizer
+  - eficacia_janssen
+  - eficacia_astrazeneca
 
 
 forms:
@@ -429,6 +434,39 @@ responses:
         - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
         - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
       Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
+  utter_vacina_eficacia:
+  - text: |
+      No Brasil, existem 4 vacinas aprovadas pela ANVISA. De qual delas você deseja saber a eficacia?
+    buttons:
+      - title: Comirnaty (Pfizer/Wyth)
+        payload: /eficacia_pfizer
+      - title: Coronavac (Butantan)
+        payload: /eficacia_da_coronavac
+      - title: Janssen Vaccine (Janssen-Cilag)
+        payload: /eficacia_janssen
+      - title: Oxford/Covishield (Fiocruz e Astrazeneca)
+        payload: /eficacia_astrazeneca
+
+  utter_eficacia_da_coronavac:
+  - text: |
+      Após testes, o Instituto Butantan apresentou um resultado de 50,38% na eficáfia da vacina CoronaVac. De forma mais detalhada: A CoronaVac mostrou-se 100% eficaz nos casos moderados e graves, e 78% eficaz nos casos leves. 
+      
+      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
+
+  utter_eficacia_pfizer:
+  - text: |
+      Eficacia Pfizer
+
+  utter_eficacia_janssen:
+  - text: |
+      Eficacia Janssen
+  
+  utter_eficacia_astrazeneca:
+  - text: |
+      Após testes, a AstraZeneca apresentou certa de 70% de eficácia geral, variando entre 62% e 90%, após a aplicação das duas doses. 
+
+      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
 
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

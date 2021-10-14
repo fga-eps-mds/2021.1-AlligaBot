@@ -424,9 +424,29 @@ nlu:
     - eficácia
     - qual a eficácia das vacinas?
     - como posso saber se as vacinas são eficazes?
-    - eficácia da astrazenica
-    - eficácia da coronavac
-    - eficácia da pfizer
-    - eficácia da janssen
     - estarei imunizado se tomar a vacina?
     - qual a chance de eu pegar covid pós tomar vacina?
+
+- intent: eficacia_pfizer
+  examples: |
+    - eficácia da pfizer
+    - qual a eficácia da pfizer?
+
+- intent: eficacia_da_coronavac
+  examples: |
+    - eficácia da coronavac
+    - qual a eficácia da coronavac?
+    - coronavac funciona mesmo?
+    - porcentagem da eficacia da coronavac
+    - taxa de eficacia coronavac
+    
+- intent: eficacia_janssen
+  examples: |
+    - eficácia da janssen
+    - qual a eficácia da janssen?
+
+- intent: eficacia_astrazeneca
+  examples: |
+    - eficácia da astrazenica
+    - qual a eficácia da astrazenica?
+    - qual a eficácia da astrazeneca?

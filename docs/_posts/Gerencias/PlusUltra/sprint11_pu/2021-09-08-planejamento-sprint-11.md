@@ -3,13 +3,14 @@ tag: plusultra
 ---
 # Planejamento Sprint 11
 
---
+Nessa sprint as ultimas US foram divididas para serem implementadas enquanto estudava-se sobre Testes Rasa.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 08/10/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 16/10/2021 |  0.2   | Adição de Issues | [Amanda Nobre](https://github.com/AmandaNbr)|
 
 ## Tamanho da Sprint
 
@@ -24,6 +25,13 @@ tag: plusultra
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#296](https://github.com/fga-eps-mds/2021-1-Bot/issues/272) | Documentar as sprints 10 e 11 | 2 | Amanda |
+| [#298](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Ajuste no ReadMe | 1 | Amanda |
+| [#303](https://github.com/fga-eps-mds/2021-1-Bot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | 3 | Amanda, Douglas, Erick e Pedro |
+| [#304](https://github.com/fga-eps-mds/2021-1-Bot/issues/304) | Implementação da US38 | 3 | Pedro e Victor |
+| [#306](https://github.com/fga-eps-mds/2021-1-Bot/issues/306) | Implementação da US35 | 3 | Pedro e Victor |
+| [#308](https://github.com/fga-eps-mds/2021-1-Bot/issues/308) | Implementação da US 34 | 8 | Amanda |
+| [#309](https://github.com/fga-eps-mds/2021-1-Bot/issues/309) | Atualizando US14 a US17 | 2 | Douglas |
+| [#316](https://github.com/fga-eps-mds/2021-1-Bot/issues/316) | Correção de erro de incompatibilidade | - | Pedro |
 
 ## Dívidas alocadas
 

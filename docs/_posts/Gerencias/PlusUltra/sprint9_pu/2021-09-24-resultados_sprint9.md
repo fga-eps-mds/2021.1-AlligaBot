@@ -2,6 +2,7 @@
 tag: plusultra
 ---
 # Resultados Sprint 9
+
 A partir dessa Sprint pode-se dizer que todos os integrantes tiveram contato com o código do bot. Os tecnologistas pesquisaram sobre maneiras de pegar dados de API's para o bot utilizar, enquanto os demais se adaptavam ao ambiente e ao código e tentavam implementar uma US informativa.
 
 ## Histórico de Versões
@@ -27,7 +28,6 @@ A partir dessa Sprint pode-se dizer que todos os integrantes tiveram contato com
 | [#265](https://github.com/fga-eps-mds/2021-1-Bot/issues/265) | Instalação e começo de implementação | _Concluído_ |
 | [#269](https://github.com/fga-eps-mds/2021-1-Bot/issues/269) | Reunião planejamento sprint 10 | _Concluído_ |
 
-
 ## Quadro de conhecimentos
 
 ![image](https://user-images.githubusercontent.com/44625056/135730746-26b39739-d049-4515-831a-624eea86c8ea.png)
@@ -50,7 +50,6 @@ O burndown está bastante longe de ser o ideal, creio que por ser semana univers
 
 ![image](https://user-images.githubusercontent.com/44625056/135730862-800880ab-985d-4032-8fce-1de419c8f7bc.png)
 
-
 Nossa equipe foi bastante participativa nessa sprint, fazendo parte de 33 issues das 47 totais. Entretanto tivemos algumas dívidas relacionadas ao gitHub Pages e a tentativa de automatizar o deploy das documentações.
 
 ### Todas as equipes
@@ -60,6 +59,7 @@ Nossa equipe foi bastante participativa nessa sprint, fazendo parte de 33 issues
 Acredito que a divisão de tarefas e integração entre as equipes está ideal nessa sprint.
 
 ## Avaliação da Scrum Master
+
 Foi uma sprint boa, levando em consideração o fato de que a sprint coincide com a semana universitária e mesmo assim a produtividade foi ideal.
 
 Autora: [Amanda Nobre](https://github.com/AmandaNbr)

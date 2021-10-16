@@ -2,6 +2,7 @@
 tag: plusultra
 ---
 # Planejamento Sprint 9
+
 Nessa sprint os tecnologistas voltarão a implementar as US enquanto na primeira metade na sprint as pessoas que não implementaram nada no bot ainda estadarão sobre como rodar o bot e Rasa, para que na segunda metade possam parear com algum tecnologista e tentar implementar uma US.
 
 ## Histórico de Versões
@@ -34,6 +35,7 @@ Nessa sprint os tecnologistas voltarão a implementar as US enquanto na primeira
 | [#269](https://github.com/fga-eps-mds/2021-1-Bot/issues/269) | Reunião planejamento sprint 10 | 2 | Amanda e Pedro |
 
 ## Dívidas alocadas
+
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#217](https://github.com/fga-eps-mds/2021-1-Bot/issues/217) | Arquivos csv com python nas actions | 8 | Erick |

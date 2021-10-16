@@ -20,7 +20,6 @@ A partir da reunião das criação de protótipos, foram criados os protótipos 
 O vídeo do bot que identifica intenção está [aqui](https://user-images.githubusercontent.com/44625056/130374961-47656346-03c4-4794-a604-dc8cefa1314c.mp4).
 E os vídeos do bot que pergunta o tópico da questão que têm finais diferentes, [vídeo 1](https://user-images.githubusercontent.com/44625056/130375095-e8a964ee-ba19-43c4-9c78-bde8e22450d4.mp4) e [vídeo 2](https://user-images.githubusercontent.com/44625056/130375104-4734b18d-da9b-4d9e-b07b-ecd64901897e.mp4).
 
-
 Já na reunião para decidir os requisitos e o backlog do produto foram feitos brainstorms e depois a organização.
 
 - Requisitos:

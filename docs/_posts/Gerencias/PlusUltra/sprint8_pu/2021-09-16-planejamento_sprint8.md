@@ -2,6 +2,7 @@
 tag: plusultra
 ---
 # Planejamento Sprint 8
+
 Essa é a primeira sprint da release 2, portanto é necessário decidir o rumo que as equipes irão seguir e delimitar o escopo do produto que queremos entregar ao final da disciplina. Além disso também é necessário mudar certos pontos levantados pelos feedbacks da release 1 para otimização do projeto.
 
 ## Histórico de Versões
@@ -38,6 +39,7 @@ Essa é a primeira sprint da release 2, portanto é necessário decidir o rumo q
 | [#234](https://github.com/fga-eps-mds/2021-1-Bot/issues/234) | Atualizar roadmap de devops para a sprint 8 | 2 | Yudi |
 
 ## Dívidas alocadas
+
 Não se aplica.
 
 ## Papeis

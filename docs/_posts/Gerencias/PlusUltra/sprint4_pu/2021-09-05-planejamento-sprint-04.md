@@ -9,7 +9,6 @@ Os tecnologistas [Erick](https://github.com/Ericklevy) e [Douglas](https://githu
 A scrum master [Amanda](https://github.com/AmandaNbr), após ter realizado a reunião com os outros scum masters, seguiu a fazer as documentações que estavam pendentes para a release 1, assim como também documentar as sprints passadas, criar um protótipo de baixa fidelidade da página do ghPages e estruturá-lo.
 O product owner [Pedro](https://github.com/PedroLSF) parcipará da criação e preenchimento do termo de abertura, também como organizar o backlog que será retirado da reunião.
 
-
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
@@ -43,7 +42,6 @@ O product owner [Pedro](https://github.com/PedroLSF) parcipará da criação e p
 | [#81](https://github.com/fga-eps-mds/2021-1-Bot/issues/81) | Criar tutorial de rasa em pt para o grupo | Erick Levy e Douglas Monteles |
 | [#83](https://github.com/fga-eps-mds/2021-1-Bot/issues/83) | Conversando com o bot pelo telegram | Erick Levy e Douglas Monteles |
 | [#88](https://github.com/fga-eps-mds/2021-1-Bot/issues/88) | Criação do protótipo de baixa fidelidade do ghPages | Amanda Nobre |
-
 
 ## Papeis
 

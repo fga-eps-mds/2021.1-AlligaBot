@@ -2,6 +2,7 @@
 tag: plusultra
 ---
 # Resultados Sprint 8
+
 Foram arrumados e melhorados os pontos que foram destacados nos feedbacks da release 1 enquanto os tecnologistas fizeram o papel de "batedores" e pesquisaram sobre API's.
 
 ## Histórico de Versões
@@ -59,6 +60,7 @@ Através do gráfico nota-se o que já era esperado: uma baixa no total de Story
 Creio que as equipes no geral estão caminhando na direção certa no que diz respeito a divisão de tarefas no pré-planejamento.
 
 ## Avaliação da Scrum Master
+
 No geral foi uma sprint de recuperar forças e estudar um pouco para voltar a implmentar verdadeiramente na próxima sprint.
 
 Autora: [Amanda Nobre](https://github.com/AmandaNbr)

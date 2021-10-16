@@ -2,6 +2,7 @@
 tag: plusultra
 ---
 # Resultados Sprint 5
+
 Na primeira reunião feita, notou-se um grande deficit na comunicação entre as equipes, portanto foi levantada ideia de criar um discord para melhorar e facilitar a comunição tanto entre as equipes, quanto dentro das equipes. Então, a [Amanda](https://github.com/AmandaNbr) criou o servidor no Discord, com salas para reuniões gerais e para cada equipe, e cargos para facilitar a visualização dos papéis e das equipes.
 
 Após isso, na reunião com os tecnologistas foi decidido o mvp do bot para a release 1: um bot dentro de um container que irá responder algumas perguntas básicas (ainda não acessando nenhuma API).

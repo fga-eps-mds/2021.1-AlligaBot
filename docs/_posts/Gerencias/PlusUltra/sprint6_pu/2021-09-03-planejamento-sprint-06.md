@@ -2,6 +2,7 @@
 tag: plusultra
 ---
 # Planejamento Sprint 6
+
 Nesta sprint as tarefas focam em terminar e resvisar documentações para a release 1 e conseguir fechar o mvp estipulado do bot também para essa release.
 
 ## Histórico de Versões
@@ -35,6 +36,7 @@ Nesta sprint as tarefas focam em terminar e resvisar documentações para a rele
 | [#152](https://github.com/fga-eps-mds/2021-1-Bot/issues/152) | Revisar o plano de gerenciamento de riscos | 5 | Victor Eduardo |
 
 ## Dívidas alocadas
+
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#99](https://github.com/fga-eps-mds/2021-1-Bot/issues/99) | Escolher um padrão de estilo de código | 5 | Yudi Yamane |

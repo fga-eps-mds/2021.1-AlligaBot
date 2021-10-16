@@ -44,6 +44,7 @@ Para o planejamento dessa sprint foram feitas 3 reuniões principais: uma reuni�
 | [#130](https://github.com/fga-eps-mds/2021-1-Bot/issues/130) | Corrigir guia de instalação no README e outros erros | 2 | Yudi Yamane |
 
 ## Dívidas alocadas
+
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#44](https://github.com/fga-eps-mds/2021-1-Bot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | 8 | Yudi Yamane |

@@ -2,6 +2,7 @@
 tag: plusultra
 ---
 # Resultados Sprint 6
+
 Foi uma sprint bastante aproveitada, praticamente todas as tarefas que foram alocadas puderam ser concluídas.
 
 ## Histórico de Versões
@@ -52,6 +53,7 @@ Foi uma sprint bastante aproveitada, praticamente todas as tarefas que foram alo
 ![image](https://user-images.githubusercontent.com/44625056/132962183-16e759f5-c637-4cd6-9ccf-eed4afb0588c.png)
 
 ## Avaliação da Scrum Master
+
 Foi uma boa sprint, porém acho que poderia ter ajustado melhor a tarefa de revisão dos documentos e ter focado em merjar logo os documentos que ainda tinham que ser entregues, fora isso foi tudo bem.
 
 Autora: [Amanda Nobre](https://github.com/AmandaNbr)

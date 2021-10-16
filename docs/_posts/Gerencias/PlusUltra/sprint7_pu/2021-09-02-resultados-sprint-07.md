@@ -2,6 +2,7 @@
 tag: plusultra
 ---
 # Resultados Sprint 7
+
 Conseguimos entregar tudo o que queríamos para a R1, então houve a aula de feedback dos projetos e a apresentação do bot, que deu alguns problemas na hora porém foram resolvidos e a apresentação correu como deveria após isso.
 
 ## Histórico de Versões
@@ -63,6 +64,7 @@ Houveram bastantes tarefas a serem terminadas, sendo a 2º sprint com mais story
 Pelo gráfico é notável que a participação das esquipes Capivaras e Plus Ultra está razoavelmente parecida (60 e 43 story points finalizados respectivamente pelas equipes), porém há uma disparidade da equipe slowbros. Portanto é notável a necessidade de melhor divisão e atribuição de tarefas entre as equipes.
 
 ## Avaliação da Scrum Master
+
 Creio que foi a sprint mais ágil, houve bastante cooperação das equipes e todas as tarefas foram entregues, tornando-se notável então que as equipes estão melhorando bastante a comunicação e as práticas ágeis. A partir dos feedbacks dados pela professora e pelos monitores acredito que a equipe só tende a melhorar a partir de agora.
 
 Autora: [Amanda Nobre](https://github.com/AmandaNbr)

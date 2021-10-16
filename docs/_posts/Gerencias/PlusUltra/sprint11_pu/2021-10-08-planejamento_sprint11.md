@@ -3,6 +3,8 @@ tag: plusultra
 ---
 # Planejamento Sprint 11
 
+--
+
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
@@ -24,6 +26,7 @@ tag: plusultra
 | [#296](https://github.com/fga-eps-mds/2021-1-Bot/issues/272) | Documentar as sprints 10 e 11 | 2 | Amanda |
 
 ## Dívidas alocadas
+
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#274](https://github.com/fga-eps-mds/2021-1-Bot/issues/274) | Explicação sobre as mudanças | 2 | Pedro |

@@ -7,7 +7,6 @@ Os estudos foram efetuados com sucesso, focados na área dos papéis que foram e
 
 ## Histórico de Versões
 
-
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 21/08/2021 |    0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|

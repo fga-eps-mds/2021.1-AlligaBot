@@ -7,7 +7,6 @@ Foram divididos os papéis de cada membro da equipe entre Scrum Master, PO, Arqu
 
 ## Histórico de Versões
 
-
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 21/08/2021 |    0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|

@@ -31,7 +31,7 @@ Nessa sprint as ultimas US foram divididas para serem implementadas enquanto est
 | [#306](https://github.com/fga-eps-mds/2021-1-Bot/issues/306) | Implementação da US35 | 3 | Pedro e Victor |
 | [#308](https://github.com/fga-eps-mds/2021-1-Bot/issues/308) | Implementação da US 34 | 8 | Amanda |
 | [#309](https://github.com/fga-eps-mds/2021-1-Bot/issues/309) | Atualizando US14 a US17 | 2 | Douglas |
-| [#316](https://github.com/fga-eps-mds/2021-1-Bot/issues/316) | Correção de erro de incompatibilidade | - | Pedro |
+| [#316](https://github.com/fga-eps-mds/2021-1-Bot/issues/316) | Correção de erro de incompatibilidade | 1 | Pedro |
 
 ## Dívidas alocadas
 

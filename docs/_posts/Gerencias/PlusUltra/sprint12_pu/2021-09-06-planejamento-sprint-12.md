@@ -34,7 +34,7 @@ Nessa sprint foram divididas as duas seguintes tarefas: realizar testes rasa e h
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#308](https://github.com/fga-eps-mds/2021-1-Bot/issues/308) | Implementação da US 34 | 8 | Amanda |
-| [#316](https://github.com/fga-eps-mds/2021-1-Bot/issues/316) | Correção de erro de incompatibilidade | - | Pedro |
+| [#316](https://github.com/fga-eps-mds/2021-1-Bot/issues/316) | Correção de erro de incompatibilidade | 1 | Pedro |
 
 ## Papeis
 

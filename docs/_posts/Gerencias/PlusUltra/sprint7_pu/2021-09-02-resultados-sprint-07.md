@@ -1,3 +1,6 @@
+---
+tag: plusultra
+---
 # Resultados Sprint 7
 Conseguimos entregar tudo o que queríamos para a R1, então houve a aula de feedback dos projetos e a apresentação do bot, que deu alguns problemas na hora porém foram resolvidos e a apresentação correu como deveria após isso.
 

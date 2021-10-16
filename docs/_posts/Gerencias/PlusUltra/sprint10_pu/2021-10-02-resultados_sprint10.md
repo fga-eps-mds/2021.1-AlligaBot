@@ -1,3 +1,6 @@
+---
+tag: plusultra
+---
 # Resultados Sprint 10
 
 Essa sprint serviu como um alongamento da ambientação geral dos grupos em programar o bot, cada equipe deveria implementar 3 User Stories de intenção e ação do bot, de modo a não precisar de API, usando apenas as ferramentas do Rasa. Enquanto isso os tecnologistas fizeram grande avanço com as User Stories que precisam de API, ao mesmo tempo que os DevOps automatizaram o deploy da documentação no GitHub Pages. 

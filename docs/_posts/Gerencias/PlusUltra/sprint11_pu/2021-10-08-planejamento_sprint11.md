@@ -1,7 +1,6 @@
 ---
-excerpt: ""
+tag: plusultra
 ---
-
 # Planejamento Sprint 11
 
 ## Histórico de Versões

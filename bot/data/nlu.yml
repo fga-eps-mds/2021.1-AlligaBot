@@ -507,3 +507,9 @@ nlu:
     - Teste positivo
     - O que fazer depois do positivo?
 
+- intent: cadastrar_data_proxima_dose_vacina
+  examples: |
+    - Cadastrar data da próxima dose da vacina
+    - Cadastrar data da segunda dose da vacina
+    - Registrar a data da próxima dose da vacina
+    - Registrar a data da segunda dose da vacina

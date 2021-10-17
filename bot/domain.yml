@@ -61,8 +61,7 @@ intents:
   - local_teste
   - quantidade_de_infectados_por_periodo
   - quantidade_de_mortos_por_periodo
-
-
+  - cadastrar_data_proxima_dose_vacina
 
 forms:
   localizacao_form:

@@ -254,4 +254,5 @@ stories:
     - action: cadastro_data_proxima_dose_form
     - active_loop: cadastro_data_proxima_dose_form
     - active_loop: null
+    - action: action_cadastrar_lembrete_proxima_dose
     

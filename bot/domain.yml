@@ -53,6 +53,7 @@ intents:
   - quando_vacinar
   - teste_positivo
   - cadastrar_data_proxima_dose_vacina
+  - EXTERNAL_reminder
 
 forms:
   localizacao_form:
@@ -95,6 +96,8 @@ slots:
 actions:
   - action_dados_covid_baseados_em_localizacao
   - action_responder_vacinados_em_um_estado
+  - action_cadastrar_lembrete_proxima_dose
+  - action_enviar_lembrete_da_proxima_dose_da_vacina
 
 entities:
   - oi

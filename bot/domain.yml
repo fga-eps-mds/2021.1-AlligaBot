@@ -52,7 +52,7 @@ intents:
   - vacina_no_organismo
   - quando_vacinar
   - teste_positivo
-
+  - cadastrar_data_proxima_dose_vacina
 
 forms:
   localizacao_form:
@@ -65,6 +65,14 @@ forms:
     required_slots:
       uf:
         - type: from_text
+  cadastro_data_proxima_dose_form:
+    required_slots:
+      dia:
+        - type: from_text
+      mes:
+        - type: from_text
+      ano: 
+        - type: from_text
 
 slots:
   uf:
@@ -73,6 +81,16 @@ slots:
   cidade:
     type: text
     influence_conversation: false
+  dia:
+    type: text
+    influence_conversation: false
+  mes:
+    type: text
+    influence_conversation: false
+  ano:
+    type: text
+    influence_conversation: false
+  
 
 actions:
   - action_dados_covid_baseados_em_localizacao
@@ -540,6 +558,15 @@ responses:
         - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
         - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
       Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
+  utter_ask_cadastro_data_proxima_dose_form_dia:
+    - text: "Me fala o dia"
+  
+  utter_ask_cadastro_data_proxima_dose_form_mes:
+    - text: "Me fala o mês"
+
+  utter_ask_cadastro_data_proxima_dose_form_ano:
+    - text: "Me fala o ano"
 
   utter_alligabot:
     - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

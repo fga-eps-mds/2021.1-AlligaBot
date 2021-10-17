@@ -17,3 +17,4 @@ import ResponderVacinadosEmUmEstadoAction
 import ResponderSobreCovidAction
 import ResponderQuantidadeInfectadosPorPeriodoAction
 import ResponderQuantidadeMortosPorPeriodoAction
+import ResponderLembreteProximaVacinaAction

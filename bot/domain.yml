@@ -94,15 +94,18 @@ entities:
 
 responses:
   utter_cumprimentar: 
-  - text: "Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
-  - text: "O que voce quer gostaria de perguntar?"
+  - text: "É um prazer te conhecer, eu sou o AlligaBot e estudei sobre o covid-19, como eu posso te ajudar? 👋🏻"
+  - text: "Oi, sou o AlligaBot e vai ser um prazer conversar sobre o covid-19. 👋🏻"
+  - text: "Oi, sou o AlligaBot, um jacaré que sabe muito sobre o covid-19 e posso responder suas dúvidas. 👋🏻"
   
   utter_covid:
   - text: "COVID-19 é uma nova espécie coronavirus, que afeta o sistema imunológico e respiratório"
 
   utter_despedida:
-  - text: "Tchau"
-  - text: "Obrigado, até mais!"
+  - text: "Obrigado pela conversa, tomara que possamos conversar mais. 🤙🏻"
+  - text: "Obrigado, até mais! 🤙🏻"
+  - text: "É só falar caso precise da minha ajuda. 🤙🏻"
+  - text: "Se precisar é só mandar mensagem. 🤙🏻"
 
   utter_fora_do_escopo:
   - text: "Não entendi o que você escreveu. Poderia reformular sua questão sobre o COVID-19?"

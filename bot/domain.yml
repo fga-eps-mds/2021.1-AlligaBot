@@ -54,6 +54,7 @@ intents:
   - teste_positivo
   - cadastrar_data_proxima_dose_vacina
   - EXTERNAL_reminder
+  - local_teste
 
 forms:
   localizacao_form:
@@ -570,6 +571,16 @@ responses:
 
   utter_ask_cadastro_data_proxima_dose_form_ano:
     - text: "Me fala o ano"
+
+  utter_local_teste:
+  - text: |
+      Acalma o coração...
+      Se você estiver com sintomas da doença causada pelo novo coronavírus (Sars-CoV-2) deve procurar a UBS mais próxima de sua residência, onde será acolhido e poderá fazer o teste de acordo com a avaliação da equipe de enfermagem, ou médica.
+      Os exames de pacientes que apresentarem sintomas são coletados nas próprias unidades. Além disso, é realizada a estratégia fast-track ou duplo fluxo, em que os pacientes com quadros respiratórios entram em fluxos separados na unidade.
+
+      Caso faça o teste...espero que dê negativo.
+
+      Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/ 
 
   utter_alligabot:
     - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

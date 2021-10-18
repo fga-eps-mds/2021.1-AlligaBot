@@ -513,3 +513,14 @@ nlu:
     - Cadastrar a data da segunda dose da vacina
     - Registrar a data da próxima dose da vacina
     - Registrar a data da segunda dose da vacina
+
+- intent: local_teste
+  examples: |
+    - Onde me testar?
+    - Local de teste
+    - Estou com covid, aonde fazer o teste?
+    - Qual lugar fazer o teste?
+    - Localidade de testagem
+    - Onde é que eu me testo?
+    - Onde é o lugar para fazer o teste de covid?
+    

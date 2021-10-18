@@ -256,3 +256,7 @@ stories:
     - active_loop: null
     - action: action_cadastrar_lembrete_proxima_dose
     
+- story: Onde posso me testar?
+  steps:
+  - intent: local_teste
+  - action: utter_local_teste

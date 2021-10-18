@@ -251,5 +251,8 @@ stories:
 - story: formulario de cadastro de próxima dose da vacina do covid-19
   steps:
     - intent: cadastrar_data_proxima_dose_vacina
+    - action: cadastro_data_proxima_dose_form
+    - active_loop: cadastro_data_proxima_dose_form
+    - active_loop: null
     - action: action_cadastrar_lembrete_proxima_dose
     

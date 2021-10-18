@@ -4,6 +4,7 @@ title: Equipe Capivaras
 permalink: /Capivaras/
 share: false
 ---
+
 {% for post in site.posts %}
 <div class="article-wrapper">
     <article>

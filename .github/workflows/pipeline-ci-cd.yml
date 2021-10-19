@@ -1,0 +1,30 @@
+# tudo nesse arquivo pode mudar ainda
+
+name: Pipeline de CI/CD do AlligaBot
+
+on:
+  push:
+    branches:
+      - '*'
+    paths:
+      - 'actions/**'
+
+
+jobs:
+  build-actions-server-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dar checkout no repositório
+        uses: actions/checkout@v2
+
+      - name: Build da imagem do servidor de ações
+        uses: RasaHQ/rasa-action-server-gha@v1.0.3
+          with:
+            actions_directory: ./actions/
+            requirements_files: ./actions/requirements.txt
+            dockerfile: ./docker/actions.Dockerfile
+            # docker_image_name: ???
+            # docker_registry_login: ???
+            # docker_registry_password: ???
+
+    

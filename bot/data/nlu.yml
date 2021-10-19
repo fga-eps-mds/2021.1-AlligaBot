@@ -516,4 +516,12 @@ nlu:
     - Localidade de testagem
     - Onde é que eu me testo?
     - Onde é o lugar para fazer o teste de covid?
-    
+
+- intent: quantidade_de_infectados_por_periodo
+  examples: |
+    - Desejo saber a quantidade de infectados pelo covid-19 por período
+    - Quero saber os contaminados por período
+    - Tenho interesse em saber a quantidade de infectados pelo covid-19 por período
+    - Quantos são os infectados pelo covid-19 por período?
+    - Me fala sobre a quantidade de infectados pelo covid-19 por período
+    - Qual a quantidade de infectados por período?

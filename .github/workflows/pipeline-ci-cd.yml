@@ -3,8 +3,10 @@ name: Pipeline de CI/CD do AlligaBot
 
 on:
   push:
+    # https://newbedev.com/github-actions-how-to-target-all-branches-except-master
     branches:
       - '**'
+      - '*/*'
     paths:
       - 'actions/**'
       # esse path é temporário!!!

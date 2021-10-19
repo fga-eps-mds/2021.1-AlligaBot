@@ -1,7 +1,7 @@
 ---
 layout: page_slowbrows
-title: Equipe SlowBrows
-permalink: /Slowbrows/
+title: Equipe Slowbrows
+permalink: /slowbrows/
 share: false
 ---
 {% for post in site.posts %}
@@ -12,8 +12,6 @@ share: false
             {% assign size = post.content | split: site.excerpt_separator | size %}
             
             {{ post.excerpt }}
-           
-            {% else %}
             
             {% endif %}
         </section>

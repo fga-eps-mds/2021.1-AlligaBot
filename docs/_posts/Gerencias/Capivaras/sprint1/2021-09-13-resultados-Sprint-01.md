@@ -22,11 +22,11 @@ os trabalhos. Além disso, o template para documentação e issues foram criadas
 
 ## Burndown
 
-![](../assets/burndown_sprint1.png)
+<img src="{{ '/assets/img/capivaras/burndown_sprint1.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint1.png)
+<img src="{{ '/assets/img/capivaras/velocity_sprint1.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação do Scrum Master
 

@@ -1,3 +1,6 @@
+---
+tag: capivaras
+---
 # Resultados Sprint 7
 
 Essa foi a última sprint antes da release e foi marcada por uma quantidade alta de issues resolvidas. Conseguimos concluir todas as dívidas alocadas de outras sprints e a release 1 foi um sucesso. 
@@ -42,13 +45,13 @@ Essa é a primeira sprint em que começamos a utilizar o quadro de conhecimento.
 Por meio do gráfico podemos ver como nossa política para lidar com as issues melhorou com relação as sprints passadas. Os pontos vão decaindo, pois as issues foram fechadas
 no decorrer da semana, e podemos observar que o gráfico se aproxima mais da linha ideal de pontuação completa.
 
-![](../assets/burndown_sprint7.png)
+<img src="{{ '/assets/img/capivaras/burndown_sprint7.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
 Nesse gráfico de velocity é possível observar que tivemos uma pontuação maior nessa sprint com relação a outras, com 47 pontos completos, de um total de 47. Não deixamos dívidas e a produtividade foi mais elevada, o que agrega valor.
 
-![](../assets/velocity_sprint7.png)
+<img src="{{ '/assets/img/capivaras/velocity_sprint7.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação da sprint
 

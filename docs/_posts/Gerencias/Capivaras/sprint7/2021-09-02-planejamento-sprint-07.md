@@ -1,3 +1,6 @@
+---
+tag: capivaras
+---
 # Planejamento Sprint 07
 
 Essa sprint é a sprint final antes da primeira Release do projeto. A expectativa é que tenhamos muitas atividades e que os documentos já finalizados sejam refinados e estejam prontos
@@ -35,6 +38,7 @@ para serem entregues com qualidade na release. Além disso, é provável que oco
 | [#211](https://github.com/fga-eps-mds/2021-1-Bot/issues/211) | Link de licença quebrado no readme | 5 | Matheus |
 
 ## Dívidas alocadas
+
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#151](https://github.com/fga-eps-mds/2021-1-Bot/issues/151) | Reunião para passagem de conhecimentos acerca da GH Page | 2 | Lameque |

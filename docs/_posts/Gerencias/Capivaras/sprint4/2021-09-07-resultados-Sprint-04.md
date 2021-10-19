@@ -47,11 +47,11 @@ A daily dessa sprint foi feita e pode ser vista aqui: [Daily Sprint 4.pdf](https
 
 ## Burndown
 
-![](../assets/burndown_sprint4.jpg)
+<img src="{{ '/assets/img/capivaras/burndown_sprint4.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint4.jpg)
+<img src="{{ '/assets/img/capivaras/velocity_sprint4.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação do Scrum Master
 

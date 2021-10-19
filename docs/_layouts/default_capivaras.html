@@ -70,7 +70,7 @@
 
     <aside class="site-aside">
         <div class="inner">
-            
+           
             <ul>
                 {% assign pages = site.pages | sort: 'order' %}
                 {% for page in pages %}
@@ -79,7 +79,6 @@
                 {% endif %}
                 {% endfor %}
             </ul>
-
             <ul class="icons">
                 {% include icons.html icons=site.icons %}
             </ul>

@@ -63,7 +63,30 @@ stories:
     intent: vacinados_no_meu_estado
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
-
+- story: variantes de covid
+  steps:
+  - user: |
+      Quais são as variantes do covid?
+    intent: variantes
+  - action: utter_variantes
+- story: caminho para conversar sobre transmissão
+  steps:
+  - user: |
+      Como é a transmissão do vírus?
+    intent: formas_de_transmissao
+  - action: utter_formas_de_transmissao
+- story: caminho para para saber mais sobre o virus
+  steps:
+  - user: |
+      Mais detalhes sobre covid
+    intent: mais_sobre_o_virus
+  - action: utter_mais_sobre_o_virus
+- story: forma gerais de prevencao
+  steps:
+  - user: |
+      Como me prevenir?
+    intent: formas_gerais_de_prevencao
+  - action: utter_formas_gerais_de_prevencao
 
 
   

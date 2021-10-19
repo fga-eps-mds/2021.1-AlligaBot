@@ -1,4 +1,5 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
 # Resultados Sprint 00 (Design Sprint)

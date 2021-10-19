@@ -1,4 +1,5 @@
 ﻿---
+layout: page_slowbrows
 tag: slowbrows
 ---
 # Resultados Sprint 1

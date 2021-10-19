@@ -1,4 +1,5 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
 # Planejamento Sprint 01 (Design Sprint)

@@ -108,9 +108,9 @@ responses:
   - text: "Se precisar é só mandar mensagem. 🤙🏻"
 
   utter_fora_do_escopo:
-  - text: "Não entendi o que você escreveu. Poderia reformular sua questão sobre o COVID-19?"
-  - text: "Não entendi. Tente perguntar algo sobre o COVID-19"
-  - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
+  - text: "Desculpa, me distrai por um momento. Pode me perguntar novamente? 🤔"
+  - text: "Não consegui entender o que você disse. Poderia dizer novamente? 🤔"
+  - text: "Infelizmente eu só estudei sobre o covid-19 😓. Enfim, posso te ajudar em algo sobre o covid-19? 🤔"
 
   utter_formas_gerais_de_prevencao:
   - text: |

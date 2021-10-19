@@ -1,7 +1,6 @@
 import pytest
 from os import path
 from datetime import datetime
-from typing import Any, Text, Dict, List
 
 
 # from actions import ResponderSobreCovidAction

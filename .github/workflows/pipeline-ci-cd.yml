@@ -21,10 +21,10 @@ jobs:
         uses: RasaHQ/rasa-action-server-gha@v1.0.3
         with:
           actions_directory: ./actions/
-          requirements_files: ./actions/requirements.txt
+          requirements_file: ./actions/requirements.txt
           dockerfile: ./docker/actions.Dockerfile
-          # docker_image_name: ???
-          # docker_registry_login: ???
-          # docker_registry_password: ???
+          docker_image_name: "???"
+          docker_registry_login: "???"
+          docker_registry_password: "???"
 
     

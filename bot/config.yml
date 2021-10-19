@@ -14,7 +14,7 @@ pipeline:
 - name: "DIETClassifier"
   epochs: 100
 - name: SpacyNLP
-  model: "pt_core_news_sm"
+  model: "en_core_web_md"
 - name: SpacyEntityExtractor
 - name: "EntitySynonymMapper"
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.

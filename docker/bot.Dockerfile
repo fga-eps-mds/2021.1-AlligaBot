@@ -5,8 +5,6 @@ ADD ./bot /app
 RUN pip install --upgrade pip && \ 
     pip install --progress-bar off -r /app/requirements.txt
 
-RUN python -m spacy download pt_core_news_sm
-
 WORKDIR /app
 
 USER 1001

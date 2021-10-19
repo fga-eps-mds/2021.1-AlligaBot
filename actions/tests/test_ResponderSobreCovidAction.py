@@ -1,11 +1,8 @@
 import pytest
-from os import path
-from datetime import datetime
 
 
-# from actions import ResponderSobreCovidAction
-# from actions.ResponderSobreCovidAction import ResponderSobreCovidAction
-from actions.actions import ResponderSobreCovidAction
+from actions.ResponderSobreCovidAction import ResponderSobreCovidAction
+
 
 def teste_nome():
     return ResponderSobreCovidAction()

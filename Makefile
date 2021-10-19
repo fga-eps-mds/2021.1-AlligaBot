@@ -35,6 +35,9 @@ train:
 	@echo "Iniciando treino."
 	sudo docker exec -it bot rasa train
 
+actions-test:
+	@docker exec -it actions pytest actions/tests/
+
 docs-build:
 	docker run -v $$PWD/docs:/srv/jekyll --name docs -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --livereload
 

@@ -10,7 +10,7 @@ on:
     paths:
       - 'actions/**'
       # esse path é temporário!!!
-      # - '.github/workflows/**'
+      - '.github/workflows/**'
 
 jobs:
   build-actions-server-image:

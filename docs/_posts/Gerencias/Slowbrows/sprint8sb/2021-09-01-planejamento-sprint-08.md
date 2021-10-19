@@ -1,6 +1,7 @@
-﻿
-
-
+﻿---
+layout: page_slowbrows
+tag: slowbrows
+---
 
 # Planejamento Sprint 8
 

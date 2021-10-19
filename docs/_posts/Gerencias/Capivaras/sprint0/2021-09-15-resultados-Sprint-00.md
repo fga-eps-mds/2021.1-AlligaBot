@@ -1,4 +1,5 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
 # Resultados Sprint 00 (Design Sprint)
@@ -25,11 +26,11 @@ Além disso, foram definidos os papéis de cada um dos membros da equipe no trab
 
 ## Burndown
 
-![](../assets/burndown_sprint0.png)
+<img src="{{ '/assets/img/capivaras/burndown_sprint0.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint0.png)
+<img src="{{ '/assets/img/capivaras/velocity_sprint0.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação do Scrum Master
 

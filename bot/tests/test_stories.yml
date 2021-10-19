@@ -78,19 +78,19 @@ stories:
 - story: caminho para para saber mais sobre o virus
   steps:
   - user: |
-      Mais detalhes sobre covid
+      Detalhes sobre a covid
     intent: mais_sobre_o_virus
   - action: utter_mais_sobre_o_virus
 - story: forma gerais de prevencao
   steps:
   - user: |
-      Como me prevenir?
+      Como eu posso me prevenir?
     intent: formas_gerais_de_prevencao
   - action: utter_formas_gerais_de_prevencao
 - story: Pergunta de desafio para o bot
   steps:
   - user: |
-      O que você é?
+      Você é o que?
     intent: bot_alligabot
   - action: utter_alligabot
 

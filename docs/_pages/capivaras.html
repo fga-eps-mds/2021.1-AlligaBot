@@ -4,22 +4,39 @@ title: Equipe Capivaras
 permalink: /Capivaras/
 share: false
 ---
+   
+<div class="wrapper">
+    <div class="section section-gray section-features">
+        <div class="container center">
+            <h3 class="header-text text-center">Membros</h3>
+            <div class="row">
 
-{% for post in site.posts %}
-<div class="article-wrapper">
-    <article>
-        <section class="post-content">
-            {% if post.tag == "capivaras" %}
-            {% assign size = post.content | split: site.excerpt_separator | size %}
-            
-            {{ post.excerpt }}
-            
-            {% endif %}
-        </section>
-    </article>
-</div>
+                <div class="col-md-4" style="display: inline-block; text-align: center" display="inline-block">
+                  <h4 class="header-text-name">Ana Carolina</h4>
+                    <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px;" src="../assets/img/faces/ana.jpeg">                    
+                </div>
 
-{% if forloop.last != true %}
+                <div class="col-md-4" style="text-align: center; display: inline-block">
+                    <h4 class="header-text-name">Lameque Fernandes</h4>
+                      <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/lameque.jpg">
+                  </div>
 
-{% endif %}
-{% endfor %}
+                <div class="col-md-4" style="display: inline-block; text-align: center" display="inline-block">
+                  <h4 class="header-text-name">Matheus Sousa</h4>
+                    <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/matheus.jpg">
+                </div>         
+
+                <div class="col-md-4" style="text-align: center; display: inline-block">
+                    <h4 class="header-text-name">Kathlyn Lara</h4>
+                      <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/lara.jpeg">
+                  </div>
+
+                <div class="col-md-4" style="text-align: center; display: inline-block">
+                  <h4 class="header-text-name">Thais Rebouças</h4>
+                    <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/thais.jpeg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div

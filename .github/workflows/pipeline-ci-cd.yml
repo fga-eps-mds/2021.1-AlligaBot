@@ -4,7 +4,7 @@ name: Pipeline de CI/CD do AlligaBot
 on:
   push:
     branches:
-      - '*'
+      - '**'
     paths:
       - 'actions/**'
       # esse path é temporário!!!

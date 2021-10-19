@@ -8,8 +8,7 @@ on:
     paths:
       - 'actions/**'
       # esse path é temporário!!!
-      - '.github/workflows/pipeline-ci-cd.yml'
-
+      - '.github/workflows/**'
 
 jobs:
   build-actions-server-image:

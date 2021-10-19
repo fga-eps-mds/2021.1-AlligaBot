@@ -87,7 +87,12 @@ stories:
       Como me prevenir?
     intent: formas_gerais_de_prevencao
   - action: utter_formas_gerais_de_prevencao
-
+- story: Pergunta de desafio para o bot
+  steps:
+  - user: |
+      O que você é?
+    intent: bot_alligabot
+  - action: utter_alligabot
 
   
   

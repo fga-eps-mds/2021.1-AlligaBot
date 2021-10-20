@@ -95,9 +95,9 @@ entities:
 responses:
   utter_cumprimentar: 
   - text: 
-      É um prazer te conhecer, eu sou o AlligaBot e estudei sobre a Covid-19, como eu posso te ajudar?👋
+      É um prazer te conhecer, eu sou o AlligaBot e estudei sobre a Covid-19. Como eu posso te ajudar?👋
   - text:
-      Oi, sou o AlligaBot e vai ser um prazer conversar sobre a Covid-19.👋
+      Oi, sou o AlligaBot e vai ser um prazer conversar contigo sobre a Covid-19.👋
   - text: 
       Oi, sou o AlligaBot, um jacaré que sabe muito sobre a Covid-19 e posso responder suas dúvidas.👋
   
@@ -121,17 +121,17 @@ responses:
 
   utter_formas_gerais_de_prevencao:
   - text: |
-      Ah legal, precisamos mesmo nos prevenir, tenho alguns tópicos e são eles😁:
+      Ah, legal! Precisamos mesmo nos prevenir. Tenho alguns tópicos e são eles😁:
         Lavar as mãos frequentemente🧼🤲:
-          Lave com água e sabão por pelo menos 20 segundos, especialmente depois de estar em um local público ou depois de assoar o nariz, tossir ou espirrar.
-          Caso não tenha água e sabão disponíveis, use álcool 70%.
+          Lave com água e sabão por pelo menos 20 segundos, especialmente depois de estar em um local público ou depois de assoar o nariz, tossir ou espirrar. ✔️
+          Caso não tenha água e sabão disponíveis, use álcool 70%. ✔️
         Evite contato próximo🧍🧍:
-          Evite o contato com pessoas doentes🤒, até mesmo dentro de casa 🏘️.
-          A distância ideal é de 2 metros de outra pessoa.🧍-------- 2 metros ----------🧍
+          Evite o contato com pessoas doentes🤒, até mesmo dentro de casa 🏘️. ✔️
+          A distância ideal é de 2 metros de outra pessoa.🧍-------- 2 metros ----------🧍 ✔️
         Use máscara😷:
-          Use sempre que precisar entrar em contato com pessoas.🗣
-          Cubra toda a boca e o nariz.
-          E lembre-se de manter o distanciamento de 2 metros mesmo com o uso de máscara.
+          Use sempre que precisar entrar em contato com pessoas🗣. ✔️
+          Cubra toda a boca e o nariz. ✔️
+          E lembre-se de manter o distanciamento de 2 metros mesmo com o uso de máscara. ✔️
       Esses são os tópicos principais, mas lembre sempre de cubrir tosses e espirros, limpar e desinfetar superfícies tocadas com frequências e fique sempre alerta com os sintomas.
 
       Para saber mais sobre, acesse o mesmo site que utilizei 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
@@ -272,12 +272,12 @@ responses:
 
   utter_mais_beta:
     - text: |
-        Contém uma transmissibilidade maior, mas não tanto quanto a Alfa. As vacinas da Janssen e da Pfizer mantém sua proteção, porém há indícios de que a da AstraZeneca não funcione frente a essa variante. Alcançou Estados Unidos, Canadá e outros 58 países. O primeiro caso brasileiro foi detectado em abril. 💉 
+        Contém uma transmissibilidade maior, mas não tão grande quanto a Alfa. As vacinas da Janssen e da Pfizer mantém sua proteção, porém há indícios de que a da AstraZeneca não funcione frente a essa variante. Alcançou Estados Unidos, Canadá e outros 58 países. O primeiro caso brasileiro foi detectado em abril. 💉 
 
-        Essa variante não esteve tão presente quanto as outras no Brasil, então caso queira saber mais sobre essa variante, acesse este link 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+        Essa variante não esteve tão presente quanto as outras no Brasil, então caso queira saber mais sobre ela, acesse este link 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_gama:
     - text: |
-        A variante (Gama - P.1 linhagem) variante descoberta em japoneses que voltavam do Amazonas e a Gama e muito parecida com a Beta em questão de mutações.
+        A variante (Gama - P.1 linhagem) foi indentificada pela primeira vez em Manaus e a Gama é muito parecida com a Beta em questões de mutações.
 
         É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
@@ -288,14 +288,14 @@ responses:
         Tivemos muito contato com essa variante, caso queira estudar um pouquinho mais, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_delta:
     - text: |
-        A variante Delta surgiu entre o periodo de outubro e Dezembro na India 🇮🇳
-        As mutação vão desde da E484Q que ajuda o virus contra os anticorpos e a L452R, também ligada a resposta imune.
+        A variante Delta surgiu entre o periodo de outubro e Dezembro na Índia 🇮🇳
+        As mutações vão desde a E484Q, que ajuda o vírus contra os anticorpos, até a L452R, que também ligada a resposta imune.
 
         É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_delta_mais:
     - text: |
-        A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido. Além disso as Vacinas que mostraram eficiência foram a Astrezeneca e a Pfizer. 💉
+        A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as Vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
 
         Caso queira se aprofundar nos estudos sobre as variantes, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_saude_mental:

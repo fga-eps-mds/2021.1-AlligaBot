@@ -54,7 +54,10 @@ intents:
   - teste_positivo
   - cadastrar_data_proxima_dose_vacina
   - EXTERNAL_reminder
+  - oque_fazer_suspeita
   - local_teste
+  - quantidade_de_infectados_por_periodo
+  - quantidade_de_mortos_por_periodo
 
 forms:
   localizacao_form:
@@ -67,7 +70,7 @@ forms:
     required_slots:
       uf:
         - type: from_text
-  cadastro_data_proxima_dose_form:
+  cadastro_data_form:
     required_slots:
       dia:
         - type: from_text
@@ -92,13 +95,14 @@ slots:
   ano:
     type: text
     influence_conversation: false
-  
 
 actions:
   - action_dados_covid_baseados_em_localizacao
   - action_responder_vacinados_em_um_estado
   - action_cadastrar_lembrete_proxima_dose
   - action_enviar_lembrete_da_proxima_dose_da_vacina
+  - action_responder_quantidade_infectados_por_periodo
+  - action_responder_quantidade_mortos_por_periodo
 
 entities:
   - oi
@@ -563,14 +567,15 @@ responses:
         - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
       Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
-  utter_ask_cadastro_data_proxima_dose_form_dia:
-    - text: "Me fala o dia"
-  
-  utter_ask_cadastro_data_proxima_dose_form_mes:
-    - text: "Me fala o mês"
+  utter_oque_fazer_suspeita:
+  - text: |
+      Em caso de suspeita, fique em casa por 14 dias, você e as pessoas que moram com você.
+      Durante esse período de isolamento, acompanhe os sintomas e veja se elas não se agravem. Em sintomas leves, como os de um resfriado comum, apenas fique de repouso, alimente-se bem, mantenha-se hidratado, e se precisar, use antitérmicos e analgésicos para aliviar os incômodos. Já em caso de sintomas mais graves, como febre alta persistente e desconforto respiratório, procute atendimento médico imediatamente.
+      Se precisar tirar mais alguma dúvida e eu não conseguir te responder, ligue para o Disque Saúde, pelo número 136.
+      Um abraço virtual e se cuide!
 
-  utter_ask_cadastro_data_proxima_dose_form_ano:
-    - text: "Me fala o ano"
+  utter_alligabot:
+  - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 
   utter_local_teste:
   - text: |
@@ -578,9 +583,19 @@ responses:
       Se você estiver com sintomas da doença causada pelo novo coronavírus (Sars-CoV-2) deve procurar a UBS mais próxima de sua residência, onde será acolhido e poderá fazer o teste de acordo com a avaliação da equipe de enfermagem, ou médica.
       Os exames de pacientes que apresentarem sintomas são coletados nas próprias unidades. Além disso, é realizada a estratégia fast-track ou duplo fluxo, em que os pacientes com quadros respiratórios entram em fluxos separados na unidade.
 
+
       Caso faça o teste...espero que dê negativo.
 
       Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/ 
+
+  utter_ask_cadastro_data_form_dia:
+    - text: "Preciso saber o número do dia"
+  
+  utter_ask_cadastro_data_form_mes:
+    - text: "Agora de informe o número do mês"
+
+  utter_ask_cadastro_data_form_ano:
+    - text: "Por fim, me informe o número do ano"
 
   utter_alligabot:
     - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

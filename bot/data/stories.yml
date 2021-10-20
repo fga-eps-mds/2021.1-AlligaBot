@@ -251,12 +251,33 @@ stories:
 - story: formulario de cadastro de próxima dose da vacina do covid-19
   steps:
     - intent: cadastrar_data_proxima_dose_vacina
-    - action: cadastro_data_proxima_dose_form
-    - active_loop: cadastro_data_proxima_dose_form
+    - action: cadastro_data_form
+    - active_loop: cadastro_data_form
     - active_loop: null
     - action: action_cadastrar_lembrete_proxima_dose
-    
+
+- story: estou com suspeita de COVID-19
+  steps:
+  - intent: oque_fazer_suspeita
+  - action: utter_oque_fazer_suspeita
+
 - story: Onde posso me testar?
   steps:
   - intent: local_teste
   - action: utter_local_teste
+
+- story: Informando ao usuário a quantidade de infectados por período
+  steps:
+  - intent: quantidade_de_infectados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_infectados_por_periodo
+
+- story: Informando ao usuário a quantidade de mortos por período
+  steps:
+  - intent: quantidade_de_mortos_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_mortos_por_periodo

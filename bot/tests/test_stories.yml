@@ -2,6 +2,7 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 version: "2.0"
 stories:
+
 - story: inicio conversa
   steps:
   - user: |
@@ -56,16 +57,34 @@ stories:
       quero saber sobre Delta
     intent: mais_delta
   - action: utter_delta_mais
+- story: cuidados no transporte público
+  steps:
+  - user: |
+      Como me cuidar no transporte público
+    intent: cuidados_transporte_publico
+  - action: utter_cuidados_transporte_publico
+- story: seguranca das vacinas
+  steps:
+  - user: |
+      A vacina é segura
+    intent: vacina_eh_segura
+  - action: utter_vacina_eh_segura 
+- story: exercicios em casa
+  steps:
+  - user: |
+      Como posso me exercitar em casa
+    intent: exercicios_em_casa
+  - action: utter_exercicios_em_casa
+- story: saude mental
+  steps:
+  - user: |
+      Como posso manter a saúde mental
+    intent: saude_mental
+  - action: utter_saude_mental
 - story: formulario de localizacao do usuario para informar vacinados
   steps:
   - user: |
-      Quantas doses de vacina foram distribuídas no meu estado?
+      Quantas doses de vacina foram distribuídas no meu estado
     intent: vacinados_no_meu_estado
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
-
-
-
-  
-  
-

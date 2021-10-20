@@ -1,4 +1,5 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
 # Resultados Sprint 6
@@ -39,11 +40,11 @@ A personalidade e identidade visual do Chatbot ainda estão pendentes, mas apena
 
 ## Burndown
 
-![](../assets/burndown_sprint6.jpg)
+<img src="{{ '/assets/img/capivaras/burndown_sprint6.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint6.jpg)
+<img src="{{ '/assets/img/capivaras/velocity_sprint6.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação da sprint
 

@@ -1,5 +1,7 @@
-﻿
-
+﻿---
+layout: page_slowbrows
+tag: slowbrows
+---
 
 # Resultado Sprint 7
 No final dessa sprint conseguimos apresentar e entregar o necessário para a release 1. Agora, com o feedback da professora e dos monitores, o objetivo das próximas sprints é melhorar e aplicar tudo que foi passado. 

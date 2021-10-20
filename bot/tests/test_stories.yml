@@ -102,3 +102,13 @@ stories:
   - active_loop: localizacao_form
   - active_loop: null
   - action: action_dados_covid_baseados_em_localizacao
+
+- story: Informando ao usuário a quantidade de infectados por período
+  steps:
+  - user: |
+      Desejo saber a quantidade de infectados pelo covid-19 por período
+    intent: quantidade_de_infectados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_infectados_por_periodo

@@ -260,3 +260,11 @@ stories:
   - active_loop: cadastro_data_form
   - active_loop: null
   - action: action_responder_quantidade_infectados_por_periodo
+
+- story: Informando ao usuário a quantidade de mortos por período
+  steps:
+  - intent: quantidade_de_mortos_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_mortos_por_periodo

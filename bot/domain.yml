@@ -54,6 +54,7 @@ intents:
   - teste_positivo
   - local_teste
   - quantidade_de_infectados_por_periodo
+  - quantidade_de_mortos_por_periodo
 
 forms:
   localizacao_form:

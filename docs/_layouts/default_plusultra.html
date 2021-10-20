@@ -70,11 +70,9 @@
 
     <aside class="site-aside">
         <div class="inner">
-            <div class="block">
-                <form action="{{ site.baseurl }}/search">
-                    <input type="search" id="search" name="q" placeholder="{{ site.str_search }}" />
-                </form>
-            </div>
+           
+            <h2>Equipes</h2>
+
             <ul>
                 {% assign pages = site.pages | sort: 'order' %}
                 {% for page in pages %}
@@ -86,7 +84,6 @@
             <ul class="icons">
                 {% include icons.html icons=site.icons %}
             </ul>
-            <hr class="with-no-margin margin-bottom"/>
 
             <div class="block sticky">
                 <h2>Sprints</h2>

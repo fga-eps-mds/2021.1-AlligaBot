@@ -353,6 +353,17 @@ nlu:
     - Posso ir trabalhar?
     - Posso ir ao escritório?
 
+- intent: preciso_me_vacinar
+  examples: |
+    - Preciso me vacinar?
+    - Preciso me vacina?
+    - É necessário tomar a vacina?
+    - Todo mundo precisa tomar a vacina?
+    - Quem precisa tomar a vacina?
+    - Já peguei covid-19, preciso tomar a vacina?
+    - Já peguei covid-19, preciso me vacinar?
+    - Necessidade da vacina
+
 - intent: cuidados_no_atendimento
   examples: |
     - Como me cuidar ao atender clientes?
@@ -369,8 +380,18 @@ nlu:
     - Atendimento ao cliente
     - O que fazer para me previnir do COVID-19 no atendimento?
     - O que fazer para me previnir do COVID-19 no atendimento ao cliente?
-    - O que fazer para me proteger do COVID-19 no atendimento ao cliente? 
+    - O que fazer para me proteger do COVID-19 no atendimento ao cliente?
 
+- intent: vacinados_no_meu_estado
+  examples: |
+    - Quantas pessoas foram vacinadas no estado de Amazonas?
+    - Quantas pessoas foram vacinadas no estado de Rio Grande do Sul?
+    - Quantas pessoas foram vacinadas aqui?
+    - Quantas doses de vacina foram distribuídas no meu estado?
+    - quantos foram vacinados onde eu moro?
+    - vacinados no meu estado
+    - vacinados no meu estado?
+    - quantas pessoas estão vacinadas no meu estado atualmente?
 
 - intent: exercicios_em_casa
   examples: |
@@ -409,6 +430,74 @@ nlu:
     - quantidade de doses
     - quantas vacinas tomar
 
+- intent: qual_exame_fazer
+  examples: |
+    - Qual tipo de teste eu faço?
+    - Qual o teste mais indicado pra mim?
+    - Qual teste fazer?
+    - tenho sintomas e quero me testar
+    - quero me testar
+    - que teste eu faço?
+    - testagem mais indicada
+
+- intent: exame_contato_covid
+  examples: |
+    - Tive contato com alguém contaminado
+    - Entrei em contato com o virus 
+    - Encontrei alguem com suspeita de covid
+  
+- intent: exame_com_sintomas
+  examples: |
+    - tenho sintomas
+    - estou com sintomas
+
+- intent: sintomas_mais_de_8
+  examples: |
+    - to com sintomas a mais de 8 dias
+    - estou doente já tem mais de 1 semana
+    - to na mals tem oito dias
+
+- intent: sintomas_menos_de_8
+  examples: |
+    - to com sintomas a menos de 8 dias
+    - estou doente tem poucos dias
+    - to doente a menos de uma semana
+
+- intent: exame_sem_sintomas
+  examples: |
+    - não tenho sintomas
+    - não estou com sintomas
+    - tive contato com alguém com covid
+    - tive contato com alguém com suspeita
+
+- intent: contato_mais_de_10
+  examples: |
+    - tive contato com o virus a mais de 10 dias
+    - entrei em contato com alguem contaminado a mais de 10 dias
+    - tem mais de 10 dias
+
+- intent: contato_menos_de_10
+  examples: |
+    - tive contato com o virus a menos de 10 dias
+    - entrei em contato com alguem contaminado a menos de 10 dias
+    - tem menos de 10 dias
+  
+- intent: vacina_no_organismo
+  examples: |
+    - Como a vacina funciona?
+    - Como a vacina age no organismo?
+    - Funcionamento da vacina
+
+- intent: quando_vacinar
+  examples: |
+    - Quando posso vacinar?
+    - Já posso me vacinar?
+    - Meu filho pode se vacinar?
+    - Criança pode se vacinar?
+    - Quem já se vacinou?
+    - Idade para vacinar
+    - Idade para vacinação
+
 - intent: teste_positivo
   examples: |
     - positivo
@@ -426,3 +515,12 @@ nlu:
     - estou com sintomas
     - estou com sintomas de covid-19
 
+- intent: local_teste
+  examples: |
+    - Onde me testar?
+    - Local de teste
+    - Estou com covid, aonde fazer o teste?
+    - Qual lugar fazer o teste?
+    - Localidade de testagem
+    - Onde é que eu me testo?
+    - Onde é o lugar para fazer o teste de covid?

@@ -1,4 +1,5 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
 # Resultados Sprint 02
@@ -52,11 +53,11 @@ Por fim, a configuração do ambiente de desenvolvimento não foi concluída e, 
 
 ## Burndown
 
-![](../assets/burndown_sprint2.png)
+<img src="{{ '/assets/img/capivaras/burndown_sprint2.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint2.png)
+<img src="{{ '/assets/img/capivaras/velocity_sprint2.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 
 ## Avaliação do Scrum Master

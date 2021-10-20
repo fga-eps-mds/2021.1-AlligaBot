@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 3
 
 Foram planejadas várias tarefas para a sprint 4, dentre elas houve a marcação de uma reunião acerca de decidir as Epics, Features e User Stories, a qual a tarefa de documentar e guiar a reunião foi dada ao p.o [Pedro](https://github.com/PedroLSF). 
 Dentro do conceito de arquitetura, que corresponde ao integrante [Victor](https://github.com/victorear05) foi planejado um estudo aprofundado em relação a frameworks, API's e integração com plataformas e avançar na arquitetura montando um um desenho inicial da arquitetura do bot, com relação ao tema do grupo (prevenção) e criando a arquitetura inicial do projeto.

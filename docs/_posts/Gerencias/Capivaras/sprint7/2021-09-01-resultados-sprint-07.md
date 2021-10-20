@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 7
 
 Essa foi a última sprint antes da release e foi marcada por uma quantidade alta de issues resolvidas. Conseguimos concluir todas as dívidas alocadas de outras sprints e a release 1 foi um sucesso. 
 Além disso, recebemos alguns feedbacks e haverão alterações nos documentos já concluídos.
@@ -39,7 +38,7 @@ Além disso, recebemos alguns feedbacks e haverão alterações nos documentos j
 
 Essa é a primeira sprint em que começamos a utilizar o quadro de conhecimento. Ele é importante para avaliarmos o crescimento e as necessidades de aprendizado da equipe.
 
-![](../assets/conhecimento_sprint7.png)
+<img src="{{ '/assets/img/capivaras/conhecimento_sprint7.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Burndown
 

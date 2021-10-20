@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 1
 
 Os estudos foram efetuados com sucesso, focados na área dos papéis que foram escolhidos na sprint anterior. Nessa sprint houve a formação de um pareamento na equipe, que consiste na dupla Erick e Douglas, pois iriam estudar sobre temas parecidos, então a melhor opção foi a criação da dupla. As pesquisas da sprint foram sobre documentação (Amanda), requisitos (Pedro), arquitetura (Victor), DevOps (Yudi), linguagens e frameworks (Erick e Douglas). O integrante Pedro, que é o Product Owner, teve a tarefa de, juntamente com outros p.o's, marcar e realizar uma reunião com o cliente para o levantamento de requisitos e possíveis funcionalidades, então, a partir disso o escopo do projeto poderia ser dividido para os três grupos. 
 

@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 01
 
 Foi criado um grupo no Telegram para contato entre os integrantes de todos os grupos, mas foi criada uma nova Issue para que a [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)
 organize reuniões ordinárias com outros PO's dos diferentes grupos. Quanto aos estudos de tecnologia, O grupo entendeu que estudar as tecnologias é uma tarefa que abrange 

@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 7
 
 Nesta sprint o foco é deixar tudo pronto, tanto as documentações no ghPage do repositório quanto o mvp estipulado do chatBot, para a release que será no dia 14, meio da sprint.
 

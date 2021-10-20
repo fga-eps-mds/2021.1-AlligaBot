@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Planejamento Sprint 03
 
 Essa sprint tem um papel importante, pois nela iremos terminar os protótipos de baixa e alta fidelidade, bem como tomaremos algumas decisões importantes na platadorma que vamos utilizar,
 além de leves mudanças em templates e políticas de documentação.

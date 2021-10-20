@@ -2,7 +2,6 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Planejamento Sprint 4
 
 Nessa Sprint 4 foi decidido que daremos inicio a alguns documentos extremamente necessários para o andamento do projeto, como o documento de arquitetura, a estrutura analítica, GitHub pages, a primeira versão do ReadMe e a elicitação de requisitos . Além disso faremos algumas reuniões com os integrantes dos demais grupos para alinharmos os pensamentos e avançar no projeto.
 

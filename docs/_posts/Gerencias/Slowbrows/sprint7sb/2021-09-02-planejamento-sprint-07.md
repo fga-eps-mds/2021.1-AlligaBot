@@ -3,9 +3,6 @@ layout: page_slowbrows
 tag: slowbrows
 ---
 
-# Planejamento Sprint 7
-
-
 Utilizaremos essa sprint para organizar e revisar todos os documentos necessários para a release 1. Além de gravar os vídeos de apresentação geral e o da equipe Slowbros.
 
 

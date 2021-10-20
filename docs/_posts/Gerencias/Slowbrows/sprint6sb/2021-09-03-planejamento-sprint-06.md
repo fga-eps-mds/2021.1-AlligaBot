@@ -3,9 +3,6 @@ layout: page_slowbrows
 tag: slowbrows
 ---
 
-
-# Planejamento Sprint 6
-
 Na 6 sprint, tivemos que terminar alguns documentos restantes que foram designados a sprint 5, além de fazer o plano de comunicação e  revisar  o documento de arquitetura.
 
 

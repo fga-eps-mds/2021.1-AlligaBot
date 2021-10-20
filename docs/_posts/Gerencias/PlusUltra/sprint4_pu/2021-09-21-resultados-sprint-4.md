@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 4
 
 A partir da reunião das criação de protótipos, foram criados os protótipos de baixa fidelidade do fluxo de conversa com o bot e os protótipos de alta e baixa fidelidade do produto.
 

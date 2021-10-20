@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 11
 
 A sprint 11 foi boa, apesar de algumas dividas as US que não precisam de API/CSV estão praticamente terminadas e prontas para serem testadas e otimizadas.
 

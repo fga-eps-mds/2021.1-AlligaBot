@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Planejamento Sprint 06
 
 Essa Sprint terá um número consideravelmente menor de issues próprias para resolução. Há um número maior de dívidas alocadas devido a Issues mais complexas anteriores e ao acúmulo de documentos 
 de gerência pendentes. As tarefas estão sendo divididas entre os grupos com base na complexidade e de modo que a sobrecarga de trabalho seja diminuída ao máximo.

@@ -2,7 +2,6 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Planejamento Sprint 2
 
 Com os objetivos do grupo especificados, utilizaremos essa Sprint para continuar os estudos com o foco em aprender mais sobre chat bot e prevenções da COVID-19. Além disso foi organizado os melhores horários para o grupo se reunir, com a criação de uma tabela com os horários ideias para reuniões 
 

@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Planejamento Sprint 07
 
 Essa sprint é a sprint final antes da primeira Release do projeto. A expectativa é que tenhamos muitas atividades e que os documentos já finalizados sejam refinados e estejam prontos
 para serem entregues com qualidade na release. Além disso, é provável que ocorra sobrecarga devido a dívidas alocadas de outras sprints.

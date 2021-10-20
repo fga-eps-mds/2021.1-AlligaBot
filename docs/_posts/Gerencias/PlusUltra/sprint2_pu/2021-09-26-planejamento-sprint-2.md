@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 2
 
 Infortunadamente não houve, de maneira concreta, um planejamento da sprint 2, dado que a Scrum Master não pôde comparecer a reunião de Retrospectiva, Review e Planning. A partir disso, ficou subentendido dentre os membros da equipe continuar com os estudos da sprint passada. Nessa sprint ocorreu também, por parte do p.o, o começo do RoadMap do produto.
 

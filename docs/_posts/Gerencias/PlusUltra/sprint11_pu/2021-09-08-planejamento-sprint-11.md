@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 11
 
 Nessa sprint as ultimas US foram divididas para serem implementadas enquanto estudava-se sobre Testes Rasa.
 

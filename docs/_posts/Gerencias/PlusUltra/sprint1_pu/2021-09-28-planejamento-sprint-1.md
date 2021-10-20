@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 1
 
 Foi apresentado ao time o projeto da disciplina, que consiste no desenvolvimento de um chatBot informativo sobre o Covid-19, portanto, ainda num contexto de ambientalização, a equipe continuou com os objetivos de pesquisar e estudar, porém agora com o escopo fechado em torno do projeto, buscando aprender tendo em vista que utilidade este conhecimento poderia vir a ter dentro do desenvolvimento do bot.
 

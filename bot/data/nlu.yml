@@ -542,3 +542,14 @@ nlu:
     - Quantos seriam os mortos pelo covid-19 por período?
     - Me informe a quantidade de mortos pelo covid-19 por período
     - Qual seria a quantidade de mortos por período?
+
+- intent: quantidade_de_vacinados_por_periodo
+  examples: |
+    - Desejo saber a quantidade de vacinados contra o covid-19 por período
+    - Quero saber os vacinados por período
+    - Tenho interesse em saber a quantidade de vacinados contra o covid-19 por período
+    - Quantos são os vacinados contra o covid-19 por período?
+    - Me fala sobre a quantidade de vacinados contra o covid-19 por período
+    - Qual a quantidade de vacinados por período?
+    - Vacinados por período
+    - Total de vacinados por período

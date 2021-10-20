@@ -507,6 +507,14 @@ nlu:
     - Teste positivo
     - O que fazer depois do positivo?
 
+- intent: oque_fazer_suspeita
+  examples: |
+    - suspeita covid
+    - o que fazer caso esteja com suspeita de covid?
+    - estou com suspeita de covid-19, o que fazer?
+    - estou com sintomas
+    - estou com sintomas de covid-19
+
 - intent: local_teste
   examples: |
     - Onde me testar?

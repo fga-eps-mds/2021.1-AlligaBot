@@ -1,29 +1,25 @@
 ﻿---
+layout: page_slowbrows
 tag: slowbrows
 ---
-# Planejamento Sprint 1
+# Resultado Sprint 2
 
-Após aprendermos qual será o objetivo da disciplina, devemos designar os cargos de todos os membros do grupo e começar a discutir quais tecnologias que serão utilizadas. Foi proposto para cada membro do grupo iniciar os estudos sobre seus respectivos papeis.
+Houve um bom andamento nos estudos do grupo. Conseguimos nos reunir e discutir tópicos importantes sobre o projeto e nossas expectativas sobre a disciplina.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 29/08/2021 |    0.1   | planSprint1 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 29/08/2021 |    0.1   | resultSprint2 | [Henrique Hida](https://github.com/HenriqueHida)|
 
 ## Tamanho da Sprint
 
-**Início**: 29/07/21
+**Início**: 04/08/21
 
-**Fim**: 04/08/21
+**Fim**: 11/08/21
 
 **Duração**: 7 dias
 
-## Objetivos
-
-| Issue |            Título            |        Responsáveis         | 
-|:-------:|:----------------------------:|:-----------------------------:|
-| [#23](https://github.com/fga-eps-mds/2021-1-Bot/issues/23) | Sprint 1 - Preparação |
 
 ## Papeis
 

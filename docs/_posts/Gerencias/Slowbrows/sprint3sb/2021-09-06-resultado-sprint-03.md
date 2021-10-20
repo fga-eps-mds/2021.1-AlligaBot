@@ -1,24 +1,24 @@
 ﻿---
+layout: page_slowbrows
 tag: slowbrows
 ---
-# Resultado Sprint 2
+# Resultado Sprint 3
 
-Houve um bom andamento nos estudos do grupo. Conseguimos nos reunir e discutir tópicos importantes sobre o projeto e nossas expectativas sobre a disciplina.
+Para essa Sprint, não houve um planejamento por parte da equipe.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 29/08/2021 |    0.1   | resultSprint2 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 29/08/2021 |    0.1   | resultSprint3 | [Henrique Hida](https://github.com/HenriqueHida)|
 
 ## Tamanho da Sprint
 
-**Início**: 04/08/21
+**Início**: 12/08/21
 
-**Fim**: 11/08/21
+**Fim**: 19/08/21
 
 **Duração**: 7 dias
-
 
 ## Papeis
 

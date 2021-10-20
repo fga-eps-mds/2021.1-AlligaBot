@@ -10,6 +10,8 @@ nlu:
     - Ola
     - Bom dia
     - Boa Tarde
+    - Alo
+    - Como vai
 
     
 - intent: despedida
@@ -19,11 +21,19 @@ nlu:
     - flw
     - obrigado bot
     - tchau
+    - Fui
+    - Ate logo
+    - conversamos mais depois
+    - quero parar
+    - finalizar
+    - parar
 
 - intent: covid
   examples: |
-    - o que e COVID ?
-    - COVID
+    - o que e Covid-19 ?
+    - Covid-19
+    - Quero saber mais sobre o que é a Covid-19?
+    -
 
 - intent: fora_do_escopo
   examples: |
@@ -89,6 +99,8 @@ nlu:
     - mais alfa
     - mais sobre alfa
     - mais alfa
+    - quero mais detalhes sobre a alfa
+    - detalhe alfa
 
 - intent: beta
   examples: |
@@ -105,6 +117,9 @@ nlu:
     - mais beta
     - mais sobre beta
     - mais bet
+    - mais detalhe beta
+    - detalhe beta
+    - quero mais detalhes sobre a beta
 
 - intent: gama
   examples: |
@@ -119,6 +134,9 @@ nlu:
     - me fale sobre gama
     - mais Gama
     - mais sobre gama
+    - mais detalhe gama
+    - detalhe gama
+    - quero mais detalhes sobre a gama
 
 - intent: delta
   examples: |
@@ -132,6 +150,9 @@ nlu:
     - me fale sobre Delta
     - mais Delta
     - mais sobre delta
+    - mais detalhe delta
+    - detalhe delta
+    - quero mais detalhes sobre a delta
 
 - intent: formas_gerais_de_prevencao
   examples: |

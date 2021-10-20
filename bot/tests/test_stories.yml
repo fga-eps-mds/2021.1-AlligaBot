@@ -86,4 +86,9 @@ stories:
     intent: uso_correto_mascara
   - action: utter_uso_correto_mascara
 
-
+- story: sintomas
+  steps:
+  - user: |
+      Quais são os principais sintomas da COVID-19?
+    intent: sintomas
+  - action: utter_sintomas

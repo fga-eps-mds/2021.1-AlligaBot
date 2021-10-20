@@ -252,3 +252,10 @@ stories:
   steps:
   - intent: local_teste
   - action: utter_local_teste
+
+- story: Informando ao usuário a quantidade de infectados por período
+  steps:
+  - intent: quantidade_de_infectados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null

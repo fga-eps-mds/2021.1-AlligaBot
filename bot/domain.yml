@@ -54,7 +54,8 @@ intents:
   - teste_positivo
   - oque_fazer_suspeita
   - local_teste
-
+  - quantidade_de_infectados_por_periodo
+  - quantidade_de_mortos_por_periodo
 
 
 forms:
@@ -68,6 +69,14 @@ forms:
     required_slots:
       uf:
         - type: from_text
+  cadastro_data_form:
+    required_slots:
+      dia:
+        - type: from_text
+      mes:
+        - type: from_text
+      ano: 
+        - type: from_text
 
 slots:
   uf:
@@ -76,10 +85,21 @@ slots:
   cidade:
     type: text
     influence_conversation: false
+  dia:
+    type: text
+    influence_conversation: false
+  mes:
+    type: text
+    influence_conversation: false
+  ano:
+    type: text
+    influence_conversation: false
 
 actions:
   - action_dados_covid_baseados_em_localizacao
   - action_responder_vacinados_em_um_estado
+  - action_responder_quantidade_infectados_por_periodo
+  - action_responder_quantidade_mortos_por_periodo
 
 entities:
   - oi
@@ -565,6 +585,15 @@ responses:
       Caso faça o teste...espero que dê negativo.
 
       Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/ 
+
+  utter_ask_cadastro_data_form_dia:
+    - text: "Preciso saber o número do dia"
+  
+  utter_ask_cadastro_data_form_mes:
+    - text: "Agora de informe o número do mês"
+
+  utter_ask_cadastro_data_form_ano:
+    - text: "Por fim, me informe o número do ano"
 
   utter_alligabot:
     - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"

@@ -259,3 +259,4 @@ stories:
   - action: cadastro_data_form
   - active_loop: cadastro_data_form
   - active_loop: null
+  - action: action_responder_quantidade_infectados_por_periodo

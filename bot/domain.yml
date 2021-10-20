@@ -95,6 +95,7 @@ slots:
 actions:
   - action_dados_covid_baseados_em_localizacao
   - action_responder_vacinados_em_um_estado
+  - action_responder_quantidade_infectados_por_periodo
 
 entities:
   - oi

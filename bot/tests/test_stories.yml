@@ -64,7 +64,7 @@ stories:
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
 
-- story: caminho possivel para para saber sobre os tipos de máscaras
+- story: caminho possivel para saber sobre os tipos de máscaras
   steps:
   - user: |
       oi
@@ -75,5 +75,5 @@ stories:
     intent: tipos_de_mascaras
   - action: utter_tipos_de_mascaras
   
-  
+
 

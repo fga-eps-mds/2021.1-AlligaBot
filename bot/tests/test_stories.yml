@@ -75,5 +75,15 @@ stories:
     intent: tipos_de_mascaras
   - action: utter_tipos_de_mascaras
   
+- story: caminho para saber sobre como usar a máscara corretamente
+  steps:
+  - user: |
+      oi
+    intent: start
+  - action: utter_cumprimentar
+  - user: |
+      Qual é o jeito certo de utilizar a máscara?
+    intent: uso_correto_mascara
+  - action: utter_uso_correto_mascara
 
 

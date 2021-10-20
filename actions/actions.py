@@ -2,4 +2,3 @@
 
 from actions import ResponderVacinadosEmUmEstadoAction
 from actions import ResponderSobreCovidAction
-

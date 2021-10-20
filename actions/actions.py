@@ -16,3 +16,4 @@ from typing import Any, Text, Dict, List
 import ResponderVacinadosEmUmEstadoAction
 import ResponderSobreCovidAction
 import ResponderQuantidadeInfectadosPorPeriodoAction
+import ResponderQuantidadeMortosPorPeriodoAction

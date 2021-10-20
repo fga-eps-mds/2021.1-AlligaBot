@@ -525,3 +525,12 @@ nlu:
     - Quantos são os infectados pelo covid-19 por período?
     - Me fala sobre a quantidade de infectados pelo covid-19 por período
     - Qual a quantidade de infectados por período?
+
+- intent: quantidade_de_mortos_por_periodo
+  examples: |
+    - Me informe a quantidade de mortos pelo covid-19 por período
+    - Quero saber sobre o número de mortos por período
+    - Me interesso em saber sobre quantidade de mortos pelo covid-19 por período
+    - Quantos seriam os mortos pelo covid-19 por período?
+    - Me informe a quantidade de mortos pelo covid-19 por período
+    - Qual seria a quantidade de mortos por período?

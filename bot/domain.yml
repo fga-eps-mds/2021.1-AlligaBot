@@ -574,9 +574,6 @@ responses:
       Se precisar tirar mais alguma dúvida e eu não conseguir te responder, ligue para o Disque Saúde, pelo número 136.
       Um abraço virtual e se cuide!
 
-  utter_alligabot:
-  - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
-
   utter_local_teste:
   - text: |
       Acalma o coração...

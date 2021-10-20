@@ -64,8 +64,16 @@ stories:
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
 
-
-
+- story: caminho possivel para para saber sobre os tipos de máscaras
+  steps:
+  - user: |
+      oi
+    intent: start
+  - action: utter_cumprimentar
+  - user: |
+      Quais sao os tipos de mascaras utilizados para proteger da covid 19?
+    intent: tipos_de_mascaras
+  - action: utter_tipos_de_mascaras
   
   
 

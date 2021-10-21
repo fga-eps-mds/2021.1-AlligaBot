@@ -2,7 +2,6 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Resultado Sprint 2
 
 Houve um bom andamento nos estudos do grupo. Conseguimos nos reunir e discutir tópicos importantes sobre o projeto e nossas expectativas sobre a disciplina.
 

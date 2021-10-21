@@ -2,7 +2,6 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Resultado Sprint 5
 
 Houve um excelente andamento do trabalho nessa sprint, tivemos um Mini Dojo ministrado pelo tecnologista [Erick](https://github.com/Ericklevy) com o objetivo de ensinar sobre o Rasa para qualquer integrante do trabalho, com o foco nos tecnologistas. Também tivemos uma reunião com todos os Scrum Masters e Product Owners para alinharmos e designarmos todas as tarefas restantes para a release 1.
 Foram finalizados e revisados o código de conduta, plano de gerenciamento de riscos e o documento de visão.

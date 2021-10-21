@@ -2,15 +2,15 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 1
 
-Foi apresentado ao time o projeto da disciplina, que consiste no desenvolvimento de um chatBot informativo sobre o Covid-19, portanto, ainda num contexto de ambientalização, a equipe continuou com os objetivos de pesquisar e estudar, porém agora com o escopo fechado em torno do projeto, buscando aprender tendo em vista que utilidade este conhecimento poderia vir a ter dentro do desenvolvimento do bot.
+Foi apresentado ao time o projeto da disciplina, que consiste no desenvolvimento de um chatBot informativo sobre a Covid-19, portanto, ainda num contexto de ambientalização, a equipe continuou com os objetivos de pesquisar e estudar, porém agora com o escopo fechado em torno do projeto, buscando aprender tendo em vista que utilidade este conhecimento poderia vir a ter dentro do desenvolvimento do bot.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 21/08/2021 |    0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 21/10/2021 |  0.2   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Tamanho da Sprint
 

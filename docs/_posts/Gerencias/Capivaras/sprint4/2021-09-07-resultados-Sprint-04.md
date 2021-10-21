@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 4
 Essa sprint foi muito importante para a organização dos trabalhos conjuntos entre todas as equipes. A reunião entre os Scrum Masters foi decisiva para o estabelecimento de um canal
 de comunicação conjunto no discord, além do início das reuniões semanais entre os Scrum Masters.
 

@@ -456,11 +456,16 @@ responses:
 
   utter_eficacia_pfizer:
   - text: |
-      Eficacia Pfizer
+      Após estudos envolvendo mais de 44 mil voluntários, concluísse que, globalmente, a eficácia da vacina contra a COVID-19 foi de 95%, com esquema de duas doses num intervalo de 21 dias entre as doses. 
+
+      Leia mais sobre a Pfizer aqui: https://www.pfizer.com.br/tomarpararetomar/tire-suas-duvidas-sobre-vacinacao
 
   utter_eficacia_janssen:
   - text: |
-      Eficacia Janssen
+      28 dias após a inoculação, Janssen Ad26.CoV2.S demonstrou ter uma eficácia de 85,4% contra doença grave e 93,1% contra hospitalização.
+      Verificou-se também que uma dose única de Janssen Ad26.COV2.S tinha uma eficácia de 66,9% contra a infecção pela variante SARS-CoV-2 moderada e grave sintomática.
+
+      Para ler mais sobre essa vacina acesse: https://www.who.int/news-room/feature-stories/detail/the-j-j-covid-19-vaccine-what-you-need-to-know
   
   utter_eficacia_astrazeneca:
   - text: |

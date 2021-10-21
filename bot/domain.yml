@@ -592,8 +592,10 @@ responses:
   utter_ask_cadastro_data_form_ano:
     - text: "Por fim, me informe o número do ano"
 
+
   utter_alligabot:
   - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
+
 
 session_config:
   session_expiration_time: 60

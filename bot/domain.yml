@@ -130,27 +130,48 @@ entities:
 
 responses:
   utter_cumprimentar: 
-  - text: "Oi eu sou o AlligaBot, estou aqui para te informar sobre a COVID-19"
-  - text: "O que voce quer gostaria de perguntar?"
+  - text: 
+      É um prazer te conhecer, eu sou o AlligaBot e estudei sobre a Covid-19. Como eu posso te ajudar?👋
+  - text:
+      Oi, sou o AlligaBot e vai ser um prazer conversar contigo sobre a Covid-19.👋
+  - text: 
+      Oi, sou o AlligaBot, um jacaré que sabe muito sobre a Covid-19 e posso responder suas dúvidas.👋
   
   utter_covid:
-  - text: "COVID-19 é uma nova espécie coronavirus, que afeta o sistema imunológico e respiratório"
+  - text: 
+      A Covid-19 é uma infecção respiratória causada pelo coronavírus SARS-CoV-2🦠, a mesma é potencialmente grave, de elevada transmissibilidade e de distribuição global. 
+      É um assunto que podemos nos aprofundar mais, pensando mais um pouco, os coronavírus são uma grande família de vírus comuns em muitas espécies diferentes de animais, incluindo o homem. 😥
+
+      Caso queira mais informações, aqui está o site em que me baseei 👉 https://www.gov.br/saude/pt-br/coronavirus/o-que-e-o-coronavirus 👈
 
   utter_despedida:
-  - text: "Tchau"
-  - text: "Obrigado, até mais!"
+  - text: "Obrigado pela conversa, tomara que possamos conversar mais. 🤙 "
+  - text: "Obrigado, até mais! 🤙"
+  - text: "É só falar caso precise da minha ajuda. 🤙"
+  - text: "Se precisar é só mandar mensagem. 🤙"
 
   utter_fora_do_escopo:
-  - text: "Não entendi o que você escreveu. Poderia reformular sua questão sobre o COVID-19?"
-  - text: "Não entendi. Tente perguntar algo sobre o COVID-19"
-  - text: "Este bot response apenas questões sobre o COVID-19. Tente perguntar algo sobre isso."
+  - text: "Desculpa, me distrai por um momento. Pode me perguntar novamente? 🤔"
+  - text: "Não consegui entender o que você disse. Poderia dizer novamente? 🤔"
+  - text: "Infelizmente eu só estudei sobre a Covid-19 😓. Enfim, posso te ajudar em algo sobre a Covid-19? 🤔"
 
   utter_formas_gerais_de_prevencao:
   - text: |
-      Hoje os protocolos atualizados são baseados no triângulo da prevenção:
-      - Uso de máscaras de boa qualidade bem ajustadas, cobrindo nariz e boca.
-      - Ventilação de ambientes fechados e preferência a atividades em ambientes ao ar livre.
-      - Distanciamento físico (2 metros entre as pessoas)."
+      Ah, legal! Precisamos mesmo nos prevenir. Tenho alguns tópicos e são eles😁:
+        Lavar as mãos frequentemente🧼🤲:
+          ✔️  Lave com água e sabão por pelo menos 20 segundos, especialmente depois de estar em um local público ou depois de assoar o nariz, tossir ou espirrar. 
+          ✔️  Caso não tenha água e sabão disponíveis, use álcool 70%. 
+        Evite contato próximo🧍🧍:
+          ✔️  Evite o contato com pessoas doentes🤒, até mesmo dentro de casa 🏘️. 
+          ✔️  A distância ideal é de 2 metros de outra pessoa.🧍-------- 2 metros ----------🧍 
+        Use máscara😷:
+          ✔️  Use sempre que precisar entrar em contato com pessoas🗣. 
+          ✔️  Cubra toda a boca e o nariz. 
+          ✔️  E lembre-se de manter o distanciamento de 2 metros mesmo com o uso de máscara. 
+      Esses são os tópicos principais, mas lembre sempre de cubrir tosses e espirros, limpar e desinfetar superfícies tocadas com frequências e fique sempre alerta com os sintomas.
+
+      Para saber mais sobre, acesse o mesmo site que utilizei 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
+
   
   utter_tipos_de_mascaras:
    - text: |
@@ -241,9 +262,9 @@ responses:
       Em média, os sintomas aparecem após 5 ou 6 dias depois de ser infectado com o vírus. Porém, isso pode levar até 14 dias.
       
   utter_formas_de_transmissao:
-  - text: "Os cientistas, hoje, reconhecem que a principal forma de transmissão da Covid-19 é pelo ar, através da inalação de partículas vindas de pessoas infectadas, especialmente quando estão conversando, falando alto, gritando ou cantando."
-    image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
-  - text: "Um jeito simples e intuitivo de se explicar como atuam essas partículas contagiosas é imaginar que elas se comportam como a fumaça de cigarro. Ao ar livre ou em ambientes bem ventilados, ela se dispersa rapidamente. No entanto, em lugares fechados ou mal ventilados, ela preenche o ar e demora muito tempo para se dissipar. Se há vários fumantes numa mesma sala, o ar fica carregado com a fumaça."
+  - text: 
+      Um jeito simples e intuitivo de se explicar como atuam essas partículas contagiosas é imaginar que elas se comportam como a fumaça de cigarro. Ela se dispersa rapidamente ao ar livre ou em ambientes bem ventilados. No entanto, em lugares fechados ou mal ventilados, ela preenche o ar e demora muito tempo para se dissipar. Se há vários fumantes numa mesma sala, o ar fica carregado com a fumaça.
+      Para mais informações sobre a forma de transmissão acesse 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
     image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
 
   utter_mais_sobre_o_virus:
@@ -261,50 +282,58 @@ responses:
        -Manter uma distância segura dos demais clientes(principalmente nas filas)
 
   utter_variantes:
-    - text: "As variantes do COVID-19 são a Alfa, Beta, Delta e Gama"
+    - text: 
+        Sempre que um vírus faz suas cópias nas células humanas, está sujeito a erros que levam a mutações no código genético. Quando um grupo do Sars-CoV-2 reúne mutações distintas em comum, passa a ser chamado de variante.
+        As variantes se chamam Alfa, Beta, Gama e Delta.
+        
+        Caso queira saber mais afundo sobre meus estudos, basta acessar este site 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+
 
   utter_alfa:
-    - text: "A variante (Alfa B.1.1.7) - surgiu no Reino unido em setembro de 2020 com uma taxa de transmissão entre 30 a 50 % a mais que outras linhagens"
+    - text: 
+        A variante (Alfa B.1.1.7) surgiu no Reino Unido 🇬🇧 em setembro de 2020, são 22 mutações ao todo.
+        
+        É só dizer caso queira maiores detalhes sobre essa variante. 😉
   
   utter_mais_alfa:
     - text: |
-        A Alfa tem a mutação que N501Y, que intensifica a ligação entre as células virais e humanas
-        No quesito de Vacinas a variante Alfa toma nocaute de todas as vacinas.
+        Contém uma transmissibilidade entre 30% e 50% maior do que as linhagens anteriores, mas as vacinas funcionam normalmente contra ela. Ela foi responsável pela segunda onda da pandemia que atacou os países do Reino Unido e boa parte da Europa no início de 2021. 💉
 
+        Caso queira confirmar informações ou dados sobre a variante alfa, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_beta:
     - text: |
-        A variante (Beta B.1.351) - Surgiu na Africa em dezembro de 2020, esta variante alem de possui a N501Y presente na Alfa, tem a K417N
-        E484K que ajuda o virus a escapar dos anticorpos produzidos pelo corpo
+        A variante (Beta B.1.351) - Surgiu na África do Sul 🇿🇦 em dezembro de 2020, esta variante além de possuir a N501Y presente na Alfa, tem a K417N e a E484K que ajuda o vírus a escapar dos anticorpos produzidos pelo corpo.
+
+        É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_mais_beta:
     - text: |
-        Vacinas como a Janssen e a Pfizer são eficazes contra a Beta, a unica que não funciona e a AstraZeneca 
-      
+        Contém uma transmissibilidade maior, mas não tão grande quanto a Alfa. As vacinas da Janssen e da Pfizer mantém sua proteção, porém há indícios de que a da AstraZeneca não funcione frente a essa variante. Alcançou Estados Unidos, Canadá e outros 58 países. O primeiro caso brasileiro foi detectado em abril. 💉 
+
+        Essa variante não esteve tão presente quanto as outras no Brasil, então caso queira saber mais sobre ela, acesse este link 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_gama:
     - text: |
-        A variante (Gama - P.1 linhagem) variante descoberta em japoneses que voltavam do  Amazonas. 
-        A Gama e muito parecida com a Beta em questão de mutações.
+        A variante (Gama - P.1 linhagem) foi indentificada pela primeira vez em Manaus e a Gama é muito parecida com a Beta em questões de mutações.
+
+        É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_gama_mais:
     - text: |
-        Cerca de 70 % dos obitos no Brasil foram causadas pela Gama
-        https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/q
-    - text: |
-        A variante Gama que foi mais predominante no Brasil , com a vacina Corovac do instituto butatan
-        Outras vacinas eficaz cotra essa variante e a Astrazeneca que foi testata pelo instituto Fiocruz
-        E tambem a Pfizer
+        Mais transmissível e tem capacidade de contornar o sistema de defesa. As vacinas mostram sua importância contra a variante Gama, por isso não se esqueça de vacinar💉.
 
+        Tivemos muito contato com essa variante, caso queira estudar um pouquinho mais, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_delta:
     - text: |
-        A variante Delta surgiu entre o periodo de outubro e Dezembro na India
-        Alem disso tem muita semelhanças a Gama e Beta
-        As mutação vão desde da E484Q que ajuda o virus contra os anticorpos e a L452R, também ligada a resposta imune
+        A variante Delta surgiu entre o periodo de outubro e Dezembro na Índia 🇮🇳
+        As mutações vão desde a E484Q, que ajuda o vírus contra os anticorpos, até a L452R, que também está ligada a resposta imune.
+
+        É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_delta_mais:
     - text: |
-        A delta e a que tornou mais predominante na India e ainda esta sendo associada aos casos no Reino Unido
-        Alem disso as Vacinas que mostraram eficiencia foram a Astrezeneca e a Pfizer
+        A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
 
+        Caso queira se aprofundar nos estudos sobre as variantes, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_saude_mental:
     - text: |
         Manter a saúde mental nesse tempo de pandemia e quarentena não é uma tarefa nada fácil, se afastar dos seus próximos e se isolar em casa é algo necessário, mas muito difícil de se fazer, pois gera muito estresse, ansiedade e pode também ser gatilho para uma depressão. Por isso aqui vai alguns hábitos que podem ser adotados para que se mantenha ou melhore a saúde mental nesse tempo tão difícil:    

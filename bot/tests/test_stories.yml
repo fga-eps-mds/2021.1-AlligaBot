@@ -101,6 +101,32 @@ stories:
     intent: vacinados_no_meu_estado
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
+- story: segunda dose da vacina
+  steps:
+  - user: |
+      Quantas doses preciso tomar?
+    intent: doses_vacina
+  - action: utter_doses_vacina
+- story: suspeita covid
+  steps:
+  - user: |
+      suspeita covid
+    intent: oque_fazer_suspeita
+  - action: utter_oque_fazer_suspeita
+- story: onde me testar
+  steps:
+  - user: |
+      Onde me testar?
+    intent: local_teste
+  - action: utter_local_teste
+- story: qual_exame_fazer
+  steps:
+  - user: |
+      Qual tipo de teste eu faço?
+    intent: qual_exame_fazer
+  - action: utter_qual_exame_fazer 
+
+
 - story: variantes de covid
   steps:
   - user: |
@@ -131,3 +157,4 @@ stories:
       Você é o que?
     intent: bot_alligabot
   - action: utter_alligabot
+

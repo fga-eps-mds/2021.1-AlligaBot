@@ -17,8 +17,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
-      - name: Create .env file
+      - name: Criar arquivo .env 
         run: echo ${{ secrets.ENV }} > .env
-      - name: Build da imagem do servidor de ações
-        run: sudo docker-compose build
+      - name: Build da imagem do servidor de ações e subir container
+        run: sudo docker-compose up actions -d --build
+      - name: Executar linter (autopep8)
+        run: make actions-lint
+  
+  # Seria bom usar cache no checkout
+  build-bot-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Criar arquivo .env 
+        run: echo ${{ secrets.ENV }} > .env
+      - name: Build da imagem do bot e subir container
+        run: sudo docker-compose up bot -d --build
+      - name: Treinar bot
+        run: make train
+      - name: Testar bot (testes Rasa)
+        run: make test
+

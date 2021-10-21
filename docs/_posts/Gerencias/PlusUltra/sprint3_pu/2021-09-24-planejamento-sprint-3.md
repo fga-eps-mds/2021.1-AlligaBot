@@ -4,7 +4,7 @@ tag: plusultra
 ---
 
 Foram planejadas várias tarefas para a sprint 4, dentre elas houve a marcação de uma reunião acerca de decidir as Epics, Features e User Stories, a qual a tarefa de documentar e guiar a reunião foi dada ao p.o [Pedro](https://github.com/PedroLSF). 
-Dentro do conceito de arquitetura, que corresponde ao integrante [Victor](https://github.com/victorear05) foi planejado um estudo aprofundado em relação a frameworks, API's e integração com plataformas e avançar na arquitetura montando um um desenho inicial da arquitetura do bot, com relação ao tema do grupo (prevenção) e criando a arquitetura inicial do projeto.
+Dentro do conceito de arquitetura, que corresponde ao integrante [Victor](https://github.com/victorear05) foi planejado um estudo aprofundado em relação a frameworks, API's e integração com plataformas e avançar na arquitetura montando um desenho inicial da arquitetura do bot, com relação ao tema do grupo (prevenção) e criando a arquitetura inicial do projeto.
 Entrar em contato com os outros Scrum Masters e definir quais documentações seriam gerais e quais seriam específicas ficou como tarefa da [Amanda](https://github.com/AmandaNbr), como também criar o template do ReadMe e atualizar o repositório do projeto de maneira a cumprir as exigências do GitHub para um repositório Open Source.
 A dupla [Erick](https://github.com/Ericklevy) e [Douglas](https://github.com/DouglasMonteles) continuou a estudar e, nessa sprint, aplicar os conhecimentos adquiridos a partir de começar a implementar bots usando a framework Rasa.
 O integrante [Yudi](https://github.com/yudi-azvd) irá seguir os estudos e implementações com Dockerfile e Docker-Compose.
@@ -14,6 +14,7 @@ O integrante [Yudi](https://github.com/yudi-azvd) irá seguir os estudos e imple
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 21/08/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 21/10/2021 |  0.2   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Tamanho da Sprint
 

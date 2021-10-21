@@ -3,13 +3,14 @@ layout: page_plusultra
 tag: plusultra
 ---
 
-A sprint 11 foi boa, apesar de algumas dividas as US que não precisam de API/CSV estão praticamente terminadas e prontas para serem testadas e otimizadas.
+A sprint 11 foi boa, apesar de algumas dívidas as US que não precisam de API/CSV estão praticamente terminadas e prontas para serem testadas e otimizadas.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 16/10/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 21/10/2021 |  0.2   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Objetivos
 

@@ -3,7 +3,7 @@ layout: page_plusultra
 tag: plusultra
 ---
 
-Nessa sprint as ultimas US foram divididas para serem implementadas enquanto estudava-se sobre Testes Rasa.
+Nessa sprint as últimas US foram divididas para serem implementadas enquanto estudava sobre Testes Rasa.
 
 ## Histórico de Versões
 
@@ -11,6 +11,7 @@ Nessa sprint as ultimas US foram divididas para serem implementadas enquanto est
 | :--------: | :----: | :----------:                   | :---------------: |
 | 08/10/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
 | 16/10/2021 |  0.2   | Adição de Issues | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 21/10/2021 |  0.3   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Tamanho da Sprint
 

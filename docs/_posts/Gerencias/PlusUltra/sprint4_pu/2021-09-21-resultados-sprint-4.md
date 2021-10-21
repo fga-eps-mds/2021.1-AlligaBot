@@ -3,7 +3,7 @@ layout: page_plusultra
 tag: plusultra
 ---
 
-A partir da reunião das criação de protótipos, foram criados os protótipos de baixa fidelidade do fluxo de conversa com o bot e os protótipos de alta e baixa fidelidade do produto.
+A partir da reunião das criações de protótipos, foram criados os protótipos de baixa fidelidade do fluxo de conversa com o bot e os protótipos de alta e baixa fidelidade do produto.
 
 - Protótipo de baixa fidelidade do fluxo de conversa:
 
@@ -41,6 +41,7 @@ Assim, o integrante [Yudi](https://github.com/yudi-azvd) continuou a estudar e i
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 28/08/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 21/10/2021 |  0.2   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Objetivos
 

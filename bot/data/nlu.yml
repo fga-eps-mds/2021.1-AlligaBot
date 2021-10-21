@@ -33,8 +33,7 @@ nlu:
     - o que e Covid-19 ?
     - Covid-19
     - Quero saber mais sobre o que é a Covid-19?
-    -
-
+    
 - intent: fora_do_escopo
   examples: |
     - Quero pedir comida

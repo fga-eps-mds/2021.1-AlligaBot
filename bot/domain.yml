@@ -266,7 +266,7 @@ responses:
         Caso queira confirmar informações ou dados sobre a variante alfa, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_beta:
     - text: |
-        A variante (Beta B.1.351) - Surgiu na África do Sul 🇿🇦 em dezembro de 2020, esta variante alem de possui a N501Y presente na Alfa, tem a K417N e a E484K que ajuda o virus a escapar dos anticorpos produzidos pelo corpo.
+        A variante (Beta B.1.351) - Surgiu na África do Sul 🇿🇦 em dezembro de 2020, esta variante além de possuir a N501Y presente na Alfa, tem a K417N e a E484K que ajuda o vírus a escapar dos anticorpos produzidos pelo corpo.
 
         É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
@@ -289,13 +289,13 @@ responses:
   utter_delta:
     - text: |
         A variante Delta surgiu entre o periodo de outubro e Dezembro na Índia 🇮🇳
-        As mutações vão desde a E484Q, que ajuda o vírus contra os anticorpos, até a L452R, que também ligada a resposta imune.
+        As mutações vão desde a E484Q, que ajuda o vírus contra os anticorpos, até a L452R, que também está ligada a resposta imune.
 
         É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_delta_mais:
     - text: |
-        A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as Vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
+        A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
 
         Caso queira se aprofundar nos estudos sobre as variantes, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_saude_mental:

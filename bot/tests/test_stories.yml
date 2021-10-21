@@ -96,7 +96,7 @@ stories:
 - story:  infectados por covid na minha cidade
   steps:
   - user: |
-      Quero saber sobre o covid na minha cidade
+      Desejo saber a quantidade de infectados por covid na minha cidade
     intent: covid_em_sua_cidade
   - action: localizacao_form
   - active_loop: localizacao_form

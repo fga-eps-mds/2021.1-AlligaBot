@@ -132,6 +132,8 @@ responses:
           ✔️ Máscara cirúrgica  (Eficiência média para alta)
           ✔️ Máscara de algodão (Eficiência média)
           ✔️ Máscara de lenço ou bandana (Eficiência baixa)
+      Nessa matéria você consegue mais informações sobre o assunto 👉 bbc.com/portuguese/geral-57152019 👈
+      
 
   utter_uso_correto_mascara:
   - text: |
@@ -367,9 +369,9 @@ responses:
         Interessante, posso te ajudar nisso.
         Para proteger a si mesmo e o seu cliente é muito importante evitar apertos de mão, abraços, bejinhos no rosto e qualquer outro cumprimento físico. Aaaah também é recomendável que tenha frascos de álcool gel disponíveis para os clientes.
         Algumas outras diquinhas:
-        - Incentive o pagamento por aproximação.
-        - Limpeza da máquina de cartão.
-        - Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
+        ✔️ Incentive o pagamento por aproximação.
+        ✔️ Limpeza da máquina de cartão.
+        ✔️ Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
 
 
         Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
@@ -402,24 +404,24 @@ responses:
     - text: |
           Atividade física é um dos pilares para manter uma boa qualidade de vida, se eu fosse humano com certeza praticaria. Algumas dicas para você:
 
-          Suba e desça escadas 
+          ✔️ Suba e desça escadas 
 
-          Faça exercícios de alongamento ou utilizando pesos  
+          ✔️ Faça exercícios de alongamento ou utilizando pesos  
 
-          Escolha aquela música que você gosta e dance muito!
+          ✔️ Escolha aquela música que você gosta e dance muito!
 
-          Pule com ou sem corda
+          ✔️ Pule com ou sem corda
 
-          Tome bastante água hein?!
+          ✔️ Tome bastante água, hein?!
 
   utter_cuidados_transporte_publico:
     - text: |
         Hummm, boa pergunta. Tenho algumas diquinhas para você:
-        - SEMPRE usar máscara.
-        - Evitar tocar nas superfícies sem necessidade.
-        - Não tocar em seu rosto.
-        - Passar álcool 70% nas mãos assim que deixar o veículo.
-        - Por último, mas não menos importante: lavar as mãos com sabão quando chegar ao seu destino.
+        ✔️ SEMPRE usar máscara.
+        ✔️ Evitar tocar nas superfícies sem necessidade.
+        ✔️ Não tocar em seu rosto.
+        ✔️ Passar álcool 70% nas mãos assim que deixar o veículo.
+        ✔️ Por último, mas não menos importante: lavar as mãos com sabão quando chegar ao seu destino.
 
         Espero ter ajudado :)
 
@@ -525,7 +527,7 @@ responses:
   
         Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
     - text: |
-        Caramba...uma notícia triste ❤️, mas não se desespere e para saber o que fazer nesse momento, olhe o que eu achei:
+        Caramba...uma notícia triste ❤️, mas não se desespere. Para saber o que fazer nesse momento, olhe o que eu achei:
         - Consulte novamente seu médico;
         - Fique em isolamento domiciliar;
         - Utilize máscara o tempo todo;
@@ -536,10 +538,10 @@ responses:
         - Sofás e cadeiras também não podem ser compartilhados e precisam ser limpos frequentemente com água sanitária ou álcool 70%;
         - Mantenha a janela aberta para circulação de ar do ambiente usado para isolamento e a porta fechada, limpe a maçaneta frequentemente com álcool 70% ou água sanitária;
         - Caso o paciente não more sozinho, os demais moradores devem dormir em outro cômodo, longe da pessoa infectada, seguindo também as seguintes recomendações:
-          - Manter a distância mínima de 1 metro entre o paciente e os demais moradores;
-          - Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
-          - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
-          - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento por 14 dias.
+          ✔️ Manter a distância mínima de 1 metro entre o paciente e os demais moradores;
+          ✔️ Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
+          ✔️ Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
+          ✔️ Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento por 14 dias.
         Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
 

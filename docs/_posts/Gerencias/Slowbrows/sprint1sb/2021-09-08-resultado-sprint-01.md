@@ -2,7 +2,6 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Resultados Sprint 1
 
 Nessa sprint foram definidos os cargos de todos os membros do grupo, além de iniciarmos as discussões sobre as tecnologias que serão utilizadas. Foi criado também grupos gerais e específicos no aplicativo Telegram para melhorar e facilitar a comunicação 
 

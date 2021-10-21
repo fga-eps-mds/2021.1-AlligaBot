@@ -2,7 +2,6 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Resultado Sprint 3
 
 Para essa Sprint, não houve um planejamento por parte da equipe.
 

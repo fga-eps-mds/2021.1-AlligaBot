@@ -3,8 +3,6 @@ layout: page_slowbrows
 tag: slowbrows
 ---
 
-# Planejamento Sprint 8
-
 Como essa é a primeira sprint após a release 1, utilizaremos essa sprint para organizar o que será feito  para a release 2 e, após o feedback dos monitores e da professora arrumar tudo que foi passado.
 
 

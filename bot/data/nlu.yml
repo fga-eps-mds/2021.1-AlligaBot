@@ -507,6 +507,14 @@ nlu:
     - Teste positivo
     - O que fazer depois do positivo?
 
+- intent: oque_fazer_suspeita
+  examples: |
+    - suspeita covid
+    - o que fazer caso esteja com suspeita de covid?
+    - estou com suspeita de covid-19, o que fazer?
+    - estou com sintomas
+    - estou com sintomas de covid-19
+
 - intent: local_teste
   examples: |
     - Onde me testar?
@@ -522,5 +530,14 @@ nlu:
     - Desejo saber a quantidade de infectados pelo covid-19 por período
     - Desejo saber a quantidade de contaminados por covid por período
     - Desejo saber o número de infectados por covid por período
-    - Desejo saber o número de contaminados por covid por período    
-    
+    - Desejo saber o número de contaminados por covid por período  
+
+- intent: quantidade_de_mortos_por_periodo
+  examples: |
+    - Me informe a quantidade de mortos pelo covid-19 por período
+    - Quero saber sobre o número de mortos por período
+    - Me interesso em saber sobre quantidade de mortos pelo covid-19 por período
+    - Quantos seriam os mortos pelo covid-19 por período?
+    - Me informe a quantidade de mortos pelo covid-19 por período
+    - Qual seria a quantidade de mortos por período?
+

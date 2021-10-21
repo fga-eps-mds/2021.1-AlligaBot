@@ -448,8 +448,9 @@ nlu:
   
 - intent: exame_com_sintomas
   examples: |
-    - tenho sintomas
-    - estou com sintomas
+    - Tenho incativos de covid
+    - posso estar com indicios de covid
+    - acho que estou com sintomas de covid
 
 - intent: sintomas_mais_de_8
   examples: |
@@ -473,13 +474,13 @@ nlu:
 - intent: contato_mais_de_10
   examples: |
     - tive contato com o virus a mais de 10 dias
-    - entrei em contato com alguem contaminado a mais de 10 dias
+    - passei com alguem contaminado a mais de 10 dias
     - tem mais de 10 dias
 
 - intent: contato_menos_de_10
   examples: |
     - tive contato com o virus a menos de 10 dias
-    - entrei em contato com alguem contaminado a menos de 10 dias
+    - entrei em contato com alguem contaminado entre 10 dias
     - tem menos de 10 dias
   
 - intent: vacina_no_organismo
@@ -512,7 +513,7 @@ nlu:
     - suspeita covid
     - o que fazer caso esteja com suspeita de covid?
     - estou com suspeita de covid-19, o que fazer?
-    - estou com sintomas
+    - estou com sintomas de corona
     - estou com sintomas de covid-19
 
 - intent: local_teste

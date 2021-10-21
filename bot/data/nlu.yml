@@ -282,10 +282,10 @@ nlu:
     
 - intent: covid_em_sua_cidade
   examples: |
-    - Quero saber sobre o covid na minha cidade
-    - Quero saber sobre o covid-19 na minha cidade
-    - Quero saber sobre o Sars-cov-2 na minha cidade
-    - Covid na minha cidade
+    - Desejo saber a quantidade de infectados por covid na minha cidade
+    - Desejo saber a quantidade de contaminados por covid na minha cidade
+    - Desejo saber o número de infectados por covid na minha cidade
+    - Desejo saber o número de contaminados por covid na minha cidade
 
 - intent: uf_input_form
   examples: |
@@ -516,4 +516,11 @@ nlu:
     - Localidade de testagem
     - Onde é que eu me testo?
     - Onde é o lugar para fazer o teste de covid?
+
+- intent: quantidade_de_infectados_por_periodo
+  examples: |
+    - Desejo saber a quantidade de infectados pelo covid-19 por período
+    - Desejo saber a quantidade de contaminados por covid por período
+    - Desejo saber o número de infectados por covid por período
+    - Desejo saber o número de contaminados por covid por período    
     

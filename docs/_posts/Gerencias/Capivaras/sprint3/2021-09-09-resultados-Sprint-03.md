@@ -1,7 +1,7 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 03
 
 A documentação da Sprint 2 foi concluída com sucesso.
 
@@ -44,11 +44,11 @@ A documentação da sprint 3 não foi concluída e irá como dívida para a pró
 
 ## Burndown
 
-![](../assets/burndown_sprint3.png)
+<img src="{{ '/assets/img/capivaras/burndown_sprint3.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint3.png)
+<img src="{{ '/assets/img/capivaras/velocity_sprint3.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação do Scrum Master
 

@@ -1,7 +1,7 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Planejamento Sprint 05
 
 Nessa sprint houve um planejamento maior na divisão de tarefas entre os grupos e vamos ficar responsáveis por participar na elaboração de diversos documentos importantes,
 como o de visão e como contribuir (no readme). Além disso, temos muitas dívidas alocadas de tarefas que foram cumpridas parcialmente ou que ainda não estão finalizadas para que cumpram com os requisitos planejados.

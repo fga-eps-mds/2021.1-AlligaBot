@@ -9,78 +9,91 @@ stories:
       oi
     intent: start
   - action: utter_cumprimentar
+
 - story: Alfa
   steps:
   - user: |
       Alfa
     intent: alfa
   - action: utter_alfa
+
 - story: Mais alfa
   steps:
   - user: |
       mais alfa
     intent: mais_alfa
   - action: utter_mais_alfa
+
 - story: beta
   steps:
   - user: |
       beta
     intent: beta
   - action: utter_beta
+
 - story: Mais beta
   steps:
   - user: |
       mais beta
     intent: mais_beta
   - action: utter_mais_beta
+
 - story: Gama
   steps:
   - user: |
       gama
     intent: gama
   - action: utter_gama
+
 - story: Gama mais
   steps:
   - user: |
       me fale sobre gama
     intent: mais_gama
   - action: utter_gama_mais
+
 - story: Delta
   steps:
   - user: |
       Delta
     intent: delta
   - action: utter_delta
+
 - story: Delta mais
   steps:
   - user: |
       quero saber sobre Delta
     intent: mais_delta
   - action: utter_delta_mais
+
 - story: cuidados no transporte público
   steps:
   - user: |
       Como me cuidar no transporte público
     intent: cuidados_transporte_publico
   - action: utter_cuidados_transporte_publico
+
 - story: seguranca das vacinas
   steps:
   - user: |
       A vacina é segura
     intent: vacina_eh_segura
   - action: utter_vacina_eh_segura 
+
 - story: exercicios em casa
   steps:
   - user: |
       Como posso me exercitar em casa
     intent: exercicios_em_casa
   - action: utter_exercicios_em_casa
+
 - story: saude mental
   steps:
   - user: |
       Como posso manter a saúde mental
     intent: saude_mental
   - action: utter_saude_mental
+  
 - story: formulario de localizacao do usuario para informar vacinados
   steps:
   - user: |
@@ -112,4 +125,36 @@ stories:
       Qual tipo de teste eu faço?
     intent: qual_exame_fazer
   - action: utter_qual_exame_fazer 
+
+
+- story: variantes de covid
+  steps:
+  - user: |
+      Quais são as variantes do covid?
+    intent: variantes
+  - action: utter_variantes
+- story: caminho para conversar sobre transmissão
+  steps:
+  - user: |
+      Como é a transmissão do vírus?
+    intent: formas_de_transmissao
+  - action: utter_formas_de_transmissao
+- story: caminho para para saber mais sobre o virus
+  steps:
+  - user: |
+      Detalhes sobre a covid
+    intent: mais_sobre_o_virus
+  - action: utter_mais_sobre_o_virus
+- story: forma gerais de prevencao
+  steps:
+  - user: |
+      Como eu posso me prevenir?
+    intent: formas_gerais_de_prevencao
+  - action: utter_formas_gerais_de_prevencao
+- story: Pergunta de desafio para o bot
+  steps:
+  - user: |
+      Você é o que?
+    intent: bot_alligabot
+  - action: utter_alligabot
 

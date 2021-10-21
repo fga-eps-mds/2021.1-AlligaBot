@@ -1,8 +1,6 @@
 ﻿
 
 
-# Resultado Sprint 9
-
 A sprint 9 foi mais utilizada para estudo do rasa e preparação do ambiente de desenvolvimento, para então todos começarem a implementar as User Stories na próxima sprint.
 ## Histórico de Versões
 

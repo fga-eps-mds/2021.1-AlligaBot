@@ -439,14 +439,14 @@ responses:
   - text: |
       No Brasil, existem 4 vacinas aprovadas pela ANVISA. De qual delas você deseja saber a eficacia?
     buttons:
-      - title: Comirnaty (Pfizer/Wyth)
-        payload: /eficacia_pfizer
-      - title: Coronavac (Butantan)
+      - title: Coronavac 
         payload: /eficacia_da_coronavac
-      - title: Janssen Vaccine (Janssen-Cilag)
-        payload: /eficacia_janssen
-      - title: Oxford/Covishield (Fiocruz e Astrazeneca)
+      - title: Astrazeneca
         payload: /eficacia_astrazeneca
+      - title: Pfizer
+        payload: /eficacia_pfizer
+      - title: Janssen Vaccine 
+        payload: /eficacia_janssen
 
   utter_eficacia_da_coronavac:
   - text: |

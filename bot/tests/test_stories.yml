@@ -73,6 +73,55 @@ stories:
     intent: cuidados_transporte_publico
   - action: utter_cuidados_transporte_publico
 
+- story: caminho possivel para saber sobre os tipos de máscaras
+  steps:
+  - user: |
+      oi
+    intent: start
+  - action: utter_cumprimentar
+  - user: |
+      Quais sao os tipos de mascaras utilizados para proteger da covid 19?
+    intent: tipos_de_mascaras
+  - action: utter_tipos_de_mascaras
+  
+- story: caminho para saber sobre como usar a máscara corretamente
+  steps:
+  - user: |
+      oi
+    intent: start
+  - action: utter_cumprimentar
+  - user: |
+      Qual é o jeito certo de utilizar a máscara?
+    intent: uso_correto_mascara
+  - action: utter_uso_correto_mascara
+
+- story: sintomas
+  steps:
+  - user: |
+      quais são os sintomas do COVID-19?
+    intent: sintomas
+  - action: utter_sintomas
+
+- story:  infectados por covid na minha cidade
+  steps:
+  - user: |
+      Desejo saber a quantidade de infectados por covid na minha cidade
+    intent: covid_em_sua_cidade
+  - action: localizacao_form
+  - active_loop: localizacao_form
+  - active_loop: null
+  - action: action_dados_covid_baseados_em_localizacao
+
+- story: Informando ao usuário a quantidade de infectados por período
+  steps:
+  - user: |
+      Desejo saber a quantidade de infectados pelo covid-19 por período
+    intent: quantidade_de_infectados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_infectados_por_periodo
+
 - story: seguranca das vacinas
   steps:
   - user: |
@@ -101,6 +150,7 @@ stories:
     intent: vacinados_no_meu_estado
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
+
 - story: segunda dose da vacina
   steps:
   - user: |
@@ -125,7 +175,6 @@ stories:
       Qual tipo de teste eu faço?
     intent: qual_exame_fazer
   - action: utter_qual_exame_fazer 
-
 
 - story: variantes de covid
   steps:

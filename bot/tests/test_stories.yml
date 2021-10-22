@@ -224,3 +224,10 @@ stories:
       Posso tomar a vacina sem medo?
     intent: vacina_eh_segura
   - action: utter_vacina_eh_segura
+
+- story: preciso me vacinar
+  steps:
+  - user: |
+      é necessario me vacinar?
+    intent: preciso_me_vacinar
+  - action: utter_preciso_me_vacinar

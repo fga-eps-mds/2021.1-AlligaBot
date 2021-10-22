@@ -13,10 +13,10 @@ class ResponderQuantidadeInfectadosPorPeriodoAction(Action):
     def __init__(self) -> None:
         self.url = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv'
         return
-    
+
     def name(self) -> Text:
         return 'action_responder_quantidade_infectados_por_periodo'
-    
+
     def run(
         self,
         dispatcher: CollectingDispatcher,
@@ -34,8 +34,8 @@ class ResponderQuantidadeInfectadosPorPeriodoAction(Action):
 
         dados = pd.read_csv(
             self.url,
-            sep = ',',
-            decimal = '.'
+            sep=',',
+            decimal='.'
         )
 
         dataframe = pd.DataFrame(dados)
@@ -49,12 +49,13 @@ class ResponderQuantidadeInfectadosPorPeriodoAction(Action):
         data_br = f'{dia}/{mes}/{ano}'
 
         # Realiza a soma de todos os casos de infectados naquele dia em todas as cidades
-        total_infectados_por_periodo_no_brasil = dataframe_data['newCases'].sum()
+        total_infectados_por_periodo_no_brasil = dataframe_data['newCases'].sum(
+        )
 
         mensagem = 'Essas são as informações que consegui encontrar 🕵️‍♂️\n\n'
         mensagem += f'O total de infectados no Brasil no período de {data_br} foi de {total_infectados_por_periodo_no_brasil:,.2f} pessoas'
         mensagem += '\n\nEspero ter ajudado com estas informações 😊'
-        
+
         dispatcher.utter_message(text=mensagem)
-        
+
         return [AllSlotsReset()]

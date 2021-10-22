@@ -235,15 +235,15 @@ responses:
      
   utter_cuidados_no_dentista:
   - text: |
-    Então, na pandemia devemos tomar muuuito mais cuidado com a saúde bucal. Desde o início os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao dentista apenas em casos de emergência ou urgência.
-    Leia mais em: 👉 https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/ 👈
+     Então, na pandemia devemos tomar muuuito mais cuidado com a saúde bucal. Desde o início os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao dentista apenas em casos de emergência ou urgência.
+     Leia mais em: 👉 https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/ 👈
     
   utter_cabelos:
   - text: |
-    Para ir ao cabelereiro ou a barbearia devemos tomar os cuidados de sempre, utilizando máscaras e higienizando as mãos quando possível.
-    Além disso, é importante ficar atento se o estabelecimento está seguindo os protocolos de limpeza.
-    Até ficar bonito na pandemia tá difícil... Mas sempre tem a opção de tentar cortar o cabelo em casa. Só não garanto que vai ficar legal hahaha =P
-    Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
+     Para ir ao cabelereiro ou a barbearia devemos tomar os cuidados de sempre, utilizando máscaras e higienizando as mãos quando possível.
+     Além disso, é importante ficar atento se o estabelecimento está seguindo os protocolos de limpeza.
+     Até ficar bonito na pandemia tá difícil... Mas sempre tem a opção de tentar cortar o cabelo em casa. Só não garanto que vai ficar legal hahaha =P
+     Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
 
   utter_sintomas:
   - text: |
@@ -287,9 +287,9 @@ responses:
 
   utter_cuidados_comercio_geral:
     - text: |
-      Quando vamos ao comercio não pode ser diferente, lembre-se sempre de utilizar a máscara, higienizar as mãos e manter uma distância segura dos demais clientes, principalmente nas filas.
-      Se possível, priorizar ambientes com portas e janelas abertas.
-      Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
+       Quando vamos ao comercio não pode ser diferente, lembre-se sempre de utilizar a máscara, higienizar as mãos e manter uma distância segura dos demais clientes, principalmente nas filas.
+       Se possível, priorizar ambientes com portas e janelas abertas.
+       Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
 
   utter_variantes:
     - text: 

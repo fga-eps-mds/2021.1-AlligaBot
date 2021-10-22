@@ -217,3 +217,10 @@ stories:
       Quando eu posso me vacinar?
     intent: quando_vacinar
   - action: utter_quando_vacinar
+
+- story: seguranca das vacinas
+  steps:
+  - user: |
+      Posso tomar a vacina sem medo?
+    intent: vacina_eh_segura
+  - action: utter_vacina_eh_segura

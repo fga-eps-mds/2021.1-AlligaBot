@@ -358,6 +358,9 @@ nlu:
     - A moderna é segura?
     - Segurança da vacina
     - Posso confiar na vacina?
+    - É arriscado tomar as vacinas?
+    - É perigoso eu virar jacaré me vacinando?
+    - Tenho medo de tomar a vacina
 
 - intent: cuidados_escritorio
   examples: |

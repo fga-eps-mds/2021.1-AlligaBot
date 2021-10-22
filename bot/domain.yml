@@ -293,74 +293,74 @@ responses:
 
   utter_variantes:
     - text: 
-        Sempre que um vírus faz suas cópias nas células humanas, está sujeito a erros que levam a mutações no código genético. Quando um grupo do Sars-CoV-2 reúne mutações distintas em comum, passa a ser chamado de variante.
-        As variantes se chamam Alfa, Beta, Gama e Delta.
+       Sempre que um vírus faz suas cópias nas células humanas, está sujeito a erros que levam a mutações no código genético. Quando um grupo do Sars-CoV-2 reúne mutações distintas em comum, passa a ser chamado de variante.
+       As variantes se chamam Alfa, Beta, Gama e Delta.
         
-        Caso queira saber mais afundo sobre meus estudos, basta acessar este site 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+       Caso queira saber mais afundo sobre meus estudos, basta acessar este site 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
 
 
   utter_alfa:
     - text: 
-        A variante (Alfa B.1.1.7) surgiu no Reino Unido 🇬🇧 em setembro de 2020, são 22 mutações ao todo.
+       A variante (Alfa B.1.1.7) surgiu no Reino Unido 🇬🇧 em setembro de 2020, são 22 mutações ao todo.
         
-        É só dizer caso queira maiores detalhes sobre essa variante. 😉
+       É só dizer caso queira maiores detalhes sobre essa variante. 😉
   
   utter_mais_alfa:
     - text: |
-        Contém uma transmissibilidade entre 30% e 50% maior do que as linhagens anteriores, mas as vacinas funcionam normalmente contra ela. Ela foi responsável pela segunda onda da pandemia que atacou os países do Reino Unido e boa parte da Europa no início de 2021. 💉
+       Contém uma transmissibilidade entre 30% e 50% maior do que as linhagens anteriores, mas as vacinas funcionam normalmente contra ela. Ela foi responsável pela segunda onda da pandemia que atacou os países do Reino Unido e boa parte da Europa no início de 2021. 💉
 
-        Caso queira confirmar informações ou dados sobre a variante alfa, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+       Caso queira confirmar informações ou dados sobre a variante alfa, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_beta:
     - text: |
-        A variante (Beta B.1.351) - Surgiu na África do Sul 🇿🇦 em dezembro de 2020, esta variante além de possuir a N501Y presente na Alfa, tem a K417N e a E484K que ajuda o vírus a escapar dos anticorpos produzidos pelo corpo.
+       A variante (Beta B.1.351) - Surgiu na África do Sul 🇿🇦 em dezembro de 2020, esta variante além de possuir a N501Y presente na Alfa, tem a K417N e a E484K que ajuda o vírus a escapar dos anticorpos produzidos pelo corpo.
 
-        É só dizer caso queira maiores detalhes sobre essa variante. 😉
+       É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_mais_beta:
     - text: |
-        Contém uma transmissibilidade maior, mas não tão grande quanto a Alfa. As vacinas da Janssen e da Pfizer mantém sua proteção, porém há indícios de que a da AstraZeneca não funcione frente a essa variante. Alcançou Estados Unidos, Canadá e outros 58 países. O primeiro caso brasileiro foi detectado em abril. 💉 
+       Contém uma transmissibilidade maior, mas não tão grande quanto a Alfa. As vacinas da Janssen e da Pfizer mantém sua proteção, porém há indícios de que a da AstraZeneca não funcione frente a essa variante. Alcançou Estados Unidos, Canadá e outros 58 países. O primeiro caso brasileiro foi detectado em abril. 💉 
 
-        Essa variante não esteve tão presente quanto as outras no Brasil, então caso queira saber mais sobre ela, acesse este link 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+       Essa variante não esteve tão presente quanto as outras no Brasil, então caso queira saber mais sobre ela, acesse este link 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_gama:
     - text: |
-        A variante (Gama - P.1 linhagem) foi indentificada pela primeira vez em Manaus e a Gama é muito parecida com a Beta em questões de mutações.
+       A variante (Gama - P.1 linhagem) foi indentificada pela primeira vez em Manaus e a Gama é muito parecida com a Beta em questões de mutações.
 
-        É só dizer caso queira maiores detalhes sobre essa variante. 😉
+       É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_gama_mais:
     - text: |
-        Mais transmissível e tem capacidade de contornar o sistema de defesa. As vacinas mostram sua importância contra a variante Gama, por isso não se esqueça de vacinar💉.
+       Mais transmissível e tem capacidade de contornar o sistema de defesa. As vacinas mostram sua importância contra a variante Gama, por isso não se esqueça de vacinar💉.
 
-        Tivemos muito contato com essa variante, caso queira estudar um pouquinho mais, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+       Tivemos muito contato com essa variante, caso queira estudar um pouquinho mais, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_delta:
     - text: |
-        A variante Delta surgiu entre o periodo de outubro e Dezembro na Índia 🇮🇳
-        As mutações vão desde a E484Q, que ajuda o vírus contra os anticorpos, até a L452R, que também está ligada a resposta imune.
+       A variante Delta surgiu entre o periodo de outubro e Dezembro na Índia 🇮🇳
+       As mutações vão desde a E484Q, que ajuda o vírus contra os anticorpos, até a L452R, que também está ligada a resposta imune.
 
-        É só dizer caso queira maiores detalhes sobre essa variante. 😉
+       É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_delta_mais:
     - text: |
-        A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
+       A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
 
-        Caso queira se aprofundar nos estudos sobre as variantes, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+       Caso queira se aprofundar nos estudos sobre as variantes, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_saude_mental:
     - text: |
-        Manter a saúde mental nesse tempo de pandemia e quarentena não é uma tarefa nada fácil, se afastar dos seus próximos e se isolar em casa é algo necessário, mas muito difícil de se fazer, pois gera muito estresse, ansiedade e pode também ser gatilho para uma depressão. Por isso aqui vai alguns hábitos que podem ser adotados para que se mantenha ou melhore a saúde mental nesse tempo tão difícil:    
-        - Mantenha uma alimentação saudável:
-        Ter atenção ao que se come e priorizar uma dieta balanceada permite a ingestão de todos os nutrientes necessários ao organismo. Isso ajuda no bom funcionamento dos processos químicos do cérebro. Cuidar do corpo também é cuidar da mente.
-        - Faça exercícios físicos diários:
-        Mesmo com as academias fechadas, é possível manter a atividade física em dia. Aplicativos de celular como Nike Training Club, Freeletics Bodyweight, Endomondo e FitNotes possuem centenas de sugestões de exercícios para você fazer em casa e com segurança.
-        - Mantenha contato com seus familiares e amigos:
-        Uma conversa com amigos ou com a família por mensagens, ligações telefônicas ou videochamadas pode aliviar sensações ruins. Também faz relembrar que existe uma rede de apoio com a qual você pode contar.
-        - Evite o uso de tabaco, bebidas alcoólicas e outras drogas:
-        Fazer o uso de Álcool, cigarro e outras drogas para lidar com as emoções pode ser atrativo a princípio mas se tornam vícios e, a longo prazo, causam muitos malefícios à saúde física e mental.
-        - Limite o tempo que passa lendo ou assistindo notícias:
-        Diariamente nos encontramos em meio a um bombardeio de informações e opiniões, é natural que você se sinta angustiado, por isso limite o tempo que você ou sua família passa absorvendo notícias.
-        - Tire um tempo para você:
-        Não preencha seus dias apenas com atividades obrigatórias - libere um espaço na sua agenda para ler um livro, assistir a um filme, aprender uma habilidade nova, fazer exercícios físicos, ouvir uma música, cozinhar com tranquilidade. A escolha é sua: por você e para você.
-        O momento é difícil, mas manter a saúde mental é essencial, caso perceba que essas medidas não estão sendo efetivas, é altamente recomendada a busca por ajuda profissional. 
-        Para saber mais acesse: 👉 https://www.pfizer.com.br/noticias/ultimas-noticias/saude-mental-na-pandemia-do-coronavirus-como-manter-o-bem-estar-em-tempos-de-distanciamento-social 👈 
+       Manter a saúde mental nesse tempo de pandemia e quarentena não é uma tarefa nada fácil, se afastar dos seus próximos e se isolar em casa é algo necessário, mas muito difícil de se fazer, pois gera muito estresse, ansiedade e pode também ser gatilho para uma depressão. Por isso aqui vai alguns hábitos que podem ser adotados para que se mantenha ou melhore a saúde mental nesse tempo tão difícil:    
+       - Mantenha uma alimentação saudável:
+       Ter atenção ao que se come e priorizar uma dieta balanceada permite a ingestão de todos os nutrientes necessários ao organismo. Isso ajuda no bom funcionamento dos processos químicos do cérebro. Cuidar do corpo também é cuidar da mente.
+       - Faça exercícios físicos diários:
+       Mesmo com as academias fechadas, é possível manter a atividade física em dia. Aplicativos de celular como Nike Training Club, Freeletics Bodyweight, Endomondo e FitNotes possuem centenas de sugestões de exercícios para você fazer em casa e com segurança.
+       - Mantenha contato com seus familiares e amigos:
+       Uma conversa com amigos ou com a família por mensagens, ligações telefônicas ou videochamadas pode aliviar sensações ruins. Também faz relembrar que existe uma rede de apoio com a qual você pode contar.
+       - Evite o uso de tabaco, bebidas alcoólicas e outras drogas:
+       Fazer o uso de Álcool, cigarro e outras drogas para lidar com as emoções pode ser atrativo a princípio mas se tornam vícios e, a longo prazo, causam muitos malefícios à saúde física e mental.
+       - Limite o tempo que passa lendo ou assistindo notícias:
+       Diariamente nos encontramos em meio a um bombardeio de informações e opiniões, é natural que você se sinta angustiado, por isso limite o tempo que você ou sua família passa absorvendo notícias.
+       - Tire um tempo para você:
+       Não preencha seus dias apenas com atividades obrigatórias - libere um espaço na sua agenda para ler um livro, assistir a um filme, aprender uma habilidade nova, fazer exercícios físicos, ouvir uma música, cozinhar com tranquilidade. A escolha é sua: por você e para você.
+       O momento é difícil, mas manter a saúde mental é essencial, caso perceba que essas medidas não estão sendo efetivas, é altamente recomendada a busca por ajuda profissional. 
+       Para saber mais acesse: 👉 https://www.pfizer.com.br/noticias/ultimas-noticias/saude-mental-na-pandemia-do-coronavirus-como-manter-o-bem-estar-em-tempos-de-distanciamento-social 👈 
 
   utter_ask_localizacao_form_uf:
     - text: "Me conta qual é a sigla do seu estado 🏁. Exemplo: DF"

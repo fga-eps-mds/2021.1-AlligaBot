@@ -182,24 +182,28 @@ stories:
       Quais são as variantes do covid?
     intent: variantes
   - action: utter_variantes
+
 - story: caminho para conversar sobre transmissão
   steps:
   - user: |
       Como é a transmissão do vírus?
     intent: formas_de_transmissao
   - action: utter_formas_de_transmissao
+
 - story: caminho para para saber mais sobre o virus
   steps:
   - user: |
       Detalhes sobre a covid
     intent: mais_sobre_o_virus
   - action: utter_mais_sobre_o_virus
+
 - story: forma gerais de prevencao
   steps:
   - user: |
       Como eu posso me prevenir?
     intent: formas_gerais_de_prevencao
   - action: utter_formas_gerais_de_prevencao
+
 - story: Pergunta de desafio para o bot
   steps:
   - user: |
@@ -207,3 +211,9 @@ stories:
     intent: bot_alligabot
   - action: utter_alligabot
 
+- story: quando pode vacinar
+  steps:
+  - user: |
+      Quando eu posso me vacinar?
+    intent: quando_vacinar
+  - action: utter_quando_vacinar

@@ -68,3 +68,9 @@ stories:
       Cuidados em academia
     intent: cuidados_na_academia
   - action: utter_cuidados_na_academia
+- story: caminho para conversar sobre os cuidados no dentista
+  steps:
+  - user: |
+      Cuidados no dentista
+    intent: cuidados_no_dentista
+  - action: utter_cuidados_no_dentista

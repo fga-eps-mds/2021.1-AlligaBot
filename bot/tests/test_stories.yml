@@ -62,3 +62,9 @@ stories:
       Cuidados em  restaurantes
     intent: cuidados_em_restaurantes
   - action: utter_cuidados_em_restaurantes
+- story: caminho para conversar sobre os cuidados na academia
+  steps:
+  - user: |
+      Cuidados em academia
+    intent: cuidados_na_academia
+  - action: utter_cuidados_na_academia

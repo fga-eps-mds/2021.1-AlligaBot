@@ -80,3 +80,9 @@ stories:
       Quais cuidados devo ter no cabeleireiro para me proteger do COVID-19?
     intent: barbearia_cabelereiro
   - action: utter_cabelos
+- story: cuidados no escritorio ou trabalho
+  steps:
+  - user: |
+      Vou ao escritório
+    intent: cuidados_escritorio
+  - action: utter_cuidados_escritorio

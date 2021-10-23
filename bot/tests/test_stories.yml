@@ -86,3 +86,9 @@ stories:
       Vou ao escritório
     intent: cuidados_escritorio
   - action: utter_cuidados_escritorio
+- story: Como se portar no comércio em geral
+  steps:
+  - user: |
+      Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
+    intent: cuidados_comercio_geral
+  - action: utter_cuidados_comercio_geral

@@ -2,7 +2,6 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Resultado Sprint 4
 
 Obtivemos ótimos resultados nessa sprint, foi realizado a estruturação do documento de arquitetura e foram finalizadas a primeira versão do ReadMe e do GitHubPages.
 Fizemos também reuniões muito produtivas com todos os Scrum Masters, que utilizamos para organizar e atribuir todas as documentações necessárias para a release 1, além de criar o documento de estrutura analítica.

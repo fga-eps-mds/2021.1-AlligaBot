@@ -5,7 +5,6 @@ tag: slowbrows
 
 
 
-# Resultado Sprint 8
 Todos os erros apontados pela professora e monitores na entrega da release 1 foram arrumados e realizamos reuniões para destacar alguns pontos onde podemos melhorar, para facilitar o trabalho em grupo.
 
 ## Histórico de Versões

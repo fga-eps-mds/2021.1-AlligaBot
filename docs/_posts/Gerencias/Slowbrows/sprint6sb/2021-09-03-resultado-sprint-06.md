@@ -4,7 +4,6 @@ tag: slowbrows
 ---
 
 
-# Resultado Sprint 6
 A sprint 6 foi utilizada para a finalização dos documentos restantes para a release 1. Conseguimos também nos comunicar com os monitores e a professora para receber ainda mais informações e um feedback sobre o que foi feito até hoje.
 
 

@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 02
 
 As documentações, tanto da [sprint 0](https://github.com/fga-eps-mds/2021-1-Bot/tree/docs_capivara/gerencia/sprint0) quanto da
 [sprint 1](https://github.com/fga-eps-mds/2021-1-Bot/tree/docs_capivara/gerencia/sprint1), foram criadas e estão na branch docs_capivara. 

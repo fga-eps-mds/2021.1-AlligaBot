@@ -2,7 +2,6 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Planejamento Sprint 5
 
 Para a Sprint 5 foram designadas diversas tarefas, como  a criação do código de conduta, o plano de gerenciamento de riscos e o documento de visão. Após isso, poderemos começar a fazer update de todas as documentações no nosso GitHubPages. Além de finalizar as Issues não fechadas da sprint 4.
 

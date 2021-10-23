@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 5
 
 Nessa sprint novamente foram acumuladas as documentações de gerencia.
 

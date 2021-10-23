@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 12
 
 Nessa sprint foram divididas as duas seguintes tarefas: realizar testes rasa e humanizar as falas do bot, de modo que todos tenham algo para fazer. Enquanto os DevOps criam pipelines de CI/CD.
 

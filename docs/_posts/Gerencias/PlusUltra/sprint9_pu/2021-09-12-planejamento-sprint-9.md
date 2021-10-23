@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 9
 
 Nessa sprint os tecnologistas voltarão a implementar as US enquanto na primeira metade na sprint as pessoas que não implementaram nada no bot ainda estadarão sobre como rodar o bot e Rasa, para que na segunda metade possam parear com algum tecnologista e tentar implementar uma US.
 

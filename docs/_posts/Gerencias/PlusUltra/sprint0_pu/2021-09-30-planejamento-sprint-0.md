@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 0
 
 Nessa sprint a equipe foi ambientada a proposta da disciplina, apresentada aos possíveis projetos e introduzida a alguns conceitos de programação.
 A equipe dividiu tarefas de pesquisa para cada integrante, pensando nos possíveis projetos e conhecimentos para facilitar o decorrer da disciplina.

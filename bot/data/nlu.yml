@@ -10,6 +10,8 @@ nlu:
     - Ola
     - Bom dia
     - Boa Tarde
+    - Alo
+    - Como vai
 
     
 - intent: despedida
@@ -19,12 +21,19 @@ nlu:
     - flw
     - obrigado bot
     - tchau
+    - Fui
+    - Ate logo
+    - conversamos mais depois
+    - quero parar
+    - finalizar
+    - parar
 
 - intent: covid
   examples: |
-    - o que e COVID ?
-    - COVID
-
+    - o que e Covid-19 ?
+    - Covid-19
+    - Quero saber mais sobre o que é a Covid-19?
+    
 - intent: fora_do_escopo
   examples: |
     - Quero pedir comida
@@ -89,6 +98,8 @@ nlu:
     - mais alfa
     - mais sobre alfa
     - mais alfa
+    - quero mais detalhes sobre a alfa
+    - detalhe alfa
 
 - intent: beta
   examples: |
@@ -105,6 +116,9 @@ nlu:
     - mais beta
     - mais sobre beta
     - mais bet
+    - mais detalhe beta
+    - detalhe beta
+    - quero mais detalhes sobre a beta
 
 - intent: gama
   examples: |
@@ -119,6 +133,9 @@ nlu:
     - me fale sobre gama
     - mais Gama
     - mais sobre gama
+    - mais detalhe gama
+    - detalhe gama
+    - quero mais detalhes sobre a gama
 
 - intent: delta
   examples: |
@@ -132,6 +149,9 @@ nlu:
     - me fale sobre Delta
     - mais Delta
     - mais sobre delta
+    - mais detalhe delta
+    - detalhe delta
+    - quero mais detalhes sobre a delta
 
 - intent: formas_gerais_de_prevencao
   examples: |
@@ -282,10 +302,10 @@ nlu:
     
 - intent: covid_em_sua_cidade
   examples: |
-    - Quero saber sobre o covid na minha cidade
-    - Quero saber sobre o covid-19 na minha cidade
-    - Quero saber sobre o Sars-cov-2 na minha cidade
-    - Covid na minha cidade
+    - Desejo saber a quantidade de infectados por covid na minha cidade
+    - Desejo saber a quantidade de contaminados por covid na minha cidade
+    - Desejo saber o número de infectados por covid na minha cidade
+    - Desejo saber o número de contaminados por covid na minha cidade
 
 - intent: uf_input_form
   examples: |
@@ -448,8 +468,9 @@ nlu:
   
 - intent: exame_com_sintomas
   examples: |
-    - tenho sintomas
-    - estou com sintomas
+    - Tenho incativos de covid
+    - posso estar com indicios de covid
+    - acho que estou com sintomas de covid
 
 - intent: sintomas_mais_de_8
   examples: |
@@ -473,13 +494,13 @@ nlu:
 - intent: contato_mais_de_10
   examples: |
     - tive contato com o virus a mais de 10 dias
-    - entrei em contato com alguem contaminado a mais de 10 dias
+    - passei com alguem contaminado a mais de 10 dias
     - tem mais de 10 dias
 
 - intent: contato_menos_de_10
   examples: |
     - tive contato com o virus a menos de 10 dias
-    - entrei em contato com alguem contaminado a menos de 10 dias
+    - entrei em contato com alguem contaminado entre 10 dias
     - tem menos de 10 dias
   
 - intent: vacina_no_organismo
@@ -507,6 +528,47 @@ nlu:
     - Teste positivo
     - O que fazer depois do positivo?
 
+- intent: vacina_eficacia
+  examples: |
+    - eficácia vacina
+    - eficácia
+    - qual a eficácia das vacinas?
+    - como posso saber se as vacinas são eficazes?
+    - estarei imunizado se tomar a vacina?
+    - qual a chance de eu pegar covid pós tomar vacina?
+
+- intent: eficacia_pfizer
+  examples: |
+    - eficácia da pfizer
+    - qual a eficácia da pfizer?
+
+- intent: eficacia_da_coronavac
+  examples: |
+    - eficácia da coronavac
+    - qual a eficácia da coronavac?
+    - coronavac funciona mesmo?
+    - porcentagem da eficacia da coronavac
+    - taxa de eficacia coronavac
+    
+- intent: eficacia_janssen
+  examples: |
+    - eficácia da janssen
+    - qual a eficácia da janssen?
+
+- intent: eficacia_astrazeneca
+  examples: |
+    - eficácia da astrazenica
+    - qual a eficácia da astrazenica?
+    - qual a eficácia da astrazeneca?
+
+- intent: oque_fazer_suspeita
+  examples: |
+    - suspeita covid
+    - o que fazer caso esteja com suspeita de covid?
+    - estou com suspeita de covid-19, o que fazer?
+    - estou com sintomas de corona
+    - estou com sintomas de covid-19
+
 - intent: local_teste
   examples: |
     - Onde me testar?
@@ -516,4 +578,20 @@ nlu:
     - Localidade de testagem
     - Onde é que eu me testo?
     - Onde é o lugar para fazer o teste de covid?
-    
+
+- intent: quantidade_de_infectados_por_periodo
+  examples: |
+    - Desejo saber a quantidade de infectados pelo covid-19 por período
+    - Desejo saber a quantidade de contaminados por covid por período
+    - Desejo saber o número de infectados por covid por período
+    - Desejo saber o número de contaminados por covid por período  
+
+- intent: quantidade_de_mortos_por_periodo
+  examples: |
+    - Me informe a quantidade de mortos pelo covid-19 por período
+    - Quero saber sobre o número de mortos por período
+    - Me interesso em saber sobre quantidade de mortos pelo covid-19 por período
+    - Quantos seriam os mortos pelo covid-19 por período?
+    - Me informe a quantidade de mortos pelo covid-19 por período
+    - Qual seria a quantidade de mortos por período?
+

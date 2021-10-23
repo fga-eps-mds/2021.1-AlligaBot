@@ -35,7 +35,7 @@ Nessa sprint foram divididas as duas seguintes tarefas: realizar testes rasa e h
 | [#338](https://github.com/fga-eps-mds/2021-1-Bot/issues/338) | Teste unitarios e de integração | - | Douglas, Erick e Yudi |
 | [#340](https://github.com/fga-eps-mds/2021-1-Bot/issues/340) | Consertar o community insights: código de conduta e contribuição | - | Yudi |
 | [#343](https://github.com/fga-eps-mds/2021-1-Bot/issues/343) | Avaliação e Humanização das issues que necessitam de links | - | Pedro |
-| [#345](https://github.com/fga-eps-mds/2021-1-Bot/issues/345) | Implementando os US 15 e 17 | - | Douglas |
+| [#345](https://github.com/fga-eps-mds/2021-1-Bot/issues/345) | Implementando os US 15 e 17 | 2 | Douglas |
 | [#348](https://github.com/fga-eps-mds/2021-1-Bot/issues/348) | Implementação do US 33 | - | Douglas |
 | [#353](https://github.com/fga-eps-mds/2021-1-Bot/issues/353) | Realizar testes nas US39 - US45 | - | Erick |
 

@@ -1,0 +1,27 @@
+version: "2.0"
+rules:
+
+#US02
+- rule: Pergunta de desafio para o bot
+  steps:
+  - user: |
+      o que vc faz?
+    intent: bot_alligabot
+  - action: utter_alligabot
+
+#US03 e US04
+- rule: Pergunta fora do escopo
+  steps:
+  - user: |
+      quero pedir pizza
+    intent: fora_do_escopo
+  - action: utter_fora_do_escopo
+
+#US05
+- rule: Despedida do bot
+  steps:
+  - user: |
+      Tchau, obrigado
+    intent: despedida
+  - action: utter_despedida
+

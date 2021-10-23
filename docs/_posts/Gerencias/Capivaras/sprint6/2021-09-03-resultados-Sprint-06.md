@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 6
 
 Nessa sprint foi decidido em reunião que os grupos iram se dedicar principalmente a revisar os documentos já concluídos e finalizar os poucos que faltavam para a primeira release
 marcada para o dia 14. Os documentos prontos passaram por revisão seguindo o critério de que quem revisaria seria um membro de um grupo que não fez parte da maior parte das contribuições

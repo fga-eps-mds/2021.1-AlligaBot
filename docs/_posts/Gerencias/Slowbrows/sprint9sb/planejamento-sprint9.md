@@ -1,8 +1,5 @@
 ﻿
 
-
-# Planejamento Sprint 9
-
 Nessa sprint foi decidido que todos iniciariam os estudos do Rasa, através do nosso [Dojô](https://www.youtube.com/watch?v=O4x1XRHezBY&t=806s), para então começar a criação das User Stories do projeto. Foi proposto o pareamento entre os integrantes para facilitar e agilizar a criação.
 
 

@@ -248,6 +248,7 @@ stories:
   - intent: teste_positivo
   - action: utter_teste_positivo
 
+
 - story: formulario de cadastro de próxima dose da vacina do covid-19
   steps:
     - intent: cadastrar_data_proxima_dose_vacina
@@ -255,6 +256,31 @@ stories:
     - active_loop: cadastro_data_form
     - active_loop: null
     - action: action_cadastrar_lembrete_proxima_dose
+
+- story: eficacia das vacinas aprovadas pela ANVISA
+  steps:
+  - intent: vacina_eficacia
+  - action: utter_vacina_eficacia
+
+- story: eficacia da pfizer
+  steps: 
+  - intent: eficacia_pfizer
+  - action: utter_eficacia_pfizer
+
+- story: eficacia da coronavac
+  steps: 
+  - intent: eficacia_da_coronavac
+  - action: utter_eficacia_da_coronavac
+
+- story: eficacia da janssen
+  steps: 
+  - intent: eficacia_janssen
+  - action: utter_eficacia_janssen
+
+- story: eficacia da astrazeneca
+  steps: 
+  - intent: eficacia_astrazeneca
+  - action: utter_eficacia_astrazeneca
 
 - story: estou com suspeita de COVID-19
   steps:

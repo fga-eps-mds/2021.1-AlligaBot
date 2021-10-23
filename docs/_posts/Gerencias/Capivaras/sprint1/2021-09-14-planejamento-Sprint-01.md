@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Planejamento Sprint 01 (Design Sprint)
 
 Nessa Sprint o foco será o de estabelecer o primeiro contato com o cliente, em conjunto com os outros dois grupos, de modo que consigamos direcionar nossos trabalhos no projeto em acordo com 
 as necessidades do cliente. Além disso, se iniciará o processo de criação de alguns templates para documentação organizada, o estudo das tecnologias que serão as utilizadas pelo grupo durante o projeto

@@ -2,15 +2,15 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Planejamento Sprint 4
 
-Nessa Sprint 4 foi decidido que daremos inicio a alguns documentos extremamente necessários para o andamento do projeto, como o documento de arquitetura, a estrutura analítica, GitHub pages, a primeira versão do ReadMe e a elicitação de requisitos . Além disso faremos algumas reuniões com os integrantes dos demais grupos para alinharmos os pensamentos e avançar no projeto.
+Nessa Sprint 4 foi decidido que daremos início a alguns documentos extremamente necessários para o andamento do projeto, como o documento de arquitetura, a estrutura analítica, GitHub pages, a primeira versão do ReadMe e a elicitação de requisitos . Além disso faremos algumas reuniões com os integrantes dos demais grupos para alinharmos os pensamentos e avançar no projeto.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 04/09/2021 |    0.1   | planSprint4 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 21/10/2021 |  0.2   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Tamanho da Sprint
 

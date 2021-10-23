@@ -3,10 +3,7 @@ layout: page_slowbrows
 tag: slowbrows
 ---
 
-
-# Planejamento Sprint 6
-
-Na 6 sprint, tivemos que terminar alguns documentos restantes que foram designados a sprint 5, além de fazer o plano de comunicação e  revisar  o documento de arquitetura.
+Na 6º sprint, tivemos que terminar alguns documentos restantes que foram designados a sprint 5, além de fazer o plano de comunicação e  revisar  o documento de arquitetura.
 
 
 
@@ -15,6 +12,7 @@ Na 6 sprint, tivemos que terminar alguns documentos restantes que foram designad
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 04/09/2021 |    0.1   | planSprint6 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 21/10/2021 |  0.2   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Tamanho da Sprint
 

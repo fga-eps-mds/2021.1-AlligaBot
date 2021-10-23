@@ -2,7 +2,6 @@
 layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 2
 
 Cada integrante da equipe se aprofundou em uma área específica, continuando os estudos da sprint passada, sendo assim, essa sprint acabou sendo mais uma sprint preparatória.
 

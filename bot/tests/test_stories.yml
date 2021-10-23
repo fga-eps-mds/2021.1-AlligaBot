@@ -216,3 +216,10 @@ stories:
   - active_loop: cadastro_data_form
   - active_loop: null
   - action: action_responder_quantidade_mortos_por_periodo
+
+- story: caminho para conversar sobre os cuidados em locais abertos
+  steps:
+  - user: |
+      Quais cuidados devo ter em locais abertos?
+    intent: cuidados_em_locais_abertos
+  - action: utter_cuidados_em_locais_abertos

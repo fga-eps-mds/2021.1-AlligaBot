@@ -223,3 +223,10 @@ stories:
       Quais cuidados devo ter em locais abertos?
     intent: cuidados_em_locais_abertos
   - action: utter_cuidados_em_locais_abertos
+  
+- story: caminho para conversar sobre os cuidados em locais fechados
+  steps:
+  - user: |
+      Quais cuidados devo ter em locais fechados?
+    intent: cuidados_em_locais_fechados 
+  - action: utter_cuidados_em_locais_fechados

@@ -74,3 +74,9 @@ stories:
       Cuidados no dentista
     intent: cuidados_no_dentista
   - action: utter_cuidados_no_dentista
+- story: Como se portar no Cabeleiro/barbearia
+  steps:
+  - user: |
+      Quais cuidados devo ter no cabeleireiro para me proteger do COVID-19?
+    intent: barbearia_cabelereiro
+  - action: utter_cabelos

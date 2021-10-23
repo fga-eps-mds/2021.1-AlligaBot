@@ -223,10 +223,17 @@ stories:
       Quais cuidados devo ter em locais abertos?
     intent: cuidados_em_locais_abertos
   - action: utter_cuidados_em_locais_abertos
-  
+
 - story: caminho para conversar sobre os cuidados em locais fechados
   steps:
   - user: |
       Quais cuidados devo ter em locais fechados?
     intent: cuidados_em_locais_fechados 
   - action: utter_cuidados_em_locais_fechados
+  
+- story: caminho para conversar sobre a diferença do risco de contaminação  entre locais abertos e fechados
+  steps:
+  - user: |
+      Qual a diferença de risco de contaminação entre ambientes abertos e fechados?
+    intent: diferenca_locais_abertos_e_fechados 
+  - action: utter_diferenca_locais_abertos_e_fechados

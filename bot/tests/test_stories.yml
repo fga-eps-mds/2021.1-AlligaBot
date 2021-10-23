@@ -102,10 +102,10 @@ stories:
     intent: sintomas
   - action: utter_sintomas
 
-- story:  infectados por covid na minha cidade
+- story:  Informando ao usuário a quantidade de infectados de infectados e mortos por cidade
   steps:
   - user: |
-      Desejo saber a quantidade de infectados por covid na minha cidade
+       Desejo saber a quantidade de infectados por covid na minha cidade e quantidade de mortos por covid na minha cidade
     intent: covid_em_sua_cidade
   - action: localizacao_form
   - active_loop: localizacao_form

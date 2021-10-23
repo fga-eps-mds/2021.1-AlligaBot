@@ -207,3 +207,12 @@ stories:
     intent: bot_alligabot
   - action: utter_alligabot
 
+- story: Informando ao usuário a quantidade de mortos por período
+  steps:
+  - user: |
+      Desejo saber o número de mortos pelo covid-19 por período
+    intent: quantidade_de_mortos_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_mortos_por_periodo

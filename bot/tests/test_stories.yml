@@ -56,9 +56,9 @@ stories:
       quero saber sobre Delta
     intent: mais_delta
   - action: utter_delta_mais
-
-
-
-  
-  
-
+- story: caminho para conversar sobre os cuidados em restaurantes
+  steps:
+  - user: |
+      Cuidados em  restaurantes
+    intent: cuidados_em_restaurantes
+  - action: utter_cuidados_em_restaurantes

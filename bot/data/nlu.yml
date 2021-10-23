@@ -302,10 +302,10 @@ nlu:
     
 - intent: covid_em_sua_cidade
   examples: |
-    - Desejo saber a quantidade de infectados por covid na minha cidade
-    - Desejo saber a quantidade de contaminados por covid na minha cidade
-    - Desejo saber o número de infectados por covid na minha cidade
-    - Desejo saber o número de contaminados por covid na minha cidade
+    - Desejo saber a quantidade de infectados por covid na minha cidade e quantidade de mortos por covid na minha cidade
+    - Desejo saber a quantidade de contaminados por covid na minha cidade e quantidade de mortos por covid na minha cidade
+    - Desejo saber o número de infectados por covid na minha cidade e o número de mortos por covid na minha cidade
+    - Desejo saber o número de contaminados por covid na minha cidade e o número de mortos por covid na minha cidade
 
 - intent: uf_input_form
   examples: |

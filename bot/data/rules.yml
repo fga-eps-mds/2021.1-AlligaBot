@@ -12,7 +12,21 @@ rules:
   - intent: fora_do_escopo
   - action: utter_fora_do_escopo
 
+- rule: Cadastrar lembrete da próxima dose da vacina do covid-19
+  steps:
+  - intent: cadastrar_data_proxima_dose_vacina
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_cadastrar_lembrete_proxima_dose
+
+- rule: Lembrar o usuário sobre a próxima dose da vacina do covid-19
+  steps:
+  - intent: EXTERNAL_reminder
+  - action: action_enviar_lembrete_da_proxima_dose_da_vacina
+
 - rule: Pergunta de desafio para o bot
   steps:
   - intent: bot_alligabot
   - action: utter_alligabot
+

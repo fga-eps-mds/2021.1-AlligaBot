@@ -63,6 +63,7 @@ intents:
   - local_teste
   - quantidade_de_infectados_por_periodo
   - quantidade_de_mortos_por_periodo
+  - quantidade_de_vacinados_por_periodo
 
 forms:
   localizacao_form:
@@ -108,6 +109,7 @@ actions:
   - action_enviar_lembrete_da_proxima_dose_da_vacina
   - action_responder_quantidade_infectados_por_periodo
   - action_responder_quantidade_mortos_por_periodo
+  - action_responder_quantidade_vacinados_por_periodo
 
 entities:
   - oi

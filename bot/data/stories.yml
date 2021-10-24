@@ -307,4 +307,11 @@ stories:
   - active_loop: cadastro_data_form
   - active_loop: null
   - action: action_responder_quantidade_mortos_por_periodo
-    
+
+- story: Informando ao usuário a quantidade de vacindaos por período
+  steps:
+  - intent: quantidade_de_vacinados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_vacinados_por_periodo

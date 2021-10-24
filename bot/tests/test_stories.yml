@@ -151,6 +151,14 @@ stories:
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
 
+- story: Informando ao usuário a quantidade de vacindaos por período
+  steps:
+  - user: |
+      Desejo saber a quantidade de vacinados contra o covid-19 por período
+    intent: quantidade_de_vacinados_por_periodo
+  - action: cadastro_data_form
+  - action: action_responder_quantidade_vacinados_por_periodo
+
 - story: formulario de cadastro de próxima dose da vacina do covid-19
   steps:
   - user: |

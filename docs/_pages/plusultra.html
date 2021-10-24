@@ -4,21 +4,44 @@ title: Equipe PlusUltra
 permalink: /PlusUltra/
 share: false
 ---
-{% for post in site.posts %}
-<div class="article-wrapper">
-    <article>
-        <section class="post-content">
-            {% if post.tag == "plusultra" %}
-            {% assign size = post.content | split: site.excerpt_separator | size %}
-            
-            {{ post.excerpt }}
-            
-            {% endif %}
-        </section>
-    </article>
-</div>
 
-{% if forloop.last != true %}
+<div class="wrapper">
+    <div class="section section-gray section-features">
+        <div class="container center">
+            <h3 class="header-text text-center">Membros</h3>
+            <div class="row">
 
-{% endif %}
-{% endfor %}
+                <div class="col-md-4" style="display: inline-block; text-align: center" display="inline-block">
+                  <h4 class="header-text-name">Amanda Nobre</h4>
+                    <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px;" src="../assets/img/faces/amanda.png">                    
+                </div>
+
+                <div class="col-md-4" style="text-align: center; display: inline-block">
+                    <h4 class="header-text-name">Douglas Monteles</h4>
+                      <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/douglas.jpeg">
+                  </div>
+
+                <div class="col-md-4" style="display: inline-block; text-align: center" display="inline-block">
+                  <h4 class="header-text-name">Erick Levy</h4>
+                    <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/erick.jpeg">
+                </div>         
+
+                <div class="col-md-4" style="text-align: center; display: inline-block">
+                    <h4 class="header-text-name">Pedro Lucas</h4>
+                      <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/pedro.jpeg">
+                  </div>
+
+                <div class="col-md-4" style="text-align: center; display: inline-block">
+                  <h4 class="header-text-name">Victor Eduardo</h4>
+                    <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/victor.jpeg">
+                </div>
+
+                <div class="col-md-4" style="text-align: center; display: inline-block">
+                    <h4 class="header-text-name">Yudi Yamane</h4>
+                      <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/yudi.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div

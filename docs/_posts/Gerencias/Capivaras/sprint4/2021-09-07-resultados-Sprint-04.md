@@ -1,7 +1,7 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 4
 Essa sprint foi muito importante para a organização dos trabalhos conjuntos entre todas as equipes. A reunião entre os Scrum Masters foi decisiva para o estabelecimento de um canal
 de comunicação conjunto no discord, além do início das reuniões semanais entre os Scrum Masters.
 
@@ -47,11 +47,11 @@ A daily dessa sprint foi feita e pode ser vista aqui: [Daily Sprint 4.pdf](https
 
 ## Burndown
 
-![](../assets/burndown_sprint4.jpg)
+<img src="{{ '/assets/img/capivaras/burndown_sprint4.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint4.jpg)
+<img src="{{ '/assets/img/capivaras/velocity_sprint4.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação do Scrum Master
 

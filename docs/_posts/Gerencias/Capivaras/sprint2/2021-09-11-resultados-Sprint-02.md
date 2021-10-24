@@ -1,7 +1,7 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 02
 
 As documentações, tanto da [sprint 0](https://github.com/fga-eps-mds/2021-1-Bot/tree/docs_capivara/gerencia/sprint0) quanto da
 [sprint 1](https://github.com/fga-eps-mds/2021-1-Bot/tree/docs_capivara/gerencia/sprint1), foram criadas e estão na branch docs_capivara. 
@@ -52,11 +52,11 @@ Por fim, a configuração do ambiente de desenvolvimento não foi concluída e, 
 
 ## Burndown
 
-![](../assets/burndown_sprint2.png)
+<img src="{{ '/assets/img/capivaras/burndown_sprint2.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint2.png)
+<img src="{{ '/assets/img/capivaras/velocity_sprint2.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 
 ## Avaliação do Scrum Master

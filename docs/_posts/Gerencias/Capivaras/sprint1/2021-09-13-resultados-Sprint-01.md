@@ -1,10 +1,10 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 01
 
 Foi criado um grupo no Telegram para contato entre os integrantes de todos os grupos, mas foi criada uma nova Issue para que a [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)
-organize reuniões ordinárias com outros PO's dos diferentes grupos. Quanto aos estudos de tecnologia, O grupo entendeu que estudar as tecnologias é uma tarefa que abrange 
+organize reuniões ordinárias com outros PO's dos diferentes grupos. Quanto aos estudos de tecnologia, o grupo entendeu que estudar as tecnologias é uma tarefa que abrange 
 todo o decorrer do semestre e, portanto, fechamos a Issue. O primeiro contato com o cliente foi estabelecido em conjunto com o PO do grupo Plus Ultra, porém, entendemos que os resultados
 dessa primeira reunião não foram satisfatórios o suficiente no que se refere ao seu objetivo inicial, que era coletar informações o suficiente para que o grupo já conseguisse iniciar
 os trabalhos. Além disso, o template para documentação e issues foram criadas e as próximas documentações podem ser feitas a partir delas.
@@ -22,11 +22,11 @@ os trabalhos. Além disso, o template para documentação e issues foram criadas
 
 ## Burndown
 
-![](../assets/burndown_sprint1.png)
+<img src="{{ '/assets/img/capivaras/burndown_sprint1.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint1.png)
+<img src="{{ '/assets/img/capivaras/velocity_sprint1.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação do Scrum Master
 

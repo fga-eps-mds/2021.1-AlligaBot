@@ -1,26 +1,27 @@
 ---
 layout: page_slowbrows
-title: Equipe SlowBrows
-permalink: /Slowbrows/
+title: Equipe Slowbrows
+permalink: /slowbrows/
 share: false
 ---
-{% for post in site.posts %}
-<div class="article-wrapper">
-    <article>
-        <section class="post-content">
-            {% if post.tag == "slowbrows" %}
-            {% assign size = post.content | split: site.excerpt_separator | size %}
-            
-            {{ post.excerpt }}
-           
-            {% else %}
-            
-            {% endif %}
-        </section>
-    </article>
-</div>
 
-{% if forloop.last != true %}
+<div class="wrapper">
+    <div class="section section-gray section-features">
+        <div class="container center">
+            <h3 class="header-text text-center">Membros</h3>
+            <div class="row">
 
-{% endif %}
-{% endfor %}
+                <div class="col-md-4" style="display: inline-block; text-align: center" display="inline-block">
+                  <h4 class="header-text-name">Henrique Hida</h4>
+                    <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px;" src="../assets/img/faces/henrique.jpg">                    
+                </div>
+
+                <div class="col-md-4" style="text-align: center; display: inline-block">
+                    <h4 class="header-text-name">Kayro César</h4>
+                      <img style="border-radius:50%; height: 130px; margin-left: 70px; margin-right: 70px; margin-bottom: 30px" src="../assets/img/faces/kayro.png">
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</div

@@ -4,7 +4,7 @@
 # url: http://localhost:4000
 # baseurl: ""
 url: https://fga-eps-mds.github.io
-baseurl: "/2021-1-Bot"
+baseurl: "/2021.1-AlligaBot"
 # collections:
 
 defaults:
@@ -32,7 +32,7 @@ language: pt
 icons:
   rss: true
   email:
-  github: ttskch
+  github: fga-eps-mds/2021-1-Bot
   bitbucket:
   twitter: ttskch
   facebook:

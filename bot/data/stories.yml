@@ -120,7 +120,6 @@ stories:
   - intent: cuidados_comercio_geral
   - action: utter_cuidados_comercio_geral
 
-
 - story: forma gerais de prevencao
   steps:
   - intent: formas_gerais_de_prevencao
@@ -144,6 +143,15 @@ stories:
     - active_loop: null
     - action: action_dados_covid_baseados_em_localizacao
 
+- story: formulario de localizacao do usuario para informar vacinados
+  steps:
+    - intent: vacinados_no_meu_estado
+    - action: localizacao_uf_apenas_form
+    - active_loop: localizacao_uf_apenas_form
+    - active_loop: null
+    - action: action_responder_vacinados_em_um_estado
+
+
 - story: caminho para para saber sobre como usar a máscara corretamente
   steps:
   - intent: start
@@ -160,6 +168,11 @@ stories:
   steps:
   - intent: cuidados_escritorio
   - action: utter_cuidados_escritorio
+
+- story: preciso me vacinar
+  steps:
+  - intent: preciso_me_vacinar
+  - action: utter_preciso_me_vacinar
 
 - story: cuidados no atendimento ao cliente
   steps:
@@ -181,8 +194,107 @@ stories:
   - intent: doses_vacina
   - action: utter_doses_vacina
 
+- story: qual exame fazer
+  steps:
+  - intent: qual_exame_fazer
+  - action: utter_qual_exame_fazer
+
+- story: estou com sintomas
+  steps:
+  - intent: exame_com_sintomas
+  - action: utter_com_sintomas
+
+- story: tive contato com o covid
+  steps:
+  - intent: exame_contato_covid
+  - action: utter_contato_covid
+
+- story: estou com sintomas a menos de 8 dias
+  steps:
+  - intent: sintomas_menos_de_8
+  - action: utter_sintomas_menos_de_8
+
+- story: estou com sintomas a mais de 8 dias
+  steps:
+  - intent: sintomas_mais_de_8
+  - action: utter_sintomas_mais_de_8
+
+- story: nao tenho sintomas
+  steps:
+  - intent: exame_sem_sintomas
+  - action: utter_sem_sintomas
+
+- story: estou sem sintomas e tive contato a menos de 10 dias
+  steps:
+  - intent: contato_menos_de_10
+  - action: utter_contato_menos_de_10
+
+- story: estou sem sintomas e tive contato a mais de 10 dias
+  steps:
+  - intent: contato_mais_de_10
+  - action: utter_contato_mais_de_10
+- story: vacina no organismo
+  steps:
+  - intent: vacina_no_organismo
+  - action: utter_vacina_no_organismo
+
+- story: quando pode vacinar
+  steps:
+  - intent: quando_vacinar
+  - action: utter_quando_vacinar
+
 - story: testei positivo para o COVID-19
   steps:
   - intent: teste_positivo
   - action: utter_teste_positivo
 
+- story: eficacia das vacinas aprovadas pela ANVISA
+  steps:
+  - intent: vacina_eficacia
+  - action: utter_vacina_eficacia
+
+- story: eficacia da pfizer
+  steps: 
+  - intent: eficacia_pfizer
+  - action: utter_eficacia_pfizer
+
+- story: eficacia da coronavac
+  steps: 
+  - intent: eficacia_da_coronavac
+  - action: utter_eficacia_da_coronavac
+
+- story: eficacia da janssen
+  steps: 
+  - intent: eficacia_janssen
+  - action: utter_eficacia_janssen
+
+- story: eficacia da astrazeneca
+  steps: 
+  - intent: eficacia_astrazeneca
+  - action: utter_eficacia_astrazeneca
+
+- story: estou com suspeita de COVID-19
+  steps:
+  - intent: oque_fazer_suspeita
+  - action: utter_oque_fazer_suspeita
+
+- story: Onde posso me testar?
+  steps:
+  - intent: local_teste
+  - action: utter_local_teste
+
+- story: Informando ao usuário a quantidade de infectados por período
+  steps:
+  - intent: quantidade_de_infectados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_infectados_por_periodo
+
+- story: Informando ao usuário a quantidade de mortos por período
+  steps:
+  - intent: quantidade_de_mortos_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_mortos_por_periodo

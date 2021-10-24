@@ -1,7 +1,7 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 00 (Design Sprint)
 
 Nessa sprint a turma ainda estava sendo organizada para os projetos no decorrer do semestre. Os horários livres de cada membro foram organizados em uma [planilha](https://docs.google.com/spreadsheets/d/1I8LEH8eR2xAUQq63SwqnBtVvWprClk0BlHGAnlG_q6k/edit?usp=sharing), 
 o que posteriormente pode auxiliar a organizar
@@ -25,11 +25,11 @@ Além disso, foram definidos os papéis de cada um dos membros da equipe no trab
 
 ## Burndown
 
-![](../assets/burndown_sprint0.png)
+<img src="{{ '/assets/img/capivaras/burndown_sprint0.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint0.png)
+<img src="{{ '/assets/img/capivaras/velocity_sprint0.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Avaliação do Scrum Master
 

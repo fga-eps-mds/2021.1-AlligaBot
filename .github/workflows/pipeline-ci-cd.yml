@@ -10,6 +10,8 @@ on:
     paths:
       - 'actions/**'
       - 'bot/**'
+      - '.github/workflows/**'
+
 
 jobs:
   actions-lint:
@@ -45,6 +47,7 @@ jobs:
         run: | # não seria melhor usar requirements.txt?
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          python -m spacy download pt_core_news_sm
       - name: Treinar bot
         run: |
           python -m rasa train

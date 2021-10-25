@@ -178,54 +178,54 @@ responses:
 
   
   utter_tipos_de_mascaras:
-   - text: |
-      Os tipos de máscaras disponíveis são classificados por nível de eficiência de proteção.Os tipos mais comuns são:
-          Máscara PFF2 sem válvula (Eficiência alta)
-          Máscara cirúrgica  (Eficiência média para alta) 
-          Máscara de algodão (Eficiência média) 
-          Máscara de lenço ou bandana (Eficiência baixa)
-
+  - text: |
+      Os tipos de máscaras disponíveis são classificados por nível de eficiência de proteção. Os tipos mais comuns são:
+          ✔️ Máscara PFF2 sem válvula (Eficiência alta)
+          ✔️ Máscara cirúrgica  (Eficiência média para alta)
+          ✔️ Máscara de algodão (Eficiência média)
+          ✔️ Máscara de lenço ou bandana (Eficiência baixa)
+      Nessa matéria você consegue mais informações sobre o assunto 👉 bbc.com/portuguese/geral-57152019 👈
+      
 
   utter_uso_correto_mascara:
   - text: |
       Para se proteger adequadamente, é preciso usar corretamente a máscara, seguindo estas orientações:
-
-      - A máscara deve cobrir completamente o nariz e a boca: máscaras no queixo ou deixando o nariz de fora são inúteis.
-
-      - A máscara precisa se ajustar bem ao rosto, sem deixar folgas ou aberturas por onde entre ou saia o ar.
-
-      - A boa vedação é o ponto mais importante
-
-      - Para melhor ajuste e segurança, recomenda-se usar máscaras que possam ser presas na nuca, ao invés da orelha.
-
-      - As boas máscaras têm uma peça de metal perto do nariz (clipe nasal). Essa peça ajuda a ajustar melhor a máscara.
-
+      👉 A máscara deve cobrir completamente o nariz e a boca: máscaras no queixo ou deixando o nariz de fora são inúteis.
+ 
+      👉 A máscara precisa se ajustar bem ao rosto, sem deixar folgas ou aberturas por onde entre ou saia o ar.
+ 
+      👉 A boa vedação é o ponto mais importante.
+ 
+      👉 Para melhor ajuste e segurança, recomenda-se usar máscaras que possam ser presas na nuca, ao invés da orelha.
+ 
+      👉 As boas máscaras têm uma peça de metal perto do nariz (clipe nasal). Essa peça ajuda a ajustar melhor a máscara.
+  
   utter_cuidados_em_locais_abertos:
-  - text: "É importante frisar que, embora mais seguros, mesmo ambientes abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas,  sem respeito ao distanciamento físico, ou em situações de intensa interação entre as pessoas, como festas e shows. O uso de máscara sempre reduz o risco de infecção.Por isso, é importante  usar máscara corretamente mesmo ao ar livre e manter o distanciamento físico de outras pessoas."    
-
+  - text: "É importante frisar que, embora mais seguros que os locais fechados, os ambientes abertos podem oferecer risco de transmissão caso haja aglomeração de pessoas sem respeito ao distanciamento físico, ou em situações de intensa interação entre as pessoas, como festas e shows. O uso de máscara sempre reduz o risco de infecção. Então procure sempre usar máscara corretamente, mesmo ao ar livre, e mantenha o distanciamento físico de outras pessoas. 😉"
+  
   utter_cuidados_em_locais_fechados:
   - text: |
-      Os ambientes fechados ou mal ventilados são os que merecem maior foco de atenção porque o coronavírus se transmite pelo ar. Em ambientes fechados, o vírus vai se acumulando no ar e aumentando o risco de contágio por inalação de partículas em suspensão.
+      Os ambientes fechados ou mal ventilados são os que merecem maior foco de atenção porque o coronavírus se transmite pelo ar. Em ambientes fechados, o vírus vai se acumulando no ar, o que aumenta o risco de contágio por inalação de partículas em suspensão.
+ 
+      Veja as medidas mais relevantes para evitar a transmissão da Covid-19 em locais fechados 👇:
+      ✔️ A preferência por ambientes bem ventilados
+      ✔️ Usar máscaras de qualidade e da maneira correta 
+      ✔️ Dar preferência aos locais com menor número de pessoas
+      ✔️ Reduzir o tempo de permanência no ambiente
 
-      Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em locais fechados estão:
-      - A preferência por ambientes bem ventilados
-      - Usar máscaras de qualidade e da maneira correta
-      - Dar preferência aos locais com menor número de pessoas
-      - Reduzir o tempo de permanência no ambiente
-
-  utter_diferenca_locais_abertos_e_fechados:
+   utter_diferenca_locais_abertos_e_fechados:
   - text: |
-      Hoje, é sabido que o risco de contrair Covid-19 em locais abertos é muito menor do que em locais fechados. A maioria dos casos de transmissão da Covid-19 documentados pelos cientistas foi em locais fechados, aglomerados, ou onde havia muitas pessoas sem máscara facial.É importante frisar que, embora mais seguros, mesmo locais abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas.
+      Hoje, é sabido que o risco de contrair Covid-19 em locais abertos é muito menor do que em locais fechados. A maioria dos casos de transmissão da Covid-19 documentados pelos cientistas foi em locais fechados, aglomerados, ou onde havia muitas pessoas sem máscara facial. É importante frisar que, embora mais seguros, mesmo locais abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas! Então lembre-se de sempre usar máscara e procurar manter o distanciamento social sempre que possível.
 
   utter_cuidados_em_restaurantes:
   - text: |
-     Por serem locais onde as pessoas costumam permanecer por um longo tempo, conversando e, geralmente, sem máscaras, bares e restaurantes são locais que requerem especial atenção diante do risco de contágio. 
-     Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em bares e restaurantes estão: 
-        - A preferência por mesas em espaços abertos e ao ar livre
-        - Em ambientes fechados, dar preferência a locais com ventiladores ou locais com portas e janelas abertas
-        - Manter distância das outras mesas
-        - Utilizar a máscara  no estabelecimento, podendo ser retirada apenas no momento do consumo de alimentos e bebidas.
-
+     Por serem locais onde as pessoas costumam permanecer por um longo tempo conversando e, geralmente sem máscaras, bares e restaurantes são locais em que você deve tomar mais cuidado para não contrair o vírus.
+     Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em bares e restaurantes estão 👇:
+        ✔️ A preferência por mesas em espaços abertos e ao ar livre
+        ✔️ Em ambientes fechados, dar preferência a locais com ventiladores ou locais com portas e janelas abertas
+        ✔️ Manter distância das outras mesas
+        ✔️ Utilizar a máscara  no estabelecimento, podendo ser retirada apenas no momento do consumo de alimentos e bebidas.
+  
   utter_cuidados_na_academia:
   - text: |
       Bom, academia é um assunto delicado... Mas eu tenho algumas dicas:
@@ -252,12 +252,12 @@ responses:
   utter_sintomas:
   - text: |
       A COVID-19 afeta diferentes pessoas de diferentes maneiras.
+
       Sintomas mais comuns:
       - Febre
       - Tosse seca
       - Cansaço
-      
-
+ 
       Sintomas menos comuns:
       - Dores e desconfortos
       - Dor de garganta
@@ -266,15 +266,13 @@ responses:
       - Dor de cabeça
       - Perca de paladar ou olfato
       - Erupção cutânea na pele ou descoloração dos dedos das mãos ou dos pés
-      
-
+ 
       Sintomas graves:
       - Dificuldade de respirar ou falta de ar
       - Dor ou pressão no peito
       - Perda de fala ou movimento
-      
-      
-      Procure atendimento médico imediato se tiver sintomas graves. 
+     
+      Procure atendimento médico imediato se tiver sintomas graves.
       Em média, os sintomas aparecem após 5 ou 6 dias depois de ser infectado com o vírus. Porém, isso pode levar até 14 dias.
       
   utter_formas_de_transmissao:
@@ -367,7 +365,7 @@ responses:
        Para saber mais acesse: 👉 https://www.pfizer.com.br/noticias/ultimas-noticias/saude-mental-na-pandemia-do-coronavirus-como-manter-o-bem-estar-em-tempos-de-distanciamento-social 👈 
 
   utter_ask_localizacao_form_uf:
-    - text: "Me conta qual é a sigla do seu estado 🏁. Exemplo: DF"
+    - text: "Me conte qual é a sigla do seu estado 🏁. Exemplo: DF"
 
   utter_ask_localizacao_uf_apenas_form_uf:
     - text: "Me fala a sigla do seu Estado (UF)"
@@ -377,8 +375,10 @@ responses:
 
   utter_vacina_eh_segura:
     - text: |
-        Toda vacina licenciada para uso passou antes por diversas fases de avaliação, desde os processos iniciais de desenvolvimento até a produção e a fase final que é a aplicação, garantindo assim sua segurança. Além disso, elas são avaliadas e aprovadas por institutos reguladores muito rígidos e independentes. No Brasil, essa função cabe à Agência Nacional de Vigilância Sanitária (Anvisa), órgão vinculado ao Ministério da Saúde. E não é só isso, o acompanhamento de eventos adversos continua acontecendo depois que a vacina é licenciada, o que permite a continuidade de monitoramento da segurança do produto.
-
+	      Ótima dúvida...e para responder a sua dúvida eu encontrei:
+        
+        Toda vacina licenciada para uso passou antes por diversas fases de avaliação, desde os processos iniciais de desenvolvimento até a produção e a fase final que é a aplicação, garantindo assim sua segurança. Além disso, elas são avaliadas e aprovadas por institutos reguladores muito rígidos e independentes. No Brasil, essa função cabe à Agência Nacional de Vigilância Sanitária (Anvisa), órgão vinculado ao Ministério da Saúde. E não é só isso, o acompanhamento de eventos adversos continua acontecendo depois que a vacina é licenciada, o que permite a continuidade de monitoramento da segurança do produto.👍
+  
   utter_cuidados_escritorio:
     - text: |
         Não se preocupe vou te dar uma dica de ouro. Para se prevenir da COVID-19 no trabalho ou no escritório é indispensável a utilização da máscara, a higienização do local e disponibilidade de álcool em gel.
@@ -426,15 +426,16 @@ responses:
  
   utter_preciso_me_vacinar:
     - text: |
-        Esse é um assunto muito importante! Vamos lá: todos precisam se vacinar, independente de ter pego ou não o vírus. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de queda no quadro de infectados, existe ainda a consciencia coletiva de que ao se vacinar você está contribuindo para o bem da sociedade e para que tudo volte ao normal o quanto antes! 
-        Portanto, vacine-se e incentive outras pessoas a se vacinar também! :) 
-
+        Esse é um assunto com muita importância! 
+        Vamos lá: todos precisam se vacinar, independente de ter pego ou não o vírus. Além da vacina ter se mostrado extremamente eficaz e ter mostrado números de queda no quadro de infectados, existe ainda a consciência coletiva de que ao se vacinar você está contribuindo para o bem da sociedade e para que tudo volte ao normal o quanto antes!
+        Portanto, vacine-se e incentive outras pessoas a se vacinar também! 😃
+ 
         Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
-
+ 
     - text: |
         Amigo, você e as pessoas ao seu redor precisam se vacinar, independente de ter pego ou não o vírus. Só eu que já sou um jacaré não preciso me vacinar hahahaha!
-        Mas falando sério agora, a vacina tem diminuido consideravelmente os números de infectados, vacine-se e peça para as outras pessoas se vacinarem também. É necessário que boa parte da população esteja vacinada para que as mutações e reproduções do vírus diminuam, dessa maneira voltaremos logo ao normal. :) 
-
+        Mas falando sério agora, a vacina tem diminuido consideravelmente os números de infectados, vacine-se e peça para as outras pessoas se vacinarem também. É necessário que boa parte da população esteja vacinada para que as mutações e reproduções do vírus diminuam, dessa maneira voltaremos logo ao normal. 😃
+ 
         Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
   utter_cuidados_no_atendimento:
@@ -447,11 +448,11 @@ responses:
       ✔️ Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
       Se quiser saber mais acesse: 👉 http://www.capital.sp.gov.br/noticia/coronavirus-como-garantir-a-seguranca-no-atendimento-ao-publico-em-tempos-de-pandemia 👈
 
-      Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
+        Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
 
   utter_exercicios_em_casa:
-  - text: |
-      Certo amigo, vou listar algumas coisas que você pode fazer para se exercitar em casa da melhor maneira possivel! Vamos lá:
+    - text: |
+        Certo amigo, vou listar algumas coisas que você pode fazer para se exercitar em casa da melhor maneira possivel! Vamos lá:
 
       ✔️Tenha uma rotina! Mesmo sendo um bot eu sei que é difícil manter uma rotina, principalmente em casa, mas eu prometo pra você que vai valer a pena!
 
@@ -502,19 +503,19 @@ responses:
       Espero ter ajudado :)
 
   utter_doses_vacina:
-  - text: |
-      Bem lembrado... Falar sobre isso é muito importante!
-
-      Você tem que tomar duas doses da vacina, a não ser que você tenha se vacinado com a Janssen.
-      Não se esqueça de tomar a segunda dose, ein? Procure um posto de saúde ou uma UBS.
-
-      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
-
-  - text: |
-      É necessário tomar duas doses da vacina, com excessão da vacina Janssen, pois ela confere imunidade com apenas uma dose.
-      Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado outra.
-
-      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+    - text: |
+        Bem lembrado... Falar sobre isso é muito importante!
+  
+        Você tem que tomar duas doses da vacina, a não ser que você tenha se vacinado com a Janssen.
+        Não se esqueça de tomar a segunda dose, hein 💉? Procure um posto de saúde ou uma UBS mais próxima.
+  
+        Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+  
+    - text: |
+        É necessário tomar duas doses 💉 da vacina, com exceção da vacina Janssen, pois ela confere imunidade com apenas uma dose.
+        Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado a outra.
+  
+        Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
 
   utter_qual_exame_fazer:
   - text: |
@@ -526,99 +527,99 @@ responses:
         payload: /exame_contato_covid
 
   utter_com_sintomas:
-  - text: |
-      Você tem sentido os sintomas a quantos dias?
-    buttons:
-      - title: A menos de 8 dias
-        payload: /sintomas_menos_de_8
-      - title: A mais de 8 dias
-        payload: /sintomas_mais_de_8
+    - text: |
+        Você tem sentido os sintomas a quantos dias?
+      buttons:
+        - title: A menos de 8 dias
+          payload: /sintomas_menos_de_8
+        - title: A mais de 8 dias
+          payload: /sintomas_mais_de_8
 
   utter_sintomas_menos_de_8:
-  - text: |
-      O teste mais indicado para você é o RT-PCR e o teste antígeno.
-      Você pode saber mais sobre esses testes em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        O teste mais indicado para você é o RT-PCR e o teste antígeno.
+        Você pode saber mais sobre esses testes em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_sintomas_mais_de_8:
-  - text: |
-      O teste mais indicado para você é o de Sorologia.
-      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        O teste mais indicado para você é o de Sorologia.
+        Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_contato_covid:
-  - text: |
-      Você tá com sintomas da covid-19?
-    buttons:
-      - title: Sim
-        payload: /exame_com_sintomas
-      - title: Não, apenas tive contato com alguém que estava contaminado/ com suspeita
-        payload: /exame_sem_sintomas
+    - text: |
+        Você tá com sintomas da covid-19?
+      buttons:
+        - title: Sim
+          payload: /exame_com_sintomas
+        - title: Não, apenas tive contato com alguém que estava contaminado/ com suspeita
+          payload: /exame_sem_sintomas
 
   utter_sem_sintomas:
-  - text: |
-      Seu último contato com a pessoa infectada ou com suspeita tem quantos dias?
-    buttons:
-      - title: A mais de 10 dias
-        payload: /contato_mais_de_10
-      - title: A menos de 10 dias
-        payload: /contato_menos_de_10
+    - text: |
+        Seu último contato com a pessoa infectada ou com suspeita tem quantos dias?
+      buttons:
+        - title: A mais de 10 dias
+          payload: /contato_mais_de_10
+        - title: A menos de 10 dias
+          payload: /contato_menos_de_10
 
   utter_contato_mais_de_10:
-  - text: |
-      O teste mais indicado para você é o de Sorologia.
-      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        O teste mais indicado para você é o de Sorologia.
+        Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_contato_menos_de_10:
-  - text: |
-      O teste mais indicado para você é o RT-PCR.
-      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        O teste mais indicado para você é o RT-PCR.
+        Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_vacina_no_organismo:
-  - text: |
-      Depois de algumas pesquisas descobri como as vacinas agem no organismo, aqui vai um resumo:
-       
-      Janssen Vaccine (Janssen-Cilag):
-      A vacina Janssen utiliza um adenovírus que geralmente causaria resfriado em humanos, e o modifica para que ele não se replique mais, além de incluir nele um trecho do material genético do Sars-CoV-2. E ao entrar em contato com as células, o vetor viral apresenta esse pedacinho do coronavírus para o sistema imunológico para desenvolver anticorpos. 
-       
-      Pfizer:
-      A Pfizer possui uma parte sintética do material genético do vírus, mas não o vírus em si. A vacina faz com que o sistema imunológico produza anticorpos e células de defesa que atuam contra o vírus, possibilitando assim a proteção contra a COVID-19.
-       
-      Coronavac:
-      A Coronavac é uma vacina que usa o vírus inativo da covid-19 através de calor ou produto químico. Ela estimula o corpo a induzir a imunidade contra o vírus SARS-Cov-2 para a prevenção de doenças causadas pelo mesmo.
-       
-      Astrazeneca:
-      Assim como a Janssen, a vacina astrazeneca é uma vacina de vetor viral, nesse caso um adenovírus de chimpanzé que foi debilitado e geneticamente modificado. A vacina estimula as defesas naturais do corpo (sistema imunológico), isso faz com que o corpo produza sua própria proteção (anticorpos) contra o vírus causador da COVID-19, o SARS-CoV-2. Isso ajudará a proteger você contra a COVID-19 no futuro.
-       
-      Agora que sabemos um pouco mais sobre cada uma, não se preocupe caso sinta alguns efeitos colaterais, lembre que é apenas seu sistema imunológico preparando seu organismo para se defender do vírus no futuro.
-
+    - text: |
+        Muito boa a pergunta, saber mais sobre as vacinas é muito bom. Depois de algumas pesquisas descobri como as vacinas agem no organismo, aqui vai um resumo:
+        
+        Janssen Vaccine (Janssen-Cilag):
+        A vacina Janssen utiliza um adenovírus que geralmente causaria resfriado em humanos, e o modifica para que ele não se replique mais, além de incluir nele um trecho do material genético do Sars-CoV-2. E ao entrar em contato com as células, o vetor viral apresenta esse pedacinho do coronavírus para o sistema imunológico para desenvolver anticorpos.
+        
+        Pfizer:
+        A Pfizer possui uma parte sintética do material genético do vírus, mas não o vírus em si. A vacina faz com que o sistema imunológico produza anticorpos e células de defesa que atuam contra o vírus, possibilitando assim a proteção contra a COVID-19.
+        
+        Coronavac:
+        A Corona Vac é uma vacina que usa o vírus inativo da covid-19 através de calor ou produto químico. Ela estimula o corpo a induzir a imunidade contra o vírus SARS-Cov-2 para a prevenção de doenças causadas pelo mesmo.
+        
+        Astrazeneca:
+        Assim como a Janssen, a vacina astrazeneca é uma vacina de vetor viral, neste caso um adenovírus de chimpanzé que foi debilitado e geneticamente modificado. A vacina estimula as defesas naturais do corpo (sistema imunológico), isso faz com que o corpo produza sua própria proteção (anticorpos) contra o vírus causador da COVID-19, o SARS-CoV-2. Isso ajudará a proteger você contra a COVID-19 no futuro.
+        
+        Agora que sabemos um pouco mais sobre cada uma, não se preocupe caso sinta alguns efeitos colaterais, lembre que é apenas seu sistema imunológico preparando seu organismo para se defender do vírus no futuro💪.
+  
   utter_quando_vacinar:
-  - text: |
-      Depois de algumas pesquisas, pude concluir que apesar de existirem divergências da idade para vacinação para os diferentes municípios, posso dizer que a idade média atual são para pessoas com idade miníma de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade.
+    - text: |
+    Boa curiosidade...Depois de algumas pesquisas, pude concluir que a condição com relação a quem pode tomar a vacina é aferida de acordo com a idade da pessoa. Dessa forma, há divergências de idade para vacinação para os diferentes municípios, atualmente a idade média atual são para pessoas com idade mínima de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade. 😉
 
   utter_teste_positivo:
-  - text: |
-      Poxa não fique triste, vai dar tudo certo. Vou te dar algumas ideias para ajudar:
-      Primeira coisa, depois do resultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequada, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
-
-      Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou comprometimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
-
-      Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
-  - text: |
-      Caramba...uma notícia triste, mas não se desespere e para saber o que fazer nesse momento, olhe o que eu achei:
-      - Consulte novamente seu médico;
-      - Fique em isolamento domiciliar;
-      - Utilize máscara o tempo todo;
-      - Se for preciso cozinhar, use máscara de proteção, cobrindo boca e nariz todo o tempo;
-      - Depois de usar o banheiro, nunca deixe de lavar as mãos com água e sabão e sempre limpe vaso, pia e demais superfícies com álcool ou água sanitária para desinfecção do ambiente;
-      - Separe toalhas de banho, garfos, facas, colheres, copos e outros objetos apenas para seu uso;
-      - O lixo produzido precisa ser separado e descartado;
-      - Sofás e cadeiras também não podem ser compartilhados e precisam ser limpos frequentemente com água sanitária ou álcool 70%;
-      - Mantenha a janela aberta para circulação de ar do ambiente usado para isolamento e a porta fechada, limpe a maçaneta frequentemente com álcool 70% ou água sanitária;
-      - Caso o paciente não more sozinho, os demais moradores devem dormir em outro cômodo, longe da pessoa infectada, seguindo também as seguintes recomendações:
-        - Manter a distância mínima de 1 metro entre o paciente e os demais moradores;
-        - Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
-        - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
-        - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
-      Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        Poxa não fique triste ❤️, vai dar tudo certo. Vou te dar algumas ideias para ajudar:
+        Primeira coisa, depois do resultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequada, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
+  
+        Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou comprometimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
+  
+        Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
+    - text: |
+        Caramba...uma notícia triste ❤️, mas não se desespere. Para saber o que fazer nesse momento, olhe o que eu achei:
+        - Consulte novamente seu médico;
+        - Fique em isolamento domiciliar;
+        - Utilize máscara o tempo todo;
+        - Se for preciso cozinhar, use máscara de proteção, cobrindo boca e nariz todo o tempo;
+        - Depois de usar o banheiro, nunca deixe de lavar as mãos com água e sabão e sempre limpe vaso, pia e demais superfícies com álcool ou água sanitária para desinfecção do ambiente;
+        - Separe toalhas de banho, garfos, facas, colheres, copos e outros objetos apenas para seu uso;
+        - O lixo produzido precisa ser separado e descartado;
+        - Sofás e cadeiras também não podem ser compartilhados e precisam ser limpos frequentemente com água sanitária ou álcool 70%;
+        - Mantenha a janela aberta para circulação de ar do ambiente usado para isolamento e a porta fechada, limpe a maçaneta frequentemente com álcool 70% ou água sanitária;
+        - Caso o paciente não more sozinho, os demais moradores devem dormir em outro cômodo, longe da pessoa infectada, seguindo também as seguintes recomendações:
+          ✔️ Manter a distância mínima de 1 metro entre o paciente e os demais moradores;
+          ✔️ Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
+          ✔️ Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
+          ✔️ Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento por 14 dias.
+        Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_vacina_eficacia:
   - text: |
@@ -663,18 +664,18 @@ responses:
       Em caso de suspeita, fique em casa por 14 dias, você e as pessoas que moram com você.
       Durante esse período de isolamento, acompanhe os sintomas e veja se elas não se agravem. Em sintomas leves, como os de um resfriado comum, apenas fique de repouso, alimente-se bem, mantenha-se hidratado, e se precisar, use antitérmicos e analgésicos para aliviar os incômodos. Já em caso de sintomas mais graves, como febre alta persistente e desconforto respiratório, procute atendimento médico imediatamente.
       Se precisar tirar mais alguma dúvida e eu não conseguir te responder, ligue para o Disque Saúde, pelo número 136.
-      Um abraço virtual e se cuide!
+      
+      Um abraço virtual e se cuide!❤️
 
   utter_local_teste:
-  - text: |
-      Acalma o coração...
-      Se você estiver com sintomas da doença causada pelo novo coronavírus (Sars-CoV-2) deve procurar a UBS mais próxima de sua residência, onde será acolhido e poderá fazer o teste de acordo com a avaliação da equipe de enfermagem, ou médica.
-      Os exames de pacientes que apresentarem sintomas são coletados nas próprias unidades. Além disso, é realizada a estratégia fast-track ou duplo fluxo, em que os pacientes com quadros respiratórios entram em fluxos separados na unidade.
-
-
-      Caso faça o teste...espero que dê negativo.
-
-      Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/ 
+    - text: |
+        Acalma o coração...🙏❤️
+        Se você estiver com sintomas da doença causada pelo novo coronavírus (Sars-CoV-2) deve procurar a UBS mais próxima de sua residência, onde será acolhido e poderá fazer o teste de acordo com a avaliação da equipe de enfermagem, ou médica.
+        Os exames de pacientes que apresentarem sintomas são coletados nas próprias unidades. Além disso, é realizada a estratégia fast-track ou duplo fluxo, em que os pacientes com quadros respiratórios entram em fluxos separados na unidade.
+  
+        Caso faça o teste...espero que dê negativo❌.
+  
+        Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/
 
   utter_ask_cadastro_data_form_dia:
     - text: "Preciso saber o número do dia"

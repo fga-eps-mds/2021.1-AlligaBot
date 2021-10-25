@@ -302,10 +302,10 @@ nlu:
     
 - intent: covid_em_sua_cidade
   examples: |
-    - Desejo saber a quantidade de infectados por covid na minha cidade
-    - Desejo saber a quantidade de contaminados por covid na minha cidade
-    - Desejo saber o número de infectados por covid na minha cidade
-    - Desejo saber o número de contaminados por covid na minha cidade
+    - Desejo saber a quantidade de infectados por covid na minha cidade e quantidade de mortos por covid na minha cidade
+    - Desejo saber a quantidade de contaminados por covid na minha cidade e quantidade de mortos por covid na minha cidade
+    - Desejo saber o número de infectados por covid na minha cidade e o número de mortos por covid na minha cidade
+    - Desejo saber o número de contaminados por covid na minha cidade e o número de mortos por covid na minha cidade
 
 - intent: uf_input_form
   examples: |
@@ -358,6 +358,9 @@ nlu:
     - A moderna é segura?
     - Segurança da vacina
     - Posso confiar na vacina?
+    - É arriscado tomar as vacinas?
+    - É perigoso eu virar jacaré me vacinando?
+    - Tenho medo de tomar a vacina
 
 - intent: cuidados_escritorio
   examples: |
@@ -376,13 +379,14 @@ nlu:
 - intent: preciso_me_vacinar
   examples: |
     - Preciso me vacinar?
-    - Preciso me vacina?
     - É necessário tomar a vacina?
     - Todo mundo precisa tomar a vacina?
     - Quem precisa tomar a vacina?
     - Já peguei covid-19, preciso tomar a vacina?
     - Já peguei covid-19, preciso me vacinar?
-    - Necessidade da vacina
+    - sou jovem, preciso tomar vacina?
+    - Tenho que me vacinar?
+    - Meu vizinho tem que se vacinar?
 
 - intent: cuidados_no_atendimento
   examples: |
@@ -505,9 +509,13 @@ nlu:
   
 - intent: vacina_no_organismo
   examples: |
-    - Como a vacina funciona?
+    - Como as vacinas funcionam?
     - Como a vacina age no organismo?
     - Funcionamento da vacina
+    - como a Janssen funciona?
+    - como a Pfizer age no organismo?
+    - como acontece a imunizaçao pela Coronavac?
+    - como a vacina Astrazeneca se comporta no organismo?
 
 - intent: quando_vacinar
   examples: |
@@ -527,6 +535,14 @@ nlu:
     - O que fazer quando der positivo no teste?
     - Teste positivo
     - O que fazer depois do positivo?
+
+- intent: cadastrar_data_proxima_dose_vacina
+  examples: |
+    - Cadastrar a data da próxima dose da vacina
+    - Cadastrar a data da segunda dose da vacina
+    - Registrar a data da próxima dose da vacina
+    - Registrar a data da segunda dose da vacina
+    - Cadastrar próxima dose da vacina
 
 - intent: vacina_eficacia
   examples: |
@@ -594,4 +610,23 @@ nlu:
     - Quantos seriam os mortos pelo covid-19 por período?
     - Me informe a quantidade de mortos pelo covid-19 por período
     - Qual seria a quantidade de mortos por período?
+
+- intent: quantidade_de_vacinados_por_periodo
+  examples: |
+    - Desejo saber a quantidade de vacinados contra o covid-19 por período
+    - Quero saber os vacinados por período
+    - Tenho interesse em saber a quantidade de vacinados contra o covid-19 por período
+    - Quantos são os vacinados contra o covid-19 por período?
+    - Me fala sobre a quantidade de vacinados contra o covid-19 por período
+    - Qual a quantidade de vacinados por período?
+    - Vacinados por período
+    - Total de vacinados por período
+
+- intent: cadastrar_data_proxima_dose_vacina
+  examples: |
+    - Cadastrar a data da próxima dose da vacina
+    - Cadastrar a data da segunda dose da vacina
+    - Registrar a data da próxima dose da vacina
+    - Registrar a data da segunda dose da vacina
+    - Cadastrar próxima dose da vacina
 

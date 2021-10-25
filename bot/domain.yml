@@ -52,6 +52,8 @@ intents:
   - vacina_no_organismo
   - quando_vacinar
   - teste_positivo
+  - cadastrar_data_proxima_dose_vacina
+  - EXTERNAL_reminder
   - vacina_eficacia
   - eficacia_da_coronavac
   - eficacia_pfizer
@@ -61,8 +63,7 @@ intents:
   - local_teste
   - quantidade_de_infectados_por_periodo
   - quantidade_de_mortos_por_periodo
-
-
+  - quantidade_de_vacinados_por_periodo
 
 forms:
   localizacao_form:
@@ -104,8 +105,11 @@ slots:
 actions:
   - action_dados_covid_baseados_em_localizacao
   - action_responder_vacinados_em_um_estado
+  - action_cadastrar_lembrete_proxima_dose
+  - action_enviar_lembrete_da_proxima_dose_da_vacina
   - action_responder_quantidade_infectados_por_periodo
   - action_responder_quantidade_mortos_por_periodo
+  - action_responder_quantidade_vacinados_por_periodo
 
 entities:
   - oi
@@ -224,26 +228,26 @@ responses:
 
   utter_cuidados_na_academia:
   - text: |
-     Bom, academia é um assunto delicado... Mas eu tenho algumas dicas:
-      ✔️Hidrate-se! Mas não nos bebedouros. Leve sempre sua garrafinha com água.
-      ✔️Mantenha o distanciamento.Fique pelo menos dois metros de distância de outras pessoas.
-      ✔️Usar constantemente uma máscara que cubra sua boca e nariz.
-      ✔️Lave bem as mãos até a altura dos punhos, com água e sabão ou com álcool em gel 70%.
-      ✔️Tenha um kit de limpeza e higienize os aparelhos antes do manuseio.
-     Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas ou, se possível, em casa.
-     Saiba mais em: 👉 https://biologico.com.br/10-dicas-de-como-se-proteger-do-novo-coronavirus-na-academia/ 👈
+      Bom, academia é um assunto delicado... Mas eu tenho algumas dicas:
+        ✔️Hidrate-se! Mas não nos bebedouros. Leve sempre sua garrafinha com água.
+        ✔️Mantenha o distanciamento.Fique pelo menos dois metros de distância de outras pessoas.
+        ✔️Usar constantemente uma máscara que cubra sua boca e nariz.
+        ✔️Lave bem as mãos até a altura dos punhos, com água e sabão ou com álcool em gel 70%.
+        ✔️Tenha um kit de limpeza e higienize os aparelhos antes do manuseio.
+      Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas ou, se possível, em casa.
+      Saiba mais em: 👉 https://biologico.com.br/10-dicas-de-como-se-proteger-do-novo-coronavirus-na-academia/ 👈
      
   utter_cuidados_no_dentista:
   - text: |
-     Então, na pandemia devemos tomar muuuito mais cuidado com a saúde bucal. Desde o início os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao dentista apenas em casos de emergência ou urgência.
-     Leia mais em: 👉 https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/ 👈
+      Então, na pandemia devemos tomar muuuito mais cuidado com a saúde bucal. Desde o início os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao dentista apenas em casos de emergência ou urgência.
+      Leia mais em: 👉 https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/ 👈
     
   utter_cabelos:
   - text: |
-     Para ir ao cabelereiro ou a barbearia devemos tomar os cuidados de sempre, utilizando máscaras e higienizando as mãos quando possível.
-     Além disso, é importante ficar atento se o estabelecimento está seguindo os protocolos de limpeza.
-     Até ficar bonito na pandemia tá difícil... Mas sempre tem a opção de tentar cortar o cabelo em casa. Só não garanto que vai ficar legal hahaha =P
-     Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
+      Para ir ao cabelereiro ou a barbearia devemos tomar os cuidados de sempre, utilizando máscaras e higienizando as mãos quando possível.
+      Além disso, é importante ficar atento se o estabelecimento está seguindo os protocolos de limpeza.
+      Até ficar bonito na pandemia tá difícil... Mas sempre tem a opção de tentar cortar o cabelo em casa. Só não garanto que vai ficar legal hahaha =P
+      Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
 
   utter_sintomas:
   - text: |
@@ -287,9 +291,9 @@ responses:
 
   utter_cuidados_comercio_geral:
     - text: |
-       Quando vamos ao comercio não pode ser diferente, lembre-se sempre de utilizar a máscara, higienizar as mãos e manter uma distância segura dos demais clientes, principalmente nas filas.
-       Se possível, priorizar ambientes com portas e janelas abertas.
-       Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
+        Quando vamos ao comercio não pode ser diferente, lembre-se sempre de utilizar a máscara, higienizar as mãos e manter uma distância segura dos demais clientes, principalmente nas filas.
+        Se possível, priorizar ambientes com portas e janelas abertas.
+        Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
 
   utter_variantes:
     - text: 

@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from actions import ResponderVacinadosEmUmEstadoAction
-from actions import ResponderSobreCovidAction
+from actions.ResponderVacinadosEmUmEstadoAction import ResponderVacinadosEmUmEstadoAction
+from actions.ResponderSobreCovidAction import ResponderSobreCovidAction
+from actions.ResponderQuantidadeInfectadosPorPeriodoAction import ResponderQuantidadeInfectadosPorPeriodoAction
+from actions.ResponderQuantidadeMortosPorPeriodoAction import ResponderQuantidadeMortosPorPeriodoAction

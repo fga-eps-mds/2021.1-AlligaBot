@@ -151,6 +151,24 @@ stories:
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
 
+- story: Informando ao usuário a quantidade de vacindaos por período
+  steps:
+  - user: |
+      Desejo saber a quantidade de vacinados contra o covid-19 por período
+    intent: quantidade_de_vacinados_por_periodo
+  - action: cadastro_data_form
+  - action: action_responder_quantidade_vacinados_por_periodo
+
+- story: formulario de cadastro de próxima dose da vacina do covid-19
+  steps:
+  - user: |
+      Cadastrar a data da próxima dose da vacina
+    intent: cadastrar_data_proxima_dose_vacina
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_cadastrar_lembrete_proxima_dose
+
 - story: segunda dose da vacina
   steps:
   - user: |
@@ -207,6 +225,7 @@ stories:
     intent: bot_alligabot
   - action: utter_alligabot
 
+
 - story: Informando ao usuário a quantidade de mortos por período
   steps:
   - user: |
@@ -237,3 +256,4 @@ stories:
       Qual a diferença de risco de contaminação entre ambientes abertos e fechados?
     intent: diferenca_locais_abertos_e_fechados 
   - action: utter_diferenca_locais_abertos_e_fechados
+

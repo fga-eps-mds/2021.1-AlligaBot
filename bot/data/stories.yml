@@ -135,7 +135,7 @@ stories:
   - intent: saude_mental
   - action: utter_saude_mental
 
-- story: formulario de localizacao do usuario
+- story: Informando ao usuário a quantidade de infectados e mortos por cidade
   steps:
     - intent: covid_em_sua_cidade
     - action: localizacao_form
@@ -249,6 +249,15 @@ stories:
   - intent: teste_positivo
   - action: utter_teste_positivo
 
+
+- story: formulario de cadastro de próxima dose da vacina do covid-19
+  steps:
+    - intent: cadastrar_data_proxima_dose_vacina
+    - action: cadastro_data_form
+    - active_loop: cadastro_data_form
+    - active_loop: null
+    - action: action_cadastrar_lembrete_proxima_dose
+
 - story: eficacia das vacinas aprovadas pela ANVISA
   steps:
   - intent: vacina_eficacia
@@ -299,3 +308,11 @@ stories:
   - active_loop: cadastro_data_form
   - active_loop: null
   - action: action_responder_quantidade_mortos_por_periodo
+
+- story: Informando ao usuário a quantidade de vacindaos por período
+  steps:
+  - intent: quantidade_de_vacinados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_vacinados_por_periodo

@@ -102,10 +102,10 @@ stories:
     intent: sintomas
   - action: utter_sintomas
 
-- story:  infectados por covid na minha cidade
+- story:  Informando ao usuário a quantidade de infectados e mortos por cidade
   steps:
   - user: |
-      Desejo saber a quantidade de infectados por covid na minha cidade
+       Desejo saber a quantidade de infectados por covid na minha cidade e quantidade de mortos por covid na minha cidade
     intent: covid_em_sua_cidade
   - action: localizacao_form
   - active_loop: localizacao_form
@@ -150,6 +150,24 @@ stories:
     intent: vacinados_no_meu_estado
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
+
+- story: Informando ao usuário a quantidade de vacindaos por período
+  steps:
+  - user: |
+      Desejo saber a quantidade de vacinados contra o covid-19 por período
+    intent: quantidade_de_vacinados_por_periodo
+  - action: cadastro_data_form
+  - action: action_responder_quantidade_vacinados_por_periodo
+
+- story: formulario de cadastro de próxima dose da vacina do covid-19
+  steps:
+  - user: |
+      Cadastrar a data da próxima dose da vacina
+    intent: cadastrar_data_proxima_dose_vacina
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_cadastrar_lembrete_proxima_dose
 
 - story: segunda dose da vacina
   steps:
@@ -238,3 +256,35 @@ stories:
       como cada vacina se comporta?
     intent: vacina_no_organismo
   - action: utter_vacina_no_organismo
+
+- story: Informando ao usuário a quantidade de mortos por período
+  steps:
+  - user: |
+      Desejo saber o número de mortos pelo covid-19 por período
+    intent: quantidade_de_mortos_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_mortos_por_periodo
+
+- story: caminho para conversar sobre os cuidados em locais abertos
+  steps:
+  - user: |
+      Quais cuidados devo ter em locais abertos?
+    intent: cuidados_em_locais_abertos
+  - action: utter_cuidados_em_locais_abertos
+
+- story: caminho para conversar sobre os cuidados em locais fechados
+  steps:
+  - user: |
+      Quais cuidados devo ter em locais fechados?
+    intent: cuidados_em_locais_fechados 
+  - action: utter_cuidados_em_locais_fechados
+  
+- story: caminho para conversar sobre a diferença do risco de contaminação  entre locais abertos e fechados
+  steps:
+  - user: |
+      Qual a diferença de risco de contaminação entre ambientes abertos e fechados?
+    intent: diferenca_locais_abertos_e_fechados 
+  - action: utter_diferenca_locais_abertos_e_fechados
+

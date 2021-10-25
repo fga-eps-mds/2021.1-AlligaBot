@@ -265,3 +265,30 @@ stories:
     intent: vacina_eficacia
   - action: utter_vacina_eficacia
 
+- story: eficacia da pfizer
+  steps: 
+  - user: |
+      Qual a eficacia da pfizer?
+    intent: eficacia_pfizer
+  - action: utter_eficacia_pfizer
+
+- story: eficacia da coronavac
+  steps: 
+  - user: |
+      Qual a eficacia da coronavac?
+    intent: eficacia_da_coronavac
+  - action: utter_eficacia_da_coronavac
+
+- story: eficacia da janssen
+  steps: 
+  - user: |
+      Qual a eficacia da janssen?
+    intent: eficacia_janssen
+  - action: utter_eficacia_janssen
+
+- story: eficacia da astrazeneca
+  steps: 
+  - user: |
+      Qual a eficacia da astrazeneca?
+    intent: eficacia_astrazeneca
+  - action: utter_eficacia_astrazeneca

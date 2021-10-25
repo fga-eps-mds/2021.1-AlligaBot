@@ -233,6 +233,7 @@ stories:
   steps:
   - intent: contato_mais_de_10
   - action: utter_contato_mais_de_10
+
 - story: vacina no organismo
   steps:
   - intent: vacina_no_organismo

@@ -509,9 +509,13 @@ nlu:
   
 - intent: vacina_no_organismo
   examples: |
-    - Como a vacina funciona?
+    - Como as vacinas funcionam?
     - Como a vacina age no organismo?
     - Funcionamento da vacina
+    - como a Janssen funciona?
+    - como a Pfizer age no organismo?
+    - como acontece a imunizaçao pela Coronavac?
+    - como a vacina Astrazeneca se comporta no organismo?
 
 - intent: quando_vacinar
   examples: |

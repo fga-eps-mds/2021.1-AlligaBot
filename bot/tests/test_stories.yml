@@ -231,3 +231,10 @@ stories:
       é necessario me vacinar?
     intent: preciso_me_vacinar
   - action: utter_preciso_me_vacinar
+
+- story: vacina no organismo
+  steps:
+  - user: |
+      como cada vacina se comporta?
+    intent: vacina_no_organismo
+  - action: utter_vacina_no_organismo

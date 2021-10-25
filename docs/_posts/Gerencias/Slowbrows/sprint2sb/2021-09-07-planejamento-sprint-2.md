@@ -2,15 +2,15 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Resultado Sprint 2
 
-Houve um bom andamento nos estudos do grupo. Conseguimos nos reunir e discutir tópicos importantes sobre o projeto e nossas expectativas sobre a disciplina.
+Com os objetivos do grupo especificados, utilizaremos essa Sprint para continuar os estudos com o foco em aprender mais sobre chatbot e prevenções da COVID-19. Além disso foi organizado os melhores horários para o grupo se reunir, com a criação de uma tabela com os horários ideias para reuniões.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 29/08/2021 |    0.1   | resultSprint2 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 29/08/2021 |    0.1   | planSprint2 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 21/10/2021 |  0.2   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Tamanho da Sprint
 
@@ -19,6 +19,7 @@ Houve um bom andamento nos estudos do grupo. Conseguimos nos reunir e discutir t
 **Fim**: 11/08/21
 
 **Duração**: 7 dias
+
 
 
 ## Papeis

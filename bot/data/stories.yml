@@ -135,7 +135,7 @@ stories:
   - intent: saude_mental
   - action: utter_saude_mental
 
-- story: formulario de localizacao do usuario
+- story: Informando ao usuário a quantidade de infectados e mortos por cidade
   steps:
     - intent: covid_em_sua_cidade
     - action: localizacao_form
@@ -233,6 +233,7 @@ stories:
   steps:
   - intent: contato_mais_de_10
   - action: utter_contato_mais_de_10
+
 - story: vacina no organismo
   steps:
   - intent: vacina_no_organismo
@@ -249,6 +250,39 @@ stories:
   - action: utter_teste_positivo
 
 
+- story: formulario de cadastro de próxima dose da vacina do covid-19
+  steps:
+    - intent: cadastrar_data_proxima_dose_vacina
+    - action: cadastro_data_form
+    - active_loop: cadastro_data_form
+    - active_loop: null
+    - action: action_cadastrar_lembrete_proxima_dose
+
+- story: eficacia das vacinas aprovadas pela ANVISA
+  steps:
+  - intent: vacina_eficacia
+  - action: utter_vacina_eficacia
+
+- story: eficacia da pfizer
+  steps: 
+  - intent: eficacia_pfizer
+  - action: utter_eficacia_pfizer
+
+- story: eficacia da coronavac
+  steps: 
+  - intent: eficacia_da_coronavac
+  - action: utter_eficacia_da_coronavac
+
+- story: eficacia da janssen
+  steps: 
+  - intent: eficacia_janssen
+  - action: utter_eficacia_janssen
+
+- story: eficacia da astrazeneca
+  steps: 
+  - intent: eficacia_astrazeneca
+  - action: utter_eficacia_astrazeneca
+
 - story: estou com suspeita de COVID-19
   steps:
   - intent: oque_fazer_suspeita
@@ -259,3 +293,26 @@ stories:
   - intent: local_teste
   - action: utter_local_teste
 
+- story: Informando ao usuário a quantidade de infectados por período
+  steps:
+  - intent: quantidade_de_infectados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_infectados_por_periodo
+
+- story: Informando ao usuário a quantidade de mortos por período
+  steps:
+  - intent: quantidade_de_mortos_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_mortos_por_periodo
+
+- story: Informando ao usuário a quantidade de vacindaos por período
+  steps:
+  - intent: quantidade_de_vacinados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_vacinados_por_periodo

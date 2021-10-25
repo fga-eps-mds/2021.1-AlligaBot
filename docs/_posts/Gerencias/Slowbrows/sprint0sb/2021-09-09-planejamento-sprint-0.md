@@ -2,8 +2,8 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Resultado Sprint 00
-Foi criado o grupo para conhecermos os integrantes da equipe, mas nada foi produzido na sprint 0.
+
+A equipe slowbros foi criada no final da sprint 0, logo não conseguimos planejar a mesma.
 
 ## Tamanho da Sprint
 

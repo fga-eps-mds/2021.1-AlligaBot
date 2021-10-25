@@ -9,78 +9,182 @@ stories:
       oi
     intent: start
   - action: utter_cumprimentar
+
 - story: Alfa
   steps:
   - user: |
       Alfa
     intent: alfa
   - action: utter_alfa
+
 - story: Mais alfa
   steps:
   - user: |
       mais alfa
     intent: mais_alfa
   - action: utter_mais_alfa
+
 - story: beta
   steps:
   - user: |
       beta
     intent: beta
   - action: utter_beta
+
 - story: Mais beta
   steps:
   - user: |
       mais beta
     intent: mais_beta
   - action: utter_mais_beta
+
 - story: Gama
   steps:
   - user: |
       gama
     intent: gama
   - action: utter_gama
+
 - story: Gama mais
   steps:
   - user: |
       me fale sobre gama
     intent: mais_gama
   - action: utter_gama_mais
+
 - story: Delta
   steps:
   - user: |
       Delta
     intent: delta
   - action: utter_delta
+
 - story: Delta mais
   steps:
   - user: |
       quero saber sobre Delta
     intent: mais_delta
   - action: utter_delta_mais
+  
+- story: caminho para conversar sobre os cuidados em restaurantes
+  steps:
+  - user: |
+      Cuidados em  restaurantes
+    intent: cuidados_em_restaurantes
+  - action: utter_cuidados_em_restaurantes
+  
+- story: caminho para conversar sobre os cuidados na academia
+  steps:
+  - user: |
+      Cuidados em academia
+    intent: cuidados_na_academia
+  - action: utter_cuidados_na_academia
+  
+- story: caminho para conversar sobre os cuidados no dentista
+  steps:
+  - user: |
+      Cuidados no dentista
+    intent: cuidados_no_dentista
+  - action: utter_cuidados_no_dentista
+  
+- story: Como se portar no Cabeleiro/barbearia
+  steps:
+  - user: |
+      Quais cuidados devo ter no cabeleireiro para me proteger do COVID-19?
+    intent: barbearia_cabelereiro
+  - action: utter_cabelos
+  
+- story: cuidados no escritorio ou trabalho
+  steps:
+  - user: |
+      Vou ao escritório
+    intent: cuidados_escritorio
+  - action: utter_cuidados_escritorio
+  
+- story: Como se portar no comércio em geral
+  steps:
+  - user: |
+      Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
+    intent: cuidados_comercio_geral
+  - action: utter_cuidados_comercio_geral
+  
 - story: cuidados no transporte público
   steps:
   - user: |
       Como me cuidar no transporte público
     intent: cuidados_transporte_publico
   - action: utter_cuidados_transporte_publico
+
+- story: caminho possivel para saber sobre os tipos de máscaras
+  steps:
+  - user: |
+      oi
+    intent: start
+  - action: utter_cumprimentar
+  - user: |
+      Quais sao os tipos de mascaras utilizados para proteger da covid 19?
+    intent: tipos_de_mascaras
+  - action: utter_tipos_de_mascaras
+  
+- story: caminho para saber sobre como usar a máscara corretamente
+  steps:
+  - user: |
+      oi
+    intent: start
+  - action: utter_cumprimentar
+  - user: |
+      Qual é o jeito certo de utilizar a máscara?
+    intent: uso_correto_mascara
+  - action: utter_uso_correto_mascara
+
+- story: sintomas
+  steps:
+  - user: |
+      quais são os sintomas do COVID-19?
+    intent: sintomas
+  - action: utter_sintomas
+
+- story:  Informando ao usuário a quantidade de infectados e mortos por cidade
+  steps:
+  - user: |
+       Desejo saber a quantidade de infectados por covid na minha cidade e quantidade de mortos por covid na minha cidade
+    intent: covid_em_sua_cidade
+  - action: localizacao_form
+  - active_loop: localizacao_form
+  - active_loop: null
+  - action: action_dados_covid_baseados_em_localizacao
+
+- story: Informando ao usuário a quantidade de infectados por período
+  steps:
+  - user: |
+      Desejo saber a quantidade de infectados pelo covid-19 por período
+    intent: quantidade_de_infectados_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_infectados_por_periodo
+
 - story: seguranca das vacinas
   steps:
   - user: |
       A vacina é segura
     intent: vacina_eh_segura
   - action: utter_vacina_eh_segura 
+
 - story: exercicios em casa
   steps:
   - user: |
       Como posso me exercitar em casa
     intent: exercicios_em_casa
   - action: utter_exercicios_em_casa
+
 - story: saude mental
   steps:
   - user: |
       Como posso manter a saúde mental
     intent: saude_mental
   - action: utter_saude_mental
+  
 - story: formulario de localizacao do usuario para informar vacinados
   steps:
   - user: |
@@ -88,3 +192,140 @@ stories:
     intent: vacinados_no_meu_estado
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
+
+- story: Informando ao usuário a quantidade de vacindaos por período
+  steps:
+  - user: |
+      Desejo saber a quantidade de vacinados contra o covid-19 por período
+    intent: quantidade_de_vacinados_por_periodo
+  - action: cadastro_data_form
+  - action: action_responder_quantidade_vacinados_por_periodo
+
+- story: formulario de cadastro de próxima dose da vacina do covid-19
+  steps:
+  - user: |
+      Cadastrar a data da próxima dose da vacina
+    intent: cadastrar_data_proxima_dose_vacina
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_cadastrar_lembrete_proxima_dose
+
+- story: segunda dose da vacina
+  steps:
+  - user: |
+      Quantas doses preciso tomar?
+    intent: doses_vacina
+  - action: utter_doses_vacina
+- story: suspeita covid
+  steps:
+  - user: |
+      suspeita covid
+    intent: oque_fazer_suspeita
+  - action: utter_oque_fazer_suspeita
+- story: onde me testar
+  steps:
+  - user: |
+      Onde me testar?
+    intent: local_teste
+  - action: utter_local_teste
+- story: qual_exame_fazer
+  steps:
+  - user: |
+      Qual tipo de teste eu faço?
+    intent: qual_exame_fazer
+  - action: utter_qual_exame_fazer 
+
+- story: variantes de covid
+  steps:
+  - user: |
+      Quais são as variantes do covid?
+    intent: variantes
+  - action: utter_variantes
+
+- story: caminho para conversar sobre transmissão
+  steps:
+  - user: |
+      Como é a transmissão do vírus?
+    intent: formas_de_transmissao
+  - action: utter_formas_de_transmissao
+
+- story: caminho para para saber mais sobre o virus
+  steps:
+  - user: |
+      Detalhes sobre a covid
+    intent: mais_sobre_o_virus
+  - action: utter_mais_sobre_o_virus
+
+- story: forma gerais de prevencao
+  steps:
+  - user: |
+      Como eu posso me prevenir?
+    intent: formas_gerais_de_prevencao
+  - action: utter_formas_gerais_de_prevencao
+
+- story: Pergunta de desafio para o bot
+  steps:
+  - user: |
+      Você é o que?
+    intent: bot_alligabot
+  - action: utter_alligabot
+
+- story: quando pode vacinar
+  steps:
+  - user: |
+      Quando eu posso me vacinar?
+    intent: quando_vacinar
+  - action: utter_quando_vacinar
+
+- story: seguranca das vacinas
+  steps:
+  - user: |
+      Posso tomar a vacina sem medo?
+    intent: vacina_eh_segura
+  - action: utter_vacina_eh_segura
+
+- story: preciso me vacinar
+  steps:
+  - user: |
+      é necessario me vacinar?
+    intent: preciso_me_vacinar
+  - action: utter_preciso_me_vacinar
+
+- story: vacina no organismo
+  steps:
+  - user: |
+      como cada vacina se comporta?
+    intent: vacina_no_organismo
+  - action: utter_vacina_no_organismo
+
+- story: Informando ao usuário a quantidade de mortos por período
+  steps:
+  - user: |
+      Desejo saber o número de mortos pelo covid-19 por período
+    intent: quantidade_de_mortos_por_periodo
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_responder_quantidade_mortos_por_periodo
+
+- story: caminho para conversar sobre os cuidados em locais abertos
+  steps:
+  - user: |
+      Quais cuidados devo ter em locais abertos?
+    intent: cuidados_em_locais_abertos
+  - action: utter_cuidados_em_locais_abertos
+
+- story: caminho para conversar sobre os cuidados em locais fechados
+  steps:
+  - user: |
+      Quais cuidados devo ter em locais fechados?
+    intent: cuidados_em_locais_fechados 
+  - action: utter_cuidados_em_locais_fechados
+  
+- story: caminho para conversar sobre a diferença do risco de contaminação  entre locais abertos e fechados
+  steps:
+  - user: |
+      Qual a diferença de risco de contaminação entre ambientes abertos e fechados?
+    intent: diferenca_locais_abertos_e_fechados 
+  - action: utter_diferenca_locais_abertos_e_fechados

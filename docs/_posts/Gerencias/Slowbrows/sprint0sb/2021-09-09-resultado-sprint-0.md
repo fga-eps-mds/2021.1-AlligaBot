@@ -2,9 +2,7 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Planejamento Sprint 00
-
-A equipe slowbros foi criada no final da sprint 0, logo não conseguimos planejar a mesma.
+Foi criado o grupo para conhecermos os integrantes da equipe, mas nada foi produzido na sprint 0.
 
 ## Tamanho da Sprint
 

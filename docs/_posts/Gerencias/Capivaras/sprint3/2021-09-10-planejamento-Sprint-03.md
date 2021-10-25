@@ -2,9 +2,8 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Planejamento Sprint 03
 
-Essa sprint tem um papel importante, pois nela iremos terminar os protótipos de baixa e alta fidelidade, bem como tomaremos algumas decisões importantes na platadorma que vamos utilizar,
+Essa sprint tem um papel importante, pois nela iremos terminar os protótipos de baixa e alta fidelidade, bem como tomaremos algumas decisões importantes na plataforma que vamos utilizar,
 além de leves mudanças em templates e políticas de documentação.
 
 ## Histórico de Versões
@@ -13,6 +12,7 @@ além de leves mudanças em templates e políticas de documentação.
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 22/08/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 3 | [Matheus Sousa](https://github.com/https://github.com/gatotabaco)|
+| 21/10/2021 |  0.2   | Correções gramaticais | [Lameque Fernandes](https://github.com/LamequeFernandes)|
 
 ## Tamanho da Sprint
 

@@ -2,7 +2,6 @@
 layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 03
 
 A documentação da Sprint 2 foi concluída com sucesso.
 

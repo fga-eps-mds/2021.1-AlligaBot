@@ -2,15 +2,14 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
-# Planejamento Sprint 1
 
-Após aprendermos qual será o objetivo da disciplina, devemos designar os cargos de todos os membros do grupo e começar a discutir quais tecnologias que serão utilizadas. Foi proposto para cada membro do grupo iniciar os estudos sobre seus respectivos papeis.
+Nessa sprint foram definidos os cargos de todos os membros do grupo, além de iniciarmos as discussões sobre as tecnologias que serão utilizadas. Foi criado também grupos gerais e específicos no aplicativo Telegram para melhorar e facilitar a comunicação 
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 29/08/2021 |    0.1   | planSprint1 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 29/08/2021 |    0.1   | resultSprint1 | [Henrique Hida](https://github.com/HenriqueHida)|
 
 ## Tamanho da Sprint
 
@@ -22,9 +21,9 @@ Após aprendermos qual será o objetivo da disciplina, devemos designar os cargo
 
 ## Objetivos
 
-| Issue |            Título            |        Responsáveis         | 
+| Issue |            Título            |       Status     | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#23](https://github.com/fga-eps-mds/2021-1-Bot/issues/23) | Sprint 1 - Preparação |
+| [#23](https://github.com/fga-eps-mds/2021-1-Bot/issues/23) | Sprint 1 - Preparação | Concluído
 
 ## Papeis
 

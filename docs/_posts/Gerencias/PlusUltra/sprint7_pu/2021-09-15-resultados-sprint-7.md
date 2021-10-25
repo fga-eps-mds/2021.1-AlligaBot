@@ -19,7 +19,7 @@ Conseguimos entregar tudo o que queríamos para a R1, então houve a aula de fee
 | [#100](https://github.com/fga-eps-mds/2021-1-Bot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | _Concluído_ |
 | [#162](https://github.com/fga-eps-mds/2021-1-Bot/issues/162) | Integrar funcionalidades da FT03: Transmissão e prevenção ao bot | _Concluído_ |
 | [#169](https://github.com/fga-eps-mds/2021-1-Bot/issues/169) | Integrar as funcionalidades -Regras para lugares específicos | _Concluído_ |
-| [#174](https://github.com/fga-eps-mds/2021-1-Bot/issues/174) | Resovendo o erro ao executar: make build | _Concluído_ |
+| [#174](https://github.com/fga-eps-mds/2021-1-Bot/issues/174) | Resolvendo o erro ao executar: make build | _Concluído_ |
 | [#176](https://github.com/fga-eps-mds/2021-1-Bot/issues/176) | Finalização da GH Page para R1 | _Concluído_ |
 | [#181](https://github.com/fga-eps-mds/2021-1-Bot/issues/181) | Mudar imagem do AlligaBot no README | _Concluído_ |
 | [#182](https://github.com/fga-eps-mds/2021-1-Bot/issues/182) | Correção de erros no documento de arquitetura | _Concluído_ |

@@ -9,7 +9,7 @@ from os import path
 from typing import Any, Text, Dict, List
 
 
-class ResponderQuantidadeInfectadosPorPeriodoAction(Action):
+class ResponderQuantidadeVacinadosPorPeriodoAction(Action):
     def __init__(self) -> None:
         self.url = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv'
         return

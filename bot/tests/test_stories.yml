@@ -257,3 +257,11 @@ stories:
     intent: diferenca_locais_abertos_e_fechados 
   - action: utter_diferenca_locais_abertos_e_fechados
 
+#US40
+- story: eficacia das vacinas aprovadas pela ANVISA
+  steps:
+  - user: |
+      Qual a eficacia das vacinas?
+    intent: vacina_eficacia
+  - action: utter_vacina_eficacia
+

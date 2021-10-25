@@ -3,7 +3,6 @@
 version: "2.0"
 stories:
 
-
 #US01:
 - story: inicio conversa                         
   steps:                                         
@@ -220,7 +219,7 @@ stories:
 #--------------------------------------------------------------
 
 #US20:
-- story: caminho para conversar sobre a diferença do risco de contaminação  entre locais abertos e fechados
+- story: caminho para conversar sobre a diferença do risco de contaminação entre locais abertos e fechados
   steps:
   - user: |
       Qual a diferença de risco de contaminação entre ambientes abertos e fechados?
@@ -330,6 +329,7 @@ stories:
 #US38:
 
 #--------------------------------------------------------------
+
 #US39:
 - story: segunda dose da vacina
   steps:

@@ -8,6 +8,7 @@ from actions.ResponderVacinadosEmUmEstadoAction import ResponderVacinadosEmUmEst
 def teste_nome():
     return ResponderVacinadosEmUmEstadoAction()
 
+@pytest.fixture
 def test_name(teste_nome):
     name = teste_nome.name()
     assert name == 'action_dados_covid_baseados_em_localizacao'
@@ -41,6 +42,6 @@ class ResponderVacinadosEmUmEstadoActionTest:
         self.setup(mocker)
         assert self.service.name() == "action_responder_vacinados_em_um_estado"
 
-@pytest.fixture
-def test_test_ResponderVacinadosEmUmEstadoAction(mocker):
-    ResponderVacinadosEmUmEstadoActionTest.test_name(mocker)
+    @pytest.fixture
+    def test_test_ResponderVacinadosEmUmEstadoAction(mocker):
+        ResponderVacinadosEmUmEstadoActionTest.test_name(mocker)

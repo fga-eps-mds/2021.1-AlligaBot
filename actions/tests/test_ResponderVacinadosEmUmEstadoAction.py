@@ -1,7 +1,19 @@
 import pytest
-from rasa_sdk.executor import CollectingDispatcher
 
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import AllSlotsReset
 from actions.ResponderVacinadosEmUmEstadoAction import ResponderVacinadosEmUmEstadoAction
+
+
+def teste_nome():
+    return ResponderVacinadosEmUmEstadoAction()
+
+def test_name(teste_nome):
+    name = teste_nome.name()
+    assert name == 'action_dados_covid_baseados_em_localizacao'
+
+
+
 
 class FakeDomain:
     def __init__(self):
@@ -13,7 +25,7 @@ class FakeTracker:
         pass
 
 
-class test_ResponderVacinadosEmUmEstadoAction:
+class ResponderVacinadosEmUmEstadoActionTest:
 
     def setup(self, mocker):
         self.service = ResponderVacinadosEmUmEstadoAction()
@@ -22,18 +34,13 @@ class test_ResponderVacinadosEmUmEstadoAction:
         self.domain = FakeDomain()
 
 
-    def teste_nome():
-        return ResponderVacinadosEmUmEstadoAction()
+        mocker.patch.object(self.dispatcher, "utter_message", return_value=None)
 
     @pytest.fixture
-    def test_name(teste_nome):
-        name = teste_nome.name()
-        assert name == 'action_responder_vacinados_em_um_estado'
-
-    def test_responder_vacinados_estado(dispatcher: CollectingDispatcher,self,mocker):
+    def test_name(self, mocker):
         self.setup(mocker)
-        mocker.patch().object(self.tracker,"get_slot",return_value="nao-existe")
+        assert self.service.name() == "action_responder_vacinados_em_um_estado"
 
-        self.service.run(self.dispatcher, self.tracker, self.domain)
-
-        assert 'Então... eu nao achei o estado nao-existe' in dispatcher.messages[0]['text']
+@pytest.fixture
+def test_test_ResponderVacinadosEmUmEstadoAction(mocker):
+    ResponderVacinadosEmUmEstadoActionTest.test_name(mocker)

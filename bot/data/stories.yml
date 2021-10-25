@@ -135,7 +135,7 @@ stories:
   - intent: saude_mental
   - action: utter_saude_mental
 
-- story: formulario de localizacao do usuario
+- story: Informando ao usuário a quantidade de infectados e mortos por cidade
   steps:
     - intent: covid_em_sua_cidade
     - action: localizacao_form

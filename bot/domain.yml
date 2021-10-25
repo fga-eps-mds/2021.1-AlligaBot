@@ -622,7 +622,7 @@ responses:
 
   utter_vacina_eficacia:
   - text: |
-      Boa pergunta 😉. No Brasil, existem 4 vacinas aprovadas pela ANVISA. De qual delas você deseja saber sobre a eficacia?
+      Boa pergunta 😉. No Brasil, existem 4 vacinas aprovadas pela ANVISA. De qual delas você deseja saber sobre a eficácia?
     buttons:
       - title: Coronavac 
         payload: /eficacia_da_coronavac

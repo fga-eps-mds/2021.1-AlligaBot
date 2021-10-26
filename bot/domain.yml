@@ -52,6 +52,8 @@ intents:
   - vacina_no_organismo
   - quando_vacinar
   - teste_positivo
+  - cadastrar_data_proxima_dose_vacina
+  - EXTERNAL_reminder
   - vacina_eficacia
   - eficacia_da_coronavac
   - eficacia_pfizer
@@ -61,8 +63,7 @@ intents:
   - local_teste
   - quantidade_de_infectados_por_periodo
   - quantidade_de_mortos_por_periodo
-
-
+  - quantidade_de_vacinados_por_periodo
 
 forms:
   localizacao_form:
@@ -104,8 +105,11 @@ slots:
 actions:
   - action_dados_covid_baseados_em_localizacao
   - action_responder_vacinados_em_um_estado
+  - action_cadastrar_lembrete_proxima_dose
+  - action_enviar_lembrete_da_proxima_dose_da_vacina
   - action_responder_quantidade_infectados_por_periodo
   - action_responder_quantidade_mortos_por_periodo
+  - action_responder_quantidade_vacinados_por_periodo
 
 entities:
   - oi
@@ -130,232 +134,268 @@ entities:
 
 responses:
   utter_cumprimentar: 
-  - text: 
-      É um prazer te conhecer, eu sou o AlligaBot e estudei sobre a Covid-19. Como eu posso te ajudar?👋
-  - text:
-      Oi, sou o AlligaBot e vai ser um prazer conversar contigo sobre a Covid-19.👋
-  - text: 
-      Oi, sou o AlligaBot, um jacaré que sabe muito sobre a Covid-19 e posso responder suas dúvidas.👋
-  
+    - text: 
+        É um prazer te conhecer, eu sou o AlligaBot e estudei sobre a Covid-19. Como eu posso te ajudar?👋
+    - text:
+        Oi, sou o AlligaBot e vai ser um prazer conversar contigo sobre a Covid-19.👋
+    - text: 
+        Oi, sou o AlligaBot, um jacaré que sabe muito sobre a Covid-19 e posso responder suas dúvidas.👋
+    
   utter_covid:
-  - text: 
-      A Covid-19 é uma infecção respiratória causada pelo coronavírus SARS-CoV-2🦠, a mesma é potencialmente grave, de elevada transmissibilidade e de distribuição global. 
-      É um assunto que podemos nos aprofundar mais, pensando mais um pouco, os coronavírus são uma grande família de vírus comuns em muitas espécies diferentes de animais, incluindo o homem. 😥
+    - text: 
+        A Covid-19 é uma infecção respiratória causada pelo coronavírus SARS-CoV-2🦠, a mesma é potencialmente grave, de elevada transmissibilidade e de distribuição global. 
+        É um assunto que podemos nos aprofundar mais, pensando mais um pouco, os coronavírus são uma grande família de vírus comuns em muitas espécies diferentes de animais, incluindo o homem. 😥
 
-      Caso queira mais informações, aqui está o site em que me baseei 👉 https://www.gov.br/saude/pt-br/coronavirus/o-que-e-o-coronavirus 👈
+
+        Caso queira mais informações, aqui está o site em que me baseei 👉 https://www.gov.br/saude/pt-br/coronavirus/o-que-e-o-coronavirus 👈
 
   utter_despedida:
-  - text: "Obrigado pela conversa, tomara que possamos conversar mais. 🤙 "
-  - text: "Obrigado, até mais! 🤙"
-  - text: "É só falar caso precise da minha ajuda. 🤙"
-  - text: "Se precisar é só mandar mensagem. 🤙"
+    - text: "Obrigado pela conversa, tomara que possamos conversar mais. 🤙 "
+    - text: "Obrigado, até mais! 🤙"
+    - text: "É só falar caso precise da minha ajuda. 🤙"
+    - text: "Se precisar é só mandar mensagem. 🤙"
 
   utter_fora_do_escopo:
-  - text: "Desculpa, me distrai por um momento. Pode me perguntar novamente? 🤔"
-  - text: "Não consegui entender o que você disse. Poderia dizer novamente? 🤔"
-  - text: "Infelizmente eu só estudei sobre a Covid-19 😓. Enfim, posso te ajudar em algo sobre a Covid-19? 🤔"
+    - text: "Desculpa, me distrai por um momento. Pode me perguntar novamente? 🤔"
+    - text: "Não consegui entender o que você disse. Poderia dizer novamente? 🤔"
+    - text: "Infelizmente eu só estudei sobre a Covid-19 😓. Enfim, posso te ajudar em algo sobre a Covid-19? 🤔"
 
   utter_formas_gerais_de_prevencao:
-  - text: |
-      Ah, legal! Precisamos mesmo nos prevenir. Tenho alguns tópicos e são eles😁:
-        Lavar as mãos frequentemente🧼🤲:
-          ✔️  Lave com água e sabão por pelo menos 20 segundos, especialmente depois de estar em um local público ou depois de assoar o nariz, tossir ou espirrar. 
-          ✔️  Caso não tenha água e sabão disponíveis, use álcool 70%. 
-        Evite contato próximo🧍🧍:
-          ✔️  Evite o contato com pessoas doentes🤒, até mesmo dentro de casa 🏘️. 
-          ✔️  A distância ideal é de 2 metros de outra pessoa.🧍-------- 2 metros ----------🧍 
-        Use máscara😷:
-          ✔️  Use sempre que precisar entrar em contato com pessoas🗣. 
-          ✔️  Cubra toda a boca e o nariz. 
-          ✔️  E lembre-se de manter o distanciamento de 2 metros mesmo com o uso de máscara. 
-      Esses são os tópicos principais, mas lembre sempre de cubrir tosses e espirros, limpar e desinfetar superfícies tocadas com frequências e fique sempre alerta com os sintomas.
+    - text: |
+        Ah, legal! Precisamos mesmo nos prevenir. Tenho alguns tópicos e são eles😁:
+          Lavar as mãos frequentemente🧼🤲:
+            ✔️  Lave com água e sabão por pelo menos 20 segundos, especialmente depois de estar em um local público ou depois de assoar o nariz, tossir ou espirrar. 
+            ✔️  Caso não tenha água e sabão disponíveis, use álcool 70%. 
+          Evite contato próximo🧍🧍:
+            ✔️  Evite o contato com pessoas doentes🤒, até mesmo dentro de casa 🏘️. 
+            ✔️  A distância ideal é de 2 metros de outra pessoa.🧍-------- 2 metros ----------🧍 
+          Use máscara😷:
+            ✔️  Use sempre que precisar entrar em contato com pessoas🗣. 
+            ✔️  Cubra toda a boca e o nariz. 
+            ✔️  E lembre-se de manter o distanciamento de 2 metros mesmo com o uso de máscara. 
+        Esses são os tópicos principais, mas lembre sempre de cubrir tosses e espirros, limpar e desinfetar superfícies tocadas com frequências e fique sempre alerta com os sintomas.
 
-      Para saber mais sobre, acesse o mesmo site que utilizei 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
 
-  
+        Para saber mais sobre, acesse o mesmo site que utilizei 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
+
   utter_tipos_de_mascaras:
-   - text: |
-      Os tipos de máscaras disponíveis são classificados por nível de eficiência de proteção.Os tipos mais comuns são:
-          Máscara PFF2 sem válvula (Eficiência alta)
-          Máscara cirúrgica  (Eficiência média para alta) 
-          Máscara de algodão (Eficiência média) 
-          Máscara de lenço ou bandana (Eficiência baixa)
+    - text: |
+        Os tipos de máscaras disponíveis são classificados por nível de eficiência de proteção. Os tipos mais comuns são:
+            ✔️ Máscara PFF2 sem válvula (Eficiência alta)
+            ✔️ Máscara cirúrgica  (Eficiência média para alta)
+            ✔️ Máscara de algodão (Eficiência média)
+            ✔️ Máscara de lenço ou bandana (Eficiência baixa)
 
+
+        Nessa matéria você consegue mais informações sobre o assunto 👉 bbc.com/portuguese/geral-57152019 👈
 
   utter_uso_correto_mascara:
-  - text: |
-      Para se proteger adequadamente, é preciso usar corretamente a máscara, seguindo estas orientações:
-
-      - A máscara deve cobrir completamente o nariz e a boca: máscaras no queixo ou deixando o nariz de fora são inúteis.
-
-      - A máscara precisa se ajustar bem ao rosto, sem deixar folgas ou aberturas por onde entre ou saia o ar.
-
-      - A boa vedação é o ponto mais importante
-
-      - Para melhor ajuste e segurança, recomenda-se usar máscaras que possam ser presas na nuca, ao invés da orelha.
-
-      - As boas máscaras têm uma peça de metal perto do nariz (clipe nasal). Essa peça ajuda a ajustar melhor a máscara.
+    - text: |
+        Para se proteger adequadamente, é preciso usar corretamente a máscara, seguindo estas orientações:
+        👉 A máscara deve cobrir completamente o nariz e a boca: máscaras no queixo ou deixando o nariz de fora são inúteis.
+  
+        👉 A máscara precisa se ajustar bem ao rosto, sem deixar folgas ou aberturas por onde entre ou saia o ar.
+  
+        👉 A boa vedação é o ponto mais importante.
+  
+        👉 Para melhor ajuste e segurança, recomenda-se usar máscaras que possam ser presas na nuca, ao invés da orelha.
+  
+        👉 As boas máscaras têm uma peça de metal perto do nariz (clipe nasal). Essa peça ajuda a ajustar melhor a máscara.
+    
 
   utter_cuidados_em_locais_abertos:
-  - text: "É importante frisar que, embora mais seguros, mesmo ambientes abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas,  sem respeito ao distanciamento físico, ou em situações de intensa interação entre as pessoas, como festas e shows. O uso de máscara sempre reduz o risco de infecção.Por isso, é importante  usar máscara corretamente mesmo ao ar livre e manter o distanciamento físico de outras pessoas."    
-
+    - text: "É importante frisar que, embora mais seguros que os locais fechados, os ambientes abertos podem oferecer risco de transmissão caso haja aglomeração de pessoas sem respeito ao distanciamento físico, ou em situações de intensa interação entre as pessoas, como festas e shows. O uso de máscara sempre reduz o risco de infecção. Então procure sempre usar máscara corretamente, mesmo ao ar livre, e mantenha o distanciamento físico de outras pessoas. 😉"
+    
   utter_cuidados_em_locais_fechados:
-  - text: |
-      Os ambientes fechados ou mal ventilados são os que merecem maior foco de atenção porque o coronavírus se transmite pelo ar. Em ambientes fechados, o vírus vai se acumulando no ar e aumentando o risco de contágio por inalação de partículas em suspensão.
-
-      Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em locais fechados estão:
-      - A preferência por ambientes bem ventilados
-      - Usar máscaras de qualidade e da maneira correta
-      - Dar preferência aos locais com menor número de pessoas
-      - Reduzir o tempo de permanência no ambiente
+    - text: |
+        Os ambientes fechados ou mal ventilados são os que merecem maior foco de atenção porque o coronavírus se transmite pelo ar. Em ambientes fechados, o vírus vai se acumulando no ar, o que aumenta o risco de contágio por inalação de partículas em suspensão.
+  
+        Veja as medidas mais relevantes para evitar a transmissão da Covid-19 em locais fechados 👇:
+        ✔️ A preferência por ambientes bem ventilados
+        ✔️ Usar máscaras de qualidade e da maneira correta 
+        ✔️ Dar preferência aos locais com menor número de pessoas
+        ✔️ Reduzir o tempo de permanência no ambiente
 
   utter_diferenca_locais_abertos_e_fechados:
-  - text: |
-      Hoje, é sabido que o risco de contrair Covid-19 em locais abertos é muito menor do que em locais fechados. A maioria dos casos de transmissão da Covid-19 documentados pelos cientistas foi em locais fechados, aglomerados, ou onde havia muitas pessoas sem máscara facial.É importante frisar que, embora mais seguros, mesmo locais abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas.
+    - text: |
+        Hoje, é sabido que o risco de contrair Covid-19 em locais abertos é muito menor do que em locais fechados. A maioria dos casos de transmissão da Covid-19 documentados pelos cientistas foi em locais fechados, aglomerados, ou onde havia muitas pessoas sem máscara facial.É importante frisar que, embora mais seguros, mesmo locais abertos podem oferecer risco de transmissão, caso haja aglomeração de pessoas.
 
   utter_cuidados_em_restaurantes:
-  - text: |
-     Por serem locais onde as pessoas costumam permanecer por um longo tempo, conversando e, geralmente, sem máscaras, bares e restaurantes são locais que requerem especial atenção diante do risco de contágio. 
-     Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em bares e restaurantes estão: 
-        - A preferência por mesas em espaços abertos e ao ar livre
-        - Em ambientes fechados, dar preferência a locais com ventiladores ou locais com portas e janelas abertas
-        - Manter distância das outras mesas
-        - Utilizar a máscara  no estabelecimento, podendo ser retirada apenas no momento do consumo de alimentos e bebidas.
-
+    - text: |
+        Por serem locais onde as pessoas costumam permanecer por um longo tempo conversando e, geralmente sem máscaras, bares e restaurantes são locais em que você deve tomar mais cuidado para não contrair o vírus.
+        Entre as medidas com impacto mais relevante para evitar a transmissão da Covid-19 em bares e restaurantes estão 👇:
+          ✔️ A preferência por mesas em espaços abertos e ao ar livre
+          ✔️ Em ambientes fechados, dar preferência a locais com ventiladores ou locais com portas e janelas abertas
+          ✔️ Manter distância das outras mesas
+          ✔️ Utilizar a máscara  no estabelecimento, podendo ser retirada apenas no momento do consumo de alimentos e bebidas.
+      
   utter_cuidados_na_academia:
-  - text: "Independentemente do exercício que você for fazer, é preciso ficar, pelo menos, dois metros de distância de outros usuários e usar constantemente uma máscara que cubra sua boca e seu nariz. “Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas”, aconselhou o Centro de Controle e Prevenção de Doenças (CDC) dos Estados Unidos."
-  - text: "Uma vez que o risco aumenta de acordo com o nível do esforço físico, seja criterioso quanto às atividades que você realiza. Mesmo que o local seja bem ventilado e o tamanho da classe pequena, atividades de baixa intensidade – como ioga – são mais seguras do que as de alta intensidade, como spinning, que devem ser feitas ao ar livre."
-
+    - text: |
+        Bom, academia é um assunto delicado... Mas eu tenho algumas dicas:
+          ✔️ Hidrate-se! Mas não nos bebedouros. Leve sempre sua garrafinha com água.
+          ✔️ Mantenha o distanciamento.Fique pelo menos dois metros de distância de outras pessoas.
+          ✔️ Usar constantemente uma máscara que cubra sua boca e nariz.
+          ✔️ Lave bem as mãos até a altura dos punhos, com água e sabão ou com álcool em gel 70%.
+          ✔️ Tenha um kit de limpeza e higienize os aparelhos antes do manuseio.
+        Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas ou, se possível, em casa.
+        
+        
+        Saiba mais em: 👉 https://biologico.com.br/10-dicas-de-como-se-proteger-do-novo-coronavirus-na-academia/ 👈
+      
   utter_cuidados_no_dentista:
-  - text: "Diante da pandemia, os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao consultório odontológico apenas em casos de emergência ou urgência. As visitas ao cirurgião-dentista para procedimentos eletivos devem ser adiadas por precaução. Leia mais em: https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/"
-
+    - text: |
+        Então, na pandemia devemos tomar muuuito mais cuidado com a saúde bucal. Desde o início os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao dentista apenas em casos de emergência ou urgência.
+        
+        
+        Leia mais em: 👉 https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/ 👈
+      
   utter_cabelos:
-  - text: "Ir com alguma objeto que possar armazenar o Álcool em gel, usar mascara e luvas se possiveis"
-  - text: "Verifique se o estabelecimento pode disponibilizar Álcool em gel para poder se Hiegienizar "
+    - text: |
+        Para ir ao cabelereiro ou a barbearia devemos tomar os cuidados de sempre, utilizando máscaras e higienizando as mãos quando possível.
+        Além disso, é importante ficar atento se o estabelecimento está seguindo os protocolos de limpeza.
+        Até ficar bonito na pandemia tá difícil... Mas sempre tem a opção de tentar cortar o cabelo em casa. Só não garanto que vai ficar legal hahaha =P
+        
+        
+        Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
 
   utter_sintomas:
-  - text: |
-      A COVID-19 afeta diferentes pessoas de diferentes maneiras.
-      Sintomas mais comuns:
-      - Febre
-      - Tosse seca
-      - Cansaço
-      
+    - text: |
+        A COVID-19 afeta diferentes pessoas de diferentes maneiras.
+        Sintomas mais comuns:
+        - Febre
+        - Tosse seca
+        - Cansaço
+        
 
-      Sintomas menos comuns:
-      - Dores e desconfortos
-      - Dor de garganta
-      - Diarreia
-      - Conjuntivite
-      - Dor de cabeça
-      - Perca de paladar ou olfato
-      - Erupção cutânea na pele ou descoloração dos dedos das mãos ou dos pés
-      
+        Sintomas menos comuns:
+        - Dores e desconfortos
+        - Dor de garganta
+        - Diarreia
+        - Conjuntivite
+        - Dor de cabeça
+        - Perca de paladar ou olfato
+        - Erupção cutânea na pele ou descoloração dos dedos das mãos ou dos pés
+        
 
-      Sintomas graves:
-      - Dificuldade de respirar ou falta de ar
-      - Dor ou pressão no peito
-      - Perda de fala ou movimento
-      
-      
-      Procure atendimento médico imediato se tiver sintomas graves. 
-      Em média, os sintomas aparecem após 5 ou 6 dias depois de ser infectado com o vírus. Porém, isso pode levar até 14 dias.
-      
+        Sintomas graves:
+        - Dificuldade de respirar ou falta de ar
+        - Dor ou pressão no peito
+        - Perda de fala ou movimento
+        
+        
+        Procure atendimento médico imediato se tiver sintomas graves. 
+        Em média, os sintomas aparecem após 5 ou 6 dias depois de ser infectado com o vírus. Porém, isso pode levar até 14 dias.
+        
   utter_formas_de_transmissao:
-  - text: 
-      Um jeito simples e intuitivo de se explicar como atuam essas partículas contagiosas é imaginar que elas se comportam como a fumaça de cigarro. Ela se dispersa rapidamente ao ar livre ou em ambientes bem ventilados. No entanto, em lugares fechados ou mal ventilados, ela preenche o ar e demora muito tempo para se dissipar. Se há vários fumantes numa mesma sala, o ar fica carregado com a fumaça.
-      Para mais informações sobre a forma de transmissão acesse 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
-    image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
+    - text: 
+        Um jeito simples e intuitivo de se explicar como atuam essas partículas contagiosas é imaginar que elas se comportam como a fumaça de cigarro. Ela se dispersa rapidamente ao ar livre ou em ambientes bem ventilados. No entanto, em lugares fechados ou mal ventilados, ela preenche o ar e demora muito tempo para se dissipar. Se há vários fumantes numa mesma sala, o ar fica carregado com a fumaça.
+        
+        
+        Para mais informações sobre a forma de transmissão acesse 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
+      image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
 
   utter_mais_sobre_o_virus:
     - text: "O COVID-19 é um vírus de RNA fita simples. Isso significa que o material genético deste vírus é uma molécula de RNA e não de DNA, como é o caso da maior parte dos seres vivos (inclusive nós)."
-    - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2.\n O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
-    - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
+    - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2.\n O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. 
+    
+    Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
+    - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. 
+    
+    
+    Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
     - text: "O coronavírus pertence a uma família de vírus que causa desde resfriados comuns a doenças mais graves.O novo coronavírus recebeu a denominação SARS-CoV-2 pela Organização Mundial da Saúde (OMS). A doença que ele provoca tem a denominação COVID-19, que significa Coronavirus Disease (doença do coronavírus), enquanto “19” se refere ao ano em que apareceram os primeiros casos em Wuhan, na China."
 
   utter_cuidados_comercio_geral:
     - text: |
-       -Priorizar ambientes com portas e janelas abertas 
-
-       -Utilizar a máscara corretamente
-
-       -Manter uma distância segura dos demais clientes(principalmente nas filas)
+        Quando vamos ao comercio não pode ser diferente, lembre-se sempre de utilizar a máscara, higienizar as mãos e manter uma distância segura dos demais clientes, principalmente nas filas.
+        Se possível, priorizar ambientes com portas e janelas abertas.
+        
+        
+        Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
 
   utter_variantes:
     - text: 
-        Sempre que um vírus faz suas cópias nas células humanas, está sujeito a erros que levam a mutações no código genético. Quando um grupo do Sars-CoV-2 reúne mutações distintas em comum, passa a ser chamado de variante.
-        As variantes se chamam Alfa, Beta, Gama e Delta.
+       Sempre que um vírus faz suas cópias nas células humanas, está sujeito a erros que levam a mutações no código genético. Quando um grupo do Sars-CoV-2 reúne mutações distintas em comum, passa a ser chamado de variante.
+       As variantes se chamam Alfa, Beta, Gama e Delta.
         
-        Caso queira saber mais afundo sobre meus estudos, basta acessar este site 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+       
+       Caso queira saber mais afundo sobre meus estudos, basta acessar este site 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
 
 
   utter_alfa:
     - text: 
-        A variante (Alfa B.1.1.7) surgiu no Reino Unido 🇬🇧 em setembro de 2020, são 22 mutações ao todo.
+       A variante (Alfa B.1.1.7) surgiu no Reino Unido 🇬🇧 em setembro de 2020, são 22 mutações ao todo.
         
-        É só dizer caso queira maiores detalhes sobre essa variante. 😉
+       É só dizer caso queira maiores detalhes sobre essa variante. 😉
   
   utter_mais_alfa:
     - text: |
-        Contém uma transmissibilidade entre 30% e 50% maior do que as linhagens anteriores, mas as vacinas funcionam normalmente contra ela. Ela foi responsável pela segunda onda da pandemia que atacou os países do Reino Unido e boa parte da Europa no início de 2021. 💉
+       Contém uma transmissibilidade entre 30% e 50% maior do que as linhagens anteriores, mas as vacinas funcionam normalmente contra ela. Ela foi responsável pela segunda onda da pandemia que atacou os países do Reino Unido e boa parte da Europa no início de 2021. 💉
 
-        Caso queira confirmar informações ou dados sobre a variante alfa, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+
+       Caso queira confirmar informações ou dados sobre a variante alfa, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_beta:
     - text: |
-        A variante (Beta B.1.351) - Surgiu na África do Sul 🇿🇦 em dezembro de 2020, esta variante além de possuir a N501Y presente na Alfa, tem a K417N e a E484K que ajuda o vírus a escapar dos anticorpos produzidos pelo corpo.
+       A variante (Beta B.1.351) - Surgiu na África do Sul 🇿🇦 em dezembro de 2020, esta variante além de possuir a N501Y presente na Alfa, tem a K417N e a E484K que ajuda o vírus a escapar dos anticorpos produzidos pelo corpo.
 
-        É só dizer caso queira maiores detalhes sobre essa variante. 😉
+       É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_mais_beta:
     - text: |
-        Contém uma transmissibilidade maior, mas não tão grande quanto a Alfa. As vacinas da Janssen e da Pfizer mantém sua proteção, porém há indícios de que a da AstraZeneca não funcione frente a essa variante. Alcançou Estados Unidos, Canadá e outros 58 países. O primeiro caso brasileiro foi detectado em abril. 💉 
+       Contém uma transmissibilidade maior, mas não tão grande quanto a Alfa. As vacinas da Janssen e da Pfizer mantém sua proteção, porém há indícios de que a da AstraZeneca não funcione frente a essa variante. Alcançou Estados Unidos, Canadá e outros 58 países. O primeiro caso brasileiro foi detectado em abril. 💉 
 
-        Essa variante não esteve tão presente quanto as outras no Brasil, então caso queira saber mais sobre ela, acesse este link 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+
+       Essa variante não esteve tão presente quanto as outras no Brasil, então caso queira saber mais sobre ela, acesse este link 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_gama:
     - text: |
-        A variante (Gama - P.1 linhagem) foi indentificada pela primeira vez em Manaus e a Gama é muito parecida com a Beta em questões de mutações.
+       A variante (Gama - P.1 linhagem) foi indentificada pela primeira vez em Manaus e a Gama é muito parecida com a Beta em questões de mutações.
 
-        É só dizer caso queira maiores detalhes sobre essa variante. 😉
+       É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_gama_mais:
     - text: |
-        Mais transmissível e tem capacidade de contornar o sistema de defesa. As vacinas mostram sua importância contra a variante Gama, por isso não se esqueça de vacinar💉.
+       Mais transmissível e tem capacidade de contornar o sistema de defesa. As vacinas mostram sua importância contra a variante Gama, por isso não se esqueça de vacinar💉.
 
-        Tivemos muito contato com essa variante, caso queira estudar um pouquinho mais, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+
+       Tivemos muito contato com essa variante, caso queira estudar um pouquinho mais, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_delta:
     - text: |
-        A variante Delta surgiu entre o periodo de outubro e Dezembro na Índia 🇮🇳
-        As mutações vão desde a E484Q, que ajuda o vírus contra os anticorpos, até a L452R, que também está ligada a resposta imune.
+       A variante Delta surgiu entre o periodo de outubro e Dezembro na Índia 🇮🇳
+       As mutações vão desde a E484Q, que ajuda o vírus contra os anticorpos, até a L452R, que também está ligada a resposta imune.
 
-        É só dizer caso queira maiores detalhes sobre essa variante. 😉
+       É só dizer caso queira maiores detalhes sobre essa variante. 😉
 
   utter_delta_mais:
     - text: |
-        A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
+       A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
 
-        Caso queira se aprofundar nos estudos sobre as variantes, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
+
+       Caso queira se aprofundar nos estudos sobre as variantes, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_saude_mental:
     - text: |
-        Manter a saúde mental nesse tempo de pandemia e quarentena não é uma tarefa nada fácil, se afastar dos seus próximos e se isolar em casa é algo necessário, mas muito difícil de se fazer, pois gera muito estresse, ansiedade e pode também ser gatilho para uma depressão. Por isso aqui vai alguns hábitos que podem ser adotados para que se mantenha ou melhore a saúde mental nesse tempo tão difícil:    
-        - Mantenha uma alimentação saudável:
-        Ter atenção ao que se come e priorizar uma dieta balanceada permite a ingestão de todos os nutrientes necessários ao organismo. Isso ajuda no bom funcionamento dos processos químicos do cérebro. Cuidar do corpo também é cuidar da mente.
-        - Faça exercícios físicos diários:
-        Mesmo com as academias fechadas, é possível manter a atividade física em dia. Aplicativos de celular como Nike Training Club, Freeletics Bodyweight, Endomondo e FitNotes possuem centenas de sugestões de exercícios para você fazer em casa e com segurança.
-        - Mantenha contato com seus familiares e amigos:
-        Uma conversa com amigos ou com a família por mensagens, ligações telefônicas ou videochamadas pode aliviar sensações ruins. Também faz relembrar que existe uma rede de apoio com a qual você pode contar.
-        - Evite o uso de tabaco, bebidas alcoólicas e outras drogas:
-        Fazer o uso de Álcool, cigarro e outras drogas para lidar com as emoções pode ser atrativo a princípio mas se tornam vícios e, a longo prazo, causam muitos malefícios à saúde física e mental.
-        - Limite o tempo que passa lendo ou assistindo notícias:
-        Diariamente nos encontramos em meio a um bombardeio de informações e opiniões, é natural que você se sinta angustiado, por isso limite o tempo que você ou sua família passa absorvendo notícias.
-        - Tire um tempo para você:
-        Não preencha seus dias apenas com atividades obrigatórias - libere um espaço na sua agenda para ler um livro, assistir a um filme, aprender uma habilidade nova, fazer exercícios físicos, ouvir uma música, cozinhar com tranquilidade. A escolha é sua: por você e para você.
-        O momento é difícil, mas manter a saúde mental é essencial, caso perceba que essas medidas não estão sendo efetivas, é altamente recomendada a busca por ajuda profissional. 
+       Manter a saúde mental nesse tempo de pandemia e quarentena não é uma tarefa nada fácil, se afastar dos seus próximos e se isolar em casa é algo necessário, mas muito difícil de se fazer, pois gera muito estresse, ansiedade e pode também ser gatilho para uma depressão. Por isso aqui vai alguns hábitos que podem ser adotados para que se mantenha ou melhore a saúde mental nesse tempo tão difícil:    
+       - Mantenha uma alimentação saudável:
+       Ter atenção ao que se come e priorizar uma dieta balanceada permite a ingestão de todos os nutrientes necessários ao organismo. Isso ajuda no bom funcionamento dos processos químicos do cérebro. Cuidar do corpo também é cuidar da mente.
+       - Faça exercícios físicos diários:
+       Mesmo com as academias fechadas, é possível manter a atividade física em dia. Aplicativos de celular como Nike Training Club, Freeletics Bodyweight, Endomondo e FitNotes possuem centenas de sugestões de exercícios para você fazer em casa e com segurança.
+       - Mantenha contato com seus familiares e amigos:
+       Uma conversa com amigos ou com a família por mensagens, ligações telefônicas ou videochamadas pode aliviar sensações ruins. Também faz relembrar que existe uma rede de apoio com a qual você pode contar.
+       - Evite o uso de tabaco, bebidas alcoólicas e outras drogas:
+       Fazer o uso de Álcool, cigarro e outras drogas para lidar com as emoções pode ser atrativo a princípio mas se tornam vícios e, a longo prazo, causam muitos malefícios à saúde física e mental.
+       - Limite o tempo que passa lendo ou assistindo notícias:
+       Diariamente nos encontramos em meio a um bombardeio de informações e opiniões, é natural que você se sinta angustiado, por isso limite o tempo que você ou sua família passa absorvendo notícias.
+       - Tire um tempo para você:
+       Não preencha seus dias apenas com atividades obrigatórias - libere um espaço na sua agenda para ler um livro, assistir a um filme, aprender uma habilidade nova, fazer exercícios físicos, ouvir uma música, cozinhar com tranquilidade. A escolha é sua: por você e para você.
+       O momento é difícil, mas manter a saúde mental é essencial, caso perceba que essas medidas não estão sendo efetivas, é altamente recomendada a busca por ajuda profissional. 
+
+
+       Para saber mais acesse: 👉 https://www.pfizer.com.br/noticias/ultimas-noticias/saude-mental-na-pandemia-do-coronavirus-como-manter-o-bem-estar-em-tempos-de-distanciamento-social 👈 
 
   utter_ask_localizacao_form_uf:
-    - text: "Me conta qual é a sigla do seu estado 🏁. Exemplo: DF"
+    - text: "Me conte qual é a sigla do seu estado 🏁. Exemplo: DF"
 
   utter_ask_localizacao_uf_apenas_form_uf:
-    - text: "Me fala a sigla do seu Estado (UF)"
+    - text: "Me fale a sigla do seu Estado (UF)"
 
   utter_ask_localizacao_form_cidade:
     - text: "Agora, me diga qual o nome da sua cidade 🏕️. Exemplo: Brasília"
@@ -366,50 +406,61 @@ responses:
 
   utter_cuidados_escritorio:
     - text: |
-        Não se preocupe vou te dar uma dica de ouro. Para se prevenir da COVID-19 no trabalho ou  no escritório é indispensável a utilização da máscara, também é necessário a higienização do local e disponibilidade de álcool em gel.
+        Não se preocupe vou te dar uma dica de ouro. Para se prevenir da COVID-19 no trabalho ou no escritório é indispensável a utilização da máscara, a higienização do local e disponibilidade de álcool em gel.
         Também não podemos nos esquecer do distanciamento social.
 
-        Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+        Além disso, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+        
+        
+        Saiba mais em: 👉 https://www.uninter.com/noticias/10-medidas-para-evitar-contagio-de-covid-19-nos-escritorios 👈
+        
     - text: |
-        - Manter o ambiente de trabalho sempre higienizado e desinfetado (superfícies, mesas, objetos, telefones, teclados, balcões, maçanetas);  
-        - Ter local de fácil acesso para lavar as mãos;
-        - Aumentar a frequência de limpeza de corrimãos, elevadores e outros lugares de contato intenso com álcool gel ou solução com água sanitária;
-        - Evitar reuniões numerosas;
-        - Dar preferência ao uso de escadas;
-        - Evitar o manuseio de objetos e documentos de uso compartilhado. Caso não seja possível, usar luvas de proteção ou realizar a higienização adequada das mãos;
-        - Evitar entrar no elevador caso não seja possível manter distanciamento seguro; 
-        - Evitar cumprimentos com as mãos, abraços ou qualquer outro contato físico.
+        Certo amigo(a)! Aqui vão algumas dicas essenciais para se prevenir da COVID-19 no escritório:
+        ✔️ Manter o ambiente de trabalho sempre higienizado e desinfetado (superfícies, mesas, objetos, telefones, teclados, balcões, maçanetas).
+        ✔️ Ter local de fácil acesso para lavar as mãos.
+        ✔️ Aumentar a frequência de limpeza de corrimãos, elevadores e outros lugares de contato intenso.
+        ✔️ Evitar reuniões numerosas.
+        ✔️ Evitar o manuseio de objetos e documentos de uso compartilhado. Caso não seja possível, usar luvas de proteção ou realizar a higienização adequada das mãos.
+        ✔️ Evitar entrar no elevador caso não seja possível manter distanciamento seguro. De preferência ao uso das escadas! 
+        ✔️ Evitar cumprimentos com as mãos, abraços ou qualquer outro contato físico. Tente adotar um comportamento amigável sem o contato físico.
+        
+        
+        Saiba mais em: 👉 https://www.uninter.com/noticias/10-medidas-para-evitar-contagio-de-covid-19-nos-escritorios 👈
+        
     - text: |
         Vou listar aqui algumas medidas para evitar o contágio de Covid-19 nos escritórios:
 
+        ✔️ Higienização do local de trabalho: A higienização deve ser realizada constantemente com álcool a 70% ou solução com hipoclorito.
 
-        1. Higienização do local de trabalho: A higienização deve ser realizada constantemente com álcool a 70% ou solução com hipoclorito.
+        ✔️ Telefones e computadores: se necessário o seu compartilhamento, higienizar com álcool 70% antes da utilização, mesmo que você saiba quem utilizou o equipamento antes de você, repita a operação de limpeza.
 
-        2. Telefones e computadores: se necessário o seu compartilhamento, higienizar com álcool 70% antes da utilização, mesmo que você saiba quem utilizou o equipamento antes de você, repita a operação de limpeza.
+        ✔️ Disponibilização de álcool gel: o ideal é que cada colaborador possua o seu frasco individual para uso continuo, vale ressaltar a importância da limpeza da superfície do álcool em gel, pois na maioria das vezes tocamos no frasco antes da utilização.
 
-        3. Disponibilização de álcool gel: o ideal é que cada colaborador possua o seu frasco individual para uso continuo, vale ressaltar a importância da limpeza da superfície do álcool em gel, pois na maioria das vezes tocamos no frasco antes da utilização.
+        ✔️ Utilização de máscara com tripla camada: essa deverá ser continua e somente retirada para a ingesta de água. Sua troca precisa ocorrer a cada duas horas, portanto é importante levar a quantidade suficiente para um turno de trabalho. A tripla camada não representa aquelas dobrinhas que são vistas em máscaras de tecido e sim 3 camadas de tecido como observado nas máscaras de procedimento cirúrgico.
 
-        4. Utilização de máscara com tripla camada: essa deverá ser continua e somente retirada para a ingesta de água. Sua troca precisa ocorrer a cada duas horas, portanto é importante levar a quantidade suficiente para um turno de trabalho. A tripla camada não representa aquelas dobrinhas que são vistas em máscaras de tecido e sim 3 camadas de tecido como observado nas máscaras de procedimento cirúrgico.
+        ✔️ Distanciamento social: é essencial ocorrer o distanciamento de no mínimo dois metros entre um colaborador e outro.
 
-        5. Distanciamento social: é essencial ocorrer o distanciamento de no mínimo dois metros entre um colaborador e outro.
+        ✔️ Lixeiras: utilizar somente as que possuem pedal, para que não haja contato com a superfície para a abertura da tampa.
 
-        6. Lixeiras: utilizar somente as que possuem pedal, para que não haja contato com a superfície para a abertura da tampa.
+        ✔️ Corredores, lanchonetes, copa/café: três setores que comumente as pessoas gostam de conversar, porém nesse momento é necessário evitar a aglomeração nos locais, e manter o distanciamento para segurança, verificando se existe limite máximo de pessoas no local.
 
-        7. Corredores, lanchonetes, copa/café: três setores que comumente as pessoas gostam de conversar, porém nesse momento é necessário evitar a aglomeração nos locais, e manter o distanciamento para segurança, verificando se existe limite máximo de pessoas no local.
+        ✔️ Materiais de escritório: cada estação de trabalho precisa ter o seu para que não haja compartilhamento de objetos. E caso seja necessário compartilhar, repetir o processo preventivo do item 1.
 
-        8. Materiais de escritório: cada estação de trabalho precisa ter o seu para que não haja compartilhamento de objetos. E caso seja necessário compartilhar, repetir o processo preventivo do item 1.
+        ✔️ Ambiente arejado e ventilado: os espaços de trabalho precisam manter as janelas abertas para constante ventilação. Evitar a utilização do ar condicionado é essencial.
 
-        9. Ambiente arejado e ventilado: os espaços de trabalho precisam manter as janelas abertas para constante ventilação. Evitar a utilização do ar condicionado é essencial.
-
-        10. Seja o exemplo: é importante que todos os colaboradores possam ser o exemplo uns para os outros, assim é possível que todos acabem seguindo as regras. Evite polêmicas e priorize ações de segurança.
-
-
+        ✔️ Seja o exemplo: é importante que todos os colaboradores possam ser o exemplo uns para os outros, assim é possível que todos acabem seguindo as regras. Evite polêmicas e priorize ações de segurança.
+        
         Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+        
+        
+        Saiba mais em: 👉 https://www.uninter.com/noticias/10-medidas-para-evitar-contagio-de-covid-19-nos-escritorios 👈
  
   utter_preciso_me_vacinar:
     - text: |
-        Esse é um assunto muito importante! Vamos lá: todos precisam se vacinar, independente de ter pego ou não o vírus. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de queda no quadro de infectados, existe ainda a consciencia coletiva de que ao se vacinar você está contribuindo para o bem da sociedade e para que tudo volte ao normal o quanto antes! 
-        Portanto, vacine-se e incentive outras pessoas a se vacinar também! :) 
+        Esse é um assunto com muita importância! 
+        Vamos lá: todos precisam se vacinar, independente de ter pego ou não o vírus. Além da vacina ter se mostrado extremamente eficaz e ter mostrado números de queda no quadro de infectados, existe ainda a consciência coletiva de que ao se vacinar você está contribuindo para o bem da sociedade e para que tudo volte ao normal o quanto antes!
+        Portanto, vacine-se e incentive outras pessoas a se vacinar também! 😃
+ 
 
         Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
@@ -417,243 +468,273 @@ responses:
         Amigo, você e as pessoas ao seu redor precisam se vacinar, independente de ter pego ou não o vírus. Só eu que já sou um jacaré não preciso me vacinar hahahaha!
         Mas falando sério agora, a vacina tem diminuido consideravelmente os números de infectados, vacine-se e peça para as outras pessoas se vacinarem também. É necessário que boa parte da população esteja vacinada para que as mutações e reproduções do vírus diminuam, dessa maneira voltaremos logo ao normal. :) 
 
+
         Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
   utter_cuidados_no_atendimento:
-  - text: |
-      Interessante, posso te ajudar nisso.
-      Para proteger a si mesmo e o seu cliente é muito importante evitar apertos de mão, abraços, bejinhos no rosto e qualquer outro cumprimento físico. Aaaah também é recomendável que tenha frascos de álcool gel disponíveis para os clientes.
-      Algumas outras diquinhas:
-      - Incentive o pagamento por aproximação.
-      - Limpeza da máquina de cartão.
-      - Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
+    - text: |
+        Interessante, posso te ajudar nisso.
+        Para proteger a si mesmo e o seu cliente é muito importante evitar apertos de mão, abraços, bejinhos no rosto e qualquer outro cumprimento físico. Aaaah também é recomendável que tenha frascos de álcool gel disponíveis para os clientes.
+        Algumas outras diquinhas:
+        ✔️ Incentive o pagamento por aproximação.
+        ✔️ Limpeza da máquina de cartão.
+        ✔️ Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
+        
+        
+        Se quiser saber mais acesse: 👉 http://www.capital.sp.gov.br/noticia/coronavirus-como-garantir-a-seguranca-no-atendimento-ao-publico-em-tempos-de-pandemia 👈
 
 
-      Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
-
+        Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
 
   utter_exercicios_em_casa:
-  - text: |
-      Certo amigo, vou listar algumas coisas que você pode fazer para se exercitar em casa da melhor maneira possivel! Vamos lá:
+    - text: |
+        Certo amigo, vou listar algumas coisas que você pode fazer para se exercitar em casa da melhor maneira possivel! Vamos lá:
 
-      1-Tenha uma rotina! Mesmo eu sendo um bot, eu sei que é difícil manter uma rotina, principalmente em casa, mas eu prometo pra você que vai valer a pena!
+        ✔️Tenha uma rotina! Mesmo sendo um bot eu sei que é difícil manter uma rotina, principalmente em casa, mas eu prometo pra você que vai valer a pena!
 
-      2-Faça treinos do seu nível. Segure um pouco a empolgação e não faça treinos muito desgastantes,você torna seu exercício muito mais seguro e com menos chance de lesões.
+        ✔️Faça treinos do seu nível. Segure um pouco a empolgação e não faça treinos muito desgastantes,você torna seu exercício muito mais seguro e com menos chance de lesões.
 
-      3- NÃO SE ESQUEÇA DE ALONGAR! É extremamente importante o alongamento, além de prevenir dores musculares o alongamento melhora a sua flexibilidade e postura.
+        ✔️ NÃO SE ESQUEÇA DE ALONGAR! É extremamente importante o alongamento, além de prevenir dores musculares o alongamento melhora a sua flexibilidade e postura.
 
-      4- Respire do jeito certo. Na atividade física, fazemos esforço quando inspiramos (nariz) e vamos soltando o corpo à medida que liberamos a respiração (boca).
+        ✔️ Respire do jeito certo. Na atividade física, fazemos esforço quando inspiramos (nariz) e vamos soltando o corpo à medida que liberamos a respiração (boca).
 
-      5- HIDRATE-SE!! Essa dica serve não só para exercicios caseiros, mas também pra vida. Lembre-se de ter sempre uma garrafa com água ao seu lado viu?!
-  - text: |
-       Ok, aqui vai algumas dicas de atividade:
+        ✔️ HIDRATE-SE!! Essa dica serve não só para exercicios caseiros, mas também pra vida. Lembre-se de ter sempre uma garrafa com água ao seu lado viu?!
 
-       Para as crianças, o ideal é que as atividades sejam baseadas em músicas, histórias infantis e em brincadeiras como rastejar, engatinhar, andar
-       e manipular objetos ou texturas. Algumas atividades poderão ter uma maior intensidade conforme a criança vai crescendo.
 
-       Já para os adultos, a intensidade da atividade vai de moderada a vigorosa. Aqui vale dançar, pular corda, subir escadas e até levantar peso.
- 
-       Para os vovôs e vovós, é importante realizar alongamentos mais simples e exercícios de fortalecimento muscular. Alguns podem ser feitos em casa, como sentar e levantar da cadeira algumas vezes.
+        Para saber mais acesse: 👉 https://www.exercicioemcasa.com.br/cuidados-para-seu-treino-em-casa-ficar-ainda-melhor/ 👈
+    - text: |
+        Ok, aqui vão algumas dicas de atividade:
 
-       Lembre-se de levantar dessa cadeira aí viu? Ficar sentado por longos períodos pode causar inúmeros problemas de saude. Estou de olho, hein?
-  - text: |
-        Atividade física é um dos pilares para manter uma boa qualidade de vida, se eu fosse humano com certeza praticaria. Algumas dicas para você:
+        Para as crianças, o ideal é que as atividades sejam baseadas em músicas, histórias infantis e em brincadeiras como rastejar, engatinhar, andar
+        e manipular objetos ou texturas. Algumas atividades poderão ter uma maior intensidade conforme a criança vai crescendo.
+        Já para os adultos, a intensidade da atividade vai de moderada a vigorosa. Aqui vale dançar, pular corda, subir escadas e até levantar peso.
+        Para os vovôs e vovós, é importante realizar alongamentos mais simples e exercícios de fortalecimento muscular. Alguns podem ser feitos em casa, como sentar e levantar da cadeira algumas vezes.
+        Lembre-se de levantar dessa cadeira aí viu? Ficar sentado por longos períodos pode causar inúmeros problemas de saude. Estou de olho, hein?
 
-        Suba e desça escadas 
 
-        Faça exercícios de alongamento ou utilizando pesos  
+        Para saber mais acesse: 👉 https://www.exercicioemcasa.com.br/cuidados-para-seu-treino-em-casa-ficar-ainda-melhor/ 👈
 
-        Escolha aquela música que você gosta e dance muito!
+    - text: |
+          Atividade física é um dos pilares para manter uma boa qualidade de vida, se eu fosse humano com certeza praticaria. Algumas dicas para você:
 
-        Pule com ou sem corda
+          ✔️ Suba e desça escadas 
 
-        Tome bastante água hein?!
+          ✔️ Faça exercícios de alongamento ou utilizando pesos  
+
+          ✔️ Escolha aquela música que você gosta e dance muito!
+
+          ✔️ Pule com ou sem corda
+
+          ✔️ Tome bastante água hein?!
+
+
+          Para saber mais acesse: 👉 https://www.exercicioemcasa.com.br/cuidados-para-seu-treino-em-casa-ficar-ainda-melhor/ 👈
 
   utter_cuidados_transporte_publico:
-  - text: |
-      Hummm, boa pergunta. Tenho algumas diquinhas para você:
-      - SEMPRE usar máscara.
-      - Evitar tocar nas superfícies sem necessidade.
-      - Não tocar em seu rosto.
-      - Passar álcool 70% nas mãos assim que deixar o veículo.
-      - Por último, mas não menos importante: lavar as mãos com sabão quando chegar ao seu destino.
-
-      Espero ter ajudado :)
+    - text: |
+        Hummm, boa pergunta. Tenho algumas diquinhas para você:
+        ✔️ SEMPRE usar máscara.
+        ✔️ Evitar tocar nas superfícies sem necessidade.
+        ✔️ Não tocar em seu rosto.
+        ✔️ Passar álcool 70% nas mãos assim que deixar o veículo.
+        ✔️ Por último, mas não menos importante: lavar as mãos com sabão quando chegar ao seu destino.
+        
+        
+        Se deseja saber mais, acesse: 👉 https://coronavirus.saude.mg.gov.br/blog/115-transporte-publico-e-covid-19 👈
+        Espero ter ajudado :)
 
   utter_doses_vacina:
-  - text: |
-      Bem lembrado... Falar sobre isso é muito importante!
-
-      Você tem que tomar duas doses da vacina, a não ser que você tenha se vacinado com a Janssen.
-      Não se esqueça de tomar a segunda dose, ein? Procure um posto de saúde ou uma UBS.
-
-      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
-
-  - text: |
-      É necessário tomar duas doses da vacina, com excessão da vacina Janssen, pois ela confere imunidade com apenas uma dose.
-      Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado outra.
-
-      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+    - text: |
+        Bem lembrado... Falar sobre isso é muito importante!
+  
+        Você tem que tomar duas doses da vacina, a não ser que você tenha se vacinado com a Janssen.
+        Não se esqueça de tomar a segunda dose, hein 💉? Procure um posto de saúde ou uma UBS mais próxima.
+  
+        Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
+  
+    - text: |
+        É necessário tomar duas doses 💉 da vacina, com exceção da vacina Janssen, pois ela confere imunidade com apenas uma dose.
+        Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado a outra.
+  
+        Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
 
   utter_qual_exame_fazer:
-  - text: |
-      Por qual motivo você quer fazer o exame?
-    buttons:
-      - title: Estou com sintomas
-        payload: /exame_com_sintomas
-      - title: Tive contato com alguém com covid
-        payload: /exame_contato_covid
+    - text: |
+        Por qual motivo você quer fazer o exame?
+      buttons:
+        - title: Estou com sintomas
+          payload: /exame_com_sintomas
+        - title: Tive contato com alguém com covid
+          payload: /exame_contato_covid
 
   utter_com_sintomas:
-  - text: |
-      Você tem sentido os sintomas a quantos dias?
-    buttons:
-      - title: A menos de 8 dias
-        payload: /sintomas_menos_de_8
-      - title: A mais de 8 dias
-        payload: /sintomas_mais_de_8
+    - text: |
+        Você tem sentido os sintomas a quantos dias?
+      buttons:
+        - title: A menos de 8 dias
+          payload: /sintomas_menos_de_8
+        - title: A mais de 8 dias
+          payload: /sintomas_mais_de_8
 
   utter_sintomas_menos_de_8:
-  - text: |
-      O teste mais indicado para você é o RT-PCR e o teste antígeno.
-      Você pode saber mais sobre esses testes em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        O teste mais indicado para você é o RT-PCR e o teste antígeno.
+        
+        
+        Você pode saber mais sobre esses testes em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_sintomas_mais_de_8:
-  - text: |
-      O teste mais indicado para você é o de Sorologia.
-      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        O teste mais indicado para você é o de Sorologia.
+
+
+        Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_contato_covid:
-  - text: |
-      Você tá com sintomas da covid-19?
-    buttons:
-      - title: Sim
-        payload: /exame_com_sintomas
-      - title: Não, apenas tive contato com alguém que estava contaminado/ com suspeita
-        payload: /exame_sem_sintomas
+    - text: |
+        Você tá com sintomas da covid-19?
+      buttons:
+        - title: Sim
+          payload: /exame_com_sintomas
+        - title: Não, apenas tive contato com alguém que estava contaminado/ com suspeita
+          payload: /exame_sem_sintomas
 
   utter_sem_sintomas:
-  - text: |
-      Seu último contato com a pessoa infectada ou com suspeita tem quantos dias?
-    buttons:
-      - title: A mais de 10 dias
-        payload: /contato_mais_de_10
-      - title: A menos de 10 dias
-        payload: /contato_menos_de_10
+    - text: |
+        Seu último contato com a pessoa infectada ou com suspeita tem quantos dias?
+      buttons:
+        - title: A mais de 10 dias
+          payload: /contato_mais_de_10
+        - title: A menos de 10 dias
+          payload: /contato_menos_de_10
 
   utter_contato_mais_de_10:
-  - text: |
-      O teste mais indicado para você é o de Sorologia.
-      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        O teste mais indicado para você é o de Sorologia.
+
+
+        Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_contato_menos_de_10:
-  - text: |
-      O teste mais indicado para você é o RT-PCR.
-      Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+    - text: |
+        O teste mais indicado para você é o RT-PCR.
+
+
+        Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_vacina_no_organismo:
-  - text: |
-      Depois de algumas pesquisas descobri como as vacinas agem no organismo, aqui vai um resumo:
-       
-      Janssen Vaccine (Janssen-Cilag):
-      A vacina Janssen utiliza um adenovírus que geralmente causaria resfriado em humanos, e o modifica para que ele não se replique mais, além de incluir nele um trecho do material genético do Sars-CoV-2. E ao entrar em contato com as células, o vetor viral apresenta esse pedacinho do coronavírus para o sistema imunológico para desenvolver anticorpos. 
-       
-      Pfizer:
-      A Pfizer possui uma parte sintética do material genético do vírus, mas não o vírus em si. A vacina faz com que o sistema imunológico produza anticorpos e células de defesa que atuam contra o vírus, possibilitando assim a proteção contra a COVID-19.
-       
-      Coronavac:
-      A Coronavac é uma vacina que usa o vírus inativo da covid-19 através de calor ou produto químico. Ela estimula o corpo a induzir a imunidade contra o vírus SARS-Cov-2 para a prevenção de doenças causadas pelo mesmo.
-       
-      Astrazeneca:
-      Assim como a Janssen, a vacina astrazeneca é uma vacina de vetor viral, nesse caso um adenovírus de chimpanzé que foi debilitado e geneticamente modificado. A vacina estimula as defesas naturais do corpo (sistema imunológico), isso faz com que o corpo produza sua própria proteção (anticorpos) contra o vírus causador da COVID-19, o SARS-CoV-2. Isso ajudará a proteger você contra a COVID-19 no futuro.
-       
-      Agora que sabemos um pouco mais sobre cada uma, não se preocupe caso sinta alguns efeitos colaterais, lembre que é apenas seu sistema imunológico preparando seu organismo para se defender do vírus no futuro.
-
+    - text: |
+        Muito boa a pergunta, saber mais sobre as vacinas é muito bom. Depois de algumas pesquisas descobri como as vacinas agem no organismo, aqui vai um resumo:
+        
+        Janssen Vaccine (Janssen-Cilag):
+        A vacina Janssen utiliza um adenovírus que geralmente causaria resfriado em humanos, e o modifica para que ele não se replique mais, além de incluir nele um trecho do material genético do Sars-CoV-2. E ao entrar em contato com as células, o vetor viral apresenta esse pedacinho do coronavírus para o sistema imunológico para desenvolver anticorpos.
+        
+        Pfizer:
+        A Pfizer possui uma parte sintética do material genético do vírus, mas não o vírus em si. A vacina faz com que o sistema imunológico produza anticorpos e células de defesa que atuam contra o vírus, possibilitando assim a proteção contra a COVID-19.
+        
+        Coronavac:
+        A Corona Vac é uma vacina que usa o vírus inativo da covid-19 através de calor ou produto químico. Ela estimula o corpo a induzir a imunidade contra o vírus SARS-Cov-2 para a prevenção de doenças causadas pelo mesmo.
+        
+        Astrazeneca:
+        Assim como a Janssen, a vacina astrazeneca é uma vacina de vetor viral, neste caso um adenovírus de chimpanzé que foi debilitado e geneticamente modificado. A vacina estimula as defesas naturais do corpo (sistema imunológico), isso faz com que o corpo produza sua própria proteção (anticorpos) contra o vírus causador da COVID-19, o SARS-CoV-2. Isso ajudará a proteger você contra a COVID-19 no futuro.
+        
+        Agora que sabemos um pouco mais sobre cada uma, não se preocupe caso sinta alguns efeitos colaterais, lembre que é apenas seu sistema imunológico preparando seu organismo para se defender do vírus no futuro💪.
+  
   utter_quando_vacinar:
-  - text: |
-      Depois de algumas pesquisas, pude concluir que apesar de existirem divergências da idade para vacinação para os diferentes municípios, posso dizer que a idade média atual são para pessoas com idade miníma de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade.
+    - text: |
+        Boa curiosidade...Depois de algumas pesquisas, pude concluir que a condição com relação a quem pode tomar a vacina é aferida de acordo com a idade da pessoa. Dessa forma, há divergências de idade para vacinação para os diferentes municípios, atualmente a idade média atual são para pessoas com idade mínima de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade. 😉
 
   utter_teste_positivo:
-  - text: |
-      Poxa não fique triste, vai dar tudo certo. Vou te dar algumas ideias para ajudar:
-      Primeira coisa, depois do resultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequada, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
+    - text: |
+        Poxa não fique triste ❤️, vai dar tudo certo. Vou te dar algumas ideias para ajudar:
+        Primeira coisa, depois do resultado positivo, se o teste foi realizado em uma UBS, o médico dará a orientação adequada, seja isolamento domiciliar ou internação, dependendo do quadro clínico.
+  
+        Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou comprometimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
+  
+        Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
+    
+    - text: |
+        Caramba...uma notícia triste ❤️, mas não se desespere. Para saber o que fazer nesse momento, olhe o que eu achei:
+        - Consulte novamente seu médico;
+        - Fique em isolamento domiciliar;
+        - Utilize máscara o tempo todo;
+        - Se for preciso cozinhar, use máscara de proteção, cobrindo boca e nariz todo o tempo;
+        - Depois de usar o banheiro, nunca deixe de lavar as mãos com água e sabão e sempre limpe vaso, pia e demais superfícies com álcool ou água sanitária para desinfecção do ambiente;
+        - Separe toalhas de banho, garfos, facas, colheres, copos e outros objetos apenas para seu uso;
+        - O lixo produzido precisa ser separado e descartado;
+        - Sofás e cadeiras também não podem ser compartilhados e precisam ser limpos frequentemente com água sanitária ou álcool 70%;
+        - Mantenha a janela aberta para circulação de ar do ambiente usado para isolamento e a porta fechada, limpe a maçaneta frequentemente com álcool 70% ou água sanitária;
+        - Caso o paciente não more sozinho, os demais moradores devem dormir em outro cômodo, longe da pessoa infectada, seguindo também as seguintes recomendações:
+          ✔️ Manter a distância mínima de 1 metro entre o paciente e os demais moradores;
+          ✔️ Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
+          ✔️ Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
+          ✔️ Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento por 14 dias.
 
-      Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou comprometimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
 
-      Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
-  - text: |
-      Caramba...uma notícia triste, mas não se desespere e para saber o que fazer nesse momento, olhe o que eu achei:
-      - Consulte novamente seu médico;
-      - Fique em isolamento domiciliar;
-      - Utilize máscara o tempo todo;
-      - Se for preciso cozinhar, use máscara de proteção, cobrindo boca e nariz todo o tempo;
-      - Depois de usar o banheiro, nunca deixe de lavar as mãos com água e sabão e sempre limpe vaso, pia e demais superfícies com álcool ou água sanitária para desinfecção do ambiente;
-      - Separe toalhas de banho, garfos, facas, colheres, copos e outros objetos apenas para seu uso;
-      - O lixo produzido precisa ser separado e descartado;
-      - Sofás e cadeiras também não podem ser compartilhados e precisam ser limpos frequentemente com água sanitária ou álcool 70%;
-      - Mantenha a janela aberta para circulação de ar do ambiente usado para isolamento e a porta fechada, limpe a maçaneta frequentemente com álcool 70% ou água sanitária;
-      - Caso o paciente não more sozinho, os demais moradores devem dormir em outro cômodo, longe da pessoa infectada, seguindo também as seguintes recomendações:
-        - Manter a distância mínima de 1 metro entre o paciente e os demais moradores;
-        - Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
-        - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
-        - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
-      Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+        Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
+
 
   utter_vacina_eficacia:
-  - text: |
-      No Brasil, existem 4 vacinas aprovadas pela ANVISA. De qual delas você deseja saber a eficacia?
-    buttons:
-      - title: Coronavac 
-        payload: /eficacia_da_coronavac
-      - title: Astrazeneca
-        payload: /eficacia_astrazeneca
-      - title: Pfizer
-        payload: /eficacia_pfizer
-      - title: Janssen Vaccine 
-        payload: /eficacia_janssen
+    - text: |
+        Boa pergunta 😉. No Brasil, existem 4 vacinas aprovadas pela ANVISA. De qual delas você deseja saber sobre a eficácia?
+      buttons:
+        - title: Coronavac 
+          payload: /eficacia_da_coronavac
+        - title: Astrazeneca
+          payload: /eficacia_astrazeneca
+        - title: Pfizer
+          payload: /eficacia_pfizer
+        - title: Janssen Vaccine 
+          payload: /eficacia_janssen
 
   utter_eficacia_da_coronavac:
-  - text: |
-      Após testes, o Instituto Butantan apresentou um resultado de 50,38% na eficáfia da vacina CoronaVac. De forma mais detalhada: A CoronaVac mostrou-se 100% eficaz nos casos moderados e graves, e 78% eficaz nos casos leves. 
-      
-      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
+    - text: |
+        Após testes, o Instituto Butantan apresentou um resultado de 50,38% na eficáfia da vacina CoronaVac. De forma mais detalhada: A CoronaVac mostrou-se 100% eficaz nos casos moderados e graves, e 78% eficaz nos casos leves. 
+        
+        
+        Você pode ler mais sobre isso aqui: 👉 https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
+
 
   utter_eficacia_pfizer:
-  - text: |
-      Após estudos envolvendo mais de 44 mil voluntários, concluísse que, globalmente, a eficácia da vacina contra a COVID-19 foi de 95%, com esquema de duas doses num intervalo de 21 dias entre as doses. 
+    - text: |
+        Após estudos envolvendo mais de 44 mil voluntários, concluísse que, globalmente, a eficácia da vacina contra a COVID-19 foi de 95%, com esquema de duas doses num intervalo de 21 dias entre as doses. 
 
-      Leia mais sobre a Pfizer aqui: https://www.pfizer.com.br/tomarpararetomar/tire-suas-duvidas-sobre-vacinacao
+
+        Leia mais sobre a Pfizer aqui: 👉 https://www.pfizer.com.br/tomarpararetomar/tire-suas-duvidas-sobre-vacinacao
 
   utter_eficacia_janssen:
-  - text: |
-      28 dias após a inoculação, Janssen Ad26.CoV2.S demonstrou ter uma eficácia de 85,4% contra doença grave e 93,1% contra hospitalização.
-      Verificou-se também que uma dose única de Janssen Ad26.COV2.S tinha uma eficácia de 66,9% contra a infecção pela variante SARS-CoV-2 moderada e grave sintomática.
+    - text: |
+        28 dias após a inoculação, Janssen Ad26.CoV2.S demonstrou ter uma eficácia de 85,4% contra doença grave e 93,1% contra hospitalização.
+        Verificou-se também que uma dose única de Janssen Ad26.COV2.S tinha uma eficácia de 66,9% contra a infecção pela variante SARS-CoV-2 moderada e grave sintomática.
 
-      Para ler mais sobre essa vacina acesse: https://www.who.int/news-room/feature-stories/detail/the-j-j-covid-19-vaccine-what-you-need-to-know
+
+        Para ler mais sobre essa vacina acesse: 👉 https://www.who.int/news-room/feature-stories/detail/the-j-j-covid-19-vaccine-what-you-need-to-know
   
   utter_eficacia_astrazeneca:
-  - text: |
-      Após testes, a AstraZeneca apresentou certa de 70% de eficácia geral, variando entre 62% e 90%, após a aplicação das duas doses. 
+    - text: |
+        Após testes, a AstraZeneca apresentou certa de 70% de eficácia geral, variando entre 62% e 90%, após a aplicação das duas doses. 
 
-      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
+
+        Você pode ler mais sobre isso aqui: 👉 https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
 
   utter_oque_fazer_suspeita:
-  - text: |
-      Em caso de suspeita, fique em casa por 14 dias, você e as pessoas que moram com você.
-      Durante esse período de isolamento, acompanhe os sintomas e veja se elas não se agravem. Em sintomas leves, como os de um resfriado comum, apenas fique de repouso, alimente-se bem, mantenha-se hidratado, e se precisar, use antitérmicos e analgésicos para aliviar os incômodos. Já em caso de sintomas mais graves, como febre alta persistente e desconforto respiratório, procute atendimento médico imediatamente.
-      Se precisar tirar mais alguma dúvida e eu não conseguir te responder, ligue para o Disque Saúde, pelo número 136.
-      Um abraço virtual e se cuide!
+    - text: |
+        Em caso de suspeita, fique em casa por 14 dias, você e as pessoas que moram com você.
+        Durante esse período de isolamento, acompanhe os sintomas e veja se elas não se agravem. Em sintomas leves, como os de um resfriado comum, apenas fique de repouso, alimente-se bem, mantenha-se hidratado, e se precisar, use antitérmicos e analgésicos para aliviar os incômodos. Já em caso de sintomas mais graves, como febre alta persistente e desconforto respiratório, procute atendimento médico imediatamente.
+        Se precisar tirar mais alguma dúvida e eu não conseguir te responder, ligue para o Disque Saúde, pelo número 136.
+        
+        Um abraço virtual e se cuide!❤️
 
   utter_local_teste:
-  - text: |
-      Acalma o coração...
-      Se você estiver com sintomas da doença causada pelo novo coronavírus (Sars-CoV-2) deve procurar a UBS mais próxima de sua residência, onde será acolhido e poderá fazer o teste de acordo com a avaliação da equipe de enfermagem, ou médica.
-      Os exames de pacientes que apresentarem sintomas são coletados nas próprias unidades. Além disso, é realizada a estratégia fast-track ou duplo fluxo, em que os pacientes com quadros respiratórios entram em fluxos separados na unidade.
+    - text: |
+        Acalma o coração...🙏❤️
+        Se você estiver com sintomas da doença causada pelo novo coronavírus (Sars-CoV-2) deve procurar a UBS mais próxima de sua residência, onde será acolhido e poderá fazer o teste de acordo com a avaliação da equipe de enfermagem, ou médica.
+        Os exames de pacientes que apresentarem sintomas são coletados nas próprias unidades. Além disso, é realizada a estratégia fast-track ou duplo fluxo, em que os pacientes com quadros respiratórios entram em fluxos separados na unidade.
+  
+        Caso faça o teste...espero que dê negativo❌.
+  
 
-
-      Caso faça o teste...espero que dê negativo.
-
-      Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/ 
+        Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/
 
   utter_ask_cadastro_data_form_dia:
     - text: "Preciso saber o número do dia"
@@ -666,7 +747,7 @@ responses:
 
 
   utter_alligabot:
-  - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
+    - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021-1-Bot"
 
 
 session_config:

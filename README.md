@@ -4,13 +4,13 @@
 </p>
 <h1 align="center">AlligaBot</h1>
 
- ![GitHub issues](https://img.shields.io/github/issues/fga-eps-mds/2021-1-Bot?color=red)
- ![GitHub closed issues](https://img.shields.io/github/issues-closed/fga-eps-mds/2021-1-Bot?color=green)
- ![GitHub pull requests](https://img.shields.io/github/issues-pr/fga-eps-mds/2021-1-Bot?color=orange)
- ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/fga-eps-mds/2021-1-Bot?color=brightgreen)
- ![GitHub branches](https://badgen.net/github/branches/fga-eps-mds/2021-1-Bot/)
- ![GitHub repo size](https://img.shields.io/github/repo-size/fga-eps-mds/2021-1-Bot?color=purple)
- ![GitHub contributors](https://img.shields.io/github/contributors/fga-eps-mds/2021-1-Bot?color=ff69b4)
+ ![GitHub issues](https://img.shields.io/github/issues/fga-eps-mds/2021.1-AlligaBot?color=red)
+ ![GitHub closed issues](https://img.shields.io/github/issues-closed/fga-eps-mds/2021.1-AlligaBot?color=green)
+ ![GitHub pull requests](https://img.shields.io/github/issues-pr/fga-eps-mds/2021.1-AlligaBot?color=orange)
+ ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/fga-eps-mds/2021.1-AlligaBot?color=brightgreen)
+ ![GitHub branches](https://badgen.net/github/branches/fga-eps-mds/2021.1-AlligaBot/)
+ ![GitHub repo size](https://img.shields.io/github/repo-size/fga-eps-mds/2021.1-AlligaBot?color=purple)
+ ![GitHub contributors](https://img.shields.io/github/contributors/fga-eps-mds/2021.1-AlligaBot?color=ff69b4)
  ![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 <!-- ![GitHub commits count](https://badgen.net/github/commits/fga-eps-mds/2021-1-Bot/)
 <!-- [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/LICENSE) -->
@@ -61,8 +61,8 @@ separadamente.
 ### ✔️ Instalando e executando
 Baixe o repositório e entre nele
 
-    git clone https://github.com/fga-eps-mds/2021-1-Bot.git
-    cd 2021-1-Bot
+    git clone https://github.com/fga-eps-mds/2021.1-AlligaBot.git
+    cd 2021.1-AlligaBot
 
 Crie um arquivo para as variáveis ambiente e o preencha com as
 informações que faltam.

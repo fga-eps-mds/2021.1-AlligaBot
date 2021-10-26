@@ -1,19 +1,7 @@
-# -*- coding: utf-8 -*-
+from actions.ResponderVacinadosEmUmEstadoAction import ResponderVacinadosEmUmEstadoAction
+from actions.ResponderSobreCovidAction import ResponderSobreCovidAction
+from actions.ResponderLembreteProximaVacinaAction import ActionCadastrarLembrete, ActionLembrarUsuario 
+from actions.ResponderQuantidadeInfectadosPorPeriodoAction import ResponderQuantidadeInfectadosPorPeriodoAction
+from actions.ResponderQuantidadeMortosPorPeriodoAction import ResponderQuantidadeMortosPorPeriodoAction
+from actions.ResponderQuantidadeVacinadosPorPeriodoAction import ResponderQuantidadeVacinadosPorPeriodoAction
 
-import os
-import time
-import requests
-import requests
-import patoolib
-import pandas as pd
-
-from rasa_sdk import Action, Tracker
-from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import AllSlotsReset
-from os import path
-from typing import Any, Text, Dict, List
-
-import ResponderVacinadosEmUmEstadoAction
-import ResponderSobreCovidAction
-import ResponderQuantidadeInfectadosPorPeriodoAction
-import ResponderQuantidadeMortosPorPeriodoAction

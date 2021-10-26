@@ -3,12 +3,34 @@
 version: "2.0"
 stories:
 
+#US01:
 - story: inicio conversa
   steps:
   - user: |
       oi
     intent: start
   - action: utter_cumprimentar
+
+#US02:
+- story: Pergunta de desafio para o bot
+  steps:
+  - user: |
+      Você é o que?
+    intent: bot_alligabot
+  - action: utter_alligabot
+
+#US que não precisam de teste:
+#US03
+#US04
+#US05
+
+#US06:
+- story: variantes de covid
+  steps:
+  - user: |
+      Quais são as variantes do covid?
+    intent: variantes
+  - action: utter_variantes
 
 - story: Alfa
   steps:
@@ -65,56 +87,32 @@ stories:
       quero saber sobre Delta
     intent: mais_delta
   - action: utter_delta_mais
-  
-- story: caminho para conversar sobre os cuidados em restaurantes
-  steps:
-  - user: |
-      Cuidados em  restaurantes
-    intent: cuidados_em_restaurantes
-  - action: utter_cuidados_em_restaurantes
-  
-- story: caminho para conversar sobre os cuidados na academia
-  steps:
-  - user: |
-      Cuidados em academia
-    intent: cuidados_na_academia
-  - action: utter_cuidados_na_academia
-  
-- story: caminho para conversar sobre os cuidados no dentista
-  steps:
-  - user: |
-      Cuidados no dentista
-    intent: cuidados_no_dentista
-  - action: utter_cuidados_no_dentista
-  
-- story: Como se portar no Cabeleiro/barbearia
-  steps:
-  - user: |
-      Quais cuidados devo ter no cabeleireiro para me proteger do COVID-19?
-    intent: barbearia_cabelereiro
-  - action: utter_cabelos
-  
-- story: cuidados no escritorio ou trabalho
-  steps:
-  - user: |
-      Vou ao escritório
-    intent: cuidados_escritorio
-  - action: utter_cuidados_escritorio
-  
-- story: Como se portar no comércio em geral
-  steps:
-  - user: |
-      Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
-    intent: cuidados_comercio_geral
-  - action: utter_cuidados_comercio_geral
-  
-- story: cuidados no transporte público
-  steps:
-  - user: |
-      Como me cuidar no transporte público
-    intent: cuidados_transporte_publico
-  - action: utter_cuidados_transporte_publico
 
+#US07:
+- story: caminho para conversar sobre transmissão
+  steps:
+  - user: |
+      Como é a transmissão do vírus?
+    intent: formas_de_transmissao
+  - action: utter_formas_de_transmissao
+
+#US08:
+- story: caminho para para saber mais sobre o virus
+  steps:
+  - user: |
+      Detalhes sobre a covid
+    intent: mais_sobre_o_virus
+  - action: utter_mais_sobre_o_virus
+
+#US09:
+- story: forma gerais de prevencao
+  steps:
+  - user: |
+      Como eu posso me prevenir?
+    intent: formas_gerais_de_prevencao
+  - action: utter_formas_gerais_de_prevencao
+
+#US10:
 - story: caminho possivel para saber sobre os tipos de máscaras
   steps:
   - user: |
@@ -125,7 +123,8 @@ stories:
       Quais sao os tipos de mascaras utilizados para proteger da covid 19?
     intent: tipos_de_mascaras
   - action: utter_tipos_de_mascaras
-  
+
+#US11:
 - story: caminho para saber sobre como usar a máscara corretamente
   steps:
   - user: |
@@ -137,6 +136,7 @@ stories:
     intent: uso_correto_mascara
   - action: utter_uso_correto_mascara
 
+#US12:
 - story: sintomas
   steps:
   - user: |
@@ -144,6 +144,7 @@ stories:
     intent: sintomas
   - action: utter_sintomas
 
+#US13:
 - story:  Informando ao usuário a quantidade de infectados e mortos por cidade
   steps:
   - user: |
@@ -154,6 +155,7 @@ stories:
   - active_loop: null
   - action: action_dados_covid_baseados_em_localizacao
 
+#US14:
 - story: Informando ao usuário a quantidade de infectados por período
   steps:
   - user: |
@@ -164,141 +166,7 @@ stories:
   - active_loop: null
   - action: action_responder_quantidade_infectados_por_periodo
 
-- story: seguranca das vacinas
-  steps:
-  - user: |
-      A vacina é segura
-    intent: vacina_eh_segura
-  - action: utter_vacina_eh_segura 
-
-- story: exercicios em casa
-  steps:
-  - user: |
-      Como posso me exercitar em casa
-    intent: exercicios_em_casa
-  - action: utter_exercicios_em_casa
-
-- story: saude mental
-  steps:
-  - user: |
-      Como posso manter a saúde mental
-    intent: saude_mental
-  - action: utter_saude_mental
-  
-- story: formulario de localizacao do usuario para informar vacinados
-  steps:
-  - user: |
-      Quantas doses de vacina foram distribuídas no meu estado
-    intent: vacinados_no_meu_estado
-  - action: localizacao_uf_apenas_form
-  - action: action_responder_vacinados_em_um_estado
-
-- story: Informando ao usuário a quantidade de vacindaos por período
-  steps:
-  - user: |
-      Desejo saber a quantidade de vacinados contra o covid-19 por período
-    intent: quantidade_de_vacinados_por_periodo
-  - action: cadastro_data_form
-  - action: action_responder_quantidade_vacinados_por_periodo
-
-- story: formulario de cadastro de próxima dose da vacina do covid-19
-  steps:
-  - user: |
-      Cadastrar a data da próxima dose da vacina
-    intent: cadastrar_data_proxima_dose_vacina
-  - action: cadastro_data_form
-  - active_loop: cadastro_data_form
-  - active_loop: null
-  - action: action_cadastrar_lembrete_proxima_dose
-
-- story: segunda dose da vacina
-  steps:
-  - user: |
-      Quantas doses preciso tomar?
-    intent: doses_vacina
-  - action: utter_doses_vacina
-- story: suspeita covid
-  steps:
-  - user: |
-      suspeita covid
-    intent: oque_fazer_suspeita
-  - action: utter_oque_fazer_suspeita
-- story: onde me testar
-  steps:
-  - user: |
-      Onde me testar?
-    intent: local_teste
-  - action: utter_local_teste
-- story: qual_exame_fazer
-  steps:
-  - user: |
-      Qual tipo de teste eu faço?
-    intent: qual_exame_fazer
-  - action: utter_qual_exame_fazer 
-
-- story: variantes de covid
-  steps:
-  - user: |
-      Quais são as variantes do covid?
-    intent: variantes
-  - action: utter_variantes
-
-- story: caminho para conversar sobre transmissão
-  steps:
-  - user: |
-      Como é a transmissão do vírus?
-    intent: formas_de_transmissao
-  - action: utter_formas_de_transmissao
-
-- story: caminho para para saber mais sobre o virus
-  steps:
-  - user: |
-      Detalhes sobre a covid
-    intent: mais_sobre_o_virus
-  - action: utter_mais_sobre_o_virus
-
-- story: forma gerais de prevencao
-  steps:
-  - user: |
-      Como eu posso me prevenir?
-    intent: formas_gerais_de_prevencao
-  - action: utter_formas_gerais_de_prevencao
-
-- story: Pergunta de desafio para o bot
-  steps:
-  - user: |
-      Você é o que?
-    intent: bot_alligabot
-  - action: utter_alligabot
-
-- story: quando pode vacinar
-  steps:
-  - user: |
-      Quando eu posso me vacinar?
-    intent: quando_vacinar
-  - action: utter_quando_vacinar
-
-- story: seguranca das vacinas
-  steps:
-  - user: |
-      Posso tomar a vacina sem medo?
-    intent: vacina_eh_segura
-  - action: utter_vacina_eh_segura
-
-- story: preciso me vacinar
-  steps:
-  - user: |
-      é necessario me vacinar?
-    intent: preciso_me_vacinar
-  - action: utter_preciso_me_vacinar
-
-- story: vacina no organismo
-  steps:
-  - user: |
-      como cada vacina se comporta?
-    intent: vacina_no_organismo
-  - action: utter_vacina_no_organismo
-
+#US15:
 - story: Informando ao usuário a quantidade de mortos por período
   steps:
   - user: |
@@ -309,6 +177,7 @@ stories:
   - active_loop: null
   - action: action_responder_quantidade_mortos_por_periodo
 
+#US16:
 - story: caminho para conversar sobre os cuidados em locais abertos
   steps:
   - user: |
@@ -316,13 +185,15 @@ stories:
     intent: cuidados_em_locais_abertos
   - action: utter_cuidados_em_locais_abertos
 
+#US17:
 - story: caminho para conversar sobre os cuidados em locais fechados
   steps:
   - user: |
       Quais cuidados devo ter em locais fechados?
     intent: cuidados_em_locais_fechados 
   - action: utter_cuidados_em_locais_fechados
-  
+
+#US18:
 - story: caminho para conversar sobre a diferença do risco de contaminação  entre locais abertos e fechados
   steps:
   - user: |
@@ -330,7 +201,152 @@ stories:
     intent: diferenca_locais_abertos_e_fechados 
   - action: utter_diferenca_locais_abertos_e_fechados
 
-#US40
+#US19:
+- story: caminho para conversar sobre os cuidados em restaurantes
+  steps:
+  - user: |
+      Cuidados em  restaurantes
+    intent: cuidados_em_restaurantes
+  - action: utter_cuidados_em_restaurantes
+
+#US20:
+- story: caminho para conversar sobre os cuidados na academia
+  steps:
+  - user: |
+      Cuidados em academia
+    intent: cuidados_na_academia
+  - action: utter_cuidados_na_academia
+
+#US21:
+- story: caminho para conversar sobre os cuidados no dentista
+  steps:
+  - user: |
+      Cuidados no dentista
+    intent: cuidados_no_dentista
+  - action: utter_cuidados_no_dentista
+
+#US22:
+- story: Como se portar no Cabeleiro/barbearia
+  steps:
+  - user: |
+      Quais cuidados devo ter no cabeleireiro para me proteger do COVID-19?
+    intent: barbearia_cabelereiro
+  - action: utter_cabelos
+
+#US23:
+- story: Como se portar no comércio em geral
+  steps:
+  - user: |
+      Quais cuidados devo ter no comércio em geral para me proteger do COVID-19?
+    intent: cuidados_comercio_geral
+  - action: utter_cuidados_comercio_geral
+
+#US24:
+- story: cuidados no escritorio ou trabalho
+  steps:
+  - user: |
+      Vou ao escritório
+    intent: cuidados_escritorio
+  - action: utter_cuidados_escritorio
+
+#US25:
+#-----
+
+#US26:
+- story: cuidados no transporte público
+  steps:
+  - user: |
+      Como me cuidar no transporte público
+    intent: cuidados_transporte_publico
+  - action: utter_cuidados_transporte_publico
+
+#US27:
+#-----
+
+#US28:
+- story: exercicios em casa
+  steps:
+  - user: |
+      Como posso me exercitar em casa
+    intent: exercicios_em_casa
+  - action: utter_exercicios_em_casa
+
+#US29:
+- story: saude mental
+  steps:
+  - user: |
+      Como posso manter a saúde mental
+    intent: saude_mental
+  - action: utter_saude_mental
+
+#US30:
+- story: formulario de localizacao do usuario para informar vacinados
+  steps:
+  - user: |
+      Quantas doses de vacina foram distribuídas no meu estado
+    intent: vacinados_no_meu_estado
+  - action: localizacao_uf_apenas_form
+  - action: action_responder_vacinados_em_um_estado
+
+#US31:
+- story: Informando ao usuário a quantidade de vacindaos por período
+  steps:
+  - user: |
+      Desejo saber a quantidade de vacinados contra o covid-19 por período
+    intent: quantidade_de_vacinados_por_periodo
+  - action: cadastro_data_form
+  - action: action_responder_quantidade_vacinados_por_periodo
+
+#US32: US não feita
+
+#US33:
+- story: quando pode vacinar
+  steps:
+  - user: |
+      Quando eu posso me vacinar?
+    intent: quando_vacinar
+  - action: utter_quando_vacinar
+
+#US34:
+- story: seguranca das vacinas
+  steps:
+  - user: |
+      A vacina é segura
+    intent: vacina_eh_segura
+  - action: utter_vacina_eh_segura 
+
+- story: seguranca das vacinas
+  steps:
+  - user: |
+      Posso tomar a vacina sem medo?
+    intent: vacina_eh_segura
+  - action: utter_vacina_eh_segura
+
+#US35:
+- story: preciso me vacinar
+  steps:
+  - user: |
+      é necessario me vacinar?
+    intent: preciso_me_vacinar
+  - action: utter_preciso_me_vacinar
+
+#US36:
+- story: vacina no organismo
+  steps:
+  - user: |
+      como cada vacina se comporta?
+    intent: vacina_no_organismo
+  - action: utter_vacina_no_organismo
+
+#US37:
+- story: segunda dose da vacina
+  steps:
+  - user: |
+      Quantas doses preciso tomar?
+    intent: doses_vacina
+  - action: utter_doses_vacina
+
+#US38:
 - story: eficacia das vacinas aprovadas pela ANVISA
   steps:
   - user: |
@@ -366,3 +382,50 @@ stories:
     intent: eficacia_astrazeneca
   - action: utter_eficacia_astrazeneca
 
+#US39:
+- story: suspeita covid
+  steps:
+  - user: |
+      suspeita covid
+    intent: oque_fazer_suspeita
+  - action: utter_oque_fazer_suspeita
+
+#US40:
+- story: onde me testar
+  steps:
+  - user: |
+      Onde me testar?
+    intent: local_teste
+  - action: utter_local_teste
+
+#US41:
+- story: qual_exame_fazer
+  steps:
+  - user: |
+      Qual tipo de teste eu faço?
+    intent: qual_exame_fazer
+  - action: utter_qual_exame_fazer 
+
+#US42:
+#-----
+#US43:
+#-----
+
+#US44:
+- story: formulario de cadastro de próxima dose da vacina do covid-19
+  steps:
+  - user: |
+      Cadastrar a data da próxima dose da vacina
+    intent: cadastrar_data_proxima_dose_vacina
+  - action: cadastro_data_form
+  - active_loop: cadastro_data_form
+  - active_loop: null
+  - action: action_cadastrar_lembrete_proxima_dose
+
+#US's não feitas:
+#US45
+#US46
+#US47
+#US48
+#US49
+#US50

@@ -12,6 +12,7 @@ from typing import Any, Text, Dict, List
 class ResponderQuantidadeVacinadosPorPeriodoAction(Action):
     def __init__(self) -> None:
         self.url = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv'
+
         return
 
     def name(self) -> Text:
@@ -59,3 +60,4 @@ class ResponderQuantidadeVacinadosPorPeriodoAction(Action):
         dispatcher.utter_message(text=mensagem)
 
         return [AllSlotsReset()]
+

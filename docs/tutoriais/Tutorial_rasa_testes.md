@@ -16,6 +16,10 @@ Neste `test_stories.yml` crie sua história e coloque a intenção do usuário `
         intent: start
       - action: utter_cumprimentar
 
+### Primeiro antes de tudo faça
+
+    make train
+
 ### Posteriormente faça o teste
 
 Usando o comando abaixo.

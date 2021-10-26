@@ -23,9 +23,8 @@ stories:
 #US03
 #US04
 #US05
-#US06
 
-#US07:
+#US06:
 - story: variantes de covid
   steps:
   - user: |
@@ -89,7 +88,7 @@ stories:
     intent: mais_delta
   - action: utter_delta_mais
 
-#US08:
+#US07:
 - story: caminho para conversar sobre transmissão
   steps:
   - user: |
@@ -97,7 +96,7 @@ stories:
     intent: formas_de_transmissao
   - action: utter_formas_de_transmissao
 
-#US09:
+#US08:
 - story: caminho para para saber mais sobre o virus
   steps:
   - user: |
@@ -105,7 +104,7 @@ stories:
     intent: mais_sobre_o_virus
   - action: utter_mais_sobre_o_virus
 
-#US10:
+#US09:
 - story: forma gerais de prevencao
   steps:
   - user: |
@@ -113,7 +112,7 @@ stories:
     intent: formas_gerais_de_prevencao
   - action: utter_formas_gerais_de_prevencao
 
-#US11:
+#US10:
 - story: caminho possivel para saber sobre os tipos de máscaras
   steps:
   - user: |
@@ -125,7 +124,7 @@ stories:
     intent: tipos_de_mascaras
   - action: utter_tipos_de_mascaras
 
-#US12:
+#US11:
 - story: caminho para saber sobre como usar a máscara corretamente
   steps:
   - user: |
@@ -137,7 +136,7 @@ stories:
     intent: uso_correto_mascara
   - action: utter_uso_correto_mascara
 
-#US13:
+#US12:
 - story: sintomas
   steps:
   - user: |
@@ -145,7 +144,7 @@ stories:
     intent: sintomas
   - action: utter_sintomas
 
-#US14/US16:
+#US13:
 - story:  Informando ao usuário a quantidade de infectados e mortos por cidade
   steps:
   - user: |
@@ -156,7 +155,7 @@ stories:
   - active_loop: null
   - action: action_dados_covid_baseados_em_localizacao
 
-#US15:
+#US14:
 - story: Informando ao usuário a quantidade de infectados por período
   steps:
   - user: |
@@ -167,7 +166,7 @@ stories:
   - active_loop: null
   - action: action_responder_quantidade_infectados_por_periodo
 
-#US17:
+#US15:
 - story: Informando ao usuário a quantidade de mortos por período
   steps:
   - user: |
@@ -178,7 +177,7 @@ stories:
   - active_loop: null
   - action: action_responder_quantidade_mortos_por_periodo
 
-#US18:
+#US16:
 - story: caminho para conversar sobre os cuidados em locais abertos
   steps:
   - user: |
@@ -186,7 +185,7 @@ stories:
     intent: cuidados_em_locais_abertos
   - action: utter_cuidados_em_locais_abertos
 
-#US19:
+#US17:
 - story: caminho para conversar sobre os cuidados em locais fechados
   steps:
   - user: |
@@ -194,7 +193,7 @@ stories:
     intent: cuidados_em_locais_fechados 
   - action: utter_cuidados_em_locais_fechados
 
-#US20:
+#US18:
 - story: caminho para conversar sobre a diferença do risco de contaminação  entre locais abertos e fechados
   steps:
   - user: |
@@ -202,7 +201,7 @@ stories:
     intent: diferenca_locais_abertos_e_fechados 
   - action: utter_diferenca_locais_abertos_e_fechados
 
-#US21:
+#US19:
 - story: caminho para conversar sobre os cuidados em restaurantes
   steps:
   - user: |
@@ -210,7 +209,7 @@ stories:
     intent: cuidados_em_restaurantes
   - action: utter_cuidados_em_restaurantes
 
-#US22:
+#US20:
 - story: caminho para conversar sobre os cuidados na academia
   steps:
   - user: |
@@ -218,7 +217,7 @@ stories:
     intent: cuidados_na_academia
   - action: utter_cuidados_na_academia
 
-#US23:
+#US21:
 - story: caminho para conversar sobre os cuidados no dentista
   steps:
   - user: |
@@ -226,7 +225,7 @@ stories:
     intent: cuidados_no_dentista
   - action: utter_cuidados_no_dentista
 
-#US24:
+#US22:
 - story: Como se portar no Cabeleiro/barbearia
   steps:
   - user: |
@@ -234,7 +233,7 @@ stories:
     intent: barbearia_cabelereiro
   - action: utter_cabelos
 
-#US25:
+#US23:
 - story: Como se portar no comércio em geral
   steps:
   - user: |
@@ -242,7 +241,7 @@ stories:
     intent: cuidados_comercio_geral
   - action: utter_cuidados_comercio_geral
 
-#US26:
+#US24:
 - story: cuidados no escritorio ou trabalho
   steps:
   - user: |
@@ -250,10 +249,10 @@ stories:
     intent: cuidados_escritorio
   - action: utter_cuidados_escritorio
 
-#US27:
+#US25:
 
 
-#US28:
+#US26:
 - story: cuidados no transporte público
   steps:
   - user: |
@@ -261,10 +260,10 @@ stories:
     intent: cuidados_transporte_publico
   - action: utter_cuidados_transporte_publico
 
-#US29:
+#US27:
 
 
-#US30:
+#US28:
 - story: exercicios em casa
   steps:
   - user: |
@@ -272,7 +271,7 @@ stories:
     intent: exercicios_em_casa
   - action: utter_exercicios_em_casa
 
-#US31:
+#US29:
 - story: saude mental
   steps:
   - user: |
@@ -280,7 +279,7 @@ stories:
     intent: saude_mental
   - action: utter_saude_mental
 
-#US32:
+#US30:
 - story: formulario de localizacao do usuario para informar vacinados
   steps:
   - user: |
@@ -289,7 +288,7 @@ stories:
   - action: localizacao_uf_apenas_form
   - action: action_responder_vacinados_em_um_estado
 
-#US33:
+#US31:
 - story: Informando ao usuário a quantidade de vacindaos por período
   steps:
   - user: |
@@ -298,9 +297,9 @@ stories:
   - action: cadastro_data_form
   - action: action_responder_quantidade_vacinados_por_periodo
 
-#US34: US não feita
+#US32: US não feita
 
-#US35:
+#US33:
 - story: quando pode vacinar
   steps:
   - user: |
@@ -308,7 +307,7 @@ stories:
     intent: quando_vacinar
   - action: utter_quando_vacinar
 
-#US36:
+#US34:
 - story: seguranca das vacinas
   steps:
   - user: |
@@ -323,7 +322,7 @@ stories:
     intent: vacina_eh_segura
   - action: utter_vacina_eh_segura
 
-#US37:
+#US35:
 - story: preciso me vacinar
   steps:
   - user: |
@@ -331,7 +330,7 @@ stories:
     intent: preciso_me_vacinar
   - action: utter_preciso_me_vacinar
 
-#US38:
+#US36:
 - story: vacina no organismo
   steps:
   - user: |
@@ -339,7 +338,7 @@ stories:
     intent: vacina_no_organismo
   - action: utter_vacina_no_organismo
 
-#US39:
+#US37:
 - story: segunda dose da vacina
   steps:
   - user: |
@@ -347,7 +346,7 @@ stories:
     intent: doses_vacina
   - action: utter_doses_vacina
 
-#US40:
+#US38:
 - story: eficacia das vacinas aprovadas pela ANVISA
   steps:
   - user: |
@@ -383,7 +382,7 @@ stories:
     intent: eficacia_astrazeneca
   - action: utter_eficacia_astrazeneca
 
-#US41:
+#US39:
 - story: suspeita covid
   steps:
   - user: |
@@ -391,7 +390,7 @@ stories:
     intent: oque_fazer_suspeita
   - action: utter_oque_fazer_suspeita
 
-#US42:
+#US40:
 - story: onde me testar
   steps:
   - user: |
@@ -399,7 +398,7 @@ stories:
     intent: local_teste
   - action: utter_local_teste
 
-#US43:
+#US41:
 - story: qual_exame_fazer
   steps:
   - user: |
@@ -407,14 +406,12 @@ stories:
     intent: qual_exame_fazer
   - action: utter_qual_exame_fazer 
 
+#US42:
+#-----
+#US43:
+#-----
 
 #US44:
-
-
-#US45:
-
-
-#US46:
 - story: formulario de cadastro de próxima dose da vacina do covid-19
   steps:
   - user: |
@@ -425,12 +422,10 @@ stories:
   - active_loop: null
   - action: action_cadastrar_lembrete_proxima_dose
 
-#US47: Faz parte da US46
-
 #US's não feitas:
+#US45
+#US46
+#US47
 #US48
 #US49
 #US50
-#US51
-#US52
-#US53

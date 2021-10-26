@@ -527,6 +527,7 @@ nlu:
     - como a Pfizer age no organismo?
     - como acontece a imunizaçao pela Coronavac?
     - como a vacina Astrazeneca se comporta no organismo?
+    - Vacina no organismo
 
 - intent: quando_vacinar
   examples: |
@@ -659,6 +660,8 @@ nlu:
     - Qual a quantidade de vacinados por período?
     - Vacinados por período
     - Total de vacinados por período
+    - Pode me dizer a quantidade de vacinados por periodo
+    - qual a quantidade de vacinados por periodo
 
 - intent: cadastrar_data_proxima_dose_vacina
   examples: |
@@ -667,6 +670,9 @@ nlu:
     - Registrar a data da próxima dose da vacina
     - Registrar a data da segunda dose da vacina
     - Cadastrar próxima dose da vacina
+    - Quero cadastra a data da minha proxima dose da vacina
+    - quero cadastrar a proxima dose da vacina
+    - cadastro da proxima dose
 
 - intent: stop
   examples: |

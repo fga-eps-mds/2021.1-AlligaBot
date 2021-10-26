@@ -22,9 +22,6 @@ class ResponderVacinadosEmUmEstadoActionTest:
         self.tracker = FakeTracker()
         self.domain = FakeDomain()
 
-
-       
-
   
     def test_name(self, mocker):
         self.setup(mocker)

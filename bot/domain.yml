@@ -1,4 +1,4 @@
-version: "2.0"
+﻿version: "2.0"
 
 intents:
   - start
@@ -64,6 +64,7 @@ intents:
   - quantidade_de_infectados_por_periodo
   - quantidade_de_mortos_por_periodo
   - quantidade_de_vacinados_por_periodo
+  - stop
 
 forms:
   localizacao_form:
@@ -749,6 +750,8 @@ responses:
   utter_alligabot:
     - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021.1-AlligaBot"
 
+  utter_adeus:
+    - text: "Chegou o dia em que vou me despedir de uma pessoa tão especial quanto você 😌. Eu não imaginava que iria ficar tão sentida como eu estou 😪, mas eu quero que você saiba, que mesmo de longe, eu vou estar sempre por perto 😊."
 
 session_config:
   session_expiration_time: 60

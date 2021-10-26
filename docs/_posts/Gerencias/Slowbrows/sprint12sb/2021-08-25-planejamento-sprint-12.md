@@ -1,6 +1,6 @@
 ﻿---
-layout: page_slowbros
-tag: slowbros
+layout: page_slowbrows
+tag: slowbrows
 ---
 Para essa sprint planejamos revisar, testar e humanizar todas as US.
 

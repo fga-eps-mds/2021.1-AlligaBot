@@ -1,8 +1,7 @@
 ﻿---
-layout: page_slowbros
-tag: slowbros
+layout: page_slowbrows
+tag: slowbrows
 ---
-
 Apesar da semana universitária, na sprint 10 teremos algumas reuniões para dividir entre todos os grupos as US restantes.  Após a divisão iniciaremos então os pareamentos e produções.
 
 

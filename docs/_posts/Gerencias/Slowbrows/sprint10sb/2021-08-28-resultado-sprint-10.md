@@ -1,9 +1,7 @@
-﻿
----
+﻿---
 layout: page_slowbrows
 tag: slowbrows
 ---
-
 Para a decima sprint foram realizadas reuniões com os integrantes do grupo Slowbros para discutimos como será feito o pareamento, após decisão iniciamos a implementação das US. 
 
 ## Histórico de Versões

@@ -1,6 +1,6 @@
 ﻿---
-layout: page_slowbros
-tag: slowbros
+layout: page_slowbrows
+tag: slowbrows
 ---
 Na sprint 11 foram realizadas algumas reuniões, tanto gerais como do grupo Slowbros. Foi discutido também a viabilidade de implementação de algumas US e finalizamos as atribuições das mesmas.
 

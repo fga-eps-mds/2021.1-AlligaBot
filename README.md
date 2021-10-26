@@ -61,8 +61,8 @@ separadamente.
 ### ✔️ Instalando e executando
 Baixe o repositório e entre nele
 
-    git clone https://github.com/fga-eps-mds/2021-1-Bot.git
-    cd 2021-1-Bot
+    git clone https://github.com/fga-eps-mds/2021.1-AlligaBot.git
+    cd 2021.1-AlligaBot
 
 Crie um arquivo para as variáveis ambiente e o preencha com as
 informações que faltam.

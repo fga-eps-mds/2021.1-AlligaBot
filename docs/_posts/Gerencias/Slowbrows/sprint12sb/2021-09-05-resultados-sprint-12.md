@@ -1,7 +1,8 @@
 ﻿---
-layout: page_slowbros
-tag: slowbros
+layout: page_slowbrows
+tag: slowbrows
 ---
+
  Apesar de que algumas atribuições não foram realizadas, nessa sprint 12 conseguimos humanizar e testar a maioria das US.
 
 ## Histórico de Versões

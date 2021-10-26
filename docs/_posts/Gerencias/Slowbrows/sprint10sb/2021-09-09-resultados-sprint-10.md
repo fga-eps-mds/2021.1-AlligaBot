@@ -1,5 +1,4 @@
-﻿
----
+﻿---
 layout: page_slowbrows
 tag: slowbrows
 ---

@@ -1,18 +1,16 @@
 ﻿---
-layout: page_slowbros
-tag: slowbros
+layout: page_slowbrows
+tag: slowbrows
 ---
 
-
 A sprint 9 foi mais utilizada para estudo do rasa e preparação do ambiente de desenvolvimento, para então todos começarem a implementar as User Stories na próxima sprint.
+
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 13/10/2021 |    0.1   | resultado Sprint 9 | [Henrique Hida](https://github.com/HenriqueHida)|
 | 25/10/2021 |    0.2   | Adição de imagens | [Henrique Hida](https://github.com/HenriqueHida)|
-
-
 
 ## Objetivos
 

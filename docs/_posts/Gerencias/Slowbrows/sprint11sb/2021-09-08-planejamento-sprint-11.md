@@ -1,7 +1,8 @@
 ﻿---
-layout: page_slowbros
-tag: slowbros
+layout: page_slowbrows
+tag: slowbrows
 ---
+
 Para essa sprint devemos finalizar a distribuição das US restantes, além de começar a organizar e atribuir o que será necessário para a release 2.
 
 ## Histórico de Versões

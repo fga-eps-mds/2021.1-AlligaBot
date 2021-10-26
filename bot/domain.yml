@@ -642,7 +642,7 @@ responses:
   
   utter_quando_vacinar:
     - text: |
-      Boa curiosidade...Depois de algumas pesquisas, pude concluir que a condição com relação a quem pode tomar a vacina é aferida de acordo com a idade da pessoa. Dessa forma, há divergências de idade para vacinação para os diferentes municípios, atualmente a idade média atual são para pessoas com idade mínima de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade. 😉
+        Boa curiosidade...Depois de algumas pesquisas, pude concluir que a condição com relação a quem pode tomar a vacina é aferida de acordo com a idade da pessoa. Dessa forma, há divergências de idade para vacinação para os diferentes municípios, atualmente a idade média atual são para pessoas com idade mínima de 12 anos. Porém é recomendado que você se certifique da idade para vacinação em sua cidade. 😉
 
   utter_teste_positivo:
     - text: |
@@ -732,7 +732,7 @@ responses:
   
         Caso faça o teste...espero que dê negativo❌.
   
-  
+
         Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/
 
   utter_ask_cadastro_data_form_dia:

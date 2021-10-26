@@ -32,10 +32,9 @@ class ResponderQuantidadeMortosPorPeriodoActionTest:
         mocker.patch.object(self.tracker,"get_slot",return_value="23/12/1970")
 
         self.service.run(self.dispatcher,self.tracker,self.domain)
-        print(self.dispatcher.messages[0])
         assert self.dispatcher.messages[0]['text'].startswith('Não consegui encontrar nenhum registro para a data 23/12/1970-23/12/1970-23/12/1970 🥺. Lembre-se de informar valores válidos e somente o número do dia, do mês e do ano 😉')
 
 
-def test_ResponderQuantidadeVacinadosPorPeriodoAction(mocker):
+def test_ResponderQuantidadeMortosPorPeriodoAction(mocker):
     ResponderQuantidadeMortosPorPeriodoActionTest().test_bot(mocker)
     ResponderQuantidadeMortosPorPeriodoActionTest().test_name(mocker)

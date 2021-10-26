@@ -38,7 +38,6 @@ class ResponderSobreCovidActionTest:
         mocker.patch.object(self.tracker,"get_slot",return_value="nao-existe")
 
         self.service.run(self.dispatcher,self.tracker,self.domain)
-        print(self.dispatcher.messages[0])
         assert self.dispatcher.messages[0]['text'].startswith('Não consegui encontrar o estado NAO-EXISTE 🥺. Lembre-se de informar somente a sigla, exemplo: DF 😉')
 
 

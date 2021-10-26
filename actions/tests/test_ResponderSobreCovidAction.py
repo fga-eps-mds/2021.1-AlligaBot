@@ -5,20 +5,14 @@ from rasa_sdk.events import AllSlotsReset
 from actions.ResponderSobreCovidAction import ResponderSobreCovidAction
 
 
-
-
-
-
 class FakeDomain:
     def __init__(self):
         pass
 
 
 class FakeTracker:
-    def get_slot(self, slot):  
+    def get_slot(self, slot):
         pass
-
-
 
 
 class ResponderSobreCovidActionTest:
@@ -29,16 +23,18 @@ class ResponderSobreCovidActionTest:
         self.tracker = FakeTracker()
         self.domain = FakeDomain()
 
-    def test_name(self,mocker):
+    def test_name(self, mocker):
         self.setup(mocker)
         assert self.service.name() == 'action_dados_covid_baseados_em_localizacao'
 
-    def test_bot(self,mocker):
+    def test_bot(self, mocker):
         self.setup(mocker)
-        mocker.patch.object(self.tracker,"get_slot",return_value="nao-existe")
+        mocker.patch.object(self.tracker, "get_slot",
+                            return_value="nao-existe")
 
-        self.service.run(self.dispatcher,self.tracker,self.domain)
-        assert self.dispatcher.messages[0]['text'].startswith('Não consegui encontrar o estado NAO-EXISTE 🥺. Lembre-se de informar somente a sigla, exemplo: DF 😉')
+        self.service.run(self.dispatcher, self.tracker, self.domain)
+        assert self.dispatcher.messages[0]['text'].startswith(
+            'Não consegui encontrar o estado NAO-EXISTE 🥺. Lembre-se de informar somente a sigla, exemplo: DF 😉')
 
 
 def test_ResponderVacinadosEmUmEstadoAction(mocker):

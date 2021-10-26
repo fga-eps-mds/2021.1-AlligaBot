@@ -17,8 +17,8 @@ Essa Sprint é o primeiro passo do grupo e concerne principalmente a organizaç�
 
 | Issue |            Título            |        Responsáveis         | 
 |-------|:----------------------------:|-----------------------------|
-| [#10](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/10) | Definição de papéis | Todos os membros do grupo |
-| [#11](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/11) | Organizar o horário dos membros | Todos os membros do grupo |
+| [#10](https://github.com/fga-eps-mds/2021-1-Bot/issues/10) | Definição de papéis | Todos os membros do grupo |
+| [#11](https://github.com/fga-eps-mds/2021-1-Bot/issues/11) | Organizar o horário dos membros | Todos os membros do grupo |
 
 ## Membros do grupo
 

@@ -5,12 +5,12 @@ tag: capivaras
 
 A documentação da Sprint 2 foi concluída com sucesso.
 
-O [template de Pull Request](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/.github/pull_request_template.md) também foi criado 
+O [template de Pull Request](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/.github/pull_request_template.md) também foi criado 
 e servirá como template para os próximos PR em todo o repositório.
 
 As plataformas escolhidas foram Telegram e Facebook. Mais detalhes sobre a escolha estão na discussão da sessão de comentários da Issue.
 
-As dailys já tem um [template](https://github.com/fga-eps-mds/2021.1-AlligaBot/files/7010561/Daily.Squad.Capivara.xlsx) e a partir da próxima sprint o grupo planeja fazer as reuniões diárias
+As dailys já tem um [template](https://github.com/fga-eps-mds/2021-1-Bot/files/7010561/Daily.Squad.Capivara.xlsx) e a partir da próxima sprint o grupo planeja fazer as reuniões diárias
 de daily.
 
 Os protótipos de baixa fidelidade de todo o grupo foram feitos, exceto de um membro. A issue não foi fechada até que a tarefa seja completamente concluída.
@@ -33,14 +33,14 @@ A documentação da sprint 3 não foi concluída e irá como dívida para a pró
 
 | Issue |            Título            |         Status        | 
 |-------|:----------------------------:|-----------------------|
-| [#26](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/26) | Planejamento da Sprint 2 | _Concluído_ |
-| [#32](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/32) | Criar template de pull request | _Concluído_ |
-| [#46](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/46) | Escolha da plataforma | _Concluído_ |
-| [#50](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/50) | Template para as dailys | _Concluído_ |
-| [#31](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/31) | Criar protótipo de baixa fidelidade | _Parcialmente Concluído_ |
-| [#47](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/47) | Alteração na politica de Brach | _Concluído_ |
-| [#48](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/48) | Protótipo de Alta Fidelidade | _Concluído_ |
-| [#52](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/52) | Documentação da Sprint 3 | _Não Concluído_ |
+| [#26](https://github.com/fga-eps-mds/2021-1-Bot/issues/26) | Planejamento da Sprint 2 | _Concluído_ |
+| [#32](https://github.com/fga-eps-mds/2021-1-Bot/issues/32) | Criar template de pull request | _Concluído_ |
+| [#46](https://github.com/fga-eps-mds/2021-1-Bot/issues/46) | Escolha da plataforma | _Concluído_ |
+| [#50](https://github.com/fga-eps-mds/2021-1-Bot/issues/50) | Template para as dailys | _Concluído_ |
+| [#31](https://github.com/fga-eps-mds/2021-1-Bot/issues/31) | Criar protótipo de baixa fidelidade | _Parcialmente Concluído_ |
+| [#47](https://github.com/fga-eps-mds/2021-1-Bot/issues/47) | Alteração na politica de Brach | _Concluído_ |
+| [#48](https://github.com/fga-eps-mds/2021-1-Bot/issues/48) | Protótipo de Alta Fidelidade | _Concluído_ |
+| [#52](https://github.com/fga-eps-mds/2021-1-Bot/issues/52) | Documentação da Sprint 3 | _Não Concluído_ |
 
 ## Burndown
 

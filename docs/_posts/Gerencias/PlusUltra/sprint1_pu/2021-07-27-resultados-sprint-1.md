@@ -15,11 +15,11 @@ Os estudos foram efetuados com sucesso, focados na área dos papéis que foram e
 
 | Issue |            Título            |         Status        | 
 |-------|:----------------------------:|-----------------------|
-| [#14](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/14) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre documentação) | _Concluído_ |
-| [#15](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/15) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre requisitos e responsável por falar com o cliente para obteção dos requisitos do projeto) | _Parcialmente Concluído_ |
-| [#16](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/16) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre arquitetura) | _Concluído_|
-| [#17](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/17) | Sprint 1 - Tarefa de Pesquisa (Estudar e testar devops no contexto do projeto)  | _Concluído_ |
-| [#18](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/18) | Sprint 1 - Tarefa de Pesquisa (Pesquisar e testar linguagens/frameworks apropriadas para o desenvolvimento de um chatBot) | _Concluído_ |
+| [#14](https://github.com/fga-eps-mds/2021-1-Bot/issues/14) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre documentação) | _Concluído_ |
+| [#15](https://github.com/fga-eps-mds/2021-1-Bot/issues/15) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre requisitos e responsável por falar com o cliente para obteção dos requisitos do projeto) | _Parcialmente Concluído_ |
+| [#16](https://github.com/fga-eps-mds/2021-1-Bot/issues/16) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre arquitetura) | _Concluído_|
+| [#17](https://github.com/fga-eps-mds/2021-1-Bot/issues/17) | Sprint 1 - Tarefa de Pesquisa (Estudar e testar devops no contexto do projeto)  | _Concluído_ |
+| [#18](https://github.com/fga-eps-mds/2021-1-Bot/issues/18) | Sprint 1 - Tarefa de Pesquisa (Pesquisar e testar linguagens/frameworks apropriadas para o desenvolvimento de um chatBot) | _Concluído_ |
 
 *Como os títulos das issues não explicam os objetivos claramente, tais objetivos foram colocado entre parentêses.
 

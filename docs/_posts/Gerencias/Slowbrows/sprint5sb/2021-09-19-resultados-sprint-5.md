@@ -26,13 +26,13 @@ A Scrum Master [Amanda](https://github.com/AmandaNbr) também criou um servidor 
 
 | Issue |            Título            |        Status        | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#87](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/87) | Documento de visão | Parcialmente Concluído 
-| [#95](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/95) | Update documentação GHPages | Concluído 
-| [#96](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/96) | Reunião de todos Scrum Masters e Product Owners | Concluído 
-| [#101](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/101) | Criação do Discord | Concluído 
-| [#105](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/105) | Plano de gerenciamento de riscos |  Concluído 
-| [#106](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/106) | Código de conduta| Concluído 
-| [#113](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/113) | Mini Dojo| Concluído 
+| [#87](https://github.com/fga-eps-mds/2021-1-Bot/issues/87) | Documento de visão | Parcialmente Concluído 
+| [#95](https://github.com/fga-eps-mds/2021-1-Bot/issues/95) | Update documentação GHPages | Concluído 
+| [#96](https://github.com/fga-eps-mds/2021-1-Bot/issues/96) | Reunião de todos Scrum Masters e Product Owners | Concluído 
+| [#101](https://github.com/fga-eps-mds/2021-1-Bot/issues/101) | Criação do Discord | Concluído 
+| [#105](https://github.com/fga-eps-mds/2021-1-Bot/issues/105) | Plano de gerenciamento de riscos |  Concluído 
+| [#106](https://github.com/fga-eps-mds/2021-1-Bot/issues/106) | Código de conduta| Concluído 
+| [#113](https://github.com/fga-eps-mds/2021-1-Bot/issues/113) | Mini Dojo| Concluído 
 
 
 

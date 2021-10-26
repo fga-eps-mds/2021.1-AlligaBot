@@ -15,19 +15,19 @@ Foram arrumados e melhorados os pontos que foram destacados nos feedbacks da rel
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#213](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/213) | Reunião pre-planning da sprint 8 | _Concluído_ |
-| [#214](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/214) | Reunião geral sobre a release 2 | _Concluído_ |
-| [#216](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/216) | Web scraping | _Concluído_ |
-| [#217](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/217) | Arquivos csv com python nas actions | _Parcialmente Concluído_ |
-| [#218](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/218) | Adicionar documento de FAQ (perguntas mais frequentes) | _Concluído_ |
-| [#219](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/219) | Mudar o template de PR | _Concluído_ |
-| [#220](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/220) | Documentar sprints | _Concluído_ |
-| [#224](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/224) | Melhorar README | _Concluído_ |
-| [#228](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/228) | Update no doc. de arquitetura | _Concluído_ |
-| [#229](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/229) | Estruturar GitHub Pages com jekyll | _Parcialmente Concluído_ |
-| [#230](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/230) | Alteração do backlog | _Concluído_ |
-| [#233](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/233) | Guia para desenvolvimento e visualização local da documentação | _Parcialmente Concluído_ |
-| [#234](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/234) | Atualizar roadmap de devops para a sprint 8 | _Concluído_ |
+| [#213](https://github.com/fga-eps-mds/2021-1-Bot/issues/213) | Reunião pre-planning da sprint 8 | _Concluído_ |
+| [#214](https://github.com/fga-eps-mds/2021-1-Bot/issues/214) | Reunião geral sobre a release 2 | _Concluído_ |
+| [#216](https://github.com/fga-eps-mds/2021-1-Bot/issues/216) | Web scraping | _Concluído_ |
+| [#217](https://github.com/fga-eps-mds/2021-1-Bot/issues/217) | Arquivos csv com python nas actions | _Parcialmente Concluído_ |
+| [#218](https://github.com/fga-eps-mds/2021-1-Bot/issues/218) | Adicionar documento de FAQ (perguntas mais frequentes) | _Concluído_ |
+| [#219](https://github.com/fga-eps-mds/2021-1-Bot/issues/219) | Mudar o template de PR | _Concluído_ |
+| [#220](https://github.com/fga-eps-mds/2021-1-Bot/issues/220) | Documentar sprints | _Concluído_ |
+| [#224](https://github.com/fga-eps-mds/2021-1-Bot/issues/224) | Melhorar README | _Concluído_ |
+| [#228](https://github.com/fga-eps-mds/2021-1-Bot/issues/228) | Update no doc. de arquitetura | _Concluído_ |
+| [#229](https://github.com/fga-eps-mds/2021-1-Bot/issues/229) | Estruturar GitHub Pages com jekyll | _Parcialmente Concluído_ |
+| [#230](https://github.com/fga-eps-mds/2021-1-Bot/issues/230) | Alteração do backlog | _Concluído_ |
+| [#233](https://github.com/fga-eps-mds/2021-1-Bot/issues/233) | Guia para desenvolvimento e visualização local da documentação | _Parcialmente Concluído_ |
+| [#234](https://github.com/fga-eps-mds/2021-1-Bot/issues/234) | Atualizar roadmap de devops para a sprint 8 | _Concluído_ |
 
 ## Quadro de conhecimentos
 

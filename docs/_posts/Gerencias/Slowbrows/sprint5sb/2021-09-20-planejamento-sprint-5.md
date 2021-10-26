@@ -24,10 +24,10 @@ Para a Sprint 5 foram designadas diversas tarefas, como  a criação do código 
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#87](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/87) | Documento de visão | [Thais Rebouças](https://github.com/Thais-ra) e [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)
-| [#95](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/95) | Update documentação GHPages | [Lameque Fernandes](https://github.com/LamequeFernandes), [Victor Eduardo](https://github.com/victorear05) e [Amanda Nobre](https://github.com/AmandaNbr)
-| [#105](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/105) | Plano de gerenciamento de riscos |  [Amanda Nobre](https://github.com/AmandaNbr)
-| [#106](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/106) | Código de conduta| [Amanda Nobre](https://github.com/AmandaNbr)
+| [#87](https://github.com/fga-eps-mds/2021-1-Bot/issues/87) | Documento de visão | [Thais Rebouças](https://github.com/Thais-ra) e [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite)
+| [#95](https://github.com/fga-eps-mds/2021-1-Bot/issues/95) | Update documentação GHPages | [Lameque Fernandes](https://github.com/LamequeFernandes), [Victor Eduardo](https://github.com/victorear05) e [Amanda Nobre](https://github.com/AmandaNbr)
+| [#105](https://github.com/fga-eps-mds/2021-1-Bot/issues/105) | Plano de gerenciamento de riscos |  [Amanda Nobre](https://github.com/AmandaNbr)
+| [#106](https://github.com/fga-eps-mds/2021-1-Bot/issues/106) | Código de conduta| [Amanda Nobre](https://github.com/AmandaNbr)
 
 
 

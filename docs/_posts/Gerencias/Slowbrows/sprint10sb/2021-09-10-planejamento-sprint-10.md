@@ -24,7 +24,7 @@ Apesar da semana universitária, na sprint 10 teremos algumas reuniões para div
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#284](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/284) | Implementação da US 30 |  [Henrique Hida](https://github.com/HenriqueHida) e [Kayro César](https://github.com/kayrocesar)
+| [#284](https://github.com/fga-eps-mds/2021-1-Bot/issues/284) | Implementação da US 30 |  [Henrique Hida](https://github.com/HenriqueHida) e [Kayro César](https://github.com/kayrocesar)
 
 
 ## Papeis

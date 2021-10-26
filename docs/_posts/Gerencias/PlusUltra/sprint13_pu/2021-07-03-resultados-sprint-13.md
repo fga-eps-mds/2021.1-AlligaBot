@@ -15,7 +15,7 @@ tag: plusultra
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#ex](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues) | - | _Concluído_ |
+| [#ex](https://github.com/fga-eps-mds/2021-1-Bot/issues) | - | _Concluído_ |
 
 
 ## Quadro de conhecimentos

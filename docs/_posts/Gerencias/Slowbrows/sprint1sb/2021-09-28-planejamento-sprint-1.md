@@ -23,7 +23,7 @@ Após aprendermos qual será o objetivo da disciplina, devemos designar os cargo
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#23](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/23) | Sprint 1 - Preparação |
+| [#23](https://github.com/fga-eps-mds/2021-1-Bot/issues/23) | Sprint 1 - Preparação |
 
 ## Papeis
 

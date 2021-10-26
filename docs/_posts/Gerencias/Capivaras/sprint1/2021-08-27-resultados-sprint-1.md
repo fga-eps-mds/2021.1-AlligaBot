@@ -14,11 +14,11 @@ os trabalhos. Além disso, o template para documentação e issues foram criadas
 
 | Issue |            Título            |         Status        | 
 |-------|:----------------------------:|-----------------------|
-| [#21](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/21) | Estabelecer uma comunicação clara entre os grupos | _Parcialmente concluído_ |
-| [#12](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/12) | Estudo de tecnologias | _Não concluído_ |
-| [#13](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/13) | Primeiro contato com o cliente | _Concluído_ |
-| [#19](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/19) | Criar uma proposta de template para Issues | _Concluído_ |
-| [#20](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/20) | Criar uma proposta de template para a documentação | _Concluído_ |
+| [#21](https://github.com/fga-eps-mds/2021-1-Bot/issues/21) | Estabelecer uma comunicação clara entre os grupos | _Parcialmente concluído_ |
+| [#12](https://github.com/fga-eps-mds/2021-1-Bot/issues/12) | Estudo de tecnologias | _Não concluído_ |
+| [#13](https://github.com/fga-eps-mds/2021-1-Bot/issues/13) | Primeiro contato com o cliente | _Concluído_ |
+| [#19](https://github.com/fga-eps-mds/2021-1-Bot/issues/19) | Criar uma proposta de template para Issues | _Concluído_ |
+| [#20](https://github.com/fga-eps-mds/2021-1-Bot/issues/20) | Criar uma proposta de template para a documentação | _Concluído_ |
 
 ## Burndown
 

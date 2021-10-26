@@ -28,13 +28,13 @@ O integrante [Yudi](https://github.com/yudi-azvd) irá seguir os estudos e imple
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#40](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/40) | Concretização dos primeiros passos | Pedro Lucas |
-| [#41](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/41) | Avanço em noções da arquitetura do projeto | Victor Eduardo |
-| [#42](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/42) | Arquitetura inicial | Victor Eduardo |
-| [#43](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/43) | Update no repositório do projeto e documentação | Amanda Nobre|
-| [#44](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | Yudi Yamane |
-| [#45](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/45) | Avanço nas noções de tecnologistas e usos do Rasa | Erick Levy e Douglas Monteles|
-| [#46](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/46) | Escolha da plataforma | Victor Eduardo |
+| [#40](https://github.com/fga-eps-mds/2021-1-Bot/issues/40) | Concretização dos primeiros passos | Pedro Lucas |
+| [#41](https://github.com/fga-eps-mds/2021-1-Bot/issues/41) | Avanço em noções da arquitetura do projeto | Victor Eduardo |
+| [#42](https://github.com/fga-eps-mds/2021-1-Bot/issues/42) | Arquitetura inicial | Victor Eduardo |
+| [#43](https://github.com/fga-eps-mds/2021-1-Bot/issues/43) | Update no repositório do projeto e documentação | Amanda Nobre|
+| [#44](https://github.com/fga-eps-mds/2021-1-Bot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | Yudi Yamane |
+| [#45](https://github.com/fga-eps-mds/2021-1-Bot/issues/45) | Avanço nas noções de tecnologistas e usos do Rasa | Erick Levy e Douglas Monteles|
+| [#46](https://github.com/fga-eps-mds/2021-1-Bot/issues/46) | Escolha da plataforma | Victor Eduardo |
 
 ## Papeis
 

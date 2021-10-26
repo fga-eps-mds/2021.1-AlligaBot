@@ -25,22 +25,22 @@ Nessa sprint as últimas US foram divididas para serem implementadas enquanto es
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#296](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/272) | Documentar as sprints 10 e 11 | 2 | Amanda |
-| [#298](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/278) | Ajuste no ReadMe | 1 | Amanda |
-| [#303](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | 3 | Amanda, Douglas, Erick e Pedro |
-| [#304](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/304) | Implementação da US38 | 3 | Pedro e Victor |
-| [#306](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/306) | Implementação da US35 | 3 | Pedro e Victor |
-| [#308](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/308) | Implementação da US 34 | 8 | Amanda |
-| [#309](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/309) | Atualizando US14 a US17 | 2 | Douglas |
-| [#316](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/316) | Correção de erro de incompatibilidade | 1 | Pedro |
+| [#296](https://github.com/fga-eps-mds/2021-1-Bot/issues/272) | Documentar as sprints 10 e 11 | 2 | Amanda |
+| [#298](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Ajuste no ReadMe | 1 | Amanda |
+| [#303](https://github.com/fga-eps-mds/2021-1-Bot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | 3 | Amanda, Douglas, Erick e Pedro |
+| [#304](https://github.com/fga-eps-mds/2021-1-Bot/issues/304) | Implementação da US38 | 3 | Pedro e Victor |
+| [#306](https://github.com/fga-eps-mds/2021-1-Bot/issues/306) | Implementação da US35 | 3 | Pedro e Victor |
+| [#308](https://github.com/fga-eps-mds/2021-1-Bot/issues/308) | Implementação da US 34 | 8 | Amanda |
+| [#309](https://github.com/fga-eps-mds/2021-1-Bot/issues/309) | Atualizando US14 a US17 | 2 | Douglas |
+| [#316](https://github.com/fga-eps-mds/2021-1-Bot/issues/316) | Correção de erro de incompatibilidade | 1 | Pedro |
 
 ## Dívidas alocadas
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#274](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/274) | Explicação sobre as mudanças | 2 | Pedro |
-| [#276](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/276) | Implementação da US32 | 5 | Yudi |
-| [#278](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/278) | Implementação de US37 | 3 | Amanda e Pedro |
+| [#274](https://github.com/fga-eps-mds/2021-1-Bot/issues/274) | Explicação sobre as mudanças | 2 | Pedro |
+| [#276](https://github.com/fga-eps-mds/2021-1-Bot/issues/276) | Implementação da US32 | 5 | Yudi |
+| [#278](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Implementação de US37 | 3 | Amanda e Pedro |
 
 ## Papeis
 

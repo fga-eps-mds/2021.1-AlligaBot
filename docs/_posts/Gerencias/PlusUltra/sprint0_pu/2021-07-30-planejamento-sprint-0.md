@@ -24,13 +24,13 @@ A equipe dividiu tarefas de pesquisa para cada integrante, pensando nos possíve
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#1](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/1) | Sprint 0 - Tarefas de Pesquisa | Pedro Lucas |
-| [#2](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/2) | Sprint 0 - Tarefas de Pesquisa - Yudi Yamane- git e docker, devops | Yudi Azevedo |
-| [#3](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/3) | Sprint 0 - Tarefas de Pesquisa | Victor Eduardo |
-| [#5](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/5) | Definições de papeis  | Todos os membros da equipe |
-| [#6](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/6) | Sprint 0 - Tarefas de Pesquisa | Amanda Nobre |
-| [#7](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/7) | Sprint 0 - Tarefas de Pesquisa | Douglas Monteles |
-| [#8](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/8) | Sprint 0 - Tarefa de pesquisa - possíveis linguagens e framework que poderem ser usadas para criação do chat bot | Erick Levy |
+| [#1](https://github.com/fga-eps-mds/2021-1-Bot/issues/1) | Sprint 0 - Tarefas de Pesquisa | Pedro Lucas |
+| [#2](https://github.com/fga-eps-mds/2021-1-Bot/issues/2) | Sprint 0 - Tarefas de Pesquisa - Yudi Yamane- git e docker, devops | Yudi Azevedo |
+| [#3](https://github.com/fga-eps-mds/2021-1-Bot/issues/3) | Sprint 0 - Tarefas de Pesquisa | Victor Eduardo |
+| [#5](https://github.com/fga-eps-mds/2021-1-Bot/issues/5) | Definições de papeis  | Todos os membros da equipe |
+| [#6](https://github.com/fga-eps-mds/2021-1-Bot/issues/6) | Sprint 0 - Tarefas de Pesquisa | Amanda Nobre |
+| [#7](https://github.com/fga-eps-mds/2021-1-Bot/issues/7) | Sprint 0 - Tarefas de Pesquisa | Douglas Monteles |
+| [#8](https://github.com/fga-eps-mds/2021-1-Bot/issues/8) | Sprint 0 - Tarefa de pesquisa - possíveis linguagens e framework que poderem ser usadas para criação do chat bot | Erick Levy |
 
 
 ## Papeis

@@ -24,20 +24,20 @@ Foi dividido nessa sprint princialmente a implementação de 9 US, 3 por equipe,
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#270](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/270) | Implementação da US31 | - | Erick e Victor |
-| [#271](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/271) | Criação dos teste de rasa/arrumando bugs | - | Erick |
-| [#272](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/272) | Documentar as sprints 9 e 10 | 2 | Amanda |
-| [#274](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/274) | Explicação sobre as mudanças | 2 | Pedro |
-| [#276](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/276) | Implementação da US32 | 5 | Yudi |
-| [#278](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/278) | Implementação de US37 | 3 | Amanda e Pedro |
-| [#279](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/279) | Aplicar formatação correta para os arquivos da documentação | 3 | Yudi |
+| [#270](https://github.com/fga-eps-mds/2021-1-Bot/issues/270) | Implementação da US31 | - | Erick e Victor |
+| [#271](https://github.com/fga-eps-mds/2021-1-Bot/issues/271) | Criação dos teste de rasa/arrumando bugs | - | Erick |
+| [#272](https://github.com/fga-eps-mds/2021-1-Bot/issues/272) | Documentar as sprints 9 e 10 | 2 | Amanda |
+| [#274](https://github.com/fga-eps-mds/2021-1-Bot/issues/274) | Explicação sobre as mudanças | 2 | Pedro |
+| [#276](https://github.com/fga-eps-mds/2021-1-Bot/issues/276) | Implementação da US32 | 5 | Yudi |
+| [#278](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Implementação de US37 | 3 | Amanda e Pedro |
+| [#279](https://github.com/fga-eps-mds/2021-1-Bot/issues/279) | Aplicar formatação correta para os arquivos da documentação | 3 | Yudi |
 
 ## Dívidas alocadas
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#229](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/229) | Estruturar GitHub Pages com jekyll | 8 | Yudi |
-| [#242](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/242) | Adicionar GitHub Action para fazer build e deploy da documentação | 8 | Yudi |
+| [#229](https://github.com/fga-eps-mds/2021-1-Bot/issues/229) | Estruturar GitHub Pages com jekyll | 8 | Yudi |
+| [#242](https://github.com/fga-eps-mds/2021-1-Bot/issues/242) | Adicionar GitHub Action para fazer build e deploy da documentação | 8 | Yudi |
 
 ## Papeis
 

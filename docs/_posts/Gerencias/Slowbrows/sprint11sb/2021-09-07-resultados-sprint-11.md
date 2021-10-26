@@ -17,8 +17,8 @@ Na sprint 11 foram realizadas algumas reuniões, tanto gerais como do grupo Slow
 
 | Issue |            Título            |   Status| 
 |:-----:|:----------------------------:|:-------------------:|
-| [#315](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/315) | Documentar as sprints 9 e 10 | Concluído |
-| [#303](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | Concluído |
+| [#315](https://github.com/fga-eps-mds/2021-1-Bot/issues/315) | Documentar as sprints 9 e 10 | Concluído |
+| [#303](https://github.com/fga-eps-mds/2021-1-Bot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | Concluído |
 
 ## Burndown
 ![image](https://user-images.githubusercontent.com/78568172/138782281-8e82c332-0712-4141-bb43-e32282cd9462.png)

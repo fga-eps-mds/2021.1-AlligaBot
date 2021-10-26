@@ -16,17 +16,17 @@ A sprint 11 foi boa, apesar de algumas dívidas as US que não precisam de API/C
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#274](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/274) | Explicação sobre as mudanças | _Concluído_ |
-| [#276](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/276) | Implementação da US32 | _Concluído_ |
-| [#278](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/278) | Implementação de US37 | _Concluído_ |
-| [#296](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/272) | Documentar as sprints 10 e 11 | _Concluído_ |
-| [#298](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/278) | Ajuste no ReadMe | _Concluído_ |
-| [#303](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | _Concluído_ |
-| [#304](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/304) | Implementação da US38 | _Concluído_ |
-| [#306](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/306) | Implementação da US35 | _Concluído_ |
-| [#308](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/308) | Implementação da US 34 | _Parcialmente Concluído_ |
-| [#309](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/309) | Atualizando US14 a US17 | _Concluído_ |
-| [#316](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/316) | Correção de erro de incompatibilidade | _Parcialmente Concluído_ |
+| [#274](https://github.com/fga-eps-mds/2021-1-Bot/issues/274) | Explicação sobre as mudanças | _Concluído_ |
+| [#276](https://github.com/fga-eps-mds/2021-1-Bot/issues/276) | Implementação da US32 | _Concluído_ |
+| [#278](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Implementação de US37 | _Concluído_ |
+| [#296](https://github.com/fga-eps-mds/2021-1-Bot/issues/272) | Documentar as sprints 10 e 11 | _Concluído_ |
+| [#298](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Ajuste no ReadMe | _Concluído_ |
+| [#303](https://github.com/fga-eps-mds/2021-1-Bot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | _Concluído_ |
+| [#304](https://github.com/fga-eps-mds/2021-1-Bot/issues/304) | Implementação da US38 | _Concluído_ |
+| [#306](https://github.com/fga-eps-mds/2021-1-Bot/issues/306) | Implementação da US35 | _Concluído_ |
+| [#308](https://github.com/fga-eps-mds/2021-1-Bot/issues/308) | Implementação da US 34 | _Parcialmente Concluído_ |
+| [#309](https://github.com/fga-eps-mds/2021-1-Bot/issues/309) | Atualizando US14 a US17 | _Concluído_ |
+| [#316](https://github.com/fga-eps-mds/2021-1-Bot/issues/316) | Correção de erro de incompatibilidade | _Parcialmente Concluído_ |
 
 ## Quadro de conhecimentos
 

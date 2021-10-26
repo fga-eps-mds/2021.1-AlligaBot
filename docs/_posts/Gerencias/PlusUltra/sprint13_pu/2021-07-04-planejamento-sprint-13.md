@@ -23,19 +23,19 @@ Nessa sprint o foco é terminar o que ficou como dívida, fazer os roteiros, gra
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#362](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/362) | Edição do Vídeo Geral | 5 | Victor |
-| [#363](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/363) | Edição vídeo do Plus-Ultra | 5 | Victor |
-| [#364](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/325) | Comentar e organizar o arquivo test_stories | 3 | Victor |
-| [#368](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/368) | Documentação sprints 12 e 13 | 2 | Amanda |
+| [#362](https://github.com/fga-eps-mds/2021-1-Bot/issues/362) | Edição do Vídeo Geral | 5 | Victor |
+| [#363](https://github.com/fga-eps-mds/2021-1-Bot/issues/363) | Edição vídeo do Plus-Ultra | 5 | Victor |
+| [#364](https://github.com/fga-eps-mds/2021-1-Bot/issues/325) | Comentar e organizar o arquivo test_stories | 3 | Victor |
+| [#368](https://github.com/fga-eps-mds/2021-1-Bot/issues/368) | Documentação sprints 12 e 13 | 2 | Amanda |
 
 ## Dívidas alocadas
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#321](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/321) | Criar pipeline de CI/CD | 8 | Yudi |
-| [#323](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/323) | Implementação das USs 45 & 46 | 5 | Douglas |
-| [#338](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/338) | Teste unitarios e de integração | 3 | Douglas, Erick e Yudi |
-| [#348](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/348) | Implementação do US 33 | 3 | Douglas |
+| [#321](https://github.com/fga-eps-mds/2021-1-Bot/issues/321) | Criar pipeline de CI/CD | 8 | Yudi |
+| [#323](https://github.com/fga-eps-mds/2021-1-Bot/issues/323) | Implementação das USs 45 & 46 | 5 | Douglas |
+| [#338](https://github.com/fga-eps-mds/2021-1-Bot/issues/338) | Teste unitarios e de integração | 3 | Douglas, Erick e Yudi |
+| [#348](https://github.com/fga-eps-mds/2021-1-Bot/issues/348) | Implementação do US 33 | 3 | Douglas |
 
 ## Papeis
 

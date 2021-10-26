@@ -24,31 +24,31 @@ Para o planejamento dessa sprint foram feitas 3 reuniões principais: uma reuni�
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#95](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/95) | Estruturar, fazer update das politicas e de toda documentação já realizada no GHPages | - | Amanda Nobre |
-| [#96](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/96) | Reunião dos Scrum Masters e Product Owners | - | Amanda, Lucas e Yudi |
-| [#98](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/98) | Melhorar "README.md" do projeto | 3 | Yudi Yamane |
-| [#99](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/99) | Escolher um padrão de estilo de código | 5 | Yudi Yamane |
-| [#100](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | 8 | Yudi Yamane |
-| [#101](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/101) | Criação do discord do projeto de ChatBot | 3 | Amanda Nobre |
-| [#102](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/102) | Documentação das sprints 4 e 5 | 5 | Amanda Nobre |
-| [#103](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/103) | Canvas | 5 | Pedro Lucas |
-| [#104](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/104) | Reunião para definir as US | 8 | Pedro Lucas |
-| [#105](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/105) | Plano de gerenciamento de riscos | 5 | Amanda Nobre |
-| [#106](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/106) | Código de conduta | 3 | Amanda Nobre |
-| [#109](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/109) | Adição de .gitignore | - | Yudi Yamane |
-| [#113](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/113) | Reunião com os tecnologistas Mini Dojo | - | Erick Levy |
-| [#114](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/114) | Disponibilizar o tutorial Rasa & Telegram aos demais tecnologistas | - | Douglas Monteles |
-| [#118](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/118) | Iniciando a conversa sobre covid com o bot | - | Erick Levy |
-| [#124](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/124) | Atualizando arquivos para o funcionamento do bot | - | Erick Levy |
-| [#128](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/128) | Preparando o bot para o US02 | - | Douglas Monteles |
-| [#130](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/130) | Corrigir guia de instalação no README e outros erros | 2 | Yudi Yamane |
+| [#95](https://github.com/fga-eps-mds/2021-1-Bot/issues/95) | Estruturar, fazer update das politicas e de toda documentação já realizada no GHPages | - | Amanda Nobre |
+| [#96](https://github.com/fga-eps-mds/2021-1-Bot/issues/96) | Reunião dos Scrum Masters e Product Owners | - | Amanda, Lucas e Yudi |
+| [#98](https://github.com/fga-eps-mds/2021-1-Bot/issues/98) | Melhorar "README.md" do projeto | 3 | Yudi Yamane |
+| [#99](https://github.com/fga-eps-mds/2021-1-Bot/issues/99) | Escolher um padrão de estilo de código | 5 | Yudi Yamane |
+| [#100](https://github.com/fga-eps-mds/2021-1-Bot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | 8 | Yudi Yamane |
+| [#101](https://github.com/fga-eps-mds/2021-1-Bot/issues/101) | Criação do discord do projeto de ChatBot | 3 | Amanda Nobre |
+| [#102](https://github.com/fga-eps-mds/2021-1-Bot/issues/102) | Documentação das sprints 4 e 5 | 5 | Amanda Nobre |
+| [#103](https://github.com/fga-eps-mds/2021-1-Bot/issues/103) | Canvas | 5 | Pedro Lucas |
+| [#104](https://github.com/fga-eps-mds/2021-1-Bot/issues/104) | Reunião para definir as US | 8 | Pedro Lucas |
+| [#105](https://github.com/fga-eps-mds/2021-1-Bot/issues/105) | Plano de gerenciamento de riscos | 5 | Amanda Nobre |
+| [#106](https://github.com/fga-eps-mds/2021-1-Bot/issues/106) | Código de conduta | 3 | Amanda Nobre |
+| [#109](https://github.com/fga-eps-mds/2021-1-Bot/issues/109) | Adição de .gitignore | - | Yudi Yamane |
+| [#113](https://github.com/fga-eps-mds/2021-1-Bot/issues/113) | Reunião com os tecnologistas Mini Dojo | - | Erick Levy |
+| [#114](https://github.com/fga-eps-mds/2021-1-Bot/issues/114) | Disponibilizar o tutorial Rasa & Telegram aos demais tecnologistas | - | Douglas Monteles |
+| [#118](https://github.com/fga-eps-mds/2021-1-Bot/issues/118) | Iniciando a conversa sobre covid com o bot | - | Erick Levy |
+| [#124](https://github.com/fga-eps-mds/2021-1-Bot/issues/124) | Atualizando arquivos para o funcionamento do bot | - | Erick Levy |
+| [#128](https://github.com/fga-eps-mds/2021-1-Bot/issues/128) | Preparando o bot para o US02 | - | Douglas Monteles |
+| [#130](https://github.com/fga-eps-mds/2021-1-Bot/issues/130) | Corrigir guia de instalação no README e outros erros | 2 | Yudi Yamane |
 
 ## Dívidas alocadas
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#44](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | 8 | Yudi Yamane |
-| [#57](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/57) | Estruturação do documento de arquitetura | 8 | Victor Eduardo |
+| [#44](https://github.com/fga-eps-mds/2021-1-Bot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | 8 | Yudi Yamane |
+| [#57](https://github.com/fga-eps-mds/2021-1-Bot/issues/57) | Estruturação do documento de arquitetura | 8 | Victor Eduardo |
 
 ## Papeis
 

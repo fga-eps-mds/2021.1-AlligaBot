@@ -16,10 +16,10 @@ No final dessa sprint conseguimos apresentar e entregar o necessário para a rel
 
 | Issue |            Título            |        Status         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#157](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/157) | Roadmap | Concluído
-| [#162](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/162) [#169](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/169)  | Integrar funcionalidades | Concluído
-| [#192](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/192) |  Vídeo apresentação geral|  Concluído
-[#204](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/204) |  Vídeo apresentação slowbros|  Concluído
+| [#157](https://github.com/fga-eps-mds/2021-1-Bot/issues/157) | Roadmap | Concluído
+| [#162](https://github.com/fga-eps-mds/2021-1-Bot/issues/162) [#169](https://github.com/fga-eps-mds/2021-1-Bot/issues/169)  | Integrar funcionalidades | Concluído
+| [#192](https://github.com/fga-eps-mds/2021-1-Bot/issues/192) |  Vídeo apresentação geral|  Concluído
+[#204](https://github.com/fga-eps-mds/2021-1-Bot/issues/204) |  Vídeo apresentação slowbros|  Concluído
 
 ## Burndown
 ![image](https://user-images.githubusercontent.com/78568172/135346944-447c0923-452f-49e4-8f74-cdd78065a80b.png)

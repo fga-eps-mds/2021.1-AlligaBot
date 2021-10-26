@@ -20,8 +20,8 @@ Além disso, foram definidos os papéis de cada um dos membros da equipe no trab
 
 | Issue |            Título            |         Status        | 
 |-------|:----------------------------:|-----------------------|
-| [#10](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/10) | Definição de papéis | _Concluído_ |
-| [#11](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/11) | Organizar o horário dos membros | _Concluído_ |
+| [#10](https://github.com/fga-eps-mds/2021-1-Bot/issues/10) | Definição de papéis | _Concluído_ |
+| [#11](https://github.com/fga-eps-mds/2021-1-Bot/issues/11) | Organizar o horário dos membros | _Concluído_ |
 
 ## Burndown
 

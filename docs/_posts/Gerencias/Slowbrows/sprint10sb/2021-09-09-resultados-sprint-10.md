@@ -19,7 +19,7 @@ Para a decima sprint foram realizadas reuniões com os integrantes do grupo Slow
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#284](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/284) | Implementação da US 30 |  [Henrique Hida](https://github.com/HenriqueHida) e [Kayro César](https://github.com/kayrocesar)
+| [#284](https://github.com/fga-eps-mds/2021-1-Bot/issues/284) | Implementação da US 30 |  [Henrique Hida](https://github.com/HenriqueHida) e [Kayro César](https://github.com/kayrocesar)
 
 ## Burndown
 ![image](https://user-images.githubusercontent.com/78568172/138778129-363124ec-38d6-4aed-96b6-260f26f15f37.png)

@@ -623,7 +623,7 @@ responses:
 
   utter_vacina_eficacia:
   - text: |
-      No Brasil, existem 4 vacinas aprovadas pela ANVISA. De qual delas você deseja saber a eficacia?
+      Boa pergunta 😉. No Brasil, existem 4 vacinas aprovadas pela ANVISA. De qual delas você deseja saber sobre a eficácia?
     buttons:
       - title: Coronavac 
         payload: /eficacia_da_coronavac
@@ -638,26 +638,26 @@ responses:
   - text: |
       Após testes, o Instituto Butantan apresentou um resultado de 50,38% na eficáfia da vacina CoronaVac. De forma mais detalhada: A CoronaVac mostrou-se 100% eficaz nos casos moderados e graves, e 78% eficaz nos casos leves. 
       
-      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
+      Você pode ler mais sobre isso aqui: 👉 https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
 
   utter_eficacia_pfizer:
   - text: |
       Após estudos envolvendo mais de 44 mil voluntários, concluísse que, globalmente, a eficácia da vacina contra a COVID-19 foi de 95%, com esquema de duas doses num intervalo de 21 dias entre as doses. 
 
-      Leia mais sobre a Pfizer aqui: https://www.pfizer.com.br/tomarpararetomar/tire-suas-duvidas-sobre-vacinacao
+      Leia mais sobre a Pfizer aqui: 👉 https://www.pfizer.com.br/tomarpararetomar/tire-suas-duvidas-sobre-vacinacao
 
   utter_eficacia_janssen:
   - text: |
       28 dias após a inoculação, Janssen Ad26.CoV2.S demonstrou ter uma eficácia de 85,4% contra doença grave e 93,1% contra hospitalização.
       Verificou-se também que uma dose única de Janssen Ad26.COV2.S tinha uma eficácia de 66,9% contra a infecção pela variante SARS-CoV-2 moderada e grave sintomática.
 
-      Para ler mais sobre essa vacina acesse: https://www.who.int/news-room/feature-stories/detail/the-j-j-covid-19-vaccine-what-you-need-to-know
+      Para ler mais sobre essa vacina acesse: 👉 https://www.who.int/news-room/feature-stories/detail/the-j-j-covid-19-vaccine-what-you-need-to-know
   
   utter_eficacia_astrazeneca:
   - text: |
       Após testes, a AstraZeneca apresentou certa de 70% de eficácia geral, variando entre 62% e 90%, após a aplicação das duas doses. 
 
-      Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
+      Você pode ler mais sobre isso aqui: 👉 https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
 
   utter_oque_fazer_suspeita:
   - text: |

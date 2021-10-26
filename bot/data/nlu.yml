@@ -557,6 +557,12 @@ nlu:
   examples: |
     - eficácia da pfizer
     - qual a eficácia da pfizer?
+    - pfizer funciona mesmo?
+    - porcentagem da eficacia da pfizer
+    - taxa de eficacia pfizer
+    - é eficaz tomar pfizer?
+    - é eficaz me vacinar com pfizer?
+    - a eficacia da pfizer é comprovada?
 
 - intent: eficacia_da_coronavac
   examples: |
@@ -565,17 +571,32 @@ nlu:
     - coronavac funciona mesmo?
     - porcentagem da eficacia da coronavac
     - taxa de eficacia coronavac
+    - é eficaz tomar coronavac?
+    - é eficaz me vacinar com coronavac?
+    - a eficacia da coronavac é comprovada?
     
 - intent: eficacia_janssen
   examples: |
     - eficácia da janssen
     - qual a eficácia da janssen?
+    - janssen funciona mesmo?
+    - porcentagem da eficacia da janssen
+    - taxa de eficacia janssen
+    - é eficaz tomar janssen?
+    - é eficaz me vacinar com janssen?
+    - a eficacia da janssen é comprovada?
 
 - intent: eficacia_astrazeneca
   examples: |
     - eficácia da astrazenica
     - qual a eficácia da astrazenica?
     - qual a eficácia da astrazeneca?
+    - astrazeneca funciona mesmo?
+    - porcentagem da eficacia da astrazeneca
+    - taxa de eficacia astrazeneca
+    - é eficaz tomar astrazeneca?
+    - é eficaz me vacinar com astrazeneca?
+    - a eficacia da astrazeneca é comprovada?
 
 - intent: oque_fazer_suspeita
   examples: |

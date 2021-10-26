@@ -183,6 +183,8 @@ nlu:
     - Usar máscara de forma certa
     - Como usar máscara de forma certa?
     - Como usar máscara de maneira certa?
+    - Uso correto mascara
+    - mascara corretamente
 
 - intent: tipos_de_mascaras
   examples: |
@@ -191,6 +193,7 @@ nlu:
     - Quais tipos de máscaras posso usar?
     - Tipos de máscaras
     - Eficácia dos tipos de máscaras
+    - Tipo mascara
 
 
 - intent: cuidados_em_locais_abertos  
@@ -642,6 +645,9 @@ nlu:
     - Quantos seriam os mortos pelo covid-19 por período?
     - Me informe a quantidade de mortos pelo covid-19 por período
     - Qual seria a quantidade de mortos por período?
+    - Mortos por periodo
+    - Quantidade de mortos por periodo
+    - Gostaria de saber a quantidade de mortos por periodo
 
 - intent: quantidade_de_vacinados_por_periodo
   examples: |

@@ -1,5 +1,5 @@
 ---
-excerpt: ""
+tag: "politicas"
 ---
 
 Antes de fazer qualquer alteração no repositório, crie uma issue e se responsabilize por essa alteração. Atente-se a [política de branchs](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)

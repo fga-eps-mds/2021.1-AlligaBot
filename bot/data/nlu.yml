@@ -279,7 +279,6 @@ nlu:
     - Quais cuidados devo ter na Barbearia para me proteger do COVID-19?
     - Como devo me portar no cabeleireiro 
     - Como devo me portar na barbearia
-    - Quais soluções podem me proteger do COVID-19
 
 - intent: sintomas
   examples: |

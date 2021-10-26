@@ -117,50 +117,41 @@ novamente:
 [Template para criação de pull requests](.github/pull_request_template.md)
 
 ## 👨‍💻 Desenvolvedores
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-uzvj">Capivara :ox:</th>
-    <th class="tg-uzvj">PlusUltra :fleur_de_lis:</th>
-    <th class="tg-uzvj">Slowbrows :pig2:</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/49570180?v=4&s=45" alt="Ana Carolina" width="45" height="45">       <br><a href="https://github.com/AnaCarolinaRodriguesLeite" target="_blank" rel="noopener noreferrer"> Ana Carolina </a></td>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/44625056?v=4&s=45" alt="Amanda Nobre" width="45" height="45">        <br><a href="https://github.com/AmandaNbr" target="_blank" rel="noopener noreferrer">Amanda Nobre</a></td>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/78568172?v=4&s=45" alt="Henrique Hida" width="45" height="45">        <br><a href="https://github.com/HenriqueHida" target="_blank" rel="noopener noreferrer">Henrique Hida</a></td>
-  </tr>
-  <tr>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/36899389?v=4&s=45" alt="Image" width="45" height="45">        <br><a href="https://github.com/MegahNevel" target="_blank" rel="noopener noreferrer"> Eduardo Levenhagem</a></td>
-    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/48847770?v=4&s=45" alt="Erick Levy>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/Ericklevy">Erick Levy</a></td>
-    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/39713656?v=4&s=45" alt="Kayro César>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/kayrocesar">Kayro César</a></td>
-  </tr>
-  <tr>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/52364259?v=4&s=45" alt="Kathlyn Lara" width="45" height="45">        <br><a href="https://github.com/klmurussi" target="_blank" rel="noopener noreferrer"> Kathlyn Lara</a></td>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/54580766?v=4&s=45" alt="[Douglas Monteles]" width="45" height="45">        <br><a href="https://github.com/DouglasMonteles" target="_blank" rel="noopener noreferrer">Douglas Monteles</a></td>
-    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/44177946?v=4&s=45" alt="Luiz Petengill">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/LuizPettengill">Luiz Petengill</a></td>
-  </tr>
-  <tr>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/79016306?v=4&s=45" alt="Lameque" width="45" height="45">        <br><a href="https://github.com/LamequeFernandes" target="_blank" rel="noopener noreferrer">Lameque Fernandes </a></td>
-    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/78758172?v=4&s=45" alt="Victor Eduardo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/victorear05">Victor Eduardo</a></td>
-    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/53947083?v=4&s=45" alt="Matheus Rapahel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/matheusrazor">Matheus Rapahel</a></td>
-  </tr>
-  <tr>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/54778783?v=4&s=45" alt="Matheus Sousa" width="45" height="45">        <br><a href="https://github.com/gatotabaco" target="_blank" rel="noopener noreferrer">Matheus Sousa</a></td>
-    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/85000470?v=4&s=45" alt="Pedro Lucas">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/PedroLSF">Pedro Lucas</a></td>
-    <td class="tg" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://avatars.githubusercontent.com/u/73257118?v=4&s=45" alt="Matheus Akio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><a href="https://github.com/matheusakio">Matheus Akio</a></td>
-  </tr>
-  <tr>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/35047444?v=4&s=45" alt="Thaos Rebouças" width="45" height="45">        <br><a href="https://github.com/Thais-ra" target="_blank" rel="noopener noreferrer">Thais Rebouças</a></td>
-    <td class="tg" style="text-align:center;">        <img src="https://avatars.githubusercontent.com/u/37981839?s=45&v=4" alt="Yudi Yamane" width="45" height="45">        <br><a href="https://github.com/yudi-azvd" target="_blank" rel="noopener noreferrer">Yudi Yamane</a></td>
-    <td class="tg" style="text-align:center;"></td>
-  </tr>
-</tbody>
+
+### Capivaras 🐗
+
+<table>
+	<tr>
+		<td align="center"><a href="https://github.com/AnaCarolinaRodriguesLeite"><img src="https://avatars.githubusercontent.com/u/49570180?v=4" width="100px;" alt=""/><br /><sub><b>Ana Carolina</b></sub></a><br /><a href="https://github.com/AnaCarolinaRodriguesLeite"></a></td>
+		<td align="center"><a href="https://github.com/klmurussi"><img src="https://avatars.githubusercontent.com/u/52364259?v=4" width="100px;" alt=""/><br /><sub><b>Kathlyn Lara</b></sub></a><br /><a href="https://github.com/klmurussi"></a></td>
+		<td align="center"><a href="https://github.com/LamequeFernandes"><img src="https://avatars.githubusercontent.com/u/79016306?v=4" width="100px;" alt=""/><br /><sub><b>Lameque Fernandes</b></sub></a><br /><a href="https://github.com/LamequeFernandes"></a></td>
+		<td align="center"><a href="https://github.com/gatotabaco"><img src="https://user-images.githubusercontent.com/44625056/138941035-32cb39e4-06e2-44fc-9108-219fbe232373.png" width="100px;" alt=""/><br /><sub><b>Matheus Sousa</b></sub></a><br /><a href="https://github.com/gatotabaco"></a></td>
+		<td align="center"><a href="https://github.com/Thais-ra"><img src="https://avatars.githubusercontent.com/u/35047444?v=4" width="100px;" alt=""/><br /><sub><b>Thais Rebouças</b></sub></a><br /><a href="https://github.com/Thais-ra"></a></td>
+	</tr>
 </table>
-<small>Feito com <a href="https://www.tablesgenerator.com/html_tables">
-  Tables Generator</a>.
-</small>
+
+### Plus Ultra 🔋
+
+<table>
+	<tr>
+		<td align="center"><a href="https://github.com/AmandaNbr"><img src="https://avatars.githubusercontent.com/u/44625056?v=4" width="100px;" alt=""/><br /><sub><b>Amanda Nobre</b></sub></a><br /><a href="https://github.com/AmandaNbr"></a></td>
+		<td align="center"><a href="https://github.com/Ericklevy"><img src="https://avatars.githubusercontent.com/u/48847770?v=4" width="100px;" alt=""/><br /><sub><b>Erick Levy</b></sub></a><br /><a href="https://github.com/Ericklevy"></a></td>
+		<td align="center"><a href="https://github.com/DouglasMonteles"><img src="https://avatars.githubusercontent.com/u/54580766?v=4" width="100px;" alt=""/><br /><sub><b>Douglas Monteles</b></sub></a><br /><a href="https://github.com/DouglasMonteles"></a></td>
+		<td align="center"><a href="https://github.com/victorear05"><img src="https://avatars.githubusercontent.com/u/78758172?v=4" width="100px;" alt=""/><br /><sub><b>Victor Eduardo</b></sub></a><br /><a href="https://github.com/victorear05"></a></td>
+		<td align="center"><a href="https://github.com/PedroLSF"><img src="https://avatars.githubusercontent.com/u/85000470?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Lucas</b></sub></a><br /><a href="https://github.com/PedroLSF"></a></td>
+    <td align="center"><a href="https://github.com/yudi-azvd"><img src="https://avatars.githubusercontent.com/u/37981839?v=4" width="100px;" alt=""/><br /><sub><b>Yudi Yamane</b></sub></a><br /><a href="https://github.com/yudi-azvd"></a></td>
+	</tr>
+</table>
+
+### Slowbrows 🐌
+
+
+<table>
+	<tr>
+		<td align="center"><a href="https://github.com/HenriqueHida"><img src="https://user-images.githubusercontent.com/44625056/138940949-85ce3584-3998-4b02-b078-71e490d2e8dd.png" width="100px;" alt=""/><br /><sub><b>Henrique Hida</b></sub></a><br /><a href="https://github.com/HenriqueHida"></a></td>
+		<td align="center"><a href="https://github.com/kayrocesar"><img src="https://user-images.githubusercontent.com/44625056/138947080-2c18ad1b-8e2b-4c47-a317-92b46b68c00b.png" width="100px;" alt=""/><br /><sub><b>Kayro Cesar</b></sub></a><br /><a href="https://github.com/kayrocesar"></a></td>
+	</tr>
+</table>
 
 ## 📝 Licença
 Este projeto está licenciado sob os termos da licença 

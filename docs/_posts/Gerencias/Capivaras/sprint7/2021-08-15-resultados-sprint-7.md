@@ -17,22 +17,22 @@ Além disso, recebemos alguns feedbacks e haverão alterações nos documentos j
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#154](https://github.com/fga-eps-mds/2021-1-Bot/issues/154) | Roadmap | _Concluído_ |
-| [#167](https://github.com/fga-eps-mds/2021-1-Bot/issues/167) | Buscar por monitores pra feedback dos documentos | _Concluído_ |
-| [#184](https://github.com/fga-eps-mds/2021-1-Bot/issues/184) | Correção de erros do documento de elicitação de requisitos | _Concluído_ |
-| [#162](https://github.com/fga-eps-mds/2021-1-Bot/issues/162) | Integrar funcionalidades da FT03: Transmissão e prevenção ao bot | _Concluído_ |
-| [#169](https://github.com/fga-eps-mds/2021-1-Bot/issues/169) | Integrar as funcionalidades -Regras para lugares específicos | _Concluído_ |
-| [#205](https://github.com/fga-eps-mds/2021-1-Bot/issues/205) | Atualizar documentos de gerência | _Concluído_ |
-| [#209](https://github.com/fga-eps-mds/2021-1-Bot/issues/209) | Substituir os gráficos de burndown e velocity | _Concluído_ |
-| [#176](https://github.com/fga-eps-mds/2021-1-Bot/issues/176) | Finalização da GH Page para R1 | _Concluído_ |
-| [#192](https://github.com/fga-eps-mds/2021-1-Bot/issues/192) | Gravar o vídeo de apresentação geral | _Concluído_ |
-| [#211](https://github.com/fga-eps-mds/2021-1-Bot/issues/211) | Link de licença quebrado no readme | _Concluído_ |
-| [#151](https://github.com/fga-eps-mds/2021-1-Bot/issues/151) | Reunião para passagem de conhecimentos acerca da GH Page | _Concluído_ |
-| [#150](https://github.com/fga-eps-mds/2021-1-Bot/issues/150) | Otimização da GH Page | _Concluído_ |
-| [#52](https://github.com/fga-eps-mds/2021-1-Bot/issues/52) | Documentação da Sprint 3 | _Concluído_ |
-| [#53](https://github.com/fga-eps-mds/2021-1-Bot/issues/53) | Documentação da Sprint 4 | _Concluído_ |
-| [#165](https://github.com/fga-eps-mds/2021-1-Bot/issues/165) | Documentação da Sprint 5 | _Concluído_ |
-| [#55](https://github.com/fga-eps-mds/2021-1-Bot/issues/55) | Personalidade e Identidade Visual do chatBot | _Concluído_ |
+| [#154](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/154) | Roadmap | _Concluído_ |
+| [#167](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/167) | Buscar por monitores pra feedback dos documentos | _Concluído_ |
+| [#184](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/184) | Correção de erros do documento de elicitação de requisitos | _Concluído_ |
+| [#162](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/162) | Integrar funcionalidades da FT03: Transmissão e prevenção ao bot | _Concluído_ |
+| [#169](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/169) | Integrar as funcionalidades -Regras para lugares específicos | _Concluído_ |
+| [#205](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/205) | Atualizar documentos de gerência | _Concluído_ |
+| [#209](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/209) | Substituir os gráficos de burndown e velocity | _Concluído_ |
+| [#176](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/176) | Finalização da GH Page para R1 | _Concluído_ |
+| [#192](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/192) | Gravar o vídeo de apresentação geral | _Concluído_ |
+| [#211](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/211) | Link de licença quebrado no readme | _Concluído_ |
+| [#151](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/151) | Reunião para passagem de conhecimentos acerca da GH Page | _Concluído_ |
+| [#150](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/150) | Otimização da GH Page | _Concluído_ |
+| [#52](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/52) | Documentação da Sprint 3 | _Concluído_ |
+| [#53](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/53) | Documentação da Sprint 4 | _Concluído_ |
+| [#165](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/165) | Documentação da Sprint 5 | _Concluído_ |
+| [#55](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/55) | Personalidade e Identidade Visual do chatBot | _Concluído_ |
 
 ## Quadro de conhecimento
 

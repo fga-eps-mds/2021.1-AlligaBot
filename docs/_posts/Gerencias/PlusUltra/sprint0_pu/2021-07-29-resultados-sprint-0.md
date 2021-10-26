@@ -15,13 +15,13 @@ Foram divididos os papéis de cada membro da equipe entre Scrum Master, PO, Arqu
 
 | Issue |            Título            |         Status        | 
 |-------|:----------------------------:|-----------------------|
-| [#1](https://github.com/fga-eps-mds/2021-1-Bot/issues/1) | Sprint 0 - Tarefas de Pesquisa | _Concluído_ |
-| [#2](https://github.com/fga-eps-mds/2021-1-Bot/issues/2) | Sprint 0 - Tarefas de Pesquisa - Yudi Yamane- git e docker, devops | _Concluído_ |
-| [#3](https://github.com/fga-eps-mds/2021-1-Bot/issues/3) | Sprint 0 - Tarefas de Pesquisa | _Concluído_ |
-| [#5](https://github.com/fga-eps-mds/2021-1-Bot/issues/5) | Definições de papeis  | _Concluído_ |
-| [#6](https://github.com/fga-eps-mds/2021-1-Bot/issues/6) | Sprint 0 - Tarefas de Pesquisa | _Concluído_ |
-| [#7](https://github.com/fga-eps-mds/2021-1-Bot/issues/7) | Sprint 0 - Tarefas de Pesquisa | _Concluído_ |
-| [#8](https://github.com/fga-eps-mds/2021-1-Bot/issues/8) | Sprint 0 - Tarefa de pesquisa - possíveis linguagens e framework que poderem ser usadas para criação do chat bot | _Concluído_ |
+| [#1](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/1) | Sprint 0 - Tarefas de Pesquisa | _Concluído_ |
+| [#2](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/2) | Sprint 0 - Tarefas de Pesquisa - Yudi Yamane- git e docker, devops | _Concluído_ |
+| [#3](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/3) | Sprint 0 - Tarefas de Pesquisa | _Concluído_ |
+| [#5](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/5) | Definições de papeis  | _Concluído_ |
+| [#6](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/6) | Sprint 0 - Tarefas de Pesquisa | _Concluído_ |
+| [#7](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/7) | Sprint 0 - Tarefas de Pesquisa | _Concluído_ |
+| [#8](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/8) | Sprint 0 - Tarefa de pesquisa - possíveis linguagens e framework que poderem ser usadas para criação do chat bot | _Concluído_ |
 
 ## Avaliação da Scrum Master
 

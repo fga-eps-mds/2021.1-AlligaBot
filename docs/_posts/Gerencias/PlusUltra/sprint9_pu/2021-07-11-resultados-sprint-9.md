@@ -15,18 +15,18 @@ A partir dessa Sprint pode-se dizer que todos os integrantes tiveram contato com
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#217](https://github.com/fga-eps-mds/2021-1-Bot/issues/217) | Arquivos csv com python nas actions | _Concluído_  |
-| [#229](https://github.com/fga-eps-mds/2021-1-Bot/issues/229) | Estruturar GitHub Pages com jekyll | _Parcialmente Concluído_ |
-| [#233](https://github.com/fga-eps-mds/2021-1-Bot/issues/233) | Guia para desenvolvimento e visualização local da documentação | _Concluído_ |
-| [#242](https://github.com/fga-eps-mds/2021-1-Bot/issues/242) | Adicionar GitHub Action para fazer build e deploy da documentação | _Parcialmente Concluído_  |
-| [#243](https://github.com/fga-eps-mds/2021-1-Bot/issues/243) | Documentação sprints 8 e 9 | _Concluído_ |
-| [#244](https://github.com/fga-eps-mds/2021-1-Bot/issues/244) | Renumerar US que já foram feitas de acordo com a nova versão do Backlog | _Concluído_ |
-| [#245](https://github.com/fga-eps-mds/2021-1-Bot/issues/245) | Documento de fluxo de trabalho | _Concluído_ |
-| [#250](https://github.com/fga-eps-mds/2021-1-Bot/issues/250) | Configurar ambiente e estudo do Rasa | _Concluído_ |
-| [#252](https://github.com/fga-eps-mds/2021-1-Bot/issues/252) | Bug na API do telegram | _Concluído_ |
-| [#257](https://github.com/fga-eps-mds/2021-1-Bot/issues/257) | Implementação da US29 | _Concluído_ |
-| [#265](https://github.com/fga-eps-mds/2021-1-Bot/issues/265) | Instalação e começo de implementação | _Concluído_ |
-| [#269](https://github.com/fga-eps-mds/2021-1-Bot/issues/269) | Reunião planejamento sprint 10 | _Concluído_ |
+| [#217](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/217) | Arquivos csv com python nas actions | _Concluído_  |
+| [#229](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/229) | Estruturar GitHub Pages com jekyll | _Parcialmente Concluído_ |
+| [#233](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/233) | Guia para desenvolvimento e visualização local da documentação | _Concluído_ |
+| [#242](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/242) | Adicionar GitHub Action para fazer build e deploy da documentação | _Parcialmente Concluído_  |
+| [#243](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/243) | Documentação sprints 8 e 9 | _Concluído_ |
+| [#244](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/244) | Renumerar US que já foram feitas de acordo com a nova versão do Backlog | _Concluído_ |
+| [#245](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/245) | Documento de fluxo de trabalho | _Concluído_ |
+| [#250](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/250) | Configurar ambiente e estudo do Rasa | _Concluído_ |
+| [#252](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/252) | Bug na API do telegram | _Concluído_ |
+| [#257](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/257) | Implementação da US29 | _Concluído_ |
+| [#265](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/265) | Instalação e começo de implementação | _Concluído_ |
+| [#269](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/269) | Reunião planejamento sprint 10 | _Concluído_ |
 
 ## Quadro de conhecimentos
 

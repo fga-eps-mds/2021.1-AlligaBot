@@ -19,26 +19,26 @@ Então, como resultados dessa sprint, os documentos criados ou melhorados pelos 
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#44](https://github.com/fga-eps-mds/2021-1-Bot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | _Concluído_ |
-| [#57](https://github.com/fga-eps-mds/2021-1-Bot/issues/57) | Estruturação do documento de arquitetura | _Concluído_ |
-| [#95](https://github.com/fga-eps-mds/2021-1-Bot/issues/95) | Estruturar, fazer update das politicas e de toda documentação já realizada no GHPages | _Concluído_ |
-| [#96](https://github.com/fga-eps-mds/2021-1-Bot/issues/96) | Reunião dos Scrum Masters e Product Owners | _Concluído_ |
-| [#98](https://github.com/fga-eps-mds/2021-1-Bot/issues/98) | Melhorar "README.md" do projeto | _Concluído_ |
-| [#99](https://github.com/fga-eps-mds/2021-1-Bot/issues/99) | Escolher um padrão de estilo de código | _Parcialmente Concluído_ |
-| [#100](https://github.com/fga-eps-mds/2021-1-Bot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | _Parcialmente Concluído_ |
-| [#101](https://github.com/fga-eps-mds/2021-1-Bot/issues/101) | Criação do discord do projeto de ChatBot | _Concluído_ |
-| [#102](https://github.com/fga-eps-mds/2021-1-Bot/issues/102) | Documentação das sprints 4 e 5 | _Concluído_ |
-| [#103](https://github.com/fga-eps-mds/2021-1-Bot/issues/103) | Canvas | _Concluído_ |
-| [#104](https://github.com/fga-eps-mds/2021-1-Bot/issues/104) | Reunião para definir as US | _Concluído_ |
-| [#105](https://github.com/fga-eps-mds/2021-1-Bot/issues/105) | Plano de gerenciamento de riscos | _Concluído_ |
-| [#106](https://github.com/fga-eps-mds/2021-1-Bot/issues/106) | Código de conduta | _Concluído_ |
-| [#109](https://github.com/fga-eps-mds/2021-1-Bot/issues/109) | Adição de .gitignore | _Concluído_ |
-| [#113](https://github.com/fga-eps-mds/2021-1-Bot/issues/113) | Reunião com os tecnologistas Mini Dojo | _Concluído_ |
-| [#114](https://github.com/fga-eps-mds/2021-1-Bot/issues/114) | Disponibilizar o tutorial Rasa & Telegram aos demais tecnologistas | _Concluído_ |
-| [#118](https://github.com/fga-eps-mds/2021-1-Bot/issues/118) | Iniciando a conversa sobre covid com o bot | _Concluído_ |
-| [#124](https://github.com/fga-eps-mds/2021-1-Bot/issues/124) | Atualizando arquivos para o funcionamento do bot | _Concluído_ |
-| [#128](https://github.com/fga-eps-mds/2021-1-Bot/issues/128) | Preparando o bot para o US02 | _Concluído_ |
-| [#130](https://github.com/fga-eps-mds/2021-1-Bot/issues/130) | Corrigir guia de instalação no README e outros erros | _Concluído_ |
+| [#44](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | _Concluído_ |
+| [#57](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/57) | Estruturação do documento de arquitetura | _Concluído_ |
+| [#95](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/95) | Estruturar, fazer update das politicas e de toda documentação já realizada no GHPages | _Concluído_ |
+| [#96](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/96) | Reunião dos Scrum Masters e Product Owners | _Concluído_ |
+| [#98](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/98) | Melhorar "README.md" do projeto | _Concluído_ |
+| [#99](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/99) | Escolher um padrão de estilo de código | _Parcialmente Concluído_ |
+| [#100](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | _Parcialmente Concluído_ |
+| [#101](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/101) | Criação do discord do projeto de ChatBot | _Concluído_ |
+| [#102](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/102) | Documentação das sprints 4 e 5 | _Concluído_ |
+| [#103](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/103) | Canvas | _Concluído_ |
+| [#104](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/104) | Reunião para definir as US | _Concluído_ |
+| [#105](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/105) | Plano de gerenciamento de riscos | _Concluído_ |
+| [#106](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/106) | Código de conduta | _Concluído_ |
+| [#109](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/109) | Adição de .gitignore | _Concluído_ |
+| [#113](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/113) | Reunião com os tecnologistas Mini Dojo | _Concluído_ |
+| [#114](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/114) | Disponibilizar o tutorial Rasa & Telegram aos demais tecnologistas | _Concluído_ |
+| [#118](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/118) | Iniciando a conversa sobre covid com o bot | _Concluído_ |
+| [#124](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/124) | Atualizando arquivos para o funcionamento do bot | _Concluído_ |
+| [#128](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/128) | Preparando o bot para o US02 | _Concluído_ |
+| [#130](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/130) | Corrigir guia de instalação no README e outros erros | _Concluído_ |
 
 
 ## Quadro de conhecimento

@@ -19,17 +19,11 @@ stories:
     intent: bot_alligabot
   - action: utter_alligabot
 
-#US03:
-
-
-#US04:
-
-
-#US05:
-
-
-#US06:
-
+#US que não precisam de teste:
+#US03
+#US04
+#US05
+#US06
 
 #US07:
 - story: variantes de covid

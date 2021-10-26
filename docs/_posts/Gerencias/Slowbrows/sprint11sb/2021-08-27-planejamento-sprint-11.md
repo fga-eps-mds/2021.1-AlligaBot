@@ -22,8 +22,8 @@ Para essa sprint devemos finalizar a distribuição das US restantes, além de c
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#315](https://github.com/fga-eps-mds/2021-1-Bot/issues/315) | Documentar as sprints 9 e 10 | 3 | Henrique Hida |
-| [#303](https://github.com/fga-eps-mds/2021-1-Bot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | 3 | Thais, Kayro, Amanda, Erick, Douglas, Matheus, Lameque e Pedro |
+| [#315](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/315) | Documentar as sprints 9 e 10 | 3 | Henrique Hida |
+| [#303](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/303) | Discutir a viabilidade de implementação das US45 e US46 | 3 | Thais, Kayro, Amanda, Erick, Douglas, Matheus, Lameque e Pedro |
 
 
 ## Papeis

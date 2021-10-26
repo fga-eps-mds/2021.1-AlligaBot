@@ -22,9 +22,9 @@ Para essa sprint planejamos revisar, testar e humanizar todas as US.
 
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
-| [#323](https://github.com/fga-eps-mds/2021-1-Bot/issues/323) | Implementação das US 45 & 46 | 5 | Douglas Monteles e Kayro Cesar|
-| [#333](https://github.com/fga-eps-mds/2021-1-Bot/issues/333) | Realizar testes rasa na US11 até US15 | 5 | Kayro Cesar |
-| [#344](https://github.com/fga-eps-mds/2021-1-Bot/issues/344) | Humanização e revisão das US 22 até 31 | 5 | Henrique Hida |
+| [#323](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/323) | Implementação das US 45 & 46 | 5 | Douglas Monteles e Kayro Cesar|
+| [#333](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/333) | Realizar testes rasa na US11 até US15 | 5 | Kayro Cesar |
+| [#344](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/344) | Humanização e revisão das US 22 até 31 | 5 | Henrique Hida |
 
 
 ## Papeis

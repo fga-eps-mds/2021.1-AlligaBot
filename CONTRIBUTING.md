@@ -1,7 +1,7 @@
 # Como contribuir
 
-Antes de fazer qualquer alteração no repositório, crie uma issue e se responsabilize por essa alteração. Atente-se a [política de branchs](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)
-e a [política de commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/commits.md). 
+Antes de fazer qualquer alteração no repositório, crie uma issue e se responsabilize por essa alteração. Atente-se a [política de branchs](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/branches.md)
+e a [política de commits](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/commits.md). 
 
 ## Histórico de versões
 

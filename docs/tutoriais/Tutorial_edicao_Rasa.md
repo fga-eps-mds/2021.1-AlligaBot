@@ -3,7 +3,7 @@ Este e um tutorial de edição do rasa
 
 # Para utilizar este Tutorial primeiro faças os passos de instalação do rasa.
 
-Primeiro va para o link do rasa inicial [Rasa instalação](https://github.com/fga-eps-mds/2021-1-Bot/blob/dev_plusultra-from-docs_plusultra/docs/tutoriais/Tutorial_rasa_inicial.md) 
+Primeiro va para o link do rasa inicial [Rasa instalação](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/dev_plusultra-from-docs_plusultra/docs/tutoriais/Tutorial_rasa_inicial.md) 
 
 ## Começando
 Certifique-se de ir na config.yml e mudar linguagem para pt.

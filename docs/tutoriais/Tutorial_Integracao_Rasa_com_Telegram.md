@@ -20,17 +20,17 @@ Nesse projeto vamos criar uma assistente virtual com Rasa e integra-lo ao Telegr
 ## Clonando o Projeto
 Para clonar o projeto Rasa, execute o comando abaixo:
 
-    git clone https://github.com/fga-eps-mds/2021-1-Bot.git
+    git clone https://github.com/fga-eps-mds/2021.1-AlligaBot.git
     git checkout -b rasa-training
     git pull origin rasa-training
 
 Você pode optar por baixar somente a branch `rasa-training`:
     
-    git clone -b rasa-training https://github.com/fga-eps-mds/2021-1-Bot.git
+    git clone -b rasa-training https://github.com/fga-eps-mds/2021.1-AlligaBot.git
 
 Agora, entre no diretório abaixo:
 
-    cd 2021-1-Bot/rasa-assistente
+    cd 2021.1-AlligaBot/rasa-assistente
 
 ## Criando o Bot no Telegram
 Precesamos de um bot no Telegram para podermos integra-lo ao nosso projeto, para isso, acesse o Telegram e siga os passos abaixo:

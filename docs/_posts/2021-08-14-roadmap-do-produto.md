@@ -16,4 +16,4 @@ Esse documento contêm a documentação das atividades realizadas em todas as sp
 
 ![Roadmap](https://user-images.githubusercontent.com/49570180/132893211-28b53da3-deaa-4fe7-9362-fbe31fcbe13c.jpg)
 
-Para visualização ampliada, clique no link: [Roadmap.pdf](https://github.com/fga-eps-mds/2021-1-Bot/files/7145446/Roadmap.pdf)
+Para visualização ampliada, clique no link: [Roadmap.pdf](https://github.com/fga-eps-mds/2021.1-AlligaBot/files/7145446/Roadmap.pdf)

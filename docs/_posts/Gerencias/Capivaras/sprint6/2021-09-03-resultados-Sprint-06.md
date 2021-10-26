@@ -25,17 +25,17 @@ A personalidade e identidade visual do Chatbot ainda estão pendentes, mas apena
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#166](https://github.com/fga-eps-mds/2021-1-Bot/issues/166) | Documentação da Sprint 6 | _Não concluído_ |
-| [#151](https://github.com/fga-eps-mds/2021-1-Bot/issues/151) | Reunião para passagem de conhecimentos acerca da GH Page | _Não concluído_ |
-| [#150](https://github.com/fga-eps-mds/2021-1-Bot/issues/150) | Otimização da GH Page | _Não concluído_ |
-| [#159](https://github.com/fga-eps-mds/2021-1-Bot/issues/159) | Alterar nomenclatura da politica de branch | _Concluído_ | Lameque |
-| [#136](https://github.com/fga-eps-mds/2021-1-Bot/issues/136) | Reunião de pre-planning da sprint 6 | _Concluído_ | Matheus |
-| [#52](https://github.com/fga-eps-mds/2021-1-Bot/issues/52) | Documentação da Sprint 3 | _Não concluído_ |
-| [#53](https://github.com/fga-eps-mds/2021-1-Bot/issues/53) | Documentação da Sprint 4 | _Não concluído_ |
-| [#165](https://github.com/fga-eps-mds/2021-1-Bot/issues/165) | Documentação da Sprint 5 | _Não concluído_ |
-| [#55](https://github.com/fga-eps-mds/2021-1-Bot/issues/55) | Personalidade e Identidade Visual do chatBot | _Parcialmente concluído_ |
-| [#87](https://github.com/fga-eps-mds/2021-1-Bot/issues/87) | Criação do documento de visão | _Concluído_ | 
-| [#95](https://github.com/fga-eps-mds/2021-1-Bot/issues/95) | Estruturar, fazer update das politicas e de toda documentação já realizada no GHPages | _Concluído_ |
+| [#166](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/166) | Documentação da Sprint 6 | _Não concluído_ |
+| [#151](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/151) | Reunião para passagem de conhecimentos acerca da GH Page | _Não concluído_ |
+| [#150](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/150) | Otimização da GH Page | _Não concluído_ |
+| [#159](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/159) | Alterar nomenclatura da politica de branch | _Concluído_ | Lameque |
+| [#136](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/136) | Reunião de pre-planning da sprint 6 | _Concluído_ | Matheus |
+| [#52](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/52) | Documentação da Sprint 3 | _Não concluído_ |
+| [#53](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/53) | Documentação da Sprint 4 | _Não concluído_ |
+| [#165](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/165) | Documentação da Sprint 5 | _Não concluído_ |
+| [#55](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/55) | Personalidade e Identidade Visual do chatBot | _Parcialmente concluído_ |
+| [#87](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/87) | Criação do documento de visão | _Concluído_ | 
+| [#95](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/95) | Estruturar, fazer update das politicas e de toda documentação já realizada no GHPages | _Concluído_ |
 
 ## Burndown
 

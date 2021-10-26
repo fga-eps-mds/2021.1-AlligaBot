@@ -694,6 +694,7 @@ responses:
         
         Você pode ler mais sobre isso aqui: 👉 https://coronavirus.saude.mg.gov.br/blog/229-vacinacao-coronavac-astrazeneca-oxford
 
+
   utter_eficacia_pfizer:
     - text: |
         Após estudos envolvendo mais de 44 mil voluntários, concluísse que, globalmente, a eficácia da vacina contra a COVID-19 foi de 95%, com esquema de duas doses num intervalo de 21 dias entre as doses. 

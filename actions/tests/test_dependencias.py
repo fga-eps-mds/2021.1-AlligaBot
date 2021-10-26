@@ -7,6 +7,4 @@ def test_tensorflow_instalado():
     texto = "tensorflow-text" in pacote_instalados
 
     if sys.platform == "win32":
-        assert  not texto
-
-        
+        assert not texto

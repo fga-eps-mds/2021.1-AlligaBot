@@ -11,8 +11,9 @@ class FakeDomain:
 
 
 class FakeTracker:
-    def get_slot(self, slot):  
+    def get_slot(self, slot):
         pass
+
 
 class ResponderVacinadosEmUmEstadoActionTest:
 
@@ -22,20 +23,20 @@ class ResponderVacinadosEmUmEstadoActionTest:
         self.tracker = FakeTracker()
         self.domain = FakeDomain()
 
-  
     def test_name(self, mocker):
         self.setup(mocker)
         assert self.service.name() == "action_responder_vacinados_em_um_estado"
 
-
-    def test_bot(self,mocker):
+    def test_bot(self, mocker):
         self.setup(mocker)
-        mocker.patch.object(self.tracker,"get_slot",return_value="nao-existe")
+        mocker.patch.object(self.tracker, "get_slot",
+                            return_value="nao-existe")
 
-        self.service.run(self.dispatcher,self.tracker,self.domain)
-        assert self.dispatcher.messages[0]['text'].startswith('Então... eu não achei o estado NAO-EXISTE')
+        self.service.run(self.dispatcher, self.tracker, self.domain)
+        assert self.dispatcher.messages[0]['text'].startswith(
+            'Então... eu não achei o estado NAO-EXISTE')
 
-        
+
 def test_ResponderVacinadosEmUmEstadoAction(mocker):
     ResponderVacinadosEmUmEstadoActionTest().test_bot(mocker)
     ResponderVacinadosEmUmEstadoActionTest().test_name(mocker)

@@ -15,19 +15,19 @@ Foi uma sprint bastante aproveitada, praticamente todas as tarefas que foram alo
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#99](https://github.com/fga-eps-mds/2021-1-Bot/issues/99) | Escolher um padrão de estilo de código | _Concluído_ |
-| [#100](https://github.com/fga-eps-mds/2021-1-Bot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | _Concluído_ |
-| [#136](https://github.com/fga-eps-mds/2021-1-Bot/issues/136) | Reunião de pre-planning da sprint 6 | _Concluído_ |
-| [#137](https://github.com/fga-eps-mds/2021-1-Bot/issues/137) | Documentação de evolução de Devops | _Concluído_ |
-| [#139](https://github.com/fga-eps-mds/2021-1-Bot/issues/139) | Arrumar a tabela do README  | _Concluído_ |
-| [#141](https://github.com/fga-eps-mds/2021-1-Bot/issues/141) | Estudar sobre o deploy do projeto Rasa no Heroku | _Concluído_ |
-| [#143](https://github.com/fga-eps-mds/2021-1-Bot/issues/143) | Fazer o plano de comunicação |_Concluído_  |
-| [#144](https://github.com/fga-eps-mds/2021-1-Bot/issues/144) | Fazer documentações da sprint | _Concluído_ |
-| [#146](https://github.com/fga-eps-mds/2021-1-Bot/issues/146) | Viabilidade técnica | _Concluído_ |
-| [#147](https://github.com/fga-eps-mds/2021-1-Bot/issues/147) | Revisar a descrição e o documento de arquitetura | _Concluído_ |
-| [#150](https://github.com/fga-eps-mds/2021-1-Bot/issues/150) | Otimização da GH Page | _Concluído_ |
-| [#151](https://github.com/fga-eps-mds/2021-1-Bot/issues/151) | Reunião para passagem de conhecimentos acerca da GH Page | _Concluído_ |
-| [#152](https://github.com/fga-eps-mds/2021-1-Bot/issues/152) | Revisar o plano de gerenciamento de riscos | _Concluído_ |
+| [#99](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/99) | Escolher um padrão de estilo de código | _Concluído_ |
+| [#100](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | _Concluído_ |
+| [#136](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/136) | Reunião de pre-planning da sprint 6 | _Concluído_ |
+| [#137](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/137) | Documentação de evolução de Devops | _Concluído_ |
+| [#139](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/139) | Arrumar a tabela do README  | _Concluído_ |
+| [#141](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/141) | Estudar sobre o deploy do projeto Rasa no Heroku | _Concluído_ |
+| [#143](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/143) | Fazer o plano de comunicação |_Concluído_  |
+| [#144](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/144) | Fazer documentações da sprint | _Concluído_ |
+| [#146](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/146) | Viabilidade técnica | _Concluído_ |
+| [#147](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/147) | Revisar a descrição e o documento de arquitetura | _Concluído_ |
+| [#150](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/150) | Otimização da GH Page | _Concluído_ |
+| [#151](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/151) | Reunião para passagem de conhecimentos acerca da GH Page | _Concluído_ |
+| [#152](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/152) | Revisar o plano de gerenciamento de riscos | _Concluído_ |
 
 
 ## Quadro de conhecimento

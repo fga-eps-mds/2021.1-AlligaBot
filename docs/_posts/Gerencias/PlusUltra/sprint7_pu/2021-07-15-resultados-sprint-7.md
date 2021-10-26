@@ -15,21 +15,21 @@ Conseguimos entregar tudo o que queríamos para a R1, então houve a aula de fee
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#99](https://github.com/fga-eps-mds/2021-1-Bot/issues/99) | Escolher um padrão de estilo de código | _Concluído_ |
-| [#100](https://github.com/fga-eps-mds/2021-1-Bot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | _Concluído_ |
-| [#162](https://github.com/fga-eps-mds/2021-1-Bot/issues/162) | Integrar funcionalidades da FT03: Transmissão e prevenção ao bot | _Concluído_ |
-| [#169](https://github.com/fga-eps-mds/2021-1-Bot/issues/169) | Integrar as funcionalidades -Regras para lugares específicos | _Concluído_ |
-| [#174](https://github.com/fga-eps-mds/2021-1-Bot/issues/174) | Resolvendo o erro ao executar: make build | _Concluído_ |
-| [#176](https://github.com/fga-eps-mds/2021-1-Bot/issues/176) | Finalização da GH Page para R1 | _Concluído_ |
-| [#181](https://github.com/fga-eps-mds/2021-1-Bot/issues/181) | Mudar imagem do AlligaBot no README | _Concluído_ |
-| [#182](https://github.com/fga-eps-mds/2021-1-Bot/issues/182) | Correção de erros no documento de arquitetura | _Concluído_ |
-| [#188](https://github.com/fga-eps-mds/2021-1-Bot/issues/188) | Documentação das sprints | _Concluído_ |
-| [#189](https://github.com/fga-eps-mds/2021-1-Bot/issues/189) | Criar o template do slide dos grupos | _Concluído_ |
-| [#190](https://github.com/fga-eps-mds/2021-1-Bot/issues/190) | Criar o slide da equipe plus ultra | _Concluído_ |
-| [#191](https://github.com/fga-eps-mds/2021-1-Bot/issues/191) | Reunião acerca dos vídeos de apresentação | _Concluído_ |
-| [#192](https://github.com/fga-eps-mds/2021-1-Bot/issues/192) | Gravar o vídeo de apresentação geral | _Concluído_ |
-| [#193](https://github.com/fga-eps-mds/2021-1-Bot/issues/193) | Gravar o vídeo de apresentação da Equipe Plus Ultra | _Concluído_ |
-| [#206](https://github.com/fga-eps-mds/2021-1-Bot/issues/206) | Criar documento de protótipo | _Concluído_ |
+| [#99](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/99) | Escolher um padrão de estilo de código | _Concluído_ |
+| [#100](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/100) | Melhorar os arquivos dockerfile e docker-compose | _Concluído_ |
+| [#162](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/162) | Integrar funcionalidades da FT03: Transmissão e prevenção ao bot | _Concluído_ |
+| [#169](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/169) | Integrar as funcionalidades -Regras para lugares específicos | _Concluído_ |
+| [#174](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/174) | Resolvendo o erro ao executar: make build | _Concluído_ |
+| [#176](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/176) | Finalização da GH Page para R1 | _Concluído_ |
+| [#181](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/181) | Mudar imagem do AlligaBot no README | _Concluído_ |
+| [#182](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/182) | Correção de erros no documento de arquitetura | _Concluído_ |
+| [#188](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/188) | Documentação das sprints | _Concluído_ |
+| [#189](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/189) | Criar o template do slide dos grupos | _Concluído_ |
+| [#190](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/190) | Criar o slide da equipe plus ultra | _Concluído_ |
+| [#191](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/191) | Reunião acerca dos vídeos de apresentação | _Concluído_ |
+| [#192](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/192) | Gravar o vídeo de apresentação geral | _Concluído_ |
+| [#193](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/193) | Gravar o vídeo de apresentação da Equipe Plus Ultra | _Concluído_ |
+| [#206](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/206) | Criar documento de protótipo | _Concluído_ |
 
 ## Quadro de conhecimento
 

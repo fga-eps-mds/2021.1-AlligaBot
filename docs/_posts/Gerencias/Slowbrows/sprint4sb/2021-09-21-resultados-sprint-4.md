@@ -25,16 +25,16 @@ Houve também uma reunião com todos os tecnologistas para decidir que o bot ser
 
 | Issue |            Título            |        Status       | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#57](https://github.com/fga-eps-mds/2021-1-Bot/issues/57) | Estruturação documento de arquitetura | Concluído 
-| [#58](https://github.com/fga-eps-mds/2021-1-Bot/issues/58) | Reunião dos Scrum Masters |Concluído 
-| [#59](https://github.com/fga-eps-mds/2021-1-Bot/issues/59) | Estrutura analítica |Concluído 
-| [#61](https://github.com/fga-eps-mds/2021-1-Bot/issues/61) | Protótipo de baixa fidelidade | Parcialmente Concluído 
-| [#63](https://github.com/fga-eps-mds/2021-1-Bot/issues/63) | Criação GitHub Pages | Concluído 
-| [#65](https://github.com/fga-eps-mds/2021-1-Bot/issues/65) | Versão inicial Backlog | Parcialmente Concluído 
-| [#88](https://github.com/fga-eps-mds/2021-1-Bot/issues/88) |  Protótipo de baixa fidelidade GHPages| Concluído 
-| [#89](https://github.com/fga-eps-mds/2021-1-Bot/issues/89) |  Elicitação de requisitos| Parcialmente Concluído 
-| [#90](https://github.com/fga-eps-mds/2021-1-Bot/issues/90) | Reunião com Tecnologistas |Concluído 
-| [#93](https://github.com/fga-eps-mds/2021-1-Bot/issues/93) | Criação do ReadMe |Concluído 
+| [#57](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/57) | Estruturação documento de arquitetura | Concluído 
+| [#58](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/58) | Reunião dos Scrum Masters |Concluído 
+| [#59](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/59) | Estrutura analítica |Concluído 
+| [#61](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/61) | Protótipo de baixa fidelidade | Parcialmente Concluído 
+| [#63](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/63) | Criação GitHub Pages | Concluído 
+| [#65](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/65) | Versão inicial Backlog | Parcialmente Concluído 
+| [#88](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/88) |  Protótipo de baixa fidelidade GHPages| Concluído 
+| [#89](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/89) |  Elicitação de requisitos| Parcialmente Concluído 
+| [#90](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/90) | Reunião com Tecnologistas |Concluído 
+| [#93](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/93) | Criação do ReadMe |Concluído 
 
 
 ## Papeis

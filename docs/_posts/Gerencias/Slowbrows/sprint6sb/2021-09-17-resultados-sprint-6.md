@@ -27,9 +27,9 @@ A sprint 6 foi utilizada para a finalização dos documentos restantes para a re
 
 | Issue |            Título            |       Status        | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#136](https://github.com/fga-eps-mds/2021-1-Bot/issues/136) | Reunião pre-planning | Concluído 
-| [#143](https://github.com/fga-eps-mds/2021-1-Bot/issues/143) | Plano de comunicação | Concluído 
-| [#149](https://github.com/fga-eps-mds/2021-1-Bot/issues/149) |  Documentação das sprints| Concluído 
+| [#136](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/136) | Reunião pre-planning | Concluído 
+| [#143](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/143) | Plano de comunicação | Concluído 
+| [#149](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/149) |  Documentação das sprints| Concluído 
 
 ## Papeis
 

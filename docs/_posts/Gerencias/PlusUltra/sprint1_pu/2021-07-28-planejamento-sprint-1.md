@@ -24,11 +24,11 @@ Foi apresentado ao time o projeto da disciplina, que consiste no desenvolvimento
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#14](https://github.com/fga-eps-mds/2021-1-Bot/issues/14) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre documentação) | Amanda Nobre |
-| [#15](https://github.com/fga-eps-mds/2021-1-Bot/issues/15) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre requisitos e responsável por falar com o cliente para obteção dos requisitos do projeto) | Pedro Lucas |
-| [#16](https://github.com/fga-eps-mds/2021-1-Bot/issues/16) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre arquitetura) | Victor Eduardo|
-| [#17](https://github.com/fga-eps-mds/2021-1-Bot/issues/17) | Sprint 1 - Tarefa de Pesquisa (Estudar e testar devops no contexto do projeto)  | Yudi Yamane |
-| [#18](https://github.com/fga-eps-mds/2021-1-Bot/issues/18) | Sprint 1 - Tarefa de Pesquisa (Pesquisar e testar linguagens/frameworks apropriadas para o desenvolvimento de um chatBot) | Erick Levy e Douglas Monteles|
+| [#14](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/14) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre documentação) | Amanda Nobre |
+| [#15](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/15) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre requisitos e responsável por falar com o cliente para obteção dos requisitos do projeto) | Pedro Lucas |
+| [#16](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/16) | Sprint 1 - Tarefa de Pesquisa (Estudar sobre arquitetura) | Victor Eduardo|
+| [#17](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/17) | Sprint 1 - Tarefa de Pesquisa (Estudar e testar devops no contexto do projeto)  | Yudi Yamane |
+| [#18](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/18) | Sprint 1 - Tarefa de Pesquisa (Pesquisar e testar linguagens/frameworks apropriadas para o desenvolvimento de um chatBot) | Erick Levy e Douglas Monteles|
 
 *Como os títulos das issues não explicam os objetivos claramente, tais objetivos foram colocado entre parentêses.
 

@@ -146,6 +146,7 @@ responses:
       A Covid-19 é uma infecção respiratória causada pelo coronavírus SARS-CoV-2🦠, a mesma é potencialmente grave, de elevada transmissibilidade e de distribuição global. 
       É um assunto que podemos nos aprofundar mais, pensando mais um pouco, os coronavírus são uma grande família de vírus comuns em muitas espécies diferentes de animais, incluindo o homem. 😥
 
+
       Caso queira mais informações, aqui está o site em que me baseei 👉 https://www.gov.br/saude/pt-br/coronavirus/o-que-e-o-coronavirus 👈
 
   utter_despedida:
@@ -173,6 +174,7 @@ responses:
           ✔️  Cubra toda a boca e o nariz. 
           ✔️  E lembre-se de manter o distanciamento de 2 metros mesmo com o uso de máscara. 
       Esses são os tópicos principais, mas lembre sempre de cubrir tosses e espirros, limpar e desinfetar superfícies tocadas com frequências e fique sempre alerta com os sintomas.
+
 
       Para saber mais sobre, acesse o mesmo site que utilizei 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
 
@@ -235,11 +237,15 @@ responses:
         ✔️Lave bem as mãos até a altura dos punhos, com água e sabão ou com álcool em gel 70%.
         ✔️Tenha um kit de limpeza e higienize os aparelhos antes do manuseio.
       Se a intensidade do exercício dificultar o uso da máscara, o recomendado é fazer essa atividade ao ar livre e longe de outras pessoas ou, se possível, em casa.
+      
+      
       Saiba mais em: 👉 https://biologico.com.br/10-dicas-de-como-se-proteger-do-novo-coronavirus-na-academia/ 👈
      
   utter_cuidados_no_dentista:
   - text: |
       Então, na pandemia devemos tomar muuuito mais cuidado com a saúde bucal. Desde o início os órgãos de saúde e de vigilância sanitária do país recomendam a ida ao dentista apenas em casos de emergência ou urgência.
+      
+      
       Leia mais em: 👉 https://saude.abril.com.br/blog/cuide-da-sua-boca/como-cuidar-da-saude-bucal-em-tempos-de-coronavirus/ 👈
     
   utter_cabelos:
@@ -247,6 +253,8 @@ responses:
       Para ir ao cabelereiro ou a barbearia devemos tomar os cuidados de sempre, utilizando máscaras e higienizando as mãos quando possível.
       Além disso, é importante ficar atento se o estabelecimento está seguindo os protocolos de limpeza.
       Até ficar bonito na pandemia tá difícil... Mas sempre tem a opção de tentar cortar o cabelo em casa. Só não garanto que vai ficar legal hahaha =P
+      
+      
       Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
 
   utter_sintomas:
@@ -280,19 +288,28 @@ responses:
   utter_formas_de_transmissao:
   - text: 
       Um jeito simples e intuitivo de se explicar como atuam essas partículas contagiosas é imaginar que elas se comportam como a fumaça de cigarro. Ela se dispersa rapidamente ao ar livre ou em ambientes bem ventilados. No entanto, em lugares fechados ou mal ventilados, ela preenche o ar e demora muito tempo para se dissipar. Se há vários fumantes numa mesma sala, o ar fica carregado com a fumaça.
+      
+      
       Para mais informações sobre a forma de transmissão acesse 👉 https://coronavirus.saude.mg.gov.br/blog/71-como-se-prevenir-do-coronavirus 👈
     image: "https://coronacidades.org/informarprevenirsalvar/wp-content/uploads/2021/06/Card-Show_-768x542.png"
 
   utter_mais_sobre_o_virus:
     - text: "O COVID-19 é um vírus de RNA fita simples. Isso significa que o material genético deste vírus é uma molécula de RNA e não de DNA, como é o caso da maior parte dos seres vivos (inclusive nós)."
-    - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2.\n O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
-    - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
+    - text: "A família dos coronavírus é composta por Mers-CoV, Sars-CoV e Sars-CoV-2.\n O Sars-CoV-2, causador da Covid-19, é chamado de novo coronavírus porque ele faz parte de uma família maior, que possui membros já conhecidos pelos cientistas. 
+    
+    Leia mais em: https://saude.abril.com.br/medicina/as-diferencas-e-semelhancas-entre-o-sars-cov-2-e-outros-coronavirus/"
+    - text:  "O Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus (nCoV-2019) foi descoberto em 31/12/19 após casos registrados na China. 
+    
+    
+    Leia mais em: https://www.saude.sc.gov.br/coronavirus/doenca.html"
     - text: "O coronavírus pertence a uma família de vírus que causa desde resfriados comuns a doenças mais graves.O novo coronavírus recebeu a denominação SARS-CoV-2 pela Organização Mundial da Saúde (OMS). A doença que ele provoca tem a denominação COVID-19, que significa Coronavirus Disease (doença do coronavírus), enquanto “19” se refere ao ano em que apareceram os primeiros casos em Wuhan, na China."
 
   utter_cuidados_comercio_geral:
     - text: |
         Quando vamos ao comercio não pode ser diferente, lembre-se sempre de utilizar a máscara, higienizar as mãos e manter uma distância segura dos demais clientes, principalmente nas filas.
         Se possível, priorizar ambientes com portas e janelas abertas.
+        
+        
         Saiba mais sobre como se protejer em: 👉 https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger 👈
 
   utter_variantes:
@@ -300,6 +317,7 @@ responses:
        Sempre que um vírus faz suas cópias nas células humanas, está sujeito a erros que levam a mutações no código genético. Quando um grupo do Sars-CoV-2 reúne mutações distintas em comum, passa a ser chamado de variante.
        As variantes se chamam Alfa, Beta, Gama e Delta.
         
+       
        Caso queira saber mais afundo sobre meus estudos, basta acessar este site 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
 
 
@@ -313,6 +331,7 @@ responses:
     - text: |
        Contém uma transmissibilidade entre 30% e 50% maior do que as linhagens anteriores, mas as vacinas funcionam normalmente contra ela. Ela foi responsável pela segunda onda da pandemia que atacou os países do Reino Unido e boa parte da Europa no início de 2021. 💉
 
+
        Caso queira confirmar informações ou dados sobre a variante alfa, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_beta:
     - text: |
@@ -323,6 +342,7 @@ responses:
   utter_mais_beta:
     - text: |
        Contém uma transmissibilidade maior, mas não tão grande quanto a Alfa. As vacinas da Janssen e da Pfizer mantém sua proteção, porém há indícios de que a da AstraZeneca não funcione frente a essa variante. Alcançou Estados Unidos, Canadá e outros 58 países. O primeiro caso brasileiro foi detectado em abril. 💉 
+
 
        Essa variante não esteve tão presente quanto as outras no Brasil, então caso queira saber mais sobre ela, acesse este link 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_gama:
@@ -335,6 +355,7 @@ responses:
     - text: |
        Mais transmissível e tem capacidade de contornar o sistema de defesa. As vacinas mostram sua importância contra a variante Gama, por isso não se esqueça de vacinar💉.
 
+
        Tivemos muito contato com essa variante, caso queira estudar um pouquinho mais, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_delta:
     - text: |
@@ -346,6 +367,7 @@ responses:
   utter_delta_mais:
     - text: |
        A delta é a que se tornou mais predominante na Índia e ainda esta sendo associada aos casos no Reino Unido. Além disso as vacinas que mostraram eficiência contra ela foram a Astrezeneca e a Pfizer. 💉
+
 
        Caso queira se aprofundar nos estudos sobre as variantes, acesse 👉 https://saude.abril.com.br/medicina/variantes-do-coronavirus-quem-sao-e-como-se-comportam/ 👈
   utter_saude_mental:
@@ -364,6 +386,8 @@ responses:
        - Tire um tempo para você:
        Não preencha seus dias apenas com atividades obrigatórias - libere um espaço na sua agenda para ler um livro, assistir a um filme, aprender uma habilidade nova, fazer exercícios físicos, ouvir uma música, cozinhar com tranquilidade. A escolha é sua: por você e para você.
        O momento é difícil, mas manter a saúde mental é essencial, caso perceba que essas medidas não estão sendo efetivas, é altamente recomendada a busca por ajuda profissional. 
+
+
        Para saber mais acesse: 👉 https://www.pfizer.com.br/noticias/ultimas-noticias/saude-mental-na-pandemia-do-coronavirus-como-manter-o-bem-estar-em-tempos-de-distanciamento-social 👈 
 
   utter_ask_localizacao_form_uf:
@@ -385,6 +409,8 @@ responses:
         Também não podemos nos esquecer do distanciamento social.
 
         Além disso, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+        
+        
         Saiba mais em: 👉 https://www.uninter.com/noticias/10-medidas-para-evitar-contagio-de-covid-19-nos-escritorios 👈
         
     - text: |
@@ -396,6 +422,8 @@ responses:
         ✔️ Evitar o manuseio de objetos e documentos de uso compartilhado. Caso não seja possível, usar luvas de proteção ou realizar a higienização adequada das mãos.
         ✔️ Evitar entrar no elevador caso não seja possível manter distanciamento seguro. De preferência ao uso das escadas! 
         ✔️ Evitar cumprimentos com as mãos, abraços ou qualquer outro contato físico. Tente adotar um comportamento amigável sem o contato físico.
+        
+        
         Saiba mais em: 👉 https://www.uninter.com/noticias/10-medidas-para-evitar-contagio-de-covid-19-nos-escritorios 👈
         
     - text: |
@@ -422,6 +450,8 @@ responses:
         ✔️ Seja o exemplo: é importante que todos os colaboradores possam ser o exemplo uns para os outros, assim é possível que todos acabem seguindo as regras. Evite polêmicas e priorize ações de segurança.
         
         Além dessas dicas, é essencial que os cumprimentos com aperto de mão, abraços e beijo no rosto não ocorram. Adote um comportamento amigável sem o contato físico, mas sempre com um sorriso no rosto. Se todos seguirem as medidas, a equipe estará com risco reduzido de contágio. E lembre-se sempre, na presença de qualquer um dos sintomas de covid-19, não trabalhe presencialmente, pois o risco de contaminação dos colegas torna-se muito maior.
+        
+        
         Saiba mais em: 👉 https://www.uninter.com/noticias/10-medidas-para-evitar-contagio-de-covid-19-nos-escritorios 👈
  
   utter_preciso_me_vacinar:
@@ -429,11 +459,13 @@ responses:
         Esse é um assunto muito importante! Vamos lá: todos precisam se vacinar, independente de ter pego ou não o vírus. Além de a vacina ter se mostrado extremamente eficaz e ter mostrado números de queda no quadro de infectados, existe ainda a consciencia coletiva de que ao se vacinar você está contribuindo para o bem da sociedade e para que tudo volte ao normal o quanto antes! 
         Portanto, vacine-se e incentive outras pessoas a se vacinar também! :) 
 
+
         Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
     - text: |
         Amigo, você e as pessoas ao seu redor precisam se vacinar, independente de ter pego ou não o vírus. Só eu que já sou um jacaré não preciso me vacinar hahahaha!
         Mas falando sério agora, a vacina tem diminuido consideravelmente os números de infectados, vacine-se e peça para as outras pessoas se vacinarem também. É necessário que boa parte da população esteja vacinada para que as mutações e reproduções do vírus diminuam, dessa maneira voltaremos logo ao normal. :) 
+
 
         Para saber mais acesse: https://www.gov.br/saude/pt-br/vacinacao/
 
@@ -445,7 +477,10 @@ responses:
       ✔️ Incentive o pagamento por aproximação.
       ✔️ Limpeza da máquina de cartão.
       ✔️ Limpeza de balcões, cadeiras, maçanetas e qualquer outro objeto de uso comum.
+      
+      
       Se quiser saber mais acesse: 👉 http://www.capital.sp.gov.br/noticia/coronavirus-como-garantir-a-seguranca-no-atendimento-ao-publico-em-tempos-de-pandemia 👈
+
 
       Mas a melhor maneira de não se contaminar é não entrando em contato com pessoas. Então mande mensagem pro chefe dizendo que tá doente e fique em casa. Se você for o chefe, ignore isso. (Brincadeiraaaaa, hehe. Não faça isso, é crime!!!)
 
@@ -463,6 +498,7 @@ responses:
 
       ✔️ HIDRATE-SE!! Essa dica serve não só para exercicios caseiros, mas também pra vida. Lembre-se de ter sempre uma garrafa com água ao seu lado viu?!
 
+
       Para saber mais acesse: 👉 https://www.exercicioemcasa.com.br/cuidados-para-seu-treino-em-casa-ficar-ainda-melhor/ 👈
   - text: |
        Ok, aqui vão algumas dicas de atividade:
@@ -472,6 +508,7 @@ responses:
        Já para os adultos, a intensidade da atividade vai de moderada a vigorosa. Aqui vale dançar, pular corda, subir escadas e até levantar peso.
        Para os vovôs e vovós, é importante realizar alongamentos mais simples e exercícios de fortalecimento muscular. Alguns podem ser feitos em casa, como sentar e levantar da cadeira algumas vezes.
        Lembre-se de levantar dessa cadeira aí viu? Ficar sentado por longos períodos pode causar inúmeros problemas de saude. Estou de olho, hein?
+
 
        Para saber mais acesse: 👉 https://www.exercicioemcasa.com.br/cuidados-para-seu-treino-em-casa-ficar-ainda-melhor/ 👈
 
@@ -488,6 +525,7 @@ responses:
 
         ✔️Tome bastante água hein?!
 
+
         Para saber mais acesse: 👉 https://www.exercicioemcasa.com.br/cuidados-para-seu-treino-em-casa-ficar-ainda-melhor/ 👈
 
   utter_cuidados_transporte_publico:
@@ -498,6 +536,8 @@ responses:
       ✔️ Não tocar em seu rosto.
       ✔️ Passar álcool 70% nas mãos assim que deixar o veículo.
       ✔️ Por último, mas não menos importante: lavar as mãos com sabão quando chegar ao seu destino.
+      
+      
       Se deseja saber mais, acesse: 👉 https://coronavirus.saude.mg.gov.br/blog/115-transporte-publico-e-covid-19 👈
       Espero ter ajudado :)
 
@@ -508,11 +548,13 @@ responses:
       Você tem que tomar duas doses da vacina, a não ser que você tenha se vacinado com a Janssen.
       Não se esqueça de tomar a segunda dose, ein? Procure um posto de saúde ou uma UBS.
 
+
       Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
 
   - text: |
       É necessário tomar duas doses da vacina, com excessão da vacina Janssen, pois ela confere imunidade com apenas uma dose.
       Procure uma UBS ou posto de saúde perto de você e solicite a segunda dose caso tenha tomado outra.
+
 
       Você pode ler mais sobre isso aqui: https://coronavirus.saude.mg.gov.br/blog/332-vacinacao-covid-19-importancia-segunda-dose
 
@@ -537,11 +579,15 @@ responses:
   utter_sintomas_menos_de_8:
   - text: |
       O teste mais indicado para você é o RT-PCR e o teste antígeno.
+      
+      
       Você pode saber mais sobre esses testes em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_sintomas_mais_de_8:
   - text: |
       O teste mais indicado para você é o de Sorologia.
+
+
       Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_contato_covid:
@@ -565,11 +611,15 @@ responses:
   utter_contato_mais_de_10:
   - text: |
       O teste mais indicado para você é o de Sorologia.
+
+
       Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_contato_menos_de_10:
   - text: |
       O teste mais indicado para você é o RT-PCR.
+
+
       Você pode saber mais sobre esse teste em: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_vacina_no_organismo:
@@ -601,6 +651,7 @@ responses:
 
       Somente em casos mais graves, como falta de ar, ou frequência respiratória mais alta, ou comprometimento no pulmão, deve-se procurar um local que seja referência para esse tipo de atendimento.
 
+
       Você pode ler mais sobre isso aqui: https://www.saude.df.gov.br/saiba-o-que-fazer-quando-o-teste-para-covid-19-der-positivo/
   - text: |
       Caramba...uma notícia triste, mas não se desespere e para saber o que fazer nesse momento, olhe o que eu achei:
@@ -618,6 +669,8 @@ responses:
         - Limpar os móveis da casa frequentemente com água sanitária ou álcool 70%;
         - Se uma pessoa da casa tiver diagnóstico positivo, todos os moradores ficam em isolamento por 14 dias também;
         - Caso outro familiar da casa também inicie os sintomas leves, ele deve reiniciar o isolamento de 14 dias.
+      
+      
       Você pode ler mais sobre isso aqui: https://saomarcoslaboratorio.com.br/br/p/433/CORONAV
 
   utter_vacina_eficacia:
@@ -674,7 +727,6 @@ responses:
       Acalma o coração...
       Se você estiver com sintomas da doença causada pelo novo coronavírus (Sars-CoV-2) deve procurar a UBS mais próxima de sua residência, onde será acolhido e poderá fazer o teste de acordo com a avaliação da equipe de enfermagem, ou médica.
       Os exames de pacientes que apresentarem sintomas são coletados nas próprias unidades. Além disso, é realizada a estratégia fast-track ou duplo fluxo, em que os pacientes com quadros respiratórios entram em fluxos separados na unidade.
-
 
       Caso faça o teste...espero que dê negativo.
 

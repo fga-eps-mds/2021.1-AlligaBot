@@ -1,0 +1,8 @@
+; Usado no CI, não apague!
+
+[pep8]
+diff = true
+recursive = true
+max-line-length = 79
+; Ignorar múltiplas importações na mesma linha
+ignore = E401,E111

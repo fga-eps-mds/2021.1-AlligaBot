@@ -7,11 +7,11 @@
 
 ### Clonando o projeto
 
-    git clone -b feature#141/rasa-deploy https://github.com/fga-eps-mds/2021-1-Bot.git
+    git clone -b feature#141/rasa-deploy https://github.com/fga-eps-mds/2021.1-AlligaBot.git
 
-Entre no diretório `2021-1-Bot`:
+Entre no diretório `2021.1-AlligaBot`:
 
-    cd 2021-1-Bot
+    cd 2021.1-AlligaBot
 
 ### Arquivos necessários
 É necessário criar alguns arquivos na raiz do projeto para executar o Alligabot dentro de um container Docker no heroku, neste repositório, eles já estão criados, são eles:
@@ -38,7 +38,7 @@ Este projeto já conta com a integração com o `Telegram`, entretando, é neces
 - Clique no nome que você escolheu
 - Depois vá em Settings (Configurações)
 - Clique em `Reveal Config Vars` 
-- Para os próximos passos, você precisa criar um bot no telegram, veja este [tutorial](https://github.com/fga-eps-mds/2021-1-Bot/blob/feature%23141%2Frasa-deploy/docs/tutoriais/Tutorial_Integracao_Rasa_com_Telegram.md)
+- Para os próximos passos, você precisa criar um bot no telegram, veja este [tutorial](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/feature%23141%2Frasa-deploy/docs/tutoriais/Tutorial_Integracao_Rasa_com_Telegram.md)
 - Adicione `BOT_ACCESS_TOKEN` e em valor cole o token de acesso informado pelo `BotFather` no telegram.
 - Adicione `BOT_USER_NAME` e em valor cole o nome de usuário do Bot.
 - Adicione `BOT_URL` e o valor será o domínio do seu app no heroku: `https://nome_do_seu_projeto_no_heroku.herokuapp.com`

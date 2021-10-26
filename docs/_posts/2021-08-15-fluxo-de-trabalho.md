@@ -11,14 +11,14 @@ Documento que descreve as etapas necessárias para uma implementação correta e
 ### Sobre o processo de download do projeto 
 Para iniciar o processo de adição de novas funcionalidades ou fazer qualquer outra alteração no projeto, faz-se necessário, primeiramente, baixar o projeto para a sua máquina local, para isso:
 
-- Siga este [tutorial](https://github.com/fga-eps-mds/2021-1-Bot#readme)
+- Siga este [tutorial](https://github.com/fga-eps-mds/2021.1-AlligaBot#readme)
 
 ### Começando a implementar uma nova funcionalidade
 Sempre que uma nova funcionalidade for implementada, faz-se necessário ajustar o ambiente.
 
 - Primeiramente, deve-se criar uma nova issue específicando a modificação que será feita. Lembre-se de assinar a issue, bem como adicionar os respectivos labels e a estimativa de dificuldade.
-- Depois, crie uma nova `branch`, seguindo a [política de branches](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/branches.md)
-- Sempre que for necessário registar as alterações em um `commit`, deve-se seguir a [política de commits](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/politicas/commits.md)
+- Depois, crie uma nova `branch`, seguindo a [política de branches](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/branches.md)
+- Sempre que for necessário registar as alterações em um `commit`, deve-se seguir a [política de commits](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/commits.md)
 - Ao final, realize o `pull request` e adicione outros colaboradores para revisarem as auterações e autorizarem o `merge` na `main`
 - Lembre-se de apagar a `branch` que não estiver mais sendo usada
 

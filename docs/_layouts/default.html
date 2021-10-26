@@ -97,7 +97,24 @@
                 <ul>
                     {% assign posts = '' | split: '' %}
                     {% for post in site.posts %}
-                    {% if post.tag != "capivaras" and post.tag != "plusultra" and post.tag != "slowbrows" %}
+                    {% if post.tag != "capivaras" and post.tag != "plusultra" and post.tag != "slowbrows" and post.tag != "politicas" %}
+                    {% if post.hide != true %}
+                    {% assign posts = posts | push: post %}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                    {% assign posts = posts | sort: 'date' %}
+                    {% for post in posts %}
+                    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="block sticky">
+                <h2>Politicas</h2>
+                <ul>
+                    {% assign posts = '' | split: '' %}
+                    {% for post in site.posts %}
+                    {% if post.tag == "politicas" %}
                     {% if post.hide != true %}
                     {% assign posts = posts | push: post %}
                     {% endif %}

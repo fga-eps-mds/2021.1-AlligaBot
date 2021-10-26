@@ -2,6 +2,7 @@
 layout: page_slowbrows
 tag: slowbrows
 ---
+
 Foi criado o grupo para conhecermos os integrantes da equipe, mas nada foi produzido na sprint 0.
 
 ## Tamanho da Sprint

@@ -12,8 +12,8 @@
  ![GitHub repo size](https://img.shields.io/github/repo-size/fga-eps-mds/2021.1-AlligaBot?color=purple)
  ![GitHub contributors](https://img.shields.io/github/contributors/fga-eps-mds/2021.1-AlligaBot?color=ff69b4)
  ![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
-<!-- ![GitHub commits count](https://badgen.net/github/commits/fga-eps-mds/2021-1-Bot/)
-<!-- [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/LICENSE) -->
+<!-- ![GitHub commits count](https://badgen.net/github/commits/fga-eps-mds/2021.1-AlligaBot/)
+<!-- [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/LICENSE) -->
 
 ## 💻 Visão Geral
 O AlligaBot propõe-se a ajudar a combater desinformação

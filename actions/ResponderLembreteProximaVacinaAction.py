@@ -5,6 +5,7 @@ from os import path
 from typing import Any, Text, Dict, List
 from datetime import datetime, timedelta
 
+
 class ActionCadastrarLembrete(Action):
     """Schedules a reminder, supplied with the last message's entities."""
 
@@ -29,7 +30,8 @@ class ActionCadastrarLembrete(Action):
         data_final = ''
 
         try:
-            data_inicial = datetime.strptime(datetime.today().strftime('%d-%m-%Y'), '%d-%m-%Y')
+            data_inicial = datetime.strptime(
+                datetime.today().strftime('%d-%m-%Y'), '%d-%m-%Y')
             data_final = datetime.strptime(data_final_informada, '%d-%m-%Y')
         except:
             mensagem_erro = f'Parece que a data {data_final_informada} não é válida 🥺. Lembre-se de informar uma data futura 😉'
@@ -47,7 +49,8 @@ class ActionCadastrarLembrete(Action):
 
         quantidade_segundos = quantidade_dias * QTD_SEGUNDOS_EM_UM_DIA
 
-        dispatcher.utter_message(f"Eu lembrarei você na data de {data_final_informada}")
+        dispatcher.utter_message(
+            f"Eu lembrarei você na data de {data_final_informada}")
 
         date = datetime.now() + timedelta(seconds=quantidade_segundos)
         entities = tracker.latest_message.get("entities")
@@ -76,6 +79,7 @@ class ActionLembrarUsuario(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(f"Hoje é o dia de se vacinar 🥳, lembre-se de ir ao posto de saúde para tomar a outra dose da vacina do Covid-19")
+        dispatcher.utter_message(
+            f"Hoje é o dia de se vacinar 🥳, lembre-se de ir ao posto de saúde para tomar a outra dose da vacina do Covid-19")
 
         return []

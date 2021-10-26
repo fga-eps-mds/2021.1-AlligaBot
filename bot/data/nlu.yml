@@ -86,13 +86,10 @@ nlu:
 
 - intent: alfa
   examples: |
-    - alfa
-    - Alfa
-    - Alpha
-    - alpha 
-
-- intent: mais_alfa
-  examples: |
+    - variante alfa
+    - o que é a variante Alfa
+    - onde surgiu a variante Alpha
+    - onde surgiu a variante alfa 
     - quero saber sobre alfa
     - me fale sobre alfa
     - mais alfa
@@ -103,14 +100,10 @@ nlu:
 
 - intent: beta
   examples: |
-    - Beta
-    - beta
-    - bet
-    - Bet
-    - BETA
-
-- intent: mais_beta
-  examples: |
+    - variante beta
+    - o que é a variante beta
+    - onde surgiu a variante beta
+    - onde surgiu a variante beta 
     - quero saber sobre beta
     - me fale sobre beta
     - mais beta
@@ -122,13 +115,9 @@ nlu:
 
 - intent: gama
   examples: |
-    - Gama
-    - gama
-    - Gam
-    - gamm
-
-- intent: mais_gama
-  examples: |
+    - variante gama
+    - o que é a variante Gama
+    - onde surgiu a variante gama
     - quero saber sobre gama
     - me fale sobre gama
     - mais Gama
@@ -139,12 +128,9 @@ nlu:
 
 - intent: delta
   examples: |
-    - Delta
-    - delta
-    - delt
-
-- intent: mais_delta
-  examples: |
+    - variante delta
+    - o que é a variante delta
+    - onde surgiu a variante delta
     - quero saber sobre Delta
     - me fale sobre Delta
     - mais Delta

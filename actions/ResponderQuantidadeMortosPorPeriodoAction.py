@@ -57,6 +57,4 @@ class ResponderQuantidadeMortosPorPeriodoAction(Action):
 
         dispatcher.utter_message(text=mensagem)
 
-
         return [AllSlotsReset()]
-

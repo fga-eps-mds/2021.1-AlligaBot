@@ -2,8 +2,7 @@ import pytest
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import AllSlotsReset
-from actions.ResponderLembreteProximaVacinaAction import ActionCadastrarLembrete, ActionLembrarUsuario 
-
+from actions.ResponderLembreteProximaVacinaAction import ActionCadastrarLembrete, ActionLembrarUsuario
 
 
 class FakeDomain:
@@ -12,9 +11,8 @@ class FakeDomain:
 
 
 class FakeTracker:
-    def get_slot(self, slot):  
+    def get_slot(self, slot):
         pass
-
 
 
 class ActionCadastrarLembreteTest:
@@ -25,13 +23,13 @@ class ActionCadastrarLembreteTest:
         self.tracker = FakeTracker()
         self.domain = FakeDomain()
 
-    def test_name(self,mocker):
+    def test_name(self, mocker):
         self.setup(mocker)
         assert self.service.name() == "action_cadastrar_lembrete_proxima_dose"
 
 
 def test_ActionCadastrarLembrete(mocker):
-     ActionCadastrarLembreteTest().test_name(mocker)
+    ActionCadastrarLembreteTest().test_name(mocker)
 
 
 class ActionLembrarUsuarioTest:
@@ -42,9 +40,10 @@ class ActionLembrarUsuarioTest:
         self.tracker = FakeTracker()
         self.domain = FakeDomain()
 
-    def test_name(self,mocker):
+    def test_name(self, mocker):
         self.setup(mocker)
         assert self.service.name() == "action_enviar_lembrete_da_proxima_dose_da_vacina"
 
+
 def test_ActionLembrarUsuario(mocker):
-     ActionLembrarUsuarioTest().test_name(mocker)
+    ActionLembrarUsuarioTest().test_name(mocker)

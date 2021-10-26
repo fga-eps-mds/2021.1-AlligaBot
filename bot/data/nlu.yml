@@ -1,4 +1,4 @@
-version: "2.0"
+﻿version: "2.0"
 
 nlu:
 - intent: start
@@ -649,4 +649,11 @@ nlu:
     - Registrar a data da próxima dose da vacina
     - Registrar a data da segunda dose da vacina
     - Cadastrar próxima dose da vacina
+
+- intent: stop
+  examples: |
+    - Adeus para sempre
+    - Adeus
+    - Até nunca mais bot
+    - Foi boa, adeus
 

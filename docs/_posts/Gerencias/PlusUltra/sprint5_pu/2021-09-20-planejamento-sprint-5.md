@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 5
 
 Para o planejamento dessa sprint foram feitas 3 reuniões principais: uma reunião com os p.o's e scrum masters das 3 equipes para conversar e decidir pontos cruciais para a entrega da release 1 (principalmente acerca de documentações pendentes), a reunião de planejamento da equipe e uma reunião com os tencologistas para decidir o escopo do mvp para a release 1. A partir do que foi decidido na primeira reunião, foi possível alocar as tarefas dentro da equipe Plus Ultra. Depois da reunião com os tecnologistas a implementação do bot utilizável começará.
 

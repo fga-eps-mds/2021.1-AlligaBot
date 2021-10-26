@@ -1,7 +1,7 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Planejamento Sprint 04
 
 Essa sprint será decisiva na organização do trabalho conjunto entre todos os grupos, além da elaboração de documentos importantes para a release 1.
 

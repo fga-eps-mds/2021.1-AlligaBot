@@ -1,7 +1,7 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Planejamento Sprint 02
 
 Nessa sprint, além das tarefas habituais de documentação, vamos resolver também diversas questões relativas aos problemas identificados na sprint 1, como a necessidade de ter um escopo bem definido para a elaboração do projeto. Com essas informações do escopo, iremos criar um protótipo de baixa fidelidade e trabalhar em cima dos resultados desse protótipo.
 

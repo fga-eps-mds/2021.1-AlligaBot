@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 10
 
 Foi dividido nessa sprint princialmente a implementação de 9 US, 3 por equipe, já que todos estão ambientados ao ambiente de desenvolvimento. Além disso os tecnologistas irão começar a trabalhar para conseguir implementar o uso de API no bot. 
 

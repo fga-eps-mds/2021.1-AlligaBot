@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 0
 
 Foram divididos os papéis de cada membro da equipe entre Scrum Master, PO, Arquiteto, Devops e Tecnologistas. Por ser uma sprint de ambientação a equipe focou em aprimorar os conhecimentos em áreas específicas, e tais conhecimentos seriam passados para os outros membros do grupo quando vier a calhar. Os membros estudaram sobre Scrum (Amanda), DevOps (Douglas e Yudi), GitHub (Pedro Lucas e Yudi), arquitetura (Victor), frameworks e linguagens (Erick Levy) e estudar os projetos do semestre passado (Matheus). Também foi feita uma planilha dos horários da equipe para a melhor visualização de tempo que pode ser direcionado a disciplina. Perto do fim da sprint o integrante Matheus foi remanejado, então teve que sair da nossa equipe.
 

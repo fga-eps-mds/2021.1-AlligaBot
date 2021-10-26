@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 7
 
 Nesta sprint o foco é deixar tudo pronto, tanto as documentações no ghPage do repositório quanto o mvp estipulado do chatBot, para a release que será no dia 14, meio da sprint.
 
@@ -25,7 +25,7 @@ Nesta sprint o foco é deixar tudo pronto, tanto as documentações no ghPage do
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#162](https://github.com/fga-eps-mds/2021-1-Bot/issues/162) | Integrar funcionalidades da FT03: Transmissão e prevenção ao bot | - | Erick, Douglas |
 | [#169](https://github.com/fga-eps-mds/2021-1-Bot/issues/169) | Integrar as funcionalidades -Regras para lugares específicos | - | Erick, Douglas |
-| [#174](https://github.com/fga-eps-mds/2021-1-Bot/issues/174) | Resovendo o erro ao executar: make build | - | Douglas, Yudi |
+| [#174](https://github.com/fga-eps-mds/2021-1-Bot/issues/174) | Resolvendo o erro ao executar: make build | - | Douglas, Yudi |
 | [#176](https://github.com/fga-eps-mds/2021-1-Bot/issues/176) | Finalização da GH Page para R1 | 5 | Amanda, Victor |
 | [#181](https://github.com/fga-eps-mds/2021-1-Bot/issues/181) | Mudar imagem do AlligaBot no README | 1 | Yudi |
 | [#182](https://github.com/fga-eps-mds/2021-1-Bot/issues/182) | Correção de erros no documento de arquitetura | 5 | Victor |

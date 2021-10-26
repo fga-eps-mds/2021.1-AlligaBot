@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 3
 
 A reunião acerca das Epics, Features e User Stories foi realizada com sucesso. Mais tarde O integrante [Pedro](https://github.com/PedroLSF) organizou e documentou as ideias, ficando da seguinte forma:
 

@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 4
 
 Nessa sprint a equipe foi bastante ambiciosa em relação a quantidade de trabalho, tentamos nos arriscar para tentar entender a carga de trabalho que melhor conseguimos finalizar. Marcamos um total de 3 reuniões entre a equipe: para discutir os requisitos e o backlog do produto, para realização dos protótipos de baixa e alta fidelidade e de passagem de conhecimento de rasa dos tecnologistas para o restante do grupo. 
 O arquiteto [Victor](https://github.com/victorear05) continuou a trabalhar no documento de arquitetura, tal qual o integrante [Yudi](https://github.com/yudi-azvd) continuou os estudos e implementações com Dockerfile e Docker-Compose.

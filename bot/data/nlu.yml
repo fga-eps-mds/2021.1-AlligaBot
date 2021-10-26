@@ -10,6 +10,8 @@ nlu:
     - Ola
     - Bom dia
     - Boa Tarde
+    - Alo
+    - Como vai
 
     
 - intent: despedida
@@ -19,12 +21,19 @@ nlu:
     - flw
     - obrigado bot
     - tchau
+    - Fui
+    - Ate logo
+    - conversamos mais depois
+    - quero parar
+    - finalizar
+    - parar
 
 - intent: covid
   examples: |
-    - o que e COVID ?
-    - COVID
-
+    - o que e Covid-19 ?
+    - Covid-19
+    - Quero saber mais sobre o que é a Covid-19?
+    
 - intent: fora_do_escopo
   examples: |
     - Quero pedir comida
@@ -89,6 +98,8 @@ nlu:
     - mais alfa
     - mais sobre alfa
     - mais alfa
+    - quero mais detalhes sobre a alfa
+    - detalhe alfa
 
 - intent: beta
   examples: |
@@ -105,6 +116,9 @@ nlu:
     - mais beta
     - mais sobre beta
     - mais bet
+    - mais detalhe beta
+    - detalhe beta
+    - quero mais detalhes sobre a beta
 
 - intent: gama
   examples: |
@@ -119,6 +133,9 @@ nlu:
     - me fale sobre gama
     - mais Gama
     - mais sobre gama
+    - mais detalhe gama
+    - detalhe gama
+    - quero mais detalhes sobre a gama
 
 - intent: delta
   examples: |
@@ -132,6 +149,9 @@ nlu:
     - me fale sobre Delta
     - mais Delta
     - mais sobre delta
+    - mais detalhe delta
+    - detalhe delta
+    - quero mais detalhes sobre a delta
 
 - intent: formas_gerais_de_prevencao
   examples: |
@@ -259,7 +279,6 @@ nlu:
     - Quais cuidados devo ter na Barbearia para me proteger do COVID-19?
     - Como devo me portar no cabeleireiro 
     - Como devo me portar na barbearia
-    - Quais soluções podem me proteger do COVID-19
 
 - intent: sintomas
   examples: |
@@ -282,10 +301,10 @@ nlu:
     
 - intent: covid_em_sua_cidade
   examples: |
-    - Quero saber sobre o covid na minha cidade
-    - Quero saber sobre o covid-19 na minha cidade
-    - Quero saber sobre o Sars-cov-2 na minha cidade
-    - Covid na minha cidade
+    - Desejo saber a quantidade de infectados por covid na minha cidade e quantidade de mortos por covid na minha cidade
+    - Desejo saber a quantidade de contaminados por covid na minha cidade e quantidade de mortos por covid na minha cidade
+    - Desejo saber o número de infectados por covid na minha cidade e o número de mortos por covid na minha cidade
+    - Desejo saber o número de contaminados por covid na minha cidade e o número de mortos por covid na minha cidade
 
 - intent: uf_input_form
   examples: |
@@ -338,6 +357,9 @@ nlu:
     - A moderna é segura?
     - Segurança da vacina
     - Posso confiar na vacina?
+    - É arriscado tomar as vacinas?
+    - É perigoso eu virar jacaré me vacinando?
+    - Tenho medo de tomar a vacina
 
 - intent: cuidados_escritorio
   examples: |
@@ -356,13 +378,14 @@ nlu:
 - intent: preciso_me_vacinar
   examples: |
     - Preciso me vacinar?
-    - Preciso me vacina?
     - É necessário tomar a vacina?
     - Todo mundo precisa tomar a vacina?
     - Quem precisa tomar a vacina?
     - Já peguei covid-19, preciso tomar a vacina?
     - Já peguei covid-19, preciso me vacinar?
-    - Necessidade da vacina
+    - sou jovem, preciso tomar vacina?
+    - Tenho que me vacinar?
+    - Meu vizinho tem que se vacinar?
 
 - intent: cuidados_no_atendimento
   examples: |
@@ -448,8 +471,9 @@ nlu:
   
 - intent: exame_com_sintomas
   examples: |
-    - tenho sintomas
-    - estou com sintomas
+    - Tenho incativos de covid
+    - posso estar com indicios de covid
+    - acho que estou com sintomas de covid
 
 - intent: sintomas_mais_de_8
   examples: |
@@ -473,20 +497,24 @@ nlu:
 - intent: contato_mais_de_10
   examples: |
     - tive contato com o virus a mais de 10 dias
-    - entrei em contato com alguem contaminado a mais de 10 dias
+    - passei com alguem contaminado a mais de 10 dias
     - tem mais de 10 dias
 
 - intent: contato_menos_de_10
   examples: |
     - tive contato com o virus a menos de 10 dias
-    - entrei em contato com alguem contaminado a menos de 10 dias
+    - entrei em contato com alguem contaminado entre 10 dias
     - tem menos de 10 dias
   
 - intent: vacina_no_organismo
   examples: |
-    - Como a vacina funciona?
+    - Como as vacinas funcionam?
     - Como a vacina age no organismo?
     - Funcionamento da vacina
+    - como a Janssen funciona?
+    - como a Pfizer age no organismo?
+    - como acontece a imunizaçao pela Coronavac?
+    - como a vacina Astrazeneca se comporta no organismo?
 
 - intent: quando_vacinar
   examples: |
@@ -507,6 +535,76 @@ nlu:
     - Teste positivo
     - O que fazer depois do positivo?
 
+- intent: cadastrar_data_proxima_dose_vacina
+  examples: |
+    - Cadastrar a data da próxima dose da vacina
+    - Cadastrar a data da segunda dose da vacina
+    - Registrar a data da próxima dose da vacina
+    - Registrar a data da segunda dose da vacina
+    - Cadastrar próxima dose da vacina
+
+- intent: vacina_eficacia
+  examples: |
+    - eficácia vacina
+    - eficácia
+    - qual a eficácia das vacinas?
+    - como posso saber se as vacinas são eficazes?
+    - estarei imunizado se tomar a vacina?
+    - qual a chance de eu pegar covid pós tomar vacina?
+
+- intent: eficacia_pfizer
+  examples: |
+    - eficácia da pfizer
+    - qual a eficácia da pfizer?
+    - pfizer funciona mesmo?
+    - porcentagem da eficacia da pfizer
+    - taxa de eficacia pfizer
+    - é eficaz tomar pfizer?
+    - é eficaz me vacinar com pfizer?
+    - a eficacia da pfizer é comprovada?
+
+- intent: eficacia_da_coronavac
+  examples: |
+    - eficácia da coronavac
+    - qual a eficácia da coronavac?
+    - coronavac funciona mesmo?
+    - porcentagem da eficacia da coronavac
+    - taxa de eficacia coronavac
+    - é eficaz tomar coronavac?
+    - é eficaz me vacinar com coronavac?
+    - a eficacia da coronavac é comprovada?
+    
+- intent: eficacia_janssen
+  examples: |
+    - eficácia da janssen
+    - qual a eficácia da janssen?
+    - janssen funciona mesmo?
+    - porcentagem da eficacia da janssen
+    - taxa de eficacia janssen
+    - é eficaz tomar janssen?
+    - é eficaz me vacinar com janssen?
+    - a eficacia da janssen é comprovada?
+
+- intent: eficacia_astrazeneca
+  examples: |
+    - eficácia da astrazenica
+    - qual a eficácia da astrazenica?
+    - qual a eficácia da astrazeneca?
+    - astrazeneca funciona mesmo?
+    - porcentagem da eficacia da astrazeneca
+    - taxa de eficacia astrazeneca
+    - é eficaz tomar astrazeneca?
+    - é eficaz me vacinar com astrazeneca?
+    - a eficacia da astrazeneca é comprovada?
+
+- intent: oque_fazer_suspeita
+  examples: |
+    - suspeita covid
+    - o que fazer caso esteja com suspeita de covid?
+    - estou com suspeita de covid-19, o que fazer?
+    - estou com sintomas de corona
+    - estou com sintomas de covid-19
+
 - intent: local_teste
   examples: |
     - Onde me testar?
@@ -516,4 +614,39 @@ nlu:
     - Localidade de testagem
     - Onde é que eu me testo?
     - Onde é o lugar para fazer o teste de covid?
-    
+
+- intent: quantidade_de_infectados_por_periodo
+  examples: |
+    - Desejo saber a quantidade de infectados pelo covid-19 por período
+    - Desejo saber a quantidade de contaminados por covid por período
+    - Desejo saber o número de infectados por covid por período
+    - Desejo saber o número de contaminados por covid por período  
+
+- intent: quantidade_de_mortos_por_periodo
+  examples: |
+    - Me informe a quantidade de mortos pelo covid-19 por período
+    - Quero saber sobre o número de mortos por período
+    - Me interesso em saber sobre quantidade de mortos pelo covid-19 por período
+    - Quantos seriam os mortos pelo covid-19 por período?
+    - Me informe a quantidade de mortos pelo covid-19 por período
+    - Qual seria a quantidade de mortos por período?
+
+- intent: quantidade_de_vacinados_por_periodo
+  examples: |
+    - Desejo saber a quantidade de vacinados contra o covid-19 por período
+    - Quero saber os vacinados por período
+    - Tenho interesse em saber a quantidade de vacinados contra o covid-19 por período
+    - Quantos são os vacinados contra o covid-19 por período?
+    - Me fala sobre a quantidade de vacinados contra o covid-19 por período
+    - Qual a quantidade de vacinados por período?
+    - Vacinados por período
+    - Total de vacinados por período
+
+- intent: cadastrar_data_proxima_dose_vacina
+  examples: |
+    - Cadastrar a data da próxima dose da vacina
+    - Cadastrar a data da segunda dose da vacina
+    - Registrar a data da próxima dose da vacina
+    - Registrar a data da segunda dose da vacina
+    - Cadastrar próxima dose da vacina
+

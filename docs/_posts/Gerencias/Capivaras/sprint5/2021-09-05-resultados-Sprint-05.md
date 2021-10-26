@@ -1,7 +1,7 @@
 ---
+layout: page_capivaras
 tag: capivaras
 ---
-# Resultados Sprint 5
 
 Nessa sprint novamente foram acumuladas as documentações de gerencia.
 
@@ -79,12 +79,11 @@ para executar cada uma das tarefas.
 
 ## Burndown
 
-![](../assets/burndown_sprint5.jpg)
+<img src="{{ '/assets/img/capivaras/burndown_sprint5.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-![](../assets/velocity_sprint5.jpg)
-
+<img src="{{ '/assets/img/capivaras/velocity_sprint5.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 ## Avaliação do Scrum Master
 
 Essa sprint teve um salto de produtividade devido a grande melhora na comunicação entre as equipes. As reuniões entre os Scrum Masters estão sendo bem encaminhativas

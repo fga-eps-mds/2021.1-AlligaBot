@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Planejamento Sprint 6
 
 Nesta sprint as tarefas focam em terminar e resvisar documentações para a release 1 e conseguir fechar o mvp estipulado do bot também para essa release.
 

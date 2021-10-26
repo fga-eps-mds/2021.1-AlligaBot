@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 6
 
 Foi uma sprint bastante aproveitada, praticamente todas as tarefas que foram alocadas puderam ser concluídas.
 

@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 9
 
 A partir dessa Sprint pode-se dizer que todos os integrantes tiveram contato com o código do bot. Os tecnologistas pesquisaram sobre maneiras de pegar dados de API's para o bot utilizar, enquanto os demais se adaptavam ao ambiente e ao código e tentavam implementar uma US informativa.
 

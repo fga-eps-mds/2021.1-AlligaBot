@@ -1,7 +1,7 @@
 ---
+layout: page_plusultra
 tag: plusultra
 ---
-# Resultados Sprint 8
 
 Foram arrumados e melhorados os pontos que foram destacados nos feedbacks da release 1 enquanto os tecnologistas fizeram o papel de "batedores" e pesquisaram sobre API's.
 

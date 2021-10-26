@@ -358,6 +358,9 @@ nlu:
     - A moderna é segura?
     - Segurança da vacina
     - Posso confiar na vacina?
+    - É arriscado tomar as vacinas?
+    - É perigoso eu virar jacaré me vacinando?
+    - Tenho medo de tomar a vacina
 
 - intent: cuidados_escritorio
   examples: |
@@ -376,13 +379,14 @@ nlu:
 - intent: preciso_me_vacinar
   examples: |
     - Preciso me vacinar?
-    - Preciso me vacina?
     - É necessário tomar a vacina?
     - Todo mundo precisa tomar a vacina?
     - Quem precisa tomar a vacina?
     - Já peguei covid-19, preciso tomar a vacina?
     - Já peguei covid-19, preciso me vacinar?
-    - Necessidade da vacina
+    - sou jovem, preciso tomar vacina?
+    - Tenho que me vacinar?
+    - Meu vizinho tem que se vacinar?
 
 - intent: cuidados_no_atendimento
   examples: |
@@ -505,9 +509,13 @@ nlu:
   
 - intent: vacina_no_organismo
   examples: |
-    - Como a vacina funciona?
+    - Como as vacinas funcionam?
     - Como a vacina age no organismo?
     - Funcionamento da vacina
+    - como a Janssen funciona?
+    - como a Pfizer age no organismo?
+    - como acontece a imunizaçao pela Coronavac?
+    - como a vacina Astrazeneca se comporta no organismo?
 
 - intent: quando_vacinar
   examples: |

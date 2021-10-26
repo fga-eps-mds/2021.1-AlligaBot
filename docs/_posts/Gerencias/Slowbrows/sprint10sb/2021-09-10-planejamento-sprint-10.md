@@ -3,19 +3,20 @@ layout: page_slowbrows
 tag: slowbrows
 ---
 
-Após aprendermos qual será o objetivo da disciplina, devemos designar os cargos de todos os membros do grupo e começar a discutir quais tecnologias que serão utilizadas. Foi proposto para cada membro do grupo iniciar os estudos sobre seus respectivos papeis.
+Apesar da semana universitária, na sprint 10 teremos algumas reuniões para dividir entre todos os grupos as US restantes.  Após a divisão iniciaremos então os pareamentos e produções.
+
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 29/08/2021 |    0.1   | planSprint1 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 13/10/2021 |    0.1   | planejamento Sprint 10| [Henrique Hida](https://github.com/HenriqueHida)|
 
 ## Tamanho da Sprint
 
-**Início**: 29/07/21
+**Início**: 01/10/21
 
-**Fim**: 04/08/21
+**Fim**: 07/10/21
 
 **Duração**: 7 dias
 
@@ -23,7 +24,8 @@ Após aprendermos qual será o objetivo da disciplina, devemos designar os cargo
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#23](https://github.com/fga-eps-mds/2021-1-Bot/issues/23) | Sprint 1 - Preparação |
+| [#284](https://github.com/fga-eps-mds/2021-1-Bot/issues/284) | Implementação da US 30 |  [Henrique Hida](https://github.com/HenriqueHida) e [Kayro César](https://github.com/kayrocesar)
+
 
 ## Papeis
 

@@ -3,27 +3,33 @@ layout: page_slowbrows
 tag: slowbrows
 ---
 
-Após aprendermos qual será o objetivo da disciplina, devemos designar os cargos de todos os membros do grupo e começar a discutir quais tecnologias que serão utilizadas. Foi proposto para cada membro do grupo iniciar os estudos sobre seus respectivos papeis.
+
+A sprint 6 foi utilizada para a finalização dos documentos restantes para a release 1. Conseguimos também nos comunicar com os monitores e a professora para receber ainda mais informações e um feedback sobre o que foi feito até hoje.
+
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 29/08/2021 |    0.1   | planSprint1 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 13/09/2021 |    0.1   | resultSprint6 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 14/09/2021 |    0.1.1   | resultSprint6 | [Henrique Hida](https://github.com/HenriqueHida)|
 
 ## Tamanho da Sprint
 
-**Início**: 29/07/21
+**Início**: 03/09/21
 
-**Fim**: 04/08/21
+**Fim**: 09/09/21
 
 **Duração**: 7 dias
 
+
 ## Objetivos
 
-| Issue |            Título            |        Responsáveis         | 
+| Issue |            Título            |       Status        | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#23](https://github.com/fga-eps-mds/2021-1-Bot/issues/23) | Sprint 1 - Preparação |
+| [#136](https://github.com/fga-eps-mds/2021-1-Bot/issues/136) | Reunião pre-planning | Concluído 
+| [#143](https://github.com/fga-eps-mds/2021-1-Bot/issues/143) | Plano de comunicação | Concluído 
+| [#149](https://github.com/fga-eps-mds/2021-1-Bot/issues/149) |  Documentação das sprints| Concluído 
 
 ## Papeis
 

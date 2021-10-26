@@ -23,7 +23,7 @@ Nessa sprint foram definidos os cargos de todos os membros do grupo, além de in
 
 | Issue |            Título            |       Status     | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#23](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/23) | Sprint 1 - Preparação | Concluído
+| [#23](https://github.com/fga-eps-mds/2021-1-Bot/issues/23) | Sprint 1 - Preparação | Concluído
 
 ## Papeis
 

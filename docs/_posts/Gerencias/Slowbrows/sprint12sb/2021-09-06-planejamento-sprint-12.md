@@ -3,27 +3,30 @@ layout: page_slowbrows
 tag: slowbrows
 ---
 
-Após aprendermos qual será o objetivo da disciplina, devemos designar os cargos de todos os membros do grupo e começar a discutir quais tecnologias que serão utilizadas. Foi proposto para cada membro do grupo iniciar os estudos sobre seus respectivos papeis.
+Para essa sprint planejamos revisar, testar e humanizar todas as US.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 29/08/2021 |    0.1   | planSprint1 | [Henrique Hida](https://github.com/HenriqueHida)|
+| 20/10/2021 |  0.1   | Abertura do documento | [Henrique Hida](https://github.com/HenriqueHida)|
 
 ## Tamanho da Sprint
 
-**Início**: 29/07/21
+**Início**: 14/10/21
 
-**Fim**: 04/08/21
+**Fim**: 20/10/21
 
 **Duração**: 7 dias
 
 ## Objetivos
 
-| Issue |            Título            |        Responsáveis         | 
-|:-------:|:----------------------------:|:-----------------------------:|
-| [#23](https://github.com/fga-eps-mds/2021-1-Bot/issues/23) | Sprint 1 - Preparação |
+| Issue |            Título            |      Estimativa     |        Responsáveis         | 
+|:-----:|:----------------------------:|:-------------------:|:---------------------------:|
+| [#323](https://github.com/fga-eps-mds/2021-1-Bot/issues/323) | Implementação das US 45 & 46 | 5 | Douglas Monteles e Kayro Cesar|
+| [#333](https://github.com/fga-eps-mds/2021-1-Bot/issues/333) | Realizar testes rasa na US11 até US15 | 5 | Kayro Cesar |
+| [#344](https://github.com/fga-eps-mds/2021-1-Bot/issues/344) | Humanização e revisão das US 22 até 31 | 5 | Henrique Hida |
+
 
 ## Papeis
 
@@ -36,3 +39,6 @@ Após aprendermos qual será o objetivo da disciplina, devemos designar os cargo
 | Tecnologista | [Kayro César](https://github.com/kayrocesar)
 
 Autor: [Henrique Hida](https://github.com/HenriqueHida)
+
+
+

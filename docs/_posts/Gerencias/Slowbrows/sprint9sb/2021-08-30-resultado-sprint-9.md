@@ -1,4 +1,7 @@
-﻿
+﻿---
+layout: page_slowbros
+tag: slowbros
+---
 
 
 A sprint 9 foi mais utilizada para estudo do rasa e preparação do ambiente de desenvolvimento, para então todos começarem a implementar as User Stories na próxima sprint.

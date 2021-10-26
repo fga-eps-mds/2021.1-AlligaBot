@@ -34,13 +34,13 @@ Já o integrante [Yudi](https://github.com/yudi-azvd) estudou e tentou implement
 
 | Issue |            Título            |         Status        | 
 |-------|:----------------------------:|-----------------------|
-| [#40](https://github.com/fga-eps-mds/2021-1-Bot/issues/40) | Concretização dos primeiros passos | _Concluído_ |
-| [#41](https://github.com/fga-eps-mds/2021-1-Bot/issues/41) | Avanço em noções da arquitetura do projeto | _Concluído_ |
-| [#42](https://github.com/fga-eps-mds/2021-1-Bot/issues/42) | Arquitetura inicial | _Parcialmente Concluído_ |
-| [#43](https://github.com/fga-eps-mds/2021-1-Bot/issues/43) | Update no repositório do projeto e documentação | _Parcialmente Concluído_ |
-| [#44](https://github.com/fga-eps-mds/2021-1-Bot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | _Parcialmente Concluído_ |
-| [#45](https://github.com/fga-eps-mds/2021-1-Bot/issues/45) | Avanço nas noções de tecnologistas e usos do Rasa | _Concluído_|
-| [#46](https://github.com/fga-eps-mds/2021-1-Bot/issues/46) | Escolha da plataforma | _Concluído_ |
+| [#40](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/40) | Concretização dos primeiros passos | _Concluído_ |
+| [#41](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/41) | Avanço em noções da arquitetura do projeto | _Concluído_ |
+| [#42](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/42) | Arquitetura inicial | _Parcialmente Concluído_ |
+| [#43](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/43) | Update no repositório do projeto e documentação | _Parcialmente Concluído_ |
+| [#44](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | _Parcialmente Concluído_ |
+| [#45](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/45) | Avanço nas noções de tecnologistas e usos do Rasa | _Concluído_|
+| [#46](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/46) | Escolha da plataforma | _Concluído_ |
 
 ## Avaliação da Scrum Master
 

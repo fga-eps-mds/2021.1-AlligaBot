@@ -26,9 +26,9 @@ Na 6º sprint, tivemos que terminar alguns documentos restantes que foram design
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#136](https://github.com/fga-eps-mds/2021-1-Bot/issues/136) | Reunião pre-planning | [Pedro](https://github.com/PedroLSF), [Henrique](https://github.com/HenriqueHida),  [Matheus Akio](https://github.com/matheusakio), [Matheus Sousa](https://github.com/gatotabaco), [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) e [Amanda](https://github.com/AmandaNbr)
-| [#143](https://github.com/fga-eps-mds/2021-1-Bot/issues/143) | Plano de comunicação | [Amanda Nobre](https://github.com/AmandaNbr)
-| [#149](https://github.com/fga-eps-mds/2021-1-Bot/issues/149) |  Documentação das sprints|  [Henrique](https://github.com/HenriqueHida)
+| [#136](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/136) | Reunião pre-planning | [Pedro](https://github.com/PedroLSF), [Henrique](https://github.com/HenriqueHida),  [Matheus Akio](https://github.com/matheusakio), [Matheus Sousa](https://github.com/gatotabaco), [Ana Carolina](https://github.com/AnaCarolinaRodriguesLeite) e [Amanda](https://github.com/AmandaNbr)
+| [#143](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/143) | Plano de comunicação | [Amanda Nobre](https://github.com/AmandaNbr)
+| [#149](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/149) |  Documentação das sprints|  [Henrique](https://github.com/HenriqueHida)
 
 
 

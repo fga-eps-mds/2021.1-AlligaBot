@@ -15,15 +15,15 @@ Essa sprint serviu como um alongamento da ambientação geral dos grupos em prog
 
 |  Issue  |                   Título                  |              Status             | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#229](https://github.com/fga-eps-mds/2021-1-Bot/issues/229) | Estruturar GitHub Pages com jekyll | _Concluído_ |
-| [#242](https://github.com/fga-eps-mds/2021-1-Bot/issues/242) | Adicionar GitHub Action para fazer build e deploy da documentação | _Concluído_ |
-| [#270](https://github.com/fga-eps-mds/2021-1-Bot/issues/270) | Implementação da US31 | _Concluído_ |
-| [#271](https://github.com/fga-eps-mds/2021-1-Bot/issues/271) | Criação dos teste de rasa/arrumando bugs | _Concluído_ |
-| [#272](https://github.com/fga-eps-mds/2021-1-Bot/issues/272) | Documentar as sprints 9 e 10 | _Concluído_ |
-| [#274](https://github.com/fga-eps-mds/2021-1-Bot/issues/274) | Explicação sobre as mudanças | _Parcialmente Concluído_ |
-| [#276](https://github.com/fga-eps-mds/2021-1-Bot/issues/276) | Implementação da US32 | _Parcialmente Concluído_ |
-| [#278](https://github.com/fga-eps-mds/2021-1-Bot/issues/278) | Implementação de US37 | _Parcialmente Concluído_ |
-| [#279](https://github.com/fga-eps-mds/2021-1-Bot/issues/279) | Aplicar formatação correta para os arquivos da documentação | _Concluído_ |
+| [#229](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/229) | Estruturar GitHub Pages com jekyll | _Concluído_ |
+| [#242](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/242) | Adicionar GitHub Action para fazer build e deploy da documentação | _Concluído_ |
+| [#270](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/270) | Implementação da US31 | _Concluído_ |
+| [#271](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/271) | Criação dos teste de rasa/arrumando bugs | _Concluído_ |
+| [#272](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/272) | Documentar as sprints 9 e 10 | _Concluído_ |
+| [#274](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/274) | Explicação sobre as mudanças | _Parcialmente Concluído_ |
+| [#276](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/276) | Implementação da US32 | _Parcialmente Concluído_ |
+| [#278](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/278) | Implementação de US37 | _Parcialmente Concluído_ |
+| [#279](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/279) | Aplicar formatação correta para os arquivos da documentação | _Concluído_ |
 
 ## Quadro de conhecimentos
 

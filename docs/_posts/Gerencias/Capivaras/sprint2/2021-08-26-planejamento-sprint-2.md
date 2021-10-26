@@ -26,16 +26,16 @@ Nessa sprint, além das tarefas habituais de documentação, vamos resolver tamb
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#22](https://github.com/fga-eps-mds/2021-1-Bot/issues/22) | Documentar a sprint 0 e a sprint 1 | Matheus |
-| [#25](https://github.com/fga-eps-mds/2021-1-Bot/issues/25) | Estabelecer reuniões ordinárias com representantes de todos os grupos presentes (entre os PO) | Ana |
-| [#26](https://github.com/fga-eps-mds/2021-1-Bot/issues/26) | Documentação da Sprint 2 | Matheus |
-| [#27](https://github.com/fga-eps-mds/2021-1-Bot/issues/27) | Reunião de brainstorm para possíveis escopos do produto #27 | Todos os membros do grupo |
-| [#30](https://github.com/fga-eps-mds/2021-1-Bot/issues/30) | Dialogar com o cliente e validar ideias de escopo | Ana Carolina |
-| [#31](https://github.com/fga-eps-mds/2021-1-Bot/issues/31) | Criar protótipo de baixa fidelidade | Todos os membros do grupo |
-| [#32](https://github.com/fga-eps-mds/2021-1-Bot/issues/32) | Criar template de pull request | Lara |
-| [#33](https://github.com/fga-eps-mds/2021-1-Bot/issues/33) | Criar políticas do repositório | Lameque e Eduardo |
-| [#34](https://github.com/fga-eps-mds/2021-1-Bot/issues/34) | Criar ambiente de documentação - GitHub Pages | Ana e Lameque |
-| [#35](https://github.com/fga-eps-mds/2021-1-Bot/issues/35) | Configurar ambiente de desenvolvimento | Thais |
+| [#22](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/22) | Documentar a sprint 0 e a sprint 1 | Matheus |
+| [#25](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/25) | Estabelecer reuniões ordinárias com representantes de todos os grupos presentes (entre os PO) | Ana |
+| [#26](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/26) | Documentação da Sprint 2 | Matheus |
+| [#27](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/27) | Reunião de brainstorm para possíveis escopos do produto #27 | Todos os membros do grupo |
+| [#30](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/30) | Dialogar com o cliente e validar ideias de escopo | Ana Carolina |
+| [#31](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/31) | Criar protótipo de baixa fidelidade | Todos os membros do grupo |
+| [#32](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/32) | Criar template de pull request | Lara |
+| [#33](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/33) | Criar políticas do repositório | Lameque e Eduardo |
+| [#34](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/34) | Criar ambiente de documentação - GitHub Pages | Ana e Lameque |
+| [#35](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/35) | Configurar ambiente de desenvolvimento | Thais |
 
 
 ## Papeis

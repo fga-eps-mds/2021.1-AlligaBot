@@ -16,11 +16,11 @@ A sprint 9 foi mais utilizada para estudo do rasa e preparação do ambiente de 
 
 | Issue |            Título            |        Status         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#237](https://github.com/fga-eps-mds/2021-1-Bot/issues/237) | Reunião pre-planning da sprint 9 |  Concluído 
-| [#242](https://github.com/fga-eps-mds/2021-1-Bot/issues/242) | Adicionar github Action| Parcialmente concluído
-| [#244](https://github.com/fga-eps-mds/2021-1-Bot/issues/244)  | Renumerar US já feitas| Concluído
-| [#250](https://github.com/fga-eps-mds/2021-1-Bot/issues/229) |  Configurar ambiente de estudo do Rasa|  Concluído
-[#260](https://github.com/fga-eps-mds/2021-1-Bot/issues/260) [#262](https://github.com/fga-eps-mds/2021-1-Bot/issues/262) [#264](https://github.com/fga-eps-mds/2021-1-Bot/issues/264) |  Implementação das US| Concluído
+| [#237](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/237) | Reunião pre-planning da sprint 9 |  Concluído 
+| [#242](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/242) | Adicionar github Action| Parcialmente concluído
+| [#244](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/244)  | Renumerar US já feitas| Concluído
+| [#250](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/229) |  Configurar ambiente de estudo do Rasa|  Concluído
+[#260](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/260) [#262](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/262) [#264](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/264) |  Implementação das US| Concluído
 
 ## Burndown
 ![image](https://user-images.githubusercontent.com/78568172/138776817-cd4ec4e3-980b-46c5-917d-fa23b375144d.png)

@@ -26,14 +26,14 @@ além de leves mudanças em templates e políticas de documentação.
 
 | Issue |            Título            |        Responsáveis         | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#26](https://github.com/fga-eps-mds/2021-1-Bot/issues/26) | Planejamento da Sprint 2 | Matheus |
-| [#32](https://github.com/fga-eps-mds/2021-1-Bot/issues/32) | Criar template de pull request | Lara |
-| [#46](https://github.com/fga-eps-mds/2021-1-Bot/issues/46) | Escolha da plataforma | Lara |
-| [#50](https://github.com/fga-eps-mds/2021-1-Bot/issues/50) | Template para as dailys | Matheus |
-| [#31](https://github.com/fga-eps-mds/2021-1-Bot/issues/31) | Criar protótipo de baixa fidelidade | Todos os membros do grupo |
-| [#47](https://github.com/fga-eps-mds/2021-1-Bot/issues/47) | Alteração na politica de Brach | Lameque |
-| [#48](https://github.com/fga-eps-mds/2021-1-Bot/issues/48) | Protótipo de alta fidelidade | Lara |
-| [#52](https://github.com/fga-eps-mds/2021-1-Bot/issues/52) | Documentação da Sprint 3 | Matheus |
+| [#26](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/26) | Planejamento da Sprint 2 | Matheus |
+| [#32](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/32) | Criar template de pull request | Lara |
+| [#46](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/46) | Escolha da plataforma | Lara |
+| [#50](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/50) | Template para as dailys | Matheus |
+| [#31](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/31) | Criar protótipo de baixa fidelidade | Todos os membros do grupo |
+| [#47](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/47) | Alteração na politica de Brach | Lameque |
+| [#48](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/48) | Protótipo de alta fidelidade | Lara |
+| [#52](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/52) | Documentação da Sprint 3 | Matheus |
 
 
 ## Papeis

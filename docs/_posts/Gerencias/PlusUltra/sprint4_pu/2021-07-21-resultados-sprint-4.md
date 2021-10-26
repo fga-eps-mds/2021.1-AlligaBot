@@ -47,21 +47,21 @@ Assim, o integrante [Yudi](https://github.com/yudi-azvd) continuou a estudar e i
 
 | Issue   |            Título                         |        Status         | 
 |:-------:|:-----------------------------------------:|:-------------------------------:|
-| [#44](https://github.com/fga-eps-mds/2021-1-Bot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | _Parcialmente Concluído_ |
-| [#56](https://github.com/fga-eps-mds/2021-1-Bot/issues/56) | Criar protótipo de baixa fidelidade (time plus-ultra) | _Concluído_ |
-| [#57](https://github.com/fga-eps-mds/2021-1-Bot/issues/57) | Estruturação do documento de arquitetura | _Parcialmente Concluído_ |
-| [#58](https://github.com/fga-eps-mds/2021-1-Bot/issues/58) | Reunião dos Scrum Masters para alinhar documentação | _Concluído_ |
-| [#59](https://github.com/fga-eps-mds/2021-1-Bot/issues/59) | Documentação da Estrutura Analítica do projeto | _Concluído_ |
-| [#62](https://github.com/fga-eps-mds/2021-1-Bot/issues/62) | Documentação das sprints | _Concluído_ |
-| [#63](https://github.com/fga-eps-mds/2021-1-Bot/issues/63) | Criação e formatação do GHPages | _Parcialmente Concluído_ |
-| [#64](https://github.com/fga-eps-mds/2021-1-Bot/issues/64) | Organizar as ideias do backlog | _Concluído_ |
-| [#67](https://github.com/fga-eps-mds/2021-1-Bot/issues/67) | Criação do termo de abertura | _Concluído_ |
-| [#70](https://github.com/fga-eps-mds/2021-1-Bot/issues/70) | Reunião com os integrantes para discutir os requisitos e o backlog do produto | _Concluído_ |
-| [#73](https://github.com/fga-eps-mds/2021-1-Bot/issues/73) | Reunião para realização de protótipos de baixa e alta fidelidade | _Concluído_ |
-| [#78](https://github.com/fga-eps-mds/2021-1-Bot/issues/78) | Trabalhando com as estratégias de comunicação do TAP | _Concluído_ |
-| [#81](https://github.com/fga-eps-mds/2021-1-Bot/issues/81) | Criar tutorial de rasa em pt para o grupo | _Concluído_ |
-| [#83](https://github.com/fga-eps-mds/2021-1-Bot/issues/83) | Conversando com o bot pelo telegram | _Concluído_ |
-| [#88](https://github.com/fga-eps-mds/2021-1-Bot/issues/88) | Criação do protótipo de baixa fidelidade do ghPages | _Concluído_ |
+| [#44](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/44) | Avançar na introdução de Docker no projeto com Dockerfile e docker-compose | _Parcialmente Concluído_ |
+| [#56](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/56) | Criar protótipo de baixa fidelidade (time plus-ultra) | _Concluído_ |
+| [#57](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/57) | Estruturação do documento de arquitetura | _Parcialmente Concluído_ |
+| [#58](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/58) | Reunião dos Scrum Masters para alinhar documentação | _Concluído_ |
+| [#59](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/59) | Documentação da Estrutura Analítica do projeto | _Concluído_ |
+| [#62](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/62) | Documentação das sprints | _Concluído_ |
+| [#63](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/63) | Criação e formatação do GHPages | _Parcialmente Concluído_ |
+| [#64](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/64) | Organizar as ideias do backlog | _Concluído_ |
+| [#67](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/67) | Criação do termo de abertura | _Concluído_ |
+| [#70](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/70) | Reunião com os integrantes para discutir os requisitos e o backlog do produto | _Concluído_ |
+| [#73](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/73) | Reunião para realização de protótipos de baixa e alta fidelidade | _Concluído_ |
+| [#78](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/78) | Trabalhando com as estratégias de comunicação do TAP | _Concluído_ |
+| [#81](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/81) | Criar tutorial de rasa em pt para o grupo | _Concluído_ |
+| [#83](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/83) | Conversando com o bot pelo telegram | _Concluído_ |
+| [#88](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/88) | Criação do protótipo de baixa fidelidade do ghPages | _Concluído_ |
 
 ## Quadro de conhecimento
 

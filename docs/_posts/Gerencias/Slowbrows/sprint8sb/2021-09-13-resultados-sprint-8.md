@@ -19,12 +19,12 @@ Todos os erros apontados pela professora e monitores na entrega da release 1 for
 
 | Issue |            Título            |        Status        | 
 |:-------:|:----------------------------:|:-----------------------------:|
-| [#213](https://github.com/fga-eps-mds/2021-1-Bot/issues/213) | Reunião pre-planning da sprint 8 |  Concluído
-| [#214](https://github.com/fga-eps-mds/2021-1-Bot/issues/214) | Reunião sobre a release 2 | Concluído
-| [#228](https://github.com/fga-eps-mds/2021-1-Bot/issues/228)  | Update no doc. de arquitetura | Concluído
-| [#229](https://github.com/fga-eps-mds/2021-1-Bot/issues/229) |  Estruturar GHPages com jekyll|  Parcialmente concluído
-[#230](https://github.com/fga-eps-mds/2021-1-Bot/issues/230) |  Alteração backlog|  Concluído
-| [#236](https://github.com/fga-eps-mds/2021-1-Bot/issues/236) | Documentar sprint 7 e 8|Concluído
+| [#213](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/213) | Reunião pre-planning da sprint 8 |  Concluído
+| [#214](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/214) | Reunião sobre a release 2 | Concluído
+| [#228](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/228)  | Update no doc. de arquitetura | Concluído
+| [#229](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/229) |  Estruturar GHPages com jekyll|  Parcialmente concluído
+[#230](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/230) |  Alteração backlog|  Concluído
+| [#236](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/236) | Documentar sprint 7 e 8|Concluído
 
 
 ## Burndown

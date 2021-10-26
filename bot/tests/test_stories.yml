@@ -250,7 +250,7 @@ stories:
   - action: utter_cuidados_escritorio
 
 #US25:
-
+#-----
 
 #US26:
 - story: cuidados no transporte público
@@ -261,7 +261,7 @@ stories:
   - action: utter_cuidados_transporte_publico
 
 #US27:
-
+#-----
 
 #US28:
 - story: exercicios em casa

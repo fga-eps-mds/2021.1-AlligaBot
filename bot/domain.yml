@@ -722,17 +722,17 @@ responses:
         Para ler mais sobre isso,clique aqui: https://www.saude.df.gov.br/todas-as-ubss-do-df-passam-a-fazer-testagem-para-a-covid-19/
 
   utter_ask_cadastro_data_form_dia:
-    - text: "Preciso saber o número do dia"
+    - text: "Preciso saber o dia 📅"
   
   utter_ask_cadastro_data_form_mes:
-    - text: "Agora de informe o número do mês"
+    - text: "Agora de informe o mês 📅"
 
   utter_ask_cadastro_data_form_ano:
-    - text: "Por fim, me informe o número do ano"
+    - text: "Por fim, me informe o ano 📅"
 
 
   utter_alligabot:
-    - text: "Eu sou o Alligabot e explico sobre o COVID-19 nos temas prevenção, politicas publicas e vacinação. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021.1-AlligaBot"
+    - text: "Eu sou o Alligabot e explico sobre o COVID-19 😉. Quer saber mais sobre mim? Visite https://fga-eps-mds.github.io/2021.1-AlligaBot"
 
   utter_adeus:
     - text: "Chegou o dia em que vou me despedir de uma pessoa tão especial quanto você 😌. Eu não imaginava que iria ficar tão sentida como eu estou 😪, mas eu quero que você saiba, que mesmo de longe, eu vou estar sempre por perto 😊."

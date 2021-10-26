@@ -14,6 +14,7 @@ class ResponderVacinadosEmUmEstadoAction(Action):
     def __init__(self) -> None:
         self.url = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv'
         self.caminho_arquivo_csv = path.join(diretorio, 'cases-brazil-states.csv')
+        print(">>>>>>>>>>>>>>>>>>>>>>>>>")
         return
     
     def name(self) -> Text:
@@ -43,4 +44,5 @@ class ResponderVacinadosEmUmEstadoAction(Action):
         message = f'Olha, até o dia {data_mais_recente} foram vacinadas {int(vacinados)} pessoas no estado {uf}'
 
         dispatcher.utter_message(text=message)
+        print(">>>>>>>>>>>>>>>>>>>>>>>>>")
         return [AllSlotsReset()]

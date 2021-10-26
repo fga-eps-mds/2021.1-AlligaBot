@@ -1,0 +1,63 @@
+name: Pipeline de CI/CD do AlligaBot
+# tudo nesse arquivo pode mudar ainda
+
+on:
+  push:
+    # https://newbedev.com/github-actions-how-to-target-all-branches-except-master
+    branches:
+      - '**'
+      - '*/*'
+    paths:
+      - 'actions/**'
+      - 'bot/**'
+      - '.github/workflows/**'
+
+
+jobs:
+  actions-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Instalar Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Instalar autopep8
+        run: | # não seria melhor usar requirements.txt?
+          python -m pip install --upgrade pip
+          pip install -Iv autopep8==1.5.7
+      - name: Usar o arquivo de configuração pep8 para CI
+        run: mv actions/.pep8-ci actions/.pep8
+      - name: Executar linter (autopep8)
+        # --exit-code é necessário para dar erro no CI se os padrões não forem seguidos
+        run: python -m autopep8 actions --exit-code
+  
+  bot-test-stories:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: bot/
+    steps:
+      - uses: actions/checkout@v2
+      - name: Instalar Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Instalar dependências do bot
+        run: | # não seria melhor usar requirements.txt?
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m spacy download pt_core_news_sm
+      - name: Treinar bot
+        run: |
+          python -m rasa train
+      - name: Testar bot (testes Rasa)
+        run: |
+          python -m rasa test
+      - uses: actions/upload-artifact@v2
+        with:
+          name: bot-test-results
+          # upload-artifact se confunde com o working directory, então
+          # tem que usar o path a patir da raíz do reetório
+          path: |
+            bot/results/*

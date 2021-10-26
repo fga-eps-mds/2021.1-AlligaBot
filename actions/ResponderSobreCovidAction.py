@@ -9,14 +9,15 @@ from os import path
 from datetime import datetime
 from typing import Any, Text, Dict, List
 
+
 class ResponderSobreCovidAction(Action):
     def __init__(self) -> None:
         self.url = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-cities.csv'
         return
-    
+
     def name(self) -> Text:
         return 'action_dados_covid_baseados_em_localizacao'
-    
+
     def run(
         self,
         dispatcher: CollectingDispatcher,
@@ -28,8 +29,8 @@ class ResponderSobreCovidAction(Action):
 
         dados = pd.read_csv(
             self.url,
-            sep = ',',
-            decimal = '.'
+            sep=',',
+            decimal='.'
         )
 
         dataframe = pd.DataFrame(dados)
@@ -48,20 +49,20 @@ class ResponderSobreCovidAction(Action):
 
         dataframe_cidade = dataframe_cidade[
             [
-                'last_info_date', 
-                'state', 
-                'city', 
-                'deaths', 
-                'totalCases', 
-                'deaths_per_100k_inhabitants', 
+                'last_info_date',
+                'state',
+                'city',
+                'deaths',
+                'totalCases',
+                'deaths_per_100k_inhabitants',
                 'totalCases_per_100k_inhabitants',
             ]
         ]
 
         ingles_para_portugues = {
             'last_info_date': 'Data',
-            'state': 'Estado', 
-            'city': 'Cidade', 
+            'state': 'Estado',
+            'city': 'Cidade',
             'deaths': 'Mortes',
             'totalCases': 'Total de casos',
             'deaths_per_100k_inhabitants': 'Total de mortes por 100 mil habitantes',
@@ -69,7 +70,7 @@ class ResponderSobreCovidAction(Action):
         }
 
         mensagem = 'Estas são as informações que consegui encontrar 🕵️‍♂️\n\n'
-        
+
         for rotulo_ingles, content in dataframe_cidade.items():
             rotulo_portugues = ingles_para_portugues[rotulo_ingles]
 
@@ -82,7 +83,7 @@ class ResponderSobreCovidAction(Action):
                 mensagem += f'{rotulo_portugues}: {str(content.to_list()[0])}\n'
 
         mensagem += '\nEspero ter ajudado com estas informações 😊'
-        
+
         dispatcher.utter_message(text=mensagem)
-        
+
         return [AllSlotsReset()]

@@ -13,10 +13,10 @@ class ResponderQuantidadeMortosPorPeriodoAction(Action):
     def __init__(self) -> None:
         self.url = 'https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv'
         return
-    
+
     def name(self) -> Text:
         return 'action_responder_quantidade_mortos_por_periodo'
-    
+
     def run(
         self,
         dispatcher: CollectingDispatcher,
@@ -34,8 +34,8 @@ class ResponderQuantidadeMortosPorPeriodoAction(Action):
 
         dados = pd.read_csv(
             self.url,
-            sep = ',',
-            decimal = '.'
+            sep=',',
+            decimal='.'
         )
 
         dataframe = pd.DataFrame(dados)
@@ -54,7 +54,7 @@ class ResponderQuantidadeMortosPorPeriodoAction(Action):
         mensagem = 'Essas são as informações que consegui encontrar 🕵️‍♂️\n\n'
         mensagem += f'O total de mortos no Brasil no período de {data_br} foi de {total_mortos_por_periodo_no_brasil:,.2f} pessoas'
         mensagem += '\n\nEspero ter ajudado com estas informações 😊'
-        
+
         dispatcher.utter_message(text=mensagem)
-        
+
         return [AllSlotsReset()]

@@ -26,7 +26,7 @@ Essa documentação engloba as funções visadas pelo projeto, além das tecnolo
 |UNB|Universidade de Brasília|
   
 ## 1.4 Referências
-- Chat Bot. Disponível em https://github.com/fga-eps-mds/2021-1-Bot. Acesso em 10/08/2021.
+- Chat Bot. Disponível em https://github.com/fga-eps-mds/2021.1-AlligaBot. Acesso em 10/08/2021.
 - Como documentar a Arquitetura de Software. Disponível em http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx. Acesso em 10/08/2021.
 - Documento de Arquitetua GloriaBot. Disponível em: https://github.com/fga-eps-mds/2019.2-GloriaBot/blob/master/docs/DocumentoDeArquitetura.md. Acesso em 10/08/2021.
 - Documento de Arquitetura Tino. Disponível em: https://github.com/fga-eps-mds/2019.1-Tino/blob/master/docs/documento-de-arquitetura.md. Acesso em 10/08/2021.
@@ -107,11 +107,11 @@ O projeto aqui apresentado trata-se de um chatbot integrado a plataforma Telegra
 |E2|Informações sobre covid|Será uma epic para informar o usuário e tirar dúvidas gerais sobre a covid|
 |E3|Lembrete programado|Será uma epic para criar lembretes programados|  
 
-Informações mais detalhadas dos épicos podem ser encontradas no documento de [Backlog do Produto](https://github.com/fga-eps-mds/2021-1-Bot/blob/main/docs/documento-de-backlog.md).
+Informações mais detalhadas dos épicos podem ser encontradas no documento de [Backlog do Produto](https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/documento-de-backlog.md).
   
 ## 5. Visão Lógica
 ## 5.1 Diagrama de Pacotes
-- O pacote 2021-1-Bot é o pacote principal do projeto e contém todos os outros sub-pacotes
+- O pacote 2021.1-AlligaBot é o pacote principal do projeto e contém todos os outros sub-pacotes
 - No pacote bot é o local onde está sendo desenvolvido o bot 
 - No pacote docs pode ser encontrada toda a documentação relacionada ao projeto
 - No pacote gerencia está todo o gerenciamento de sprints de cada time

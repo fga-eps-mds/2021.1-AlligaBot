@@ -3,8 +3,7 @@ layout: page_capivaras
 tag: capivaras
 ---
 
-Essa foi a última sprint antes da release e foi marcada por uma quantidade alta de issues resolvidas. Conseguimos concluir todas as dívidas alocadas de outras sprints e a release 1 foi um sucesso. 
-Além disso, recebemos alguns feedbacks e haverão alterações nos documentos já concluídos.
+Essa foi a primeira sprint após a release e, como esperado, tivemos problemas relacionados a produtividade. No geral o grupo conseguiu fazer as obrigações, mas os problemas de comunicação acabaram fazendo com que algumas coisas ficassem em cima da hora.
 
 ## Histórico de Versões
 

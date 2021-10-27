@@ -42,7 +42,7 @@ Com base no gráfico de velocity, podemos observar que a nossa produtividade nes
 
 **- Pontos positivos**
 
-1. Grupo ficou descansou e recuperou as energias
+1. Grupo descansou e recuperou as energias
 
 **- Pontos negativos**
 
@@ -54,6 +54,6 @@ Com base no gráfico de velocity, podemos observar que a nossa produtividade nes
 
 ## Avaliação do Scrum Master
 
-Essa sprint foi uma sprint que membros da equipe utilizaram para participar da semana universitária e descansar. Não rendemos mas ela foi importante para que a partir da próxima consigamos desenvolver as US com qualidade.
+Essa sprint foi uma sprint que os membros da equipe utilizaram para participar da semana universitária e descansar. Não rendemos, mas ela foi importante para que a partir da próxima consigamos desenvolver as US com qualidade.
 
 Autor: [Matheus Sousa](https://github.com/gatotabaco)

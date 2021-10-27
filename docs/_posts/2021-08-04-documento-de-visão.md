@@ -16,9 +16,7 @@ Assim, será explicado o problema evidenciado, a oportunidade encontrada, a desc
 |01/09/2021|0.4|Revisão do documento e adição dos subtópicos 3.2, 3.7 e tópico 5|Thaís Rebouças|
 |10/09/2021|0.5|Correções ortográficas|Thaís Rebouças|
 |11/09/2021|0.6|Correções ortográficas e morfologicas|Ana Carolina|
-
-
-
+|27/10/2021|0.7|Correções na tabela de abreviações|Amanda Nobre|
 
 ## **1. Introdução**
 
@@ -40,7 +38,6 @@ O objetivo deste artigo será definir o problema, os perfis das partes interessa
 | Sigla/Termo/Acrônimo | Definição                              |
 | :------------------- | :------------------------------------- |
 | MDS                  | Métodos de Desenvolvimento de Software |
-| EPS                  | Engenharia de Produto de Software      |
 | FGA                  | Faculdade do Gama                      |
 | UNB                  | Universidade de Brasília               |
 

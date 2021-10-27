@@ -312,7 +312,7 @@ nlu:
     - Qual a quantidade de infectados por covid?
     - Qual a quantidade de infectados por covid no meu estado?
     - Até o momento quantos foram infectados por covid?
-   
+    - Até o momento quantos foram infectados por covid no meu estado?
 
 - intent: uf_input_form
   examples: |

@@ -10,7 +10,7 @@ Essa é a primeira sprint após a release 1, é esperado que nela nós tenhamos 
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 26/10/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 7 | [Matheus Sousa](https://github.com/gatotabaco)|
+| 26/10/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 8 | [Matheus Sousa](https://github.com/gatotabaco)|
 
 ## Tamanho da Sprint
 

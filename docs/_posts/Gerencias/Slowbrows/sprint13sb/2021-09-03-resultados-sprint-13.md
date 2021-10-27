@@ -1,6 +1,4 @@
-﻿
-
----
+﻿---
 layout: page_slowbrows
 tag: slowbrows
 ---
@@ -11,6 +9,7 @@ tag: slowbrows
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 27/10/2021 |  0.1   | Abertura do documento | [Henrique Hida](https://github.com/HenriqueHida)|
+| 27/10/2021 |  0.2   | Adição de imagens | [Henrique Hida](https://github.com/HenriqueHida)|
 
 
 
@@ -30,10 +29,15 @@ tag: slowbrows
 
 
 ## Burndown
+![image](https://user-images.githubusercontent.com/78568172/139159059-1293e444-3f9e-43b5-a9a8-846924791f97.png)
 
+Com a análise do gráfico podemos observar que todos os storys points estão sendo fechados, mas como estou fazendo este documento no dia de fechamento da sprint, infelizmente não mostra todas issues e pull requests finalizados.
 ## Velocity 
+![image](https://user-images.githubusercontent.com/78568172/139159324-caaa0ce3-84ea-4b48-8ac5-39830fd3a42b.png)
 
+Já no gráfico de Velocity podemos observar uma alta no numero de story points, isso aconteceu devido a entrega da Release 2.
 ## Avaliação do Scrum Master
 
 A sprint 13 foi ótima, conseguimos entregar tudo que foi planejado. Estou muito satisfeito com o Alligabot, ele ficou excelente. Acredito ter aprendido muito com os erros e dificuldades que tive que enfrentar durante o semestre. Não posso dizer por todos, mas pra mim foi uma experiência e tanto! Obrigado a todos que tornaram isso possível =).
+
 Autor: [Henrique Hida](https://github.com/HenriqueHida)

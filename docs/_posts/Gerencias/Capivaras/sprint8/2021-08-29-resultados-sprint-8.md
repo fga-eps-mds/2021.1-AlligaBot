@@ -33,7 +33,7 @@ Essa foi a primeira sprint após a release e, como esperado, tivemos problemas r
 
 ## Quadro de conhecimento
 
-<img src="{{ '/assets/img/capivaras/conhecimento_sprint_8.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
+<img src="{{ '/assets/img/capivaras/conhecimento_sprint_8.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Burndown
 

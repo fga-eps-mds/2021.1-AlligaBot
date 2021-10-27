@@ -42,7 +42,11 @@ ajudar no combate mundial ao vírus.
   - [Apresentação Equipe Plus Ultra](https://www.youtube.com/watch?v=5FDRdg9cj_k)
   - [Apresentação Equipe Slowbros](https://www.youtube.com/watch?v=mxh4G5HwLlE)
   
-<!--  Release 2 - 28 de outubto -->
+  Release 2 - 28 de outubto
+  - [Apresentação Geral](https://www.youtube.com/watch?v=obGYts5OgUw)
+  - [Apresentação Equipe Capivaras](https://www.youtube.com/watch?v=NFjVpS1ztDw)
+  - [Apresentação Equipe Plus Ultra](https://www.youtube.com/watch?v=7I6uinQSSJY)
+  - [Apresentação Equipe Slowbros](https://www.youtube.com/watch?v=j0dtt2ndL2k)
 
 ## 🚀 Como executar o projeto
 ### 🛠 Tecnologias e Pré-Requisitos

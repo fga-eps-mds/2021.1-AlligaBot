@@ -294,15 +294,25 @@ nlu:
     - Desejo saber a quantidade de contaminados por covid na minha cidade e quantidade de mortos por covid na minha cidade
     - Desejo saber o número de infectados por covid na minha cidade e o número de mortos por covid na minha cidade
     - Desejo saber o número de contaminados por covid na minha cidade e o número de mortos por covid na minha cidade
+    - Desejo saber o número de infectados por covid no meu estado e o número de mortos por covid no meu estado
+    - Desejo saber o número de contaminados por covid  no meu estado e o número de mortos por covid  no meu estado
     - Atualmente há quantas mortes por covid?
     - Atualmente há quantas mortes por covid na minha cidade?
+    - Atualmente há quantas mortes por covid no meu estado?
     - Atualmente qual o numero de mortos por corona?
+    - Atualmente qual o numero de mortos por corona no meu estado?
     - Qual a quantidade de mortos por covid?
+    - Qual a quantidade de mortos por covid no meu estado?
     - Até o momento quantos morreram de covid?
+    - Até o momento quantos morreram de covid no meu estado?
     - Atualmente há quantas infectados por covid?
+    - Atualmente há quantas infectados por covid no meu estado?
     - Atualmente qual o numero de infectados por corona?
+    - Atualmente qual o numero de infectados por corona no meu estado?
     - Qual a quantidade de infectados por covid?
+    - Qual a quantidade de infectados por covid no meu estado?
     - Até o momento quantos foram infectados por covid?
+    - Até o momento quantos foram infectados por covid no meu estado?
 
 - intent: uf_input_form
   examples: |

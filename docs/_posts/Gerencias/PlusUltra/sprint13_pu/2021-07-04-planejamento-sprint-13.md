@@ -10,6 +10,7 @@ Nessa sprint o foco é terminar o que ficou como dívida, fazer os roteiros, gra
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 22/10/2021 |  0.1   | Abertura do documento | [Amanda Nobre](https://github.com/AmandaNbr)|
+| 27/10/2021 |  0.2   | Adição de Issues | [Amanda Nobre](https://github.com/AmandaNbr)|
 
 ## Tamanho da Sprint
 
@@ -27,6 +28,19 @@ Nessa sprint o foco é terminar o que ficou como dívida, fazer os roteiros, gra
 | [#363](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/363) | Edição vídeo do Plus-Ultra | 5 | Victor |
 | [#364](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/325) | Comentar e organizar o arquivo test_stories | 3 | Victor |
 | [#368](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/368) | Documentação sprints 12 e 13 | 2 | Amanda |
+| [#369](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/369) | Fazer os roteiros dos vídeos | 2 | Amanda e Pedro |
+| [#378](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/378) | Deploy do servidor de ações | 5 | Douglas |
+| [#388](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/388) | Gravar vídeo da equipe Plus Ultra | 2 | Todos os integrantes |
+| [#389](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/389) | Alterar o nome de todos os documentos de gerência | 2 | Amanda |
+| [#390](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/390) | Mudança no readMe | 1 | Amanda |
+| [#397](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/397) | Corrigindo os nomes dos docs de gerencia | 2 | Amanda |
+| [#401](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/401) | Atualizar a tabela de desenvolvedores no readMe | 1 | Amanda |
+| [#404](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/404) | Gravação do vídeo geral | 2 | Amanda e Pedro |
+| [#405](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/405) | Intent stop | 2 | Douglas |
+| [#412](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/412) | Alteração de algumas falas do bot | 1 | Amanda e Douglas |
+| [#423](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/423) | Alteração no doc. de visão | 1 | Amanda |
+| [#432](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/432) | Documentação sprint 13 | 1 | Amanda |
+
 
 ## Dívidas alocadas
 

@@ -19,11 +19,6 @@ stories:
     intent: bot_alligabot
   - action: utter_alligabot
 
-#US que não precisam de teste:
-#US03
-#US04
-#US05
-
 #US06:
 - story: variantes de covid
   steps:
@@ -39,26 +34,12 @@ stories:
     intent: alfa
   - action: utter_alfa
 
-- story: Mais alfa
-  steps:
-  - user: |
-      mais alfa
-    intent: mais_alfa
-  - action: utter_mais_alfa
-
 - story: beta
   steps:
   - user: |
       beta
     intent: beta
   - action: utter_beta
-
-- story: Mais beta
-  steps:
-  - user: |
-      mais beta
-    intent: mais_beta
-  - action: utter_mais_beta
 
 - story: Gama
   steps:
@@ -67,26 +48,12 @@ stories:
     intent: gama
   - action: utter_gama
 
-- story: Gama mais
-  steps:
-  - user: |
-      me fale sobre gama
-    intent: mais_gama
-  - action: utter_gama_mais
-
 - story: Delta
   steps:
   - user: |
       Delta
     intent: delta
   - action: utter_delta
-
-- story: Delta mais
-  steps:
-  - user: |
-      quero saber sobre Delta
-    intent: mais_delta
-  - action: utter_delta_mais
 
 #US07:
 - story: caminho para conversar sobre transmissão

@@ -73,40 +73,20 @@ stories:
   - intent: alfa
   - action: utter_alfa
 
-- story: Mais alfa
-  steps:
-  - intent: mais_alfa
-  - action: utter_mais_alfa
-
 - story: beta
   steps:
   - intent: beta
   - action: utter_beta
-
-- story: Mais beta
-  steps:
-  - intent: mais_beta
-  - action: utter_mais_beta
 
 - story: Gama
   steps:
   - intent: gama
   - action: utter_gama
 
-- story: Gama mais
-  steps:
-  - intent: mais_gama
-  - action: utter_gama_mais
-
 - story: Delta
   steps:
   - intent: delta
   - action: utter_delta
-
-- story: Delta mais
-  steps:
-  - intent: mais_delta
-  - action: utter_delta_mais
 
 - story: Como se portar no Cabeleiro/barbearia
   steps:

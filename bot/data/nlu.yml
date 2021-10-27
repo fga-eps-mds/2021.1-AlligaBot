@@ -86,13 +86,10 @@ nlu:
 
 - intent: alfa
   examples: |
-    - alfa
-    - Alfa
-    - Alpha
-    - alpha 
-
-- intent: mais_alfa
-  examples: |
+    - variante alfa
+    - o que é a variante Alfa
+    - onde surgiu a variante Alpha
+    - onde surgiu a variante alfa 
     - quero saber sobre alfa
     - me fale sobre alfa
     - mais alfa
@@ -103,14 +100,10 @@ nlu:
 
 - intent: beta
   examples: |
-    - Beta
-    - beta
-    - bet
-    - Bet
-    - BETA
-
-- intent: mais_beta
-  examples: |
+    - variante beta
+    - o que é a variante beta
+    - onde surgiu a variante beta
+    - onde surgiu a variante beta 
     - quero saber sobre beta
     - me fale sobre beta
     - mais beta
@@ -122,13 +115,9 @@ nlu:
 
 - intent: gama
   examples: |
-    - Gama
-    - gama
-    - Gam
-    - gamm
-
-- intent: mais_gama
-  examples: |
+    - variante gama
+    - o que é a variante Gama
+    - onde surgiu a variante gama
     - quero saber sobre gama
     - me fale sobre gama
     - mais Gama
@@ -139,12 +128,9 @@ nlu:
 
 - intent: delta
   examples: |
-    - Delta
-    - delta
-    - delt
-
-- intent: mais_delta
-  examples: |
+    - variante delta
+    - o que é a variante delta
+    - onde surgiu a variante delta
     - quero saber sobre Delta
     - me fale sobre Delta
     - mais Delta
@@ -183,6 +169,8 @@ nlu:
     - Usar máscara de forma certa
     - Como usar máscara de forma certa?
     - Como usar máscara de maneira certa?
+    - Uso correto mascara
+    - mascara corretamente
 
 - intent: tipos_de_mascaras
   examples: |
@@ -191,6 +179,7 @@ nlu:
     - Quais tipos de máscaras posso usar?
     - Tipos de máscaras
     - Eficácia dos tipos de máscaras
+    - Tipo mascara
 
 
 - intent: cuidados_em_locais_abertos  
@@ -305,6 +294,15 @@ nlu:
     - Desejo saber a quantidade de contaminados por covid na minha cidade e quantidade de mortos por covid na minha cidade
     - Desejo saber o número de infectados por covid na minha cidade e o número de mortos por covid na minha cidade
     - Desejo saber o número de contaminados por covid na minha cidade e o número de mortos por covid na minha cidade
+    - Atualmente há quantas mortes por covid?
+    - Atualmente há quantas mortes por covid na minha cidade?
+    - Atualmente qual o numero de mortos por corona?
+    - Qual a quantidade de mortos por covid?
+    - Até o momento quantos morreram de covid?
+    - Atualmente há quantas infectados por covid?
+    - Atualmente qual o numero de infectados por corona?
+    - Qual a quantidade de infectados por covid?
+    - Até o momento quantos foram infectados por covid?
 
 - intent: uf_input_form
   examples: |
@@ -515,6 +513,7 @@ nlu:
     - como a Pfizer age no organismo?
     - como acontece a imunizaçao pela Coronavac?
     - como a vacina Astrazeneca se comporta no organismo?
+    - Vacina no organismo
 
 - intent: quando_vacinar
   examples: |
@@ -621,6 +620,9 @@ nlu:
     - Desejo saber a quantidade de contaminados por covid por período
     - Desejo saber o número de infectados por covid por período
     - Desejo saber o número de contaminados por covid por período  
+    - Quantos infectados pelo corona virus por periodo?
+    - Infectados por periodo
+    - Quantidade de infectados por periodo.
 
 - intent: quantidade_de_mortos_por_periodo
   examples: |
@@ -630,6 +632,9 @@ nlu:
     - Quantos seriam os mortos pelo covid-19 por período?
     - Me informe a quantidade de mortos pelo covid-19 por período
     - Qual seria a quantidade de mortos por período?
+    - Mortos por periodo
+    - Quantidade de mortos por periodo
+    - Gostaria de saber a quantidade de mortos por periodo
 
 - intent: quantidade_de_vacinados_por_periodo
   examples: |
@@ -641,6 +646,8 @@ nlu:
     - Qual a quantidade de vacinados por período?
     - Vacinados por período
     - Total de vacinados por período
+    - Pode me dizer a quantidade de vacinados por periodo
+    - qual a quantidade de vacinados por periodo
 
 - intent: cadastrar_data_proxima_dose_vacina
   examples: |
@@ -649,6 +656,9 @@ nlu:
     - Registrar a data da próxima dose da vacina
     - Registrar a data da segunda dose da vacina
     - Cadastrar próxima dose da vacina
+    - Quero cadastra a data da minha proxima dose da vacina
+    - quero cadastrar a proxima dose da vacina
+    - cadastro da proxima dose
 
 - intent: stop
   examples: |

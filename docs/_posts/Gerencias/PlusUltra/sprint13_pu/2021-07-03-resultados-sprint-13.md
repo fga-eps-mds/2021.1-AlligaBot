@@ -38,12 +38,12 @@ Na sprint 13 foram terminadas tasks pendentes e foram gravados os 4 vídeos, par
 
 ## Quadro de conhecimentos
 
-![image]()
+![image](https://user-images.githubusercontent.com/44625056/139162358-1aae3e85-a89c-4ce9-bcea-7804c844e92c.png)
 ![image](https://user-images.githubusercontent.com/44625056/133852493-a062d35b-9892-4e88-a3c1-142637f31057.png)
 
 ## Squad Health Check
 
-![image]()
+![image](https://user-images.githubusercontent.com/44625056/139162889-95be6df9-f8a6-4aea-8218-2376706770af.png)
 ![image](https://user-images.githubusercontent.com/44625056/133852652-dc0871bb-ebc4-46d5-a851-0f81853e5c25.png)
 
 ## Burndown

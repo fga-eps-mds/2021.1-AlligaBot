@@ -41,6 +41,7 @@ Essa sprint será decisiva na organização do trabalho conjunto entre todos os 
 | [#66](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/66) | Estrutura GitHub Pages | - | Lameque |
 
 ## Dívidas alocadas
+
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#31](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/31) | Criar protótipo de baixa fidelidade | - | Todos os membros do grupo |

@@ -33,6 +33,7 @@ de gerência pendentes. As tarefas estão sendo divididas entre os grupos com ba
 | [#136](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/136) | Reunião de pre-planning da sprint 6 | 2 | Matheus |
 
 ## Dívidas alocadas
+
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#52](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/52) | Documentação da Sprint 3 | 2 | Matheus |

@@ -3,14 +3,15 @@ layout: page_capivaras
 tag: capivaras
 ---
 
-Essa é a última sprint, que antecede a R2, é esperado muitas issues e a conclusão de todas, se não a maioria.
+Essa é a última sprint, que antecede a R2, é esperado que tenham muitas issues e a conclusão de todas, se não, a maioria. Além disso, tem muita documentação acumulada e haverá sobrecarga.
 
 ## Histórico de Versões
 
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
-| 27/10/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 7 | [Thaís Rebouças](https://github.com/thais-ra)|
+| 27/10/2021 |    0.1   | Envio inicial | [Thaís Rebouças](https://github.com/thais-ra)|
+| 27/10/2021 |    0.2   | Pequena correção | [Matheus Sousa](https://github.com/gatotabaco)|
 
 ## Tamanho da Sprint
 

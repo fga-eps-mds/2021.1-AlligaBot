@@ -46,7 +46,7 @@ Nessa sprint todas as tarefas foram finalizadas e conseguimos terminar.
 
 ## Quadro de conhecimento
 
-<img src="{{ '/assets/img/capivaras/conhecimento_sprint_13.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
+<img src="{{ '/assets/img/capivaras/conhecimento_sprint_13.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Burndown
 

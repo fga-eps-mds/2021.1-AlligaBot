@@ -36,6 +36,7 @@ como o de visão e como contribuir (no readme). Além disso, temos muitas dívid
 | [#77](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/77) | Reunião dos Scrum Masters e Product Owners | 2 | Matheus e Ana |
 
 ## Dívidas alocadas
+
 | Issue |            Título            |      Estimativa     |        Responsáveis         | 
 |:-----:|:----------------------------:|:-------------------:|:---------------------------:|
 | [#52](https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/52) | Documentação da Sprint 3 | 2 | Matheus |

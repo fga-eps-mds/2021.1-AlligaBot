@@ -20,7 +20,7 @@ Nessa sprint não fizemos nada.
 
 ## Squad Health check
 
-<img src="{{ '/assets/img/capivaras/health_sprint_10.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
+<img src="{{ '/assets/img/capivaras/health__sprint_10.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Quadro de conhecimento
 

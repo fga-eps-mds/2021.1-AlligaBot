@@ -1,10 +1,8 @@
-﻿
-
-
----
+﻿---
 layout: page_slowbrows
 tag: slowbrows
 ---
+
 Como a release 2 é no final dessa sprint, planejamos dar os toques finais no Alligabot, seja corrigindo alguns bugs ou finalizando os testes. Também serão gravados os vídeos da release 2, tanto geral bem como o de cada grupo, para apresentarmos à professora.
 
 ## Histórico de Versões

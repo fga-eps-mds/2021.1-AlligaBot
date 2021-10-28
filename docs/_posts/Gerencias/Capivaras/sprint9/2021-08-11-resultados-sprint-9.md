@@ -27,11 +27,11 @@ Nessa sprint configuramos o ambiente RASA e isso foi fundamental para o início 
 
 ## Squad Health check
 
-<img src="{{ '/assets/img/capivaras/health_sprint_9.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
+<img src="{{ '/assets/img/capivaras/health__sprint_9.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Quadro de conhecimento
 
-<img src="{{ '/assets/img/capivaras/conhecimento_sprint_9.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
+<img src="{{ '/assets/img/capivaras/conhecimento_sprint_9.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Burndown
 

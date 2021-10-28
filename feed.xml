@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/" rel="alternate" type="text/html" /><updated>2021-10-28T13:25:10+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/feed.xml</id><title type="html">AlligaBot</title><subtitle>Entenda melhor alguns tópicos relacionados a COVID-19.</subtitle><entry><title type="html">Planejamento Sprint 0</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/30/planejamento-sprint-0/" rel="alternate" type="text/html" title="Planejamento Sprint 0" /><published>2021-09-30T00:00:00+00:00</published><updated>2021-09-30T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/30/planejamento-sprint-0</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/30/planejamento-sprint-0/">&lt;p&gt;A equipe slowbros foi criada no final da sprint 0, logo não conseguimos planejar a mesma.&lt;/p&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 22/07/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 29/07/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">A equipe slowbros foi criada no final da sprint 0, logo não conseguimos planejar a mesma. Tamanho da Sprint Início: 22/07/21 Fim: 29/07/21 Duração: 7 dias Autor: Henrique Hida</summary></entry><entry><title type="html">Resultados Sprint 0</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/29/resultados-sprint-0/" rel="alternate" type="text/html" title="Resultados Sprint 0" /><published>2021-09-29T00:00:00+00:00</published><updated>2021-09-29T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/29/resultados-sprint-0</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/29/resultados-sprint-0/">&lt;p&gt;Foi criado o grupo para conhecermos os integrantes da equipe, mas nada foi produzido na sprint 0.&lt;/p&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 22/07/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 29/07/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Foi criado o grupo para conhecermos os integrantes da equipe, mas nada foi produzido na sprint 0. Tamanho da Sprint Início: 22/07/21 Fim: 29/07/21 Duração: 7 dias Autor: Henrique Hida</summary></entry><entry><title type="html">Planejamento Sprint 1</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/28/planejamento-sprint-1/" rel="alternate" type="text/html" title="Planejamento Sprint 1" /><published>2021-09-28T00:00:00+00:00</published><updated>2021-09-28T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/28/planejamento-sprint-1</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/28/planejamento-sprint-1/">&lt;p&gt;Após aprendermos qual será o objetivo da disciplina, devemos designar os cargos de todos os membros do grupo e começar a discutir quais tecnologias que serão utilizadas. Foi proposto para cada membro do grupo iniciar os estudos sobre seus respectivos papeis.&lt;/p&gt;
+
+&lt;h2 id=&quot;histórico-de-versões&quot;&gt;Histórico de Versões&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Data&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29/08/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;planSprint1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 29/07/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 04/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Issue&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Título&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Responsáveis&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/23&quot;&gt;#23&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Sprint 1 - Preparação&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;papeis&quot;&gt;Papeis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Função&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nome&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrum Master&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arquiteto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Devops&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz Pettengill&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tecnologista&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Após aprendermos qual será o objetivo da disciplina, devemos designar os cargos de todos os membros do grupo e começar a discutir quais tecnologias que serão utilizadas. Foi proposto para cada membro do grupo iniciar os estudos sobre seus respectivos papeis. Histórico de Versões Data Versão Descrição Autor 29/08/2021 0.1 planSprint1 Henrique Hida Tamanho da Sprint Início: 29/07/21 Fim: 04/08/21 Duração: 7 dias Objetivos Issue Título Responsáveis #23 Sprint 1 - Preparação   Papeis Função Nome Scrum Master Henrique Hida PO Matheus Akio Arquiteto Matheus Raphael Devops Luiz Pettengill Tecnologista Kayro César Autor: Henrique Hida</summary></entry><entry><title type="html">Resultados Sprint 1</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/27/resultados-sprint-1/" rel="alternate" type="text/html" title="Resultados Sprint 1" /><published>2021-09-27T00:00:00+00:00</published><updated>2021-09-27T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/27/resultados-sprint-1</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/27/resultados-sprint-1/">&lt;p&gt;Nessa sprint foram definidos os cargos de todos os membros do grupo, além de iniciarmos as discussões sobre as tecnologias que serão utilizadas. Foi criado também grupos gerais e específicos no aplicativo Telegram para melhorar e facilitar a comunicação&lt;/p&gt;
+
+&lt;h2 id=&quot;histórico-de-versões&quot;&gt;Histórico de Versões&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Data&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29/08/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;resultSprint1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 29/07/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 04/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Issue&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Título&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Status&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/23&quot;&gt;#23&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Sprint 1 - Preparação&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;papeis&quot;&gt;Papeis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Função&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nome&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrum Master&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arquiteto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Devops&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz Pettengill&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tecnologista&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Nessa sprint foram definidos os cargos de todos os membros do grupo, além de iniciarmos as discussões sobre as tecnologias que serão utilizadas. Foi criado também grupos gerais e específicos no aplicativo Telegram para melhorar e facilitar a comunicação Histórico de Versões Data Versão Descrição Autor 29/08/2021 0.1 resultSprint1 Henrique Hida Tamanho da Sprint Início: 29/07/21 Fim: 04/08/21 Duração: 7 dias Objetivos Issue Título Status #23 Sprint 1 - Preparação Concluído Papeis Função Nome Scrum Master Henrique Hida PO Matheus Akio Arquiteto Matheus Raphael Devops Luiz Pettengill Tecnologista Kayro César Autor: Henrique Hida</summary></entry><entry><title type="html">Planejamento Sprint 2</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/26/planejamento-sprint-2/" rel="alternate" type="text/html" title="Planejamento Sprint 2" /><published>2021-09-26T00:00:00+00:00</published><updated>2021-09-26T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/26/planejamento-sprint-2</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/26/planejamento-sprint-2/">&lt;p&gt;Com os objetivos do grupo especificados, utilizaremos essa Sprint para continuar os estudos com o foco em aprender mais sobre chatbot e prevenções da COVID-19. Além disso foi organizado os melhores horários para o grupo se reunir, com a criação de uma tabela com os horários ideias para reuniões.&lt;/p&gt;
+
+&lt;h2 id=&quot;histórico-de-versões&quot;&gt;Histórico de Versões&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Data&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29/08/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;planSprint2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21/10/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Correções gramaticais&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LamequeFernandes&quot;&gt;Lameque Fernandes&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 04/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 11/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;h2 id=&quot;papeis&quot;&gt;Papeis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Função&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nome&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrum Master&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arquiteto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Devops&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz Pettengill&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tecnologista&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Com os objetivos do grupo especificados, utilizaremos essa Sprint para continuar os estudos com o foco em aprender mais sobre chatbot e prevenções da COVID-19. Além disso foi organizado os melhores horários para o grupo se reunir, com a criação de uma tabela com os horários ideias para reuniões. Histórico de Versões Data Versão Descrição Autor 29/08/2021 0.1 planSprint2 Henrique Hida 21/10/2021 0.2 Correções gramaticais Lameque Fernandes Tamanho da Sprint Início: 04/08/21 Fim: 11/08/21 Duração: 7 dias Papeis Função Nome Scrum Master Henrique Hida PO Matheus Akio Arquiteto Matheus Raphael Devops Luiz Pettengill Tecnologista Kayro César Autor: Henrique Hida</summary></entry><entry><title type="html">Resultados Sprint 2</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/25/resultados-sprint-2/" rel="alternate" type="text/html" title="Resultados Sprint 2" /><published>2021-09-25T00:00:00+00:00</published><updated>2021-09-25T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/25/resultados-sprint-2</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/25/resultados-sprint-2/">&lt;p&gt;Houve um bom andamento nos estudos do grupo. Conseguimos nos reunir e discutir tópicos importantes sobre o projeto e nossas expectativas sobre a disciplina.&lt;/p&gt;
+
+&lt;h2 id=&quot;histórico-de-versões&quot;&gt;Histórico de Versões&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Data&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29/08/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;resultSprint2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 04/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 11/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;h2 id=&quot;papeis&quot;&gt;Papeis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Função&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nome&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrum Master&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arquiteto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Devops&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz Pettengill&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tecnologista&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Houve um bom andamento nos estudos do grupo. Conseguimos nos reunir e discutir tópicos importantes sobre o projeto e nossas expectativas sobre a disciplina. Histórico de Versões Data Versão Descrição Autor 29/08/2021 0.1 resultSprint2 Henrique Hida Tamanho da Sprint Início: 04/08/21 Fim: 11/08/21 Duração: 7 dias Papeis Função Nome Scrum Master Henrique Hida PO Matheus Akio Arquiteto Matheus Raphael Devops Luiz Pettengill Tecnologista Kayro César Autor: Henrique Hida</summary></entry><entry><title type="html">Planejamento Sprint 3</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/24/planejamento-sprint-3/" rel="alternate" type="text/html" title="Planejamento Sprint 3" /><published>2021-09-24T00:00:00+00:00</published><updated>2021-09-24T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/24/planejamento-sprint-3</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/24/planejamento-sprint-3/">&lt;p&gt;Para essa Sprint, não houve um planejamento por parte da equipe.&lt;/p&gt;
+
+&lt;h2 id=&quot;histórico-de-versões&quot;&gt;Histórico de Versões&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Data&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29/08/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;planSprint3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 12/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 19/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;h2 id=&quot;papeis&quot;&gt;Papeis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Função&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nome&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrum Master&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arquiteto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Devops&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz Pettengill&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tecnologista&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Para essa Sprint, não houve um planejamento por parte da equipe. Histórico de Versões Data Versão Descrição Autor 29/08/2021 0.1 planSprint3 Henrique Hida Tamanho da Sprint Início: 12/08/21 Fim: 19/08/21 Duração: 7 dias Papeis Função Nome Scrum Master Henrique Hida PO Matheus Akio Arquiteto Matheus Raphael Devops Luiz Pettengill Tecnologista Kayro César Autor: Henrique Hida</summary></entry><entry><title type="html">Resultados Sprint 3</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/23/resultados-sprint-3/" rel="alternate" type="text/html" title="Resultados Sprint 3" /><published>2021-09-23T00:00:00+00:00</published><updated>2021-09-23T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/23/resultados-sprint-3</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/23/resultados-sprint-3/">&lt;p&gt;Para essa Sprint, não houve um planejamento por parte da equipe.&lt;/p&gt;
+
+&lt;h2 id=&quot;histórico-de-versões&quot;&gt;Histórico de Versões&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Data&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29/08/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;resultSprint3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 12/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 19/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;h2 id=&quot;papeis&quot;&gt;Papeis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Função&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nome&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrum Master&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arquiteto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Devops&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz Pettengill&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tecnologista&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Para essa Sprint, não houve um planejamento por parte da equipe. Histórico de Versões Data Versão Descrição Autor 29/08/2021 0.1 resultSprint3 Henrique Hida Tamanho da Sprint Início: 12/08/21 Fim: 19/08/21 Duração: 7 dias Papeis Função Nome Scrum Master Henrique Hida PO Matheus Akio Arquiteto Matheus Raphael Devops Luiz Pettengill Tecnologista Kayro César Autor: Henrique Hida</summary></entry><entry><title type="html">Planejamento Sprint 4</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/22/planejamento-sprint-4/" rel="alternate" type="text/html" title="Planejamento Sprint 4" /><published>2021-09-22T00:00:00+00:00</published><updated>2021-09-22T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/22/planejamento-sprint-4</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/22/planejamento-sprint-4/">&lt;p&gt;Nessa Sprint 4 foi decidido que daremos início a alguns documentos extremamente necessários para o andamento do projeto, como o documento de arquitetura, a estrutura analítica, GitHub pages, a primeira versão do ReadMe e a elicitação de requisitos . Além disso faremos algumas reuniões com os integrantes dos demais grupos para alinharmos os pensamentos e avançar no projeto.&lt;/p&gt;
+
+&lt;h2 id=&quot;histórico-de-versões&quot;&gt;Histórico de Versões&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Data&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;04/09/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;planSprint4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21/10/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Correções gramaticais&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LamequeFernandes&quot;&gt;Lameque Fernandes&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 20/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 27/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Issue&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Título&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Responsáveis&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/57&quot;&gt;#57&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Estruturação documento de arquitetura&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/klmurussi&quot;&gt;Kathlyn Lara&lt;/a&gt;, &lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt; e &lt;a href=&quot;https://github.com/victorear05&quot;&gt;Victor Eduardo&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/58&quot;&gt;#58&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Reunião dos Scrum Masters&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;, &lt;a href=&quot;https://github.com/AmandaNbr&quot;&gt;Amanda Nobre&lt;/a&gt; e &lt;a href=&quot;https://github.com/gatotabaco&quot;&gt;Matheus Sousa&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/59&quot;&gt;#59&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Estrutura analítica&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;, &lt;a href=&quot;https://github.com/AmandaNbr&quot;&gt;Amanda Nobre&lt;/a&gt; e &lt;a href=&quot;https://github.com/gatotabaco&quot;&gt;Matheus Sousa&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/61&quot;&gt;#61&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Protótipo de baixa fidelidade&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique&lt;/a&gt;, &lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;, &lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;, &lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz&lt;/a&gt; e &lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/63&quot;&gt;#63&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Criação GitHub Pages&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/AmandaNbr&quot;&gt;Amanda Nobre&lt;/a&gt;, &lt;a href=&quot;https://github.com/LamequeFernandes&quot;&gt;Lameque Fernandes&lt;/a&gt; e &lt;a href=&quot;https://github.com/PedroLSF&quot;&gt;Pedro Lucas&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/65&quot;&gt;#65&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Versão inicial Backlog&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/Thais-ra&quot;&gt;Thais Rebouças&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnaCarolinaRodriguesLeite&quot;&gt;Ana Carolina&lt;/a&gt;, &lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt; e &lt;a href=&quot;https://github.com/PedroLSF&quot;&gt;Pedro Lucas&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/88&quot;&gt;#88&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Protótipo de baixa fidelidade GHPages&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/AmandaNbr&quot;&gt;Amanda Nobre&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/89&quot;&gt;#89&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Elicitação de requisitos&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/Thais-ra&quot;&gt;Thais Rebouças&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnaCarolinaRodriguesLeite&quot;&gt;Ana Carolina&lt;/a&gt; e &lt;a href=&quot;https://github.com/PedroLSF&quot;&gt;Pedro Lucas&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/90&quot;&gt;#90&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Reunião com Tecnologistas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;, &lt;a href=&quot;https://github.com/Ericklevy&quot;&gt;Erick Levy&lt;/a&gt;, &lt;a href=&quot;https://github.com/LamequeFernandes&quot;&gt;Lameque&lt;/a&gt; e &lt;a href=&quot;https://github.com/DouglasMonteles&quot;&gt;Douglas Monteles&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/93&quot;&gt;#93&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Criação do ReadMe&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;papeis&quot;&gt;Papeis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Função&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nome&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrum Master&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arquiteto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Devops&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz Pettengill&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tecnologista&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Nessa Sprint 4 foi decidido que daremos início a alguns documentos extremamente necessários para o andamento do projeto, como o documento de arquitetura, a estrutura analítica, GitHub pages, a primeira versão do ReadMe e a elicitação de requisitos . Além disso faremos algumas reuniões com os integrantes dos demais grupos para alinharmos os pensamentos e avançar no projeto. Histórico de Versões Data Versão Descrição Autor 04/09/2021 0.1 planSprint4 Henrique Hida 21/10/2021 0.2 Correções gramaticais Lameque Fernandes Tamanho da Sprint Início: 20/08/21 Fim: 27/08/21 Duração: 7 dias Objetivos Issue Título Responsáveis #57 Estruturação documento de arquitetura Kathlyn Lara, Matheus Raphael e Victor Eduardo #58 Reunião dos Scrum Masters Henrique Hida, Amanda Nobre e Matheus Sousa #59 Estrutura analítica Henrique Hida, Amanda Nobre e Matheus Sousa #61 Protótipo de baixa fidelidade Henrique, Matheus Akio, Matheus Raphael, Luiz e Kayro #63 Criação GitHub Pages Amanda Nobre, Lameque Fernandes e Pedro Lucas #65 Versão inicial Backlog Thais Rebouças, Ana Carolina, Matheus Akio e Pedro Lucas #88 Protótipo de baixa fidelidade GHPages Amanda Nobre #89 Elicitação de requisitos Thais Rebouças, Ana Carolina e Pedro Lucas #90 Reunião com Tecnologistas Kayro César, Erick Levy, Lameque e Douglas Monteles #93 Criação do ReadMe Henrique Hida Papeis Função Nome Scrum Master Henrique Hida PO Matheus Akio Arquiteto Matheus Raphael Devops Luiz Pettengill Tecnologista Kayro César Autor: Henrique Hida</summary></entry><entry><title type="html">Resultados Sprint 4</title><link href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/21/resultados-sprint-4/" rel="alternate" type="text/html" title="Resultados Sprint 4" /><published>2021-09-21T00:00:00+00:00</published><updated>2021-09-21T00:00:00+00:00</updated><id>https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/21/resultados-sprint-4</id><content type="html" xml:base="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/09/21/resultados-sprint-4/">&lt;p&gt;Obtivemos ótimos resultados nessa sprint, foi realizado a estruturação do documento de arquitetura e foram finalizadas a primeira versão do ReadMe e do GitHubPages.
+Fizemos também reuniões muito produtivas com todos os Scrum Masters, que utilizamos para organizar e atribuir todas as documentações necessárias para a release 1, além de criar o documento de estrutura analítica.
+Houve também uma reunião com todos os tecnologistas para decidir que o bot será único, que todos devemos trabalhar juntos para chegarmos em um incrível resultado final.&lt;/p&gt;
+
+&lt;h2 id=&quot;histórico-de-versões&quot;&gt;Histórico de Versões&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Data&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;04/09/2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;resultSprint4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tamanho-da-sprint&quot;&gt;Tamanho da Sprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Início&lt;/strong&gt;: 20/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fim&lt;/strong&gt;: 27/08/21&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duração&lt;/strong&gt;: 7 dias&lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Issue&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Título&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Status&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/57&quot;&gt;#57&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Estruturação documento de arquitetura&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/58&quot;&gt;#58&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Reunião dos Scrum Masters&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/59&quot;&gt;#59&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Estrutura analítica&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/61&quot;&gt;#61&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Protótipo de baixa fidelidade&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Parcialmente Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/63&quot;&gt;#63&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Criação GitHub Pages&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/65&quot;&gt;#65&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Versão inicial Backlog&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Parcialmente Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/88&quot;&gt;#88&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Protótipo de baixa fidelidade GHPages&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/89&quot;&gt;#89&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Elicitação de requisitos&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Parcialmente Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/90&quot;&gt;#90&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Reunião com Tecnologistas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/93&quot;&gt;#93&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Criação do ReadMe&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Concluído&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;papeis&quot;&gt;Papeis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Função&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Nome&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrum Master&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PO&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusakio&quot;&gt;Matheus Akio&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arquiteto&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/matheusrazor&quot;&gt;Matheus Raphael&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Devops&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/LuizPettengill&quot;&gt;Luiz Pettengill&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tecnologista&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://github.com/kayrocesar&quot;&gt;Kayro César&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Autor: &lt;a href=&quot;https://github.com/HenriqueHida&quot;&gt;Henrique Hida&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="slowbrows" /><summary type="html">Obtivemos ótimos resultados nessa sprint, foi realizado a estruturação do documento de arquitetura e foram finalizadas a primeira versão do ReadMe e do GitHubPages. Fizemos também reuniões muito produtivas com todos os Scrum Masters, que utilizamos para organizar e atribuir todas as documentações necessárias para a release 1, além de criar o documento de estrutura analítica. Houve também uma reunião com todos os tecnologistas para decidir que o bot será único, que todos devemos trabalhar juntos para chegarmos em um incrível resultado final. Histórico de Versões Data Versão Descrição Autor 04/09/2021 0.1 resultSprint4 Henrique Hida Tamanho da Sprint Início: 20/08/21 Fim: 27/08/21 Duração: 7 dias Objetivos Issue Título Status #57 Estruturação documento de arquitetura Concluído #58 Reunião dos Scrum Masters Concluído #59 Estrutura analítica Concluído #61 Protótipo de baixa fidelidade Parcialmente Concluído #63 Criação GitHub Pages Concluído #65 Versão inicial Backlog Parcialmente Concluído #88 Protótipo de baixa fidelidade GHPages Concluído #89 Elicitação de requisitos Parcialmente Concluído #90 Reunião com Tecnologistas Concluído #93 Criação do ReadMe Concluído Papeis Função Nome Scrum Master Henrique Hida PO Matheus Akio Arquiteto Matheus Raphael Devops Luiz Pettengill Tecnologista Kayro César Autor: Henrique Hida</summary></entry></feed>

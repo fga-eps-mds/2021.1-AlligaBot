@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    
+
+    
+
+
+
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Folha De Estilo | AlligaBot</title>
+
+    <meta name="description" content="Histórico de versões            Data      Versão      Descrição      Autor(es)                  09/09      0.1      Primeiras regras de estilo      Yudi Yama...">
+
+    <link rel="shortcut icon" href="/2021.1-AlligaBot/assets/img/ogp.png" type="image/x-icon">
+    <link rel="canonical" href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/20/folha-de-estilo/">
+    <link rel="alternate" type="application/atom+xml" title="AlligaBot" href="/2021.1-AlligaBot/feed.xml" />
+
+    
+
+    <meta property="og:title" content="Folha De Estilo | AlligaBot" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="//ttskch.github.io/jekyll-ttskch-theme/assets/img/ogp.png" />
+    <meta property="og:url" content="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/20/folha-de-estilo/" />
+    <meta property="og:site_name" content="AlligaBot" />
+    <meta property="fb:admins" content="" />
+    <meta property="fb:app_id" content="" />
+    <meta property="og:description" content="Histórico de versões            Data      Versão      Descrição      Autor(es)                  09/09      0.1      Primeiras regras de estilo      Yudi Yama..." />
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://use.fontawesome.com/1f5f360d80.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet">
+
+    <link href="/2021.1-AlligaBot/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="inner clearfix">
+        
+        <a href="/2021.1-AlligaBot/">
+            <img class="avatar" src="/2021.1-AlligaBot/assets/img/ogp.png" alt=""/>
+        </a>
+        
+        <h1 class="clearfix">
+            <a class="title " href="/2021.1-AlligaBot/">AlligaBot</a>
+            <br><span class="description">Entenda melhor alguns tópicos relacionados a COVID-19.</span>
+        </h1>
+    </div>
+</header>
+
+<div class="site-container">
+    <div class="site-content">
+        <div class="article-wrapper">
+    <article>
+        
+
+<header>
+    <div class="panel">
+        <h1>
+            
+            Folha De Estilo
+            
+        </h1>
+
+        <ul class="tags">
+            
+            
+            <li><i class="fa fa-tags"></i></li>
+            
+            
+            <li>
+                <a class="tag" href="/2021.1-AlligaBot/search/?t=politicas">#politicas</a>
+            </li>
+            
+        </ul>
+
+        <div class="clearfix">
+            <ul class="meta">
+                <!-- 
+                <li>
+                    <i class="fa fa-calendar"></i>
+                    2021-08-20
+                </li>
+                 -->
+
+                
+            </ul>
+        </div>
+    </div>
+
+    
+</header>
+
+        <section class="post-content">
+            <h2 id="histórico-de-versões">Histórico de versões</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Data</th>
+      <th style="text-align: center">Versão</th>
+      <th style="text-align: center">Descrição</th>
+      <th style="text-align: center">Autor(es)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">09/09</td>
+      <td style="text-align: center">0.1</td>
+      <td style="text-align: center">Primeiras regras de estilo</td>
+      <td style="text-align: center">Yudi Yamane</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="estilo-e-formatação">Estilo e formatação</h2>
+<p>Este documento explica o estilo de código Python usado no projeto. O estilo é 
+baseado no <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> com poucas 
+modificações que serão explicadas abaixo juntamente com outros exemplos.</p>
+
+<p>Para os curiosos, a ferramenta escolhida para verificar o estilo e formatação é
+o <a href="https://pypi.org/project/autopep8/">autopep8</a>. Foi escolhida por ser 
+flexível, popular e ter a opção de realizar a formatação automaticamente.</p>
+
+<p>Antes de fazer push das suas alterações execute o linter (consulte o 
+<a href="/Makefile"><code class="language-plaintext highlighter-rouge">makefile</code></a> para saber o comando).</p>
+
+<p><em>Fique atento: este documento sobre estilo de código ainda está em 
+desenvolvimento e ainda pode mudar.</em></p>
+
+<h2 id="exemplos">Exemplos</h2>
+
+<h3 id="nomenclatura-de-variáveis-funções-classes-métodos-etc">Nomenclatura de variáveis, funções, classes, métodos etc</h3>
+<p>A linguagem Python não tem um padrão fixo para nomenclatura de variáveis e 
+funções. Ainda assim existem algumas diretrizes gerais que são seguidas pela 
+comunidade e que serão adotadas nesse projeto.</p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">snake_case</code> para nomes de variáveis e funções e use <code class="language-plaintext highlighter-rouge">CamelCase</code> para nomes
+de classes.</p>
+
+<h3 id="tabs-ou-espaços">Tabs ou espaços?</h3>
+<p>Use 4 espaços para cada nível de indentação. Configure o tab para 4 espaços no
+seu editor de texto.</p>
+
+<p><strong>Faça</strong> assim:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">my_func</span><span class="p">():</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">result</span> <span class="o">==</span> <span class="n">IS_OK</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">return</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<p><strong>Não</strong> faça assim:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">my_func</span><span class="p">():</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">result</span> <span class="o">==</span> <span class="n">IS_OK</span><span class="p">)</span>
+    <span class="k">return</span> <span class="bp">True</span>
+  <span class="k">return</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<h3 id="espaços-em-branco-em-expressões">Espaços em branco em expressões</h3>
+<p>Evite espaços em branco desnecessários.</p>
+
+<p><strong>Faça</strong> assim:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">func</span><span class="p">(</span><span class="n">ham</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="p">{</span><span class="n">eggs</span><span class="p">:</span> <span class="mi">2</span><span class="p">})</span>
+</code></pre></div></div>
+
+<p><strong>Não</strong> faça assim:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">func</span><span class="p">(</span> <span class="n">ham</span> <span class="p">[</span> <span class="mi">1</span> <span class="p">],</span> <span class="p">{</span> <span class="n">eggs</span> <span class="p">:</span> <span class="mi">2</span> <span class="p">}</span> <span class="p">)</span>
+</code></pre></div></div>
+
+<p>Coloque espaços entre os operadores de menor prioridade.</p>
+
+<p><strong>Faça</strong> assim:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">submitted</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="n">hypot2</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="o">*</span><span class="n">y</span>
+<span class="n">c</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>Não</strong> faça assim:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span><span class="o">=</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span>
+<span class="n">submitted</span> <span class="o">+=</span><span class="mi">1</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="n">hypot2</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">*</span> <span class="n">y</span>
+<span class="n">c</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="referências">Referências</h2>
+
+<ul>
+  <li><a href="https://pycodestyle.pycqa.org/en/latest/intro.html">Introdução ao pycodestyle</a></li>
+  <li><a href="https://github.com/hhatto/autopep8/issues/378">Como usar arquivo de configuração para autopep8</a></li>
+</ul>
+
+
+        </section>
+    </article>
+</div>
+
+
+
+    </div>
+
+    <aside class="site-aside">
+        <div class="inner">
+            <!-- <div class="block">
+                <form action="/2021.1-AlligaBot/search">
+                    <input type="search" id="search" name="q" placeholder="Search" />
+                </form>
+            </div> -->
+
+            <h2>Equipes</h2>
+
+            <ul>
+                
+                
+                
+                
+                
+                
+                
+                <li><a class="page-link" href="/2021.1-AlligaBot/Capivaras/">Equipe Capivaras</a></li>
+                
+                
+                
+                
+                
+                <li><a class="page-link" href="/2021.1-AlligaBot/PlusUltra/">Equipe PlusUltra</a></li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a class="page-link" href="/2021.1-AlligaBot/slowbrows/">Equipe Slowbrows</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </ul>
+
+            <ul class="icons">
+                
+
+
+
+
+
+<li>
+    <a href="https://github.com/fga-eps-mds/2021.1-AlligaBot">
+        <i class="fa fa-fw fa-github"></i>
+    </a>
+</li>
+
+
+            </ul>
+
+
+            <div class="block sticky">
+                <h2>Documentações</h2>
+                <ul>
+                    
+                    
+                    
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/02/termo-de-abertura-do-projeto/">Termo De Abertura Do Projeto</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/03/documento-de-arquitetura/">Documento De Arquitetura</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/04/documento-de-vis%C3%A3o/">Documento De Visão</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/05/requisitos-do-produto/">Requisitos Do Produto</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/06/identidade-visual/">Identidade Visual</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/07/personalidade-do-bot/">Personalidade Do Bot</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/08/documento-de-estrutura-anal%C3%ADtica/">Documento De Estrutura Analítica</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/09/plano-de-gerenciamento-de-riscos/">Plano De Gerenciamento De Riscos</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/10/plano-de-comunica%C3%A7%C3%A3o/">Plano De Comunicação</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/11/documento-de-prot%C3%B3tipo/">Documento De Protótipo</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/12/canvas/">Canvas</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/13/backlog/">Backlog</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/14/roadmap-do-produto/">Roadmap Do Produto</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/15/fluxo-de-trabalho/">Fluxo De Trabalho</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/15/evolu%C3%A7%C3%A3o-de-devops/">Evolução De Devops</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/docs/2021/08/21/code_of_conduct/">Código de conduta</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/09/16/faq/">FAQ</a></li>
+                    
+                </ul>
+            </div>
+            <div class="block sticky">
+                <h2>Politicas</h2>
+                <ul>
+                    
+                    
+                    
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/16/como-contribuir/">Como Contribuir</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/17/template/">Template</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/18/commits/">Commits</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/19/branches/">Branches</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/20/folha-de-estilo/">Folha De Estilo</a></li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </aside>
+</div>
+
+<footer class="site-footer">
+    <div class="inner">
+        <span>Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://github.com/ttskch/jekyll-ttskch-theme">TtskchTheme</a></span>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/2021.1-AlligaBot/assets/lib/garand-sticky/jquery.sticky.js"></script>
+<script src="/2021.1-AlligaBot/assets/js/script.js"></script>
+
+
+<script src="/2021.1-AlligaBot/assets/js/header-link.js"></script>
+
+
+
+
+<!-- Init Facebook SDK -->
+
+
+<!-- Google Analytics -->
+
+
+
+</body>
+</html>

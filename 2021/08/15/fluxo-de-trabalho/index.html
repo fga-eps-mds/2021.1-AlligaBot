@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    
+
+    
+
+
+
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fluxo De Trabalho | AlligaBot</title>
+
+    <meta name="description" content="Documento que descreve as etapas necessárias para uma implementação correta e eficiente das funcionalidades do Chatbot.Histórico de versões            Data  ...">
+
+    <link rel="shortcut icon" href="/2021.1-AlligaBot/assets/img/ogp.png" type="image/x-icon">
+    <link rel="canonical" href="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/15/fluxo-de-trabalho/">
+    <link rel="alternate" type="application/atom+xml" title="AlligaBot" href="/2021.1-AlligaBot/feed.xml" />
+
+    
+
+    <meta property="og:title" content="Fluxo De Trabalho | AlligaBot" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="//ttskch.github.io/jekyll-ttskch-theme/assets/img/ogp.png" />
+    <meta property="og:url" content="https://fga-eps-mds.github.io/2021.1-AlligaBot/2021/08/15/fluxo-de-trabalho/" />
+    <meta property="og:site_name" content="AlligaBot" />
+    <meta property="fb:admins" content="" />
+    <meta property="fb:app_id" content="" />
+    <meta property="og:description" content="Documento que descreve as etapas necessárias para uma implementação correta e eficiente das funcionalidades do Chatbot.Histórico de versões            Data  ..." />
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://use.fontawesome.com/1f5f360d80.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet">
+
+    <link href="/2021.1-AlligaBot/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="inner clearfix">
+        
+        <a href="/2021.1-AlligaBot/">
+            <img class="avatar" src="/2021.1-AlligaBot/assets/img/ogp.png" alt=""/>
+        </a>
+        
+        <h1 class="clearfix">
+            <a class="title " href="/2021.1-AlligaBot/">AlligaBot</a>
+            <br><span class="description">Entenda melhor alguns tópicos relacionados a COVID-19.</span>
+        </h1>
+    </div>
+</header>
+
+<div class="site-container">
+    <div class="site-content">
+        <div class="article-wrapper">
+    <article>
+        
+
+<header>
+    <div class="panel">
+        <h1>
+            
+            Fluxo De Trabalho
+            
+        </h1>
+
+        <ul class="tags">
+            
+            
+            
+        </ul>
+
+        <div class="clearfix">
+            <ul class="meta">
+                <!-- 
+                <li>
+                    <i class="fa fa-calendar"></i>
+                    2021-08-15
+                </li>
+                 -->
+
+                
+            </ul>
+        </div>
+    </div>
+
+    
+</header>
+
+        <section class="post-content">
+            <p>Documento que descreve as etapas necessárias para uma implementação correta e eficiente das funcionalidades do Chatbot.</p>
+
+<h2 id="histórico-de-versões">Histórico de versões</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Data</th>
+      <th style="text-align: center">Versão</th>
+      <th style="text-align: center">Descrição</th>
+      <th style="text-align: center">Autor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">24/09/2021</td>
+      <td style="text-align: center">0.1</td>
+      <td style="text-align: center">Criação do documento de fluxo de trabalho</td>
+      <td style="text-align: center"><a href="https://github.com/DouglasMonteles">Douglas Monteles</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="início">Início</h2>
+
+<h3 id="sobre-o-processo-de-download-do-projeto">Sobre o processo de download do projeto</h3>
+<p>Para iniciar o processo de adição de novas funcionalidades ou fazer qualquer outra alteração no projeto, faz-se necessário, primeiramente, baixar o projeto para a sua máquina local, para isso:</p>
+
+<ul>
+  <li>Siga este <a href="https://github.com/fga-eps-mds/2021.1-AlligaBot#readme">tutorial</a></li>
+</ul>
+
+<h3 id="começando-a-implementar-uma-nova-funcionalidade">Começando a implementar uma nova funcionalidade</h3>
+<p>Sempre que uma nova funcionalidade for implementada, faz-se necessário ajustar o ambiente.</p>
+
+<ul>
+  <li>Primeiramente, deve-se criar uma nova issue específicando a modificação que será feita. Lembre-se de assinar a issue, bem como adicionar os respectivos labels e a estimativa de dificuldade.</li>
+  <li>Depois, crie uma nova <code class="language-plaintext highlighter-rouge">branch</code>, seguindo a <a href="https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/branches.md">política de branches</a></li>
+  <li>Sempre que for necessário registar as alterações em um <code class="language-plaintext highlighter-rouge">commit</code>, deve-se seguir a <a href="https://github.com/fga-eps-mds/2021.1-AlligaBot/blob/main/docs/politicas/commits.md">política de commits</a></li>
+  <li>Ao final, realize o <code class="language-plaintext highlighter-rouge">pull request</code> e adicione outros colaboradores para revisarem as auterações e autorizarem o <code class="language-plaintext highlighter-rouge">merge</code> na <code class="language-plaintext highlighter-rouge">main</code></li>
+  <li>Lembre-se de apagar a <code class="language-plaintext highlighter-rouge">branch</code> que não estiver mais sendo usada</li>
+</ul>
+
+<h3 id="implementar-funcionalidades-simples-no-chatbot">Implementar funcionalidades simples no Chatbot</h3>
+<p>É considerada uma funcionalidade simples aquela que possui uma resposta pronta, onde sabe-se que não haverá alteração ou atualização desta resposta com o passar do tempo.</p>
+
+<p><strong>Passo a passo:</strong></p>
+
+<p><strong>Desconsidere os comentários antecedidos por #</strong></p>
+
+<ul>
+  <li>Acesse o diretório <code class="language-plaintext highlighter-rouge">/bot</code> dentro do projeto</li>
+  <li>Precisamos criar uma <code class="language-plaintext highlighter-rouge">intent</code> dentro de <code class="language-plaintext highlighter-rouge">data/nlu.yml</code></li>
+  <li>
+    <p>Adicione uma <code class="language-plaintext highlighter-rouge">intent</code> neste formato, abaixo das demais:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # nlu.yml
+  - intent: nome_da_intent
+    examples: |
+      - possível mensagem do usuário que represente esta intent
+      - outra possível mensagem do usuário que represente esta intent
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Depois, vá para <code class="language-plaintext highlighter-rouge">bot/domain.yml</code>, você precisa adicionar a intent recém criada na lista de <code class="language-plaintext highlighter-rouge">intents</code></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # domain.yml
+  intents:
+    - start
+    - despedida
+    - covid
+    - fora_do_escopo
+    - formas_de_transmissao
+    - mais_sobre_o_virus
+    - bot_alligabot 
+    - nome_da_intent
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Ainda em <code class="language-plaintext highlighter-rouge">domain.yml</code>, precisamos adicionar as respostas que o usuário vai receber. Para isso, na parte de <code class="language-plaintext highlighter-rouge">responses:</code> adicione as respostas no seguinte padrão de nomeclatura:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # domain.yml
+  responses:
+    utter_nome_da_resposta:
+    - text: Exemplo de resposta para a intent
+    - text: "Exemplo de outra resposta que também manda uma imagem"
+      image: "https://sitequalquer.com/imagem.png"
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Em seguida, em <code class="language-plaintext highlighter-rouge">data/stories.yml</code>, precisamos adicionar o fluxo da conversa, ou seja, dada uma <code class="language-plaintext highlighter-rouge">intent</code>, precisamos adiconar uma <code class="language-plaintext highlighter-rouge">action</code>, <strong>que nesse caso</strong>, vai direcionar para as respostas criadas anteriormente.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # stories.yml
+  stories:
+
+  - story: nome de sua escolha para identificar o storie
+    steps:
+    - intent: nome_da_intent
+    - action: utter_nome_da_resposta
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Por fim, treine o novo modelo e execute o shell para conversar com o bot:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # Caso você esteja usando o docker
+  make train
+  make shell
+
+  # Caso você esteja usando o Rasa instalado localmente
+  rasa train
+  rasa shell
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+        </section>
+    </article>
+</div>
+
+
+
+    </div>
+
+    <aside class="site-aside">
+        <div class="inner">
+            <!-- <div class="block">
+                <form action="/2021.1-AlligaBot/search">
+                    <input type="search" id="search" name="q" placeholder="Search" />
+                </form>
+            </div> -->
+
+            <h2>Equipes</h2>
+
+            <ul>
+                
+                
+                
+                
+                
+                
+                
+                <li><a class="page-link" href="/2021.1-AlligaBot/Capivaras/">Equipe Capivaras</a></li>
+                
+                
+                
+                
+                
+                <li><a class="page-link" href="/2021.1-AlligaBot/PlusUltra/">Equipe PlusUltra</a></li>
+                
+                
+                
+                
+                
+                
+                
+                <li><a class="page-link" href="/2021.1-AlligaBot/slowbrows/">Equipe Slowbrows</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </ul>
+
+            <ul class="icons">
+                
+
+
+
+
+
+<li>
+    <a href="https://github.com/fga-eps-mds/2021.1-AlligaBot">
+        <i class="fa fa-fw fa-github"></i>
+    </a>
+</li>
+
+
+            </ul>
+
+
+            <div class="block sticky">
+                <h2>Documentações</h2>
+                <ul>
+                    
+                    
+                    
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/02/termo-de-abertura-do-projeto/">Termo De Abertura Do Projeto</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/03/documento-de-arquitetura/">Documento De Arquitetura</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/04/documento-de-vis%C3%A3o/">Documento De Visão</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/05/requisitos-do-produto/">Requisitos Do Produto</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/06/identidade-visual/">Identidade Visual</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/07/personalidade-do-bot/">Personalidade Do Bot</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/08/documento-de-estrutura-anal%C3%ADtica/">Documento De Estrutura Analítica</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/09/plano-de-gerenciamento-de-riscos/">Plano De Gerenciamento De Riscos</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/10/plano-de-comunica%C3%A7%C3%A3o/">Plano De Comunicação</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/11/documento-de-prot%C3%B3tipo/">Documento De Protótipo</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/12/canvas/">Canvas</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/13/backlog/">Backlog</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/14/roadmap-do-produto/">Roadmap Do Produto</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/15/fluxo-de-trabalho/">Fluxo De Trabalho</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/15/evolu%C3%A7%C3%A3o-de-devops/">Evolução De Devops</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/docs/2021/08/21/code_of_conduct/">Código de conduta</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/09/16/faq/">FAQ</a></li>
+                    
+                </ul>
+            </div>
+            <div class="block sticky">
+                <h2>Politicas</h2>
+                <ul>
+                    
+                    
+                    
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/16/como-contribuir/">Como Contribuir</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/17/template/">Template</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/18/commits/">Commits</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/19/branches/">Branches</a></li>
+                    
+                    <li><a href="/2021.1-AlligaBot/2021/08/20/folha-de-estilo/">Folha De Estilo</a></li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </aside>
+</div>
+
+<footer class="site-footer">
+    <div class="inner">
+        <span>Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://github.com/ttskch/jekyll-ttskch-theme">TtskchTheme</a></span>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/2021.1-AlligaBot/assets/lib/garand-sticky/jquery.sticky.js"></script>
+<script src="/2021.1-AlligaBot/assets/js/script.js"></script>
+
+
+<script src="/2021.1-AlligaBot/assets/js/header-link.js"></script>
+
+
+
+
+<!-- Init Facebook SDK -->
+
+
+<!-- Google Analytics -->
+
+
+
+</body>
+</html>

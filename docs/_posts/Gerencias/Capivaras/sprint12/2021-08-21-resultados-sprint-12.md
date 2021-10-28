@@ -27,7 +27,7 @@ tag: capivaras
 
 ## Quadro de conhecimento
 
-<img src="{{ '/assets/img/capivaras/conhecimento_sprint_12.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
+<img src="{{ '/assets/img/capivaras/conhecimento_sprint_12.jpg' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Burndown
 

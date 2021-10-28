@@ -11,7 +11,7 @@ Nessa sprint temos que corrigir erros e pegar as ultimas tarefas antes da sprint
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 27/10/2021 |    0.1   | Envio inicial do documento de planejamento da sprint 12 | [Thaís Rebouças](https://github.com/thais-ra)|
-| 28/10/2021 |    0.2   | Envio da introdução | [Matheus Sousa](https://github.com/gato_tabaco)|
+| 28/10/2021 |    0.2   | Envio da introdução | [Matheus Sousa](https://github.com/gatotabaco)|
 
 ## Tamanho da Sprint
 

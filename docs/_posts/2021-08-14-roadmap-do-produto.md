@@ -25,6 +25,8 @@ Para visualização ampliada, clique no link: [Roadmap.pdf](https://github.com/f
 
 
 
-![Roadmap](https://user-images.githubusercontent.com/49570180/139165904-f621c847-44f7-4f90-aca0-730abaa6c1a9.jpg)
+![Roadmap2](https://user-images.githubusercontent.com/49570180/139261737-3cdb49a1-5f65-4361-acaf-d06e7948c2e7.jpg)
 
-Para visualização ampliada, clique no link: [Roadmap.pdf](https://github.com/fga-eps-mds/2021.1-AlligaBot/files/7430072/Roadmap.pdf)
+
+Para visualização ampliada, clique no link:[Roadmap2.pdf](https://github.com/fga-eps-mds/2021.1-AlligaBot/files/7434302/Roadmap2.pdf)
+

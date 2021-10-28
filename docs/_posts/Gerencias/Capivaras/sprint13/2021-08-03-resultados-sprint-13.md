@@ -3,13 +3,14 @@ layout: page_capivaras
 tag: capivaras
 ---
 
-(mensagem)
+Nessa sprint todas as tarefas foram finalizadas e conseguimos terminar.
 
 ## Histórico de Versões
 
 | Data       | Versão | Descrição                      | Autor             |
 | :--------: | :----: | :----------:                   | :---------------: |
 | 27/10/2021 |  0.1   | Versão inicial | [Thaís Rebouças](https://github.com/thais-ra)|
+| 28/10/2021 | 0.2 | Adição de partes que faltavam | [Matheus Sousa](https://github.com/gatotabaco)|
 
 ## Objetivos
 
@@ -28,8 +29,8 @@ tag: capivaras
 | [#408](https://github.com/fga-eps-mds/2021.1-alligabot/issues/408) | Documentar a sprint 9  | _Concluído_ |
 | [#409](https://github.com/fga-eps-mds/2021.1-alligabot/issues/409) | Documentar a sprint 10 | _Concluído_ |
 | [#410](https://github.com/fga-eps-mds/2021.1-alligabot/issues/410) | Documentar a sprint 11 | _Concluído_ |
-| [#411](https://github.com/fga-eps-mds/2021.1-alligabot/issues/411) | Documentar a sprint 12 | _Não Concluído_ |
-| [#413](https://github.com/fga-eps-mds/2021.1-alligabot/issues/413) | Documentar a sprint 13 | _Não Concluído_ |
+| [#411](https://github.com/fga-eps-mds/2021.1-alligabot/issues/411) | Documentar a sprint 12 | _Concluído_ |
+| [#413](https://github.com/fga-eps-mds/2021.1-alligabot/issues/413) | Documentar a sprint 13 | _Concluído_ |
 | [#415](https://github.com/fga-eps-mds/2021.1-alligabot/issues/415) | Criação da release note 2 | _Concluído_ |
 | [#417](https://github.com/fga-eps-mds/2021.1-alligabot/issues/417) | Gravar vídeo do time Capivaras | _Concluído_ |
 | [#421](https://github.com/fga-eps-mds/2021.1-alligabot/issues/421) | Roadmap da release 2 | _Concluído_ |
@@ -49,13 +50,13 @@ tag: capivaras
 
 ## Burndown
 
-(mensagem)
+Nesse gráfico de sprint podemos ver que as tarefas foram finalizadas.
 
 <img src="{{ '/assets/img/capivaras/burndown_sprint_13.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
 ## Velocity
 
-(mensagem)
+A produtividade, como demonstra o gráfico, foi alta e tudo está finalizado.
 
 <img src="{{ '/assets/img/capivaras/velocity_sprint_13.png' | prepend: site.baseurl }}" alt="contraste" width="700"/>
 
@@ -64,21 +65,17 @@ tag: capivaras
 **- Pontos positivos**
 
 1. Finalização do projeto	
-2. 
 
 **- Pontos negativos**
 
-1. 
-2. 
-3. 
+1. Sobrecarga
 
 **- O que melhorar**
 
-1. 
-2. 
+-
 
 ## Avaliação do Scrum Master
 
-(mensagem)
+Essa foi a sprint final do projeto e marca o final do trabalho da nossa equipe. Foi um desempenho satisfatório e os membros colaboraram, de modo que durante todo o semestre o grupo teve atividade.
 
-Autor: [Thaís Rebouças](https://github.com/thais-ra)
+Autor: [Thaís Rebouças](https://github.com/thais-ra) e [Matheus Sousa](https://github.com/gatotabaco)
